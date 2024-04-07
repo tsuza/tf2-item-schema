@@ -21,6 +21,9 @@ jobs:
 
       - name: Set environment variables
         run: echo SCHEMA_PATH=$(pwd) >> $GITHUB_ENV
+      
+      - name: Create Dir
+        run: mkdir -p files
     
       - name: Compare & Download schema
         id: compare
