@@ -44,7 +44,7 @@ jobs:
 
             if ! [ -z "$items_game_url" ]; 
             then
-              wget "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=vdf" -O items_game_vdf.txt
+              wget "${items_game_url}" -O items_game_vdf.txt
 
               pip install vdf2json
 
