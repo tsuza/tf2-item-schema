@@ -1,7 +1,7 @@
-name: Checks for a newer schema & install it
+name: Download new schema
 
 permissions:
-  contents: read
+  contents: write
   pull-requests: write
 
 on:
@@ -17,7 +17,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: false
           fetch-depth: 0
 
       - name: Set environment variables
@@ -26,24 +25,30 @@ jobs:
       - name: Compare & Download schema
         id: compare
         run: |
-          wget "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key={{ secrets.STEAM_API_KEY }}&format=json" -O item_schema_json_new.txt
+          wget "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=json" -O item_schema_json_new.txt
 
-          if [ ! -f item_schema_json.txt ] || cmp -s test.txt item_schema_json.txt; then
-            echo "::set-output name=files_same::true"
-          else
-            echo "::set-output name=files_same::false"
+          if ! [ -f item_schema_json.txt ] || ! cmp -s item_schema_json.txt item_schema_json_new.txt; 
+          then
+            echo "files_same=false" >> $GITHUB_OUTPUT
 
             mv item_schema_json_new.txt -f item_schema_json.txt
-            wget "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key={{ secrets.STEAM_API_KEY }}&format=vdf" -r -O item_schema_vdf.txt
-            wget "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key={{ secrets.STEAM_API_KEY }}&format=xml" -r -O item_schema_xml.txt
+            wget "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=vdf" -O item_schema_vdf.txt
+            wget "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=xml" -O item_schema_xml.txt
+          else
+            echo "files_same=true" >> $GITHUB_OUTPUT
           fi
         working-directory: ${{ env.SCHEMA_PATH }}
       
       - name: Commit files
         if: steps.compare.outputs.files_same == 'false'
         run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+
+          git add item_schema_json.txt
+          git add item_schema_vdf.txt
+          git add item_schema_xml.txt
+
           git commit -a -m "Update the schema"
 
       - name: Push changes
