@@ -21,12 +21,12 @@
 
 ## Purpose
 
-This repository contains the latest TF2 schema as json, xml and vdf.
+This repository automatically fetches and stores the latest Team Fortress 2 (TF2) item schema in JSON, XML, and VDF formats, directly from the Steam API.
 
 ## Usage
 To make retrieval faster, you can pair this repository with jsdelivr. This will proxy the repository and store it on the edge.
 
-Use one of the following URL format depending on your needs:
+Use one of the following URLs depending on your preferred format:
 
 | Item Schema Format FIle         | Link                                                                     |
 | ------------------------------- |--------------------------------------------------------------------------|
