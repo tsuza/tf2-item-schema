@@ -25,6 +25,8 @@ jobs:
       - name: Compare & Download schema
         id: compare
         run: |
+          echo "files_same=true" >> $GITHUB_OUTPUT
+
           wget "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=json" -O item_schema_json_new.txt
 
           if ! [ -f item_schema_json.txt ] || ! cmp -s item_schema_json.txt item_schema_json_new.txt; 
@@ -34,8 +36,28 @@ jobs:
             mv item_schema_json_new.txt -f item_schema_json.txt
             wget "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=vdf" -O item_schema_vdf.txt
             wget "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=xml" -O item_schema_xml.txt
-          else
-            echo "files_same=true" >> $GITHUB_OUTPUT
+
+            $items_game_url = $(cat item_schema_json_new.txt |sed -n 's/.*"\(http:\/\/media\.steampowered\.com\/apps\/440\/scripts\/items\/items_game[^"]*\)".*/\1/p')
+
+            if [ -z "$items_game_url" ]; 
+            then
+              wget "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=vdf" -O items_game_vdf.txt
+
+              pip install vdf2json
+
+              vdf2json items_game_vdf.txt items_game_json.txt -p
+            fi
+          fi
+
+          wget "https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=json" -O schema_overview_json_new.txt
+
+          if ! [ -f schema_overview_json.txt ] || ! cmp -s schema_overview_json.txt schema_overview_json_new.txt;
+          then
+            echo "files_same=false" >> $GITHUB_OUTPUT
+
+            mv schema_overview_json_new.txt -f schema_overview_json.txt
+            wget "https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=vdf" -O schema_overview_vdf.txt
+            wget "https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=xml" -O schema_overview_json_xml.txt
           fi
         working-directory: ${{ env.SCHEMA_PATH }}
       
@@ -48,6 +70,11 @@ jobs:
           git add item_schema_json.txt
           git add item_schema_vdf.txt
           git add item_schema_xml.txt
+          git add items_game_vdf.txt
+          git add items_game_json.txt
+          git add schema_overview_json.txt
+          git add schema_overview_vdf.txt
+          git add schema_overview_xml.txt
 
           git commit -a -m "Update the schema"
 
