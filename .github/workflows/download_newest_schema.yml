@@ -59,7 +59,7 @@ jobs:
             wget "https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=vdf" -O schema_overview_vdf.txt
             wget "https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=xml" -O schema_overview_xml.txt
           fi
-        working-directory: ${{ env.SCHEMA_PATH }}
+        working-directory: ${{ env.SCHEMA_PATH }}/files
       
       - name: Commit files
         if: steps.compare.outputs.files_same == 'false'
@@ -77,6 +77,7 @@ jobs:
           git add schema_overview_xml.txt
 
           git commit -a -m "Update the schema"
+        working-directory: ${{ env.SCHEMA_PATH }}/files
 
       - name: Push changes
         if: steps.compare.outputs.files_same == 'false'
