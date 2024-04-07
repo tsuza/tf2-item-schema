@@ -38,3 +38,6 @@ Use one of the following URLs depending on your need:
 | Schema Overview ( XML )    | `https://cdn.jsdelivr.net/gh/tsuza/tf2-item-schema/files/schema_overview_xml.txt`   |
 | Items Game ( VDF )         | `https://cdn.jsdelivr.net/gh/tsuza/tf2-item-schema/files/items_game_vdf.txt`        |
 | Items Game ( JSON )        | `https://cdn.jsdelivr.net/gh/tsuza/tf2-item-schema/files/items_game_json.txt`       |
+
+> [!WARNING]\
+> `jsdelivr` caches the file which may refresh after ~12 hours. If you can't afford having a slightly older version of the files and you can't wait, use `https://raw.githubusercontent.com/tsuza/tf2-item-schema/master/files/$file$` instead, and replace $file$ with whatever you need.
