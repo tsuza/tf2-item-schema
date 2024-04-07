@@ -57,7 +57,7 @@ jobs:
 
             mv schema_overview_json_new.txt -f schema_overview_json.txt
             wget "https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=vdf" -O schema_overview_vdf.txt
-            wget "https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=xml" -O schema_overview_json_xml.txt
+            wget "https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=xml" -O schema_overview_xml.txt
           fi
         working-directory: ${{ env.SCHEMA_PATH }}
       
