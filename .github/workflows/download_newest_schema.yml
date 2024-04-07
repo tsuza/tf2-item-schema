@@ -1,0 +1,54 @@
+name: Checks for a newer schema & install it
+
+permissions:
+  contents: read
+  pull-requests: write
+
+on:
+  schedule:
+    - cron: '0 16 * * *' # Runs every day at 16:00 UTC / 5 PM CET
+  workflow_dispatch:
+    
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Set environment variables
+        run: echo SCHEMA_PATH=$(pwd) >> $GITHUB_ENV
+    
+      - name: Compare & Download schema
+        id: compare
+        run: |
+          wget "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key={{ secrets.STEAM_API_KEY }}&format=json" -O item_schema_json_new.txt
+
+          if [ ! -f item_schema_json.txt ] || cmp -s test.txt item_schema_json.txt; then
+            echo "::set-output name=files_same::true"
+          else
+            echo "::set-output name=files_same::false"
+
+            mv item_schema_json_new.txt -f item_schema_json.txt
+            wget "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key={{ secrets.STEAM_API_KEY }}&format=vdf" -r -O item_schema_vdf.txt
+            wget "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key={{ secrets.STEAM_API_KEY }}&format=xml" -r -O item_schema_xml.txt
+          fi
+        working-directory: ${{ env.SCHEMA_PATH }}
+      
+      - name: Commit files
+        if: steps.compare.outputs.files_same == 'false'
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -a -m "Update the schema"
+
+      - name: Push changes
+        if: steps.compare.outputs.files_same == 'false'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }} 
