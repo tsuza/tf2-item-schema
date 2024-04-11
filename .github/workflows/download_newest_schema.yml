@@ -32,14 +32,12 @@ jobs:
           declare -a Languages=("en" "da" "nl" "fi" "fr" "de" "hu" "it" "ja" "ko" "no" "pl" "pt" "pt_BR" "ro" "ru" "zh" "es" "sv" "zh2" "tr")
 
           wget -U "TF2-Up-To-Date-Schema-Updater" "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=json" -O "item_schema_json_test.txt"
-          
-          are_files_the_same=$(cmp -s item_schema_json.txt item_schema_json_test.txt)
 
           rm item_schema_json_test.txt
           
           echo "files_same=true" >> $GITHUB_OUTPUT
 
-          if [ -f item_schema_json.txt ] || [[ $are_files_the_same == 0]];
+          if [ -f item_schema_json.txt ] || [[ $(cmp -s item_schema_json.txt item_schema_json_test.txt) == 0]];
           then
             exit 0
           fi
