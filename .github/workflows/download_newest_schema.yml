@@ -37,7 +37,7 @@ jobs:
           
           echo "files_same=true" >> $GITHUB_OUTPUT
 
-          if [ -f item_schema_json.txt ] || [[ $(cmp -s item_schema_json.txt item_schema_json_test.txt) == 0]];
+          if [ -f item_schema_json.txt ] || cmp -s item_schema_json.txt item_schema_json_new.txt;
           then
             exit 0
           fi
