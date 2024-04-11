@@ -54,10 +54,8 @@ jobs:
               wget -U "TF2-Up-To-Date-Schema-Updater" "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=${format}&language=${language}" -O "localized/item_schema_${format}_${language}.txt"
               wget -U "TF2-Up-To-Date-Schema-Updater" "https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=${format}&language=${language}" -O "localized/schema_overview_${format}_${language}.txt"
 
-              sleep 2 
+              sleep 5
             done
-
-            sleep 10
           done
 
           items_game_url=$(sed -n 's/.*"\(http:\/\/media\.steampowered\.com\/apps\/440\/scripts\/items\/items_game[^"]*\)".*/\1/p' item_schema_json.txt)
