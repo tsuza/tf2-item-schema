@@ -42,7 +42,6 @@ jobs:
             fi
           }
 
-          function download
           formats=("json" "vdf" "xml")
           languages=("en" "da" "nl" "fi" "fr" "de" "hu" "it" "ja" "ko" "no" "pl" "pt" "pt_BR" "ro" "ru" "zh" "es" "sv" "zh2" "tr")
 
