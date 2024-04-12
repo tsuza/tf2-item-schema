@@ -6,7 +6,7 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 16 * * *' # Runs every day at 16:00 UTC / 5 PM CET
+    - cron: '25 16 * * *' # Runs every day at 16:00 UTC / 5 PM CET
   workflow_dispatch:
     
 jobs:
@@ -23,44 +23,64 @@ jobs:
         run: echo SCHEMA_PATH=$(pwd) >> $GITHUB_ENV
       
       - name: Create Dir
-        run: mkdir -p files
+        run: mkdir -p files/localized
     
       - name: Compare & Download schema
         id: compare
         run: |
+          function download_files() {
+            local FILES=("$@")
+
+            result=$(curl -A "TF2-Schema-Parser" -f --retry 70 ${FILES[@]})
+
+            if [ $? -eq 0 ]; then
+              return 0
+            else
+              return 1
+            fi
+          }
+
+          formats=("json" "vdf" "xml")
+          languages=("en" "da" "nl" "fi" "fr" "de" "hu" "it" "ja" "ko" "no" "pl" "pt" "pt_BR" "ro" "ru" "zh" "es" "sv" "zh2" "tr")
+
+          args=()
+
+          curl "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=json" -o "item_schema_json_test.txt"
+
+          rm item_schema_json_test.txt
+          
           echo "files_same=true" >> $GITHUB_OUTPUT
 
-          wget "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=json" -O item_schema_json_new.txt
-
-          if ! [ -f item_schema_json.txt ] || ! cmp -s item_schema_json.txt item_schema_json_new.txt; 
+          if [ -f item_schema_json.txt ] || cmp -s item_schema_json.txt item_schema_json_new.txt;
           then
-            echo "files_same=false" >> $GITHUB_OUTPUT
-
-            mv item_schema_json_new.txt -f item_schema_json.txt
-            wget "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=vdf" -O item_schema_vdf.txt
-            wget "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=xml" -O item_schema_xml.txt
-
-            items_game_url=$(sed -n 's/.*"\(http:\/\/media\.steampowered\.com\/apps\/440\/scripts\/items\/items_game[^"]*\)".*/\1/p' item_schema_json.txt)
-
-            if ! [ -z "$items_game_url" ]; 
-            then
-              wget "${items_game_url}" -O items_game_vdf.txt
-
-              pip install vdf2json
-
-              vdf2json items_game_vdf.txt items_game_json.txt -p
-            fi
+            exit 0
           fi
 
-          wget "https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=json" -O schema_overview_json_new.txt
-
-          if ! [ -f schema_overview_json.txt ] || ! cmp -s schema_overview_json.txt schema_overview_json_new.txt;
-          then
+          for format in "${formats[@]}";
+          do
+            args+=("--url https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=$format -o item_schema_$format.txt")
+            args+=("--url https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=$format -o schema_overview_$format.txt")
+            
             echo "files_same=false" >> $GITHUB_OUTPUT
+            
+            for language in "${languages[@]}";
+            do
+              args+=("--url https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=${format}&language=${language} -o localized/item_schema_${format}_${language}.txt")
+              args+=("--url https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=${format}&language=${language} -o localized/schema_overview_${format}_${language}.txt")
+            done
 
-            mv schema_overview_json_new.txt -f schema_overview_json.txt
-            wget "https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=vdf" -O schema_overview_vdf.txt
-            wget "https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=xml" -O schema_overview_xml.txt
+            download_files "${args[@]}";
+          done
+
+          items_game_url=$(sed -n 's/.*"\(http:\/\/media\.steampowered\.com\/apps\/440\/scripts\/items\/items_game[^"]*\)".*/\1/p' item_schema_json.txt)
+
+          if ! [ -z "$items_game_url" ]; 
+          then
+            curl "${items_game_url}" -o items_game_vdf.txt
+
+            pip install vdf2json
+
+            vdf2json items_game_vdf.txt items_game_json.txt -p
           fi
         working-directory: ${{ env.SCHEMA_PATH }}/files
       
@@ -70,14 +90,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          git add item_schema_json.txt
-          git add item_schema_vdf.txt
-          git add item_schema_xml.txt
-          git add items_game_vdf.txt
-          git add items_game_json.txt
-          git add schema_overview_json.txt
-          git add schema_overview_vdf.txt
-          git add schema_overview_xml.txt
+          git add *
 
           git commit -a -m "Update the schema"
         working-directory: ${{ env.SCHEMA_PATH }}/files
