@@ -31,9 +31,7 @@ jobs:
           function download_files() {
             local FILES=("${@}")
 
-            echo ${FILES[@]}
-
-            result=$(curl -A "TF2-Schema-Parser" -f https://api.steampowered.com/IEconItems_440/GetSchemaURL/v1?key=214670CCA442A0379EF317C9288722 -o test.txt)
+            result=$(curl -A "TF2-Schema-Parser" -f $FILES[@])
 
             if [ $? -eq 0 ]; then
               return 0
