@@ -29,7 +29,7 @@ jobs:
         id: compare
         run: |
           function download_files() {
-            local FILES=("${@}")
+            local FILES=("$@")
 
             result=$(curl -A "TF2-Schema-Parser" -f $FILES[@])
 
