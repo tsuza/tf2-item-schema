@@ -71,7 +71,7 @@ jobs:
 
             download_files "${args[@]}";
             
-            sleep 20
+            sleep 60
           done
 
           items_game_url=$(sed -n 's/.*"\(http:\/\/media\.steampowered\.com\/apps\/440\/scripts\/items\/items_game[^"]*\)".*/\1/p' item_schema_json.txt)
