@@ -58,7 +58,7 @@ jobs:
             done
           done
 
-          curl -A "TF2-Schema-Parser" -z ${args[@]}
+          curl -A "TF2-Schema-Parser" ${args[@]}
 
           items_game_url=$(sed -n 's/.*"\(http:\/\/media\.steampowered\.com\/apps\/440\/scripts\/items\/items_game[^"]*\)".*/\1/p' item_schema_json.txt)
 
