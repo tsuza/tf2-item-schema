@@ -31,7 +31,7 @@ jobs:
           function download_files() {
             local FILES=("$@")
 
-            result=$(curl -A "TF2-Schema-Parser" -f ${FILES[@]})
+            result=$(curl -A "TF2-Schema-Parser" -f --retry 50 ${FILES[@]})
 
             if [ $? -eq 0 ]; then
               return 0
@@ -70,11 +70,9 @@ jobs:
             done
 
             download_files "${args[@]}";
-            
-            sleep 60
           done
 
-          items_game_url=$(sed -n 's/.*"\(http:\/\/media\.steampowered\.com\/apps\/440\/scripts\/items\/items_game[^"]*\)".*/\1/p' item_schema_json.txt)
+          items_game_url=$(sed -n 's/.*"\(http:\/\/media\.steampowered\.com\/apps\/440\/scripts\/items\/items_game[^"]*\)".*/\1/p' localized/item_schema_json.txt)
 
           if ! [ -z "$items_game_url" ]; 
           then
