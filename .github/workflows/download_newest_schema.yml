@@ -63,13 +63,12 @@ jobs:
           items_game_url=$(sed -n 's/.*"\(http:\/\/media\.steampowered\.com\/apps\/440\/scripts\/items\/items_game[^"]*\)".*/\1/p' item_schema_json.txt)
 
           if ! [ -z "$items_game_url" ]; 
-            then
-              curl "${items_game_url}" -o items_game_vdf.txt
+          then
+            curl "${items_game_url}" -o items_game_vdf.txt
 
-              pip install vdf2json
+            pip install vdf2json
 
-              vdf2json items_game_vdf.txt items_game_json.txt -p
-            fi
+            vdf2json items_game_vdf.txt items_game_json.txt -p
           fi
         working-directory: ${{ env.SCHEMA_PATH }}/files
       
