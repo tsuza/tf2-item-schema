@@ -46,8 +46,6 @@ jobs:
 
           for format in "${formats[@]}";
           do
-            args=()
-            
             args+=("--url https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=$format -o item_schema_$format.txt")
             args+=("--url https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=$format -o schema_overview_$format.txt")
             
@@ -58,10 +56,9 @@ jobs:
               args+=("--url https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=${format}&language=${language} -o localized/item_schema_${format}_${language}.txt")
               args+=("--url https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=${format}&language=${language} -o localized/schema_overview_${format}_${language}.txt")
             done
-
-            curl -A "TF2-Schema-Parser" -z ${args[@]}
-            sleep 45
           done
+
+          curl -A "TF2-Schema-Parser" -f -Z --parallel-max 50 ${args[@]}
 
           items_game_url=$(sed -n 's/.*"\(http:\/\/media\.steampowered\.com\/apps\/440\/scripts\/items\/items_game[^"]*\)".*/\1/p' item_schema_json.txt)
 
