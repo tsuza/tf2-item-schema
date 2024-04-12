@@ -56,14 +56,14 @@ jobs:
             exit 0
           fi
 
-          for format in "${formats[@]}";
+          for format in "${languages[@]}";
           do
             args+=("--url https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=$format -o item_schema_$format.txt")
             args+=("--url https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=$format -o schema_overview_$format.txt")
             
             echo "files_same=false" >> $GITHUB_OUTPUT
             
-            for language in "${languages[@]}";
+            for language in "${formats[@]}";
             do
               args+=("--url https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=${format}&language=${language} -o localized/item_schema_${format}_${language}.txt")
               args+=("--url https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=${format}&language=${language} -o localized/schema_overview_${format}_${language}.txt")
@@ -71,7 +71,7 @@ jobs:
 
             download_files "${args[@]}";
             
-            sleep 120
+            sleep 20
           done
 
           items_game_url=$(sed -n 's/.*"\(http:\/\/media\.steampowered\.com\/apps\/440\/scripts\/items\/items_game[^"]*\)".*/\1/p' item_schema_json.txt)
