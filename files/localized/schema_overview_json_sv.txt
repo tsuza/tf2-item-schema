@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -326,7 +326,7 @@
 				"name": "add uber charge on hit",
 				"defindex": 17,
 				"attribute_class": "add_onhit_ubercharge",
-				"description_string": "Vid Träff: %s1% extra ÜberLaddning",
+				"description_string": "Vid träff: %s1% extra überladdning",
 				"description_format": "value_is_additive_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -336,7 +336,7 @@
 				"name": "medigun charge is crit boost",
 				"defindex": 18,
 				"attribute_class": "set_charge_type",
-				"description_string": "ÜberLaddning ger 100% chans till kritisk träff",
+				"description_string": "Überladdning ger 100 % chans till kritisk träff",
 				"description_format": "value_is_additive",
 				"effect_type": "neutral",
 				"hidden": false,
@@ -346,7 +346,7 @@
 				"name": "tmp dmgbuff on hit",
 				"defindex": 19,
 				"attribute_class": "addperc_ondmgdone_tmpbuff",
-				"description_string": "Vid Träff: +%s1% skadebonus",
+				"description_string": "Vid träff: +%s1% skadebonus",
 				"description_format": "value_is_additive_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -444,7 +444,7 @@
 				"name": "fists have radial buff",
 				"defindex": 30,
 				"attribute_class": "set_weapon_mode",
-				"description_string": "Vid Dödande Träff: +50 i hälsa för lagkamrater i närheten\nVid Dödande Träff: +10 % Chans till Kritisk träff för lagkamrater i närheten",
+				"description_string": "Vid dödande träff: +50 i hälsa för lagkamrater i närheten\nVid dödande träff: +10 % chans till kritisk träff för lagkamrater i närheten",
 				"description_format": "value_is_additive",
 				"effect_type": "neutral",
 				"hidden": false,
@@ -454,7 +454,7 @@
 				"name": "critboost on kill",
 				"defindex": 31,
 				"attribute_class": "add_onkill_critboost_time",
-				"description_string": "Vid Dödande Träff: %s1 sekunder med 100% chans till kritisk träff",
+				"description_string": "Vid dödande träff: %s1 sekunder med 100 % chans till kritisk träff",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -464,7 +464,7 @@
 				"name": "slow enemy on hit",
 				"defindex": 32,
 				"attribute_class": "mult_onhit_enemyspeed",
-				"description_string": "Vid Träff: %s1% chans att sakta ner måltavla",
+				"description_string": "Vid träff: %s1% chans att sakta ned målet",
 				"description_format": "value_is_additive_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1018,7 +1018,7 @@
 				"name": "max pipebombs increased",
 				"defindex": 88,
 				"attribute_class": "add_max_pipebombs",
-				"description_string": "+%s1 max rörbomber ute",
+				"description_string": "+%s1 max klisterbomber ute",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1028,7 +1028,7 @@
 				"name": "max pipebombs decreased",
 				"defindex": 89,
 				"attribute_class": "add_max_pipebombs",
-				"description_string": "%s1 max rörbomber ute",
+				"description_string": "%s1 max klisterbomber ute",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -1258,7 +1258,7 @@
 				"name": "ammo regen",
 				"defindex": 112,
 				"attribute_class": "addperc_ammo_regen",
-				"description_string": "+%s1% ammo återställs var 5:e sekund för bäraren",
+				"description_string": "+%s1% ammunition återställs var 5:e sekund för bäraren",
 				"description_format": "value_is_additive_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1474,7 +1474,7 @@
 				"name": "attach particle effect",
 				"defindex": 134,
 				"attribute_class": "set_attached_particle",
-				"description_string": "★ Ovanlig Effekt: %s1",
+				"description_string": "★ Ovanlig effekt: %s1",
 				"description_format": "value_is_particle_index",
 				"effect_type": "unusual",
 				"hidden": false,
@@ -1690,7 +1690,7 @@
 				"name": "silent killer",
 				"defindex": 156,
 				"attribute_class": "set_silent_killer",
-				"description_string": "Tyst Mördare: Inga oljud från rygghugg",
+				"description_string": "Tyst mördare: Inga attackljud från rygghugg",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1700,7 +1700,7 @@
 				"name": "disguise speed penalty",
 				"defindex": 157,
 				"attribute_class": "disguise_speed_penalty",
-				"description_string": "%s1 sek långsammare förklädnadshastighet",
+				"description_string": "%s1 s långsammare förklädnadshastighet",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -1720,7 +1720,7 @@
 				"name": "SET BONUS: cloak blink time penalty",
 				"defindex": 159,
 				"attribute_class": "cloak_blink_time_penalty",
-				"description_string": "%s1 sek längre döljningsblinkning",
+				"description_string": "%s1 s längre döljningsblinkning",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -1950,7 +1950,7 @@
 				"name": "slow enemy on hit major",
 				"defindex": 182,
 				"attribute_class": "mult_onhit_enemyspeed_major",
-				"description_string": "Vid Träff: Sakta ned måltavlans rörelser med 40% i %s1s",
+				"description_string": "Vid träff: Sakta ned målets rörelser med 40 % i %s1 s",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1980,7 +1980,7 @@
 				"name": "event date",
 				"defindex": 185,
 				"attribute_class": "event_date",
-				"description_string": "Datum Mottaget: %s1",
+				"description_string": "Datum mottaget: %s1",
 				"description_format": "value_is_date",
 				"effect_type": "neutral",
 				"hidden": true,
@@ -2010,7 +2010,7 @@
 				"name": "preserve ubercharge",
 				"defindex": 188,
 				"attribute_class": "preserve_ubercharge",
-				"description_string": "Vid död bibehålls upp till %s1% av\ndin lagrade ÜberLaddning",
+				"description_string": "Vid död bibehålls upp till %s1% av\ndin lagrade überladdning",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2152,7 +2152,7 @@
 				"name": "drop health pack on kill",
 				"defindex": 203,
 				"attribute_class": "drop_health_pack_on_kill",
-				"description_string": "Vid Dödande Träff: En liten förbandslåda släpps",
+				"description_string": "Vid dödande träff: En liten förbandslåda släpps",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2162,7 +2162,7 @@
 				"name": "hit self on miss",
 				"defindex": 204,
 				"attribute_class": "hit_self_on_miss",
-				"description_string": "Vid Miss: Träffa dig själv. Pucko.",
+				"description_string": "Vid miss: Träffa dig själv. Pucko.",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -2202,7 +2202,7 @@
 				"name": "Set DamageType Ignite",
 				"defindex": 208,
 				"attribute_class": "set_dmgtype_ignite",
-				"description_string": "Vid Träff: mål slukas i lågor",
+				"description_string": "Vid träff: Mål slukas i lågor",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2312,7 +2312,7 @@
 				"name": "mult sniper charge after bodyshot",
 				"defindex": 222,
 				"attribute_class": "mult_sniper_charge_after_bodyshot",
-				"description_string": "Vid Inzoomat Kroppskott: Gevärets uppladdningstid ökar med %s1%",
+				"description_string": "Vid inzoomat kroppskott: Gevärets uppladdningstid ökar med %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2322,7 +2322,7 @@
 				"name": "mult sniper charge after miss",
 				"defindex": 223,
 				"attribute_class": "mult_sniper_charge_after_miss",
-				"description_string": "Vid Inzoomad Miss: Gevärets uppladdningstid minskar med %s1%",
+				"description_string": "Vid inzoomad miss: Gevärets uppladdningstid minskar med %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -2458,7 +2458,7 @@
 				"name": "mult sniper charge after headshot",
 				"defindex": 237,
 				"attribute_class": "mult_sniper_charge_after_headshot",
-				"description_string": "Vid Inzoomat Huvudskott: Gevärets uppladdningstid ökar med %s1%",
+				"description_string": "Vid inzoomat huvudskott: Gevärets uppladdningstid ökar med %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2468,7 +2468,7 @@
 				"name": "minigun no spin sounds",
 				"defindex": 238,
 				"attribute_class": "minigun_no_spin_sounds",
-				"description_string": "Tyst Mördare: Inget uppsnurrningsljud",
+				"description_string": "Tyst mördare: Inget uppsnurrningsljud",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2478,7 +2478,7 @@
 				"name": "ubercharge rate bonus for healer",
 				"defindex": 239,
 				"attribute_class": "mult_uberchargerate_for_healer",
-				"description_string": "+%s1% snabbare ÜberLaddning för den Medic som helar dig.\nDenna effekt verkar inte i återskapningsrummet",
+				"description_string": "+%s1% snabbare überladdning för den Medic som helar dig.\nEffekten fungerar inte i återskapningsrummet.",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2810,7 +2810,7 @@
 				"name": "ubercharge",
 				"defindex": 274,
 				"attribute_class": "ubercharge",
-				"description_string": "Förbrukningsvara: Bli Überladdad under 5 sekunder\n(eller skydda ditt vaktgevär från skada)",
+				"description_string": "Förbrukningsvara: Bli überladdad under 5 sekunder\n(och skydda vaktgeväret från skada)",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3077,7 +3077,7 @@
 				"name": "sniper full charge damage bonus",
 				"defindex": 304,
 				"attribute_class": "sniper_full_charge_damage_bonus",
-				"description_string": "Vid Full Laddning: +%s1% skada per skott",
+				"description_string": "Vid full laddning: +%s1% skada per skott",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3117,7 +3117,7 @@
 				"name": "sniper penetrate players when charged",
 				"defindex": 308,
 				"attribute_class": "sniper_penetrate_players_when_charged",
-				"description_string": "Vid Full Laddning: Projektiler penetrerar spelare",
+				"description_string": "Vid full laddning: Projektiler penetrerar spelare",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3720,7 +3720,7 @@
 				"name": "accepted wedding ring account id 2",
 				"defindex": 373,
 				"attribute_class": "accepted_wedding_ring_account_id_2",
-				"description_string": "och %s1, för evigt och evigt och evigt. Puss och Kram",
+				"description_string": "och %s1, för evigt och evigt och evigt. Puss och kram.",
 				"description_format": "value_is_account_id",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3844,7 +3844,7 @@
 				"name": "rage on kill",
 				"defindex": 387,
 				"attribute_class": "rage_on_kill",
-				"description_string": "Öka Focus vid dödande skott och assister",
+				"description_string": "Få fokus vid dödande träffar och assister",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3990,7 +3990,7 @@
 				"name": "cannot be backstabbed",
 				"defindex": 402,
 				"attribute_class": "cannot_be_backstabbed",
-				"description_string": "Kan ej rygghuggas",
+				"description_string": "Kan inte rygghuggas",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -4387,7 +4387,7 @@
 				"name": "pyrovision opt in DISPLAY ONLY",
 				"defindex": 445,
 				"attribute_class": "pyrovision_opt_in_display_only",
-				"description_string": "Om Utrustat: Besök Pyroland",
+				"description_string": "Om utrustat: Besök Pyroland",
 				"description_format": "value_is_or",
 				"effect_type": "positive",
 				"hidden": false,
@@ -6420,7 +6420,7 @@
 				"name": "dmg pierces resists absorbs",
 				"defindex": 797,
 				"attribute_class": "mod_pierce_resists_absorbs",
-				"description_string": "Attacker går igenom skaderesistanseffekter och bonusar",
+				"description_string": "Attacker går igenom skaderesistenseffekter och bonusar",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -6430,8 +6430,10 @@
 				"name": "energy buff dmg taken multiplier",
 				"defindex": 798,
 				"attribute_class": "energy_buff_dmg_taken_multiplier",
+				"description_string": "+%s1% skadesårbarhet när den är aktiv",
+				"description_format": "value_is_percentage",
 				"effect_type": "negative",
-				"hidden": true,
+				"hidden": false,
 				"stored_as_integer": false
 			},
 			{
@@ -6844,7 +6846,7 @@
 				"name": "item_meter_resupply_denied",
 				"defindex": 848,
 				"attribute_class": "item_meter_resupply_denied",
-				"description_string": "Återskapande och påfyllning av hälsa/ammo påverkar ej bensinmätaren",
+				"description_string": "Återskapande och påfyllning av hälsa/ammunition påverkar inte bensinmätaren",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -7102,7 +7104,7 @@
 				"name": "health drain medic",
 				"defindex": 881,
 				"attribute_class": "add_health_regen",
-				"description_string": "%s1 health regenerated per second on wearer",
+				"description_string": "%s1 hälsa återställs per sekund för bäraren",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -7364,7 +7366,7 @@
 				"name": "Halloween Spellbook Page: Tumidum",
 				"defindex": 2016,
 				"attribute_class": "tf_halloween_spell_page",
-				"description_string": "Tumidums Sidor: %s1",
+				"description_string": "Tumidums sidor: %s1",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -7570,7 +7572,7 @@
 				"name": "taunt attach particle index",
 				"defindex": 2041,
 				"attribute_class": null,
-				"description_string": "★ Ovanlig Effekt: %s1",
+				"description_string": "★ Ovanlig effekt: %s1",
 				"description_format": "value_is_particle_index",
 				"effect_type": "unusual",
 				"hidden": false,
@@ -7768,7 +7770,7 @@
 				"name": "attack_minicrits_and_consumes_burning",
 				"defindex": 2067,
 				"attribute_class": "attack_minicrits_and_consumes_burning",
-				"description_string": "Ger minikritiska träffar på brinnande fiender och släcker dem.\nSkada ökas baserat på återstående efterbrandtid\nDödande träffar på brinnande spelare ger en fartökning.",
+				"description_string": "Ger minikritiska träffar på brinnande fiender och släcker dem.\nSkadan ökar baserat på återstående brandtid.\nDödande träffar på brinnande spelare ger en fartökning.",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -7780,6 +7782,116 @@
 				"attribute_class": null,
 				"effect_type": "value_is_from_lookup_table",
 				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair kritz potion",
+				"defindex": 2069,
+				"attribute_class": "freaky_fair_kritz_potion",
+				"description_string": "Kritzbrygd",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair uber potion",
+				"defindex": 2070,
+				"attribute_class": "freaky_fair_uber_potion",
+				"description_string": "Überbrygd",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair giant potion",
+				"defindex": 2071,
+				"attribute_class": "freaky_fair_giant_potion",
+				"description_string": "Jättebrygd",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair buster potion",
+				"defindex": 2072,
+				"attribute_class": "freaky_fair_buster_potion",
+				"description_string": "Pumpajägarbrygd",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair healing potion",
+				"defindex": 2073,
+				"attribute_class": "freaky_fair_healing_potion",
+				"description_string": "Helande brygd",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair ghost potion",
+				"defindex": 2074,
+				"attribute_class": "freaky_fair_ghost_potion",
+				"description_string": "Spökbrygd",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair ammo potion",
+				"defindex": 2075,
+				"attribute_class": "freaky_fair_ammo_potion",
+				"description_string": "Ammunitionsbrygd",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair rtd potion",
+				"defindex": 2076,
+				"attribute_class": "freaky_fair_rtd_potion",
+				"description_string": "Tärningskastbrygd",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair relentless potion",
+				"defindex": 2077,
+				"attribute_class": "freaky_fair_relentless_potion",
+				"description_string": "Obeveklig brygd",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair extra attrib1",
+				"defindex": 2078,
+				"attribute_class": "freaky_fair_extra_attrib1",
+				"description_string": "Extra Freaky Fair Attrib 1",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair extra attrib2",
+				"defindex": 2079,
+				"attribute_class": "freaky_fair_extra_attrib2",
+				"description_string": "Extra Freaky Fair Attrib 2",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
 				"stored_as_integer": false
 			},
 			{
@@ -7978,7 +8090,7 @@
 			},
 			{
 				"item_set": "airborne_armaments",
-				"name": "Luftburna Beväpningen",
+				"name": "Luftburna beväpningen",
 				"items": [
 					"The Liberty Launcher",
 					"The Reserve Shooter",
@@ -7989,7 +8101,7 @@
 			},
 			{
 				"item_set": "alien_isolation_merc_set",
-				"name": "Isolerade Legosoldaten",
+				"name": "Isolerade legosoldaten",
 				"items": [
 					"The MK 50",
 					"The Nostromo Napalmer"
@@ -8021,7 +8133,7 @@
 			},
 			{
 				"item_set": "black_market",
-				"name": "Svarta Marknaden",
+				"name": "Svarta marknaden",
 				"items": [
 					"Tomislav",
 					"The Family Business",
@@ -8053,7 +8165,7 @@
 			},
 			{
 				"item_set": "desert_demo",
-				"name": "Tusen och En Demoknekt",
+				"name": "Tusen och en demoknekt",
 				"items": [
 					"The Persian Persuader",
 					"The Splendid Screen",
@@ -8074,7 +8186,7 @@
 			},
 			{
 				"item_set": "drg_brainiac",
-				"name": "Dr. Grordborts Genipaket",
+				"name": "Dr. Grordborts genipaket",
 				"items": [
 					"The Eureka Effect",
 					"The Pomson 6000",
@@ -8085,7 +8197,7 @@
 			},
 			{
 				"item_set": "drg_moonman",
-				"name": "Dr. Grordborts Månmanspaket",
+				"name": "Dr. Grordborts månmanspaket",
 				"items": [
 					"The Phlogistinator",
 					"The Third Degree",
@@ -8097,7 +8209,7 @@
 			},
 			{
 				"item_set": "drg_victory",
-				"name": "Dr. Grordborts Segerpaket",
+				"name": "Dr. Grordborts segerpaket",
 				"items": [
 					"The Cow Mangler 5000",
 					"The Righteous Bison",
@@ -8126,7 +8238,7 @@
 			},
 			{
 				"item_set": "experts_ordnance",
-				"name": "Expertens Krigsmateriel",
+				"name": "Expertens krigsmateriel",
 				"store_bundle": "Expert's Ordnance Bundle",
 				"items": [
 					"The Ullapool Caber",
@@ -8148,7 +8260,7 @@
 			},
 			{
 				"item_set": "general_suit",
-				"name": "Generalens Högtidsdräkt",
+				"name": "Generalens högtidsdräkt",
 				"items": [
 					"The Mantreads",
 					"The Disciplinary Action",
@@ -8179,7 +8291,7 @@
 			},
 			{
 				"item_set": "hibernating_bear",
-				"name": "Den Övervintrande Björnen",
+				"name": "Den övervintrande björnen",
 				"store_bundle": "Hibernating Bear Bundle",
 				"items": [
 					"The Brass Beast",
@@ -8208,7 +8320,7 @@
 			},
 			{
 				"item_set": "hidden_detective_set",
-				"name": "Eliminera det Omöjliga",
+				"name": "Eliminera det omöjliga",
 				"items": [
 					"Private Eye",
 					"The Nine-Pipe Problem"
@@ -8225,7 +8337,7 @@
 			},
 			{
 				"item_set": "hw2013_demo_squidpirate",
-				"name": "Den Förbannade Kaptenen",
+				"name": "Den förbannade kaptenen",
 				"items": [
 					"The Squid's Lid",
 					"Cap'n Calamari"
@@ -8261,7 +8373,7 @@
 			},
 			{
 				"item_set": "hw2013_pyro_lake_monster",
-				"name": "Det Skumma Monstret",
+				"name": "Det skumma monstret",
 				"items": [
 					"The Abhorrent Appendages",
 					"The Vicious Visage"
@@ -8318,7 +8430,7 @@
 			},
 			{
 				"item_set": "hw2013_spy_blood_banker_alt",
-				"name": "Härskaren över Grusgropen",
+				"name": "Härskaren över grusgropen",
 				"items": [
 					"The Candyman's Cap",
 					"The Bountiful Bow",
@@ -8328,7 +8440,7 @@
 			},
 			{
 				"item_set": "medic_halloween_2011",
-				"name": "Galna Doktorn",
+				"name": "Galna doktorn",
 				"items": [
 					"Einstein",
 					"Dr. Gogglestache",
@@ -8338,7 +8450,7 @@
 			},
 			{
 				"item_set": "medieval_medic",
-				"name": "Den Medeltida Sjukvårdaren",
+				"name": "Den medeltida sjukvårdaren",
 				"store_bundle": "Medieval Medic Bundle",
 				"items": [
 					"The Amputator",
@@ -8359,7 +8471,7 @@
 			},
 			{
 				"item_set": "polycount_pyro",
-				"name": "Bensinstationens Utstyrsel",
+				"name": "Bensinstationens utstyrsel",
 				"store_bundle": "Polycount Pyro Bundle",
 				"items": [
 					"The Degreaser",
@@ -8398,7 +8510,7 @@
 			},
 			{
 				"item_set": "polycount_sniper",
-				"name": "Krok-O-Stil-Kitet",
+				"name": "Krokostil-kitet",
 				"store_bundle": "Polycount Sniper Bundle",
 				"items": [
 					"The Sydney Sleeper",
@@ -8437,7 +8549,7 @@
 			},
 			{
 				"item_set": "polycount_spy",
-				"name": "Spionen Från Sahara",
+				"name": "Spionen från Sahara",
 				"store_bundle": "Polycount Spy Bundle",
 				"items": [
 					"L'Etranger",
@@ -8466,7 +8578,7 @@
 			},
 			{
 				"item_set": "rapid_repair",
-				"name": "Kliniska Studien",
+				"name": "Kliniska studien",
 				"items": [
 					"The Quick-Fix",
 					"The Overdose",
@@ -8476,7 +8588,7 @@
 			},
 			{
 				"item_set": "scout_halloween_2011",
-				"name": "Förbannelse-med-Kraft",
+				"name": "Naturförbannelsen",
 				"items": [
 					"Wrap Battler",
 					"B-ankh!",
@@ -8486,7 +8598,7 @@
 			},
 			{
 				"item_set": "scout_public_enemy",
-				"name": "Samhällets Fiende",
+				"name": "Samhällets fiende",
 				"items": [
 					"Baby Face's Blaster",
 					"Pretty Boy's Pocket Pistol",
@@ -8602,7 +8714,7 @@
 			},
 			{
 				"item_set": "short2014_demo_drinking",
-				"name": "Sydamerikanska Paketet",
+				"name": "Sydamerikanska paketet",
 				"items": [
 					"The Allbrero",
 					"Seeing Double",
@@ -8612,7 +8724,7 @@
 			},
 			{
 				"item_set": "short2014_engineer_pack1",
-				"name": "Byggarens Nybörjarkit",
+				"name": "Byggarens nybörjarkit",
 				"items": [
 					"The Tools of the Trade",
 					"The Joe-on-the-Go"
@@ -8621,7 +8733,7 @@
 			},
 			{
 				"item_set": "short2014_engineer_pack2",
-				"name": "Texas Tekniska Hand",
+				"name": "Texas tekniska hand",
 				"items": [
 					"The Level Three Chin",
 					"The Egghead's Overalls",
@@ -8650,7 +8762,7 @@
 			},
 			{
 				"item_set": "short2014_pyro_pack3",
-				"name": "Snabba Eldstartarpaketet",
+				"name": "Snabba eldstartarpaketet",
 				"items": [
 					"Employee of the Mmmph",
 					"The Frymaster"
@@ -8669,7 +8781,7 @@
 			},
 			{
 				"item_set": "short2014_scout_pack",
-				"name": "Häftiga Goda Ninjapaketet",
+				"name": "Häftiga goda ninjapaketet",
 				"items": [
 					"The Frickin' Sweet Ninja Hood",
 					"The Southie Shinobi",
@@ -8717,7 +8829,7 @@
 			},
 			{
 				"item_set": "sniper_urban_professional",
-				"name": "Urbana Proffset",
+				"name": "Urbana proffset",
 				"items": [
 					"The Hitman's Heatmaker",
 					"The Cleaner's Carbine",
@@ -8757,7 +8869,7 @@
 			},
 			{
 				"item_set": "swashbucklers_swag",
-				"name": "Skrävlarens Stöldgods",
+				"name": "Skrävlarens stöldgods",
 				"items": [
 					"The Scottish Handshake",
 					"The Buccaneer's Bicorne",
@@ -8789,14 +8901,14 @@
 				"system": "burningplayer_flyingbits",
 				"id": 2,
 				"attach_to_rootbone": false,
-				"name": "Flygande Bitar"
+				"name": "Flygande bitar"
 			},
 			{
 				"system": "particle_nemesis_burst_blue",
 				"id": 3,
 				"attach_to_rootbone": false,
 				"attachment": "muzzle1",
-				"name": "Nemesis-Stråle"
+				"name": "Nemesis-stråle"
 			},
 			{
 				"system": "community_sparkle",
@@ -8809,45 +8921,45 @@
 				"id": 5,
 				"attach_to_rootbone": false,
 				"attachment": "halopoint1",
-				"name": "Helig Glöd"
+				"name": "Helig glöd"
 			},
 			{
 				"system": "superrare_confetti_green",
 				"id": 6,
 				"attach_to_rootbone": false,
-				"name": "Grön Konfetti"
+				"name": "Grön konfetti"
 			},
 			{
 				"system": "superrare_confetti_purple",
 				"id": 7,
 				"attach_to_rootbone": false,
-				"name": "Lila Konfetti"
+				"name": "Lila konfetti"
 			},
 			{
 				"system": "superrare_ghosts",
 				"id": 8,
 				"attach_to_rootbone": true,
 				"attachment": "muzzle",
-				"name": "Hemsökta Spöken"
+				"name": "Hemsökta spöken"
 			},
 			{
 				"system": "superrare_greenenergy",
 				"id": 9,
 				"attach_to_rootbone": true,
-				"name": "Grön Energi"
+				"name": "Grön energi"
 			},
 			{
 				"system": "superrare_purpleenergy",
 				"id": 10,
 				"attach_to_rootbone": true,
-				"name": "Lila Energi"
+				"name": "Lila energi"
 			},
 			{
 				"system": "superrare_circling_tf",
 				"id": 11,
 				"attach_to_rootbone": true,
 				"attachment": "muzzle",
-				"name": "Cirklande TF-Logga"
+				"name": "Cirklande TF-logotyp"
 			},
 			{
 				"system": "superrare_flies",
@@ -8860,33 +8972,34 @@
 				"id": 13,
 				"attach_to_rootbone": true,
 				"attachment": "muzzle",
-				"name": "Brinnande Lågor"
+				"name": "Brinnande lågor"
 			},
 			{
 				"system": "superrare_burning2",
 				"id": 14,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Brännheta Lågor"
+				"name": "Brännheta lågor"
 			},
 			{
 				"system": "superrare_plasma1",
 				"id": 15,
 				"attach_to_rootbone": true,
 				"attachment": "muzzle",
-				"name": "Glödande Plasma"
+				"name": "Glödande plasma"
 			},
 			{
 				"system": "superrare_plasma2",
 				"id": 16,
 				"attach_to_rootbone": true,
 				"attachment": "muzzle",
-				"name": "Intensiv Plasma"
+				"name": "Intensiv plasma"
 			},
 			{
 				"system": "superrare_beams1",
 				"id": 17,
 				"attach_to_rootbone": true,
+				"attachment": "unusual",
 				"name": "Solstrålar"
 			},
 			{
@@ -8894,14 +9007,14 @@
 				"id": 18,
 				"attach_to_rootbone": true,
 				"attachment": "muzzle",
-				"name": "Cirklande Fredstecken"
+				"name": "Cirklande fredstecken"
 			},
 			{
 				"system": "superrare_circling_heart",
 				"id": 19,
 				"attach_to_rootbone": true,
 				"attachment": "muzzle",
-				"name": "Cirklande Hjärta"
+				"name": "Cirklande hjärta"
 			},
 			{
 				"system": "stamp_spin",
@@ -8932,19 +9045,19 @@
 				"system": "unusual_orbit_nutsnbolts",
 				"id": 31,
 				"attach_to_rootbone": true,
-				"name": "Muttrar å Skruvar"
+				"name": "Muttrar å skruvar"
 			},
 			{
 				"system": "unusual_orbit_planets",
 				"id": 32,
 				"attach_to_rootbone": true,
-				"name": "Kretsande Planeter"
+				"name": "Kretsande planeter"
 			},
 			{
 				"system": "unusual_orbit_fire",
 				"id": 33,
 				"attach_to_rootbone": true,
-				"name": "Kretsande Eld"
+				"name": "Kretsande eld"
 			},
 			{
 				"system": "unusual_bubbles",
@@ -8968,13 +9081,13 @@
 				"system": "unusual_orbit_jack_flaming",
 				"id": 37,
 				"attach_to_rootbone": true,
-				"name": "Flammande Lykta"
+				"name": "Flammande lykta"
 			},
 			{
 				"system": "unusual_fullmoon_cloudy",
 				"id": 38,
 				"attach_to_rootbone": true,
-				"name": "Molnig Måne"
+				"name": "Molnig måne"
 			},
 			{
 				"system": "unusual_bubbles_green",
@@ -8986,7 +9099,7 @@
 				"system": "unusual_orbit_fire_dark",
 				"id": 40,
 				"attach_to_rootbone": true,
-				"name": "Kuslig Kretsande Eld"
+				"name": "Kuslig kretsande eld"
 			},
 			{
 				"system": "unusual_storm_knives",
@@ -9000,7 +9113,7 @@
 				"id": 44,
 				"attach_to_rootbone": true,
 				"attachment": "muzzle",
-				"name": "Dimmig Dödskalle"
+				"name": "Dimmig dödskalle"
 			},
 			{
 				"system": "unusual_fullmoon_cloudy_green",
@@ -9021,7 +9134,7 @@
 				"id": 47,
 				"attach_to_rootbone": true,
 				"attachment": "muzzle",
-				"name": "Den Stormiga 13:nde Timmen"
+				"name": "Den stormiga 13:e timmen"
 			},
 			{
 				"system": "unusual_orbit_cards_teamcolor_blue",
@@ -9063,7 +9176,7 @@
 				"id": 60,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Döda Presidenter"
+				"name": "Döda presidenter"
 			},
 			{
 				"system": "unusual_crisp_spotlights",
@@ -9168,21 +9281,21 @@
 				"id": 75,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Chiroptera Venenata"
+				"name": "Chiroptera venenata"
 			},
 			{
 				"system": "unusual_bats_flaming_proxy_purple",
 				"id": 76,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Förgiftade Skuggor"
+				"name": "Förgiftade skuggor"
 			},
 			{
 				"system": "unusual_bats_flaming_proxy_orange",
 				"id": 77,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Något Brinnande Hitåt Kommer"
+				"name": "Något brinnande hitåt ränner"
 			},
 			{
 				"system": "unusual_meteor_shower_parent_orange",
@@ -9224,7 +9337,7 @@
 				"id": 83,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Blicken från bakom"
+				"name": "Blicken från andra sidan"
 			},
 			{
 				"system": "unusual_eyes_green_parent",
@@ -9672,28 +9785,28 @@
 				"id": 147,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Verdatica"
+				"name": "Verdatika"
 			},
 			{
 				"system": "unusual_circling_spell_orange_parent",
 				"id": 148,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Aromatica"
+				"name": "Aromatika"
 			},
 			{
 				"system": "unusual_circling_spell_purple_parent",
 				"id": 149,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Chromatica"
+				"name": "Kromatisk"
 			},
 			{
 				"system": "unusual_circling_spell_blue_parent",
 				"id": 150,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Prismatica"
+				"name": "Prismatisk"
 			},
 			{
 				"system": "unusual_bees",
@@ -9714,7 +9827,7 @@
 				"id": 153,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Smoldering Spirits"
+				"name": "Rykande andar"
 			},
 			{
 				"system": "unusual_playflies_purple_parent",
@@ -9763,112 +9876,112 @@
 				"id": 160,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Gravelly Ghoul"
+				"name": "Grusgast"
 			},
 			{
 				"system": "unusual_gargoyle2",
 				"id": 161,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Vexed Volcanics"
+				"name": "Vulkanisk vrede"
 			},
 			{
 				"system": "unusual_candy_parent",
 				"id": 162,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Gourdian Angel"
+				"name": "Kalebassängel"
 			},
 			{
 				"system": "unusual_pumpkinhead_parent",
 				"id": 163,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Pumpkin Party"
+				"name": "Pumpaparty"
 			},
 			{
 				"system": "unusual_froststorm_blue_parent",
 				"id": 164,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Frozen Fractals"
+				"name": "Frysta fraktaler"
 			},
 			{
 				"system": "unusual_froststorm_purple_parent",
 				"id": 165,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Lavender Landfall"
+				"name": "Lavender lavin"
 			},
 			{
 				"system": "unusual_froststorm_yellow_parent",
 				"id": 166,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Special Snowfall"
+				"name": "Säreget snöfall"
 			},
 			{
 				"system": "unusual_swirlybeams_goldpurple_parent",
 				"id": 167,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Divine Desire"
+				"name": "Gudomlig önskan"
 			},
 			{
 				"system": "unusual_swirlybeams_pinkblue_parent",
 				"id": 168,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Distant Dream"
+				"name": "Avlägsen dröm"
 			},
 			{
 				"system": "unusual_icetornado_blue_parent",
 				"id": 169,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Violent Wintertide"
+				"name": "Våldsam vintertid"
 			},
 			{
 				"system": "unusual_icetornado_purple_parent",
 				"id": 170,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Blighted Snowstorm"
+				"name": "Härjande snöstorm"
 			},
 			{
 				"system": "unusual_icetornado_white_parent",
 				"id": 171,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Pale Nimbus"
+				"name": "Blek nimbus"
 			},
 			{
 				"system": "unusual_genplasmos_parent",
 				"id": 172,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Genus Plasmos"
+				"name": "Genus plasmos"
 			},
 			{
 				"system": "unusual_genplasmos_b_parent",
 				"id": 173,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Serenus Lumen"
+				"name": "Serenus lumen"
 			},
 			{
 				"system": "unusual_genplasmos_c_parent",
 				"id": 174,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ventum Maris"
+				"name": "Ventum maris"
 			},
 			{
 				"system": "unusual_mistletoe_teamcolor_red",
 				"id": 175,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Mirthful Mistletoe"
+				"name": "Munter mistel"
 			},
 			{
 				"system": "unusual_mistletoe_teamcolor_blue",
@@ -9882,49 +9995,49 @@
 				"id": 177,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Resonation"
+				"name": "Resonans"
 			},
 			{
 				"system": "unusual_breaker_orange_parent",
 				"id": 178,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Aggradation"
+				"name": "Aggradering"
 			},
 			{
 				"system": "unusual_breaker_purple_parent",
 				"id": 179,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Lucidation"
+				"name": "Upplysande"
 			},
 			{
 				"system": "unusual_star_parent",
 				"id": 180,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Stunning"
+				"name": "Fantastisk"
 			},
 			{
 				"system": "unusual_magic_stingers_orange_parent",
 				"id": 181,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ardentum Saturnalis"
+				"name": "Ardentum saturnalis"
 			},
 			{
 				"system": "unusual_magic_stingers_pink_parent",
 				"id": 182,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fragrancium Elementalis"
+				"name": "Fragrancium elementalis"
 			},
 			{
 				"system": "unusual_magic_stingers_teamcolor_red",
 				"id": 183,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Reverium Irregularis"
+				"name": "Reverium irregularis"
 			},
 			{
 				"system": "unusual_magic_stingers_teamcolor_blue",
@@ -9938,28 +10051,28 @@
 				"id": 185,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Perennial Petals"
+				"name": "Fleråriga kronblad"
 			},
 			{
 				"system": "unusual_bloomhead_orangepurple_parent",
 				"id": 186,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flavorsome Sunset"
+				"name": "Smakfull solnedgång"
 			},
 			{
 				"system": "unusual_bloomhead_pinkgreen_parent",
 				"id": 187,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Raspberry Bloom"
+				"name": "Hallonblomster"
 			},
 			{
 				"system": "unusual_magicalorb_parent",
 				"id": 188,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Iridescence"
+				"name": "Regnbågsskimmer"
 			},
 			{
 				"system": "unusual_demonhorns_green_parent",
@@ -10078,49 +10191,49 @@
 				"id": 205,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Smissmas Tree"
+				"name": "Smissmas-gran"
 			},
 			{
 				"system": "unusual_tree3_yellow_parent",
 				"id": 206,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Hospitable Festivity"
+				"name": "Festlig gästfrihet"
 			},
 			{
 				"system": "unusual_tree3_teamcolor_red",
 				"id": 207,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Condescending Embrace"
+				"name": "Nedlåtande omfamning"
 			},
 			{
 				"system": "unusual_tree3_teamcolor_blue",
 				"id": 208,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Condescending Embrace"
+				"name": "Nedlåtande omfamning"
 			},
 			{
 				"system": "unusual_sparkletree_gold_parent",
 				"id": 209,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sparkling Spruce"
+				"name": "Glittrande gran"
 			},
 			{
 				"system": "unusual_sparkletree_silver_parent",
 				"id": 210,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Glittering Juniper"
+				"name": "Glittrande enbär"
 			},
 			{
 				"system": "unusual_sparkletree_RGB_parent",
 				"id": 211,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Prismatic Pine"
+				"name": "Prismatisk gran"
 			},
 			{
 				"system": "unusual_fairylights_green_parent",
@@ -10134,77 +10247,77 @@
 				"id": 213,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Twisting Lights"
+				"name": "Snurrande ljusslinga"
 			},
 			{
 				"system": "unusual_spire_star_parent",
 				"id": 214,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Stardust Pathway"
+				"name": "Stjärnväg"
 			},
 			{
 				"system": "unusual_spire_snowball_parent",
 				"id": 215,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flurry Rush"
+				"name": "Snöyra"
 			},
 			{
 				"system": "unusual_spire_firework_teamcolor_red",
 				"id": 216,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Spark of Smissmas"
+				"name": "Munter gnista"
 			},
 			{
 				"system": "unusual_spire_firework_teamcolor_blue",
 				"id": 217,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Spark of Smissmas"
+				"name": "Munter gnista"
 			},
 			{
 				"system": "unusual_snowflake_parent",
 				"id": 218,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Polar Forecast"
+				"name": "Polarprognos"
 			},
 			{
 				"system": "unusual_antlers_gold_parent",
 				"id": 219,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Shining Stag"
+				"name": "Glänsande hjort"
 			},
 			{
 				"system": "unusual_antlers_purple_parent",
 				"id": 220,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Holiday Horns"
+				"name": "Julhorn"
 			},
 			{
 				"system": "unusual_antlers_teamcolor_red",
 				"id": 221,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ardent Antlers"
+				"name": "Glödande horn"
 			},
 			{
 				"system": "unusual_antlers_teamcolor_blue",
 				"id": 222,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ardent Antlers"
+				"name": "Glödande horn"
 			},
 			{
 				"system": "unusual_festive_lights_lights1_parent",
 				"id": 223,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Festive Lights"
+				"name": "Festliga ljus"
 			},
 			{
 				"system": "unusual_spycrabs_teamcolor_red",
@@ -10225,14 +10338,14 @@
 				"id": 226,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Frosted Decadence"
+				"name": "Frostad dekadens"
 			},
 			{
 				"system": "unusual_sprinkles_teamcolor_blue",
 				"id": 227,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Frosted Decadence"
+				"name": "Frostad dekadens"
 			},
 			{
 				"system": "unusual_sprinkles_rainbow_parent",
@@ -10246,21 +10359,21 @@
 				"id": 229,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Terrestrial Favor"
+				"name": "Galaktisk gunst"
 			},
 			{
 				"system": "unusual_liquidmagic_ocean_parent",
 				"id": 230,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Tropical Thrill"
+				"name": "Tropisk magi"
 			},
 			{
 				"system": "unusual_liquidmagic_pink_parent",
 				"id": 231,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flourishing Passion"
+				"name": "Sprakande passion"
 			},
 			{
 				"system": "unusual_firework_blue_red_parent",
@@ -10316,98 +10429,98 @@
 				"id": 239,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flying Lights"
+				"name": "Svävande ljus"
 			},
 			{
 				"system": "unusual_lanterns_teamcolor_blue",
 				"id": 240,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flying Lights"
+				"name": "Svävande ljus"
 			},
 			{
 				"system": "unusual_lanterns_green_parent",
 				"id": 241,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Limelight"
+				"name": "Rampljus"
 			},
 			{
 				"system": "unusual_lanterns_yellow_parent",
 				"id": 242,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Shining Star"
+				"name": "Glänsande stjärna"
 			},
 			{
 				"system": "unusual_coldcosmos_parent",
 				"id": 243,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Cold Cosmos"
+				"name": "Kall kosmos"
 			},
 			{
 				"system": "unusual_helix_parent",
 				"id": 244,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Refracting Fractals"
+				"name": "Brytande fraktaler"
 			},
 			{
 				"system": "unusual_stardust_teamcolor_red",
 				"id": 245,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Startrance"
+				"name": "Stjärntrans"
 			},
 			{
 				"system": "unusual_stardust_teamcolor_blue",
 				"id": 246,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Startrance"
+				"name": "Stjärntrans"
 			},
 			{
 				"system": "unusual_stardust_green_parent",
 				"id": 247,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Starlush"
+				"name": "Stjärngrönska"
 			},
 			{
 				"system": "unusual_stardust_orange_parent",
 				"id": 248,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Starfire"
+				"name": "Stjärneld"
 			},
 			{
 				"system": "unusual_stardust_white_parent",
 				"id": 249,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Stardust"
+				"name": "Stjärnstoft"
 			},
 			{
 				"system": "unusual_erupt_alien_parent",
 				"id": 250,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Contagious Eruption"
+				"name": "Smittsamt utbrott"
 			},
 			{
 				"system": "unusual_erupt_daydream_parent",
 				"id": 251,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Daydream Eruption"
+				"name": "Dagdrömsutbrott"
 			},
 			{
 				"system": "unusual_erupt_volcan_parent",
 				"id": 252,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Volcanic Eruption"
+				"name": "Vulkanutbrott"
 			},
 			{
 				"system": "unusual_supernova_parent",
@@ -10442,322 +10555,322 @@
 				"id": 257,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Haunted Kraken"
+				"name": "Hemsökt Kraken"
 			},
 			{
 				"system": "unusual_kraken_purple_parent",
 				"id": 258,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Eerie Kraken"
+				"name": "Kusliga Kraken"
 			},
 			{
 				"system": "unusual_ghostaxe_parent_green",
 				"id": 259,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Soulful Slice"
+				"name": "Spökhugg"
 			},
 			{
 				"system": "unusual_ghostaxe_parent_purple",
 				"id": 260,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Horsemann's Hack"
+				"name": "Horsemannens hugg"
 			},
 			{
 				"system": "unusual_hauntedforever_teamcolor_red",
 				"id": 261,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Haunted Forever!"
+				"name": "Evigt hemsökt!"
 			},
 			{
 				"system": "unusual_hauntedforever_teamcolor_blue",
 				"id": 262,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Haunted Forever!"
+				"name": "Evigt hemsökt!"
 			},
 			{
 				"system": "unusual_hauntedforever_green_parent",
 				"id": 263,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Forever And Forever!"
+				"name": "För evigt och för alltid!"
 			},
 			{
 				"system": "unusual_hauntedforever_purple_parent",
 				"id": 264,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Cursed Forever!"
+				"name": "Evigt förbannad!"
 			},
 			{
 				"system": "unusual_moths_parent",
 				"id": 265,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Moth Plague"
+				"name": "Malpest"
 			},
 			{
 				"system": "unusual_eyeboss_parent",
 				"id": 266,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Malevolent Monoculi"
+				"name": "Enögd ondska"
 			},
 			{
 				"system": "unusual_ghostly_flame_teamcolor_red",
 				"id": 267,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Haunted Wick"
+				"name": "Spökveke"
 			},
 			{
 				"system": "unusual_ghostly_flame_teamcolor_blue",
 				"id": 268,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Haunted Wick"
+				"name": "Spökveke"
 			},
 			{
 				"system": "unusual_ghostly_flame_parent_orange",
 				"id": 269,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Wicked Wick"
+				"name": "Vek veke"
 			},
 			{
 				"system": "unusual_ghostly_flame_parent_purple",
 				"id": 270,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Spectral Wick"
+				"name": "Vålnadsveke"
 			},
 			{
 				"system": "unusual_sheetmusic_gold_parent",
 				"id": 271,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Musical Maelstrom"
+				"name": "Musikalisk malström"
 			},
 			{
 				"system": "unusual_sheetmusic_green_parent",
 				"id": 272,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Verdant Virtuoso"
+				"name": "Smaragdvirtuos"
 			},
 			{
 				"system": "unusual_sheetmusic_silver_parent",
 				"id": 273,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Silver Serenade"
+				"name": "Silverserenad"
 			},
 			{
 				"system": "unusual_constellation_teamcolor_red",
 				"id": 274,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Cosmic Constellations"
+				"name": "Kosmiska konstellationer"
 			},
 			{
 				"system": "unusual_constellation_teamcolor_blue",
 				"id": 275,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Cosmic Constellations"
+				"name": "Kosmiska konstellationer"
 			},
 			{
 				"system": "unusual_constellation_green_parent",
 				"id": 276,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Dazzling Constellations"
+				"name": "Förtrollande konstellationer"
 			},
 			{
 				"system": "unusual_blood_snow_parent",
 				"id": 277,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Tainted Frost"
+				"name": "Förorenad frost"
 			},
 			{
 				"system": "unusual_aestheticneons_parent",
 				"id": 278,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Starlight Haze"
+				"name": "Stjärnljusdimma"
 			},
 			{
 				"system": "unusual_hardcarry_teamcolor_red",
 				"id": 279,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Hard Carry"
+				"name": "Ryggskott"
 			},
 			{
 				"system": "unusual_hardcarry_teamcolor_blue",
 				"id": 280,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Hard Carry"
+				"name": "Ryggskott"
 			},
 			{
 				"system": "unusual_jellyfish_teamcolor_red",
 				"id": 281,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Jellyfish Field"
+				"name": "Manetfält"
 			},
 			{
 				"system": "unusual_jellyfish_teamcolor_blue",
 				"id": 282,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Jellyfish Field"
+				"name": "Manetfält"
 			},
 			{
 				"system": "unusual_jellyfish_green_parent",
 				"id": 283,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Jellyfish Hunter"
+				"name": "Manetjägare"
 			},
 			{
 				"system": "unusual_jellyfish_purple_parent",
 				"id": 284,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Jellyfish Jam"
+				"name": "Manetstoj"
 			},
 			{
 				"system": "unusual_shootingstar_green_parent",
 				"id": 285,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Global Clusters"
+				"name": "Klothop"
 			},
 			{
 				"system": "unusual_shootingstar_purple_parent",
 				"id": 286,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Celestial Starburst"
+				"name": "Himmelsk stjärnexplosion"
 			},
 			{
 				"system": "unusual_shootingstar_orange_parent",
 				"id": 287,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sylicone Succiduous"
+				"name": "Sylicone succiduous"
 			},
 			{
 				"system": "unusual_sakura_smokebomb",
 				"id": 288,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sakura Smoke Bomb"
+				"name": "Blomstrande rökbomb"
 			},
 			{
 				"system": "unusual_australian_riches",
 				"id": 289,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Treasure Trove"
+				"name": "Guldgruva"
 			},
 			{
 				"system": "unusual_buble_parent",
 				"id": 290,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Bubble Breeze"
+				"name": "Bubbelbris"
 			},
 			{
 				"system": "unusual_fireflies",
 				"id": 291,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fireflies"
+				"name": "Eldflugor"
 			},
 			{
 				"system": "unusual_mountainhalo_parent",
 				"id": 292,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Mountain Halo"
+				"name": "Bergsgloria"
 			},
 			{
 				"system": "unusual_risingstar_green_parent",
 				"id": 293,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Celestial Summit"
+				"name": "Stjärntopp"
 			},
 			{
 				"system": "unusual_risingstar_purple_parent",
 				"id": 294,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Stellar Ascent"
+				"name": "Stjärnstigning"
 			},
 			{
 				"system": "unusual_sapper_teamcolor_red",
 				"id": 295,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sapped"
+				"name": "Sappad"
 			},
 			{
 				"system": "unusual_sapper_teamcolor_blue",
 				"id": 296,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sapped"
+				"name": "Sappad"
 			},
 			{
 				"system": "unusual_devilish_teamcolor_red",
 				"id": 297,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Hellspawned Horns"
+				"name": "Helvetshorn"
 			},
 			{
 				"system": "unusual_devilish_teamcolor_blue",
 				"id": 298,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Hellspawned Horns"
+				"name": "Helvetshorn"
 			},
 			{
 				"system": "unusual_devilish_green_parent",
 				"id": 299,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Demonic Impaler"
+				"name": "Demonisk spetsare"
 			},
 			{
 				"system": "unusual_devilish_purple_parent",
 				"id": 300,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Revenant's Rack"
+				"name": "Gengångarens taggar"
 			},
 			{
 				"system": "unusual_sixthsense_teamcolor_red",
 				"id": 301,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sixth Sense"
+				"name": "Sjätte sinnet"
 			},
 			{
 				"system": "unusual_sixthsense_teamcolor_blue",
 				"id": 302,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sixth Sense"
+				"name": "Sjätte sinnet"
 			},
 			{
 				"system": "unusual_sixthsense_pink_parent",
@@ -10771,35 +10884,35 @@
 				"id": 304,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "The Bone Zone"
+				"name": "Benzonen"
 			},
 			{
 				"system": "unusual_spiderweb_parent",
 				"id": 305,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Arachne's Web"
+				"name": "Arachnes webb"
 			},
 			{
 				"system": "unusual_deepsmoke_parent_g",
 				"id": 306,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Acidic Climate"
+				"name": "Surt klimat"
 			},
 			{
 				"system": "unusual_deepsmoke_parent_p",
 				"id": 307,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Otherworldly Weather"
+				"name": "Utomjordiskt väder"
 			},
 			{
 				"system": "unusual_deepsmoke_parent_o",
 				"id": 308,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Nightmarish Storm"
+				"name": "Mardrömsstorm"
 			},
 			{
 				"system": "unusual_icearrow_teamcolor_red",
@@ -10919,6 +11032,468 @@
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
 				"name": "Naturligt ljus"
+			},
+			{
+				"system": "unusual_corrodedknight_teamcolor_red",
+				"id": 327,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Lojalistens adelskrona"
+			},
+			{
+				"system": "unusual_corrodedknight_teamcolor_blue",
+				"id": 328,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Lojalistens adelskrona"
+			},
+			{
+				"system": "unusual_corrodedknight_parent_silver",
+				"id": 329,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Riddarens stolthet"
+			},
+			{
+				"system": "unusual_corrodedknight_parent_golden",
+				"id": 330,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Baronens krans"
+			},
+			{
+				"system": "unusual_poseidon_teamcolor_red",
+				"id": 331,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Djupet lockar"
+			},
+			{
+				"system": "unusual_poseidon_teamcolor_blue",
+				"id": 332,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Djupet lockar"
+			},
+			{
+				"system": "unusual_poseidon_parent_green",
+				"id": 333,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Våldsam viridian"
+			},
+			{
+				"system": "unusual_poseidon_parent_purple",
+				"id": 334,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Magenta-monstrum"
+			},
+			{
+				"system": "unusual_rainglow_parent",
+				"id": 335,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Regnbågsdröm"
+			},
+			{
+				"system": "unusual_cubancigar_parent",
+				"id": 336,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Kubansk rök"
+			},
+			{
+				"system": "unusual_mohawk_teamcolor_red",
+				"id": 337,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Påtänt hår"
+			},
+			{
+				"system": "unusual_mohawk_teamcolor_blue",
+				"id": 338,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Påtänt hår"
+			},
+			{
+				"system": "unusual_mohawk_parent_green",
+				"id": 339,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Flammande hårbotten"
+			},
+			{
+				"system": "unusual_mohawk_parent_purple",
+				"id": 340,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Brandfarlig hjälm"
+			},
+			{
+				"system": "unusual_rare_shine_glow_parent",
+				"id": 341,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Sällsynt glans"
+			},
+			{
+				"system": "unusual_horstars_teamcolor_red",
+				"id": 342,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Avlägsen drift"
+			},
+			{
+				"system": "unusual_horstars_teamcolor_blue",
+				"id": 343,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Avlägsen drift"
+			},
+			{
+				"system": "unusual_electric_parent_white",
+				"id": 344,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Tidsresa"
+			},
+			{
+				"system": "unusual_electric_parent_gold",
+				"id": 345,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Överbelastning"
+			},
+			{
+				"system": "unusual_butterflyhead_teamcolor_red",
+				"id": 346,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Fjärilsäsong"
+			},
+			{
+				"system": "unusual_butterflyhead_teamcolor_blue",
+				"id": 347,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Fjärilsäsong"
+			},
+			{
+				"system": "unusual_hippieaura_parent",
+				"id": 348,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Psykodelisk"
+			},
+			{
+				"system": "unusual_butterfly_parent",
+				"id": 349,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Förtrollade fjärilar"
+			},
+			{
+				"system": "unusual_spectral_fire_parent",
+				"id": 350,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Vålnadseld"
+			},
+			{
+				"system": "unusual_galactic_fire_parent",
+				"id": 351,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Galaktisk låga"
+			},
+			{
+				"system": "unusual_frank_green_parent",
+				"id": 352,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Återladdad"
+			},
+			{
+				"system": "unusual_frank_purple_parent",
+				"id": 353,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Vandöd elektricitet"
+			},
+			{
+				"system": "unusual_frank_yellow_parent",
+				"id": 354,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Frankenladdad"
+			},
+			{
+				"system": "unusual_skullsmoke_green_parent",
+				"id": 355,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Fantompest"
+			},
+			{
+				"system": "unusual_skullsmoke_purple_parent",
+				"id": 356,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Hemsökt dimma"
+			},
+			{
+				"system": "unusual_pigeons_green_parent",
+				"id": 357,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Bitska vampyrer"
+			},
+			{
+				"system": "unusual_pigeons_purple_parent",
+				"id": 358,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Glupska korpar"
+			},
+			{
+				"system": "unusual_pigeons_white_parent",
+				"id": 359,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Ljuvliga duvor"
+			},
+			{
+				"system": "unusual_stove_teamcolor_red",
+				"id": 360,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Osande spis"
+			},
+			{
+				"system": "unusual_stove_teamcolor_blue",
+				"id": 361,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Osande spis"
+			},
+			{
+				"system": "unusual_electricfire_teamcolor_red",
+				"id": 362,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Überlåga"
+			},
+			{
+				"system": "unusual_electricfire_teamcolor_blue",
+				"id": 363,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Überlåga"
+			},
+			{
+				"system": "unusual_sizzling_parent",
+				"id": 364,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Rykande"
+			},
+			{
+				"system": "unusual_icrown_teamcolor_red",
+				"id": 365,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Kristallkrona"
+			},
+			{
+				"system": "unusual_icrown_teamcolor_blue",
+				"id": 366,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Kristallkrona"
+			},
+			{
+				"system": "unusual_icrown_parent_purple",
+				"id": 367,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Salig gloria"
+			},
+			{
+				"system": "unusual_timeghosts_parent",
+				"id": 368,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Smissmas andar"
+			},
+			{
+				"system": "unusual_aurora_parent",
+				"id": 369,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Polarsky"
+			},
+			{
+				"system": "unusual_bokehsparkle_parent",
+				"id": 370,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Glänsande bokeh"
+			},
+			{
+				"system": "unusual_playful_purple_parent",
+				"id": 371,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Lekfull aurora"
+			},
+			{
+				"system": "unusual_playful_yellow_parent",
+				"id": 372,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Frisk morgon"
+			},
+			{
+				"system": "unusual_drunk_parent",
+				"id": 373,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Fyllbult"
+			},
+			{
+				"system": "unusual_excalibur_teamcolor_red",
+				"id": 374,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Hundra hugg"
+			},
+			{
+				"system": "unusual_excalibur_teamcolor_blue",
+				"id": 375,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Hundra hugg"
+			},
+			{
+				"system": "unusual_excalibur_parent_purple",
+				"id": 376,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Dödens dolkar"
+			},
+			{
+				"system": "unusual_uber_teamcolor_red",
+				"id": 377,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Maxladdad"
+			},
+			{
+				"system": "unusual_uber_teamcolor_blue",
+				"id": 378,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Maxladdad"
+			},
+			{
+				"system": "unusual_uber_gold_parent",
+				"id": 379,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Överladdad"
+			},
+			{
+				"system": "unusual_orbitingbullet_parent",
+				"id": 380,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Genomborrande huvudvärk"
+			},
+			{
+				"system": "unusual_typhoon_parent",
+				"id": 381,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Vansinnig vindstyrka"
+			},
+			{
+				"system": "unusual_ocean_swirl_teamcolor_red",
+				"id": 382,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Ocean Swirl"
+			},
+			{
+				"system": "unusual_ocean_swirl_teamcolor_blue",
+				"id": 383,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Ocean Swirl"
+			},
+			{
+				"system": "unusual_ocean_swirl_green_parent",
+				"id": 384,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Toxic Swirl"
+			},
+			{
+				"system": "unusual_candle_teamcolor_red",
+				"id": 385,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Candle Flame"
+			},
+			{
+				"system": "unusual_candle_teamcolor_blue",
+				"id": 386,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Candle Flame"
+			},
+			{
+				"system": "unusual_deadlyaroma_teamcolor_red",
+				"id": 387,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Sizzling Aroma"
+			},
+			{
+				"system": "unusual_deadlyaroma_teamcolor_blue",
+				"id": 388,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Sizzling Aroma"
+			},
+			{
+				"system": "unusual_deadlyaroma_green_parent",
+				"id": 389,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Toxic Aroma"
+			},
+			{
+				"system": "unusual_conductor_teamc_teamcolor_red",
+				"id": 390,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Current Conductor"
+			},
+			{
+				"system": "unusual_conductor_teamc_teamcolor_blue",
+				"id": 391,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Current Conductor"
+			},
+			{
+				"system": "unusual_sandy_parent",
+				"id": 392,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Sandy"
 			},
 			{
 				"system": "weapon_unusual_hot",
@@ -11198,61 +11773,61 @@
 				"system": "utaunt_spirit_winter_parent",
 				"id": 3034,
 				"attach_to_rootbone": false,
-				"name": "Winter Spirit"
+				"name": "Vinteranda"
 			},
 			{
 				"system": "utaunt_spirit_festive_parent",
 				"id": 3035,
 				"attach_to_rootbone": false,
-				"name": "Festive Spirit"
+				"name": "Feststämning"
 			},
 			{
 				"system": "utaunt_spirit_magical_parent",
 				"id": 3036,
 				"attach_to_rootbone": false,
-				"name": "Magical Spirit"
+				"name": "Magisk stämning"
 			},
 			{
 				"system": "utaunt_astralbodies_greenorange_parent",
 				"id": 3037,
 				"attach_to_rootbone": false,
-				"name": "Spectral Escort"
+				"name": "Spektraleskort"
 			},
 			{
 				"system": "utaunt_astralbodies_tealpurple_parent",
 				"id": 3038,
 				"attach_to_rootbone": false,
-				"name": "Astral Presence"
+				"name": "Astral närvaro"
 			},
 			{
 				"system": "utaunt_astralbodies_teamcolor_red",
 				"id": 3039,
 				"attach_to_rootbone": false,
-				"name": "Arcane Assistance"
+				"name": "Mystisk assistans"
 			},
 			{
 				"system": "utaunt_astralbodies_teamcolor_blue",
 				"id": 3040,
 				"attach_to_rootbone": false,
-				"name": "Arcane Assistance"
+				"name": "Mystisk assistans"
 			},
 			{
 				"system": "utaunt_glowyplayer_green_parent",
 				"id": 3041,
 				"attach_to_rootbone": false,
-				"name": "Emerald Allurement"
+				"name": "Lockande smaragd"
 			},
 			{
 				"system": "utaunt_glowyplayer_orange_parent",
 				"id": 3042,
 				"attach_to_rootbone": false,
-				"name": "Pyrophoric Personality"
+				"name": "Pyroforisk personlighet"
 			},
 			{
 				"system": "utaunt_glowyplayer_purple_parent",
 				"id": 3043,
 				"attach_to_rootbone": false,
-				"name": "Spellbound Aspect"
+				"name": "Förtrollad aspekt"
 			},
 			{
 				"system": "utaunt_electricity_parent",
@@ -11264,7 +11839,7 @@
 				"system": "utaunt_electricity_purple_parent",
 				"id": 3045,
 				"attach_to_rootbone": false,
-				"name": "Veno Shock"
+				"name": "Giftchock"
 			},
 			{
 				"system": "utaunt_spider_green_parent",
@@ -11276,61 +11851,61 @@
 				"system": "utaunt_spider_orange_parent",
 				"id": 3047,
 				"attach_to_rootbone": false,
-				"name": "Arachnid Assault"
+				"name": "Spindelangrepp"
 			},
 			{
 				"system": "utaunt_spider_purple_parent",
 				"id": 3048,
 				"attach_to_rootbone": false,
-				"name": "Creepy Crawlies"
+				"name": "Krälande småkryp"
 			},
 			{
 				"system": "utaunt_tf2smissmas_tree_parent",
 				"id": 3049,
 				"attach_to_rootbone": false,
-				"name": "Delightful Star"
+				"name": "Charmant stjärna"
 			},
 			{
 				"system": "utaunt_tf2smissmas_tree_parent_w",
 				"id": 3050,
 				"attach_to_rootbone": false,
-				"name": "Frosted Star"
+				"name": "Frostad stjärna"
 			},
 			{
 				"system": "utaunt_spirits_blue_parent",
 				"id": 3051,
 				"attach_to_rootbone": false,
-				"name": "Apotheosis"
+				"name": "Apoteos"
 			},
 			{
 				"system": "utaunt_spirits_purple_parent",
 				"id": 3052,
 				"attach_to_rootbone": false,
-				"name": "Ascension"
+				"name": "Uppstigning"
 			},
 			{
 				"system": "utaunt_balloonicorn_reindeer_teamcolor_red",
 				"id": 3053,
 				"attach_to_rootbone": false,
-				"name": "Reindoonicorn Rancher"
+				"name": "Renhörningsskötare"
 			},
 			{
 				"system": "utaunt_balloonicorn_reindeer_teamcolor_blue",
 				"id": 3054,
 				"attach_to_rootbone": false,
-				"name": "Reindoonicorn Rancher"
+				"name": "Renhörningsskötare"
 			},
 			{
 				"system": "utaunt_twinkling_rgb_parent",
 				"id": 3055,
 				"attach_to_rootbone": false,
-				"name": "Twinkling Lights"
+				"name": "Tindrande ljus"
 			},
 			{
 				"system": "utaunt_twinkling_goldsilver_parent",
 				"id": 3056,
 				"attach_to_rootbone": false,
-				"name": "Shimmering Lights"
+				"name": "Skimrande ljus"
 			},
 			{
 				"system": "utaunt_chain_green_parent",
@@ -11420,349 +11995,349 @@
 				"system": "utaunt_snowswirl_purple_parent",
 				"id": 3073,
 				"attach_to_rootbone": false,
-				"name": "Amethyst Winds"
+				"name": "Ametistvindar"
 			},
 			{
 				"system": "utaunt_snowswirl_yellow_parent",
 				"id": 3074,
 				"attach_to_rootbone": false,
-				"name": "Golden Gusts"
+				"name": "Gyllene vindbyar"
 			},
 			{
 				"system": "utaunt_snowswirl_teamcolor_red",
 				"id": 3075,
 				"attach_to_rootbone": false,
-				"name": "Smissmas Swirls"
+				"name": "Smissmas-virvlar"
 			},
 			{
 				"system": "utaunt_snowswirl_teamcolor_blue",
 				"id": 3076,
 				"attach_to_rootbone": false,
-				"name": "Smissmas Swirls"
+				"name": "Smissmas-virvlar"
 			},
 			{
 				"system": "utaunt_treespiral_green_parent",
 				"id": 3077,
 				"attach_to_rootbone": false,
-				"name": "Minty Cypress"
+				"name": "Mintcypress"
 			},
 			{
 				"system": "utaunt_treespiral_purple_parent",
 				"id": 3078,
 				"attach_to_rootbone": false,
-				"name": "Pristine Pine"
+				"name": "Pur furu"
 			},
 			{
 				"system": "utaunt_treespiral_teamcolor_red",
 				"id": 3079,
 				"attach_to_rootbone": false,
-				"name": "Sparkly Spruce"
+				"name": "Gnistrande gran"
 			},
 			{
 				"system": "utaunt_treespiral_teamcolor_blue",
 				"id": 3080,
 				"attach_to_rootbone": false,
-				"name": "Sparkly Spruce"
+				"name": "Gnistrande gran"
 			},
 			{
 				"system": "utaunt_gifts_teamcolor_red",
 				"id": 3081,
 				"attach_to_rootbone": false,
-				"name": "Festive Fever"
+				"name": "Festlig feber"
 			},
 			{
 				"system": "utaunt_gifts_teamcolor_blue",
 				"id": 3082,
 				"attach_to_rootbone": false,
-				"name": "Festive Fever"
+				"name": "Festlig feber"
 			},
 			{
 				"system": "utaunt_glitter_parent_gold",
 				"id": 3083,
 				"attach_to_rootbone": false,
-				"name": "Golden Glimmer"
+				"name": "Guldglimmer"
 			},
 			{
 				"system": "utaunt_glitter_parent_silver",
 				"id": 3084,
 				"attach_to_rootbone": false,
-				"name": "Frosty Silver"
+				"name": "Frostig silver"
 			},
 			{
 				"system": "utaunt_glitter_teamcolor_red",
 				"id": 3085,
 				"attach_to_rootbone": false,
-				"name": "Glamorous Dazzle"
+				"name": "Glamoröst skimmer"
 			},
 			{
 				"system": "utaunt_glitter_teamcolor_blue",
 				"id": 3086,
 				"attach_to_rootbone": false,
-				"name": "Glamorous Dazzle"
+				"name": "Glamoröst skimmer"
 			},
 			{
 				"system": "utaunt_ice_parent",
 				"id": 3087,
 				"attach_to_rootbone": false,
-				"name": "Sublime Snowstorm"
+				"name": "Sublim snöstorm"
 			},
 			{
 				"system": "utaunt_marigoldritual_teamcolor_red",
 				"id": 3088,
 				"attach_to_rootbone": false,
-				"name": "Marigold Ritual"
+				"name": "Ringblommedans"
 			},
 			{
 				"system": "utaunt_marigoldritual_teamcolor_blue",
 				"id": 3089,
 				"attach_to_rootbone": false,
-				"name": "Marigold Ritual"
+				"name": "Ringblommedans"
 			},
 			{
 				"system": "utaunt_poison_parent_green",
 				"id": 3090,
 				"attach_to_rootbone": false,
-				"name": "Pungent Poison"
+				"name": "Stickande gift"
 			},
 			{
 				"system": "utaunt_poison_parent_orange",
 				"id": 3091,
 				"attach_to_rootbone": false,
-				"name": "Blazed Brew"
+				"name": "Brinnande brygd"
 			},
 			{
 				"system": "utaunt_poison_parent_purple",
 				"id": 3092,
 				"attach_to_rootbone": false,
-				"name": "Mysterious Mixture"
+				"name": "Mystisk blandning"
 			},
 			{
 				"system": "utaunt_runeprison_green_parent",
 				"id": 3093,
 				"attach_to_rootbone": false,
-				"name": "Linguistic Deviation"
+				"name": "Språklig avvikelse"
 			},
 			{
 				"system": "utaunt_runeprison_yellow_parent",
 				"id": 3094,
 				"attach_to_rootbone": false,
-				"name": "Aurelian Seal"
+				"name": "Aureliskt sigill"
 			},
 			{
 				"system": "utaunt_runeprison_teamcolor_red",
 				"id": 3095,
 				"attach_to_rootbone": false,
-				"name": "Runic Imprisonment"
+				"name": "Runfängsel"
 			},
 			{
 				"system": "utaunt_runeprison_teamcolor_blue",
 				"id": 3096,
 				"attach_to_rootbone": false,
-				"name": "Runic Imprisonment"
+				"name": "Runfängsel"
 			},
 			{
 				"system": "utaunt_prismatichaze_parent",
 				"id": 3097,
 				"attach_to_rootbone": false,
-				"name": "Prismatic Haze"
+				"name": "Prismatiskt dis"
 			},
 			{
 				"system": "utaunt_risingsprit_teamcolor_red",
 				"id": 3098,
 				"attach_to_rootbone": false,
-				"name": "Rising Ritual"
+				"name": "Stigande ritual"
 			},
 			{
 				"system": "utaunt_risingsprit_teamcolor_blue",
 				"id": 3099,
 				"attach_to_rootbone": false,
-				"name": "Rising Ritual"
+				"name": "Stigande ritual"
 			},
 			{
 				"system": "utaunt_hands_teamcolor_red",
 				"id": 3100,
 				"attach_to_rootbone": false,
-				"name": "Bloody Grip"
+				"name": "Blodgrepp"
 			},
 			{
 				"system": "utaunt_hands_teamcolor_blue",
 				"id": 3101,
 				"attach_to_rootbone": false,
-				"name": "Bloody Grip"
+				"name": "Blodgrepp"
 			},
 			{
 				"system": "utaunt_hands_green_parent",
 				"id": 3102,
 				"attach_to_rootbone": false,
-				"name": "Toxic Grip"
+				"name": "Giftgrepp"
 			},
 			{
 				"system": "utaunt_hands_orange_parent",
 				"id": 3103,
 				"attach_to_rootbone": false,
-				"name": "Infernal Grip"
+				"name": "Helvetsgrepp"
 			},
 			{
 				"system": "utaunt_hands_purple_parent",
 				"id": 3104,
 				"attach_to_rootbone": false,
-				"name": "Death Grip"
+				"name": "Dödsgrepp"
 			},
 			{
 				"system": "utaunt_storm_parent_g",
 				"id": 3105,
 				"attach_to_rootbone": false,
-				"name": "Charged Arcane"
+				"name": "Laddad magi"
 			},
 			{
 				"system": "utaunt_storm_parent_k",
 				"id": 3106,
 				"attach_to_rootbone": false,
-				"name": "Thunderous Rage"
+				"name": "Åskande ilska"
 			},
 			{
 				"system": "utaunt_storm_parent_o",
 				"id": 3107,
 				"attach_to_rootbone": false,
-				"name": "Convulsive Fiery"
+				"name": "Konvulsiv glöd"
 			},
 			{
 				"system": "utaunt_festivelights_teamcolor_red",
 				"id": 3108,
 				"attach_to_rootbone": false,
-				"name": "Festivized Formation"
+				"name": "Festlig form"
 			},
 			{
 				"system": "utaunt_festivelights_teamcolor_blue",
 				"id": 3109,
 				"attach_to_rootbone": false,
-				"name": "Festivized Formation"
+				"name": "Festlig form"
 			},
 			{
 				"system": "utaunt_glow_spirit_parent_cr",
 				"id": 3110,
 				"attach_to_rootbone": false,
-				"name": "Twirling Spirits"
+				"name": "Virvlande andar"
 			},
 			{
 				"system": "utaunt_glow_spirit_parent_og",
 				"id": 3111,
 				"attach_to_rootbone": false,
-				"name": "Squash n' Twist"
+				"name": "Squashtwist"
 			},
 			{
 				"system": "utaunt_glow_spirit_parent_pp",
 				"id": 3112,
 				"attach_to_rootbone": false,
-				"name": "Midnight Sparklers"
+				"name": "Midnattsbloss"
 			},
 			{
 				"system": "utaunt_snowflakesaura_parent",
 				"id": 3113,
 				"attach_to_rootbone": false,
-				"name": "Boundless Blizzard"
+				"name": "Ändlös snöstorm"
 			},
 			{
 				"system": "utaunt_sun_sand_rays_parent",
 				"id": 3114,
 				"attach_to_rootbone": false,
-				"name": "Solar Scorched"
+				"name": "Solbränd"
 			},
 			{
 				"system": "utaunt_undersea_teamcolor_red",
 				"id": 3115,
 				"attach_to_rootbone": false,
-				"name": "Deepsea Rave"
+				"name": "Bottenfest"
 			},
 			{
 				"system": "utaunt_undersea_teamcolor_blue",
 				"id": 3116,
 				"attach_to_rootbone": false,
-				"name": "Deepsea Rave"
+				"name": "Bottenfest"
 			},
 			{
 				"system": "utaunt_lavalamp_green_parent",
 				"id": 3117,
 				"attach_to_rootbone": false,
-				"name": "Blooming Beacon"
+				"name": "Grönskande lava"
 			},
 			{
 				"system": "utaunt_lavalamp_purple_parent",
 				"id": 3118,
 				"attach_to_rootbone": false,
-				"name": "Beaming Beacon"
+				"name": "Strålande stråle"
 			},
 			{
 				"system": "utaunt_lavalamp_yellow_parent",
 				"id": 3119,
 				"attach_to_rootbone": false,
-				"name": "Blazing Beacon"
+				"name": "Flammande stråle"
 			},
 			{
 				"system": "utaunt_fish_parent",
 				"id": 3120,
 				"attach_to_rootbone": false,
-				"name": "Floppin' Frenzy"
+				"name": "Fiskfrenesi"
 			},
 			{
 				"system": "utaunt_rainbow_teamcolor_red",
 				"id": 3121,
 				"attach_to_rootbone": false,
-				"name": "Pastel Trance"
+				"name": "Pastelltrance"
 			},
 			{
 				"system": "utaunt_rainbow_teamcolor_blue",
 				"id": 3122,
 				"attach_to_rootbone": false,
-				"name": "Pastel Trance"
+				"name": "Pastelltrance"
 			},
 			{
 				"system": "utaunt_wild_meadows_parent",
 				"id": 3123,
 				"attach_to_rootbone": false,
-				"name": "Wildflower Meadows"
+				"name": "Blomsteräng"
 			},
 			{
 				"system": "utaunt_krakenmouth_green_parent",
 				"id": 3124,
 				"attach_to_rootbone": false,
-				"name": "Deep-sea Devourer"
+				"name": "Djuphavsslukare"
 			},
 			{
 				"system": "utaunt_krakenmouth_purple_parent",
 				"id": 3125,
 				"attach_to_rootbone": false,
-				"name": "Eldritch Horror"
+				"name": "Avgrundsskrik"
 			},
 			{
 				"system": "utaunt_leaftaunt_parent",
 				"id": 3126,
 				"attach_to_rootbone": false,
-				"name": "Autumn Leaves"
+				"name": "Höstlöv"
 			},
 			{
 				"system": "utaunt_graveparty_parent",
 				"id": 3127,
 				"attach_to_rootbone": false,
-				"name": "Dead Man's Party"
+				"name": "Gravfest"
 			},
 			{
 				"system": "utaunt_spellsplash_parent",
 				"id": 3128,
 				"attach_to_rootbone": false,
-				"name": "Potion Explosion"
+				"name": "Explosionsbrygd"
 			},
 			{
 				"system": "utaunt_cremation_purple_parent",
 				"id": 3129,
 				"attach_to_rootbone": false,
-				"name": "Haunted Cremation"
+				"name": "Hemsökt kremering"
 			},
 			{
 				"system": "utaunt_cremation_black_parent",
 				"id": 3130,
 				"attach_to_rootbone": false,
-				"name": "Cremation"
+				"name": "Kremering"
 			},
 			{
 				"system": "utaunt_snowfall_parent",
@@ -11849,6 +12424,414 @@
 				"name": "Dansanta blad"
 			},
 			{
+				"system": "utaunt_dragonfly_teamcolor_red",
+				"id": 3145,
+				"attach_to_rootbone": false,
+				"name": "Trollsländornas famn"
+			},
+			{
+				"system": "utaunt_dragonfly_teamcolor_blue",
+				"id": 3146,
+				"attach_to_rootbone": false,
+				"name": "Trollsländornas famn"
+			},
+			{
+				"system": "utaunt_dragonfly_green_parent",
+				"id": 3147,
+				"attach_to_rootbone": false,
+				"name": "Trollsländornas natur"
+			},
+			{
+				"system": "utaunt_dragonfly_purple_parent",
+				"id": 3148,
+				"attach_to_rootbone": false,
+				"name": "Trollsländornas glans"
+			},
+			{
+				"system": "utaunt_demigodery_teamcolor_red",
+				"id": 3149,
+				"attach_to_rootbone": false,
+				"name": "Elstöt"
+			},
+			{
+				"system": "utaunt_demigodery_teamcolor_blue",
+				"id": 3150,
+				"attach_to_rootbone": false,
+				"name": "Elstöt"
+			},
+			{
+				"system": "utaunt_signalflares_teamcolor_red",
+				"id": 3151,
+				"attach_to_rootbone": false,
+				"name": "Nödsignal"
+			},
+			{
+				"system": "utaunt_signalflares_teamcolor_blue",
+				"id": 3152,
+				"attach_to_rootbone": false,
+				"name": "Nödsignal"
+			},
+			{
+				"system": "utaunt_signalflares_green_parent",
+				"id": 3153,
+				"attach_to_rootbone": false,
+				"name": "Cariocas kallelse"
+			},
+			{
+				"system": "utaunt_celebrationtime_teamcolor_red",
+				"id": 3154,
+				"attach_to_rootbone": false,
+				"name": "Fiesta royale"
+			},
+			{
+				"system": "utaunt_celebrationtime_teamcolor_blue",
+				"id": 3155,
+				"attach_to_rootbone": false,
+				"name": "Fiesta royale"
+			},
+			{
+				"system": "utaunt_celebrationtime_yellow_parent",
+				"id": 3156,
+				"attach_to_rootbone": false,
+				"name": "Jubileumsjubel"
+			},
+			{
+				"system": "utaunt_god_lava_teamcolor_red",
+				"id": 3157,
+				"attach_to_rootbone": false,
+				"name": "Elementär"
+			},
+			{
+				"system": "utaunt_god_lava_teamcolor_blue",
+				"id": 3158,
+				"attach_to_rootbone": false,
+				"name": "Elementär"
+			},
+			{
+				"system": "utaunt_god_gold_parent",
+				"id": 3159,
+				"attach_to_rootbone": false,
+				"name": "Gudomlig"
+			},
+			{
+				"system": "utaunt_aestheticlogo_teamcolor_red",
+				"id": 3160,
+				"attach_to_rootbone": false,
+				"name": "Heroiskt lagarbete"
+			},
+			{
+				"system": "utaunt_aestheticlogo_teamcolor_blue",
+				"id": 3161,
+				"attach_to_rootbone": false,
+				"name": "Heroiskt lagarbete"
+			},
+			{
+				"system": "utaunt_aestheticlogo_orange_parent",
+				"id": 3162,
+				"attach_to_rootbone": false,
+				"name": "Minnesmärke"
+			},
+			{
+				"system": "utaunt_desert_wind_parent",
+				"id": 3163,
+				"attach_to_rootbone": false,
+				"name": "Ökenvind"
+			},
+			{
+				"system": "utaunt_desert_monsoon_parent",
+				"id": 3164,
+				"attach_to_rootbone": false,
+				"name": "Regnperiod"
+			},
+			{
+				"system": "utaunt_treasure_teamcolor_red",
+				"id": 3165,
+				"attach_to_rootbone": false,
+				"name": "Rikliga rikedomar"
+			},
+			{
+				"system": "utaunt_treasure_teamcolor_blue",
+				"id": 3166,
+				"attach_to_rootbone": false,
+				"name": "Rikliga rikedomar"
+			},
+			{
+				"system": "utaunt_hearttreasure_parent",
+				"id": 3167,
+				"attach_to_rootbone": false,
+				"name": "Älskare av lyx"
+			},
+			{
+				"system": "utaunt_wiggletube_teamcolor_red",
+				"id": 3168,
+				"attach_to_rootbone": false,
+				"name": "Amorös"
+			},
+			{
+				"system": "utaunt_wiggletube_teamcolor_blue",
+				"id": 3169,
+				"attach_to_rootbone": false,
+				"name": "Amorös"
+			},
+			{
+				"system": "utaunt_wiggletube_coffee_parent",
+				"id": 3170,
+				"attach_to_rootbone": false,
+				"name": "Elektrum"
+			},
+			{
+				"system": "utaunt_flowerrain_teamcolor_red",
+				"id": 3171,
+				"attach_to_rootbone": false,
+				"name": "Blomsterregn"
+			},
+			{
+				"system": "utaunt_flowerrain_teamcolor_blue",
+				"id": 3172,
+				"attach_to_rootbone": false,
+				"name": "Blomsterregn"
+			},
+			{
+				"system": "utaunt_flowerrain_purple_parent",
+				"id": 3173,
+				"attach_to_rootbone": false,
+				"name": "Våldsamma violer"
+			},
+			{
+				"system": "utaunt_poweraura_teamcolor_red",
+				"id": 3174,
+				"attach_to_rootbone": false,
+				"name": "Krafttryck"
+			},
+			{
+				"system": "utaunt_poweraura_teamcolor_blue",
+				"id": 3175,
+				"attach_to_rootbone": false,
+				"name": "Krafttryck"
+			},
+			{
+				"system": "utaunt_poweraura_green_parent",
+				"id": 3176,
+				"attach_to_rootbone": false,
+				"name": "Stigande ström"
+			},
+			{
+				"system": "utaunt_poweraura_purple_parent",
+				"id": 3177,
+				"attach_to_rootbone": false,
+				"name": "Laddningskatalysator"
+			},
+			{
+				"system": "utaunt_poweraura_yellow_parent",
+				"id": 3178,
+				"attach_to_rootbone": false,
+				"name": "Förstärkande aura"
+			},
+			{
+				"system": "utaunt_mysticfusion_parent",
+				"id": 3179,
+				"attach_to_rootbone": false,
+				"name": "Mystisk fusion"
+			},
+			{
+				"system": "utaunt_confetti_gy_parent",
+				"id": 3180,
+				"attach_to_rootbone": false,
+				"name": "Irriterande konfetti"
+			},
+			{
+				"system": "utaunt_confetti_pp_parent",
+				"id": 3181,
+				"attach_to_rootbone": false,
+				"name": "Älskvärd konfetti"
+			},
+			{
+				"system": "utaunt_confetti_yp_parent",
+				"id": 3182,
+				"attach_to_rootbone": false,
+				"name": "Konfettiregn"
+			},
+			{
+				"system": "utaunt_heavyrain_parent",
+				"id": 3183,
+				"attach_to_rootbone": false,
+				"name": "Ösregn"
+			},
+			{
+				"system": "utaunt_field_parent",
+				"id": 3184,
+				"attach_to_rootbone": false,
+				"name": "Pumpaodling"
+			},
+			{
+				"system": "utaunt_whitesmissmas_parent",
+				"id": 3185,
+				"attach_to_rootbone": false,
+				"name": "Snöig dag"
+			},
+			{
+				"system": "utaunt_busysnow_teamcolor_red",
+				"id": 3186,
+				"attach_to_rootbone": false,
+				"name": "Snöstämning"
+			},
+			{
+				"system": "utaunt_busysnow_teamcolor_blue",
+				"id": 3187,
+				"attach_to_rootbone": false,
+				"name": "Snöstämning"
+			},
+			{
+				"system": "utaunt_busysnow_parent_p",
+				"id": 3188,
+				"attach_to_rootbone": false,
+				"name": "Lila sensation"
+			},
+			{
+				"system": "utaunt_busysnow_parent_g",
+				"id": 3189,
+				"attach_to_rootbone": false,
+				"name": "Grönt fenomen"
+			},
+			{
+				"system": "utaunt_roses_teamcolor_red",
+				"id": 3190,
+				"attach_to_rootbone": false,
+				"name": "Prisbelönt"
+			},
+			{
+				"system": "utaunt_roses_teamcolor_blue",
+				"id": 3191,
+				"attach_to_rootbone": false,
+				"name": "Prisbelönt"
+			},
+			{
+				"system": "utaunt_roses_gold_parent",
+				"id": 3192,
+				"attach_to_rootbone": false,
+				"name": "Operatisk triumf"
+			},
+			{
+				"system": "utaunt_tangledlights_parent",
+				"id": 3193,
+				"attach_to_rootbone": false,
+				"name": "Trassliga ljus"
+			},
+			{
+				"system": "utaunt_seamine_teamcolor_red",
+				"id": 3194,
+				"attach_to_rootbone": false,
+				"name": "Sjömina"
+			},
+			{
+				"system": "utaunt_seamine_teamcolor_blue",
+				"id": 3195,
+				"attach_to_rootbone": false,
+				"name": "Sjömina"
+			},
+			{
+				"system": "utaunt_iconicoutline_teamcolor_red",
+				"id": 3196,
+				"attach_to_rootbone": false,
+				"name": "Ikonisk kontur"
+			},
+			{
+				"system": "utaunt_iconicoutline_teamcolor_blue",
+				"id": 3197,
+				"attach_to_rootbone": false,
+				"name": "Ikonisk kontur"
+			},
+			{
+				"system": "utaunt_iconicoutline_pink_parent",
+				"id": 3198,
+				"attach_to_rootbone": false,
+				"name": "Subtil silhuett"
+			},
+			{
+				"system": "utaunt_oceanreef_parent",
+				"id": 3199,
+				"attach_to_rootbone": false,
+				"name": "Havsrev"
+			},
+			{
+				"system": "utaunt_signalinterference_parent",
+				"id": 3200,
+				"attach_to_rootbone": false,
+				"name": "Dålig signal"
+			},
+			{
+				"system": "utaunt_waterwave_parent",
+				"id": 3201,
+				"attach_to_rootbone": false,
+				"name": "Sommarbölja"
+			},
+			{
+				"system": "utaunt_sharkfin2_parent",
+				"id": 3202,
+				"attach_to_rootbone": false,
+				"name": "Hajattack"
+			},
+			{
+				"system": "utaunt_phantasam_green_parent",
+				"id": 3203,
+				"attach_to_rootbone": false,
+				"name": "Hazardous Gas"
+			},
+			{
+				"system": "utaunt_phantasam_grey_parent",
+				"id": 3204,
+				"attach_to_rootbone": false,
+				"name": "Phantasmal Fog"
+			},
+			{
+				"system": "utaunt_phantasam_purple_parent",
+				"id": 3205,
+				"attach_to_rootbone": false,
+				"name": "Haunted Mist"
+			},
+			{
+				"system": "utaunt_multicurse_teamcolor_red",
+				"id": 3206,
+				"attach_to_rootbone": false,
+				"name": "Split Malice"
+			},
+			{
+				"system": "utaunt_multicurse_teamcolor_blue",
+				"id": 3207,
+				"attach_to_rootbone": false,
+				"name": "Split Malice"
+			},
+			{
+				"system": "utaunt_voidcrawlers_parent",
+				"id": 3208,
+				"attach_to_rootbone": false,
+				"name": "Void Crawlers"
+			},
+			{
+				"system": "utaunt_tarpit_dinos_parent",
+				"id": 3209,
+				"attach_to_rootbone": false,
+				"name": "Fossil Fueled"
+			},
+			{
+				"system": "utaunt_tarpit_people_parent",
+				"id": 3210,
+				"attach_to_rootbone": false,
+				"name": "Tar Pit"
+			},
+			{
+				"system": "utaunt_morbed_teamcolor_red",
+				"id": 3211,
+				"attach_to_rootbone": false,
+				"name": "Morbidly Beast"
+			},
+			{
+				"system": "utaunt_morbed_teamcolor_blue",
+				"id": 3212,
+				"attach_to_rootbone": false,
+				"name": "Morbidly Beast"
+			},
+			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",
 				"id": 22001,
 				"attach_to_rootbone": false,
@@ -11915,17 +12898,17 @@
 					{
 						"level": 2,
 						"required_score": 45,
-						"name": "Knappt Dödlig"
+						"name": "Knappt dödlig"
 					},
 					{
 						"level": 3,
 						"required_score": 70,
-						"name": "Aningen Aggressiv"
+						"name": "Aningen aggressiv"
 					},
 					{
 						"level": 4,
 						"required_score": 100,
-						"name": "Något Hotfull"
+						"name": "Något hotfull"
 					},
 					{
 						"level": 5,
@@ -11935,22 +12918,22 @@
 					{
 						"level": 6,
 						"required_score": 175,
-						"name": "Hyfsat Hård"
+						"name": "Hyfsat hård"
 					},
 					{
 						"level": 7,
 						"required_score": 225,
-						"name": "Tillräckligt Dödlig"
+						"name": "Tillräckligt dödlig"
 					},
 					{
 						"level": 8,
 						"required_score": 275,
-						"name": "Sannerligen Fruktad"
+						"name": "Sannerligen fruktad"
 					},
 					{
 						"level": 9,
 						"required_score": 350,
-						"name": "Spektakulärt Hänsynslös"
+						"name": "Spektakulärt hänsynslös"
 					},
 					{
 						"level": 10,
@@ -11960,17 +12943,17 @@
 					{
 						"level": 11,
 						"required_score": 750,
-						"name": "Galet Elak"
+						"name": "Galet elak"
 					},
 					{
 						"level": 12,
 						"required_score": 999,
-						"name": "Definitivt Omänsklig"
+						"name": "Definitivt omänsklig"
 					},
 					{
 						"level": 13,
 						"required_score": 1000,
-						"name": "Totalt Ordinär"
+						"name": "Totalt ordinär"
 					},
 					{
 						"level": 14,
@@ -12005,7 +12988,7 @@
 					{
 						"level": 20,
 						"required_score": 10000,
-						"name": "Hales Egen"
+						"name": "Hales egen"
 					}
 				]
 				
@@ -12222,7 +13205,7 @@
 					{
 						"level": 20,
 						"required_score": 10000,
-						"name": "Mann Co.-Exklusiv"
+						"name": "Mann Co.-exklusiv"
 					}
 				]
 				
@@ -12243,17 +13226,17 @@
 					{
 						"level": 2,
 						"required_score": 5,
-						"name": "Knappt Använda"
+						"name": "Knappt använda"
 					},
 					{
 						"level": 3,
 						"required_score": 7,
-						"name": "Något Hotfulla"
+						"name": "Något hotfulla"
 					},
 					{
 						"level": 4,
 						"required_score": 10,
-						"name": "Förkrossande Krossande"
+						"name": "Förkrossande krossande"
 					},
 					{
 						"level": 5,
@@ -12263,42 +13246,42 @@
 					{
 						"level": 6,
 						"required_score": 18,
-						"name": "Ganska Ljusdämpande"
+						"name": "Ganska ljusdämpande"
 					},
 					{
 						"level": 7,
 						"required_score": 23,
-						"name": "Tillräckligt Solförmörkande"
+						"name": "Tillräckligt solförmörkande"
 					},
 					{
 						"level": 8,
 						"required_score": 28,
-						"name": "Sannerligen Förmörkande"
+						"name": "Sannerligen förmörkande"
 					},
 					{
 						"level": 9,
 						"required_score": 35,
-						"name": "Spektakulärt Dödliga"
+						"name": "Spektakulärt dödliga"
 					},
 					{
 						"level": 10,
 						"required_score": 50,
-						"name": "Moderiktiga och Blodstänkta"
+						"name": "Moderiktiga och blodstänkta"
 					},
 					{
 						"level": 11,
 						"required_score": 75,
-						"name": "Galet Illaluktande"
+						"name": "Galet illaluktande"
 					},
 					{
 						"level": 12,
 						"required_score": 99,
-						"name": "Positivt Plana"
+						"name": "Positivt plana"
 					},
 					{
 						"level": 13,
 						"required_score": 100,
-						"name": "Mycket Bekväma"
+						"name": "Mycket bekväma"
 					},
 					{
 						"level": 14,
@@ -12333,7 +13316,7 @@
 					{
 						"level": 20,
 						"required_score": 1000,
-						"name": "Hales Anpassade"
+						"name": "Hales anpassade"
 					}
 				]
 				
@@ -12354,17 +13337,17 @@
 					{
 						"level": 2,
 						"required_score": 15,
-						"name": "Knappt Chockerande"
+						"name": "Knappt chockerande"
 					},
 					{
 						"level": 3,
 						"required_score": 21,
-						"name": "Milt Magnetiserande"
+						"name": "Milt magnetiserande"
 					},
 					{
 						"level": 4,
 						"required_score": 30,
-						"name": "Någorlunda Inducerande"
+						"name": "Någorlunda inducerande"
 					},
 					{
 						"level": 5,
@@ -12374,22 +13357,22 @@
 					{
 						"level": 6,
 						"required_score": 54,
-						"name": "Märkbart Borttagande"
+						"name": "Märkbart borttagande"
 					},
 					{
 						"level": 7,
 						"required_score": 69,
-						"name": "Tillräckligt Ruinerande"
+						"name": "Tillräckligt ruinerande"
 					},
 					{
 						"level": 8,
 						"required_score": 84,
-						"name": "Sannerligen Ledande"
+						"name": "Sannerligen ledande"
 					},
 					{
 						"level": 9,
 						"required_score": 105,
-						"name": "Spektakulärt Pseudoisk"
+						"name": "Spektakulärt pseudoisk"
 					},
 					{
 						"level": 10,
@@ -12399,17 +13382,17 @@
 					{
 						"level": 11,
 						"required_score": 225,
-						"name": "Galet Dynamitlig"
+						"name": "Galet dynamitlig"
 					},
 					{
 						"level": 12,
 						"required_score": 299,
-						"name": "Positivt Plasmatisk"
+						"name": "Positivt plasmatisk"
 					},
 					{
 						"level": 13,
 						"required_score": 300,
-						"name": "Totalt Ordinär"
+						"name": "Totalt ordinär"
 					},
 					{
 						"level": 14,
@@ -12444,7 +13427,7 @@
 					{
 						"level": 20,
 						"required_score": 3000,
-						"name": "Mann Co.-Exklusiv"
+						"name": "Mann Co.-exklusiv"
 					}
 				]
 				
@@ -12576,17 +13559,17 @@
 					{
 						"level": 2,
 						"required_score": 900,
-						"name": "Knappt Chockerande"
+						"name": "Knappt chockerande"
 					},
 					{
 						"level": 3,
 						"required_score": 1337,
-						"name": "Milt Magnetiserande"
+						"name": "Milt magnetiserande"
 					},
 					{
 						"level": 4,
 						"required_score": 2000,
-						"name": "Någorlunda Inducerande"
+						"name": "Någorlunda inducerande"
 					},
 					{
 						"level": 5,
@@ -12596,22 +13579,22 @@
 					{
 						"level": 6,
 						"required_score": 3500,
-						"name": "Märkbart Borttagande"
+						"name": "Märkbart borttagande"
 					},
 					{
 						"level": 7,
 						"required_score": 4500,
-						"name": "Tillräckligt Ruinerande"
+						"name": "Tillräckligt ruinerande"
 					},
 					{
 						"level": 8,
 						"required_score": 5500,
-						"name": "Sannerligen Ledande"
+						"name": "Sannerligen ledande"
 					},
 					{
 						"level": 9,
 						"required_score": 7000,
-						"name": "Spekakulärt Pseudoisk"
+						"name": "Spekakulärt pseudoisk"
 					},
 					{
 						"level": 10,
@@ -12621,17 +13604,17 @@
 					{
 						"level": 11,
 						"required_score": 12000,
-						"name": "Galet Dynamitlig"
+						"name": "Galet dynamitlig"
 					},
 					{
 						"level": 12,
 						"required_score": 16000,
-						"name": "Positivt Plasmatisk"
+						"name": "Positivt plasmatisk"
 					},
 					{
 						"level": 13,
 						"required_score": 21337,
-						"name": "Totalt Ordinär"
+						"name": "Totalt ordinär"
 					},
 					{
 						"level": 14,
@@ -12666,7 +13649,7 @@
 					{
 						"level": 20,
 						"required_score": 200000,
-						"name": "Mann Co.-Exklusiv"
+						"name": "Mann Co.-exklusiv"
 					}
 				]
 				
@@ -12687,17 +13670,17 @@
 					{
 						"level": 2,
 						"required_score": 9000,
-						"name": "Knappt Chockerande"
+						"name": "Knappt chockerande"
 					},
 					{
 						"level": 3,
 						"required_score": 13370,
-						"name": "Milt Magnetiserande"
+						"name": "Milt magnetiserande"
 					},
 					{
 						"level": 4,
 						"required_score": 20000,
-						"name": "Någorlunda Inducerande"
+						"name": "Någorlunda inducerande"
 					},
 					{
 						"level": 5,
@@ -12707,22 +13690,22 @@
 					{
 						"level": 6,
 						"required_score": 35000,
-						"name": "Märkbart Borttagande"
+						"name": "Märkbart borttagande"
 					},
 					{
 						"level": 7,
 						"required_score": 45000,
-						"name": "Tillräckligt Ruinerande"
+						"name": "Tillräckligt ruinerande"
 					},
 					{
 						"level": 8,
 						"required_score": 55000,
-						"name": "Sannerligen Ledande"
+						"name": "Sannerligen ledande"
 					},
 					{
 						"level": 9,
 						"required_score": 70000,
-						"name": "Spektakulärt Pseudoisk"
+						"name": "Spektakulärt pseudoisk"
 					},
 					{
 						"level": 10,
@@ -12732,17 +13715,17 @@
 					{
 						"level": 11,
 						"required_score": 120000,
-						"name": "Galet Dynamitlig"
+						"name": "Galet dynamitlig"
 					},
 					{
 						"level": 12,
 						"required_score": 160000,
-						"name": "Positivt Plasmatisk"
+						"name": "Positivt plasmatisk"
 					},
 					{
 						"level": 13,
 						"required_score": 213370,
-						"name": "Totalt Ordinär"
+						"name": "Totalt ordinär"
 					},
 					{
 						"level": 14,
@@ -12777,7 +13760,7 @@
 					{
 						"level": 20,
 						"required_score": 2000000,
-						"name": "Mann Co.-Exklusiv"
+						"name": "Mann Co.-exklusiv"
 					}
 				]
 				
@@ -12888,7 +13871,7 @@
 					{
 						"level": 20,
 						"required_score": 25000,
-						"name": "Mannceaux Signaturkollektion"
+						"name": "Mannceaux signaturkollektion"
 					}
 				]
 				
@@ -12909,17 +13892,17 @@
 					{
 						"level": 2,
 						"required_score": 3,
-						"name": "Ganska Ankig"
+						"name": "Ganska ankig "
 					},
 					{
 						"level": 3,
 						"required_score": 4,
-						"name": "Tämligen Fjädrig"
+						"name": "Tämligen fjädrig "
 					},
 					{
 						"level": 4,
 						"required_score": 5,
-						"name": "Något Kvackvärdig"
+						"name": "Något kvackvärdig "
 					},
 					{
 						"level": 5,
@@ -12934,12 +13917,12 @@
 					{
 						"level": 7,
 						"required_score": 8,
-						"name": "Glatt Paddlande"
+						"name": "Glatt paddlande "
 					},
 					{
 						"level": 8,
 						"required_score": 9,
-						"name": "Perfekt Putsad"
+						"name": "Perfekt putsad "
 					},
 					{
 						"level": 9,
@@ -12984,7 +13967,7 @@
 					{
 						"level": 17,
 						"required_score": 18,
-						"name": "Positivt Ankulent "
+						"name": "Positivt ankulent "
 					},
 					{
 						"level": 18,
@@ -12999,7 +13982,7 @@
 					{
 						"level": 20,
 						"required_score": 21,
-						"name": "Quackstons Egna"
+						"name": "Quackstons egen "
 					}
 				]
 				
@@ -13136,7 +14119,7 @@
 					{
 						"level": 20,
 						"required_score": 38000,
-						"name": "Merasmus Egen"
+						"name": "Merasmus egen"
 					}
 				]
 				
@@ -13173,107 +14156,107 @@
 					{
 						"level": 0,
 						"required_score": 1,
-						"name": "Strange"
+						"name": "Märklig"
 					},
 					{
 						"level": 1,
 						"required_score": 3,
-						"name": "Unremarkable"
+						"name": "Obetydlig"
 					},
 					{
 						"level": 2,
 						"required_score": 5,
-						"name": "Scarcely Lethal"
+						"name": "Knappt dödlig"
 					},
 					{
 						"level": 3,
 						"required_score": 7,
-						"name": "Mildly Menacing"
+						"name": "Aningen aggressiv"
 					},
 					{
 						"level": 4,
 						"required_score": 10,
-						"name": "Somewhat Threatening"
+						"name": "Något hotfull"
 					},
 					{
 						"level": 5,
 						"required_score": 14,
-						"name": "Uncharitable"
+						"name": "Obarmhärtig"
 					},
 					{
 						"level": 6,
 						"required_score": 18,
-						"name": "Notably Dangerous"
+						"name": "Hyfsat farlig"
 					},
 					{
 						"level": 7,
 						"required_score": 23,
-						"name": "Sufficiently Lethal"
+						"name": "Tillräckligt dödlig"
 					},
 					{
 						"level": 8,
 						"required_score": 28,
-						"name": "Truly Feared"
+						"name": "Sannerligen fruktad"
 					},
 					{
 						"level": 9,
 						"required_score": 35,
-						"name": "Spectacularly Lethal"
+						"name": "Spektakulärt hänsynslös"
 					},
 					{
 						"level": 10,
 						"required_score": 50,
-						"name": "Gore-Spattered"
+						"name": "Blodindränkt"
 					},
 					{
 						"level": 11,
 						"required_score": 75,
-						"name": "Wicked Nasty"
+						"name": "Galet elak"
 					},
 					{
 						"level": 12,
 						"required_score": 99,
-						"name": "Positively Inhumane"
+						"name": "Definitivt omänsklig"
 					},
 					{
 						"level": 13,
 						"required_score": 100,
-						"name": "Totally Ordinary"
+						"name": "Totalt ordinär"
 					},
 					{
 						"level": 14,
 						"required_score": 150,
-						"name": "Face-Melting"
+						"name": "Ansiktssmältande"
 					},
 					{
 						"level": 15,
 						"required_score": 250,
-						"name": "Rage-Inducing"
+						"name": "Ilskaframkallande"
 					},
 					{
 						"level": 16,
 						"required_score": 500,
-						"name": "Server-Clearing"
+						"name": "Serverrensande"
 					},
 					{
 						"level": 17,
 						"required_score": 750,
-						"name": "Epic"
+						"name": "Episk"
 					},
 					{
 						"level": 18,
 						"required_score": 784,
-						"name": "Legendary"
+						"name": "Legendarisk"
 					},
 					{
 						"level": 19,
 						"required_score": 850,
-						"name": "Australian"
+						"name": "Australiensisk"
 					},
 					{
 						"level": 20,
 						"required_score": 1000,
-						"name": "Hale's Own"
+						"name": "Hales egen"
 					}
 				]
 				
@@ -13303,17 +14286,17 @@
 			},
 			{
 				"type": 4,
-				"type_name": "Genomdränkta Offer",
+				"type_name": "Genomdränkta offer",
 				"level_data": "KillEaterRank"
 			},
 			{
 				"type": 5,
-				"type_name": "Chockade Spioner",
+				"type_name": "Chockade spioner",
 				"level_data": "KillEater_BackstabsAbsorbed"
 			},
 			{
 				"type": 6,
-				"type_name": "Huggna Halsar",
+				"type_name": "Huggna halsar",
 				"level_data": "KillEaterRank"
 			},
 			{
@@ -13348,12 +14331,12 @@
 			},
 			{
 				"type": 13,
-				"type_name": "Demomän Dödade",
+				"type_name": "Demomen dödade",
 				"level_data": "KillEaterRank"
 			},
 			{
 				"type": 14,
-				"type_name": "Dödade Tunga Artillerister",
+				"type_name": "Heavies dödade",
 				"level_data": "KillEaterRank"
 			},
 			{
@@ -13388,7 +14371,7 @@
 			},
 			{
 				"type": 21,
-				"type_name": "Dödade av Huvudskott",
+				"type_name": "Dödade med huvudskott",
 				"level_data": "KillEaterRank"
 			},
 			{
@@ -13443,12 +14426,12 @@
 			},
 			{
 				"type": 33,
-				"type_name": "Dödade med Kritiska Träffar",
+				"type_name": "Dödade med kritiska träffar",
 				"level_data": "KillEaterRank"
 			},
 			{
 				"type": 34,
-				"type_name": "Dödade under Explosionshopp",
+				"type_name": "Dödade under explosionshopp",
 				"level_data": "KillEaterRank"
 			},
 			{
@@ -13458,12 +14441,12 @@
 			},
 			{
 				"type": 37,
-				"type_name": "Dolda Spioner dödade",
+				"type_name": "Dolda Spies dödade",
 				"level_data": "KillEaterRank"
 			},
 			{
 				"type": 38,
-				"type_name": "Dödade Medics som hade full ÜberLaddning",
+				"type_name": "Dödade Medics som hade full überladdning",
 				"level_data": "KillEaterRank"
 			},
 			{
@@ -13498,7 +14481,7 @@
 			},
 			{
 				"type": 48,
-				"type_name": "Fiender under vatten dödade",
+				"type_name": "Fiender dödade under vatten",
 				"level_data": "KillEaterRank"
 			},
 			{
@@ -13558,7 +14541,7 @@
 			},
 			{
 				"type": 66,
-				"type_name": "Piskade Lagkamrater",
+				"type_name": "Piskade lagkamrater",
 				"level_data": "KillEaterRank"
 			},
 			{
@@ -13573,7 +14556,7 @@
 			},
 			{
 				"type": 74,
-				"type_name": "Förstörda Robotspioner",
+				"type_name": "Förstörda robotspioner",
 				"level_data": "KillEater_RobotsKilledRank"
 			},
 			{
@@ -13623,7 +14606,7 @@
 			},
 			{
 				"type": 86,
-				"type_name": "Dödade med vaktgevär styrt av Grälmakaren",
+				"type_name": "Dödade med vaktgevär styrt av grälmakaren",
 				"level_data": "KillEaterRank"
 			},
 			{
@@ -13643,17 +14626,17 @@
 			},
 			{
 				"type": 90,
-				"type_name": "Karneval - Dödade",
+				"type_name": "Karneval – dödade",
 				"level_data": "KillEaterRank"
 			},
 			{
 				"type": 91,
-				"type_name": "Karneval - Dödade under jord",
+				"type_name": "Karneval – dödade under jord",
 				"level_data": "KillEaterRank"
 			},
 			{
 				"type": 92,
-				"type_name": "Karneval - Spel vunna",
+				"type_name": "Karneval – matcher vunna",
 				"level_data": "KillEaterRank"
 			},
 			{
@@ -13748,7 +14731,7 @@
 			},
 			{
 				"type": 111,
-				"type_name": "Kontraktspoäng bidragit till vänner",
+				"type_name": "Kontraktspoäng bidraget till vänner",
 				"level_data": "KillEaterRank"
 			}
 		]

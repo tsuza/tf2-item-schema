@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -356,7 +356,7 @@
 			<name>crit vs burning players</name>
 			<defindex>20</defindex>
 			<attribute_class>or_crit_vs_playercond</attribute_class>
-			<description_string>100 % de probabilidad de crítico contra jugadores ardiendo</description_string>
+			<description_string>100 % de probabilidad de crítico contra jugadores ardiendo</description_string>
 			<description_format>value_is_or</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -1023,7 +1023,7 @@ Puede usarse para apagar el fuego</description_string>
 			<name>max pipebombs increased</name>
 			<defindex>88</defindex>
 			<attribute_class>add_max_pipebombs</attribute_class>
-			<description_string>Máximo de bombas desplegadas aumentado en %s1</description_string>
+			<description_string>Máximo de bombas lapa desplegadas aumentado en %s1</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -1033,7 +1033,7 @@ Puede usarse para apagar el fuego</description_string>
 			<name>max pipebombs decreased</name>
 			<defindex>89</defindex>
 			<attribute_class>add_max_pipebombs</attribute_class>
-			<description_string>Máximo de bombas desplegadas: %s1</description_string>
+			<description_string>Máximo de bombas lapa desplegadas reducido en %s1</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>negative</effect_type>
 			<hidden>false</hidden>
@@ -1559,7 +1559,7 @@ Puede usarse para apagar el fuego</description_string>
 			<name>set item tint RGB</name>
 			<defindex>142</defindex>
 			<attribute_class>set_item_tint_rgb</attribute_class>
-			<description_string>Código de color del objeto: %s1</description_string>
+			<description_string>Código de color del artículo: %s1</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>neutral</effect_type>
 			<hidden>true</hidden>
@@ -1956,7 +1956,7 @@ Llamada de la Naturaleza: los disparos en la cabeza con mira siempre producen mi
 			<name>slow enemy on hit major</name>
 			<defindex>182</defindex>
 			<attribute_class>mult_onhit_enemyspeed_major</attribute_class>
-			<description_string>Al impactar: velocidad de movimiento del objetivo reducida un 40 % durante %s1 segundos</description_string>
+			<description_string>Al impactar: velocidad de movimiento del objetivo reducida un 40 % durante %s1 segundos</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -2102,7 +2102,7 @@ Supercarga almacenada</description_string>
 			<name>halloween item</name>
 			<defindex>197</defindex>
 			<attribute_class>halloween_item</attribute_class>
-			<description_string>Este es un objeto especial de Halloween %s1</description_string>
+			<description_string>Este es un artículo especial de Halloween %s1</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -2341,7 +2341,7 @@ Intercambiable a partir del %s1</description_string>
 			<name>dmg bonus while half dead</name>
 			<defindex>224</defindex>
 			<attribute_class>mult_dmg_bonus_while_half_dead</attribute_class>
-			<description_string>Cuando la salud máxima es &lt;50 %, el daño causado se incrementa un %s1 %</description_string>
+			<description_string>Cuando la salud máxima es &lt;50 %, el daño causado se incrementa un %s1 %</description_string>
 			<description_format>value_is_percentage</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -2351,7 +2351,7 @@ Intercambiable a partir del %s1</description_string>
 			<name>dmg penalty while half alive</name>
 			<defindex>225</defindex>
 			<attribute_class>mult_dmg_penalty_while_half_alive</attribute_class>
-			<description_string>Cuando la salud máxima es &gt;50 %, el daño causado disminuye un %s1 %</description_string>
+			<description_string>Cuando la salud máxima es &gt;50 %, el daño causado disminuye un %s1 %</description_string>
 			<description_format>value_is_percentage</description_format>
 			<effect_type>negative</effect_type>
 			<hidden>false</hidden>
@@ -2700,7 +2700,7 @@ Los ataques cuerpo a cuerpo causan minicríticos mientras estás en el aire.</de
 			<name>set item tint RGB 2</name>
 			<defindex>261</defindex>
 			<attribute_class>set_item_tint_rgb_2</attribute_class>
-			<description_string>Código de color del objeto: %s1</description_string>
+			<description_string>Código de color del artículo: %s1</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>neutral</effect_type>
 			<hidden>true</hidden>
@@ -3082,7 +3082,7 @@ o apuñales a un enemigo.</description_string>
 			<name>expiration date</name>
 			<defindex>302</defindex>
 			<attribute_class>expiration_date</attribute_class>
-			<description_string>Este objeto caducará el %s1.</description_string>
+			<description_string>Este artículo caducará el %s1.</description_string>
 			<description_format>value_is_date</description_format>
 			<effect_type>neutral</effect_type>
 			<hidden>true</hidden>
@@ -3708,7 +3708,7 @@ Mientras te burlas con el &apos;MMMF&apos;, eres invulnerable.</description_stri
 			<name>tickle enemies wielding same weapon</name>
 			<defindex>369</defindex>
 			<attribute_class>tickle_enemies_wielding_same_weapon</attribute_class>
-			<description_string>Al impactar: obliga a los enemigos a reír si también llevan este objeto</description_string>
+			<description_string>Al impactar: obliga a los enemigos a reír si también llevan este artículo</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -4344,7 +4344,7 @@ Los impactos a gran distancia reducen el tiempo de recarga.</description_string>
 			<name>crit vs stunned players</name>
 			<defindex>437</defindex>
 			<attribute_class>or_crit_vs_playercond</attribute_class>
-			<description_string>100 % de probabilidad de crítico contra jugadores aturdidos</description_string>
+			<description_string>100 % de probabilidad de crítico contra jugadores aturdidos</description_string>
 			<description_format>value_is_or</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -4354,7 +4354,7 @@ Los impactos a gran distancia reducen el tiempo de recarga.</description_string>
 			<name>crit vs wet players</name>
 			<defindex>438</defindex>
 			<attribute_class>crit_vs_wet_players</attribute_class>
-			<description_string>100 % de probabilidad de crítico contra jugadores empapados</description_string>
+			<description_string>100 % de probabilidad de crítico contra jugadores empapados</description_string>
 			<description_format>value_is_or</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -4768,7 +4768,7 @@ Al curar, te proporciona a ti y a tu objetivo un 10 % de resistencia constante 
 			<name>rocket specialist</name>
 			<defindex>488</defindex>
 			<attribute_class>rocket_specialist</attribute_class>
-			<description_string>+15 % de vel. de cohete por punto. Los impactos directos hacen daño máximo, aturden al objetivo y aumentan su explosión +15 % por punto.</description_string>
+			<description_string>+15 % de vel. de cohete por punto. Los impactos directos hacen daño máximo, aturden al objetivo y aumentan su explosión +15 % por punto.</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -4818,7 +4818,7 @@ Al curar, te proporciona a ti y a tu objetivo un 10 % de resistencia constante 
 			<name>healing mastery</name>
 			<defindex>493</defindex>
 			<attribute_class>healing_mastery</attribute_class>
-			<description_string>+25 % de velocidad de curación por paciente, +25 % de velocidad al revivir un aliado y +25 % de curación propia por punto</description_string>
+			<description_string>+25 % de velocidad de curación por paciente, +25 % de velocidad al revivir un aliado y +25 % de curación propia por punto</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -6022,7 +6022,7 @@ Minicríticos a jugadores en llamas de frente</description_string>
 			<name>crit_vs_burning_FLARES_DISPLAY_ONLY</name>
 			<defindex>735</defindex>
 			<attribute_class>crit_vs_burning_FLARES_DISPLAY_ONLY</attribute_class>
-			<description_string>100 % de probabilidad de crítico contra jugadores ardiendo</description_string>
+			<description_string>100 % de probabilidad de crítico contra jugadores ardiendo</description_string>
 			<description_format>value_is_or</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -6072,7 +6072,7 @@ Minicríticos a jugadores en llamas de frente</description_string>
 			<name>reduced_healing_from_medics</name>
 			<defindex>740</defindex>
 			<attribute_class>mult_healing_from_medics</attribute_class>
-			<description_string>-%s1 % de curación procedente de un Medic</description_string>
+			<description_string>%s1 % de curación procedente de un Medic</description_string>
 			<description_format>value_is_percentage</description_format>
 			<effect_type>negative</effect_type>
 			<hidden>false</hidden>
@@ -6467,8 +6467,10 @@ se despliega y guarda con más lentitud</description_string>
 			<name>energy buff dmg taken multiplier</name>
 			<defindex>798</defindex>
 			<attribute_class>energy_buff_dmg_taken_multiplier</attribute_class>
+			<description_string>+%s1 % de vulnerabilidad al daño mientras se usa</description_string>
+			<description_format>value_is_percentage</description_format>
 			<effect_type>negative</effect_type>
-			<hidden>true</hidden>
+			<hidden>false</hidden>
 			<stored_as_integer>false</stored_as_integer>
 		</attribute>
 		<attribute>
@@ -6931,7 +6933,7 @@ se despliega y guarda con más lentitud</description_string>
 			<name>mod_maxhealth_drain_rate</name>
 			<defindex>855</defindex>
 			<attribute_class>mod_maxhealth_drain_rate</attribute_class>
-			<description_string>Reduce la vida máxima cuando el objeto está activo</description_string>
+			<description_string>Reduce la vida máxima cuando el artículo está activo</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>negative</effect_type>
 			<hidden>false</hidden>
@@ -7824,6 +7826,116 @@ Matar a objetivos en llamas da un subidón de velocidad.</description_string>
 			<attribute_class>null</attribute_class>
 			<effect_type>value_is_from_lookup_table</effect_type>
 			<hidden>true</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair kritz potion</name>
+			<defindex>2069</defindex>
+			<attribute_class>freaky_fair_kritz_potion</attribute_class>
+			<description_string>Poción de críticos</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair uber potion</name>
+			<defindex>2070</defindex>
+			<attribute_class>freaky_fair_uber_potion</attribute_class>
+			<description_string>Poción de invulnerabilidad</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair giant potion</name>
+			<defindex>2071</defindex>
+			<attribute_class>freaky_fair_giant_potion</attribute_class>
+			<description_string>Poción de gigantismo</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair buster potion</name>
+			<defindex>2072</defindex>
+			<attribute_class>freaky_fair_buster_potion</attribute_class>
+			<description_string>Poción revientacalabazas</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair healing potion</name>
+			<defindex>2073</defindex>
+			<attribute_class>freaky_fair_healing_potion</attribute_class>
+			<description_string>Poción de curación</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair ghost potion</name>
+			<defindex>2074</defindex>
+			<attribute_class>freaky_fair_ghost_potion</attribute_class>
+			<description_string>Poción de fantasma</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair ammo potion</name>
+			<defindex>2075</defindex>
+			<attribute_class>freaky_fair_ammo_potion</attribute_class>
+			<description_string>Poción reabastecedora</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair rtd potion</name>
+			<defindex>2076</defindex>
+			<attribute_class>freaky_fair_rtd_potion</attribute_class>
+			<description_string>Poción de tirar el dado</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair relentless potion</name>
+			<defindex>2077</defindex>
+			<attribute_class>freaky_fair_relentless_potion</attribute_class>
+			<description_string>Poción de implacabilidad</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair extra attrib1</name>
+			<defindex>2078</defindex>
+			<attribute_class>freaky_fair_extra_attrib1</attribute_class>
+			<description_string>Atributo adicional de Freaky Fair 1</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair extra attrib2</name>
+			<defindex>2079</defindex>
+			<attribute_class>freaky_fair_extra_attrib2</attribute_class>
+			<description_string>Atributo adicional de Freaky Fair 2</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
 			<stored_as_integer>false</stored_as_integer>
 		</attribute>
 		<attribute>
@@ -8846,6 +8958,7 @@ Matar a objetivos en llamas da un subidón de velocidad.</description_string>
 			<system>superrare_beams1</system>
 			<id>17</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
 			<name>Rayos de sol</name>
 		</particle>
 		<particle>
@@ -10681,21 +10794,21 @@ Matar a objetivos en llamas da un subidón de velocidad.</description_string>
 			<id>297</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Hellspawned Horns</name>
+			<name>Luzbel luciente</name>
 		</particle>
 		<particle>
 			<system>unusual_devilish_teamcolor_blue</system>
 			<id>298</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Hellspawned Horns</name>
+			<name>Luzbel luciente</name>
 		</particle>
 		<particle>
 			<system>unusual_devilish_green_parent</system>
 			<id>299</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Demonic Impaler</name>
+			<name>Empalador demoníaco</name>
 		</particle>
 		<particle>
 			<system>unusual_devilish_purple_parent</system>
@@ -10709,28 +10822,28 @@ Matar a objetivos en llamas da un subidón de velocidad.</description_string>
 			<id>301</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Sixth Sense</name>
+			<name>Sexto sentido</name>
 		</particle>
 		<particle>
 			<system>unusual_sixthsense_teamcolor_blue</system>
 			<id>302</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Sixth Sense</name>
+			<name>Sexto sentido</name>
 		</particle>
 		<particle>
 			<system>unusual_sixthsense_pink_parent</system>
 			<id>303</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Amygdala</name>
+			<name>Amígdala</name>
 		</particle>
 		<particle>
 			<system>unusual_skullhead_parent</system>
 			<id>304</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>The Bone Zone</name>
+			<name>La zona ósea</name>
 		</particle>
 		<particle>
 			<system>unusual_spiderweb_parent</system>
@@ -10786,56 +10899,56 @@ Matar a objetivos en llamas da un subidón de velocidad.</description_string>
 			<id>312</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Radiant Rivalry</name>
+			<name>Rivalidad radiante</name>
 		</particle>
 		<particle>
 			<system>unusual_aestheticsigns_teamcolor_blue</system>
 			<id>313</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Radiant Rivalry</name>
+			<name>Rivalidad radiante</name>
 		</particle>
 		<particle>
 			<system>unusual_aestheticsigns_mannco_parent</system>
 			<id>314</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Radiant Legacy</name>
+			<name>Legado radiante</name>
 		</particle>
 		<particle>
 			<system>unusual_frosty_flavours_teamcolor_red</system>
 			<id>315</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Frosty Flavours</name>
+			<name>Sabores escarchados</name>
 		</particle>
 		<particle>
 			<system>unusual_frosty_flavours_teamcolor_blue</system>
 			<id>316</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Frosty Flavours</name>
+			<name>Sabores escarchados</name>
 		</particle>
 		<particle>
 			<system>unusual_frosty_mint_glow_parent</system>
 			<id>317</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Mint Frost</name>
+			<name>Escarcha de menta</name>
 		</particle>
 		<particle>
 			<system>unusual_northstar_teamcolor_red</system>
 			<id>318</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>North Star</name>
+			<name>Estrella polar</name>
 		</particle>
 		<particle>
 			<system>unusual_northstar_teamcolor_blue</system>
 			<id>319</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>North Star</name>
+			<name>Estrella polar</name>
 		</particle>
 		<particle>
 			<system>unusual_northstar_parent_purple</system>
@@ -10849,35 +10962,497 @@ Matar a objetivos en llamas da un subidón de velocidad.</description_string>
 			<id>321</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Festive Falling Star</name>
+			<name>Estrella de Navidad</name>
 		</particle>
 		<particle>
 			<system>unusual_firefly_teamcolor_red</system>
 			<id>322</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Lunar Lights</name>
+			<name>Luces lunares</name>
 		</particle>
 		<particle>
 			<system>unusual_firefly_teamcolor_blue</system>
 			<id>323</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Lunar Lights</name>
+			<name>Luces lunares</name>
 		</particle>
 		<particle>
 			<system>unusual_firefly_purple_parent</system>
 			<id>324</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Fairy Lights</name>
+			<name>Luces de hadas</name>
 		</particle>
 		<particle>
 			<system>unusual_firefly_green_parent</system>
 			<id>325</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Natural Lights</name>
+			<name>Luces naturales</name>
+		</particle>
+		<particle>
+			<system>unusual_corrodedknight_teamcolor_red</system>
+			<id>327</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Diadema del lealista</name>
+		</particle>
+		<particle>
+			<system>unusual_corrodedknight_teamcolor_blue</system>
+			<id>328</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Diadema del lealista</name>
+		</particle>
+		<particle>
+			<system>unusual_corrodedknight_parent_silver</system>
+			<id>329</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Espíritu orgulloso del caballero</name>
+		</particle>
+		<particle>
+			<system>unusual_corrodedknight_parent_golden</system>
+			<id>330</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Corona preciada del barón</name>
+		</particle>
+		<particle>
+			<system>unusual_poseidon_teamcolor_red</system>
+			<id>331</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Señuelo de las profundidades</name>
+		</particle>
+		<particle>
+			<system>unusual_poseidon_teamcolor_blue</system>
+			<id>332</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Señuelo de las profundidades</name>
+		</particle>
+		<particle>
+			<system>unusual_poseidon_parent_green</system>
+			<id>333</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Viridián violento</name>
+		</particle>
+		<particle>
+			<system>unusual_poseidon_parent_purple</system>
+			<id>334</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Magenta monstruoso</name>
+		</particle>
+		<particle>
+			<system>unusual_rainglow_parent</system>
+			<id>335</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Ensueño multicolor</name>
+		</particle>
+		<particle>
+			<system>unusual_cubancigar_parent</system>
+			<id>336</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Humo cubano</name>
+		</particle>
+		<particle>
+			<system>unusual_mohawk_teamcolor_red</system>
+			<id>337</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Mohicano derretido</name>
+		</particle>
+		<particle>
+			<system>unusual_mohawk_teamcolor_blue</system>
+			<id>338</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Mohicano derretido</name>
+		</particle>
+		<particle>
+			<system>unusual_mohawk_parent_green</system>
+			<id>339</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Cuero chamuscado</name>
+		</particle>
+		<particle>
+			<system>unusual_mohawk_parent_purple</system>
+			<id>340</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Cresta prendida</name>
+		</particle>
+		<particle>
+			<system>unusual_rare_shine_glow_parent</system>
+			<id>341</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Resplandor raro</name>
+		</particle>
+		<particle>
+			<system>unusual_horstars_teamcolor_red</system>
+			<id>342</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Deriva distante</name>
+		</particle>
+		<particle>
+			<system>unusual_horstars_teamcolor_blue</system>
+			<id>343</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Deriva distante</name>
+		</particle>
+		<particle>
+			<system>unusual_electric_parent_white</system>
+			<id>344</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Viaje en el tiempo</name>
+		</particle>
+		<particle>
+			<system>unusual_electric_parent_gold</system>
+			<id>345</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Exceso de velocidad</name>
+		</particle>
+		<particle>
+			<system>unusual_butterflyhead_teamcolor_red</system>
+			<id>346</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Temporada de mariposas</name>
+		</particle>
+		<particle>
+			<system>unusual_butterflyhead_teamcolor_blue</system>
+			<id>347</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Temporada de mariposas</name>
+		</particle>
+		<particle>
+			<system>unusual_hippieaura_parent</system>
+			<id>348</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Psicodélico</name>
+		</particle>
+		<particle>
+			<system>unusual_butterfly_parent</system>
+			<id>349</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Insectos hechizantes</name>
+		</particle>
+		<particle>
+			<system>unusual_spectral_fire_parent</system>
+			<id>350</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Fuego espectral</name>
+		</particle>
+		<particle>
+			<system>unusual_galactic_fire_parent</system>
+			<id>351</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Llama galáctica</name>
+		</particle>
+		<particle>
+			<system>unusual_frank_green_parent</system>
+			<id>352</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Recarga reactivada</name>
+		</particle>
+		<particle>
+			<system>unusual_frank_purple_parent</system>
+			<id>353</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Electricidad no muerta</name>
+		</particle>
+		<particle>
+			<system>unusual_frank_yellow_parent</system>
+			<id>354</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Frankencargado</name>
+		</particle>
+		<particle>
+			<system>unusual_skullsmoke_green_parent</system>
+			<id>355</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Plaga fantasma</name>
+		</particle>
+		<particle>
+			<system>unusual_skullsmoke_purple_parent</system>
+			<id>356</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Neblina inquietante</name>
+		</particle>
+		<particle>
+			<system>unusual_pigeons_green_parent</system>
+			<id>357</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Vampiros despiadados</name>
+		</particle>
+		<particle>
+			<system>unusual_pigeons_purple_parent</system>
+			<id>358</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Cuervos voraces</name>
+		</particle>
+		<particle>
+			<system>unusual_pigeons_white_parent</system>
+			<id>359</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Palomas encantadoras</name>
+		</particle>
+		<particle>
+			<system>unusual_stove_teamcolor_red</system>
+			<id>360</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Fogón abrasador</name>
+		</particle>
+		<particle>
+			<system>unusual_stove_teamcolor_blue</system>
+			<id>361</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Fogón abrasador</name>
+		</particle>
+		<particle>
+			<system>unusual_electricfire_teamcolor_red</system>
+			<id>362</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Superresplandor</name>
+		</particle>
+		<particle>
+			<system>unusual_electricfire_teamcolor_blue</system>
+			<id>363</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Superresplandor</name>
+		</particle>
+		<particle>
+			<system>unusual_sizzling_parent</system>
+			<id>364</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Candente</name>
+		</particle>
+		<particle>
+			<system>unusual_icrown_teamcolor_red</system>
+			<id>365</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Corona de cristal</name>
+		</particle>
+		<particle>
+			<system>unusual_icrown_teamcolor_blue</system>
+			<id>366</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Corona de cristal</name>
+		</particle>
+		<particle>
+			<system>unusual_icrown_parent_purple</system>
+			<id>367</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Halo de alción</name>
+		</particle>
+		<particle>
+			<system>unusual_timeghosts_parent</system>
+			<id>368</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Fantasmas de Navidad</name>
+		</particle>
+		<particle>
+			<system>unusual_aurora_parent</system>
+			<id>369</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Cielos con auroras</name>
+		</particle>
+		<particle>
+			<system>unusual_bokehsparkle_parent</system>
+			<id>370</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Bokeh brillante</name>
+		</particle>
+		<particle>
+			<system>unusual_playful_purple_parent</system>
+			<id>371</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Aurora juguetona</name>
+		</particle>
+		<particle>
+			<system>unusual_playful_yellow_parent</system>
+			<id>372</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Mañana animada</name>
+		</particle>
+		<particle>
+			<system>unusual_drunk_parent</system>
+			<id>373</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Ebrio</name>
+		</particle>
+		<particle>
+			<system>unusual_excalibur_teamcolor_red</system>
+			<id>374</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Dagas de traición</name>
+		</particle>
+		<particle>
+			<system>unusual_excalibur_teamcolor_blue</system>
+			<id>375</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Dagas de traición</name>
+		</particle>
+		<particle>
+			<system>unusual_excalibur_parent_purple</system>
+			<id>376</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Puñales de la muerte</name>
+		</particle>
+		<particle>
+			<system>unusual_uber_teamcolor_red</system>
+			<id>377</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Carga completa</name>
+		</particle>
+		<particle>
+			<system>unusual_uber_teamcolor_blue</system>
+			<id>378</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Carga completa</name>
+		</particle>
+		<particle>
+			<system>unusual_uber_gold_parent</system>
+			<id>379</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Sobrecarga</name>
+		</particle>
+		<particle>
+			<system>unusual_orbitingbullet_parent</system>
+			<id>380</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Cefalea punzante</name>
+		</particle>
+		<particle>
+			<system>unusual_typhoon_parent</system>
+			<id>381</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Viento diezmador</name>
+		</particle>
+		<particle>
+			<system>unusual_ocean_swirl_teamcolor_red</system>
+			<id>382</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Remolino oceánico</name>
+		</particle>
+		<particle>
+			<system>unusual_ocean_swirl_teamcolor_blue</system>
+			<id>383</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Remolino oceánico</name>
+		</particle>
+		<particle>
+			<system>unusual_ocean_swirl_green_parent</system>
+			<id>384</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Remolino tóxico</name>
+		</particle>
+		<particle>
+			<system>unusual_candle_teamcolor_red</system>
+			<id>385</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Llama de vela</name>
+		</particle>
+		<particle>
+			<system>unusual_candle_teamcolor_blue</system>
+			<id>386</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Llama de vela</name>
+		</particle>
+		<particle>
+			<system>unusual_deadlyaroma_teamcolor_red</system>
+			<id>387</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Aroma candente</name>
+		</particle>
+		<particle>
+			<system>unusual_deadlyaroma_teamcolor_blue</system>
+			<id>388</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Aroma candente</name>
+		</particle>
+		<particle>
+			<system>unusual_deadlyaroma_green_parent</system>
+			<id>389</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Aroma tóxico</name>
+		</particle>
+		<particle>
+			<system>unusual_conductor_teamc_teamcolor_red</system>
+			<id>390</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Conductor de corriente</name>
+		</particle>
+		<particle>
+			<system>unusual_conductor_teamc_teamcolor_blue</system>
+			<id>391</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Conductor de corriente</name>
+		</particle>
+		<particle>
+			<system>unusual_sandy_parent</system>
+			<id>392</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Arenoso</name>
 		</particle>
 		<particle>
 			<system>weapon_unusual_hot</system>
@@ -11685,7 +12260,7 @@ Matar a objetivos en llamas da un subidón de velocidad.</description_string>
 			<system>utaunt_krakenmouth_green_parent</system>
 			<id>3124</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Devorador marino</name>
+			<name>Devorador de las profundidades</name>
 		</particle>
 		<particle>
 			<system>utaunt_krakenmouth_purple_parent</system>
@@ -11697,7 +12272,7 @@ Matar a objetivos en llamas da un subidón de velocidad.</description_string>
 			<system>utaunt_leaftaunt_parent</system>
 			<id>3126</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Autumn Leaves</name>
+			<name>Hojas de otoño</name>
 		</particle>
 		<particle>
 			<system>utaunt_graveparty_parent</system>
@@ -11715,37 +12290,37 @@ Matar a objetivos en llamas da un subidón de velocidad.</description_string>
 			<system>utaunt_cremation_purple_parent</system>
 			<id>3129</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Haunted Cremation</name>
+			<name>Cremación embrujada</name>
 		</particle>
 		<particle>
 			<system>utaunt_cremation_black_parent</system>
 			<id>3130</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Cremation</name>
+			<name>Cremación</name>
 		</particle>
 		<particle>
 			<system>utaunt_snowfall_parent</system>
 			<id>3131</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Snowfall</name>
+			<name>Nevada</name>
 		</particle>
 		<particle>
 			<system>utaunt_constellations_teamcolor_red</system>
 			<id>3132</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Galactic Connection</name>
+			<name>Conexión galáctica</name>
 		</particle>
 		<particle>
 			<system>utaunt_constellations_teamcolor_blue</system>
 			<id>3133</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Galactic Connection</name>
+			<name>Conexión galáctica</name>
 		</particle>
 		<particle>
 			<system>utaunt_constellations_purple_parent</system>
 			<id>3134</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Dark Twilight</name>
+			<name>Crepúsculo oscuro</name>
 		</particle>
 		<particle>
 			<system>utaunt_constellations_pink_parent</system>
@@ -11757,37 +12332,37 @@ Matar a objetivos en llamas da un subidón de velocidad.</description_string>
 			<system>utaunt_wispyworks_orangegreen_parent</system>
 			<id>3136</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Selfless Sensation</name>
+			<name>Sensación altruista</name>
 		</particle>
 		<particle>
 			<system>utaunt_wispyworks_purpleblue_parent</system>
 			<id>3137</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Distant Desire</name>
+			<name>Deseo distante</name>
 		</particle>
 		<particle>
 			<system>utaunt_wispyworks_yellowpurple_parent</system>
 			<id>3138</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Glamorous Glance</name>
+			<name>Mirada glamurosa</name>
 		</particle>
 		<particle>
 			<system>utaunt_innerblizzard_teamcolor_red</system>
 			<id>3139</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Permafrost Essence</name>
+			<name>Esencia de permafrost</name>
 		</particle>
 		<particle>
 			<system>utaunt_innerblizzard_teamcolor_blue</system>
 			<id>3140</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Permafrost Essence</name>
+			<name>Esencia de permafrost</name>
 		</particle>
 		<particle>
 			<system>utaunt_innerblizzard_purple_parent</system>
 			<id>3141</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Arctic Delight</name>
+			<name>Delicia ártica</name>
 		</particle>
 		<particle>
 			<system>utaunt_spotlight_parent</system>
@@ -11806,6 +12381,414 @@ Matar a objetivos en llamas da un subidón de velocidad.</description_string>
 			<id>3144</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
 			<name>Cabriola floral</name>
+		</particle>
+		<particle>
+			<system>utaunt_dragonfly_teamcolor_red</system>
+			<id>3145</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Abrazo de libélulas</name>
+		</particle>
+		<particle>
+			<system>utaunt_dragonfly_teamcolor_blue</system>
+			<id>3146</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Abrazo de libélulas</name>
+		</particle>
+		<particle>
+			<system>utaunt_dragonfly_green_parent</system>
+			<id>3147</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Naturaleza de libélulas</name>
+		</particle>
+		<particle>
+			<system>utaunt_dragonfly_purple_parent</system>
+			<id>3148</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Luminosidad de libélulas</name>
+		</particle>
+		<particle>
+			<system>utaunt_demigodery_teamcolor_red</system>
+			<id>3149</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Electrocución</name>
+		</particle>
+		<particle>
+			<system>utaunt_demigodery_teamcolor_blue</system>
+			<id>3150</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Electrocución</name>
+		</particle>
+		<particle>
+			<system>utaunt_signalflares_teamcolor_red</system>
+			<id>3151</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Señal de socorro</name>
+		</particle>
+		<particle>
+			<system>utaunt_signalflares_teamcolor_blue</system>
+			<id>3152</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Señal de socorro</name>
+		</particle>
+		<particle>
+			<system>utaunt_signalflares_green_parent</system>
+			<id>3153</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Llamada del carioca</name>
+		</particle>
+		<particle>
+			<system>utaunt_celebrationtime_teamcolor_red</system>
+			<id>3154</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Fiesta real</name>
+		</particle>
+		<particle>
+			<system>utaunt_celebrationtime_teamcolor_blue</system>
+			<id>3155</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Fiesta real</name>
+		</particle>
+		<particle>
+			<system>utaunt_celebrationtime_yellow_parent</system>
+			<id>3156</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Gran jubileo</name>
+		</particle>
+		<particle>
+			<system>utaunt_god_lava_teamcolor_red</system>
+			<id>3157</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Elemental</name>
+		</particle>
+		<particle>
+			<system>utaunt_god_lava_teamcolor_blue</system>
+			<id>3158</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Elemental</name>
+		</particle>
+		<particle>
+			<system>utaunt_god_gold_parent</system>
+			<id>3159</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Como un dios</name>
+		</particle>
+		<particle>
+			<system>utaunt_aestheticlogo_teamcolor_red</system>
+			<id>3160</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Valor del trabajo en equipo</name>
+		</particle>
+		<particle>
+			<system>utaunt_aestheticlogo_teamcolor_blue</system>
+			<id>3161</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Valor del trabajo en equipo</name>
+		</particle>
+		<particle>
+			<system>utaunt_aestheticlogo_orange_parent</system>
+			<id>3162</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Logotipo heredado</name>
+		</particle>
+		<particle>
+			<system>utaunt_desert_wind_parent</system>
+			<id>3163</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Viento del desierto</name>
+		</particle>
+		<particle>
+			<system>utaunt_desert_monsoon_parent</system>
+			<id>3164</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Temporada de monzones</name>
+		</particle>
+		<particle>
+			<system>utaunt_treasure_teamcolor_red</system>
+			<id>3165</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Riquezas abundantes</name>
+		</particle>
+		<particle>
+			<system>utaunt_treasure_teamcolor_blue</system>
+			<id>3166</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Riquezas abundantes</name>
+		</particle>
+		<particle>
+			<system>utaunt_hearttreasure_parent</system>
+			<id>3167</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Amante del lujo</name>
+		</particle>
+		<particle>
+			<system>utaunt_wiggletube_teamcolor_red</system>
+			<id>3168</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Amatorio</name>
+		</particle>
+		<particle>
+			<system>utaunt_wiggletube_teamcolor_blue</system>
+			<id>3169</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Amatorio</name>
+		</particle>
+		<particle>
+			<system>utaunt_wiggletube_coffee_parent</system>
+			<id>3170</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Electro</name>
+		</particle>
+		<particle>
+			<system>utaunt_flowerrain_teamcolor_red</system>
+			<id>3171</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Bendiciones de Sakura</name>
+		</particle>
+		<particle>
+			<system>utaunt_flowerrain_teamcolor_blue</system>
+			<id>3172</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Bendiciones de Sakura</name>
+		</particle>
+		<particle>
+			<system>utaunt_flowerrain_purple_parent</system>
+			<id>3173</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Violetas violentas</name>
+		</particle>
+		<particle>
+			<system>utaunt_poweraura_teamcolor_red</system>
+			<id>3174</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Aura de energía</name>
+		</particle>
+		<particle>
+			<system>utaunt_poweraura_teamcolor_blue</system>
+			<id>3175</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Aura de energía</name>
+		</particle>
+		<particle>
+			<system>utaunt_poweraura_green_parent</system>
+			<id>3176</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Impulso incrementado</name>
+		</particle>
+		<particle>
+			<system>utaunt_poweraura_purple_parent</system>
+			<id>3177</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Catalizador de carga</name>
+		</particle>
+		<particle>
+			<system>utaunt_poweraura_yellow_parent</system>
+			<id>3178</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Aura amplificadora</name>
+		</particle>
+		<particle>
+			<system>utaunt_mysticfusion_parent</system>
+			<id>3179</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Fusión mística</name>
+		</particle>
+		<particle>
+			<system>utaunt_confetti_gy_parent</system>
+			<id>3180</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Confeti odioso</name>
+		</particle>
+		<particle>
+			<system>utaunt_confetti_pp_parent</system>
+			<id>3181</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Confeti adorable</name>
+		</particle>
+		<particle>
+			<system>utaunt_confetti_yp_parent</system>
+			<id>3182</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Celebración de confeti</name>
+		</particle>
+		<particle>
+			<system>utaunt_heavyrain_parent</system>
+			<id>3183</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Diluvio</name>
+		</particle>
+		<particle>
+			<system>utaunt_field_parent</system>
+			<id>3184</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Huerto de calabazas</name>
+		</particle>
+		<particle>
+			<system>utaunt_whitesmissmas_parent</system>
+			<id>3185</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Día de nieve</name>
+		</particle>
+		<particle>
+			<system>utaunt_busysnow_teamcolor_red</system>
+			<id>3186</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Espíritu de las nieves</name>
+		</particle>
+		<particle>
+			<system>utaunt_busysnow_teamcolor_blue</system>
+			<id>3187</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Espíritu de las nieves</name>
+		</particle>
+		<particle>
+			<system>utaunt_busysnow_parent_p</system>
+			<id>3188</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Sensación de lavanda</name>
+		</particle>
+		<particle>
+			<system>utaunt_busysnow_parent_g</system>
+			<id>3189</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Fenómeno verdoso</name>
+		</particle>
+		<particle>
+			<system>utaunt_roses_teamcolor_red</system>
+			<id>3190</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Triunfador</name>
+		</particle>
+		<particle>
+			<system>utaunt_roses_teamcolor_blue</system>
+			<id>3191</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Triunfador</name>
+		</particle>
+		<particle>
+			<system>utaunt_roses_gold_parent</system>
+			<id>3192</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Triunfo operístico</name>
+		</particle>
+		<particle>
+			<system>utaunt_tangledlights_parent</system>
+			<id>3193</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Luces enredadas</name>
+		</particle>
+		<particle>
+			<system>utaunt_seamine_teamcolor_red</system>
+			<id>3194</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Mina marina</name>
+		</particle>
+		<particle>
+			<system>utaunt_seamine_teamcolor_blue</system>
+			<id>3195</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Mina marina</name>
+		</particle>
+		<particle>
+			<system>utaunt_iconicoutline_teamcolor_red</system>
+			<id>3196</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Contorno icónico</name>
+		</particle>
+		<particle>
+			<system>utaunt_iconicoutline_teamcolor_blue</system>
+			<id>3197</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Contorno icónico</name>
+		</particle>
+		<particle>
+			<system>utaunt_iconicoutline_pink_parent</system>
+			<id>3198</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Silueta sutil</name>
+		</particle>
+		<particle>
+			<system>utaunt_oceanreef_parent</system>
+			<id>3199</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Arrecife oceánico</name>
+		</particle>
+		<particle>
+			<system>utaunt_signalinterference_parent</system>
+			<id>3200</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Pérdida de señal</name>
+		</particle>
+		<particle>
+			<system>utaunt_waterwave_parent</system>
+			<id>3201</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Ola veraniega</name>
+		</particle>
+		<particle>
+			<system>utaunt_sharkfin2_parent</system>
+			<id>3202</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Ataque de tiburón</name>
+		</particle>
+		<particle>
+			<system>utaunt_phantasam_green_parent</system>
+			<id>3203</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Gas peligroso</name>
+		</particle>
+		<particle>
+			<system>utaunt_phantasam_grey_parent</system>
+			<id>3204</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Niebla fantasmal</name>
+		</particle>
+		<particle>
+			<system>utaunt_phantasam_purple_parent</system>
+			<id>3205</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Neblina embrujada</name>
+		</particle>
+		<particle>
+			<system>utaunt_multicurse_teamcolor_red</system>
+			<id>3206</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Aura maliciosa</name>
+		</particle>
+		<particle>
+			<system>utaunt_multicurse_teamcolor_blue</system>
+			<id>3207</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Aura maliciosa</name>
+		</particle>
+		<particle>
+			<system>utaunt_voidcrawlers_parent</system>
+			<id>3208</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Criaturas del vacío</name>
+		</particle>
+		<particle>
+			<system>utaunt_tarpit_dinos_parent</system>
+			<id>3209</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Combustible fósil</name>
+		</particle>
+		<particle>
+			<system>utaunt_tarpit_people_parent</system>
+			<id>3210</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Pozo de alquitrán</name>
+		</particle>
+		<particle>
+			<system>utaunt_morbed_teamcolor_red</system>
+			<id>3211</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Bestia mórbida</name>
+		</particle>
+		<particle>
+			<system>utaunt_morbed_teamcolor_blue</system>
+			<id>3212</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Bestia mórbida</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>

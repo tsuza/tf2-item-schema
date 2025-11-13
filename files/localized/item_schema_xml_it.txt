@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -1178,7 +1178,7 @@ Fuoco secondario: rilascia un&apos;onda d&apos;urto che spinge via nemici e proi
 			<defindex>37</defindex>
 			<item_class>tf_weapon_bonesaw</item_class>
 			<item_type_name>Segaossa</item_type_name>
-			<item_name>L&apos;Übersaw</item_name>
+			<item_name>Übersaw</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_ubersaw/c_ubersaw.mdl</model_player>
@@ -21484,7 +21484,7 @@ Gamescom 2011</item_description>
 			<defindex>547</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Pezzo di costume</item_type_name>
-			<item_name>B-ankh!</item_name>
+			<item_name>B-Ankh!</item_name>
 			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -27035,7 +27035,7 @@ A questo oggetto si possono applicare decalcomanie personalizzate.</item_descrip
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Pipa</item_type_name>
 			<item_name>Il Problema da Nove Pipate</item_name>
-			<item_description>Nel tempo che hai usato per leggere questa descrizione, io ho già ubercaricato un grosso, catturato la tua base, risolto un crimine, e fumato tre pipe.</item_description>
+			<item_description>In the time it takes you to read this description, I&apos;ve already übered a heavy, captured your base, solved a crime, and smoked three pipes.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/medic_smokingpipe.mdl</model_player>
@@ -29416,7 +29416,7 @@ Fuoco secondario: rilascia un&apos;onda d&apos;urto che spinge via nemici e proi
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>100</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/scout_prep_shirt.906456dfdb9b9c54543dcb716bb1952efb3fdde9.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.c56d08ff23b3f30249a18501fef79d221f034cd0.png</image_url_large>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.05be377767ca55c152b815f1d9774759c875a90c.png</image_url_large>
 			<drop_type>none</drop_type>
 			<craft_class>hat</craft_class>
 			<craft_material_type>hat</craft_material_type>
@@ -43048,7 +43048,7 @@ Fuoco secondario: lancia il Sandvich a terra, trasformandolo in un kit medico me
 			<defindex>1015</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>Provocazione speciale</item_type_name>
-			<item_name>L&apos;Allarme Scosso</item_name>
+			<item_name>Provocazione: Virtuosismo Sfrenato</item_name>
 			<item_description>Provocazione per tutte le classi
 Domina il malvagio potere dell&apos;Oscuro Signore (Yngwie Malmsteen) e schiaccia i tuoi avversari con dei giri di chitarra infuocati, degli assoli bollenti come lava e delle ballate power metal emotivamente paralizzanti!</item_description>
 			<proper_name>true</proper_name>
@@ -45744,7 +45744,7 @@ per ogni testa recisa.</item_description>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas.mdl</model_player>
 			<item_quality>6</item_quality>
-			<image_inventory>backpack/weapons/c_models/c_boxing_gloves\c_boxing_gloves_xmas</image_inventory>
+			<image_inventory>backpack/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas</image_inventory>
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>99</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/c_boxing_gloves_xmas.0dbdc11afb9da14d86bc2a7cd946fc4a2e46a23c.png</image_url>
@@ -46995,7 +46995,7 @@ Questa è una provocazione tra partner. Premi il tasto di provocazione per attiv
 			<defindex>1108</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>Provocazione speciale</item_type_name>
-			<item_name>Provocazione: Comprati una Vita</item_name>
+			<item_name>Taunt: Buy a Life</item_name>
 			<item_description>Provocazione della Spia</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>

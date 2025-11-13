@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -1178,7 +1178,7 @@ Alt-Fire: Release a blast of air that pushes enemies and projectiles and extingu
 			<defindex>37</defindex>
 			<item_class>tf_weapon_bonesaw</item_class>
 			<item_type_name>骨用電ノコ</item_type_name>
-			<item_name>Ubersaw</item_name>
+			<item_name>Übersaw</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_ubersaw/c_ubersaw.mdl</model_player>
@@ -1563,7 +1563,7 @@ Alt-fire: Share a Sandvich with a friend (Medium Health Kit)</item_description>
 			<defindex>45</defindex>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>散弾銃</item_type_name>
-			<item_name>Force-A-Nature</item_name>
+			<item_name>Force-a-Nature</item_name>
 			<item_description>This weapon reloads its entire clip at once</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
@@ -5774,7 +5774,7 @@ Alt-fire: Share chocolate with a friend (Small Health Kit)</item_description>
 			<defindex>167</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>挑発: The High Five!</item_name>
+			<item_name>挑発： The High Five!</item_name>
 			<item_description>All Class Taunt
 Don&apos;t leave your friends hanging.
 
@@ -12660,7 +12660,7 @@ This weapon will reload automatically when not active</item_description>
 			<defindex>334</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
-			<item_name>紛れも無い富と名声の帽子</item_name>
+			<item_name>Hat of Undeniable Wealth and Respect</item_name>
 			<item_description>&apos;The Great Steam Treasure Hunt&apos; で28の目標を達成して獲得。 Cephalopod padlock にご注意ください。</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -13407,7 +13407,7 @@ This weapon will reload automatically when not active</item_description>
 			<item_class>tf_weapon_flaregun</item_class>
 			<item_type_name>フレアーガン</item_type_name>
 			<item_name>Detonator</item_name>
-			<item_description>第 2 武器: フレア弾を爆破。.
+			<item_description>第 2 武器： フレア弾を爆破。.
 この武器は使用していない時に自動でリロードします。</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>secondary</item_slot>
@@ -13635,9 +13635,9 @@ You are Marked-For-Death</item_description>
 			<item_class>tf_weapon_katana</item_class>
 			<item_type_name>日本刀</item_type_name>
 			<item_name>ハーフ座頭市</item_name>
-			<item_description>ソルジャーとデモマンは
-一撃による殺害のため
-刀で決闘可能</item_description>
+			<item_description>Soldiers and Demos
+Can duel with katanas
+For a one-hit kill</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_shogun_katana/c_shogun_katana_soldier.mdl</model_player>
@@ -14218,7 +14218,7 @@ If you don&apos;t, hide it under this discreet hoodie.</item_description>
 			<defindex>380</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>仮面</item_type_name>
-			<item_name>Large Luchadore</item_name>
+			<item_name>Large Luchador</item_name>
 			<item_description>Wrestling&apos;s real, and now you can prove it.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -15524,7 +15524,7 @@ Gain a critical melee strike after impacting an enemy.</item_description>
 					<name>矢</name>
 				</style>
 				<style>
-					<name>Spike And Arrow</name>
+					<name>Spike and Arrow</name>
 				</style>
 			</styles>
 			<used_by_classes>
@@ -16812,7 +16812,7 @@ Vossler Industries All-Natural Artificial-Fish-Derived Food Product</item_descri
 			<defindex>438</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>挑発: The Director&apos;s Vision</item_name>
+			<item_name>挑発： The Director&apos;s Vision</item_name>
 			<item_description>All Class Taunt
 Equip this item in a Taunt Slot. Activate to tell your victims you are making a Replay of their pathetic demise to share with everyone.</item_description>
 			<proper_name>false</proper_name>
@@ -17959,7 +17959,7 @@ This weapon reloads its entire clip at once.</item_description>
 			<defindex>463</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>挑発: The Schadenfreude</item_name>
+			<item_name>挑発： The Schadenfreude</item_name>
 			<item_description>All Class Taunt
 Share a good natured laugh with everyone except that one guy you just shot.</item_description>
 			<proper_name>false</proper_name>
@@ -18397,7 +18397,7 @@ Custom decals can be applied to this item.</item_description>
 			<defindex>477</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>挑発: The Meet the Medic</item_name>
+			<item_name>挑発： The Meet the Medic</item_name>
 			<item_description>Medic Taunt
 Remind those ungrateful bastards how valuable your Medic skills are by striking a heroic pose accompanied by an angelic choir, beams of divine light, and a flock of doves.</item_description>
 			<proper_name>false</proper_name>
@@ -19210,7 +19210,7 @@ AH GOD IT&apos;S BOLTED TO HIS HEAD!</item_description>
 			<defindex>497</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Tournament Medal</item_type_name>
-			<item_name>準優勝 - 職ありゲーマートーナメント</item_name>
+			<item_name>Second Place - Gamers With Jobs Tournament</item_name>
 			<item_description>準優勝者に贈呈！</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -19257,7 +19257,7 @@ AH GOD IT&apos;S BOLTED TO HIS HEAD!</item_description>
 			<defindex>498</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Tournament Medal</item_type_name>
-			<item_name>参加者- 職ありゲーマートーナメント</item_name>
+			<item_name>Participant - Gamers With Jobs Tournament</item_name>
 			<item_description>本トーナメントの参加プレイヤーに贈呈されました。</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -19351,7 +19351,7 @@ AH GOD IT&apos;S BOLTED TO HIS HEAD!</item_description>
 			<defindex>500</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Tournament Medal</item_type_name>
-			<item_name>準優勝 - ETF2Lハイランダートーナメント</item_name>
+			<item_name>Second Place - ETF2L Highlander Tournament</item_name>
 			<item_description>準優勝チームに贈呈！</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -19398,7 +19398,7 @@ AH GOD IT&apos;S BOLTED TO HIS HEAD!</item_description>
 			<defindex>501</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Tournament Medal</item_type_name>
-			<item_name>3位 - ETF2Lハイランダートーナメント</item_name>
+			<item_name>Third Place - ETF2L Highlander Tournament</item_name>
 			<item_description>第3位のチームに贈呈！</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -21477,7 +21477,7 @@ Gamescom 2011</item_description>
 			<defindex>547</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Costume Piece</item_type_name>
-			<item_name>B-ankh!</item_name>
+			<item_name>B-Ankh!</item_name>
 			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -25699,7 +25699,7 @@ Custom decals can be applied to this item.</item_description>
 			<defindex>631</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
-			<item_name>Hat With No Name</item_name>
+			<item_name>Hat with No Name</item_name>
 			<item_description>A nameless hat for a nameless man.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -26595,7 +26595,7 @@ Custom decals can be applied to this item.</item_description>
 			<defindex>649</defindex>
 			<item_class>tf_weapon_knife</item_class>
 			<item_type_name>ナイフ</item_type_name>
-			<item_name>Spy-cicle</item_name>
+			<item_name>Spy-Cicle</item_name>
 			<item_description>It&apos;s the perfect gift for the man who has everything: an icicle driven into their back. Even rich people can&apos;t buy that in stores.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
@@ -27028,7 +27028,7 @@ Custom decals can be applied to this item.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>パイプ</item_type_name>
 			<item_name>Nine-Pipe Problem</item_name>
-			<item_description>In the time it takes you to read this description, I&apos;ve already ubered a heavy, captured your base, solved a crime, and smoked three pipes.</item_description>
+			<item_description>In the time it takes you to read this description, I&apos;ve already übered a heavy, captured your base, solved a crime, and smoked three pipes.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/medic_smokingpipe.mdl</model_player>
@@ -29052,7 +29052,7 @@ Alt-Fire: Release a blast of air that pushes enemies and projectiles and extingu
 			<defindex>712</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
-			<item_name>Gifting Man From Gifting Land</item_name>
+			<item_name>Gifting Man from Gifting Land</item_name>
 			<item_description>Congratulations on giving out more gifts yesterday than any other TF2 player! Wear this with pride before it changes hands tomorrow!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -29409,7 +29409,7 @@ Alt-Fire: Release a blast of air that pushes enemies and projectiles and extingu
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>100</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/scout_prep_shirt.906456dfdb9b9c54543dcb716bb1952efb3fdde9.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.c56d08ff23b3f30249a18501fef79d221f034cd0.png</image_url_large>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.05be377767ca55c152b815f1d9774759c875a90c.png</image_url_large>
 			<drop_type>none</drop_type>
 			<craft_class>hat</craft_class>
 			<craft_material_type>hat</craft_material_type>
@@ -29739,7 +29739,7 @@ Alt-Fire: Release a blast of air that pushes enemies and projectiles and extingu
 			<defindex>732</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>兜</item_type_name>
-			<item_name>Helmet Without a Home</item_name>
+			<item_name>Helmet without a Home</item_name>
 			<item_description>Think of this helmet as a fortified, portable home for your head. It&apos;s also lined with tin foil, so nobody will be able to steal your valuable tramp-thoughts.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -34915,7 +34915,7 @@ Alt-Fire: Release a blast of air that pushes enemies and projectiles and extingu
 			<defindex>840</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
-			<item_name>U-clank-a</item_name>
+			<item_name>U-Clank-A</item_name>
 			<item_description>Roast this steel ushanka in the fire and place it on your head for sustained warmth throughout the day. Make sure to come up with an impressive sounding fake anecdote for your third degree burns!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -42399,7 +42399,7 @@ Alt-fire: Share a Sandvich with a friend (Medium Health Kit)</item_description>
 			<defindex>1003</defindex>
 			<item_class>tf_weapon_bonesaw</item_class>
 			<item_type_name>骨用電ノコ</item_type_name>
-			<item_name>Festive Ubersaw</item_name>
+			<item_name>Festive Übersaw</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_ubersaw/c_ubersaw_xmas.mdl</model_player>
@@ -43041,7 +43041,7 @@ Alt-fire: Share a Sandvich with a friend (Medium Health Kit)</item_description>
 			<defindex>1015</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>Shred Alert</item_name>
+			<item_name>Taunt: The Shred Alert</item_name>
 			<item_description>All Class Taunt
 Harness the unholy power of the Dark One (Yngwie Malmsteen) and crush your opponents with blistering riffs, lava-hot licks and emotionally crippling power ballads!</item_description>
 			<proper_name>true</proper_name>
@@ -45384,7 +45384,7 @@ Equip to enable picking up and casting spells.</item_description>
 			<defindex>1078</defindex>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>散弾銃</item_type_name>
-			<item_name>Festive Force-A-Nature</item_name>
+			<item_name>Festive Force-a-Nature</item_name>
 			<item_description>This weapon reloads its entire clip at once</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>primary</item_slot>
@@ -45741,7 +45741,7 @@ This weapon will reload automatically when not active</item_description>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas.mdl</model_player>
 			<item_quality>6</item_quality>
-			<image_inventory>backpack/weapons/c_models/c_boxing_gloves\c_boxing_gloves_xmas</image_inventory>
+			<image_inventory>backpack/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas</image_inventory>
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>99</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/c_boxing_gloves_xmas.0dbdc11afb9da14d86bc2a7cd946fc4a2e46a23c.png</image_url>
@@ -46878,7 +46878,7 @@ Inspired by the TF2 Movie &apos;Expiration Date&apos;</item_description>
 			<defindex>1106</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>挑発: スクエアダンス</item_name>
+			<item_name>挑発： スクエアダンス</item_name>
 			<item_description>All Class Taunt
 
 This is a partner taunt.  Press the taunt key to toggle.</item_description>
@@ -46933,7 +46933,7 @@ This is a partner taunt.  Press the taunt key to toggle.</item_description>
 			<defindex>1107</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>挑発: Flippin&apos; Awesome</item_name>
+			<item_name>挑発： Flippin&apos; Awesome</item_name>
 			<item_description>All Class Taunt
 
 This is a partner taunt.  Press the taunt key to toggle.</item_description>
@@ -46988,7 +46988,7 @@ This is a partner taunt.  Press the taunt key to toggle.</item_description>
 			<defindex>1108</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>挑発: Buy A Life</item_name>
+			<item_name>Taunt: Buy a Life</item_name>
 			<item_description>スパイ 挑発</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
@@ -47029,7 +47029,7 @@ This is a partner taunt.  Press the taunt key to toggle.</item_description>
 			<defindex>1109</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>挑発: Results Are In</item_name>
+			<item_name>挑発： Results Are In</item_name>
 			<item_description>メディック 挑発</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
@@ -47070,7 +47070,7 @@ This is a partner taunt.  Press the taunt key to toggle.</item_description>
 			<defindex>1110</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>挑発: じゃんけん</item_name>
+			<item_name>挑発： じゃんけん</item_name>
 			<item_description>All Class Taunt
 
 This is a partner taunt.  Press the taunt key to toggle.
@@ -47126,7 +47126,7 @@ Opposing teams will face off to the death.</item_description>
 			<defindex>1111</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>挑発: Skullcracker</item_name>
+			<item_name>挑発： Skullcracker</item_name>
 			<item_description>All Class Taunt
 
 This is a partner taunt.  Press the taunt key to toggle.</item_description>
@@ -47171,7 +47171,7 @@ This is a partner taunt.  Press the taunt key to toggle.</item_description>
 			<defindex>1112</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>挑発: Party Trick</item_name>
+			<item_name>挑発： Party Trick</item_name>
 			<item_description>パイロ 挑発</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
@@ -47212,7 +47212,7 @@ This is a partner taunt.  Press the taunt key to toggle.</item_description>
 			<defindex>1113</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>挑発: Fresh Brewed Victory</item_name>
+			<item_name>挑発： Fresh Brewed Victory</item_name>
 			<item_description>ソルジャー 挑発</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
@@ -47253,7 +47253,7 @@ This is a partner taunt.  Press the taunt key to toggle.</item_description>
 			<defindex>1114</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>挑発: Spent Well Spirits</item_name>
+			<item_name>挑発： Spent Well Spirits</item_name>
 			<item_description>デモマン 挑発</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
@@ -47299,7 +47299,7 @@ This is a partner taunt.  Press the taunt key to toggle.</item_description>
 			<defindex>1115</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>挑発: Rancho Relaxo</item_name>
+			<item_name>挑発： Rancho Relaxo</item_name>
 			<item_description>エンジニア 挑発</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
@@ -47345,7 +47345,7 @@ This is a partner taunt.  Press the taunt key to toggle.</item_description>
 			<defindex>1116</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>挑発: I See You</item_name>
+			<item_name>挑発： I See You</item_name>
 			<item_description>スナイパー 挑発</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
@@ -47386,7 +47386,7 @@ This is a partner taunt.  Press the taunt key to toggle.</item_description>
 			<defindex>1117</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>挑発: Battin&apos; a Thousand</item_name>
+			<item_name>挑発： Battin&apos; a Thousand</item_name>
 			<item_description>スカウト 挑発</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
@@ -47432,7 +47432,7 @@ This is a partner taunt.  Press the taunt key to toggle.</item_description>
 			<defindex>1118</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>挑発: コンガ</item_name>
+			<item_name>挑発： コンガ</item_name>
 			<item_description>これは複数人で行う挑発です。
 他のプレイヤーも武器を持って挑発すれば加わることができます。
 
@@ -47504,7 +47504,7 @@ This is a partner taunt.  Press the taunt key to toggle.</item_description>
 			<defindex>1119</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>挑発: Deep Fried Desire</item_name>
+			<item_name>挑発： Deep Fried Desire</item_name>
 			<item_description>スカウト 挑発</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
@@ -47545,7 +47545,7 @@ This is a partner taunt.  Press the taunt key to toggle.</item_description>
 			<defindex>1120</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>挑発: Oblooterated</item_name>
+			<item_name>挑発： Oblooterated</item_name>
 			<item_description>デモマン 挑発</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>

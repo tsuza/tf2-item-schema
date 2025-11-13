@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -847,7 +847,7 @@
 			"name"	"dmg taken from fire increased"
 			"defindex"	"61"
 			"attribute_class"	"mult_dmgtaken_from_fire"
-			"description_string"	"착용 시 화염 피해 %s1% 취약"
+			"description_string"	"착용 시 화염 피해 %s1% 취약성"
 			"description_format"	"value_is_percentage"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -869,7 +869,7 @@
 			"name"	"dmg taken from crit increased"
 			"defindex"	"63"
 			"attribute_class"	"mult_dmgtaken_from_crit"
-			"description_string"	"착용 시 치명타 피해 %s1% 취약"
+			"description_string"	"착용 시 치명타 피해 %s1% 취약성"
 			"description_format"	"value_is_percentage"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -891,7 +891,7 @@
 			"name"	"dmg taken from blast increased"
 			"defindex"	"65"
 			"attribute_class"	"mult_dmgtaken_from_explosions"
-			"description_string"	"착용 시 폭발 피해 %s1% 취약"
+			"description_string"	"착용 시 폭발 피해 %s1% 취약성"
 			"description_format"	"value_is_percentage"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -913,7 +913,7 @@
 			"name"	"dmg taken from bullets increased"
 			"defindex"	"67"
 			"attribute_class"	"mult_dmgtaken_from_bullets"
-			"description_string"	"착용 시 탄환 피해 %s1% 취약"
+			"description_string"	"착용 시 탄환 피해 %s1% 취약성"
 			"description_format"	"value_is_percentage"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -957,7 +957,7 @@
 			"name"	"weapon burn dmg increased"
 			"defindex"	"71"
 			"attribute_class"	"mult_wpn_burndmg"
-			"description_string"	"화상 피해 +%s1%"
+			"description_string"	"화상 지속 피해 +%s1%"
 			"description_format"	"value_is_percentage"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -968,7 +968,7 @@
 			"name"	"weapon burn dmg reduced"
 			"defindex"	"72"
 			"attribute_class"	"mult_wpn_burndmg"
-			"description_string"	"화상 피해 %s1%"
+			"description_string"	"화상 지속 피해 %s1%"
 			"description_format"	"value_is_percentage"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -1034,7 +1034,7 @@
 			"name"	"maxammo secondary increased"
 			"defindex"	"78"
 			"attribute_class"	"mult_maxammo_secondary"
-			"description_string"	"착용 시 보조무기 탄약수 +%s1%"
+			"description_string"	"착용 시 보조 무기 탄약수 +%s1%"
 			"description_format"	"value_is_percentage"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -1045,7 +1045,7 @@
 			"name"	"maxammo secondary reduced"
 			"defindex"	"79"
 			"attribute_class"	"mult_maxammo_secondary"
-			"description_string"	"착용 시 보조무기 탄약수 %s1%"
+			"description_string"	"착용 시 보조 무기 탄약수 %s1%"
 			"description_format"	"value_is_percentage"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -1144,7 +1144,7 @@
 			"name"	"max pipebombs increased"
 			"defindex"	"88"
 			"attribute_class"	"add_max_pipebombs"
-			"description_string"	"폭탄 설치 최대량 +%s1"
+			"description_string"	"점착 폭탄 설치 최대량 +%s1"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -1155,7 +1155,7 @@
 			"name"	"max pipebombs decreased"
 			"defindex"	"89"
 			"attribute_class"	"add_max_pipebombs"
-			"description_string"	"폭탄 설치 최대량 %s1"
+			"description_string"	"점착 폭탄 설치 최대량 %s1"
 			"description_format"	"value_is_additive"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -3086,7 +3086,7 @@
 			"name"	"powerup max charges"
 			"defindex"	"270"
 			"attribute_class"	"powerup_max_charges"
-			"description_string"	"최대 %s1 개의 능력 보유"
+			"description_string"	"최대 %s1개의 능력 보유"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -3097,7 +3097,7 @@
 			"name"	"powerup charges"
 			"defindex"	"271"
 			"attribute_class"	"powerup_charges"
-			"description_string"	"현재 %s1 개 능력 보유중"
+			"description_string"	"현재 %s1개 능력 보유중"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -3342,7 +3342,7 @@
 			"name"	"sapper kills collect crits"
 			"defindex"	"296"
 			"attribute_class"	"sapper_kills_collect_crits"
-			"description_string"	"전자 교란기로 파괴한 구조물 수와 백스탭 처치수만큼 치명타가 주어집니다."
+			"description_string"	"전자 교란기로 파괴한 구조물 수와 백스탭 처치 수만큼 치명타가 주어집니다."
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -3494,7 +3494,7 @@
 			"name"	"recall"
 			"defindex"	"310"
 			"attribute_class"	"recall"
-			"description_string"	"소모성: 즉시 기지로 순간 이동합니다."
+			"description_string"	"소모성: 즉시 기지로 텔레포트합니다."
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -3912,7 +3912,7 @@
 			"name"	"alt fire teleport to spawn"
 			"defindex"	"352"
 			"attribute_class"	"alt_fire_teleport_to_spawn"
-			"description_string"	"장전 단추를 눌러 부활 장소나 텔레포터 출구로 순간 이동하세요."
+			"description_string"	"장전 단추를 눌러 부활 장소나 텔레포터 출구로 텔레포트하세요."
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -4009,7 +4009,7 @@
 			"name"	"become fireproof on hit by fire"
 			"defindex"	"361"
 			"attribute_class"	"become_fireproof_on_hit_by_fire"
-			"description_string"	"불에 닿았을 경우, 1초 동안은 불이 붙지 않으며, %s1 초 동안 화상 피해에 면역됩니다."
+			"description_string"	"불에 닿으면 1초간 불이 붙지 않으며, %s1초 동안 화상 지속에 면역됩니다."
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -4374,7 +4374,7 @@
 			"name"	"melee attack rate bonus"
 			"defindex"	"396"
 			"attribute_class"	"mult_postfiredelay"
-			"description_string"	"근접무기 공격 속도 +%s1%"
+			"description_string"	"근접 무기 공격 속도 +%s1%"
 			"description_format"	"value_is_inverted_percentage"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -4549,7 +4549,7 @@
 			"name"	"dmg taken increased"
 			"defindex"	"412"
 			"attribute_class"	"mult_dmgtaken"
-			"description_string"	"착용 시 피해 %s1% 취약"
+			"description_string"	"착용 시 피해 %s1% 취약성"
 			"description_format"	"value_is_percentage"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -5525,7 +5525,7 @@
 			"name"	"SET BONUS: dmg taken from bullets increased"
 			"defindex"	"516"
 			"attribute_class"	"mult_dmgtaken_from_bullets"
-			"description_string"	"착용 시 탄환 피해 %s1% 취약"
+			"description_string"	"착용 시 탄환 피해 %s1% 취약성"
 			"description_format"	"value_is_percentage"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -5626,7 +5626,7 @@
 			"name"	"afterburn immunity"
 			"defindex"	"527"
 			"attribute_class"	"afterburn_immunity"
-			"description_string"	"화상 면역"
+			"description_string"	"화상 지속 면역"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -6198,7 +6198,7 @@
 			"name"	"tag__summer2014"
 			"defindex"	"661"
 			"attribute_class"	"tag__summer2014"
-			"description_string"	"2014년 여름 모험에 참가하여 보상으로 받았습니다."
+			"description_string"	"2014 여름 모험에 참가하여 보상으로 받았습니다."
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -7157,8 +7157,10 @@
 			"name"	"energy buff dmg taken multiplier"
 			"defindex"	"798"
 			"attribute_class"	"energy_buff_dmg_taken_multiplier"
+			"description_string"	"활성화 시 피해 취약성 +%s1%"
+			"description_format"	"value_is_percentage"
 			"effect_type"	"negative"
-			"hidden"	"1"
+			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
 		"662"
@@ -7640,7 +7642,7 @@
 			"name"	"mult_dmgtaken_active"
 			"defindex"	"852"
 			"attribute_class"	"mult_dmgtaken_active"
-			"description_string"	"착용 시 피해 %s1% 취약"
+			"description_string"	"착용 시 피해 %s1% 취약성"
 			"description_format"	"value_is_percentage"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -7827,7 +7829,7 @@
 			"name"	"mult_item_meter_charge_rate"
 			"defindex"	"874"
 			"attribute_class"	"mult_item_meter_charge_rate"
-			"description_string"	"%s1% faster recharge rate"
+			"description_string"	"재충전 속도 %s1% 증가"
 			"description_format"	"value_is_inverted_percentage"
 			"effect_type"	"value_is_from_lookup_table"
 			"hidden"	"0"
@@ -8669,6 +8671,127 @@
 		}
 		"813"
 		{
+			"name"	"freaky fair kritz potion"
+			"defindex"	"2069"
+			"attribute_class"	"freaky_fair_kritz_potion"
+			"description_string"	"치명타 증진 물약"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"814"
+		{
+			"name"	"freaky fair uber potion"
+			"defindex"	"2070"
+			"attribute_class"	"freaky_fair_uber_potion"
+			"description_string"	"우버 물약"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"815"
+		{
+			"name"	"freaky fair giant potion"
+			"defindex"	"2071"
+			"attribute_class"	"freaky_fair_giant_potion"
+			"description_string"	"거인 물약"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"816"
+		{
+			"name"	"freaky fair buster potion"
+			"defindex"	"2072"
+			"attribute_class"	"freaky_fair_buster_potion"
+			"description_string"	"호박 파괴자 물약"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"817"
+		{
+			"name"	"freaky fair healing potion"
+			"defindex"	"2073"
+			"attribute_class"	"freaky_fair_healing_potion"
+			"description_string"	"치료 물약"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"818"
+		{
+			"name"	"freaky fair ghost potion"
+			"defindex"	"2074"
+			"attribute_class"	"freaky_fair_ghost_potion"
+			"description_string"	"유령 물약"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"819"
+		{
+			"name"	"freaky fair ammo potion"
+			"defindex"	"2075"
+			"attribute_class"	"freaky_fair_ammo_potion"
+			"description_string"	"탄약 보충 물약"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"820"
+		{
+			"name"	"freaky fair rtd potion"
+			"defindex"	"2076"
+			"attribute_class"	"freaky_fair_rtd_potion"
+			"description_string"	"`주사위 굴리기` 물약"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"821"
+		{
+			"name"	"freaky fair relentless potion"
+			"defindex"	"2077"
+			"attribute_class"	"freaky_fair_relentless_potion"
+			"description_string"	"냉혹 물약"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"822"
+		{
+			"name"	"freaky fair extra attrib1"
+			"defindex"	"2078"
+			"attribute_class"	"freaky_fair_extra_attrib1"
+			"description_string"	"Freaky Fair 추가 속성 1"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"823"
+		{
+			"name"	"freaky fair extra attrib2"
+			"defindex"	"2079"
+			"attribute_class"	"freaky_fair_extra_attrib2"
+			"description_string"	"Freaky Fair 추가 속성 2"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"824"
+		{
 			"name"	"item slot criteria 1"
 			"defindex"	"3000"
 			"attribute_class"	"item_slot_criteria"
@@ -8677,7 +8800,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"814"
+		"825"
 		{
 			"name"	"item in slot 1"
 			"defindex"	"3001"
@@ -8687,7 +8810,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"815"
+		"826"
 		{
 			"name"	"item slot criteria 2"
 			"defindex"	"3002"
@@ -8697,7 +8820,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"816"
+		"827"
 		{
 			"name"	"item in slot 2"
 			"defindex"	"3003"
@@ -8707,7 +8830,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"817"
+		"828"
 		{
 			"name"	"item slot criteria 3"
 			"defindex"	"3004"
@@ -8717,7 +8840,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"818"
+		"829"
 		{
 			"name"	"item in slot 3"
 			"defindex"	"3005"
@@ -8727,7 +8850,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"819"
+		"830"
 		{
 			"name"	"item slot criteria 4"
 			"defindex"	"3006"
@@ -8737,7 +8860,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"820"
+		"831"
 		{
 			"name"	"item in slot 4"
 			"defindex"	"3007"
@@ -8747,7 +8870,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"821"
+		"832"
 		{
 			"name"	"item slot criteria 5"
 			"defindex"	"3008"
@@ -8757,7 +8880,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"822"
+		"833"
 		{
 			"name"	"item in slot 5"
 			"defindex"	"3009"
@@ -8767,7 +8890,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"823"
+		"834"
 		{
 			"name"	"item slot criteria 6"
 			"defindex"	"3010"
@@ -8777,7 +8900,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"824"
+		"835"
 		{
 			"name"	"item in slot 6"
 			"defindex"	"3011"
@@ -8787,7 +8910,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"825"
+		"836"
 		{
 			"name"	"item slot criteria 7"
 			"defindex"	"3012"
@@ -8797,7 +8920,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"826"
+		"837"
 		{
 			"name"	"item in slot 7"
 			"defindex"	"3013"
@@ -8807,7 +8930,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"827"
+		"838"
 		{
 			"name"	"item slot criteria 8"
 			"defindex"	"3014"
@@ -8817,7 +8940,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"828"
+		"839"
 		{
 			"name"	"item in slot 8"
 			"defindex"	"3015"
@@ -8827,7 +8950,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"829"
+		"840"
 		{
 			"name"	"quest earned standard points"
 			"defindex"	"3016"
@@ -8836,7 +8959,7 @@
 			"hidden"	"1"
 			"stored_as_integer"	"1"
 		}
-		"830"
+		"841"
 		{
 			"name"	"quest earned bonus points"
 			"defindex"	"3017"
@@ -8845,7 +8968,7 @@
 			"hidden"	"1"
 			"stored_as_integer"	"1"
 		}
-		"831"
+		"842"
 		{
 			"name"	"item drop wave"
 			"defindex"	"3018"
@@ -9208,7 +9331,7 @@
 		"26"
 		{
 			"item_set"	"hw2013_pyro_malice"
-			"name"	"파이로동산의 악의"
+			"name"	"파이로 동산의 악의"
 			"items"
 			{
 				"0"	"The Crispy Golden Locks"
@@ -9295,7 +9418,7 @@
 		"34"
 		{
 			"item_set"	"monster_mash_up"
-			"name"	"The Monster Mash-Up Pack"
+			"name"	"괴물의 난동 팩"
 			"items"
 			{
 				"0"	"Yeti_Head"
@@ -9574,7 +9697,7 @@
 		"55"
 		{
 			"item_set"	"short2014_demo_drinking"
-			"name"	"국경의 남쪽 묶음"
+			"name"	"국경의 남쪽 팩"
 			"items"
 			{
 				"0"	"The Allbrero"
@@ -9606,7 +9729,7 @@
 		"58"
 		{
 			"item_set"	"short2014_pyro_pack1"
-			"name"	"방랑 방화광 묶음"
+			"name"	"방랑 방화광 팩"
 			"items"
 			{
 				"0"	"The Combustible Kabuto"
@@ -9616,7 +9739,7 @@
 		"59"
 		{
 			"item_set"	"short2014_pyro_pack2"
-			"name"	"방화의 후예들 묶음"
+			"name"	"방화의 후예들 팩"
 			"items"
 			{
 				"0"	"The Gas Guzzler"
@@ -9627,7 +9750,7 @@
 		"60"
 		{
 			"item_set"	"short2014_pyro_pack3"
-			"name"	"패스트푸드 방화범 묶음"
+			"name"	"패스트푸드 방화범 팩"
 			"items"
 			{
 				"0"	"Employee of the Mmmph"
@@ -9637,7 +9760,7 @@
 		"61"
 		{
 			"item_set"	"short2014_scout_fancy"
-			"name"	"복고풍의 반항아 묶음"
+			"name"	"복고풍의 반항아 팩"
 			"items"
 			{
 				"0"	"The Pomade Prince"
@@ -9648,7 +9771,7 @@
 		"62"
 		{
 			"item_set"	"short2014_scout_pack"
-			"name"	"너무너무 좋은 닌자 묶음"
+			"name"	"너무너무 좋은 닌자 팩"
 			"items"
 			{
 				"0"	"The Frickin' Sweet Ninja Hood"
@@ -9659,7 +9782,7 @@
 		"63"
 		{
 			"item_set"	"short2014_sniper_pack"
-			"name"	"올곧은 사수 묶음"
+			"name"	"올곧은 사수 팩"
 			"items"
 			{
 				"0"	"The Scoper's Smoke"
@@ -9669,7 +9792,7 @@
 		"64"
 		{
 			"item_set"	"short2014_soldier_pack"
-			"name"	"연방 관광 요원 묶음"
+			"name"	"연방 관광 요원 팩"
 			"items"
 			{
 				"0"	"The Spook Specs"
@@ -9680,7 +9803,7 @@
 		"65"
 		{
 			"item_set"	"short2014_spy_pack"
-			"name"	"자동 항법 조종사 묶음"
+			"name"	"자동 항법 조종사 팩"
 			"items"
 			{
 				"0"	"The Aviator Assassin"
@@ -9893,6 +10016,7 @@
 			"system"	"superrare_beams1"
 			"id"	"17"
 			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
 			"name"	"태양 광선"
 		}
 		"17"
@@ -10296,7 +10420,7 @@
 			"id"	"85"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ghastly Ghosts Jr"
+			"name"	"무시무시한 유령 주니어"
 		}
 		"69"
 		{
@@ -10504,7 +10628,7 @@
 			"id"	"111"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Brain Drain"
+			"name"	"두뇌 유출"
 		}
 		"95"
 		{
@@ -10512,7 +10636,7 @@
 			"id"	"112"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Open Mind"
+			"name"	"열린 마음"
 		}
 		"96"
 		{
@@ -10520,7 +10644,7 @@
 			"id"	"113"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Head of Steam"
+			"name"	"내 머리 속의 증기"
 		}
 		"97"
 		{
@@ -10528,7 +10652,7 @@
 			"id"	"114"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Galactic Gateway"
+			"name"	"은하계 관문"
 		}
 		"98"
 		{
@@ -10536,7 +10660,7 @@
 			"id"	"115"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"The Eldritch Opening"
+			"name"	"섬뜩한 시작 "
 		}
 		"99"
 		{
@@ -10544,7 +10668,7 @@
 			"id"	"116"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"The Dark Doorway"
+			"name"	"어둠의 관문 "
 		}
 		"100"
 		{
@@ -10552,7 +10676,7 @@
 			"id"	"117"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ring of Fire"
+			"name"	"불의 고리"
 		}
 		"101"
 		{
@@ -10560,7 +10684,7 @@
 			"id"	"118"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Vicious Circle"
+			"name"	"악순환"
 		}
 		"102"
 		{
@@ -10568,7 +10692,7 @@
 			"id"	"119"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"White Lightning"
+			"name"	"새하얀 번개"
 		}
 		"103"
 		{
@@ -10576,7 +10700,7 @@
 			"id"	"120"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Omniscient Orb"
+			"name"	"전지전능 오브"
 		}
 		"104"
 		{
@@ -10584,7 +10708,7 @@
 			"id"	"121"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Clairvoyance"
+			"name"	"예지자"
 		}
 		"105"
 		{
@@ -10592,7 +10716,7 @@
 			"id"	"122"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fifth Dimension"
+			"name"	"5차원"
 		}
 		"106"
 		{
@@ -10600,7 +10724,7 @@
 			"id"	"123"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Vicious Vortex"
+			"name"	"악의 소용돌이"
 		}
 		"107"
 		{
@@ -10608,7 +10732,7 @@
 			"id"	"124"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Menacing Miasma"
+			"name"	"위협적인 독무"
 		}
 		"108"
 		{
@@ -10616,7 +10740,7 @@
 			"id"	"125"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Abyssal Aura"
+			"name"	"심연의 오라"
 		}
 		"109"
 		{
@@ -10624,7 +10748,7 @@
 			"id"	"126"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Wicked Wood"
+			"name"	"암흑의 숲"
 		}
 		"110"
 		{
@@ -10632,7 +10756,7 @@
 			"id"	"127"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ghastly Grove"
+			"name"	"귀신의 숲"
 		}
 		"111"
 		{
@@ -10640,7 +10764,7 @@
 			"id"	"128"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Mystical Medley"
+			"name"	"기묘한 메들리"
 		}
 		"112"
 		{
@@ -10648,7 +10772,7 @@
 			"id"	"129"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ethereal Essence"
+			"name"	"미묘한 본질"
 		}
 		"113"
 		{
@@ -10656,7 +10780,7 @@
 			"id"	"130"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Twisted Radiance"
+			"name"	"뒤틀린 광채"
 		}
 		"114"
 		{
@@ -10664,7 +10788,7 @@
 			"id"	"131"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Violet Vortex"
+			"name"	"보랏빛 소용돌이"
 		}
 		"115"
 		{
@@ -10672,7 +10796,7 @@
 			"id"	"132"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Verdant Vortex"
+			"name"	"신록의 소용돌이"
 		}
 		"116"
 		{
@@ -10680,7 +10804,7 @@
 			"id"	"133"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Valiant Vortex"
+			"name"	"용맹한 소용돌이"
 		}
 		"117"
 		{
@@ -10688,7 +10812,7 @@
 			"id"	"134"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sparkling Lights"
+			"name"	"반짝이는 불빛"
 		}
 		"118"
 		{
@@ -10696,7 +10820,7 @@
 			"id"	"135"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Frozen Icefall"
+			"name"	"얼어붙은 얼음 폭포"
 		}
 		"119"
 		{
@@ -10704,7 +10828,7 @@
 			"id"	"136"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fragmented Gluons"
+			"name"	"조각난 글루온"
 		}
 		"120"
 		{
@@ -10712,7 +10836,7 @@
 			"id"	"137"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fragmented Quarks"
+			"name"	"조각난 쿼크"
 		}
 		"121"
 		{
@@ -10720,7 +10844,7 @@
 			"id"	"138"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fragmented Photons"
+			"name"	"조각난 광자"
 		}
 		"122"
 		{
@@ -10728,7 +10852,7 @@
 			"id"	"139"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Defragmenting Reality"
+			"name"	"현실 조립화"
 		}
 		"123"
 		{
@@ -10744,7 +10868,7 @@
 			"id"	"141"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fragmenting Reality"
+			"name"	"현실 조각화"
 		}
 		"125"
 		{
@@ -10752,7 +10876,7 @@
 			"id"	"142"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Refragmenting Reality"
+			"name"	"현실 재조각화"
 		}
 		"126"
 		{
@@ -10760,7 +10884,7 @@
 			"id"	"143"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Snowfallen"
+			"name"	"떨어지는 눈꽃"
 		}
 		"127"
 		{
@@ -10768,7 +10892,7 @@
 			"id"	"144"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Snowblinded"
+			"name"	"설맹의"
 		}
 		"128"
 		{
@@ -10776,7 +10900,7 @@
 			"id"	"145"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Pyroland Daydream"
+			"name"	"파이로 동산의 백일몽"
 		}
 		"129"
 		{
@@ -10792,7 +10916,7 @@
 			"id"	"147"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Verdatica"
+			"name"	"신록의 연무"
 		}
 		"131"
 		{
@@ -10800,7 +10924,7 @@
 			"id"	"148"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Aromatica"
+			"name"	"향기로운 연무"
 		}
 		"132"
 		{
@@ -10808,7 +10932,7 @@
 			"id"	"149"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Chromatica"
+			"name"	"다채로운 연무"
 		}
 		"133"
 		{
@@ -10816,7 +10940,7 @@
 			"id"	"150"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Prismatica"
+			"name"	"밝고 선명한 연무"
 		}
 		"134"
 		{
@@ -10824,7 +10948,7 @@
 			"id"	"151"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Bee Swarm"
+			"name"	"벌떼"
 		}
 		"135"
 		{
@@ -10832,7 +10956,7 @@
 			"id"	"152"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Frisky Fireflies"
+			"name"	"휘적휘적 반딧불이"
 		}
 		"136"
 		{
@@ -10840,7 +10964,7 @@
 			"id"	"153"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Smoldering Spirits"
+			"name"	"불의 정령"
 		}
 		"137"
 		{
@@ -10848,7 +10972,7 @@
 			"id"	"154"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Wandering Wisps"
+			"name"	"떠돌아다니는 도깨비불"
 		}
 		"138"
 		{
@@ -10856,7 +10980,7 @@
 			"id"	"155"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Kaleidoscope"
+			"name"	"만화경"
 		}
 		"139"
 		{
@@ -10864,7 +10988,7 @@
 			"id"	"156"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Green Giggler"
+			"name"	"웃는 녹색 얼굴"
 		}
 		"140"
 		{
@@ -10872,7 +10996,7 @@
 			"id"	"157"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Laugh-O-Lantern"
+			"name"	"웃는 주황색 얼굴"
 		}
 		"141"
 		{
@@ -10880,7 +11004,7 @@
 			"id"	"158"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Plum Prankster"
+			"name"	"웃는 보라색 얼굴"
 		}
 		"142"
 		{
@@ -10888,7 +11012,7 @@
 			"id"	"159"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Pyroland Nightmare"
+			"name"	"파이로 동산의 악몽"
 		}
 		"143"
 		{
@@ -10896,7 +11020,7 @@
 			"id"	"160"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Gravelly Ghoul"
+			"name"	"석회암 구울"
 		}
 		"144"
 		{
@@ -10904,7 +11028,7 @@
 			"id"	"161"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Vexed Volcanics"
+			"name"	"성가신 볼케닉"
 		}
 		"145"
 		{
@@ -10912,7 +11036,7 @@
 			"id"	"162"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Gourdian Angel"
+			"name"	"수호 '박' 천사"
 		}
 		"146"
 		{
@@ -10920,7 +11044,7 @@
 			"id"	"163"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Pumpkin Party"
+			"name"	"호박 파티"
 		}
 		"147"
 		{
@@ -10928,7 +11052,7 @@
 			"id"	"164"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Frozen Fractals"
+			"name"	"얼어붙은 눈꽃"
 		}
 		"148"
 		{
@@ -10936,7 +11060,7 @@
 			"id"	"165"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Lavender Landfall"
+			"name"	"라벤더 눈꽃"
 		}
 		"149"
 		{
@@ -10944,7 +11068,7 @@
 			"id"	"166"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Special Snowfall"
+			"name"	"황금 눈꽃"
 		}
 		"150"
 		{
@@ -10952,7 +11076,7 @@
 			"id"	"167"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Divine Desire"
+			"name"	"신의 욕망"
 		}
 		"151"
 		{
@@ -10960,7 +11084,7 @@
 			"id"	"168"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Distant Dream"
+			"name"	"머나먼 꿈"
 		}
 		"152"
 		{
@@ -10968,7 +11092,7 @@
 			"id"	"169"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Violent Wintertide"
+			"name"	"폭력적인 눈보라"
 		}
 		"153"
 		{
@@ -10976,7 +11100,7 @@
 			"id"	"170"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Blighted Snowstorm"
+			"name"	"한밤중의 눈보라"
 		}
 		"154"
 		{
@@ -10984,7 +11108,7 @@
 			"id"	"171"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Pale Nimbus"
+			"name"	"창백한 후광"
 		}
 		"155"
 		{
@@ -10992,7 +11116,7 @@
 			"id"	"172"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Genus Plasmos"
+			"name"	"플라스모스속"
 		}
 		"156"
 		{
@@ -11000,7 +11124,7 @@
 			"id"	"173"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Serenus Lumen"
+			"name"	"맑은 빛"
 		}
 		"157"
 		{
@@ -11008,7 +11132,7 @@
 			"id"	"174"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ventum Maris"
+			"name"	"바다의 바람"
 		}
 		"158"
 		{
@@ -11016,7 +11140,7 @@
 			"id"	"175"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Mirthful Mistletoe"
+			"name"	"유쾌한 겨우살이"
 		}
 		"159"
 		{
@@ -11032,7 +11156,7 @@
 			"id"	"177"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Resonation"
+			"name"	"공명"
 		}
 		"161"
 		{
@@ -11040,7 +11164,7 @@
 			"id"	"178"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Aggradation"
+			"name"	"응집"
 		}
 		"162"
 		{
@@ -11048,7 +11172,7 @@
 			"id"	"179"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Lucidation"
+			"name"	"자각"
 		}
 		"163"
 		{
@@ -11056,7 +11180,7 @@
 			"id"	"180"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Stunning"
+			"name"	"별이 뱅뱅"
 		}
 		"164"
 		{
@@ -11064,7 +11188,7 @@
 			"id"	"181"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ardentum Saturnalis"
+			"name"	"불타는 토성"
 		}
 		"165"
 		{
@@ -11072,7 +11196,7 @@
 			"id"	"182"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fragrancium Elementalis"
+			"name"	"정령의 향기"
 		}
 		"166"
 		{
@@ -11080,7 +11204,7 @@
 			"id"	"183"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Reverium Irregularis"
+			"name"	"불규칙적인 리버리움"
 		}
 		"167"
 		{
@@ -11096,7 +11220,7 @@
 			"id"	"185"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Perennial Petals"
+			"name"	"영원한 꽃잎"
 		}
 		"169"
 		{
@@ -11104,7 +11228,7 @@
 			"id"	"186"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flavorsome Sunset"
+			"name"	"풍치 있는 저녁 노을"
 		}
 		"170"
 		{
@@ -11112,7 +11236,7 @@
 			"id"	"187"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Raspberry Bloom"
+			"name"	"산딸기 꽃"
 		}
 		"171"
 		{
@@ -11120,7 +11244,7 @@
 			"id"	"188"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Iridescence"
+			"name"	"발광"
 		}
 		"172"
 		{
@@ -11128,7 +11252,7 @@
 			"id"	"189"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Tempered Thorns"
+			"name"	"유연한 뿔"
 		}
 		"173"
 		{
@@ -11136,7 +11260,7 @@
 			"id"	"190"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Devilish Diablo"
+			"name"	"악마의 뿔"
 		}
 		"174"
 		{
@@ -11144,7 +11268,7 @@
 			"id"	"191"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Severed Serration"
+			"name"	"절단된 톱날"
 		}
 		"175"
 		{
@@ -11152,7 +11276,7 @@
 			"id"	"192"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Shrieking Shades"
+			"name"	"비명 지르는 그림자"
 		}
 		"176"
 		{
@@ -11160,7 +11284,7 @@
 			"id"	"193"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Restless Wraiths"
+			"name"	"불안해하는 유령"
 		}
 		"177"
 		{
@@ -11168,7 +11292,7 @@
 			"id"	"194"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Restless Wraiths"
+			"name"	"불안해하는 유령"
 		}
 		"178"
 		{
@@ -11176,7 +11300,7 @@
 			"id"	"195"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Infernal Wraith"
+			"name"	"지옥의 유령"
 		}
 		"179"
 		{
@@ -11184,7 +11308,7 @@
 			"id"	"196"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Phantom Crown"
+			"name"	"유령왕"
 		}
 		"180"
 		{
@@ -11192,7 +11316,7 @@
 			"id"	"197"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ancient Specter"
+			"name"	"고대의 유령"
 		}
 		"181"
 		{
@@ -11200,7 +11324,7 @@
 			"id"	"198"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Viridescent Peeper"
+			"name"	"초록빛 응시자"
 		}
 		"182"
 		{
@@ -11208,7 +11332,7 @@
 			"id"	"199"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Eyes of Molten"
+			"name"	"녹아내릴 듯한 응시자"
 		}
 		"183"
 		{
@@ -11216,7 +11340,7 @@
 			"id"	"200"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ominous Stare"
+			"name"	"불길한 응시자"
 		}
 		"184"
 		{
@@ -11224,7 +11348,7 @@
 			"id"	"201"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Pumpkin Moon"
+			"name"	"호박 달"
 		}
 		"185"
 		{
@@ -11232,7 +11356,7 @@
 			"id"	"202"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Frantic Spooker"
+			"name"	"광란의 유령"
 		}
 		"186"
 		{
@@ -11240,7 +11364,7 @@
 			"id"	"203"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Frightened Poltergeist"
+			"name"	"겁먹은 유령"
 		}
 		"187"
 		{
@@ -11248,7 +11372,7 @@
 			"id"	"204"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Energetic Haunter"
+			"name"	"활기찬 유령"
 		}
 		"188"
 		{
@@ -11256,7 +11380,7 @@
 			"id"	"205"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Smissmas Tree"
+			"name"	"스마스마스 트리 "
 		}
 		"189"
 		{
@@ -11264,7 +11388,7 @@
 			"id"	"206"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Hospitable Festivity"
+			"name"	"환영의 축제 트리"
 		}
 		"190"
 		{
@@ -11272,7 +11396,7 @@
 			"id"	"207"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Condescending Embrace"
+			"name"	"겸손한 포용 트리"
 		}
 		"191"
 		{
@@ -11280,7 +11404,7 @@
 			"id"	"208"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Condescending Embrace"
+			"name"	"겸손한 포용 트리"
 		}
 		"192"
 		{
@@ -11288,7 +11412,7 @@
 			"id"	"209"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sparkling Spruce"
+			"name"	"반짝이는 전나무 트리"
 		}
 		"193"
 		{
@@ -11296,7 +11420,7 @@
 			"id"	"210"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Glittering Juniper"
+			"name"	"반짝이는 향나무 트리"
 		}
 		"194"
 		{
@@ -11304,7 +11428,7 @@
 			"id"	"211"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Prismatic Pine"
+			"name"	"반짝이는 소나무 트리"
 		}
 		"195"
 		{
@@ -11312,7 +11436,7 @@
 			"id"	"212"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spiraling Lights"
+			"name"	"나선형 꼬마 전구"
 		}
 		"196"
 		{
@@ -11320,7 +11444,7 @@
 			"id"	"213"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Twisting Lights"
+			"name"	"휘감긴 꼬마 전구"
 		}
 		"197"
 		{
@@ -11328,7 +11452,7 @@
 			"id"	"214"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Stardust Pathway"
+			"name"	"별먼지 길"
 		}
 		"198"
 		{
@@ -11336,7 +11460,7 @@
 			"id"	"215"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flurry Rush"
+			"name"	"플러리 러시"
 		}
 		"199"
 		{
@@ -11344,7 +11468,7 @@
 			"id"	"216"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spark of Smissmas"
+			"name"	"스미스마스 폭죽"
 		}
 		"200"
 		{
@@ -11352,7 +11476,7 @@
 			"id"	"217"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spark of Smissmas"
+			"name"	"스미스마스 폭죽"
 		}
 		"201"
 		{
@@ -11360,7 +11484,7 @@
 			"id"	"218"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Polar Forecast"
+			"name"	"극지 예보"
 		}
 		"202"
 		{
@@ -11368,7 +11492,7 @@
 			"id"	"219"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Shining Stag"
+			"name"	"빛나는 사슴뿔"
 		}
 		"203"
 		{
@@ -11376,7 +11500,7 @@
 			"id"	"220"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Holiday Horns"
+			"name"	"홀리데이 사슴뿔"
 		}
 		"204"
 		{
@@ -11384,7 +11508,7 @@
 			"id"	"221"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ardent Antlers"
+			"name"	"이글거리는 사슴뿔"
 		}
 		"205"
 		{
@@ -11392,7 +11516,7 @@
 			"id"	"222"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ardent Antlers"
+			"name"	"이글거리는 사슴뿔"
 		}
 		"206"
 		{
@@ -11400,7 +11524,7 @@
 			"id"	"223"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Festive Lights"
+			"name"	"축제 꼬마 전구"
 		}
 		"207"
 		{
@@ -11472,7 +11596,7 @@
 			"id"	"232"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Dazzling Fireworks"
+			"name"	"눈부신 폭죽"
 		}
 		"216"
 		{
@@ -11480,7 +11604,7 @@
 			"id"	"233"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Blazing Fireworks"
+			"name"	"불타는 폭죽"
 		}
 		"217"
 		{
@@ -11488,7 +11612,7 @@
 			"id"	"234"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Shimmering Fireworks"
+			"name"	"빛나는 폭죽"
 		}
 		"218"
 		{
@@ -11496,7 +11620,7 @@
 			"id"	"235"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Twinkling Fireworks"
+			"name"	"어른거리는 폭죽"
 		}
 		"219"
 		{
@@ -11504,7 +11628,7 @@
 			"id"	"236"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sparkling Fireworks"
+			"name"	"반짝이는 폭죽"
 		}
 		"220"
 		{
@@ -11512,7 +11636,7 @@
 			"id"	"237"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Glowing Fireworks"
+			"name"	"일렁이는 폭죽"
 		}
 		"221"
 		{
@@ -11520,7 +11644,7 @@
 			"id"	"238"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Glimmering Fireworks"
+			"name"	"깜박이는 폭죽"
 		}
 		"222"
 		{
@@ -11528,7 +11652,7 @@
 			"id"	"239"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flying Lights"
+			"name"	"날아오르는 연등"
 		}
 		"223"
 		{
@@ -11536,7 +11660,7 @@
 			"id"	"240"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flying Lights"
+			"name"	"날아오르는 연등"
 		}
 		"224"
 		{
@@ -11544,7 +11668,7 @@
 			"id"	"241"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Limelight"
+			"name"	"라임 연등"
 		}
 		"225"
 		{
@@ -11552,7 +11676,7 @@
 			"id"	"242"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Shining Star"
+			"name"	"오렌지 연등"
 		}
 		"226"
 		{
@@ -11560,7 +11684,7 @@
 			"id"	"243"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Cold Cosmos"
+			"name"	"차가운 우주"
 		}
 		"227"
 		{
@@ -11568,7 +11692,7 @@
 			"id"	"244"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Refracting Fractals"
+			"name"	"굴절하는 프랙털"
 		}
 		"228"
 		{
@@ -11576,7 +11700,7 @@
 			"id"	"245"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Startrance"
+			"name"	"별의 황홀"
 		}
 		"229"
 		{
@@ -11584,7 +11708,7 @@
 			"id"	"246"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Startrance"
+			"name"	"별의 황홀"
 		}
 		"230"
 		{
@@ -11592,7 +11716,7 @@
 			"id"	"247"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Starlush"
+			"name"	"무성한 별"
 		}
 		"231"
 		{
@@ -11600,7 +11724,7 @@
 			"id"	"248"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Starfire"
+			"name"	"별빛"
 		}
 		"232"
 		{
@@ -11608,7 +11732,7 @@
 			"id"	"249"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Stardust"
+			"name"	"별의 먼지"
 		}
 		"233"
 		{
@@ -11616,7 +11740,7 @@
 			"id"	"250"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Contagious Eruption"
+			"name"	"오염 분화"
 		}
 		"234"
 		{
@@ -11624,7 +11748,7 @@
 			"id"	"251"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Daydream Eruption"
+			"name"	"몽상 분화"
 		}
 		"235"
 		{
@@ -11632,7 +11756,7 @@
 			"id"	"252"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Volcanic Eruption"
+			"name"	"화산 분화"
 		}
 		"236"
 		{
@@ -11640,7 +11764,7 @@
 			"id"	"253"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Divine Sunlight"
+			"name"	"신성한 햇빛"
 		}
 		"237"
 		{
@@ -11648,7 +11772,7 @@
 			"id"	"254"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Audiophile"
+			"name"	"오디오 애호가"
 		}
 		"238"
 		{
@@ -11656,7 +11780,7 @@
 			"id"	"255"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Soundwave"
+			"name"	"사운드웨이브"
 		}
 		"239"
 		{
@@ -11664,7 +11788,7 @@
 			"id"	"256"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Synesthesia"
+			"name"	"공감각"
 		}
 		"240"
 		{
@@ -11672,7 +11796,7 @@
 			"id"	"257"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Haunted Kraken"
+			"name"	"귀신들린 크라켄"
 		}
 		"241"
 		{
@@ -11680,7 +11804,7 @@
 			"id"	"258"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Eerie Kraken"
+			"name"	"으스스한 크라켄"
 		}
 		"242"
 		{
@@ -11688,7 +11812,7 @@
 			"id"	"259"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Soulful Slice"
+			"name"	"영혼 절단기"
 		}
 		"243"
 		{
@@ -11696,7 +11820,7 @@
 			"id"	"260"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Horsemann's Hack"
+			"name"	"기만병의 난도질"
 		}
 		"244"
 		{
@@ -11704,7 +11828,7 @@
 			"id"	"261"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Haunted Forever!"
+			"name"	"영원히 귀신들린!"
 		}
 		"245"
 		{
@@ -11712,7 +11836,7 @@
 			"id"	"262"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Haunted Forever!"
+			"name"	"영원히 귀신들린!"
 		}
 		"246"
 		{
@@ -11720,7 +11844,7 @@
 			"id"	"263"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Forever And Forever!"
+			"name"	"영원히 그리고 영원히!"
 		}
 		"247"
 		{
@@ -11728,7 +11852,7 @@
 			"id"	"264"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Cursed Forever!"
+			"name"	"영원히 저주받은!"
 		}
 		"248"
 		{
@@ -11736,7 +11860,7 @@
 			"id"	"265"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Moth Plague"
+			"name"	"괴롭히는 나방"
 		}
 		"249"
 		{
@@ -11744,7 +11868,7 @@
 			"id"	"266"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Malevolent Monoculi"
+			"name"	"사악한 모노큘러스 "
 		}
 		"250"
 		{
@@ -11752,7 +11876,7 @@
 			"id"	"267"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Haunted Wick"
+			"name"	"귀신들린 양초"
 		}
 		"251"
 		{
@@ -11760,7 +11884,7 @@
 			"id"	"268"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Haunted Wick"
+			"name"	"귀신들린 양초"
 		}
 		"252"
 		{
@@ -11768,7 +11892,7 @@
 			"id"	"269"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Wicked Wick"
+			"name"	"사악한 양초"
 		}
 		"253"
 		{
@@ -11776,7 +11900,7 @@
 			"id"	"270"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spectral Wick"
+			"name"	"소름끼치는 양초"
 		}
 		"254"
 		{
@@ -11792,7 +11916,7 @@
 			"id"	"272"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Verdant Virtuoso"
+			"name"	"신록의 대 연주가"
 		}
 		"256"
 		{
@@ -11800,7 +11924,7 @@
 			"id"	"273"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Silver Serenade"
+			"name"	"은빛 소야곡"
 		}
 		"257"
 		{
@@ -11984,7 +12108,7 @@
 			"id"	"296"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sapped"
+			"name"	"전자 교란"
 		}
 		"280"
 		{
@@ -11992,7 +12116,7 @@
 			"id"	"297"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Hellspawned Horns"
+			"name"	"지옥 소환 뿔"
 		}
 		"281"
 		{
@@ -12000,7 +12124,7 @@
 			"id"	"298"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Hellspawned Horns"
+			"name"	"지옥 소환 뿔"
 		}
 		"282"
 		{
@@ -12008,7 +12132,7 @@
 			"id"	"299"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Demonic Impaler"
+			"name"	"악마의 염소뿔"
 		}
 		"283"
 		{
@@ -12016,7 +12140,7 @@
 			"id"	"300"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Revenant's Rack"
+			"name"	"망령의 뿔"
 		}
 		"284"
 		{
@@ -12024,7 +12148,7 @@
 			"id"	"301"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sixth Sense"
+			"name"	"육감"
 		}
 		"285"
 		{
@@ -12032,7 +12156,7 @@
 			"id"	"302"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sixth Sense"
+			"name"	"육감"
 		}
 		"286"
 		{
@@ -12040,7 +12164,7 @@
 			"id"	"303"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Amygdala"
+			"name"	"편도체"
 		}
 		"287"
 		{
@@ -12048,7 +12172,7 @@
 			"id"	"304"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"The Bone Zone"
+			"name"	"뼈다귀 지대"
 		}
 		"288"
 		{
@@ -12056,7 +12180,7 @@
 			"id"	"305"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Arachne's Web"
+			"name"	"아라크네의 거미줄"
 		}
 		"289"
 		{
@@ -12220,13 +12344,541 @@
 		}
 		"309"
 		{
+			"system"	"unusual_corrodedknight_teamcolor_red"
+			"id"	"327"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"충신의 관"
+		}
+		"310"
+		{
+			"system"	"unusual_corrodedknight_teamcolor_blue"
+			"id"	"328"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"충신의 관"
+		}
+		"311"
+		{
+			"system"	"unusual_corrodedknight_parent_silver"
+			"id"	"329"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"긍지 높은 기사의 혼"
+		}
+		"312"
+		{
+			"system"	"unusual_corrodedknight_parent_golden"
+			"id"	"330"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"남작의 애착 화관"
+		}
+		"313"
+		{
+			"system"	"unusual_poseidon_teamcolor_red"
+			"id"	"331"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"심연의 미끼"
+		}
+		"314"
+		{
+			"system"	"unusual_poseidon_teamcolor_blue"
+			"id"	"332"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"심연의 미끼"
+		}
+		"315"
+		{
+			"system"	"unusual_poseidon_parent_green"
+			"id"	"333"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"맹렬한 청록빛"
+		}
+		"316"
+		{
+			"system"	"unusual_poseidon_parent_purple"
+			"id"	"334"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"자홍빛 괴물딱지"
+		}
+		"317"
+		{
+			"system"	"unusual_rainglow_parent"
+			"id"	"335"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"무지갯빛 몽상"
+		}
+		"318"
+		{
+			"system"	"unusual_cubancigar_parent"
+			"id"	"336"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"쿠바산 연초"
+		}
+		"319"
+		{
+			"system"	"unusual_mohawk_teamcolor_red"
+			"id"	"337"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"녹아내리는 모히칸"
+		}
+		"320"
+		{
+			"system"	"unusual_mohawk_teamcolor_blue"
+			"id"	"338"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"녹아내리는 모히칸"
+		}
+		"321"
+		{
+			"system"	"unusual_mohawk_parent_green"
+			"id"	"339"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"불타는 두피"
+		}
+		"322"
+		{
+			"system"	"unusual_mohawk_parent_purple"
+			"id"	"340"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"불붙은 정수리"
+		}
+		"323"
+		{
+			"system"	"unusual_rare_shine_glow_parent"
+			"id"	"341"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"귀티 나는 광채"
+		}
+		"324"
+		{
+			"system"	"unusual_horstars_teamcolor_red"
+			"id"	"342"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"아득한 표류"
+		}
+		"325"
+		{
+			"system"	"unusual_horstars_teamcolor_blue"
+			"id"	"343"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"아득한 표류"
+		}
+		"326"
+		{
+			"system"	"unusual_electric_parent_white"
+			"id"	"344"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"워프 드라이브"
+		}
+		"327"
+		{
+			"system"	"unusual_electric_parent_gold"
+			"id"	"345"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"오버드라이브"
+		}
+		"328"
+		{
+			"system"	"unusual_butterflyhead_teamcolor_red"
+			"id"	"346"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"나비의 계절"
+		}
+		"329"
+		{
+			"system"	"unusual_butterflyhead_teamcolor_blue"
+			"id"	"347"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"나비의 계절"
+		}
+		"330"
+		{
+			"system"	"unusual_hippieaura_parent"
+			"id"	"348"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"사이코델릭"
+		}
+		"331"
+		{
+			"system"	"unusual_butterfly_parent"
+			"id"	"349"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"마성의 벌레들"
+		}
+		"332"
+		{
+			"system"	"unusual_spectral_fire_parent"
+			"id"	"350"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"유령 불꽃"
+		}
+		"333"
+		{
+			"system"	"unusual_galactic_fire_parent"
+			"id"	"351"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"은하계 불꽃"
+		}
+		"334"
+		{
+			"system"	"unusual_frank_green_parent"
+			"id"	"352"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"부활한 재충전"
+		}
+		"335"
+		{
+			"system"	"unusual_frank_purple_parent"
+			"id"	"353"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"불멸의 전류"
+		}
+		"336"
+		{
+			"system"	"unusual_frank_yellow_parent"
+			"id"	"354"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"프랑켄충전됨"
+		}
+		"337"
+		{
+			"system"	"unusual_skullsmoke_green_parent"
+			"id"	"355"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"유령 역병"
+		}
+		"338"
+		{
+			"system"	"unusual_skullsmoke_purple_parent"
+			"id"	"356"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"귀신들린 안개"
+		}
+		"339"
+		{
+			"system"	"unusual_pigeons_green_parent"
+			"id"	"357"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"사악한 뱀파이어"
+		}
+		"340"
+		{
+			"system"	"unusual_pigeons_purple_parent"
+			"id"	"358"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"굶주린 까마귀"
+		}
+		"341"
+		{
+			"system"	"unusual_pigeons_white_parent"
+			"id"	"359"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"즐거운 비둘기"
+		}
+		"342"
+		{
+			"system"	"unusual_stove_teamcolor_red"
+			"id"	"360"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"타오르는 화구"
+		}
+		"343"
+		{
+			"system"	"unusual_stove_teamcolor_blue"
+			"id"	"361"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"타오르는 화구"
+		}
+		"344"
+		{
+			"system"	"unusual_electricfire_teamcolor_red"
+			"id"	"362"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"우버 광채"
+		}
+		"345"
+		{
+			"system"	"unusual_electricfire_teamcolor_blue"
+			"id"	"363"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"우버 광채"
+		}
+		"346"
+		{
+			"system"	"unusual_sizzling_parent"
+			"id"	"364"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"뜨거운 열기"
+		}
+		"347"
+		{
+			"system"	"unusual_icrown_teamcolor_red"
+			"id"	"365"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"크리스탈 왕관"
+		}
+		"348"
+		{
+			"system"	"unusual_icrown_teamcolor_blue"
+			"id"	"366"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"크리스탈 왕관"
+		}
+		"349"
+		{
+			"system"	"unusual_icrown_parent_purple"
+			"id"	"367"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"할시온 헤일로"
+		}
+		"350"
+		{
+			"system"	"unusual_timeghosts_parent"
+			"id"	"368"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"스미스마스의 유령"
+		}
+		"351"
+		{
+			"system"	"unusual_aurora_parent"
+			"id"	"369"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"오로라 하늘"
+		}
+		"352"
+		{
+			"system"	"unusual_bokehsparkle_parent"
+			"id"	"370"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"반짝이는 보케"
+		}
+		"353"
+		{
+			"system"	"unusual_playful_purple_parent"
+			"id"	"371"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"장난스러운 오로라"
+		}
+		"354"
+		{
+			"system"	"unusual_playful_yellow_parent"
+			"id"	"372"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"활기찬 아침"
+		}
+		"355"
+		{
+			"system"	"unusual_drunk_parent"
+			"id"	"373"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"술고래"
+		}
+		"356"
+		{
+			"system"	"unusual_excalibur_teamcolor_red"
+			"id"	"374"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"배신의 칼날"
+		}
+		"357"
+		{
+			"system"	"unusual_excalibur_teamcolor_blue"
+			"id"	"375"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"배신의 칼날"
+		}
+		"358"
+		{
+			"system"	"unusual_excalibur_parent_purple"
+			"id"	"376"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"죽음의 단검"
+		}
+		"359"
+		{
+			"system"	"unusual_uber_teamcolor_red"
+			"id"	"377"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"완전 충전"
+		}
+		"360"
+		{
+			"system"	"unusual_uber_teamcolor_blue"
+			"id"	"378"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"완전 충전"
+		}
+		"361"
+		{
+			"system"	"unusual_uber_gold_parent"
+			"id"	"379"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"과다 충전"
+		}
+		"362"
+		{
+			"system"	"unusual_orbitingbullet_parent"
+			"id"	"380"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"꿰뚫는 두통"
+		}
+		"363"
+		{
+			"system"	"unusual_typhoon_parent"
+			"id"	"381"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"파괴의 회오리 바람"
+		}
+		"364"
+		{
+			"system"	"unusual_ocean_swirl_teamcolor_red"
+			"id"	"382"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"바다 소용돌이"
+		}
+		"365"
+		{
+			"system"	"unusual_ocean_swirl_teamcolor_blue"
+			"id"	"383"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"바다 소용돌이"
+		}
+		"366"
+		{
+			"system"	"unusual_ocean_swirl_green_parent"
+			"id"	"384"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"독성 소용돌이"
+		}
+		"367"
+		{
+			"system"	"unusual_candle_teamcolor_red"
+			"id"	"385"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"촛불 불꽃"
+		}
+		"368"
+		{
+			"system"	"unusual_candle_teamcolor_blue"
+			"id"	"386"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"촛불 불꽃"
+		}
+		"369"
+		{
+			"system"	"unusual_deadlyaroma_teamcolor_red"
+			"id"	"387"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"열기의 아로마"
+		}
+		"370"
+		{
+			"system"	"unusual_deadlyaroma_teamcolor_blue"
+			"id"	"388"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"열기의 아로마"
+		}
+		"371"
+		{
+			"system"	"unusual_deadlyaroma_green_parent"
+			"id"	"389"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"독성 아로마"
+		}
+		"372"
+		{
+			"system"	"unusual_conductor_teamc_teamcolor_red"
+			"id"	"390"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"전류 전도체"
+		}
+		"373"
+		{
+			"system"	"unusual_conductor_teamc_teamcolor_blue"
+			"id"	"391"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"전류 전도체"
+		}
+		"374"
+		{
+			"system"	"unusual_sandy_parent"
+			"id"	"392"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"모래 먼지"
+		}
+		"375"
+		{
 			"system"	"weapon_unusual_hot"
 			"id"	"701"
 			"attach_to_rootbone"	"0"
 			"attachment"	"unusual_0"
 			"name"	"뜨거운 열기"
 		}
-		"310"
+		"376"
 		{
 			"system"	"weapon_unusual_isotope"
 			"id"	"702"
@@ -12234,7 +12886,7 @@
 			"attachment"	"unusual_0"
 			"name"	"동위 원소"
 		}
-		"311"
+		"377"
 		{
 			"system"	"weapon_unusual_cool"
 			"id"	"703"
@@ -12242,7 +12894,7 @@
 			"attachment"	"unusual_0"
 			"name"	"차가운 냉기"
 		}
-		"312"
+		"378"
 		{
 			"system"	"weapon_unusual_energyorb"
 			"id"	"704"
@@ -12250,1106 +12902,1582 @@
 			"attachment"	"unusual_0"
 			"name"	"에너지 구체"
 		}
-		"313"
+		"379"
 		{
 			"system"	"killstreak_eyeglow_1_teamcolor_red"
 			"id"	"2001"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2001"
 		}
-		"314"
+		"380"
 		{
 			"system"	"killstreak_t1_lvl1"
 			"id"	"2002"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2002"
 		}
-		"315"
+		"381"
 		{
 			"system"	"killstreak_t2_lvl1"
 			"id"	"2003"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2003"
 		}
-		"316"
+		"382"
 		{
 			"system"	"killstreak_t3_lvl1"
 			"id"	"2004"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2004"
 		}
-		"317"
+		"383"
 		{
 			"system"	"killstreak_t4_lvl1"
 			"id"	"2005"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2005"
 		}
-		"318"
+		"384"
 		{
 			"system"	"killstreak_t5_lvl1"
 			"id"	"2006"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2006"
 		}
-		"319"
+		"385"
 		{
 			"system"	"killstreak_t6_lvl1"
 			"id"	"2007"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2007"
 		}
-		"320"
+		"386"
 		{
 			"system"	"killstreak_t7_lvl1"
 			"id"	"2008"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2008"
 		}
-		"321"
+		"387"
 		{
 			"system"	"utaunt_firework_teamcolor_red"
 			"id"	"3001"
 			"attach_to_rootbone"	"0"
 			"name"	"분위기 종결자"
 		}
-		"322"
+		"388"
 		{
 			"system"	"utaunt_firework_teamcolor_blue"
 			"id"	"3002"
 			"attach_to_rootbone"	"0"
 			"name"	"분위기 종결자"
 		}
-		"323"
+		"389"
 		{
 			"system"	"utaunt_beams_yellow"
 			"id"	"3003"
 			"attach_to_rootbone"	"0"
 			"name"	"성배"
 		}
-		"324"
+		"390"
 		{
 			"system"	"utaunt_disco_party"
 			"id"	"3004"
 			"attach_to_rootbone"	"0"
 			"name"	"1972년식"
 		}
-		"325"
+		"391"
 		{
 			"system"	"utaunt_hearts_glow_parent"
 			"id"	"3005"
 			"attach_to_rootbone"	"0"
 			"name"	"기쁨의 분수"
 		}
-		"326"
+		"392"
 		{
 			"system"	"utaunt_meteor_parent"
 			"id"	"3006"
 			"attach_to_rootbone"	"0"
 			"name"	"울부짖는 맹호"
 		}
-		"327"
+		"393"
 		{
 			"system"	"utaunt_cash_confetti"
 			"id"	"3007"
 			"attach_to_rootbone"	"0"
 			"name"	"정당이득"
 		}
-		"328"
+		"394"
 		{
 			"system"	"utaunt_tornado_parent_black"
 			"id"	"3008"
 			"attach_to_rootbone"	"0"
 			"name"	"한밤중의 회오리"
 		}
-		"329"
+		"395"
 		{
 			"system"	"utaunt_tornado_parent_white"
 			"id"	"3009"
 			"attach_to_rootbone"	"0"
 			"name"	"은빛 돌풍"
 		}
-		"330"
+		"396"
 		{
 			"system"	"utaunt_lightning_parent"
 			"id"	"3010"
 			"attach_to_rootbone"	"0"
 			"name"	"청천벽력"
 		}
-		"331"
+		"397"
 		{
 			"system"	"utaunt_souls_green_parent"
 			"id"	"3011"
 			"attach_to_rootbone"	"0"
 			"name"	"저주 받은 혼령"
 		}
-		"332"
+		"398"
 		{
 			"system"	"utaunt_souls_purple_parent"
 			"id"	"3012"
 			"attach_to_rootbone"	"0"
 			"name"	"무시무시한 유령"
 		}
-		"333"
+		"399"
 		{
 			"system"	"utaunt_hellpit_parent"
 			"id"	"3013"
 			"attach_to_rootbone"	"0"
 			"name"	"지옥 같은 불지옥"
 		}
-		"334"
+		"400"
 		{
 			"system"	"utaunt_hellswirl"
 			"id"	"3014"
 			"attach_to_rootbone"	"0"
 			"name"	"소름끼치는 소용돌이"
 		}
-		"335"
+		"401"
 		{
 			"system"	"utaunt_headless"
 			"id"	"3015"
 			"attach_to_rootbone"	"0"
 			"name"	"지옥 같은 불꽃"
 		}
-		"336"
+		"402"
 		{
 			"system"	"utaunt_merasmus"
 			"id"	"3016"
 			"attach_to_rootbone"	"0"
 			"name"	"지옥 같은 연기"
 		}
-		"337"
+		"403"
 		{
 			"system"	"utaunt_bubbles_glow_green_parent"
 			"id"	"3017"
 			"attach_to_rootbone"	"0"
-			"name"	"Acidic Bubbles of Envy"
+			"name"	"악의적 산성 거품"
 		}
-		"338"
+		"404"
 		{
 			"system"	"utaunt_bubbles_glow_orange_parent"
 			"id"	"3018"
 			"attach_to_rootbone"	"0"
-			"name"	"Flammable Bubbles of Attraction"
+			"name"	"가연성 끌어당기는 거품"
 		}
-		"339"
+		"405"
 		{
 			"system"	"utaunt_bubbles_glow_purple_parent"
 			"id"	"3019"
 			"attach_to_rootbone"	"0"
-			"name"	"Poisonous Bubbles of Regret"
+			"name"	"후회의 독안개"
 		}
-		"340"
+		"406"
 		{
 			"system"	"utaunt_firework_dragon_parent"
 			"id"	"3020"
 			"attach_to_rootbone"	"0"
-			"name"	"Roaring Rockets"
+			"name"	"울부짖는 로켓"
 		}
-		"341"
+		"407"
 		{
 			"system"	"utaunt_smoke_moon_parent"
 			"id"	"3021"
 			"attach_to_rootbone"	"0"
-			"name"	"Spooky Night"
+			"name"	"무서운 밤"
 		}
-		"342"
+		"408"
 		{
 			"system"	"utaunt_smoke_moon_green_parent"
 			"id"	"3022"
 			"attach_to_rootbone"	"0"
-			"name"	"Ominous Night"
+			"name"	"불길한 밤"
 		}
-		"343"
+		"409"
 		{
 			"system"	"utaunt_arcane_purple_parent"
 			"id"	"3023"
 			"attach_to_rootbone"	"0"
-			"name"	"Bewitched"
+			"name"	"요술에 걸린"
 		}
-		"344"
+		"410"
 		{
 			"system"	"utaunt_arcane_green_parent"
 			"id"	"3024"
 			"attach_to_rootbone"	"0"
-			"name"	"Accursed"
+			"name"	"저주에 걸린"
 		}
-		"345"
+		"411"
 		{
 			"system"	"utaunt_arcane_yellow_parent"
 			"id"	"3025"
 			"attach_to_rootbone"	"0"
-			"name"	"Enchanted"
+			"name"	"마법에 걸린 "
 		}
-		"346"
+		"412"
 		{
 			"system"	"utaunt_electric_mist_parent"
 			"id"	"3026"
 			"attach_to_rootbone"	"0"
-			"name"	"Static Mist"
+			"name"	"정전기 안개"
 		}
-		"347"
+		"413"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WP"
 			"id"	"3027"
 			"attach_to_rootbone"	"0"
-			"name"	"Eerie Lightning"
+			"name"	"섬뜩한 번개"
 		}
-		"348"
+		"414"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WB"
 			"id"	"3028"
 			"attach_to_rootbone"	"0"
-			"name"	"Terrifying Thunder"
+			"name"	"공포의 천둥"
 		}
-		"349"
+		"415"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WY"
 			"id"	"3029"
 			"attach_to_rootbone"	"0"
-			"name"	"Jarate Shock"
+			"name"	"충격적인 병수도"
 		}
-		"350"
+		"416"
 		{
 			"system"	"utaunt_portalswirl_purple_parent"
 			"id"	"3030"
 			"attach_to_rootbone"	"0"
-			"name"	"Nether Void"
+			"name"	"공허한 지옥"
 		}
-		"351"
+		"417"
 		{
 			"system"	"utaunt_present_parent"
 			"id"	"3031"
 			"attach_to_rootbone"	"0"
-			"name"	"Good-Hearted Goodies"
+			"name"	"착한 마음씨의 구디즈"
 		}
-		"352"
+		"418"
 		{
 			"system"	"utaunt_snowring_icy_parent"
 			"id"	"3032"
 			"attach_to_rootbone"	"0"
-			"name"	"Wintery Wisp"
+			"name"	"한겨울의 소용돌이 "
 		}
-		"353"
+		"419"
 		{
 			"system"	"utaunt_snowring_space_parent"
 			"id"	"3033"
 			"attach_to_rootbone"	"0"
-			"name"	"Arctic Aurora"
+			"name"	"북극 오로라"
 		}
-		"354"
+		"420"
 		{
 			"system"	"utaunt_spirit_winter_parent"
 			"id"	"3034"
 			"attach_to_rootbone"	"0"
-			"name"	"Winter Spirit"
+			"name"	"겨울의 정령"
 		}
-		"355"
+		"421"
 		{
 			"system"	"utaunt_spirit_festive_parent"
 			"id"	"3035"
 			"attach_to_rootbone"	"0"
-			"name"	"Festive Spirit"
+			"name"	"축제 정신"
 		}
-		"356"
+		"422"
 		{
 			"system"	"utaunt_spirit_magical_parent"
 			"id"	"3036"
 			"attach_to_rootbone"	"0"
-			"name"	"Magical Spirit"
+			"name"	"마법의 정령"
 		}
-		"357"
+		"423"
 		{
 			"system"	"utaunt_astralbodies_greenorange_parent"
 			"id"	"3037"
 			"attach_to_rootbone"	"0"
-			"name"	"Spectral Escort"
+			"name"	"유령 같은 호위대"
 		}
-		"358"
+		"424"
 		{
 			"system"	"utaunt_astralbodies_tealpurple_parent"
 			"id"	"3038"
 			"attach_to_rootbone"	"0"
-			"name"	"Astral Presence"
+			"name"	"별빛 존재"
 		}
-		"359"
+		"425"
 		{
 			"system"	"utaunt_astralbodies_teamcolor_red"
 			"id"	"3039"
 			"attach_to_rootbone"	"0"
-			"name"	"Arcane Assistance"
+			"name"	"불가사의한 도우미"
 		}
-		"360"
+		"426"
 		{
 			"system"	"utaunt_astralbodies_teamcolor_blue"
 			"id"	"3040"
 			"attach_to_rootbone"	"0"
-			"name"	"Arcane Assistance"
+			"name"	"불가사의한 도우미"
 		}
-		"361"
+		"427"
 		{
 			"system"	"utaunt_glowyplayer_green_parent"
 			"id"	"3041"
 			"attach_to_rootbone"	"0"
-			"name"	"Emerald Allurement"
+			"name"	"에메랄드에 매혹된"
 		}
-		"362"
+		"428"
 		{
 			"system"	"utaunt_glowyplayer_orange_parent"
 			"id"	"3042"
 			"attach_to_rootbone"	"0"
-			"name"	"Pyrophoric Personality"
+			"name"	"화끈한 매력"
 		}
-		"363"
+		"429"
 		{
 			"system"	"utaunt_glowyplayer_purple_parent"
 			"id"	"3043"
 			"attach_to_rootbone"	"0"
-			"name"	"Spellbound Aspect"
+			"name"	"마법에 걸린 모양"
 		}
-		"364"
+		"430"
 		{
 			"system"	"utaunt_electricity_parent"
 			"id"	"3044"
 			"attach_to_rootbone"	"0"
-			"name"	"Static Shock"
+			"name"	"격렬한 정전기"
 		}
-		"365"
+		"431"
 		{
 			"system"	"utaunt_electricity_purple_parent"
 			"id"	"3045"
 			"attach_to_rootbone"	"0"
-			"name"	"Veno Shock"
+			"name"	"베노 쇼크"
 		}
-		"366"
+		"432"
 		{
 			"system"	"utaunt_spider_green_parent"
 			"id"	"3046"
 			"attach_to_rootbone"	"0"
-			"name"	"Toxic Terrors"
+			"name"	"독성 공포"
 		}
-		"367"
+		"433"
 		{
 			"system"	"utaunt_spider_orange_parent"
 			"id"	"3047"
 			"attach_to_rootbone"	"0"
-			"name"	"Arachnid Assault"
+			"name"	"거미의 급습"
 		}
-		"368"
+		"434"
 		{
 			"system"	"utaunt_spider_purple_parent"
 			"id"	"3048"
 			"attach_to_rootbone"	"0"
-			"name"	"Creepy Crawlies"
+			"name"	"기이하게 기어다니는 벌레들"
 		}
-		"369"
+		"435"
 		{
 			"system"	"utaunt_tf2smissmas_tree_parent"
 			"id"	"3049"
 			"attach_to_rootbone"	"0"
-			"name"	"Delightful Star"
+			"name"	"행복의 별"
 		}
-		"370"
+		"436"
 		{
 			"system"	"utaunt_tf2smissmas_tree_parent_w"
 			"id"	"3050"
 			"attach_to_rootbone"	"0"
-			"name"	"Frosted Star"
+			"name"	"얼어붙은 별"
 		}
-		"371"
+		"437"
 		{
 			"system"	"utaunt_spirits_blue_parent"
 			"id"	"3051"
 			"attach_to_rootbone"	"0"
-			"name"	"Apotheosis"
+			"name"	"신성"
 		}
-		"372"
+		"438"
 		{
 			"system"	"utaunt_spirits_purple_parent"
 			"id"	"3052"
 			"attach_to_rootbone"	"0"
-			"name"	"Ascension"
+			"name"	"승천"
 		}
-		"373"
+		"439"
 		{
 			"system"	"utaunt_balloonicorn_reindeer_teamcolor_red"
 			"id"	"3053"
 			"attach_to_rootbone"	"0"
-			"name"	"Reindoonicorn Rancher"
+			"name"	"순로니콘 동산"
 		}
-		"374"
+		"440"
 		{
 			"system"	"utaunt_balloonicorn_reindeer_teamcolor_blue"
 			"id"	"3054"
 			"attach_to_rootbone"	"0"
-			"name"	"Reindoonicorn Rancher"
+			"name"	"순로니콘 동산"
 		}
-		"375"
+		"441"
 		{
 			"system"	"utaunt_twinkling_rgb_parent"
 			"id"	"3055"
 			"attach_to_rootbone"	"0"
-			"name"	"Twinkling Lights"
+			"name"	"반짝이는 불빛"
 		}
-		"376"
+		"442"
 		{
 			"system"	"utaunt_twinkling_goldsilver_parent"
 			"id"	"3056"
 			"attach_to_rootbone"	"0"
-			"name"	"Shimmering Lights"
+			"name"	"아른거리는 불빛"
 		}
-		"377"
+		"443"
 		{
 			"system"	"utaunt_chain_green_parent"
 			"id"	"3059"
 			"attach_to_rootbone"	"0"
-			"name"	"Spectral Shackles"
+			"name"	"귀신들린 족쇄"
 		}
-		"378"
+		"444"
 		{
 			"system"	"utaunt_chain_purple_parent"
 			"id"	"3060"
 			"attach_to_rootbone"	"0"
-			"name"	"Cursed Confinement"
+			"name"	"저주받은 감금"
 		}
-		"379"
+		"445"
 		{
 			"system"	"utaunt_tarotcard_teamcolor_red"
 			"id"	"3061"
 			"attach_to_rootbone"	"0"
-			"name"	"Cavalier de Carte"
+			"name"	"카드의 기사"
 		}
-		"380"
+		"446"
 		{
 			"system"	"utaunt_tarotcard_teamcolor_blue"
 			"id"	"3062"
 			"attach_to_rootbone"	"0"
-			"name"	"Cavalier de Carte"
+			"name"	"카드의 기사"
 		}
-		"381"
+		"447"
 		{
 			"system"	"utaunt_tarotcard_orange_parent"
 			"id"	"3063"
 			"attach_to_rootbone"	"0"
-			"name"	"Hollow Flourish"
+			"name"	"할로우 플러리시"
 		}
-		"382"
+		"448"
 		{
 			"system"	"utaunt_tarotcard_purple_parent"
 			"id"	"3064"
 			"attach_to_rootbone"	"0"
-			"name"	"Magic Shuffle"
+			"name"	"매직 셔플"
 		}
-		"383"
+		"449"
 		{
 			"system"	"utaunt_elebound_green_parent"
 			"id"	"3065"
 			"attach_to_rootbone"	"0"
-			"name"	"Vigorous Pulse"
+			"name"	"격렬한 맥박"
 		}
-		"384"
+		"450"
 		{
 			"system"	"utaunt_elebound_purple_parent"
 			"id"	"3066"
 			"attach_to_rootbone"	"0"
-			"name"	"Thundering Spirit"
+			"name"	"천둥 같은 영혼"
 		}
-		"385"
+		"451"
 		{
 			"system"	"utaunt_elebound_yellow_parent"
 			"id"	"3067"
 			"attach_to_rootbone"	"0"
-			"name"	"Galvanic Defiance"
+			"name"	"전기 무시"
 		}
-		"386"
+		"452"
 		{
 			"system"	"utaunt_wispy_parent_g"
 			"id"	"3068"
 			"attach_to_rootbone"	"0"
-			"name"	"Wispy Halos"
+			"name"	"희미한 후광"
 		}
-		"387"
+		"453"
 		{
 			"system"	"utaunt_wispy_parent_p"
 			"id"	"3069"
 			"attach_to_rootbone"	"0"
-			"name"	"Nether Wisps"
+			"name"	"지옥에서 온 도깨비불"
 		}
-		"388"
+		"454"
 		{
 			"system"	"utaunt_auroraglow_green_parent"
 			"id"	"3070"
 			"attach_to_rootbone"	"0"
-			"name"	"Aurora Borealis"
+			"name"	"오로라 보리알리스"
 		}
-		"389"
+		"455"
 		{
 			"system"	"utaunt_auroraglow_orange_parent"
 			"id"	"3071"
 			"attach_to_rootbone"	"0"
-			"name"	"Aurora Australis"
+			"name"	"오로라 오스트레일리스"
 		}
-		"390"
+		"456"
 		{
 			"system"	"utaunt_auroraglow_purple_parent"
 			"id"	"3072"
 			"attach_to_rootbone"	"0"
-			"name"	"Aurora Polaris"
+			"name"	"오로라 폴라리스"
 		}
-		"391"
+		"457"
 		{
 			"system"	"utaunt_snowswirl_purple_parent"
 			"id"	"3073"
 			"attach_to_rootbone"	"0"
-			"name"	"Amethyst Winds"
+			"name"	"자수정 바람"
 		}
-		"392"
+		"458"
 		{
 			"system"	"utaunt_snowswirl_yellow_parent"
 			"id"	"3074"
 			"attach_to_rootbone"	"0"
-			"name"	"Golden Gusts"
+			"name"	"황금의 돌풍"
 		}
-		"393"
+		"459"
 		{
 			"system"	"utaunt_snowswirl_teamcolor_red"
 			"id"	"3075"
 			"attach_to_rootbone"	"0"
-			"name"	"Smissmas Swirls"
+			"name"	"스미스마스 소용돌이"
 		}
-		"394"
+		"460"
 		{
 			"system"	"utaunt_snowswirl_teamcolor_blue"
 			"id"	"3076"
 			"attach_to_rootbone"	"0"
-			"name"	"Smissmas Swirls"
+			"name"	"스미스마스 소용돌이"
 		}
-		"395"
+		"461"
 		{
 			"system"	"utaunt_treespiral_green_parent"
 			"id"	"3077"
 			"attach_to_rootbone"	"0"
-			"name"	"Minty Cypress"
+			"name"	"민트 침엽수"
 		}
-		"396"
+		"462"
 		{
 			"system"	"utaunt_treespiral_purple_parent"
 			"id"	"3078"
 			"attach_to_rootbone"	"0"
-			"name"	"Pristine Pine"
+			"name"	"청순한 소나무"
 		}
-		"397"
+		"463"
 		{
 			"system"	"utaunt_treespiral_teamcolor_red"
 			"id"	"3079"
 			"attach_to_rootbone"	"0"
-			"name"	"Sparkly Spruce"
+			"name"	"번쩍이는 가문비나무"
 		}
-		"398"
+		"464"
 		{
 			"system"	"utaunt_treespiral_teamcolor_blue"
 			"id"	"3080"
 			"attach_to_rootbone"	"0"
-			"name"	"Sparkly Spruce"
+			"name"	"번쩍이는 가문비나무"
 		}
-		"399"
+		"465"
 		{
 			"system"	"utaunt_gifts_teamcolor_red"
 			"id"	"3081"
 			"attach_to_rootbone"	"0"
-			"name"	"Festive Fever"
+			"name"	"축제의 열기"
 		}
-		"400"
+		"466"
 		{
 			"system"	"utaunt_gifts_teamcolor_blue"
 			"id"	"3082"
 			"attach_to_rootbone"	"0"
-			"name"	"Festive Fever"
+			"name"	"축제의 열기"
 		}
-		"401"
+		"467"
 		{
 			"system"	"utaunt_glitter_parent_gold"
 			"id"	"3083"
 			"attach_to_rootbone"	"0"
-			"name"	"Golden Glimmer"
+			"name"	"금빛 미광"
 		}
-		"402"
+		"468"
 		{
 			"system"	"utaunt_glitter_parent_silver"
 			"id"	"3084"
 			"attach_to_rootbone"	"0"
-			"name"	"Frosty Silver"
+			"name"	"은색 폭풍우"
 		}
-		"403"
+		"469"
 		{
 			"system"	"utaunt_glitter_teamcolor_red"
 			"id"	"3085"
 			"attach_to_rootbone"	"0"
-			"name"	"Glamorous Dazzle"
+			"name"	"눈부시게 화려함"
 		}
-		"404"
+		"470"
 		{
 			"system"	"utaunt_glitter_teamcolor_blue"
 			"id"	"3086"
 			"attach_to_rootbone"	"0"
-			"name"	"Glamorous Dazzle"
+			"name"	"눈부시게 화려함"
 		}
-		"405"
+		"471"
 		{
 			"system"	"utaunt_ice_parent"
 			"id"	"3087"
 			"attach_to_rootbone"	"0"
-			"name"	"Sublime Snowstorm"
+			"name"	"숭고한 눈보라"
 		}
-		"406"
+		"472"
 		{
 			"system"	"utaunt_marigoldritual_teamcolor_red"
 			"id"	"3088"
 			"attach_to_rootbone"	"0"
-			"name"	"Marigold Ritual"
+			"name"	"금잔화 의식"
 		}
-		"407"
+		"473"
 		{
 			"system"	"utaunt_marigoldritual_teamcolor_blue"
 			"id"	"3089"
 			"attach_to_rootbone"	"0"
-			"name"	"Marigold Ritual"
+			"name"	"휘날리는 낙엽"
 		}
-		"408"
+		"474"
 		{
 			"system"	"utaunt_poison_parent_green"
 			"id"	"3090"
 			"attach_to_rootbone"	"0"
-			"name"	"Pungent Poison"
+			"name"	"톡 쏘는 독"
 		}
-		"409"
+		"475"
 		{
 			"system"	"utaunt_poison_parent_orange"
 			"id"	"3091"
 			"attach_to_rootbone"	"0"
-			"name"	"Blazed Brew"
+			"name"	"불타는 독주"
 		}
-		"410"
+		"476"
 		{
 			"system"	"utaunt_poison_parent_purple"
 			"id"	"3092"
 			"attach_to_rootbone"	"0"
-			"name"	"Mysterious Mixture"
+			"name"	"미스터리 배합물"
 		}
-		"411"
+		"477"
 		{
 			"system"	"utaunt_runeprison_green_parent"
 			"id"	"3093"
 			"attach_to_rootbone"	"0"
-			"name"	"Linguistic Deviation"
+			"name"	"언어의 굴곡"
 		}
-		"412"
+		"478"
 		{
 			"system"	"utaunt_runeprison_yellow_parent"
 			"id"	"3094"
 			"attach_to_rootbone"	"0"
-			"name"	"Aurelian Seal"
+			"name"	"아우렐리아누스의 인장"
 		}
-		"413"
+		"479"
 		{
 			"system"	"utaunt_runeprison_teamcolor_red"
 			"id"	"3095"
 			"attach_to_rootbone"	"0"
-			"name"	"Runic Imprisonment"
+			"name"	"룬의 감옥"
 		}
-		"414"
+		"480"
 		{
 			"system"	"utaunt_runeprison_teamcolor_blue"
 			"id"	"3096"
 			"attach_to_rootbone"	"0"
-			"name"	"Runic Imprisonment"
+			"name"	"룬의 감옥"
 		}
-		"415"
+		"481"
 		{
 			"system"	"utaunt_prismatichaze_parent"
 			"id"	"3097"
 			"attach_to_rootbone"	"0"
-			"name"	"Prismatic Haze"
+			"name"	"프리즘 연무 "
 		}
-		"416"
+		"482"
 		{
 			"system"	"utaunt_risingsprit_teamcolor_red"
 			"id"	"3098"
 			"attach_to_rootbone"	"0"
-			"name"	"Rising Ritual"
+			"name"	"떠오르는 의식"
 		}
-		"417"
+		"483"
 		{
 			"system"	"utaunt_risingsprit_teamcolor_blue"
 			"id"	"3099"
 			"attach_to_rootbone"	"0"
-			"name"	"Rising Ritual"
+			"name"	"떠오르는 의식"
 		}
-		"418"
+		"484"
 		{
 			"system"	"utaunt_hands_teamcolor_red"
 			"id"	"3100"
 			"attach_to_rootbone"	"0"
-			"name"	"Bloody Grip"
+			"name"	"피에 굶주린 손"
 		}
-		"419"
+		"485"
 		{
 			"system"	"utaunt_hands_teamcolor_blue"
 			"id"	"3101"
 			"attach_to_rootbone"	"0"
-			"name"	"Bloody Grip"
+			"name"	"피에 굶주린 손"
 		}
-		"420"
+		"486"
 		{
 			"system"	"utaunt_hands_green_parent"
 			"id"	"3102"
 			"attach_to_rootbone"	"0"
-			"name"	"Toxic Grip"
+			"name"	"유독한 손"
 		}
-		"421"
+		"487"
 		{
 			"system"	"utaunt_hands_orange_parent"
 			"id"	"3103"
 			"attach_to_rootbone"	"0"
-			"name"	"Infernal Grip"
+			"name"	"지옥의 손"
 		}
-		"422"
+		"488"
 		{
 			"system"	"utaunt_hands_purple_parent"
 			"id"	"3104"
 			"attach_to_rootbone"	"0"
-			"name"	"Death Grip"
+			"name"	"죽음의 손"
 		}
-		"423"
+		"489"
 		{
 			"system"	"utaunt_storm_parent_g"
 			"id"	"3105"
 			"attach_to_rootbone"	"0"
 			"name"	"차지드 아케인"
 		}
-		"424"
+		"490"
 		{
 			"system"	"utaunt_storm_parent_k"
 			"id"	"3106"
 			"attach_to_rootbone"	"0"
 			"name"	"벽력같은 분노"
 		}
-		"425"
+		"491"
 		{
 			"system"	"utaunt_storm_parent_o"
 			"id"	"3107"
 			"attach_to_rootbone"	"0"
 			"name"	"경련하는 불"
 		}
-		"426"
+		"492"
 		{
 			"system"	"utaunt_festivelights_teamcolor_red"
 			"id"	"3108"
 			"attach_to_rootbone"	"0"
-			"name"	"축제장식 포메이션"
+			"name"	"축제 장식 포메이션"
 		}
-		"427"
+		"493"
 		{
 			"system"	"utaunt_festivelights_teamcolor_blue"
 			"id"	"3109"
 			"attach_to_rootbone"	"0"
-			"name"	"축제장식 포메이션"
+			"name"	"축제 장식 포메이션"
 		}
-		"428"
+		"494"
 		{
 			"system"	"utaunt_glow_spirit_parent_cr"
 			"id"	"3110"
 			"attach_to_rootbone"	"0"
 			"name"	"빙빙 도는 영혼"
 		}
-		"429"
+		"495"
 		{
 			"system"	"utaunt_glow_spirit_parent_og"
 			"id"	"3111"
 			"attach_to_rootbone"	"0"
 			"name"	"스쿼시 앤 트위스트"
 		}
-		"430"
+		"496"
 		{
 			"system"	"utaunt_glow_spirit_parent_pp"
 			"id"	"3112"
 			"attach_to_rootbone"	"0"
 			"name"	"한밤중의 번쩍임"
 		}
-		"431"
+		"497"
 		{
 			"system"	"utaunt_snowflakesaura_parent"
 			"id"	"3113"
 			"attach_to_rootbone"	"0"
 			"name"	"무한한 눈보라"
 		}
-		"432"
+		"498"
 		{
 			"system"	"utaunt_sun_sand_rays_parent"
 			"id"	"3114"
 			"attach_to_rootbone"	"0"
 			"name"	"맹렬한 태양빛"
 		}
-		"433"
+		"499"
 		{
 			"system"	"utaunt_undersea_teamcolor_red"
 			"id"	"3115"
 			"attach_to_rootbone"	"0"
 			"name"	"심해의 물결"
 		}
-		"434"
+		"500"
 		{
 			"system"	"utaunt_undersea_teamcolor_blue"
 			"id"	"3116"
 			"attach_to_rootbone"	"0"
 			"name"	"심해의 물결"
 		}
-		"435"
+		"501"
 		{
 			"system"	"utaunt_lavalamp_green_parent"
 			"id"	"3117"
 			"attach_to_rootbone"	"0"
 			"name"	"피어오르는 비콘"
 		}
-		"436"
+		"502"
 		{
 			"system"	"utaunt_lavalamp_purple_parent"
 			"id"	"3118"
 			"attach_to_rootbone"	"0"
 			"name"	"빛나는 비콘"
 		}
-		"437"
+		"503"
 		{
 			"system"	"utaunt_lavalamp_yellow_parent"
 			"id"	"3119"
 			"attach_to_rootbone"	"0"
 			"name"	"타오르는 비콘"
 		}
-		"438"
+		"504"
 		{
 			"system"	"utaunt_fish_parent"
 			"id"	"3120"
 			"attach_to_rootbone"	"0"
 			"name"	"플로핑 프렌지"
 		}
-		"439"
+		"505"
 		{
 			"system"	"utaunt_rainbow_teamcolor_red"
 			"id"	"3121"
 			"attach_to_rootbone"	"0"
 			"name"	"파스텔 트랜스"
 		}
-		"440"
+		"506"
 		{
 			"system"	"utaunt_rainbow_teamcolor_blue"
 			"id"	"3122"
 			"attach_to_rootbone"	"0"
 			"name"	"파스텔 트랜스"
 		}
-		"441"
+		"507"
 		{
 			"system"	"utaunt_wild_meadows_parent"
 			"id"	"3123"
 			"attach_to_rootbone"	"0"
 			"name"	"야생화 들판"
 		}
-		"442"
+		"508"
 		{
 			"system"	"utaunt_krakenmouth_green_parent"
 			"id"	"3124"
 			"attach_to_rootbone"	"0"
-			"name"	"Deep-sea Devourer"
+			"name"	"심해 포식자"
 		}
-		"443"
+		"509"
 		{
 			"system"	"utaunt_krakenmouth_purple_parent"
 			"id"	"3125"
 			"attach_to_rootbone"	"0"
-			"name"	"Eldritch Horror"
+			"name"	"엘드리치 호러"
 		}
-		"444"
+		"510"
 		{
 			"system"	"utaunt_leaftaunt_parent"
 			"id"	"3126"
 			"attach_to_rootbone"	"0"
-			"name"	"Autumn Leaves"
+			"name"	"단풍잎"
 		}
-		"445"
+		"511"
 		{
 			"system"	"utaunt_graveparty_parent"
 			"id"	"3127"
 			"attach_to_rootbone"	"0"
-			"name"	"Dead Man's Party"
+			"name"	"망자의 축제"
 		}
-		"446"
+		"512"
 		{
 			"system"	"utaunt_spellsplash_parent"
 			"id"	"3128"
 			"attach_to_rootbone"	"0"
-			"name"	"Potion Explosion"
+			"name"	"물약 폭발"
 		}
-		"447"
+		"513"
 		{
 			"system"	"utaunt_cremation_purple_parent"
 			"id"	"3129"
 			"attach_to_rootbone"	"0"
-			"name"	"Haunted Cremation"
+			"name"	"귀신들린 화장"
 		}
-		"448"
+		"514"
 		{
 			"system"	"utaunt_cremation_black_parent"
 			"id"	"3130"
 			"attach_to_rootbone"	"0"
-			"name"	"Cremation"
+			"name"	"화장"
 		}
-		"449"
+		"515"
 		{
 			"system"	"utaunt_snowfall_parent"
 			"id"	"3131"
 			"attach_to_rootbone"	"0"
 			"name"	"눈보라"
 		}
-		"450"
+		"516"
 		{
 			"system"	"utaunt_constellations_teamcolor_red"
 			"id"	"3132"
 			"attach_to_rootbone"	"0"
 			"name"	"은하계 만남"
 		}
-		"451"
+		"517"
 		{
 			"system"	"utaunt_constellations_teamcolor_blue"
 			"id"	"3133"
 			"attach_to_rootbone"	"0"
 			"name"	"은하계 만남"
 		}
-		"452"
+		"518"
 		{
 			"system"	"utaunt_constellations_purple_parent"
 			"id"	"3134"
 			"attach_to_rootbone"	"0"
 			"name"	"암흑 속 황혼"
 		}
-		"453"
+		"519"
 		{
 			"system"	"utaunt_constellations_pink_parent"
 			"id"	"3135"
 			"attach_to_rootbone"	"0"
 			"name"	"미지의 균열"
 		}
-		"454"
+		"520"
 		{
 			"system"	"utaunt_wispyworks_orangegreen_parent"
 			"id"	"3136"
 			"attach_to_rootbone"	"0"
 			"name"	"무아지경"
 		}
-		"455"
+		"521"
 		{
 			"system"	"utaunt_wispyworks_purpleblue_parent"
 			"id"	"3137"
 			"attach_to_rootbone"	"0"
 			"name"	"아득한 불꽃"
 		}
-		"456"
+		"522"
 		{
 			"system"	"utaunt_wispyworks_yellowpurple_parent"
 			"id"	"3138"
 			"attach_to_rootbone"	"0"
 			"name"	"매력적인 불꽃"
 		}
-		"457"
+		"523"
 		{
 			"system"	"utaunt_innerblizzard_teamcolor_red"
 			"id"	"3139"
 			"attach_to_rootbone"	"0"
 			"name"	"끝없는 냉각"
 		}
-		"458"
+		"524"
 		{
 			"system"	"utaunt_innerblizzard_teamcolor_blue"
 			"id"	"3140"
 			"attach_to_rootbone"	"0"
 			"name"	"끝없는 냉각"
 		}
-		"459"
+		"525"
 		{
 			"system"	"utaunt_innerblizzard_purple_parent"
 			"id"	"3141"
 			"attach_to_rootbone"	"0"
 			"name"	"북극의 환희"
 		}
-		"460"
+		"526"
 		{
 			"system"	"utaunt_spotlight_parent"
 			"id"	"3142"
 			"attach_to_rootbone"	"0"
 			"name"	"필승 정신"
 		}
-		"461"
+		"527"
 		{
 			"system"	"utaunt_pedalfly_teamcolor_red"
 			"id"	"3143"
 			"attach_to_rootbone"	"0"
 			"name"	"푸른 꽃잎"
 		}
-		"462"
+		"528"
 		{
 			"system"	"utaunt_pedalfly_teamcolor_blue"
 			"id"	"3144"
 			"attach_to_rootbone"	"0"
 			"name"	"푸른 꽃잎"
 		}
-		"463"
+		"529"
+		{
+			"system"	"utaunt_dragonfly_teamcolor_red"
+			"id"	"3145"
+			"attach_to_rootbone"	"0"
+			"name"	"잠자리의 포옹"
+		}
+		"530"
+		{
+			"system"	"utaunt_dragonfly_teamcolor_blue"
+			"id"	"3146"
+			"attach_to_rootbone"	"0"
+			"name"	"잠자리의 포옹"
+		}
+		"531"
+		{
+			"system"	"utaunt_dragonfly_green_parent"
+			"id"	"3147"
+			"attach_to_rootbone"	"0"
+			"name"	"잠자리의 자연"
+		}
+		"532"
+		{
+			"system"	"utaunt_dragonfly_purple_parent"
+			"id"	"3148"
+			"attach_to_rootbone"	"0"
+			"name"	"잠자리의 발광"
+		}
+		"533"
+		{
+			"system"	"utaunt_demigodery_teamcolor_red"
+			"id"	"3149"
+			"attach_to_rootbone"	"0"
+			"name"	"감전"
+		}
+		"534"
+		{
+			"system"	"utaunt_demigodery_teamcolor_blue"
+			"id"	"3150"
+			"attach_to_rootbone"	"0"
+			"name"	"감전"
+		}
+		"535"
+		{
+			"system"	"utaunt_signalflares_teamcolor_red"
+			"id"	"3151"
+			"attach_to_rootbone"	"0"
+			"name"	"조난 신호"
+		}
+		"536"
+		{
+			"system"	"utaunt_signalflares_teamcolor_blue"
+			"id"	"3152"
+			"attach_to_rootbone"	"0"
+			"name"	"조난 신호"
+		}
+		"537"
+		{
+			"system"	"utaunt_signalflares_green_parent"
+			"id"	"3153"
+			"attach_to_rootbone"	"0"
+			"name"	"카리오카의 부름"
+		}
+		"538"
+		{
+			"system"	"utaunt_celebrationtime_teamcolor_red"
+			"id"	"3154"
+			"attach_to_rootbone"	"0"
+			"name"	"피에스타 로열"
+		}
+		"539"
+		{
+			"system"	"utaunt_celebrationtime_teamcolor_blue"
+			"id"	"3155"
+			"attach_to_rootbone"	"0"
+			"name"	"피에스타 로열"
+		}
+		"540"
+		{
+			"system"	"utaunt_celebrationtime_yellow_parent"
+			"id"	"3156"
+			"attach_to_rootbone"	"0"
+			"name"	"그랜드 주빌리"
+		}
+		"541"
+		{
+			"system"	"utaunt_god_lava_teamcolor_red"
+			"id"	"3157"
+			"attach_to_rootbone"	"0"
+			"name"	"엘리멘탈"
+		}
+		"542"
+		{
+			"system"	"utaunt_god_lava_teamcolor_blue"
+			"id"	"3158"
+			"attach_to_rootbone"	"0"
+			"name"	"엘리멘탈"
+		}
+		"543"
+		{
+			"system"	"utaunt_god_gold_parent"
+			"id"	"3159"
+			"attach_to_rootbone"	"0"
+			"name"	"신의 경지"
+		}
+		"544"
+		{
+			"system"	"utaunt_aestheticlogo_teamcolor_red"
+			"id"	"3160"
+			"attach_to_rootbone"	"0"
+			"name"	"용맹한 팀워크"
+		}
+		"545"
+		{
+			"system"	"utaunt_aestheticlogo_teamcolor_blue"
+			"id"	"3161"
+			"attach_to_rootbone"	"0"
+			"name"	"용맹한 팀워크"
+		}
+		"546"
+		{
+			"system"	"utaunt_aestheticlogo_orange_parent"
+			"id"	"3162"
+			"attach_to_rootbone"	"0"
+			"name"	"레거시 로고"
+		}
+		"547"
+		{
+			"system"	"utaunt_desert_wind_parent"
+			"id"	"3163"
+			"attach_to_rootbone"	"0"
+			"name"	"사막의 바람"
+		}
+		"548"
+		{
+			"system"	"utaunt_desert_monsoon_parent"
+			"id"	"3164"
+			"attach_to_rootbone"	"0"
+			"name"	"장마철"
+		}
+		"549"
+		{
+			"system"	"utaunt_treasure_teamcolor_red"
+			"id"	"3165"
+			"attach_to_rootbone"	"0"
+			"name"	"풍성한 재물"
+		}
+		"550"
+		{
+			"system"	"utaunt_treasure_teamcolor_blue"
+			"id"	"3166"
+			"attach_to_rootbone"	"0"
+			"name"	"풍성한 재물"
+		}
+		"551"
+		{
+			"system"	"utaunt_hearttreasure_parent"
+			"id"	"3167"
+			"attach_to_rootbone"	"0"
+			"name"	"사치스러운 연인"
+		}
+		"552"
+		{
+			"system"	"utaunt_wiggletube_teamcolor_red"
+			"id"	"3168"
+			"attach_to_rootbone"	"0"
+			"name"	"매혹"
+		}
+		"553"
+		{
+			"system"	"utaunt_wiggletube_teamcolor_blue"
+			"id"	"3169"
+			"attach_to_rootbone"	"0"
+			"name"	"매혹"
+		}
+		"554"
+		{
+			"system"	"utaunt_wiggletube_coffee_parent"
+			"id"	"3170"
+			"attach_to_rootbone"	"0"
+			"name"	"호박금"
+		}
+		"555"
+		{
+			"system"	"utaunt_flowerrain_teamcolor_red"
+			"id"	"3171"
+			"attach_to_rootbone"	"0"
+			"name"	"벚꽃의 축복"
+		}
+		"556"
+		{
+			"system"	"utaunt_flowerrain_teamcolor_blue"
+			"id"	"3172"
+			"attach_to_rootbone"	"0"
+			"name"	"벚꽃의 축복"
+		}
+		"557"
+		{
+			"system"	"utaunt_flowerrain_purple_parent"
+			"id"	"3173"
+			"attach_to_rootbone"	"0"
+			"name"	"폭력적인 보라빛"
+		}
+		"558"
+		{
+			"system"	"utaunt_poweraura_teamcolor_red"
+			"id"	"3174"
+			"attach_to_rootbone"	"0"
+			"name"	"전력 압력"
+		}
+		"559"
+		{
+			"system"	"utaunt_poweraura_teamcolor_blue"
+			"id"	"3175"
+			"attach_to_rootbone"	"0"
+			"name"	"전력 압력"
+		}
+		"560"
+		{
+			"system"	"utaunt_poweraura_green_parent"
+			"id"	"3176"
+			"attach_to_rootbone"	"0"
+			"name"	"확대되는 운동량"
+		}
+		"561"
+		{
+			"system"	"utaunt_poweraura_purple_parent"
+			"id"	"3177"
+			"attach_to_rootbone"	"0"
+			"name"	"충전되는 촉매"
+		}
+		"562"
+		{
+			"system"	"utaunt_poweraura_yellow_parent"
+			"id"	"3178"
+			"attach_to_rootbone"	"0"
+			"name"	"엄청난 오라"
+		}
+		"563"
+		{
+			"system"	"utaunt_mysticfusion_parent"
+			"id"	"3179"
+			"attach_to_rootbone"	"0"
+			"name"	"신비한 융합"
+		}
+		"564"
+		{
+			"system"	"utaunt_confetti_gy_parent"
+			"id"	"3180"
+			"attach_to_rootbone"	"0"
+			"name"	"불쾌한 색종이"
+		}
+		"565"
+		{
+			"system"	"utaunt_confetti_pp_parent"
+			"id"	"3181"
+			"attach_to_rootbone"	"0"
+			"name"	"사랑스러운 색종이"
+		}
+		"566"
+		{
+			"system"	"utaunt_confetti_yp_parent"
+			"id"	"3182"
+			"attach_to_rootbone"	"0"
+			"name"	"색종이 축하"
+		}
+		"567"
+		{
+			"system"	"utaunt_heavyrain_parent"
+			"id"	"3183"
+			"attach_to_rootbone"	"0"
+			"name"	"폭우"
+		}
+		"568"
+		{
+			"system"	"utaunt_field_parent"
+			"id"	"3184"
+			"attach_to_rootbone"	"0"
+			"name"	"호박 파티"
+		}
+		"569"
+		{
+			"system"	"utaunt_whitesmissmas_parent"
+			"id"	"3185"
+			"attach_to_rootbone"	"0"
+			"name"	"눈 오는 날"
+		}
+		"570"
+		{
+			"system"	"utaunt_busysnow_teamcolor_red"
+			"id"	"3186"
+			"attach_to_rootbone"	"0"
+			"name"	"함박눈"
+		}
+		"571"
+		{
+			"system"	"utaunt_busysnow_teamcolor_blue"
+			"id"	"3187"
+			"attach_to_rootbone"	"0"
+			"name"	"함박눈"
+		}
+		"572"
+		{
+			"system"	"utaunt_busysnow_parent_p"
+			"id"	"3188"
+			"attach_to_rootbone"	"0"
+			"name"	"라벤더 향기"
+		}
+		"573"
+		{
+			"system"	"utaunt_busysnow_parent_g"
+			"id"	"3189"
+			"attach_to_rootbone"	"0"
+			"name"	"초록빛 현상"
+		}
+		"574"
+		{
+			"system"	"utaunt_roses_teamcolor_red"
+			"id"	"3190"
+			"attach_to_rootbone"	"0"
+			"name"	"수상 갈채"
+		}
+		"575"
+		{
+			"system"	"utaunt_roses_teamcolor_blue"
+			"id"	"3191"
+			"attach_to_rootbone"	"0"
+			"name"	"수상 갈채"
+		}
+		"576"
+		{
+			"system"	"utaunt_roses_gold_parent"
+			"id"	"3192"
+			"attach_to_rootbone"	"0"
+			"name"	"오페라 피날레"
+		}
+		"577"
+		{
+			"system"	"utaunt_tangledlights_parent"
+			"id"	"3193"
+			"attach_to_rootbone"	"0"
+			"name"	"꼬마 전구 조명"
+		}
+		"578"
+		{
+			"system"	"utaunt_seamine_teamcolor_red"
+			"id"	"3194"
+			"attach_to_rootbone"	"0"
+			"name"	"바다 지뢰"
+		}
+		"579"
+		{
+			"system"	"utaunt_seamine_teamcolor_blue"
+			"id"	"3195"
+			"attach_to_rootbone"	"0"
+			"name"	"바다 지뢰"
+		}
+		"580"
+		{
+			"system"	"utaunt_iconicoutline_teamcolor_red"
+			"id"	"3196"
+			"attach_to_rootbone"	"0"
+			"name"	"상징적 아웃라인"
+		}
+		"581"
+		{
+			"system"	"utaunt_iconicoutline_teamcolor_blue"
+			"id"	"3197"
+			"attach_to_rootbone"	"0"
+			"name"	"상징적 아웃라인"
+		}
+		"582"
+		{
+			"system"	"utaunt_iconicoutline_pink_parent"
+			"id"	"3198"
+			"attach_to_rootbone"	"0"
+			"name"	"미묘한 실루엣"
+		}
+		"583"
+		{
+			"system"	"utaunt_oceanreef_parent"
+			"id"	"3199"
+			"attach_to_rootbone"	"0"
+			"name"	"바다 수초"
+		}
+		"584"
+		{
+			"system"	"utaunt_signalinterference_parent"
+			"id"	"3200"
+			"attach_to_rootbone"	"0"
+			"name"	"신호 끊김"
+		}
+		"585"
+		{
+			"system"	"utaunt_waterwave_parent"
+			"id"	"3201"
+			"attach_to_rootbone"	"0"
+			"name"	"여름 물결"
+		}
+		"586"
+		{
+			"system"	"utaunt_sharkfin2_parent"
+			"id"	"3202"
+			"attach_to_rootbone"	"0"
+			"name"	"상어 공격"
+		}
+		"587"
+		{
+			"system"	"utaunt_phantasam_green_parent"
+			"id"	"3203"
+			"attach_to_rootbone"	"0"
+			"name"	"유해 가스"
+		}
+		"588"
+		{
+			"system"	"utaunt_phantasam_grey_parent"
+			"id"	"3204"
+			"attach_to_rootbone"	"0"
+			"name"	"환상의 안개"
+		}
+		"589"
+		{
+			"system"	"utaunt_phantasam_purple_parent"
+			"id"	"3205"
+			"attach_to_rootbone"	"0"
+			"name"	"귀신들린 안개"
+		}
+		"590"
+		{
+			"system"	"utaunt_multicurse_teamcolor_red"
+			"id"	"3206"
+			"attach_to_rootbone"	"0"
+			"name"	"분열된 악의"
+		}
+		"591"
+		{
+			"system"	"utaunt_multicurse_teamcolor_blue"
+			"id"	"3207"
+			"attach_to_rootbone"	"0"
+			"name"	"분열된 악의"
+		}
+		"592"
+		{
+			"system"	"utaunt_voidcrawlers_parent"
+			"id"	"3208"
+			"attach_to_rootbone"	"0"
+			"name"	"공허의 기어다니는 놈들"
+		}
+		"593"
+		{
+			"system"	"utaunt_tarpit_dinos_parent"
+			"id"	"3209"
+			"attach_to_rootbone"	"0"
+			"name"	"화석 연료"
+		}
+		"594"
+		{
+			"system"	"utaunt_tarpit_people_parent"
+			"id"	"3210"
+			"attach_to_rootbone"	"0"
+			"name"	"타르 구덩이"
+		}
+		"595"
+		{
+			"system"	"utaunt_morbed_teamcolor_red"
+			"id"	"3211"
+			"attach_to_rootbone"	"0"
+			"name"	"섬뜩한 야수"
+		}
+		"596"
+		{
+			"system"	"utaunt_morbed_teamcolor_blue"
+			"id"	"3212"
+			"attach_to_rootbone"	"0"
+			"name"	"섬뜩한 야수"
+		}
+		"597"
 		{
 			"system"	"killstreak_eyeglow_4_teamcolor_red"
 			"id"	"22001"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22001"
 		}
-		"464"
+		"598"
 		{
 			"system"	"killstreak_t1_lvl2"
 			"id"	"22002"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22002"
 		}
-		"465"
+		"599"
 		{
 			"system"	"killstreak_t2_lvl2"
 			"id"	"22003"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22003"
 		}
-		"466"
+		"600"
 		{
 			"system"	"killstreak_t3_lvl2"
 			"id"	"22004"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22004"
 		}
-		"467"
+		"601"
 		{
 			"system"	"killstreak_t4_lvl2"
 			"id"	"22005"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22005"
 		}
-		"468"
+		"602"
 		{
 			"system"	"killstreak_t5_lvl2"
 			"id"	"22006"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22006"
 		}
-		"469"
+		"603"
 		{
 			"system"	"killstreak_t6_lvl2"
 			"id"	"22007"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22007"
 		}
-		"470"
+		"604"
 		{
 			"system"	"killstreak_t7_lvl2"
 			"id"	"22008"
@@ -14887,97 +16015,97 @@
 				{
 					"level"	"0"
 					"required_score"	"1"
-					"name"	"Strange"
+					"name"	"이상한"
 				}
 				"1"
 				{
 					"level"	"1"
 					"required_score"	"3"
-					"name"	"Unremarkable"
+					"name"	"아직은 보잘것없는"
 				}
 				"2"
 				{
 					"level"	"2"
 					"required_score"	"5"
-					"name"	"Scarcely Lethal"
+					"name"	"그나마 좀 치명적인"
 				}
 				"3"
 				{
 					"level"	"3"
 					"required_score"	"7"
-					"name"	"Mildly Menacing"
+					"name"	"약간 위협적인"
 				}
 				"4"
 				{
 					"level"	"4"
 					"required_score"	"10"
-					"name"	"Somewhat Threatening"
+					"name"	"그럭저럭 위협적인"
 				}
 				"5"
 				{
 					"level"	"5"
 					"required_score"	"14"
-					"name"	"Uncharitable"
+					"name"	"무자비한"
 				}
 				"6"
 				{
 					"level"	"6"
 					"required_score"	"18"
-					"name"	"Notably Dangerous"
+					"name"	"눈에 띄게 위험한"
 				}
 				"7"
 				{
 					"level"	"7"
 					"required_score"	"23"
-					"name"	"Sufficiently Lethal"
+					"name"	"충분히 치명적인"
 				}
 				"8"
 				{
 					"level"	"8"
 					"required_score"	"28"
-					"name"	"Truly Feared"
+					"name"	"진심으로 공포스러운"
 				}
 				"9"
 				{
 					"level"	"9"
 					"required_score"	"35"
-					"name"	"Spectacularly Lethal"
+					"name"	"극적으로 치명적인"
 				}
 				"10"
 				{
 					"level"	"10"
 					"required_score"	"50"
-					"name"	"Gore-Spattered"
+					"name"	"피로 떡칠된"
 				}
 				"11"
 				{
 					"level"	"11"
 					"required_score"	"75"
-					"name"	"Wicked Nasty"
+					"name"	"짓궂고 험악한"
 				}
 				"12"
 				{
 					"level"	"12"
 					"required_score"	"99"
-					"name"	"Positively Inhumane"
+					"name"	"충분히 무자비한"
 				}
 				"13"
 				{
 					"level"	"13"
 					"required_score"	"100"
-					"name"	"Totally Ordinary"
+					"name"	"전형적인"
 				}
 				"14"
 				{
 					"level"	"14"
 					"required_score"	"150"
-					"name"	"Face-Melting"
+					"name"	"안면 파괴용"
 				}
 				"15"
 				{
 					"level"	"15"
 					"required_score"	"250"
-					"name"	"Rage-Inducing"
+					"name"	"분노를 불러일으키는"
 				}
 				"16"
 				{
@@ -14989,25 +16117,25 @@
 				{
 					"level"	"17"
 					"required_score"	"750"
-					"name"	"Epic"
+					"name"	"최고의"
 				}
 				"18"
 				{
 					"level"	"18"
 					"required_score"	"784"
-					"name"	"Legendary"
+					"name"	"전설적인"
 				}
 				"19"
 				{
 					"level"	"19"
 					"required_score"	"850"
-					"name"	"Australian"
+					"name"	"전형적인 호주인의"
 				}
 				"20"
 				{
 					"level"	"20"
 					"required_score"	"1000"
-					"name"	"Hale's Own"
+					"name"	"헤일 그 자체의"
 				}
 			}
 		}
@@ -15017,13 +16145,13 @@
 		"0"
 		{
 			"type"	"0"
-			"type_name"	"처치수"
+			"type_name"	"처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"1"
 		{
 			"type"	"1"
-			"type_name"	"우버 횟수"
+			"type_name"	"최고의"
 			"level_data"	"KillEaterRank"
 		}
 		"2"
@@ -15035,7 +16163,7 @@
 		"3"
 		{
 			"type"	"3"
-			"type_name"	"센트리로 처치수"
+			"type_name"	"센트리로 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"4"
@@ -15077,55 +16205,55 @@
 		"10"
 		{
 			"type"	"10"
-			"type_name"	"스카웃 처치수"
+			"type_name"	"스카웃 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"11"
 		{
 			"type"	"11"
-			"type_name"	"스나이퍼 처치수"
+			"type_name"	"스나이퍼 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"12"
 		{
 			"type"	"12"
-			"type_name"	"솔저 처치수"
+			"type_name"	"솔저 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"13"
 		{
 			"type"	"13"
-			"type_name"	"데모맨 처치수"
+			"type_name"	"데모맨 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"14"
 		{
 			"type"	"14"
-			"type_name"	"헤비 처치수"
+			"type_name"	"헤비 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"15"
 		{
 			"type"	"15"
-			"type_name"	"파이로 처치수"
+			"type_name"	"파이로 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"16"
 		{
 			"type"	"16"
-			"type_name"	"스파이 처치수"
+			"type_name"	"스파이 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"17"
 		{
 			"type"	"17"
-			"type_name"	"엔지니어 처치수"
+			"type_name"	"엔지니어 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"18"
 		{
 			"type"	"18"
-			"type_name"	"메딕 처치수"
+			"type_name"	"메딕 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"19"
@@ -15149,13 +16277,13 @@
 		"22"
 		{
 			"type"	"22"
-			"type_name"	"공중의 적 처치수"
+			"type_name"	"공중의 적 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"23"
 		{
 			"type"	"23"
-			"type_name"	"신체 손상 처치수"
+			"type_name"	"신체 손상 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"24"
@@ -15179,7 +16307,7 @@
 		"27"
 		{
 			"type"	"27"
-			"type_name"	"보름날의 처치수"
+			"type_name"	"보름날의 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"28"
@@ -15197,7 +16325,7 @@
 		"30"
 		{
 			"type"	"31"
-			"type_name"	"죽은 뒤 처치수"
+			"type_name"	"죽은 뒤 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"31"
@@ -15209,13 +16337,13 @@
 		"32"
 		{
 			"type"	"33"
-			"type_name"	"치명타 처치수"
+			"type_name"	"치명타 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"33"
 		{
 			"type"	"34"
-			"type_name"	"폭발 점프 도중 처치수"
+			"type_name"	"폭발 점프 도중 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"34"
@@ -15227,13 +16355,13 @@
 		"35"
 		{
 			"type"	"37"
-			"type_name"	"은폐 스파이 처치수"
+			"type_name"	"은폐 스파이 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"36"
 		{
 			"type"	"38"
-			"type_name"	"우버차지가 준비된 메딕 처치수"
+			"type_name"	"우버차지가 준비된 메딕 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"37"
@@ -15245,43 +16373,43 @@
 		"38"
 		{
 			"type"	"40"
-			"type_name"	"거대 로봇 처치수"
+			"type_name"	"거대 로봇 처치 수"
 			"level_data"	"KillEater_RobotsKilledRank"
 		}
 		"39"
 		{
 			"type"	"44"
-			"type_name"	"체력이 낮은 상태에서 처치수"
+			"type_name"	"체력이 낮은 상태에서 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"40"
 		{
 			"type"	"45"
-			"type_name"	"핼러윈 기간 처치수"
+			"type_name"	"핼러윈 기간 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"41"
 		{
 			"type"	"46"
-			"type_name"	"핼러윈 기간 로봇 처치수"
+			"type_name"	"핼러윈 기간 로봇 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"42"
 		{
 			"type"	"47"
-			"type_name"	"수비자 처치수"
+			"type_name"	"수비자 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"43"
 		{
 			"type"	"48"
-			"type_name"	"물 속의 적 처치수"
+			"type_name"	"물 속의 적 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"44"
 		{
 			"type"	"49"
-			"type_name"	"우버차지 상태에서 처치수"
+			"type_name"	"우버차지 상태에서 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"45"
@@ -15311,7 +16439,7 @@
 		"49"
 		{
 			"type"	"60"
-			"type_name"	"아군을 순간이동시킨 횟수"
+			"type_name"	"아군을 텔레포트한 횟수"
 			"level_data"	"KillEaterRank"
 		}
 		"50"
@@ -15323,7 +16451,7 @@
 		"51"
 		{
 			"type"	"62"
-			"type_name"	"원거리 처치수"
+			"type_name"	"원거리 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"52"
@@ -15353,7 +16481,7 @@
 		"56"
 		{
 			"type"	"67"
-			"type_name"	"학살 시간 동안 처치수"
+			"type_name"	"학살 시간 동안 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"57"
@@ -15365,25 +16493,25 @@
 		"58"
 		{
 			"type"	"74"
-			"type_name"	"로봇 스파이 처치수"
+			"type_name"	"로봇 스파이 처치 수"
 			"level_data"	"KillEater_RobotsKilledRank"
 		}
 		"59"
 		{
 			"type"	"77"
-			"type_name"	"도발 처치수"
+			"type_name"	"도발 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"60"
 		{
 			"type"	"78"
-			"type_name"	"범상찮은 복장 플레이어 처치수"
+			"type_name"	"범상찮은 복장 플레이어 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"61"
 		{
 			"type"	"79"
-			"type_name"	"불타는 플레이어 처치수"
+			"type_name"	"불타는 플레이어 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"62"
@@ -15419,43 +16547,43 @@
 		"67"
 		{
 			"type"	"85"
-			"type_name"	"근거리 처치수"
+			"type_name"	"근거리 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"68"
 		{
 			"type"	"86"
-			"type_name"	"원격 조련된 센트리 처치수"
+			"type_name"	"원격 조련된 센트리 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"69"
 		{
 			"type"	"87"
-			"type_name"	"처치수"
+			"type_name"	"처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"70"
 		{
 			"type"	"88"
-			"type_name"	"체력이 완전한 상태에서 처치수"
+			"type_name"	"체력이 완전한 상태에서 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"71"
 		{
 			"type"	"89"
-			"type_name"	"도발 중인 플레이어 처치수"
+			"type_name"	"도발 중인 플레이어 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"72"
 		{
 			"type"	"90"
-			"type_name"	"축제 처치수"
+			"type_name"	"축제 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"73"
 		{
 			"type"	"91"
-			"type_name"	"축제 지하 세계 처치수"
+			"type_name"	"축제 지하 세계 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"74"
@@ -15491,7 +16619,7 @@
 		"79"
 		{
 			"type"	"97"
-			"type_name"	"작전 중 처치수"
+			"type_name"	"작전 중 처치 수"
 			"level_data"	"KillEaterRank"
 		}
 		"80"
@@ -15515,7 +16643,7 @@
 		"83"
 		{
 			"type"	"101"
-			"type_name"	"침공 행사 도중 처치 및 도움수"
+			"type_name"	"침공 이벤트 도중 처치 및 도움수"
 			"level_data"	"KillEaterRank"
 		}
 		"84"
@@ -15575,7 +16703,7 @@
 		"93"
 		{
 			"type"	"111"
-			"type_name"	"Contract Points Contributed To Friends"
+			"type_name"	"친구들에게 기여한 계약 점수"
 			"level_data"	"KillEaterRank"
 		}
 	}

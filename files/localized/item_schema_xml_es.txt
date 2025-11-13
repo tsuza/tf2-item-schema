@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -1178,7 +1178,7 @@ Disparo secundario: lanza una ráfaga de aire comprimido que empuja a los enemig
 			<defindex>37</defindex>
 			<item_class>tf_weapon_bonesaw</item_class>
 			<item_type_name>Serrucho</item_type_name>
-			<item_name>La Übersaw</item_name>
+			<item_name>Übersaw</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_ubersaw/c_ubersaw.mdl</model_player>
@@ -1740,7 +1740,7 @@ El daño absorbido te ralentizará cuando el efecto acabe.</item_description>
 			<name>Mining Light</name>
 			<defindex>48</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto Cosmético</item_type_name>
+			<item_type_name>Artículo Cosmético</item_type_name>
 			<item_name>Linterna Frontal</item_name>
 			<item_description>Para Engineers de ideas brillantes.</item_description>
 			<proper_name>false</proper_name>
@@ -2045,7 +2045,7 @@ Pero para arrancárselos a uno vivo, ¡hay que ser un hombre de verdad!</item_de
 			<name>Soldier&apos;s Stash</name>
 			<defindex>54</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto Cosmético</item_type_name>
+			<item_type_name>Artículo Cosmético</item_type_name>
 			<item_name>Avituallamiento de Soldier</item_name>
 			<item_description>Este sombrero no constituye bajo ningún concepto una invitación al consumo de tabaco o a los juegos de azar.</item_description>
 			<proper_name>false</proper_name>
@@ -3296,7 +3296,7 @@ pero con una coronilla igual de redonda.</item_description>
 			<name>Baseball Bill&apos;s Sports Shine</name>
 			<defindex>111</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto Cosmético</item_type_name>
+			<item_type_name>Artículo Cosmético</item_type_name>
 			<item_name>Gomina Bill el Bateador</item_name>
 			<item_description>Todo el mundo sabe que la velocidad es el mejor aliado de un Scout. ¿Por qué entorpecerte entonces con sombreros pesados y voluminosos si puedes romper la barrera del sonido sin ellos?</item_description>
 			<proper_name>false</proper_name>
@@ -3456,7 +3456,7 @@ pero con una coronilla igual de redonda.</item_description>
 			<name>Ritzy Rick&apos;s Hair Fixative</name>
 			<defindex>117</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto Cosmético</item_type_name>
+			<item_type_name>Artículo Cosmético</item_type_name>
 			<item_name>Fijador de Cabellera de Caballero</item_name>
 			<item_description>Él disparó, le faltó un pelo
 y perdí mi sombrero.
@@ -3506,7 +3506,7 @@ y él perdió la cabeza.</item_description>
 			<name>Texas Slim&apos;s Dome Shine</name>
 			<defindex>118</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto Cosmético</item_type_name>
+			<item_type_name>Artículo Cosmético</item_type_name>
 			<item_name>Abrillantador de Cúpulas Texas Slim</item_name>
 			<item_description>Hay ocasiones en las que se agradece un sombrero un poco menos aparatoso.</item_description>
 			<proper_name>false</proper_name>
@@ -3653,9 +3653,9 @@ y él perdió la cabeza.</item_description>
 			<defindex>122</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>CheatDetector</item_type_name>
-			<item_name>Hemos marcado tu cuenta por burlar el sistema de distribución de objetos y hemos eliminado los que obtuviste de forma ilegal.
+			<item_name>Hemos marcado tu cuenta por burlar el sistema de distribución de artículos y hemos eliminado los que obtuviste de forma ilegal.
 
-Cualquier infracción futura provocará la pérdida de todos tus objetos.</item_name>
+Cualquier infracción futura provocará la pérdida de todos tus artículos.</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player></model_player>
@@ -3699,7 +3699,7 @@ Cualquier infracción futura provocará la pérdida de todos tus objetos.</item_
 			<defindex>123</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>CheatDetector</item_type_name>
-			<item_name>Hemos marcado tu cuenta por burlar el sistema de distribución de objetos y hemos eliminado todos los objetos de tu inventario.
+			<item_name>Hemos marcado tu cuenta por burlar el sistema de distribución de artículos y hemos eliminado todos los artículos de tu inventario.
 
 Cualquier infracción futura provocará que desactivemos tu cuenta.</item_name>
 			<proper_name>false</proper_name>
@@ -8128,9 +8128,9 @@ Puede usarse para apagar el fuego.</item_description>
 			<item_name>El Refuerzo del Batallón</item_name>
 			<item_description>Proporciona un subidón defensivo que protege
 a los compañeros de equipo cercanos ante los críticos,
-ante el daño causado por un centinela en un 50 %
-y el 35 % de los daño de otra procedencia.
-La furia aumenta con los daños sufridos.</item_description>
+ante el daño causado por un centinela en un 50 %
+y el 35 % del daño de otra procedencia.
+La furia aumenta con el daño infligido.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_battalion_bugle/c_battalion_bugle.mdl</model_player>
@@ -8500,7 +8500,7 @@ La furia aumenta con los daños sufridos.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Regalo</item_type_name>
 			<item_name>Saxton Secreto</item_name>
-			<item_description>¡Este objeto de acción concede al usarse un regalo al azar
+			<item_description>¡Este artículo de acción concede al usarse un regalo al azar
 a una persona al azar del servidor!</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
@@ -8532,7 +8532,7 @@ a una persona al azar del servidor!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Regalo</item_type_name>
 			<item_name>Montón de Regalos</item_name>
-			<item_description>¡Este objeto de acción concede al usarse un regalo al azar
+			<item_description>¡Este artículo de acción concede al usarse un regalo al azar
 a un máximo de 23 jugadores más del servidor!</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
@@ -8710,7 +8710,7 @@ a un máximo de 23 jugadores más del servidor!</item_description>
 			<name>Duel MiniGame</name>
 			<defindex>241</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto Utilizable</item_type_name>
+			<item_type_name>Artículo Utilizable</item_type_name>
 			<item_name>Minijuego de Duelos</item_name>
 			<item_description>Si un jugador enemigo cuestiona tus habilidades, higiene personal y/o ascendencia, ¡usa estas elegantes armas de fuego para retarlo a un duelo! Consulta el Catálogo Mann Co. para más detalles.</item_description>
 			<proper_name>false</proper_name>
@@ -8749,7 +8749,7 @@ a un máximo de 23 jugadores más del servidor!</item_description>
 			<defindex>242</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Insignia</item_type_name>
-			<item_name>Medalla de Bronce de Duelista</item_name>
+			<item_name>Insignia de Bronce de Duelista</item_name>
 			<item_description>Esta medalla muestra las estadísticas de tus duelos.
 Gana duelos para subir su nivel.</item_description>
 			<proper_name>false</proper_name>
@@ -8794,7 +8794,7 @@ Gana duelos para subir su nivel.</item_description>
 			<defindex>243</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Insignia</item_type_name>
-			<item_name>Medalla de Plata de Duelista</item_name>
+			<item_name>Insignia de Plata de Duelista</item_name>
 			<item_description>Se otorga al alcanzar el nivel 25.
 Esta medalla muestra las estadísticas de tus duelos.
 Gana duelos para subir su nivel.</item_description>
@@ -8840,7 +8840,7 @@ Gana duelos para subir su nivel.</item_description>
 			<defindex>244</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Insignia</item_type_name>
-			<item_name>Medalla de Oro de Duelista</item_name>
+			<item_name>Insignia de Oro de Duelista</item_name>
 			<item_description>Se otorga al alcanzar el nivel 50.
 Esta medalla muestra las estadísticas de tus duelos.
 Gana duelos para subir su nivel.</item_description>
@@ -8886,7 +8886,7 @@ Gana duelos para subir su nivel.</item_description>
 			<defindex>245</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Insignia</item_type_name>
-			<item_name>Medalla de Platino de Duelista</item_name>
+			<item_name>Insignia de Platino de Duelista</item_name>
 			<item_description>Se otorga al alcanzar el nivel 75.
 Esta medalla muestra las estadísticas de tus duelos.
 Gana duelos para subir su nivel.</item_description>
@@ -9364,7 +9364,7 @@ con Fraskungfú en los alrededores.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Casco</item_type_name>
 			<item_name>El Especialista Sobrio</item_name>
-			<item_description>El mejor amigo de un Saltalapas.</item_description>
+			<item_description>El mejor amigo de un saltalapas.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/stunt_helmet.mdl</model_player>
@@ -10375,7 +10375,7 @@ a aquellos que habitan la Intuertal.</item_description>
 			<name>Halloween Noise Maker - Black Cat</name>
 			<defindex>280</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto de Fiesta</item_type_name>
+			<item_type_name>Artículo de Fiesta</item_type_name>
 			<item_name>Generador de Ruidos - Gato Negro</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
@@ -10413,7 +10413,7 @@ a aquellos que habitan la Intuertal.</item_description>
 			<name>Halloween Noise Maker - Gremlin</name>
 			<defindex>281</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto de Fiesta</item_type_name>
+			<item_type_name>Artículo de Fiesta</item_type_name>
 			<item_name>Generador de Ruidos - Gremlin</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
@@ -10451,7 +10451,7 @@ a aquellos que habitan la Intuertal.</item_description>
 			<name>Halloween Noise Maker - Werewolf</name>
 			<defindex>282</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto de Fiesta</item_type_name>
+			<item_type_name>Artículo de Fiesta</item_type_name>
 			<item_name>Generador de Ruidos - Hombre Lobo</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
@@ -10489,7 +10489,7 @@ a aquellos que habitan la Intuertal.</item_description>
 			<name>Halloween Noise Maker - Witch</name>
 			<defindex>283</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto de Fiesta</item_type_name>
+			<item_type_name>Artículo de Fiesta</item_type_name>
 			<item_name>Generador de Ruidos - Bruja</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
@@ -10527,7 +10527,7 @@ a aquellos que habitan la Intuertal.</item_description>
 			<name>Halloween Noise Maker - Banshee</name>
 			<defindex>284</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto de Fiesta</item_type_name>
+			<item_type_name>Artículo de Fiesta</item_type_name>
 			<item_name>Generador de Ruidos - Banshee</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
@@ -10565,7 +10565,7 @@ a aquellos que habitan la Intuertal.</item_description>
 			<name>Halloween Noise Maker - Crazy Laugh</name>
 			<defindex>286</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto de Fiesta</item_type_name>
+			<item_type_name>Artículo de Fiesta</item_type_name>
 			<item_name>Generador de Ruidos - Risa Perturbadora</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
@@ -10652,7 +10652,7 @@ a aquellos que habitan la Intuertal.</item_description>
 			<name>Halloween Noise Maker - Stabby</name>
 			<defindex>288</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto de Fiesta</item_type_name>
+			<item_type_name>Artículo de Fiesta</item_type_name>
 			<item_name>Generador de Ruidos - Puñalada</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
@@ -12898,7 +12898,7 @@ Disparo secundario: compartir con un amigo (botiquín mediano)
 			<name>Exquisite Rack</name>
 			<defindex>339</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto Cosmético</item_type_name>
+			<item_type_name>Artículo Cosmético</item_type_name>
 			<item_name>Cornamenta Distinguida</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -13900,7 +13900,7 @@ Su máscara atroz</item_description>
 			<name>Charity Noise Maker - Bell</name>
 			<defindex>362</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto de Fiesta</item_type_name>
+			<item_type_name>Artículo de Fiesta</item_type_name>
 			<item_name>Generador de Ruidos - Campana</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
@@ -13992,7 +13992,7 @@ La flor del loto baja
 			<name>Charity Noise Maker - Tingsha</name>
 			<defindex>364</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto de Fiesta</item_type_name>
+			<item_type_name>Artículo de Fiesta</item_type_name>
 			<item_name>Generador de Ruidos - Gong</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
@@ -14035,7 +14035,7 @@ La flor del loto baja
 			<name>Promotional Noise Maker - Koto</name>
 			<defindex>365</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto de Fiesta</item_type_name>
+			<item_type_name>Artículo de Fiesta</item_type_name>
 			<item_name>Generador de Ruidos - Koto</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
@@ -14222,7 +14222,7 @@ Si no, escóndete bajo esta discreta capucha.</item_description>
 			<defindex>380</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Máscara</item_type_name>
-			<item_name>Gran Luchador</item_name>
+			<item_name>Gran Luchador</item_name>
 			<item_description>La lucha libre es real y ahora puedes demostrarlo.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -15267,7 +15267,7 @@ el otro en todo lo demás.</item_description>
 			<item_class>tf_weapon_sniperrifle_decap</item_class>
 			<item_type_name>Rifle de Francotirador</item_type_name>
 			<item_name>La Ganga del Bazar</item_name>
-			<item_description>Cada muerte por disparo a la cabeza aumenta la velocidad de carga un 25 % hasta un máximo de 200 %.</item_description>
+			<item_description>Cada muerte por disparo a la cabeza aumenta la velocidad de carga un 25 % hasta un máximo de 200 %.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_bazaar_sniper/c_bazaar_sniper.mdl</model_player>
@@ -15777,7 +15777,7 @@ Consigue un golpe crítico cuerpo a cuerpo tras impactar con un enemigo.</item_d
 			<item_class>tf_weapon_syringegun_medic</item_class>
 			<item_type_name>Prototipo de Pistola de Jeringas</item_type_name>
 			<item_name>La Sobredosis</item_name>
-			<item_description>Mientras está activa, la velocidad de movimiento aumenta en base al porcentaje de Supercarga hasta un máximo del +20 %</item_description>
+			<item_description>Mientras está activa, la velocidad de movimiento aumenta en base al porcentaje de Supercarga hasta un máximo del +20 %</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/weapons/c_models/c_proto_syringegun/c_proto_syringegun.mdl</model_player>
@@ -16817,7 +16817,7 @@ Producto Comestible Natural Derivado de Pescado Artificial de Industrias Vossler
 			<item_type_name>Burla Especial</item_type_name>
 			<item_name>Burla: La Visión del Director</item_name>
 			<item_description>Burla para todas las clases
-Equipa este objeto en un espacio de burla. Actívalo para mostrar a tus víctimas que estás grabando su patética defunción para compartirla con todos.</item_description>
+Equipa este artículo en un espacio de burla. Actívalo para mostrar a tus víctimas que estás grabando su patética defunción para compartirla con todos.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -18360,7 +18360,7 @@ Comparte unas buenas risas con todo el mundo excepto con el tipo al que acabas d
 			<item_name>El Manifestante Concienzudo</item_name>
 			<item_description>Probamos por las buenas. No funcionó.
 
-Se pueden aplicar adhesivos personalizados a este objeto.</item_description>
+Se pueden aplicar adhesivos personalizados a este artículo.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_picket/c_picket.mdl</model_player>
@@ -18926,7 +18926,7 @@ con cada decapitación.</item_description>
 			<name>Power Up Canteen (MvM)</name>
 			<defindex>489</defindex>
 			<item_class>tf_powerup_bottle</item_class>
-			<item_type_name>Objeto Utilizable</item_type_name>
+			<item_type_name>Artículo Utilizable</item_type_name>
 			<item_name>Cantimplora Potenciadora</item_name>
 			<item_description>Al usarla, aplica un efecto adicional durante un tiempo limitado. Debe llenarse en una Estación de Mejoras y solamente se puede llenar con un tipo de bonificación a la vez.</item_description>
 			<proper_name>false</proper_name>
@@ -19127,7 +19127,7 @@ con cada decapitación.</item_description>
 			<name>Promotional Noise Maker - Fireworks</name>
 			<defindex>493</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto de Fiesta</item_type_name>
+			<item_type_name>Artículo de Fiesta</item_type_name>
 			<item_name>Generador de Ruidos - Fuegos Artificiales</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
@@ -20937,7 +20937,7 @@ Gamescom 2011</item_description>
 			<name>Noise Maker - TF Birthday</name>
 			<defindex>536</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto de Fiesta</item_type_name>
+			<item_type_name>Artículo de Fiesta</item_type_name>
 			<item_name>Generador de Ruidos - Cumpleaños de TF</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
@@ -21229,7 +21229,7 @@ Gamescom 2011</item_description>
 			<name>Noise Maker - Vuvuzela</name>
 			<defindex>542</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto de Fiesta</item_type_name>
+			<item_type_name>Artículo de Fiesta</item_type_name>
 			<item_name>Generador de Ruidos - Vuvuzela</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
@@ -24220,10 +24220,10 @@ Este paquete contiene una muestra gratuita de nuestro catálogo otoñal y puede 
 			</capabilities>
 			<styles>
 				<style>
-					<name>Estilo 1</name>
+					<name>Estilo 1</name>
 				</style>
 				<style>
-					<name>Estilo 2</name>
+					<name>Estilo 2</name>
 				</style>
 			</styles>
 			<used_by_classes>
@@ -24277,10 +24277,10 @@ Este paquete contiene una muestra gratuita de nuestro catálogo otoñal y puede 
 			</capabilities>
 			<styles>
 				<style>
-					<name>Estilo 1</name>
+					<name>Estilo 1</name>
 				</style>
 				<style>
-					<name>Estilo 2</name>
+					<name>Estilo 2</name>
 				</style>
 			</styles>
 			<used_by_classes>
@@ -25169,7 +25169,7 @@ Este paquete contiene una muestra gratuita de nuestro catálogo otoñal y puede 
 			<item_name>¡Estilo!</item_name>
 			<item_description>¡Muestra entusiasmo por tus cosas favoritas!
 
-Se pueden aplicar adhesivos personalizados a este objeto.</item_description>
+Se pueden aplicar adhesivos personalizados a este artículo.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/flair_Scout.mdl</model_player>
@@ -25364,7 +25364,7 @@ Se pueden aplicar adhesivos personalizados a este objeto.</item_description>
 			<item_name>Insignia Fotográfica</item_name>
 			<item_description>Evita el robo de identidad.
 
-Se pueden aplicar adhesivos personalizados a este objeto.</item_description>
+Se pueden aplicar adhesivos personalizados a este artículo.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/photo_badge.mdl</model_player>
@@ -25412,7 +25412,7 @@ Se pueden aplicar adhesivos personalizados a este objeto.</item_description>
 			<item_name>Orgullo del Clan</item_name>
 			<item_description>Porque es más barato y menos doloroso que un tatuaje.
 
-Se pueden aplicar adhesivos personalizados a este objeto.</item_description>
+Se pueden aplicar adhesivos personalizados a este artículo.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/stampable_medal.mdl</model_player>
@@ -26133,7 +26133,7 @@ Se pueden aplicar adhesivos personalizados a este objeto.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Sombrero</item_type_name>
 			<item_name>La Cabeza de Notch</item_name>
-			<item_description>Bienvenido a una sociedad secreta tan exclusiva que hará parecer a los Illuminati unos aficionados. ¿Cómo de exclusiva? Tú eres el único miembro. No hay otro objeto igual en toda la existencia, así que no lo uses para fabricar otros objetos, Miney.</item_description>
+			<item_description>Bienvenido a una sociedad secreta tan exclusiva que hará parecer a los Illuminati unos aficionados. ¿Cómo de exclusiva? Tú eres el único miembro. No hay otro artículo igual en toda la existencia, así que no lo uses para fabricar otros artículos, Miney.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/notch_head_Scout.mdl</model_player>
@@ -27432,7 +27432,7 @@ Disparo secundario: lanza una ráfaga de aire comprimido que empuja a los enemig
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Sombrero de Fiesta</item_type_name>
 			<item_name>El Sombrero Sorpresa</item_name>
-			<item_description>¡Feliz Navidad a todos! ¡Que todas vuestras variopintas festividades sean felices (o sombrías, dependiendo de vuestras tradiciones culturales) con este objeto de TF ultrarraro donado por el usuario de Steam BANG!</item_description>
+			<item_description>¡Feliz Navidad a todos! ¡Que todas vuestras variopintas festividades sean felices (o sombrías, dependiendo de vuestras tradiciones culturales) con este artículo de TF ultrarraro donado por el usuario de Steam BANG!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/xms_gift_hat_Scout.mdl</model_player>
@@ -27652,7 +27652,7 @@ Disparo secundario: lanza una ráfaga de aire comprimido que empuja a los enemig
 			<name>Noise Maker - Winter 2011</name>
 			<defindex>673</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto de Fiesta</item_type_name>
+			<item_type_name>Artículo de Fiesta</item_type_name>
 			<item_name>Generador de Ruidos - Vacaciones de Invierno</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
@@ -29412,7 +29412,7 @@ Disparo secundario: lanza una ráfaga de aire comprimido que empuja a los enemig
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>100</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/scout_prep_shirt.906456dfdb9b9c54543dcb716bb1952efb3fdde9.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.c56d08ff23b3f30249a18501fef79d221f034cd0.png</image_url_large>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.05be377767ca55c152b815f1d9774759c875a90c.png</image_url_large>
 			<drop_type>none</drop_type>
 			<craft_class>hat</craft_class>
 			<craft_material_type>hat</craft_material_type>
@@ -29459,7 +29459,7 @@ Disparo secundario: lanza una ráfaga de aire comprimido que empuja a los enemig
 			<item_class>craft_item</item_class>
 			<item_type_name>Ticket</item_type_name>
 			<item_name>Ticket de Turno de Servicio</item_name>
-			<item_description>Presenta este ticket en Mann vs. Máquinas para jugar el Modo Mann en un servidor oficial, conseguir objetos raros y controlar tu progreso para la Insignia de Turno de Servicio.</item_description>
+			<item_description>Presenta este ticket en Mann vs. Máquinas para jugar el Modo Mann en un servidor oficial, conseguir artículos raros y controlar tu progreso para la Insignia de Turno de Servicio.</item_description>
 			<proper_name>false</proper_name>
 			<model_player>null</model_player>
 			<item_quality>6</item_quality>
@@ -29578,7 +29578,7 @@ Disparo secundario: lanza una ráfaga de aire comprimido que empuja a los enemig
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Paquete</item_type_name>
 			<item_name>Paquete de la Tienda Mann Co.</item_name>
-			<item_description>¡Esta bolsa contiene un objeto gratuito de la Tienda Mann Co.! Puedes abrirla desde tu mochila.</item_description>
+			<item_description>¡Esta bolsa contiene un artículo gratuito de la Tienda Mann Co.! Puedes abrirla desde tu mochila.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -30892,7 +30892,7 @@ Rodarán cabezas.</item_description>
 			<item_class>craft_item</item_class>
 			<item_type_name>Ticket</item_type_name>
 			<item_name>Vale de Excedentes de Pelotón</item_name>
-			<item_description>Presenta este vale en Mann vs. Máquinas al empezar en Modo Mann. Tú y cada persona en tu equipo recibiréis un objeto adicional cuando completéis una misión.</item_description>
+			<item_description>Presenta este vale en Mann vs. Máquinas al empezar en Modo Mann. Tú y cada persona en tu equipo recibiréis un artículo adicional cuando completéis una misión.</item_description>
 			<proper_name>false</proper_name>
 			<model_player>null</model_player>
 			<item_quality>6</item_quality>
@@ -34880,7 +34880,7 @@ Disparo secundario: lanza una ráfaga de aire comprimido que empuja a los enemig
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Paquete</item_type_name>
 			<item_name>Paquete de la Tienda Mann Co.</item_name>
-			<item_description>¡Esta bolsa contiene un objeto gratuito de la Tienda Mann Co.! Puedes abrirla desde tu mochila.</item_description>
+			<item_description>¡Esta bolsa contiene un artículo gratuito de la Tienda Mann Co.! Puedes abrirla desde tu mochila.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -35211,7 +35211,7 @@ Disparo secundario: lanza una ráfaga de aire comprimido que empuja a los enemig
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Sombrero</item_type_name>
 			<item_name>El Corredor Robótico</item_name>
-			<item_description>Uno pensaría que esta gorra robótica ralentizaría al Scout, ¡pero no! Es por toda esa leche que bebe. No esperabas que este objeto fuera un sutil anuncio de leche, ¿eh? Hoy estamos llenos de sorpresas. ¡Ya verás cuando te acuestes esta noche! ¡Ayyy madre!</item_description>
+			<item_description>Uno pensaría que esta gorra robótica ralentizaría al Scout, ¡pero no! Es por toda esa leche que bebe. No esperabas que este artículo fuera un sutil anuncio de leche, ¿eh? Hoy estamos llenos de sorpresas. ¡Ya verás cuando te acuestes esta noche! ¡Ayyy madre!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/mvm_loot/scout/robo_cap.mdl</model_player>
@@ -35920,7 +35920,7 @@ Disparo secundario: lanza una ráfaga de aire comprimido que empuja a los enemig
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Insignia</item_type_name>
 			<item_name>Insignia Triple A</item_name>
-			<item_description>La letra &quot;a&quot; es una letra genial. Nos gusta tanto que la hemos pegado a una insignia y, como pensábamos que el tipo de la máscara de gas parecía simpático, también lo hemos colocado ahí. Estamos poniendo el corazón en esto y nos está quedando genial. Tenemos la corazonada de que el próximo objeto que enviemos será... alguna clase de sombrero. Sí. Tenemos buenas vibraciones al respecto.</item_description>
+			<item_description>La letra &quot;a&quot; es una letra genial. Nos gusta tanto que la hemos pegado a una insignia y, como pensábamos que el tipo de la máscara de gas parecía simpático, también lo hemos colocado ahí. Estamos poniendo el corazón en esto y nos está quedando genial. Tenemos la corazonada de que el próximo artículo que enviemos será... alguna clase de sombrero. Sí. Tenemos buenas vibraciones al respecto.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/3a_badge.mdl</model_player>
@@ -38222,7 +38222,7 @@ Disparo secundario: lanza una ráfaga de aire comprimido que empuja a los enemig
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Aumento Decorativo</item_type_name>
 			<item_name>La Supermente</item_name>
-			<item_description>Hecho científico: el cerebro humano es un 70 % más eficaz cuando se expone a oxígeno. Hecho estético: el cerebro humano mola un 90 % más cuando lleva un montón de aparetejos pegados encima. Por fin, un objeto que aprovecha ambas cosas.</item_description>
+			<item_description>Hecho científico: el cerebro humano es un 70 % más eficaz cuando se expone a oxígeno. Hecho estético: el cerebro humano mola un 90 % más cuando lleva un montón de aparetejos pegados encima. Por fin, un artículo que aprovecha ambas cosas.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/engineer_brain.mdl</model_player>
@@ -39443,7 +39443,7 @@ Disparo secundario: lanza una ráfaga de aire comprimido que empuja a los enemig
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Insignia</item_type_name>
 			<item_name>La Insignia del Mannicida</item_name>
-			<item_description>The Hitt Mann lets the world know that you&apos;re the highest class of professional assassin. Now comes with a handy barcode for faster supermarket checkouts when shopping for assassins in a hurry.</item_description>
+			<item_description>La Insignia del Mannicida informa a los demás de que perteneces a la élite de los asesinos profesionales. Ahora incluye un útil código de barras para que los asesinos paguen rápidamente las compras del supermercado si andan con prisas.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/hm_badge/hm_badge.mdl</model_player>
@@ -41813,7 +41813,7 @@ Disparo secundario: lanza una ráfaga de aire comprimido que empuja a los enemig
 			<name>Antlers</name>
 			<defindex>993</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto Cosmético</item_type_name>
+			<item_type_name>Artículo Cosmético</item_type_name>
 			<item_name>Cornamenta</item_name>
 			<item_description>Otorga a tus oponentes el beneficio de la duda durante esta festividad navideña cuando se paren a pensar &quot;¿Es eso un pequeño y bonito ciervo o es...&quot; ¡BAM! Muerto.</item_description>
 			<proper_name>false</proper_name>
@@ -42401,7 +42401,7 @@ Disparo secundario: comparte un Focata con un amigo (botiquín mediano)</item_de
 			<defindex>1003</defindex>
 			<item_class>tf_weapon_bonesaw</item_class>
 			<item_type_name>Serrucho</item_type_name>
-			<item_name>Übersaw Festiva</item_name>
+			<item_name>Übersaw Festiva</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_ubersaw/c_ubersaw_xmas.mdl</model_player>
@@ -42943,7 +42943,7 @@ Disparo secundario: comparte un Focata con un amigo (botiquín mediano)</item_de
 			<item_class>saxxy</item_class>
 			<item_type_name>Producto Porcino</item_type_name>
 			<item_name>El Muslo de Jamón</item_name>
-			<item_description>Este clásico muslo de carne improvisado es, en chirona, un elemento de primera necesidad. Allí basta con tomar un objeto común, como un muslo o un cepillo de dientes, y afilarlo hasta que tenga punta para incordiar con él a los soplones, mientras esperas en la cola de comisaría para una segunda ración de muslos y cepillos de dientes.</item_description>
+			<item_description>Este clásico muslo de carne improvisado es, en chirona, un elemento de primera necesidad. Allí basta con tomar un artículo común, como un muslo o un cepillo de dientes, y afilarlo hasta que tenga punta para incordiar con él a los soplones, mientras esperas en la cola de comisaría para una segunda ración de muslos y cepillos de dientes.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_ham/c_ham.mdl</model_player>
@@ -43043,7 +43043,7 @@ Disparo secundario: comparte un Focata con un amigo (botiquín mediano)</item_de
 			<defindex>1015</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>Burla Especial</item_type_name>
-			<item_name>El Solo Triturador</item_name>
+			<item_name>Burla: La Alerta Metalera</item_name>
 			<item_description>Burla para todas las clases
 ¡Aprovecha el impío poder de El Oscuro (Yngwie Malmsteen) y aplasta a tus oponentes con riffs abrasadores, punteos volcánicos y baladas de rock emocionalmente paralizantes!</item_description>
 			<proper_name>true</proper_name>
@@ -44087,7 +44087,7 @@ Disparo secundario: comparte un Focata con un amigo (botiquín mediano)</item_de
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Regalo</item_type_name>
 			<item_name>Palé de Cajas</item_name>
-			<item_description>¡Este objeto de acción concede al usarse una caja
+			<item_description>¡Este artículo de acción concede al usarse una caja
  a un máximo de 23 personas del servidor!</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
@@ -44451,7 +44451,7 @@ Disparo secundario: comparte un Focata con un amigo (botiquín mediano)</item_de
 			<name>MvM GateBot Light Heavy</name>
 			<defindex>1060</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Objeto Cosmético</item_type_name>
+			<item_type_name>Artículo Cosmético</item_type_name>
 			<item_name>TF_GateBot_Light</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -45742,7 +45742,7 @@ con cada decapitación.</item_description>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas.mdl</model_player>
 			<item_quality>6</item_quality>
-			<image_inventory>backpack/weapons/c_models/c_boxing_gloves\c_boxing_gloves_xmas</image_inventory>
+			<image_inventory>backpack/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas</image_inventory>
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>99</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/c_boxing_gloves_xmas.0dbdc11afb9da14d86bc2a7cd946fc4a2e46a23c.png</image_url>
@@ -47593,7 +47593,7 @@ Usa las teclas de desplazamiento lateral para girar mientras haces la conga</ite
 			<item_class>tf_weapon_jar_milk</item_class>
 			<item_type_name>Sustancia no Láctea</item_type_name>
 			<item_name>Leche Mutada</item_name>
-			<item_description>El jugador se cura del 60 % de los daños infligidos
+			<item_description>El jugador se cura del 60 % de los daños infligidos
 a un enemigo cubierto de leche.
 
 Inspirado en el corto de TF2 &apos;Fecha de caducidad&apos;.</item_description>

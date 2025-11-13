@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -1024,7 +1024,7 @@ Tűzoltáshoz is jól jön</description_string>
 			<name>max pipebombs increased</name>
 			<defindex>88</defindex>
 			<attribute_class>add_max_pipebombs</attribute_class>
-			<description_string>+%s1 maximális telepített csőbomba</description_string>
+			<description_string>+%s1 maximális telepített tapadóbomba</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -1034,7 +1034,7 @@ Tűzoltáshoz is jól jön</description_string>
 			<name>max pipebombs decreased</name>
 			<defindex>89</defindex>
 			<attribute_class>add_max_pipebombs</attribute_class>
-			<description_string>%s1 maximális telepített csőbomba</description_string>
+			<description_string>%s1 maximális telepített tapadóbomba</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>negative</effect_type>
 			<hidden>false</hidden>
@@ -6468,8 +6468,10 @@ Mini-kritek égő játékosokon elölről</description_string>
 			<name>energy buff dmg taken multiplier</name>
 			<defindex>798</defindex>
 			<attribute_class>energy_buff_dmg_taken_multiplier</attribute_class>
+			<description_string>+%s1% sebezhetőség a viselőn amíg aktív</description_string>
+			<description_format>value_is_percentage</description_format>
 			<effect_type>negative</effect_type>
-			<hidden>true</hidden>
+			<hidden>false</hidden>
 			<stored_as_integer>false</stored_as_integer>
 		</attribute>
 		<attribute>
@@ -7828,6 +7830,116 @@ A halálos találat égő játékoson sebességbónuszt ad.</description_string>
 			<stored_as_integer>false</stored_as_integer>
 		</attribute>
 		<attribute>
+			<name>freaky fair kritz potion</name>
+			<defindex>2069</defindex>
+			<attribute_class>freaky_fair_kritz_potion</attribute_class>
+			<description_string>Kritz bájital</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair uber potion</name>
+			<defindex>2070</defindex>
+			<attribute_class>freaky_fair_uber_potion</attribute_class>
+			<description_string>Über bájital</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair giant potion</name>
+			<defindex>2071</defindex>
+			<attribute_class>freaky_fair_giant_potion</attribute_class>
+			<description_string>Óriás bájital</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair buster potion</name>
+			<defindex>2072</defindex>
+			<attribute_class>freaky_fair_buster_potion</attribute_class>
+			<description_string>Tökbombázó bájital</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair healing potion</name>
+			<defindex>2073</defindex>
+			<attribute_class>freaky_fair_healing_potion</attribute_class>
+			<description_string>Gyógyító bájital</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair ghost potion</name>
+			<defindex>2074</defindex>
+			<attribute_class>freaky_fair_ghost_potion</attribute_class>
+			<description_string>Szellem bájital</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair ammo potion</name>
+			<defindex>2075</defindex>
+			<attribute_class>freaky_fair_ammo_potion</attribute_class>
+			<description_string>Lőszertöltő bájital</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair rtd potion</name>
+			<defindex>2076</defindex>
+			<attribute_class>freaky_fair_rtd_potion</attribute_class>
+			<description_string>„Dobókocka” bájital</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair relentless potion</name>
+			<defindex>2077</defindex>
+			<attribute_class>freaky_fair_relentless_potion</attribute_class>
+			<description_string>Könyörtelen bájital</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair extra attrib1</name>
+			<defindex>2078</defindex>
+			<attribute_class>freaky_fair_extra_attrib1</attribute_class>
+			<description_string>Extra Freaky Fair Attrib 1</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair extra attrib2</name>
+			<defindex>2079</defindex>
+			<attribute_class>freaky_fair_extra_attrib2</attribute_class>
+			<description_string>Extra Freaky Fair Attrib 2</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
 			<name>item slot criteria 1</name>
 			<defindex>3000</defindex>
 			<attribute_class>item_slot_criteria</attribute_class>
@@ -8847,6 +8959,7 @@ A halálos találat égő játékoson sebességbónuszt ad.</description_string>
 			<system>superrare_beams1</system>
 			<id>17</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
 			<name>Napsugarak</name>
 		</particle>
 		<particle>
@@ -10881,6 +10994,468 @@ A halálos találat égő játékoson sebességbónuszt ad.</description_string>
 			<name>Természetes fények</name>
 		</particle>
 		<particle>
+			<system>unusual_corrodedknight_teamcolor_red</system>
+			<id>327</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>A lojalista koronája</name>
+		</particle>
+		<particle>
+			<system>unusual_corrodedknight_teamcolor_blue</system>
+			<id>328</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>A lojalista koronája</name>
+		</particle>
+		<particle>
+			<system>unusual_corrodedknight_parent_silver</system>
+			<id>329</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>A lovag büszke szelleme</name>
+		</particle>
+		<particle>
+			<system>unusual_corrodedknight_parent_golden</system>
+			<id>330</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>A báró dédelgetett füzére</name>
+		</particle>
+		<particle>
+			<system>unusual_poseidon_teamcolor_red</system>
+			<id>331</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Csábító mélység</name>
+		</particle>
+		<particle>
+			<system>unusual_poseidon_teamcolor_blue</system>
+			<id>332</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Csábító mélység</name>
+		</particle>
+		<particle>
+			<system>unusual_poseidon_parent_green</system>
+			<id>333</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Vad viridián</name>
+		</particle>
+		<particle>
+			<system>unusual_poseidon_parent_purple</system>
+			<id>334</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Magenta monstrum</name>
+		</particle>
+		<particle>
+			<system>unusual_rainglow_parent</system>
+			<id>335</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Szivárványos ábránd</name>
+		</particle>
+		<particle>
+			<system>unusual_cubancigar_parent</system>
+			<id>336</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Kubai parázs</name>
+		</particle>
+		<particle>
+			<system>unusual_mohawk_teamcolor_red</system>
+			<id>337</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Olvadó taraj</name>
+		</particle>
+		<particle>
+			<system>unusual_mohawk_teamcolor_blue</system>
+			<id>338</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Olvadó taraj</name>
+		</particle>
+		<particle>
+			<system>unusual_mohawk_parent_green</system>
+			<id>339</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Perzselt skalp</name>
+		</particle>
+		<particle>
+			<system>unusual_mohawk_parent_purple</system>
+			<id>340</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Kigyulladt taréj</name>
+		</particle>
+		<particle>
+			<system>unusual_rare_shine_glow_parent</system>
+			<id>341</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Ritka ragyogás</name>
+		</particle>
+		<particle>
+			<system>unusual_horstars_teamcolor_red</system>
+			<id>342</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Kozmikus csillagtenger</name>
+		</particle>
+		<particle>
+			<system>unusual_horstars_teamcolor_blue</system>
+			<id>343</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Kozmikus csillagtenger</name>
+		</particle>
+		<particle>
+			<system>unusual_electric_parent_white</system>
+			<id>344</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Fénysebesség</name>
+		</particle>
+		<particle>
+			<system>unusual_electric_parent_gold</system>
+			<id>345</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Űrsebesség</name>
+		</particle>
+		<particle>
+			<system>unusual_butterflyhead_teamcolor_red</system>
+			<id>346</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Pillangószezon</name>
+		</particle>
+		<particle>
+			<system>unusual_butterflyhead_teamcolor_blue</system>
+			<id>347</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Pillangószezon</name>
+		</particle>
+		<particle>
+			<system>unusual_hippieaura_parent</system>
+			<id>348</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Pszicho-delikus</name>
+		</particle>
+		<particle>
+			<system>unusual_butterfly_parent</system>
+			<id>349</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Elbűvölő bogarak</name>
+		</particle>
+		<particle>
+			<system>unusual_spectral_fire_parent</system>
+			<id>350</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Lidérces láng</name>
+		</particle>
+		<particle>
+			<system>unusual_galactic_fire_parent</system>
+			<id>351</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Galaktikus láng</name>
+		</particle>
+		<particle>
+			<system>unusual_frank_green_parent</system>
+			<id>352</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Újraéledt újratöltés</name>
+		</particle>
+		<particle>
+			<system>unusual_frank_purple_parent</system>
+			<id>353</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Élőhalott elektromosság</name>
+		</particle>
+		<particle>
+			<system>unusual_frank_yellow_parent</system>
+			<id>354</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Frankentöltve</name>
+		</particle>
+		<particle>
+			<system>unusual_skullsmoke_green_parent</system>
+			<id>355</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Fantompestis</name>
+		</particle>
+		<particle>
+			<system>unusual_skullsmoke_purple_parent</system>
+			<id>356</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Kísértő köd</name>
+		</particle>
+		<particle>
+			<system>unusual_pigeons_green_parent</system>
+			<id>357</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Veszedelmes vámpírok</name>
+		</particle>
+		<particle>
+			<system>unusual_pigeons_purple_parent</system>
+			<id>358</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Harapós hollók</name>
+		</particle>
+		<particle>
+			<system>unusual_pigeons_white_parent</system>
+			<id>359</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Gáláns galambok</name>
+		</particle>
+		<particle>
+			<system>unusual_stove_teamcolor_red</system>
+			<id>360</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Perzselő tűzhely</name>
+		</particle>
+		<particle>
+			<system>unusual_stove_teamcolor_blue</system>
+			<id>361</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Perzselő tűzhely</name>
+		</particle>
+		<particle>
+			<system>unusual_electricfire_teamcolor_red</system>
+			<id>362</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Überláng</name>
+		</particle>
+		<particle>
+			<system>unusual_electricfire_teamcolor_blue</system>
+			<id>363</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Überláng</name>
+		</particle>
+		<particle>
+			<system>unusual_sizzling_parent</system>
+			<id>364</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Sistergő</name>
+		</particle>
+		<particle>
+			<system>unusual_icrown_teamcolor_red</system>
+			<id>365</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Kristálykorona</name>
+		</particle>
+		<particle>
+			<system>unusual_icrown_teamcolor_blue</system>
+			<id>366</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Kristálykorona</name>
+		</particle>
+		<particle>
+			<system>unusual_icrown_parent_purple</system>
+			<id>367</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Boldog glória</name>
+		</particle>
+		<particle>
+			<system>unusual_timeghosts_parent</system>
+			<id>368</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Galácsonyi szellemek</name>
+		</particle>
+		<particle>
+			<system>unusual_aurora_parent</system>
+			<id>369</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Auróra égbolt</name>
+		</particle>
+		<particle>
+			<system>unusual_bokehsparkle_parent</system>
+			<id>370</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Fénylő bokréta</name>
+		</particle>
+		<particle>
+			<system>unusual_playful_purple_parent</system>
+			<id>371</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Játékos auróra</name>
+		</particle>
+		<particle>
+			<system>unusual_playful_yellow_parent</system>
+			<id>372</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Csípős reggel</name>
+		</particle>
+		<particle>
+			<system>unusual_drunk_parent</system>
+			<id>373</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Iszákos</name>
+		</particle>
+		<particle>
+			<system>unusual_excalibur_teamcolor_red</system>
+			<id>374</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Az árulás pengéi</name>
+		</particle>
+		<particle>
+			<system>unusual_excalibur_teamcolor_blue</system>
+			<id>375</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Az árulás pengéi</name>
+		</particle>
+		<particle>
+			<system>unusual_excalibur_parent_purple</system>
+			<id>376</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Halálos tőrök</name>
+		</particle>
+		<particle>
+			<system>unusual_uber_teamcolor_red</system>
+			<id>377</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Teljesen feltöltve</name>
+		</particle>
+		<particle>
+			<system>unusual_uber_teamcolor_blue</system>
+			<id>378</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Teljesen feltöltve</name>
+		</particle>
+		<particle>
+			<system>unusual_uber_gold_parent</system>
+			<id>379</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Túltöltve</name>
+		</particle>
+		<particle>
+			<system>unusual_orbitingbullet_parent</system>
+			<id>380</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Szúró fejfájás</name>
+		</particle>
+		<particle>
+			<system>unusual_typhoon_parent</system>
+			<id>381</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Cápatornádó</name>
+		</particle>
+		<particle>
+			<system>unusual_ocean_swirl_teamcolor_red</system>
+			<id>382</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Óceáni örvény</name>
+		</particle>
+		<particle>
+			<system>unusual_ocean_swirl_teamcolor_blue</system>
+			<id>383</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Óceáni örvény</name>
+		</particle>
+		<particle>
+			<system>unusual_ocean_swirl_green_parent</system>
+			<id>384</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Mérgező örvény</name>
+		</particle>
+		<particle>
+			<system>unusual_candle_teamcolor_red</system>
+			<id>385</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Gyertyaláng</name>
+		</particle>
+		<particle>
+			<system>unusual_candle_teamcolor_blue</system>
+			<id>386</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Gyertyaláng</name>
+		</particle>
+		<particle>
+			<system>unusual_deadlyaroma_teamcolor_red</system>
+			<id>387</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Sistergő aroma</name>
+		</particle>
+		<particle>
+			<system>unusual_deadlyaroma_teamcolor_blue</system>
+			<id>388</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Sistergő aroma</name>
+		</particle>
+		<particle>
+			<system>unusual_deadlyaroma_green_parent</system>
+			<id>389</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Mérgező aroma</name>
+		</particle>
+		<particle>
+			<system>unusual_conductor_teamc_teamcolor_red</system>
+			<id>390</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Áramvezető</name>
+		</particle>
+		<particle>
+			<system>unusual_conductor_teamc_teamcolor_blue</system>
+			<id>391</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Áramvezető</name>
+		</particle>
+		<particle>
+			<system>unusual_sandy_parent</system>
+			<id>392</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Homokos</name>
+		</particle>
+		<particle>
 			<system>weapon_unusual_hot</system>
 			<id>701</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
@@ -11728,7 +12303,7 @@ A halálos találat égő játékoson sebességbónuszt ad.</description_string>
 			<system>utaunt_snowfall_parent</system>
 			<id>3131</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Snowfall</name>
+			<name>Hóesés</name>
 		</particle>
 		<particle>
 			<system>utaunt_constellations_teamcolor_red</system>
@@ -11770,7 +12345,7 @@ A halálos találat égő játékoson sebességbónuszt ad.</description_string>
 			<system>utaunt_wispyworks_yellowpurple_parent</system>
 			<id>3138</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Lenyűgöző Látvány</name>
+			<name>Lenyűgöző látvány</name>
 		</particle>
 		<particle>
 			<system>utaunt_innerblizzard_teamcolor_red</system>
@@ -11807,6 +12382,414 @@ A halálos találat égő játékoson sebességbónuszt ad.</description_string>
 			<id>3144</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
 			<name>Szóródó szirmok</name>
+		</particle>
+		<particle>
+			<system>utaunt_dragonfly_teamcolor_red</system>
+			<id>3145</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Szitakötő-koszorú</name>
+		</particle>
+		<particle>
+			<system>utaunt_dragonfly_teamcolor_blue</system>
+			<id>3146</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Szitakötő-koszorú</name>
+		</particle>
+		<particle>
+			<system>utaunt_dragonfly_green_parent</system>
+			<id>3147</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Szitakötő-legelő</name>
+		</particle>
+		<particle>
+			<system>utaunt_dragonfly_purple_parent</system>
+			<id>3148</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Szitakötő-ragyogás</name>
+		</particle>
+		<particle>
+			<system>utaunt_demigodery_teamcolor_red</system>
+			<id>3149</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Áramütés</name>
+		</particle>
+		<particle>
+			<system>utaunt_demigodery_teamcolor_blue</system>
+			<id>3150</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Áramütés</name>
+		</particle>
+		<particle>
+			<system>utaunt_signalflares_teamcolor_red</system>
+			<id>3151</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Vészjelzés</name>
+		</particle>
+		<particle>
+			<system>utaunt_signalflares_teamcolor_blue</system>
+			<id>3152</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Vészjelzés</name>
+		</particle>
+		<particle>
+			<system>utaunt_signalflares_green_parent</system>
+			<id>3153</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Carioca hívása</name>
+		</particle>
+		<particle>
+			<system>utaunt_celebrationtime_teamcolor_red</system>
+			<id>3154</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Királyi fieszta</name>
+		</particle>
+		<particle>
+			<system>utaunt_celebrationtime_teamcolor_blue</system>
+			<id>3155</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Királyi fieszta</name>
+		</particle>
+		<particle>
+			<system>utaunt_celebrationtime_yellow_parent</system>
+			<id>3156</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Grandiózus ünnepség</name>
+		</particle>
+		<particle>
+			<system>utaunt_god_lava_teamcolor_red</system>
+			<id>3157</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Elemi</name>
+		</particle>
+		<particle>
+			<system>utaunt_god_lava_teamcolor_blue</system>
+			<id>3158</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Elemi</name>
+		</particle>
+		<particle>
+			<system>utaunt_god_gold_parent</system>
+			<id>3159</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Istenszerű</name>
+		</particle>
+		<particle>
+			<system>utaunt_aestheticlogo_teamcolor_red</system>
+			<id>3160</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Fényes csapatmunka</name>
+		</particle>
+		<particle>
+			<system>utaunt_aestheticlogo_teamcolor_blue</system>
+			<id>3161</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Fényes csapatmunka</name>
+		</particle>
+		<particle>
+			<system>utaunt_aestheticlogo_orange_parent</system>
+			<id>3162</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Fénylő örökség</name>
+		</particle>
+		<particle>
+			<system>utaunt_desert_wind_parent</system>
+			<id>3163</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Sivatagi szél</name>
+		</particle>
+		<particle>
+			<system>utaunt_desert_monsoon_parent</system>
+			<id>3164</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Monszun</name>
+		</particle>
+		<particle>
+			<system>utaunt_treasure_teamcolor_red</system>
+			<id>3165</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Kőgazdag</name>
+		</particle>
+		<particle>
+			<system>utaunt_treasure_teamcolor_blue</system>
+			<id>3166</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Kőgazdag</name>
+		</particle>
+		<particle>
+			<system>utaunt_hearttreasure_parent</system>
+			<id>3167</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Luxusszerető</name>
+		</particle>
+		<particle>
+			<system>utaunt_wiggletube_teamcolor_red</system>
+			<id>3168</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Szerelmetes</name>
+		</particle>
+		<particle>
+			<system>utaunt_wiggletube_teamcolor_blue</system>
+			<id>3169</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Szerelmetes</name>
+		</particle>
+		<particle>
+			<system>utaunt_wiggletube_coffee_parent</system>
+			<id>3170</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Villamos</name>
+		</particle>
+		<particle>
+			<system>utaunt_flowerrain_teamcolor_red</system>
+			<id>3171</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Sakura-áldás</name>
+		</particle>
+		<particle>
+			<system>utaunt_flowerrain_teamcolor_blue</system>
+			<id>3172</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Sakura-áldás</name>
+		</particle>
+		<particle>
+			<system>utaunt_flowerrain_purple_parent</system>
+			<id>3173</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Erőszakos ibolya</name>
+		</particle>
+		<particle>
+			<system>utaunt_poweraura_teamcolor_red</system>
+			<id>3174</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Nagy nyomás</name>
+		</particle>
+		<particle>
+			<system>utaunt_poweraura_teamcolor_blue</system>
+			<id>3175</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Nagy nyomás</name>
+		</particle>
+		<particle>
+			<system>utaunt_poweraura_green_parent</system>
+			<id>3176</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Növekvő lendület</name>
+		</particle>
+		<particle>
+			<system>utaunt_poweraura_purple_parent</system>
+			<id>3177</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Töltődő katalizátor</name>
+		</particle>
+		<particle>
+			<system>utaunt_poweraura_yellow_parent</system>
+			<id>3178</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Erősödő aura</name>
+		</particle>
+		<particle>
+			<system>utaunt_mysticfusion_parent</system>
+			<id>3179</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Misztikus fúzió</name>
+		</particle>
+		<particle>
+			<system>utaunt_confetti_gy_parent</system>
+			<id>3180</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Kellemetlen konfetti</name>
+		</particle>
+		<particle>
+			<system>utaunt_confetti_pp_parent</system>
+			<id>3181</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Szerethető konfetti</name>
+		</particle>
+		<particle>
+			<system>utaunt_confetti_yp_parent</system>
+			<id>3182</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Konfetti ünnepség</name>
+		</particle>
+		<particle>
+			<system>utaunt_heavyrain_parent</system>
+			<id>3183</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Szakadó eső</name>
+		</particle>
+		<particle>
+			<system>utaunt_field_parent</system>
+			<id>3184</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Tökföld</name>
+		</particle>
+		<particle>
+			<system>utaunt_whitesmissmas_parent</system>
+			<id>3185</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Havas nap</name>
+		</particle>
+		<particle>
+			<system>utaunt_busysnow_teamcolor_red</system>
+			<id>3186</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Havas kedv</name>
+		</particle>
+		<particle>
+			<system>utaunt_busysnow_teamcolor_blue</system>
+			<id>3187</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Havas kedv</name>
+		</particle>
+		<particle>
+			<system>utaunt_busysnow_parent_p</system>
+			<id>3188</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Levendulás érzés</name>
+		</particle>
+		<particle>
+			<system>utaunt_busysnow_parent_g</system>
+			<id>3189</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Zöldellő jelenség</name>
+		</particle>
+		<particle>
+			<system>utaunt_roses_teamcolor_red</system>
+			<id>3190</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Díjnyertes</name>
+		</particle>
+		<particle>
+			<system>utaunt_roses_teamcolor_blue</system>
+			<id>3191</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Díjnyertes</name>
+		</particle>
+		<particle>
+			<system>utaunt_roses_gold_parent</system>
+			<id>3192</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Operai diadal</name>
+		</particle>
+		<particle>
+			<system>utaunt_tangledlights_parent</system>
+			<id>3193</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Kusza fények</name>
+		</particle>
+		<particle>
+			<system>utaunt_seamine_teamcolor_red</system>
+			<id>3194</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Tengeri akna</name>
+		</particle>
+		<particle>
+			<system>utaunt_seamine_teamcolor_blue</system>
+			<id>3195</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Tengeri akna</name>
+		</particle>
+		<particle>
+			<system>utaunt_iconicoutline_teamcolor_red</system>
+			<id>3196</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Csillogó körvonal</name>
+		</particle>
+		<particle>
+			<system>utaunt_iconicoutline_teamcolor_blue</system>
+			<id>3197</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Csillogó körvonal</name>
+		</particle>
+		<particle>
+			<system>utaunt_iconicoutline_pink_parent</system>
+			<id>3198</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Halovány sziluett</name>
+		</particle>
+		<particle>
+			<system>utaunt_oceanreef_parent</system>
+			<id>3199</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Óceáni zátony</name>
+		</particle>
+		<particle>
+			<system>utaunt_signalinterference_parent</system>
+			<id>3200</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Jelzavar</name>
+		</particle>
+		<particle>
+			<system>utaunt_waterwave_parent</system>
+			<id>3201</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Nyári hullám</name>
+		</particle>
+		<particle>
+			<system>utaunt_sharkfin2_parent</system>
+			<id>3202</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Cápatámadás</name>
+		</particle>
+		<particle>
+			<system>utaunt_phantasam_green_parent</system>
+			<id>3203</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Veszélyes gáz</name>
+		</particle>
+		<particle>
+			<system>utaunt_phantasam_grey_parent</system>
+			<id>3204</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Képzelt köd</name>
+		</particle>
+		<particle>
+			<system>utaunt_phantasam_purple_parent</system>
+			<id>3205</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Kísérteties köd</name>
+		</particle>
+		<particle>
+			<system>utaunt_multicurse_teamcolor_red</system>
+			<id>3206</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Megosztott rosszindulat</name>
+		</particle>
+		<particle>
+			<system>utaunt_multicurse_teamcolor_blue</system>
+			<id>3207</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Megosztott rosszindulat</name>
+		</particle>
+		<particle>
+			<system>utaunt_voidcrawlers_parent</system>
+			<id>3208</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Semmimászók</name>
+		</particle>
+		<particle>
+			<system>utaunt_tarpit_dinos_parent</system>
+			<id>3209</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Fosszilis tüzelésű</name>
+		</particle>
+		<particle>
+			<system>utaunt_tarpit_people_parent</system>
+			<id>3210</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Kátránygödör</name>
+		</particle>
+		<particle>
+			<system>utaunt_morbed_teamcolor_red</system>
+			<id>3211</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Morbid fenevad</name>
+		</particle>
+		<particle>
+			<system>utaunt_morbed_teamcolor_blue</system>
+			<id>3212</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Morbid fenevad</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>
@@ -12064,7 +13047,7 @@ A halálos találat égő játékoson sebességbónuszt ad.</description_string>
 				<level>
 					<level>18</level>
 					<required_score>250</required_score>
-					<name>Az Ultra-Önfeláldozó</name>
+					<name>Az Über-emberbarát</name>
 				</level>
 				<level>
 					<level>19</level>

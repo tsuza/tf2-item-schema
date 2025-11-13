@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -1018,7 +1018,7 @@
 				"name": "max pipebombs increased",
 				"defindex": 88,
 				"attribute_class": "add_max_pipebombs",
-				"description_string": "Nombre max. de bombes artisanales lancées +%s1",
+				"description_string": "Nombre max. de bombes collantes lancées +%s1",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1028,7 +1028,7 @@
 				"name": "max pipebombs decreased",
 				"defindex": 89,
 				"attribute_class": "add_max_pipebombs",
-				"description_string": "Nombre max. de bombes artisanales lancées %s1",
+				"description_string": "Nombre max. de bombes collantes lancées %s1",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -6430,8 +6430,10 @@
 				"name": "energy buff dmg taken multiplier",
 				"defindex": 798,
 				"attribute_class": "energy_buff_dmg_taken_multiplier",
+				"description_string": "+%s1 % de vulnérabilité aux dégâts quand actif",
+				"description_format": "value_is_percentage",
 				"effect_type": "negative",
-				"hidden": true,
+				"hidden": false,
 				"stored_as_integer": false
 			},
 			{
@@ -7783,6 +7785,116 @@
 				"stored_as_integer": false
 			},
 			{
+				"name": "freaky fair kritz potion",
+				"defindex": 2069,
+				"attribute_class": "freaky_fair_kritz_potion",
+				"description_string": "Potion Kritz",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair uber potion",
+				"defindex": 2070,
+				"attribute_class": "freaky_fair_uber_potion",
+				"description_string": "Potion Über",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair giant potion",
+				"defindex": 2071,
+				"attribute_class": "freaky_fair_giant_potion",
+				"description_string": "Potion de gigantisme",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair buster potion",
+				"defindex": 2072,
+				"attribute_class": "freaky_fair_buster_potion",
+				"description_string": "Potion de citrouille explosive",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair healing potion",
+				"defindex": 2073,
+				"attribute_class": "freaky_fair_healing_potion",
+				"description_string": "Potion de soins",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair ghost potion",
+				"defindex": 2074,
+				"attribute_class": "freaky_fair_ghost_potion",
+				"description_string": "Potion fantôme",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair ammo potion",
+				"defindex": 2075,
+				"attribute_class": "freaky_fair_ammo_potion",
+				"description_string": "Potion de munitions",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair rtd potion",
+				"defindex": 2076,
+				"attribute_class": "freaky_fair_rtd_potion",
+				"description_string": "Potion de lancer de dés",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair relentless potion",
+				"defindex": 2077,
+				"attribute_class": "freaky_fair_relentless_potion",
+				"description_string": "Potion implacable",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair extra attrib1",
+				"defindex": 2078,
+				"attribute_class": "freaky_fair_extra_attrib1",
+				"description_string": "Extra Freaky Fair Attrib 1",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair extra attrib2",
+				"defindex": 2079,
+				"attribute_class": "freaky_fair_extra_attrib2",
+				"description_string": "Extra Freaky Fair Attrib 2",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
 				"name": "item slot criteria 1",
 				"defindex": 3000,
 				"attribute_class": "item_slot_criteria",
@@ -8887,6 +8999,7 @@
 				"system": "superrare_beams1",
 				"id": 17,
 				"attach_to_rootbone": true,
+				"attachment": "unusual",
 				"name": "Rayons de soleil"
 			},
 			{
@@ -9210,7 +9323,7 @@
 				"id": 81,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Bonzo The All-Gnawing"
+				"name": "Bonzo le rongeur de savoir"
 			},
 			{
 				"system": "unusual_eyes_purple_parent",
@@ -10921,6 +11034,468 @@
 				"name": "Lumières naturelles"
 			},
 			{
+				"system": "unusual_corrodedknight_teamcolor_red",
+				"id": 327,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Diadème du loyaliste"
+			},
+			{
+				"system": "unusual_corrodedknight_teamcolor_blue",
+				"id": 328,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Diadème du loyaliste"
+			},
+			{
+				"system": "unusual_corrodedknight_parent_silver",
+				"id": 329,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Orgueil du chevalier"
+			},
+			{
+				"system": "unusual_corrodedknight_parent_golden",
+				"id": 330,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Chapelet chéri du baron"
+			},
+			{
+				"system": "unusual_poseidon_teamcolor_red",
+				"id": 331,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Charme des profondeurs"
+			},
+			{
+				"system": "unusual_poseidon_teamcolor_blue",
+				"id": 332,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Charme des profondeurs"
+			},
+			{
+				"system": "unusual_poseidon_parent_green",
+				"id": 333,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Viride vivace"
+			},
+			{
+				"system": "unusual_poseidon_parent_purple",
+				"id": 334,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Monstre magenta"
+			},
+			{
+				"system": "unusual_rainglow_parent",
+				"id": 335,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Abstraction arc-en-ciel"
+			},
+			{
+				"system": "unusual_cubancigar_parent",
+				"id": 336,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Fumée cubaine"
+			},
+			{
+				"system": "unusual_mohawk_teamcolor_red",
+				"id": 337,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Mohawk ardent"
+			},
+			{
+				"system": "unusual_mohawk_teamcolor_blue",
+				"id": 338,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Mohawk ardent"
+			},
+			{
+				"system": "unusual_mohawk_parent_green",
+				"id": 339,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Crâne torride"
+			},
+			{
+				"system": "unusual_mohawk_parent_purple",
+				"id": 340,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Cap incandescent"
+			},
+			{
+				"system": "unusual_rare_shine_glow_parent",
+				"id": 341,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Tête dans les étoiles"
+			},
+			{
+				"system": "unusual_horstars_teamcolor_red",
+				"id": 342,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Glorieuse galaxie"
+			},
+			{
+				"system": "unusual_horstars_teamcolor_blue",
+				"id": 343,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Glorieuse galaxie"
+			},
+			{
+				"system": "unusual_electric_parent_white",
+				"id": 344,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Distorsion gravitationnelle"
+			},
+			{
+				"system": "unusual_electric_parent_gold",
+				"id": 345,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Hyperdéformation"
+			},
+			{
+				"system": "unusual_butterflyhead_teamcolor_red",
+				"id": 346,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Papillons palpitants"
+			},
+			{
+				"system": "unusual_butterflyhead_teamcolor_blue",
+				"id": 347,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Papillons palpitants"
+			},
+			{
+				"system": "unusual_hippieaura_parent",
+				"id": 348,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Psychodélique"
+			},
+			{
+				"system": "unusual_butterfly_parent",
+				"id": 349,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Insectes irréels"
+			},
+			{
+				"system": "unusual_spectral_fire_parent",
+				"id": 350,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Feu spectral"
+			},
+			{
+				"system": "unusual_galactic_fire_parent",
+				"id": 351,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Nuée galactique"
+			},
+			{
+				"system": "unusual_frank_green_parent",
+				"id": 352,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Décharge réanimatrice"
+			},
+			{
+				"system": "unusual_frank_purple_parent",
+				"id": 353,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Électricité macabre"
+			},
+			{
+				"system": "unusual_frank_yellow_parent",
+				"id": 354,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Frankencharge"
+			},
+			{
+				"system": "unusual_skullsmoke_green_parent",
+				"id": 355,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Peste fantôme"
+			},
+			{
+				"system": "unusual_skullsmoke_purple_parent",
+				"id": 356,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Fumée maudite"
+			},
+			{
+				"system": "unusual_pigeons_green_parent",
+				"id": 357,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Vampires vicieux"
+			},
+			{
+				"system": "unusual_pigeons_purple_parent",
+				"id": 358,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Corbeaux carnassiers"
+			},
+			{
+				"system": "unusual_pigeons_white_parent",
+				"id": 359,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Colombes conciliantes"
+			},
+			{
+				"system": "unusual_stove_teamcolor_red",
+				"id": 360,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Gazinière d'artifice"
+			},
+			{
+				"system": "unusual_stove_teamcolor_blue",
+				"id": 361,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Gazinière d'artifice"
+			},
+			{
+				"system": "unusual_electricfire_teamcolor_red",
+				"id": 362,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Über ardent"
+			},
+			{
+				"system": "unusual_electricfire_teamcolor_blue",
+				"id": 363,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Über ardent"
+			},
+			{
+				"system": "unusual_sizzling_parent",
+				"id": 364,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Brulant"
+			},
+			{
+				"system": "unusual_icrown_teamcolor_red",
+				"id": 365,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Couronne de cristal"
+			},
+			{
+				"system": "unusual_icrown_teamcolor_blue",
+				"id": 366,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Couronne de cristal"
+			},
+			{
+				"system": "unusual_icrown_parent_purple",
+				"id": 367,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Halo merveilleux"
+			},
+			{
+				"system": "unusual_timeghosts_parent",
+				"id": 368,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Fantômes de Smissmas"
+			},
+			{
+				"system": "unusual_aurora_parent",
+				"id": 369,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Ciel boréal"
+			},
+			{
+				"system": "unusual_bokehsparkle_parent",
+				"id": 370,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Bokeh brillant"
+			},
+			{
+				"system": "unusual_playful_purple_parent",
+				"id": 371,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Aurore espiègle"
+			},
+			{
+				"system": "unusual_playful_yellow_parent",
+				"id": 372,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Matin fringant"
+			},
+			{
+				"system": "unusual_drunk_parent",
+				"id": 373,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Ivresse"
+			},
+			{
+				"system": "unusual_excalibur_teamcolor_red",
+				"id": 374,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Dagues déloyales"
+			},
+			{
+				"system": "unusual_excalibur_teamcolor_blue",
+				"id": 375,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Dagues déloyales"
+			},
+			{
+				"system": "unusual_excalibur_parent_purple",
+				"id": 376,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Lames lugubres"
+			},
+			{
+				"system": "unusual_uber_teamcolor_red",
+				"id": 377,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Chargé à bloc"
+			},
+			{
+				"system": "unusual_uber_teamcolor_blue",
+				"id": 378,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Chargé à bloc"
+			},
+			{
+				"system": "unusual_uber_gold_parent",
+				"id": 379,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Surcharge"
+			},
+			{
+				"system": "unusual_orbitingbullet_parent",
+				"id": 380,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Migraine mortelle"
+			},
+			{
+				"system": "unusual_typhoon_parent",
+				"id": 381,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Bourrasque brutale"
+			},
+			{
+				"system": "unusual_ocean_swirl_teamcolor_red",
+				"id": 382,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Tourbillon océanique"
+			},
+			{
+				"system": "unusual_ocean_swirl_teamcolor_blue",
+				"id": 383,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Tourbillon océanique"
+			},
+			{
+				"system": "unusual_ocean_swirl_green_parent",
+				"id": 384,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Tourbillon toxique"
+			},
+			{
+				"system": "unusual_candle_teamcolor_red",
+				"id": 385,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Flamme de bougie"
+			},
+			{
+				"system": "unusual_candle_teamcolor_blue",
+				"id": 386,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Flamme de bougie"
+			},
+			{
+				"system": "unusual_deadlyaroma_teamcolor_red",
+				"id": 387,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Arôme flambé"
+			},
+			{
+				"system": "unusual_deadlyaroma_teamcolor_blue",
+				"id": 388,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Arôme flambé"
+			},
+			{
+				"system": "unusual_deadlyaroma_green_parent",
+				"id": 389,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Arôme toxique"
+			},
+			{
+				"system": "unusual_conductor_teamc_teamcolor_red",
+				"id": 390,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Conducteur de courant"
+			},
+			{
+				"system": "unusual_conductor_teamc_teamcolor_blue",
+				"id": 391,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Conducteur de courant"
+			},
+			{
+				"system": "unusual_sandy_parent",
+				"id": 392,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Sableux"
+			},
+			{
 				"system": "weapon_unusual_hot",
 				"id": 701,
 				"attach_to_rootbone": false,
@@ -11847,6 +12422,414 @@
 				"id": 3144,
 				"attach_to_rootbone": false,
 				"name": "Tourbillon azur"
+			},
+			{
+				"system": "utaunt_dragonfly_teamcolor_red",
+				"id": 3145,
+				"attach_to_rootbone": false,
+				"name": "Libellules flamboyantes"
+			},
+			{
+				"system": "utaunt_dragonfly_teamcolor_blue",
+				"id": 3146,
+				"attach_to_rootbone": false,
+				"name": "Libellules flamboyantes"
+			},
+			{
+				"system": "utaunt_dragonfly_green_parent",
+				"id": 3147,
+				"attach_to_rootbone": false,
+				"name": "Libellules agrestes"
+			},
+			{
+				"system": "utaunt_dragonfly_purple_parent",
+				"id": 3148,
+				"attach_to_rootbone": false,
+				"name": "Libellules lumineuses"
+			},
+			{
+				"system": "utaunt_demigodery_teamcolor_red",
+				"id": 3149,
+				"attach_to_rootbone": false,
+				"name": "Électrocution"
+			},
+			{
+				"system": "utaunt_demigodery_teamcolor_blue",
+				"id": 3150,
+				"attach_to_rootbone": false,
+				"name": "Électrocution"
+			},
+			{
+				"system": "utaunt_signalflares_teamcolor_red",
+				"id": 3151,
+				"attach_to_rootbone": false,
+				"name": "Signal de détresse"
+			},
+			{
+				"system": "utaunt_signalflares_teamcolor_blue",
+				"id": 3152,
+				"attach_to_rootbone": false,
+				"name": "Signal de détresse"
+			},
+			{
+				"system": "utaunt_signalflares_green_parent",
+				"id": 3153,
+				"attach_to_rootbone": false,
+				"name": "Appel de Carioca"
+			},
+			{
+				"system": "utaunt_celebrationtime_teamcolor_red",
+				"id": 3154,
+				"attach_to_rootbone": false,
+				"name": "Fiesta pyrotechnique"
+			},
+			{
+				"system": "utaunt_celebrationtime_teamcolor_blue",
+				"id": 3155,
+				"attach_to_rootbone": false,
+				"name": "Fiesta pyrotechnique"
+			},
+			{
+				"system": "utaunt_celebrationtime_yellow_parent",
+				"id": 3156,
+				"attach_to_rootbone": false,
+				"name": "Bouquet final doré"
+			},
+			{
+				"system": "utaunt_god_lava_teamcolor_red",
+				"id": 3157,
+				"attach_to_rootbone": false,
+				"name": "Incantation satanique"
+			},
+			{
+				"system": "utaunt_god_lava_teamcolor_blue",
+				"id": 3158,
+				"attach_to_rootbone": false,
+				"name": "Incantation satanique"
+			},
+			{
+				"system": "utaunt_god_gold_parent",
+				"id": 3159,
+				"attach_to_rootbone": false,
+				"name": "Incantation divine"
+			},
+			{
+				"system": "utaunt_aestheticlogo_teamcolor_red",
+				"id": 3160,
+				"attach_to_rootbone": false,
+				"name": "Incantation alliée"
+			},
+			{
+				"system": "utaunt_aestheticlogo_teamcolor_blue",
+				"id": 3161,
+				"attach_to_rootbone": false,
+				"name": "Incantation alliée"
+			},
+			{
+				"system": "utaunt_aestheticlogo_orange_parent",
+				"id": 3162,
+				"attach_to_rootbone": false,
+				"name": "Logo classique"
+			},
+			{
+				"system": "utaunt_desert_wind_parent",
+				"id": 3163,
+				"attach_to_rootbone": false,
+				"name": "Sable du désert"
+			},
+			{
+				"system": "utaunt_desert_monsoon_parent",
+				"id": 3164,
+				"attach_to_rootbone": false,
+				"name": "Saison de la mousson"
+			},
+			{
+				"system": "utaunt_treasure_teamcolor_red",
+				"id": 3165,
+				"attach_to_rootbone": false,
+				"name": "Richesses abondantes"
+			},
+			{
+				"system": "utaunt_treasure_teamcolor_blue",
+				"id": 3166,
+				"attach_to_rootbone": false,
+				"name": "Richesses abondantes"
+			},
+			{
+				"system": "utaunt_hearttreasure_parent",
+				"id": 3167,
+				"attach_to_rootbone": false,
+				"name": "Amour du luxe"
+			},
+			{
+				"system": "utaunt_wiggletube_teamcolor_red",
+				"id": 3168,
+				"attach_to_rootbone": false,
+				"name": "Aura luxurieuse"
+			},
+			{
+				"system": "utaunt_wiggletube_teamcolor_blue",
+				"id": 3169,
+				"attach_to_rootbone": false,
+				"name": "Aura luxurieuse"
+			},
+			{
+				"system": "utaunt_wiggletube_coffee_parent",
+				"id": 3170,
+				"attach_to_rootbone": false,
+				"name": "Aura d'électrum"
+			},
+			{
+				"system": "utaunt_flowerrain_teamcolor_red",
+				"id": 3171,
+				"attach_to_rootbone": false,
+				"name": "Bénédictions des sakuras"
+			},
+			{
+				"system": "utaunt_flowerrain_teamcolor_blue",
+				"id": 3172,
+				"attach_to_rootbone": false,
+				"name": "Bénédictions des sakuras"
+			},
+			{
+				"system": "utaunt_flowerrain_purple_parent",
+				"id": 3173,
+				"attach_to_rootbone": false,
+				"name": "Violet vif"
+			},
+			{
+				"system": "utaunt_poweraura_teamcolor_red",
+				"id": 3174,
+				"attach_to_rootbone": false,
+				"name": "Ambiance électrique"
+			},
+			{
+				"system": "utaunt_poweraura_teamcolor_blue",
+				"id": 3175,
+				"attach_to_rootbone": false,
+				"name": "Ambiance électrique"
+			},
+			{
+				"system": "utaunt_poweraura_green_parent",
+				"id": 3176,
+				"attach_to_rootbone": false,
+				"name": "Impulsion indomptée"
+			},
+			{
+				"system": "utaunt_poweraura_purple_parent",
+				"id": 3177,
+				"attach_to_rootbone": false,
+				"name": "Catalyseur chargé"
+			},
+			{
+				"system": "utaunt_poweraura_yellow_parent",
+				"id": 3178,
+				"attach_to_rootbone": false,
+				"name": "Aura amplificatrice"
+			},
+			{
+				"system": "utaunt_mysticfusion_parent",
+				"id": 3179,
+				"attach_to_rootbone": false,
+				"name": "Fusion mystique"
+			},
+			{
+				"system": "utaunt_confetti_gy_parent",
+				"id": 3180,
+				"attach_to_rootbone": false,
+				"name": "Confettis festifs"
+			},
+			{
+				"system": "utaunt_confetti_pp_parent",
+				"id": 3181,
+				"attach_to_rootbone": false,
+				"name": "Confettis adorables"
+			},
+			{
+				"system": "utaunt_confetti_yp_parent",
+				"id": 3182,
+				"attach_to_rootbone": false,
+				"name": "Confettis commémoratifs"
+			},
+			{
+				"system": "utaunt_heavyrain_parent",
+				"id": 3183,
+				"attach_to_rootbone": false,
+				"name": "Trombes d'eau"
+			},
+			{
+				"system": "utaunt_field_parent",
+				"id": 3184,
+				"attach_to_rootbone": false,
+				"name": "Citrouille"
+			},
+			{
+				"system": "utaunt_whitesmissmas_parent",
+				"id": 3185,
+				"attach_to_rootbone": false,
+				"name": "Jour de neige"
+			},
+			{
+				"system": "utaunt_busysnow_teamcolor_red",
+				"id": 3186,
+				"attach_to_rootbone": false,
+				"name": "Esprit enneigé"
+			},
+			{
+				"system": "utaunt_busysnow_teamcolor_blue",
+				"id": 3187,
+				"attach_to_rootbone": false,
+				"name": "Esprit enneigé"
+			},
+			{
+				"system": "utaunt_busysnow_parent_p",
+				"id": 3188,
+				"attach_to_rootbone": false,
+				"name": "Sensation lavande"
+			},
+			{
+				"system": "utaunt_busysnow_parent_g",
+				"id": 3189,
+				"attach_to_rootbone": false,
+				"name": "Phénomène verdoyant"
+			},
+			{
+				"system": "utaunt_roses_teamcolor_red",
+				"id": 3190,
+				"attach_to_rootbone": false,
+				"name": "Ovation"
+			},
+			{
+				"system": "utaunt_roses_teamcolor_blue",
+				"id": 3191,
+				"attach_to_rootbone": false,
+				"name": "Ovation"
+			},
+			{
+				"system": "utaunt_roses_gold_parent",
+				"id": 3192,
+				"attach_to_rootbone": false,
+				"name": "Triomphe lyrique"
+			},
+			{
+				"system": "utaunt_tangledlights_parent",
+				"id": 3193,
+				"attach_to_rootbone": false,
+				"name": "Enguirlandage"
+			},
+			{
+				"system": "utaunt_seamine_teamcolor_red",
+				"id": 3194,
+				"attach_to_rootbone": false,
+				"name": "Mine marine"
+			},
+			{
+				"system": "utaunt_seamine_teamcolor_blue",
+				"id": 3195,
+				"attach_to_rootbone": false,
+				"name": "Mine marine"
+			},
+			{
+				"system": "utaunt_iconicoutline_teamcolor_red",
+				"id": 3196,
+				"attach_to_rootbone": false,
+				"name": "Contour iconique"
+			},
+			{
+				"system": "utaunt_iconicoutline_teamcolor_blue",
+				"id": 3197,
+				"attach_to_rootbone": false,
+				"name": "Contour iconique"
+			},
+			{
+				"system": "utaunt_iconicoutline_pink_parent",
+				"id": 3198,
+				"attach_to_rootbone": false,
+				"name": "Silhouette subtile"
+			},
+			{
+				"system": "utaunt_oceanreef_parent",
+				"id": 3199,
+				"attach_to_rootbone": false,
+				"name": "Récif marin"
+			},
+			{
+				"system": "utaunt_signalinterference_parent",
+				"id": 3200,
+				"attach_to_rootbone": false,
+				"name": "Interférences"
+			},
+			{
+				"system": "utaunt_waterwave_parent",
+				"id": 3201,
+				"attach_to_rootbone": false,
+				"name": "Vague estivale"
+			},
+			{
+				"system": "utaunt_sharkfin2_parent",
+				"id": 3202,
+				"attach_to_rootbone": false,
+				"name": "Dents de la mer"
+			},
+			{
+				"system": "utaunt_phantasam_green_parent",
+				"id": 3203,
+				"attach_to_rootbone": false,
+				"name": "Gaz toxique"
+			},
+			{
+				"system": "utaunt_phantasam_grey_parent",
+				"id": 3204,
+				"attach_to_rootbone": false,
+				"name": "Brouillard fantasmagorique"
+			},
+			{
+				"system": "utaunt_phantasam_purple_parent",
+				"id": 3205,
+				"attach_to_rootbone": false,
+				"name": "Brume hantée"
+			},
+			{
+				"system": "utaunt_multicurse_teamcolor_red",
+				"id": 3206,
+				"attach_to_rootbone": false,
+				"name": "Malice partagée"
+			},
+			{
+				"system": "utaunt_multicurse_teamcolor_blue",
+				"id": 3207,
+				"attach_to_rootbone": false,
+				"name": "Malice partagée"
+			},
+			{
+				"system": "utaunt_voidcrawlers_parent",
+				"id": 3208,
+				"attach_to_rootbone": false,
+				"name": "Créatures du néant"
+			},
+			{
+				"system": "utaunt_tarpit_dinos_parent",
+				"id": 3209,
+				"attach_to_rootbone": false,
+				"name": "Énergie fossile"
+			},
+			{
+				"system": "utaunt_tarpit_people_parent",
+				"id": 3210,
+				"attach_to_rootbone": false,
+				"name": "Fosse à bitume"
+			},
+			{
+				"system": "utaunt_morbed_teamcolor_red",
+				"id": 3211,
+				"attach_to_rootbone": false,
+				"name": "Maladivement bestial"
+			},
+			{
+				"system": "utaunt_morbed_teamcolor_blue",
+				"id": 3212,
+				"attach_to_rootbone": false,
+				"name": "Morbidly Beast"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",
@@ -13288,7 +14271,7 @@
 			},
 			{
 				"type": 1,
-				"type_name": "Übercharges",
+				"type_name": "Übers",
 				"level_data": "KillEaterRank"
 			},
 			{

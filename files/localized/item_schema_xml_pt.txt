@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -1563,7 +1563,7 @@ Disparo alternativo: Lança o item para que outro jogador possa usá-lo (mesmo e
 			<defindex>45</defindex>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Caçadeira Compacta</item_type_name>
-			<item_name>Força da Natureza</item_name>
+			<item_name>Força-da-Natureza</item_name>
 			<item_description>Esta arma recarrega todos os cartuchos do carregador de uma só vez.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
@@ -9559,7 +9559,7 @@ Não permitirás que viva uma sentinela.</item_description>
 			<defindex>260</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
-			<item_name>Quepe Wiki</item_name>
+			<item_name>Quépi da Wiki</item_name>
 			<item_description>Oferecido a valiosos colaboradores da wiki oficial do TF2
 https://wiki.teamfortress.com/</item_description>
 			<proper_name>false</proper_name>
@@ -14354,7 +14354,7 @@ O velho Oeste nunca viu este tipo de classe.</item_description>
 			<defindex>380</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Máscara</item_type_name>
-			<item_name>Grande Luchador</item_name>
+			<item_name>Luchador Largo</item_name>
 			<item_description>Nome original inglês: LARGE LUCHADORE
 
 O Wrestling é a sério, e agora podes prová-lo.</item_description>
@@ -21691,7 +21691,7 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<defindex>547</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
-			<item_name>B-ankh!</item_name>
+			<item_name>B-Ankh!</item_name>
 			<item_description> </item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -29749,7 +29749,7 @@ Lê um livro - ou pelo menos finge que sabes ler - com este ícone clássico da 
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>100</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/scout_prep_shirt.906456dfdb9b9c54543dcb716bb1952efb3fdde9.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.c56d08ff23b3f30249a18501fef79d221f034cd0.png</image_url_large>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.05be377767ca55c152b815f1d9774759c875a90c.png</image_url_large>
 			<drop_type>none</drop_type>
 			<craft_class>hat</craft_class>
 			<craft_material_type>hat</craft_material_type>
@@ -35367,7 +35367,7 @@ Pergunta a qualquer homem-bala o que ele mete na cabeça antes de ser disparado 
 			<defindex>840</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
-			<item_name>A U-clank-a</item_name>
+			<item_name>U-clank-a</item_name>
 			<item_description>Assa esta ushanka metálica numa fogueira e coloca-a na tua cabeça para calor constante ao longo do dia. Não te esqueças depois de inventar uma história espetacular para justificar as tuas queimaduras de terceiro grau!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -36447,7 +36447,7 @@ A letra &quot;a&quot; é uma bela letra. Gostamos tanto dela, que a metemos num 
 			<defindex>866</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
-			<item_name>Quepe do Oficial de Artilharia Pesada</item_name>
+			<item_name>Quépi do Oficial de Artilharia Pesada</item_name>
 			<item_description>Nome original inglês: HEAVY ARTILLERY OFFICER&apos;S CAP
 
 Nunca lutaste na Guerra como o teu tetravô. Mas há uma coisa que tu tens, que ele nunca terá: CORAGEM. Não, espera. Isso é o que ele tinha. Tu só tens este chapéu.</item_description>
@@ -36497,7 +36497,7 @@ Nunca lutaste na Guerra como o teu tetravô. Mas há uma coisa que tu tens, que 
 			<defindex>867</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
-			<item_name>Quepe do Médico de Combate</item_name>
+			<item_name>Quépi do Médico de Combate</item_name>
 			<item_description>Nome original inglês: COMBAT MEDIC&apos;S CRUSHER CAP
 
 Nunca lutaste na Guerra como o teu tetravô. Mas há uma coisa que tu tens, que ele nunca terá: CORAGEM. Não, espera. Isso é o que ele tinha. Tu só tens este chapéu.</item_description>
@@ -40299,7 +40299,7 @@ Sempre que deste um bocado de pão a um pato, estavas a financiar a Máfia dos P
 			<item_name>Dr. Pyrockzo</item_name>
 			<item_description>Nome original inglês: DETHKAPP
 
-Durante séculos, a humanidade procurou em vão a resposta para a pergunta de quem construiu esta cidade com o rock &amp; roll. Esta combinação de chapéu e cabelo finalmente responde a este mistério antigo: Foste tu!</item_description>
+Durante séculos, a humanidade procurou em vão a resposta para a pergunta de quem construiu esta cidade com o rock and roll. Esta combinação de chapéu e cabelo finalmente responde a este mistério antigo: foste tu!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/pyro/pyro_rocks/pyro_rocks_hat_hair.mdl</model_player>
@@ -43655,7 +43655,7 @@ Esta combinação pesada e brütal de suíças e poupa para todas as classes foi
 			<defindex>1015</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>Provocação Especial</item_type_name>
-			<item_name>O Alerta Metaleiro</item_name>
+			<item_name>Provocação: O Alerta Metaleiro</item_name>
 			<item_description>Nome original inglês: SHRED ALERT
 
 Provocação para todas as classes criada pela comunidade.
@@ -44763,7 +44763,7 @@ a até 23 outras pessoas no servidor!</item_description>
 			<item_name>O Saco Respiratório</item_name>
 			<item_description>Nome original inglês: THE BREATHER BAG
 
-Desde a invenção dos sacos do lixo, a humanidade tem andado louca por enfiar um na cabeça. Até agora, isso tem levado normalmente a asfixia imediata. ATÉ AGORA! Ter um saco de plástico na cabeça? Respirar ar? Graças aos génios da Cara, Saco &amp; Buraco Lda., já não tens de escolher.</item_description>
+Desde a invenção dos sacos do lixo, a humanidade tem andado louca por enfiar um na cabeça. Até agora, isso tem levado normalmente a asfixia imediata. ATÉ AGORA! Ter um saco de plástico na cabeça? Respirar ar? Graças aos génios da Cara, Saco e Buraco Lda., já não tens de escolher.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/pyro/as_pyro_cleansuit/as_pyro_cleansuit.mdl</model_player>
@@ -46045,7 +46045,7 @@ Item obtido ao fabricar a medalha da Promoção Steam de Fim de Ano 2013.</item_
 			<defindex>1078</defindex>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Caçadeira Compacta</item_type_name>
-			<item_name>Força da Natureza Festiva</item_name>
+			<item_name>Força-da-Natureza Festiva</item_name>
 			<item_description>Esta arma recarrega todos os cartuchos do carregador de uma só vez.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>primary</item_slot>
@@ -46400,7 +46400,7 @@ por cada cabeça que cortares.</item_description>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas.mdl</model_player>
 			<item_quality>6</item_quality>
-			<image_inventory>backpack/weapons/c_models/c_boxing_gloves\c_boxing_gloves_xmas</image_inventory>
+			<image_inventory>backpack/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas</image_inventory>
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>99</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/c_boxing_gloves_xmas.0dbdc11afb9da14d86bc2a7cd946fc4a2e46a23c.png</image_url>

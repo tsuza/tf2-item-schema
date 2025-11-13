@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -376,7 +376,7 @@
 			"name"	"add uber charge on hit"
 			"defindex"	"17"
 			"attribute_class"	"add_onhit_ubercharge"
-			"description_string"	"Vid Träff: %s1% extra ÜberLaddning"
+			"description_string"	"Vid träff: %s1% extra überladdning"
 			"description_format"	"value_is_additive_percentage"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -387,7 +387,7 @@
 			"name"	"medigun charge is crit boost"
 			"defindex"	"18"
 			"attribute_class"	"set_charge_type"
-			"description_string"	"ÜberLaddning ger 100% chans till kritisk träff"
+			"description_string"	"Überladdning ger 100 % chans till kritisk träff"
 			"description_format"	"value_is_additive"
 			"effect_type"	"neutral"
 			"hidden"	"0"
@@ -398,7 +398,7 @@
 			"name"	"tmp dmgbuff on hit"
 			"defindex"	"19"
 			"attribute_class"	"addperc_ondmgdone_tmpbuff"
-			"description_string"	"Vid Träff: +%s1% skadebonus"
+			"description_string"	"Vid träff: +%s1% skadebonus"
 			"description_format"	"value_is_additive_percentage"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -506,8 +506,8 @@
 			"name"	"fists have radial buff"
 			"defindex"	"30"
 			"attribute_class"	"set_weapon_mode"
-			"description_string"	"Vid Dödande Träff: +50 i hälsa för lagkamrater i närheten
-Vid Dödande Träff: +10 % Chans till Kritisk träff för lagkamrater i närheten"
+			"description_string"	"Vid dödande träff: +50 i hälsa för lagkamrater i närheten
+Vid dödande träff: +10 % chans till kritisk träff för lagkamrater i närheten"
 			"description_format"	"value_is_additive"
 			"effect_type"	"neutral"
 			"hidden"	"0"
@@ -518,7 +518,7 @@ Vid Dödande Träff: +10 % Chans till Kritisk träff för lagkamrater i närhete
 			"name"	"critboost on kill"
 			"defindex"	"31"
 			"attribute_class"	"add_onkill_critboost_time"
-			"description_string"	"Vid Dödande Träff: %s1 sekunder med 100% chans till kritisk träff"
+			"description_string"	"Vid dödande träff: %s1 sekunder med 100 % chans till kritisk träff"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -529,7 +529,7 @@ Vid Dödande Träff: +10 % Chans till Kritisk träff för lagkamrater i närhete
 			"name"	"slow enemy on hit"
 			"defindex"	"32"
 			"attribute_class"	"mult_onhit_enemyspeed"
-			"description_string"	"Vid Träff: %s1% chans att sakta ner måltavla"
+			"description_string"	"Vid träff: %s1% chans att sakta ned målet"
 			"description_format"	"value_is_additive_percentage"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -1144,7 +1144,7 @@ Kan användas för att släcka eld"
 			"name"	"max pipebombs increased"
 			"defindex"	"88"
 			"attribute_class"	"add_max_pipebombs"
-			"description_string"	"+%s1 max rörbomber ute"
+			"description_string"	"+%s1 max klisterbomber ute"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -1155,7 +1155,7 @@ Kan användas för att släcka eld"
 			"name"	"max pipebombs decreased"
 			"defindex"	"89"
 			"attribute_class"	"add_max_pipebombs"
-			"description_string"	"%s1 max rörbomber ute"
+			"description_string"	"%s1 max klisterbomber ute"
 			"description_format"	"value_is_additive"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -1408,7 +1408,7 @@ Kan användas för att släcka eld"
 			"name"	"ammo regen"
 			"defindex"	"112"
 			"attribute_class"	"addperc_ammo_regen"
-			"description_string"	"+%s1% ammo återställs var 5:e sekund för bäraren"
+			"description_string"	"+%s1% ammunition återställs var 5:e sekund för bäraren"
 			"description_format"	"value_is_additive_percentage"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -1646,7 +1646,7 @@ Kan användas för att släcka eld"
 			"name"	"attach particle effect"
 			"defindex"	"134"
 			"attribute_class"	"set_attached_particle"
-			"description_string"	"★ Ovanlig Effekt: %s1"
+			"description_string"	"★ Ovanlig effekt: %s1"
 			"description_format"	"value_is_particle_index"
 			"effect_type"	"unusual"
 			"hidden"	"0"
@@ -1885,7 +1885,7 @@ Kan användas för att släcka eld"
 			"name"	"silent killer"
 			"defindex"	"156"
 			"attribute_class"	"set_silent_killer"
-			"description_string"	"Tyst Mördare: Inga oljud från rygghugg"
+			"description_string"	"Tyst mördare: Inga attackljud från rygghugg"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -1896,7 +1896,7 @@ Kan användas för att släcka eld"
 			"name"	"disguise speed penalty"
 			"defindex"	"157"
 			"attribute_class"	"disguise_speed_penalty"
-			"description_string"	"%s1 sek långsammare förklädnadshastighet"
+			"description_string"	"%s1 s långsammare förklädnadshastighet"
 			"description_format"	"value_is_additive"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -1918,7 +1918,7 @@ Kan användas för att släcka eld"
 			"name"	"SET BONUS: cloak blink time penalty"
 			"defindex"	"159"
 			"attribute_class"	"cloak_blink_time_penalty"
-			"description_string"	"%s1 sek längre döljningsblinkning"
+			"description_string"	"%s1 s längre döljningsblinkning"
 			"description_format"	"value_is_additive"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -2172,7 +2172,7 @@ Naturens rop: Huvudskott med hjälp av siktet ger alltid minikritiska träffar o
 			"name"	"slow enemy on hit major"
 			"defindex"	"182"
 			"attribute_class"	"mult_onhit_enemyspeed_major"
-			"description_string"	"Vid Träff: Sakta ned måltavlans rörelser med 40% i %s1s"
+			"description_string"	"Vid träff: Sakta ned målets rörelser med 40 % i %s1 s"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -2205,7 +2205,7 @@ Naturens rop: Huvudskott med hjälp av siktet ger alltid minikritiska träffar o
 			"name"	"event date"
 			"defindex"	"185"
 			"attribute_class"	"event_date"
-			"description_string"	"Datum Mottaget: %s1"
+			"description_string"	"Datum mottaget: %s1"
 			"description_format"	"value_is_date"
 			"effect_type"	"neutral"
 			"hidden"	"1"
@@ -2240,7 +2240,7 @@ Gåva från: %s1."
 			"defindex"	"188"
 			"attribute_class"	"preserve_ubercharge"
 			"description_string"	"Vid död bibehålls upp till %s1% av
-din lagrade ÜberLaddning"
+din lagrade überladdning"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -2397,7 +2397,7 @@ din lagrade ÜberLaddning"
 			"name"	"drop health pack on kill"
 			"defindex"	"203"
 			"attribute_class"	"drop_health_pack_on_kill"
-			"description_string"	"Vid Dödande Träff: En liten förbandslåda släpps"
+			"description_string"	"Vid dödande träff: En liten förbandslåda släpps"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -2408,7 +2408,7 @@ din lagrade ÜberLaddning"
 			"name"	"hit self on miss"
 			"defindex"	"204"
 			"attribute_class"	"hit_self_on_miss"
-			"description_string"	"Vid Miss: Träffa dig själv. Pucko."
+			"description_string"	"Vid miss: Träffa dig själv. Pucko."
 			"description_format"	"value_is_additive"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -2452,7 +2452,7 @@ din lagrade ÜberLaddning"
 			"name"	"Set DamageType Ignite"
 			"defindex"	"208"
 			"attribute_class"	"set_dmgtype_ignite"
-			"description_string"	"Vid Träff: mål slukas i lågor"
+			"description_string"	"Vid träff: Mål slukas i lågor"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -2575,7 +2575,7 @@ Bytbart efter: %s1"
 			"name"	"mult sniper charge after bodyshot"
 			"defindex"	"222"
 			"attribute_class"	"mult_sniper_charge_after_bodyshot"
-			"description_string"	"Vid Inzoomat Kroppskott: Gevärets uppladdningstid ökar med %s1%"
+			"description_string"	"Vid inzoomat kroppskott: Gevärets uppladdningstid ökar med %s1%"
 			"description_format"	"value_is_percentage"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -2586,7 +2586,7 @@ Bytbart efter: %s1"
 			"name"	"mult sniper charge after miss"
 			"defindex"	"223"
 			"attribute_class"	"mult_sniper_charge_after_miss"
-			"description_string"	"Vid Inzoomad Miss: Gevärets uppladdningstid minskar med %s1%"
+			"description_string"	"Vid inzoomad miss: Gevärets uppladdningstid minskar med %s1%"
 			"description_format"	"value_is_percentage"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -2740,7 +2740,7 @@ tar det %s1% längre tid att byta vapen"
 			"name"	"mult sniper charge after headshot"
 			"defindex"	"237"
 			"attribute_class"	"mult_sniper_charge_after_headshot"
-			"description_string"	"Vid Inzoomat Huvudskott: Gevärets uppladdningstid ökar med %s1%"
+			"description_string"	"Vid inzoomat huvudskott: Gevärets uppladdningstid ökar med %s1%"
 			"description_format"	"value_is_percentage"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -2751,7 +2751,7 @@ tar det %s1% längre tid att byta vapen"
 			"name"	"minigun no spin sounds"
 			"defindex"	"238"
 			"attribute_class"	"minigun_no_spin_sounds"
-			"description_string"	"Tyst Mördare: Inget uppsnurrningsljud"
+			"description_string"	"Tyst mördare: Inget uppsnurrningsljud"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -2762,8 +2762,8 @@ tar det %s1% längre tid att byta vapen"
 			"name"	"ubercharge rate bonus for healer"
 			"defindex"	"239"
 			"attribute_class"	"mult_uberchargerate_for_healer"
-			"description_string"	"+%s1% snabbare ÜberLaddning för den Medic som helar dig.
-Denna effekt verkar inte i återskapningsrummet"
+			"description_string"	"+%s1% snabbare überladdning för den Medic som helar dig.
+Effekten fungerar inte i återskapningsrummet."
 			"description_format"	"value_is_percentage"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -3133,8 +3133,8 @@ Närstridsattacker blir mini-kritiska när användaren är i luften."
 			"name"	"ubercharge"
 			"defindex"	"274"
 			"attribute_class"	"ubercharge"
-			"description_string"	"Förbrukningsvara: Bli Überladdad under 5 sekunder
-(eller skydda ditt vaktgevär från skada)"
+			"description_string"	"Förbrukningsvara: Bli überladdad under 5 sekunder
+(och skydda vaktgeväret från skada)"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -3433,7 +3433,7 @@ eller rygghugg"
 			"name"	"sniper full charge damage bonus"
 			"defindex"	"304"
 			"attribute_class"	"sniper_full_charge_damage_bonus"
-			"description_string"	"Vid Full Laddning: +%s1% skada per skott"
+			"description_string"	"Vid full laddning: +%s1% skada per skott"
 			"description_format"	"value_is_percentage"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -3477,7 +3477,7 @@ eller rygghugg"
 			"name"	"sniper penetrate players when charged"
 			"defindex"	"308"
 			"attribute_class"	"sniper_penetrate_players_when_charged"
-			"description_string"	"Vid Full Laddning: Projektiler penetrerar spelare"
+			"description_string"	"Vid full laddning: Projektiler penetrerar spelare"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -4146,7 +4146,7 @@ Odödlig under \"Mmmph\"-hån."
 			"name"	"accepted wedding ring account id 2"
 			"defindex"	"373"
 			"attribute_class"	"accepted_wedding_ring_account_id_2"
-			"description_string"	"och %s1, för evigt och evigt och evigt. Puss och Kram"
+			"description_string"	"och %s1, för evigt och evigt och evigt. Puss och kram."
 			"description_format"	"value_is_account_id"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -4284,7 +4284,7 @@ Odödlig under \"Mmmph\"-hån."
 			"name"	"rage on kill"
 			"defindex"	"387"
 			"attribute_class"	"rage_on_kill"
-			"description_string"	"Öka Focus vid dödande skott och assister"
+			"description_string"	"Få fokus vid dödande träffar och assister"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -4446,7 +4446,7 @@ I fokus: +25% snabbare uppladdning och ingen utzoomning"
 			"name"	"cannot be backstabbed"
 			"defindex"	"402"
 			"attribute_class"	"cannot_be_backstabbed"
-			"description_string"	"Kan ej rygghuggas"
+			"description_string"	"Kan inte rygghuggas"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -4888,7 +4888,7 @@ Rörelsehastighet ökad med Boost"
 			"name"	"pyrovision opt in DISPLAY ONLY"
 			"defindex"	"445"
 			"attribute_class"	"pyrovision_opt_in_display_only"
-			"description_string"	"Om Utrustat: Besök Pyroland"
+			"description_string"	"Om utrustat: Besök Pyroland"
 			"description_format"	"value_is_or"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -7152,7 +7152,7 @@ tas upp och hölstras långsammare"
 			"name"	"dmg pierces resists absorbs"
 			"defindex"	"797"
 			"attribute_class"	"mod_pierce_resists_absorbs"
-			"description_string"	"Attacker går igenom skaderesistanseffekter och bonusar"
+			"description_string"	"Attacker går igenom skaderesistenseffekter och bonusar"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -7163,8 +7163,10 @@ tas upp och hölstras långsammare"
 			"name"	"energy buff dmg taken multiplier"
 			"defindex"	"798"
 			"attribute_class"	"energy_buff_dmg_taken_multiplier"
+			"description_string"	"+%s1% skadesårbarhet när den är aktiv"
+			"description_format"	"value_is_percentage"
 			"effect_type"	"negative"
-			"hidden"	"1"
+			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
 		"662"
@@ -7624,7 +7626,7 @@ tas upp och hölstras långsammare"
 			"name"	"item_meter_resupply_denied"
 			"defindex"	"848"
 			"attribute_class"	"item_meter_resupply_denied"
-			"description_string"	"Återskapande och påfyllning av hälsa/ammo påverkar ej bensinmätaren"
+			"description_string"	"Återskapande och påfyllning av hälsa/ammunition påverkar inte bensinmätaren"
 			"description_format"	"value_is_additive"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -7910,7 +7912,7 @@ tas upp och hölstras långsammare"
 			"name"	"health drain medic"
 			"defindex"	"881"
 			"attribute_class"	"add_health_regen"
-			"description_string"	"%s1 health regenerated per second on wearer"
+			"description_string"	"%s1 hälsa återställs per sekund för bäraren"
 			"description_format"	"value_is_additive"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -8200,7 +8202,7 @@ tas upp och hölstras långsammare"
 			"name"	"Halloween Spellbook Page: Tumidum"
 			"defindex"	"2016"
 			"attribute_class"	"tf_halloween_spell_page"
-			"description_string"	"Tumidums Sidor: %s1"
+			"description_string"	"Tumidums sidor: %s1"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -8430,7 +8432,7 @@ tas upp och hölstras långsammare"
 			"name"	"taunt attach particle index"
 			"defindex"	"2041"
 			"attribute_class"	""
-			"description_string"	"★ Ovanlig Effekt: %s1"
+			"description_string"	"★ Ovanlig effekt: %s1"
 			"description_format"	"value_is_particle_index"
 			"effect_type"	"unusual"
 			"hidden"	"0"
@@ -8657,7 +8659,7 @@ Alternativattack: Frigör en luftstöt som knuffar tillbaka fiender och projekti
 			"defindex"	"2067"
 			"attribute_class"	"attack_minicrits_and_consumes_burning"
 			"description_string"	"Ger minikritiska träffar på brinnande fiender och släcker dem.
-Skada ökas baserat på återstående efterbrandtid
+Skadan ökar baserat på återstående brandtid.
 Dödande träffar på brinnande spelare ger en fartökning."
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
@@ -8675,6 +8677,127 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		}
 		"813"
 		{
+			"name"	"freaky fair kritz potion"
+			"defindex"	"2069"
+			"attribute_class"	"freaky_fair_kritz_potion"
+			"description_string"	"Kritzbrygd"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"814"
+		{
+			"name"	"freaky fair uber potion"
+			"defindex"	"2070"
+			"attribute_class"	"freaky_fair_uber_potion"
+			"description_string"	"Überbrygd"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"815"
+		{
+			"name"	"freaky fair giant potion"
+			"defindex"	"2071"
+			"attribute_class"	"freaky_fair_giant_potion"
+			"description_string"	"Jättebrygd"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"816"
+		{
+			"name"	"freaky fair buster potion"
+			"defindex"	"2072"
+			"attribute_class"	"freaky_fair_buster_potion"
+			"description_string"	"Pumpajägarbrygd"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"817"
+		{
+			"name"	"freaky fair healing potion"
+			"defindex"	"2073"
+			"attribute_class"	"freaky_fair_healing_potion"
+			"description_string"	"Helande brygd"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"818"
+		{
+			"name"	"freaky fair ghost potion"
+			"defindex"	"2074"
+			"attribute_class"	"freaky_fair_ghost_potion"
+			"description_string"	"Spökbrygd"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"819"
+		{
+			"name"	"freaky fair ammo potion"
+			"defindex"	"2075"
+			"attribute_class"	"freaky_fair_ammo_potion"
+			"description_string"	"Ammunitionsbrygd"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"820"
+		{
+			"name"	"freaky fair rtd potion"
+			"defindex"	"2076"
+			"attribute_class"	"freaky_fair_rtd_potion"
+			"description_string"	"Tärningskastbrygd"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"821"
+		{
+			"name"	"freaky fair relentless potion"
+			"defindex"	"2077"
+			"attribute_class"	"freaky_fair_relentless_potion"
+			"description_string"	"Obeveklig brygd"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"822"
+		{
+			"name"	"freaky fair extra attrib1"
+			"defindex"	"2078"
+			"attribute_class"	"freaky_fair_extra_attrib1"
+			"description_string"	"Extra Freaky Fair Attrib 1"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"823"
+		{
+			"name"	"freaky fair extra attrib2"
+			"defindex"	"2079"
+			"attribute_class"	"freaky_fair_extra_attrib2"
+			"description_string"	"Extra Freaky Fair Attrib 2"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"824"
+		{
 			"name"	"item slot criteria 1"
 			"defindex"	"3000"
 			"attribute_class"	"item_slot_criteria"
@@ -8683,7 +8806,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"814"
+		"825"
 		{
 			"name"	"item in slot 1"
 			"defindex"	"3001"
@@ -8693,7 +8816,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"815"
+		"826"
 		{
 			"name"	"item slot criteria 2"
 			"defindex"	"3002"
@@ -8703,7 +8826,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"816"
+		"827"
 		{
 			"name"	"item in slot 2"
 			"defindex"	"3003"
@@ -8713,7 +8836,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"817"
+		"828"
 		{
 			"name"	"item slot criteria 3"
 			"defindex"	"3004"
@@ -8723,7 +8846,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"818"
+		"829"
 		{
 			"name"	"item in slot 3"
 			"defindex"	"3005"
@@ -8733,7 +8856,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"819"
+		"830"
 		{
 			"name"	"item slot criteria 4"
 			"defindex"	"3006"
@@ -8743,7 +8866,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"820"
+		"831"
 		{
 			"name"	"item in slot 4"
 			"defindex"	"3007"
@@ -8753,7 +8876,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"821"
+		"832"
 		{
 			"name"	"item slot criteria 5"
 			"defindex"	"3008"
@@ -8763,7 +8886,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"822"
+		"833"
 		{
 			"name"	"item in slot 5"
 			"defindex"	"3009"
@@ -8773,7 +8896,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"823"
+		"834"
 		{
 			"name"	"item slot criteria 6"
 			"defindex"	"3010"
@@ -8783,7 +8906,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"824"
+		"835"
 		{
 			"name"	"item in slot 6"
 			"defindex"	"3011"
@@ -8793,7 +8916,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"825"
+		"836"
 		{
 			"name"	"item slot criteria 7"
 			"defindex"	"3012"
@@ -8803,7 +8926,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"826"
+		"837"
 		{
 			"name"	"item in slot 7"
 			"defindex"	"3013"
@@ -8813,7 +8936,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"827"
+		"838"
 		{
 			"name"	"item slot criteria 8"
 			"defindex"	"3014"
@@ -8823,7 +8946,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"828"
+		"839"
 		{
 			"name"	"item in slot 8"
 			"defindex"	"3015"
@@ -8833,7 +8956,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"829"
+		"840"
 		{
 			"name"	"quest earned standard points"
 			"defindex"	"3016"
@@ -8842,7 +8965,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"hidden"	"1"
 			"stored_as_integer"	"1"
 		}
-		"830"
+		"841"
 		{
 			"name"	"quest earned bonus points"
 			"defindex"	"3017"
@@ -8851,7 +8974,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"hidden"	"1"
 			"stored_as_integer"	"1"
 		}
-		"831"
+		"842"
 		{
 			"name"	"item drop wave"
 			"defindex"	"3018"
@@ -8892,7 +9015,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"1"
 		{
 			"item_set"	"airborne_armaments"
-			"name"	"Luftburna Beväpningen"
+			"name"	"Luftburna beväpningen"
 			"items"
 			{
 				"0"	"The Liberty Launcher"
@@ -8904,7 +9027,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"2"
 		{
 			"item_set"	"alien_isolation_merc_set"
-			"name"	"Isolerade Legosoldaten"
+			"name"	"Isolerade legosoldaten"
 			"items"
 			{
 				"0"	"The MK 50"
@@ -8940,7 +9063,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"4"
 		{
 			"item_set"	"black_market"
-			"name"	"Svarta Marknaden"
+			"name"	"Svarta marknaden"
 			"items"
 			{
 				"0"	"Tomislav"
@@ -8975,7 +9098,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"7"
 		{
 			"item_set"	"desert_demo"
-			"name"	"Tusen och En Demoknekt"
+			"name"	"Tusen och en demoknekt"
 			"items"
 			{
 				"0"	"The Persian Persuader"
@@ -8998,7 +9121,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"9"
 		{
 			"item_set"	"drg_brainiac"
-			"name"	"Dr. Grordborts Genipaket"
+			"name"	"Dr. Grordborts genipaket"
 			"items"
 			{
 				"0"	"The Eureka Effect"
@@ -9010,7 +9133,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"10"
 		{
 			"item_set"	"drg_moonman"
-			"name"	"Dr. Grordborts Månmanspaket"
+			"name"	"Dr. Grordborts månmanspaket"
 			"items"
 			{
 				"0"	"The Phlogistinator"
@@ -9023,7 +9146,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"11"
 		{
 			"item_set"	"drg_victory"
-			"name"	"Dr. Grordborts Segerpaket"
+			"name"	"Dr. Grordborts segerpaket"
 			"items"
 			{
 				"0"	"The Cow Mangler 5000"
@@ -9055,7 +9178,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"13"
 		{
 			"item_set"	"experts_ordnance"
-			"name"	"Expertens Krigsmateriel"
+			"name"	"Expertens krigsmateriel"
 			"store_bundle"	"Expert's Ordnance Bundle"
 			"items"
 			{
@@ -9079,7 +9202,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"15"
 		{
 			"item_set"	"general_suit"
-			"name"	"Generalens Högtidsdräkt"
+			"name"	"Generalens högtidsdräkt"
 			"items"
 			{
 				"0"	"The Mantreads"
@@ -9113,7 +9236,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"18"
 		{
 			"item_set"	"hibernating_bear"
-			"name"	"Den Övervintrande Björnen"
+			"name"	"Den övervintrande björnen"
 			"store_bundle"	"Hibernating Bear Bundle"
 			"items"
 			{
@@ -9145,7 +9268,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"20"
 		{
 			"item_set"	"hidden_detective_set"
-			"name"	"Eliminera det Omöjliga"
+			"name"	"Eliminera det omöjliga"
 			"items"
 			{
 				"0"	"Private Eye"
@@ -9164,7 +9287,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"21"
 		{
 			"item_set"	"hw2013_demo_squidpirate"
-			"name"	"Den Förbannade Kaptenen"
+			"name"	"Den förbannade kaptenen"
 			"items"
 			{
 				"0"	"The Squid's Lid"
@@ -9204,7 +9327,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"25"
 		{
 			"item_set"	"hw2013_pyro_lake_monster"
-			"name"	"Det Skumma Monstret"
+			"name"	"Det skumma monstret"
 			"items"
 			{
 				"0"	"The Abhorrent Appendages"
@@ -9267,7 +9390,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"31"
 		{
 			"item_set"	"hw2013_spy_blood_banker_alt"
-			"name"	"Härskaren över Grusgropen"
+			"name"	"Härskaren över grusgropen"
 			"items"
 			{
 				"0"	"The Candyman's Cap"
@@ -9278,7 +9401,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"32"
 		{
 			"item_set"	"medic_halloween_2011"
-			"name"	"Galna Doktorn"
+			"name"	"Galna doktorn"
 			"items"
 			{
 				"0"	"Einstein"
@@ -9289,7 +9412,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"33"
 		{
 			"item_set"	"medieval_medic"
-			"name"	"Den Medeltida Sjukvårdaren"
+			"name"	"Den medeltida sjukvårdaren"
 			"store_bundle"	"Medieval Medic Bundle"
 			"items"
 			{
@@ -9312,7 +9435,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"35"
 		{
 			"item_set"	"polycount_pyro"
-			"name"	"Bensinstationens Utstyrsel"
+			"name"	"Bensinstationens utstyrsel"
 			"store_bundle"	"Polycount Pyro Bundle"
 			"items"
 			{
@@ -9355,7 +9478,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"37"
 		{
 			"item_set"	"polycount_sniper"
-			"name"	"Krok-O-Stil-Kitet"
+			"name"	"Krokostil-kitet"
 			"store_bundle"	"Polycount Sniper Bundle"
 			"items"
 			{
@@ -9398,7 +9521,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"39"
 		{
 			"item_set"	"polycount_spy"
-			"name"	"Spionen Från Sahara"
+			"name"	"Spionen från Sahara"
 			"store_bundle"	"Polycount Spy Bundle"
 			"items"
 			{
@@ -9430,7 +9553,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"41"
 		{
 			"item_set"	"rapid_repair"
-			"name"	"Kliniska Studien"
+			"name"	"Kliniska studien"
 			"items"
 			{
 				"0"	"The Quick-Fix"
@@ -9441,7 +9564,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"42"
 		{
 			"item_set"	"scout_halloween_2011"
-			"name"	"Förbannelse-med-Kraft"
+			"name"	"Naturförbannelsen"
 			"items"
 			{
 				"0"	"Wrap Battler"
@@ -9452,7 +9575,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"43"
 		{
 			"item_set"	"scout_public_enemy"
-			"name"	"Samhällets Fiende"
+			"name"	"Samhällets fiende"
 			"items"
 			{
 				"0"	"Baby Face's Blaster"
@@ -9580,7 +9703,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"55"
 		{
 			"item_set"	"short2014_demo_drinking"
-			"name"	"Sydamerikanska Paketet"
+			"name"	"Sydamerikanska paketet"
 			"items"
 			{
 				"0"	"The Allbrero"
@@ -9591,7 +9714,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"56"
 		{
 			"item_set"	"short2014_engineer_pack1"
-			"name"	"Byggarens Nybörjarkit"
+			"name"	"Byggarens nybörjarkit"
 			"items"
 			{
 				"0"	"The Tools of the Trade"
@@ -9601,7 +9724,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"57"
 		{
 			"item_set"	"short2014_engineer_pack2"
-			"name"	"Texas Tekniska Hand"
+			"name"	"Texas tekniska hand"
 			"items"
 			{
 				"0"	"The Level Three Chin"
@@ -9633,7 +9756,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"60"
 		{
 			"item_set"	"short2014_pyro_pack3"
-			"name"	"Snabba Eldstartarpaketet"
+			"name"	"Snabba eldstartarpaketet"
 			"items"
 			{
 				"0"	"Employee of the Mmmph"
@@ -9654,7 +9777,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"62"
 		{
 			"item_set"	"short2014_scout_pack"
-			"name"	"Häftiga Goda Ninjapaketet"
+			"name"	"Häftiga goda ninjapaketet"
 			"items"
 			{
 				"0"	"The Frickin' Sweet Ninja Hood"
@@ -9707,7 +9830,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"67"
 		{
 			"item_set"	"sniper_urban_professional"
-			"name"	"Urbana Proffset"
+			"name"	"Urbana proffset"
 			"items"
 			{
 				"0"	"The Hitman's Heatmaker"
@@ -9751,7 +9874,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"71"
 		{
 			"item_set"	"swashbucklers_swag"
-			"name"	"Skrävlarens Stöldgods"
+			"name"	"Skrävlarens stöldgods"
 			"items"
 			{
 				"0"	"The Scottish Handshake"
@@ -9786,7 +9909,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"system"	"burningplayer_flyingbits"
 			"id"	"2"
 			"attach_to_rootbone"	"0"
-			"name"	"Flygande Bitar"
+			"name"	"Flygande bitar"
 		}
 		"2"
 		{
@@ -9794,7 +9917,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"3"
 			"attach_to_rootbone"	"0"
 			"attachment"	"muzzle1"
-			"name"	"Nemesis-Stråle"
+			"name"	"Nemesis-stråle"
 		}
 		"3"
 		{
@@ -9809,21 +9932,21 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"5"
 			"attach_to_rootbone"	"0"
 			"attachment"	"halopoint1"
-			"name"	"Helig Glöd"
+			"name"	"Helig glöd"
 		}
 		"5"
 		{
 			"system"	"superrare_confetti_green"
 			"id"	"6"
 			"attach_to_rootbone"	"0"
-			"name"	"Grön Konfetti"
+			"name"	"Grön konfetti"
 		}
 		"6"
 		{
 			"system"	"superrare_confetti_purple"
 			"id"	"7"
 			"attach_to_rootbone"	"0"
-			"name"	"Lila Konfetti"
+			"name"	"Lila konfetti"
 		}
 		"7"
 		{
@@ -9831,21 +9954,21 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"8"
 			"attach_to_rootbone"	"1"
 			"attachment"	"muzzle"
-			"name"	"Hemsökta Spöken"
+			"name"	"Hemsökta spöken"
 		}
 		"8"
 		{
 			"system"	"superrare_greenenergy"
 			"id"	"9"
 			"attach_to_rootbone"	"1"
-			"name"	"Grön Energi"
+			"name"	"Grön energi"
 		}
 		"9"
 		{
 			"system"	"superrare_purpleenergy"
 			"id"	"10"
 			"attach_to_rootbone"	"1"
-			"name"	"Lila Energi"
+			"name"	"Lila energi"
 		}
 		"10"
 		{
@@ -9853,7 +9976,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"11"
 			"attach_to_rootbone"	"1"
 			"attachment"	"muzzle"
-			"name"	"Cirklande TF-Logga"
+			"name"	"Cirklande TF-logotyp"
 		}
 		"11"
 		{
@@ -9868,7 +9991,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"13"
 			"attach_to_rootbone"	"1"
 			"attachment"	"muzzle"
-			"name"	"Brinnande Lågor"
+			"name"	"Brinnande lågor"
 		}
 		"13"
 		{
@@ -9876,7 +9999,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"14"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Brännheta Lågor"
+			"name"	"Brännheta lågor"
 		}
 		"14"
 		{
@@ -9884,7 +10007,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"15"
 			"attach_to_rootbone"	"1"
 			"attachment"	"muzzle"
-			"name"	"Glödande Plasma"
+			"name"	"Glödande plasma"
 		}
 		"15"
 		{
@@ -9892,13 +10015,14 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"16"
 			"attach_to_rootbone"	"1"
 			"attachment"	"muzzle"
-			"name"	"Intensiv Plasma"
+			"name"	"Intensiv plasma"
 		}
 		"16"
 		{
 			"system"	"superrare_beams1"
 			"id"	"17"
 			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
 			"name"	"Solstrålar"
 		}
 		"17"
@@ -9907,7 +10031,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"18"
 			"attach_to_rootbone"	"1"
 			"attachment"	"muzzle"
-			"name"	"Cirklande Fredstecken"
+			"name"	"Cirklande fredstecken"
 		}
 		"18"
 		{
@@ -9915,7 +10039,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"19"
 			"attach_to_rootbone"	"1"
 			"attachment"	"muzzle"
-			"name"	"Cirklande Hjärta"
+			"name"	"Cirklande hjärta"
 		}
 		"19"
 		{
@@ -9951,21 +10075,21 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"system"	"unusual_orbit_nutsnbolts"
 			"id"	"31"
 			"attach_to_rootbone"	"1"
-			"name"	"Muttrar å Skruvar"
+			"name"	"Muttrar å skruvar"
 		}
 		"24"
 		{
 			"system"	"unusual_orbit_planets"
 			"id"	"32"
 			"attach_to_rootbone"	"1"
-			"name"	"Kretsande Planeter"
+			"name"	"Kretsande planeter"
 		}
 		"25"
 		{
 			"system"	"unusual_orbit_fire"
 			"id"	"33"
 			"attach_to_rootbone"	"1"
-			"name"	"Kretsande Eld"
+			"name"	"Kretsande eld"
 		}
 		"26"
 		{
@@ -9993,14 +10117,14 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"system"	"unusual_orbit_jack_flaming"
 			"id"	"37"
 			"attach_to_rootbone"	"1"
-			"name"	"Flammande Lykta"
+			"name"	"Flammande lykta"
 		}
 		"30"
 		{
 			"system"	"unusual_fullmoon_cloudy"
 			"id"	"38"
 			"attach_to_rootbone"	"1"
-			"name"	"Molnig Måne"
+			"name"	"Molnig måne"
 		}
 		"31"
 		{
@@ -10014,7 +10138,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"system"	"unusual_orbit_fire_dark"
 			"id"	"40"
 			"attach_to_rootbone"	"1"
-			"name"	"Kuslig Kretsande Eld"
+			"name"	"Kuslig kretsande eld"
 		}
 		"33"
 		{
@@ -10030,7 +10154,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"44"
 			"attach_to_rootbone"	"1"
 			"attachment"	"muzzle"
-			"name"	"Dimmig Dödskalle"
+			"name"	"Dimmig dödskalle"
 		}
 		"35"
 		{
@@ -10054,7 +10178,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"47"
 			"attach_to_rootbone"	"1"
 			"attachment"	"muzzle"
-			"name"	"Den Stormiga 13:nde Timmen"
+			"name"	"Den stormiga 13:e timmen"
 		}
 		"38"
 		{
@@ -10102,7 +10226,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"60"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Döda Presidenter"
+			"name"	"Döda presidenter"
 		}
 		"44"
 		{
@@ -10222,7 +10346,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"75"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Chiroptera Venenata"
+			"name"	"Chiroptera venenata"
 		}
 		"59"
 		{
@@ -10230,7 +10354,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"76"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Förgiftade Skuggor"
+			"name"	"Förgiftade skuggor"
 		}
 		"60"
 		{
@@ -10238,7 +10362,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"77"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Något Brinnande Hitåt Kommer"
+			"name"	"Något brinnande hitåt ränner"
 		}
 		"61"
 		{
@@ -10286,7 +10410,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"83"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Blicken från bakom"
+			"name"	"Blicken från andra sidan"
 		}
 		"67"
 		{
@@ -10798,7 +10922,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"147"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Verdatica"
+			"name"	"Verdatika"
 		}
 		"131"
 		{
@@ -10806,7 +10930,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"148"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Aromatica"
+			"name"	"Aromatika"
 		}
 		"132"
 		{
@@ -10814,7 +10938,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"149"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Chromatica"
+			"name"	"Kromatisk"
 		}
 		"133"
 		{
@@ -10822,7 +10946,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"150"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Prismatica"
+			"name"	"Prismatisk"
 		}
 		"134"
 		{
@@ -10846,7 +10970,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"153"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Smoldering Spirits"
+			"name"	"Rykande andar"
 		}
 		"137"
 		{
@@ -10902,7 +11026,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"160"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Gravelly Ghoul"
+			"name"	"Grusgast"
 		}
 		"144"
 		{
@@ -10910,7 +11034,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"161"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Vexed Volcanics"
+			"name"	"Vulkanisk vrede"
 		}
 		"145"
 		{
@@ -10918,7 +11042,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"162"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Gourdian Angel"
+			"name"	"Kalebassängel"
 		}
 		"146"
 		{
@@ -10926,7 +11050,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"163"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Pumpkin Party"
+			"name"	"Pumpaparty"
 		}
 		"147"
 		{
@@ -10934,7 +11058,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"164"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Frozen Fractals"
+			"name"	"Frysta fraktaler"
 		}
 		"148"
 		{
@@ -10942,7 +11066,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"165"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Lavender Landfall"
+			"name"	"Lavender lavin"
 		}
 		"149"
 		{
@@ -10950,7 +11074,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"166"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Special Snowfall"
+			"name"	"Säreget snöfall"
 		}
 		"150"
 		{
@@ -10958,7 +11082,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"167"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Divine Desire"
+			"name"	"Gudomlig önskan"
 		}
 		"151"
 		{
@@ -10966,7 +11090,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"168"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Distant Dream"
+			"name"	"Avlägsen dröm"
 		}
 		"152"
 		{
@@ -10974,7 +11098,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"169"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Violent Wintertide"
+			"name"	"Våldsam vintertid"
 		}
 		"153"
 		{
@@ -10982,7 +11106,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"170"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Blighted Snowstorm"
+			"name"	"Härjande snöstorm"
 		}
 		"154"
 		{
@@ -10990,7 +11114,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"171"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Pale Nimbus"
+			"name"	"Blek nimbus"
 		}
 		"155"
 		{
@@ -10998,7 +11122,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"172"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Genus Plasmos"
+			"name"	"Genus plasmos"
 		}
 		"156"
 		{
@@ -11006,7 +11130,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"173"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Serenus Lumen"
+			"name"	"Serenus lumen"
 		}
 		"157"
 		{
@@ -11014,7 +11138,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"174"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ventum Maris"
+			"name"	"Ventum maris"
 		}
 		"158"
 		{
@@ -11022,7 +11146,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"175"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Mirthful Mistletoe"
+			"name"	"Munter mistel"
 		}
 		"159"
 		{
@@ -11038,7 +11162,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"177"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Resonation"
+			"name"	"Resonans"
 		}
 		"161"
 		{
@@ -11046,7 +11170,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"178"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Aggradation"
+			"name"	"Aggradering"
 		}
 		"162"
 		{
@@ -11054,7 +11178,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"179"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Lucidation"
+			"name"	"Upplysande"
 		}
 		"163"
 		{
@@ -11062,7 +11186,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"180"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Stunning"
+			"name"	"Fantastisk"
 		}
 		"164"
 		{
@@ -11070,7 +11194,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"181"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ardentum Saturnalis"
+			"name"	"Ardentum saturnalis"
 		}
 		"165"
 		{
@@ -11078,7 +11202,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"182"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fragrancium Elementalis"
+			"name"	"Fragrancium elementalis"
 		}
 		"166"
 		{
@@ -11086,7 +11210,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"183"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Reverium Irregularis"
+			"name"	"Reverium irregularis"
 		}
 		"167"
 		{
@@ -11102,7 +11226,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"185"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Perennial Petals"
+			"name"	"Fleråriga kronblad"
 		}
 		"169"
 		{
@@ -11110,7 +11234,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"186"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flavorsome Sunset"
+			"name"	"Smakfull solnedgång"
 		}
 		"170"
 		{
@@ -11118,7 +11242,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"187"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Raspberry Bloom"
+			"name"	"Hallonblomster"
 		}
 		"171"
 		{
@@ -11126,7 +11250,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"188"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Iridescence"
+			"name"	"Regnbågsskimmer"
 		}
 		"172"
 		{
@@ -11262,7 +11386,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"205"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Smissmas Tree"
+			"name"	"Smissmas-gran"
 		}
 		"189"
 		{
@@ -11270,7 +11394,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"206"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Hospitable Festivity"
+			"name"	"Festlig gästfrihet"
 		}
 		"190"
 		{
@@ -11278,7 +11402,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"207"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Condescending Embrace"
+			"name"	"Nedlåtande omfamning"
 		}
 		"191"
 		{
@@ -11286,7 +11410,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"208"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Condescending Embrace"
+			"name"	"Nedlåtande omfamning"
 		}
 		"192"
 		{
@@ -11294,7 +11418,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"209"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sparkling Spruce"
+			"name"	"Glittrande gran"
 		}
 		"193"
 		{
@@ -11302,7 +11426,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"210"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Glittering Juniper"
+			"name"	"Glittrande enbär"
 		}
 		"194"
 		{
@@ -11310,7 +11434,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"211"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Prismatic Pine"
+			"name"	"Prismatisk gran"
 		}
 		"195"
 		{
@@ -11326,7 +11450,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"213"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Twisting Lights"
+			"name"	"Snurrande ljusslinga"
 		}
 		"197"
 		{
@@ -11334,7 +11458,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"214"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Stardust Pathway"
+			"name"	"Stjärnväg"
 		}
 		"198"
 		{
@@ -11342,7 +11466,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"215"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flurry Rush"
+			"name"	"Snöyra"
 		}
 		"199"
 		{
@@ -11350,7 +11474,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"216"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spark of Smissmas"
+			"name"	"Munter gnista"
 		}
 		"200"
 		{
@@ -11358,7 +11482,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"217"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spark of Smissmas"
+			"name"	"Munter gnista"
 		}
 		"201"
 		{
@@ -11366,7 +11490,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"218"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Polar Forecast"
+			"name"	"Polarprognos"
 		}
 		"202"
 		{
@@ -11374,7 +11498,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"219"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Shining Stag"
+			"name"	"Glänsande hjort"
 		}
 		"203"
 		{
@@ -11382,7 +11506,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"220"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Holiday Horns"
+			"name"	"Julhorn"
 		}
 		"204"
 		{
@@ -11390,7 +11514,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"221"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ardent Antlers"
+			"name"	"Glödande horn"
 		}
 		"205"
 		{
@@ -11398,7 +11522,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"222"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ardent Antlers"
+			"name"	"Glödande horn"
 		}
 		"206"
 		{
@@ -11406,7 +11530,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"223"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Festive Lights"
+			"name"	"Festliga ljus"
 		}
 		"207"
 		{
@@ -11430,7 +11554,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"226"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Frosted Decadence"
+			"name"	"Frostad dekadens"
 		}
 		"210"
 		{
@@ -11438,7 +11562,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"227"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Frosted Decadence"
+			"name"	"Frostad dekadens"
 		}
 		"211"
 		{
@@ -11454,7 +11578,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"229"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Terrestrial Favor"
+			"name"	"Galaktisk gunst"
 		}
 		"213"
 		{
@@ -11462,7 +11586,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"230"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Tropical Thrill"
+			"name"	"Tropisk magi"
 		}
 		"214"
 		{
@@ -11470,7 +11594,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"231"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flourishing Passion"
+			"name"	"Sprakande passion"
 		}
 		"215"
 		{
@@ -11534,7 +11658,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"239"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flying Lights"
+			"name"	"Svävande ljus"
 		}
 		"223"
 		{
@@ -11542,7 +11666,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"240"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flying Lights"
+			"name"	"Svävande ljus"
 		}
 		"224"
 		{
@@ -11550,7 +11674,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"241"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Limelight"
+			"name"	"Rampljus"
 		}
 		"225"
 		{
@@ -11558,7 +11682,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"242"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Shining Star"
+			"name"	"Glänsande stjärna"
 		}
 		"226"
 		{
@@ -11566,7 +11690,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"243"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Cold Cosmos"
+			"name"	"Kall kosmos"
 		}
 		"227"
 		{
@@ -11574,7 +11698,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"244"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Refracting Fractals"
+			"name"	"Brytande fraktaler"
 		}
 		"228"
 		{
@@ -11582,7 +11706,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"245"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Startrance"
+			"name"	"Stjärntrans"
 		}
 		"229"
 		{
@@ -11590,7 +11714,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"246"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Startrance"
+			"name"	"Stjärntrans"
 		}
 		"230"
 		{
@@ -11598,7 +11722,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"247"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Starlush"
+			"name"	"Stjärngrönska"
 		}
 		"231"
 		{
@@ -11606,7 +11730,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"248"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Starfire"
+			"name"	"Stjärneld"
 		}
 		"232"
 		{
@@ -11614,7 +11738,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"249"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Stardust"
+			"name"	"Stjärnstoft"
 		}
 		"233"
 		{
@@ -11622,7 +11746,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"250"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Contagious Eruption"
+			"name"	"Smittsamt utbrott"
 		}
 		"234"
 		{
@@ -11630,7 +11754,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"251"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Daydream Eruption"
+			"name"	"Dagdrömsutbrott"
 		}
 		"235"
 		{
@@ -11638,7 +11762,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"252"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Volcanic Eruption"
+			"name"	"Vulkanutbrott"
 		}
 		"236"
 		{
@@ -11678,7 +11802,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"257"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Haunted Kraken"
+			"name"	"Hemsökt Kraken"
 		}
 		"241"
 		{
@@ -11686,7 +11810,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"258"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Eerie Kraken"
+			"name"	"Kusliga Kraken"
 		}
 		"242"
 		{
@@ -11694,7 +11818,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"259"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Soulful Slice"
+			"name"	"Spökhugg"
 		}
 		"243"
 		{
@@ -11702,7 +11826,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"260"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Horsemann's Hack"
+			"name"	"Horsemannens hugg"
 		}
 		"244"
 		{
@@ -11710,7 +11834,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"261"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Haunted Forever!"
+			"name"	"Evigt hemsökt!"
 		}
 		"245"
 		{
@@ -11718,7 +11842,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"262"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Haunted Forever!"
+			"name"	"Evigt hemsökt!"
 		}
 		"246"
 		{
@@ -11726,7 +11850,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"263"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Forever And Forever!"
+			"name"	"För evigt och för alltid!"
 		}
 		"247"
 		{
@@ -11734,7 +11858,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"264"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Cursed Forever!"
+			"name"	"Evigt förbannad!"
 		}
 		"248"
 		{
@@ -11742,7 +11866,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"265"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Moth Plague"
+			"name"	"Malpest"
 		}
 		"249"
 		{
@@ -11750,7 +11874,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"266"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Malevolent Monoculi"
+			"name"	"Enögd ondska"
 		}
 		"250"
 		{
@@ -11758,7 +11882,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"267"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Haunted Wick"
+			"name"	"Spökveke"
 		}
 		"251"
 		{
@@ -11766,7 +11890,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"268"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Haunted Wick"
+			"name"	"Spökveke"
 		}
 		"252"
 		{
@@ -11774,7 +11898,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"269"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Wicked Wick"
+			"name"	"Vek veke"
 		}
 		"253"
 		{
@@ -11782,7 +11906,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"270"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spectral Wick"
+			"name"	"Vålnadsveke"
 		}
 		"254"
 		{
@@ -11790,7 +11914,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"271"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Musical Maelstrom"
+			"name"	"Musikalisk malström"
 		}
 		"255"
 		{
@@ -11798,7 +11922,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"272"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Verdant Virtuoso"
+			"name"	"Smaragdvirtuos"
 		}
 		"256"
 		{
@@ -11806,7 +11930,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"273"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Silver Serenade"
+			"name"	"Silverserenad"
 		}
 		"257"
 		{
@@ -11814,7 +11938,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"274"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Cosmic Constellations"
+			"name"	"Kosmiska konstellationer"
 		}
 		"258"
 		{
@@ -11822,7 +11946,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"275"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Cosmic Constellations"
+			"name"	"Kosmiska konstellationer"
 		}
 		"259"
 		{
@@ -11830,7 +11954,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"276"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Dazzling Constellations"
+			"name"	"Förtrollande konstellationer"
 		}
 		"260"
 		{
@@ -11838,7 +11962,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"277"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Tainted Frost"
+			"name"	"Förorenad frost"
 		}
 		"261"
 		{
@@ -11846,7 +11970,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"278"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Starlight Haze"
+			"name"	"Stjärnljusdimma"
 		}
 		"262"
 		{
@@ -11854,7 +11978,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"279"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Hard Carry"
+			"name"	"Ryggskott"
 		}
 		"263"
 		{
@@ -11862,7 +11986,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"280"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Hard Carry"
+			"name"	"Ryggskott"
 		}
 		"264"
 		{
@@ -11870,7 +11994,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"281"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Jellyfish Field"
+			"name"	"Manetfält"
 		}
 		"265"
 		{
@@ -11878,7 +12002,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"282"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Jellyfish Field"
+			"name"	"Manetfält"
 		}
 		"266"
 		{
@@ -11886,7 +12010,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"283"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Jellyfish Hunter"
+			"name"	"Manetjägare"
 		}
 		"267"
 		{
@@ -11894,7 +12018,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"284"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Jellyfish Jam"
+			"name"	"Manetstoj"
 		}
 		"268"
 		{
@@ -11902,7 +12026,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"285"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Global Clusters"
+			"name"	"Klothop"
 		}
 		"269"
 		{
@@ -11910,7 +12034,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"286"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Celestial Starburst"
+			"name"	"Himmelsk stjärnexplosion"
 		}
 		"270"
 		{
@@ -11918,7 +12042,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"287"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sylicone Succiduous"
+			"name"	"Sylicone succiduous"
 		}
 		"271"
 		{
@@ -11926,7 +12050,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"288"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sakura Smoke Bomb"
+			"name"	"Blomstrande rökbomb"
 		}
 		"272"
 		{
@@ -11934,7 +12058,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"289"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Treasure Trove"
+			"name"	"Guldgruva"
 		}
 		"273"
 		{
@@ -11942,7 +12066,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"290"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Bubble Breeze"
+			"name"	"Bubbelbris"
 		}
 		"274"
 		{
@@ -11950,7 +12074,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"291"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fireflies"
+			"name"	"Eldflugor"
 		}
 		"275"
 		{
@@ -11958,7 +12082,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"292"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Mountain Halo"
+			"name"	"Bergsgloria"
 		}
 		"276"
 		{
@@ -11966,7 +12090,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"293"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Celestial Summit"
+			"name"	"Stjärntopp"
 		}
 		"277"
 		{
@@ -11974,7 +12098,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"294"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Stellar Ascent"
+			"name"	"Stjärnstigning"
 		}
 		"278"
 		{
@@ -11982,7 +12106,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"295"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sapped"
+			"name"	"Sappad"
 		}
 		"279"
 		{
@@ -11990,7 +12114,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"296"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sapped"
+			"name"	"Sappad"
 		}
 		"280"
 		{
@@ -11998,7 +12122,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"297"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Hellspawned Horns"
+			"name"	"Helvetshorn"
 		}
 		"281"
 		{
@@ -12006,7 +12130,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"298"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Hellspawned Horns"
+			"name"	"Helvetshorn"
 		}
 		"282"
 		{
@@ -12014,7 +12138,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"299"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Demonic Impaler"
+			"name"	"Demonisk spetsare"
 		}
 		"283"
 		{
@@ -12022,7 +12146,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"300"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Revenant's Rack"
+			"name"	"Gengångarens taggar"
 		}
 		"284"
 		{
@@ -12030,7 +12154,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"301"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sixth Sense"
+			"name"	"Sjätte sinnet"
 		}
 		"285"
 		{
@@ -12038,7 +12162,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"302"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sixth Sense"
+			"name"	"Sjätte sinnet"
 		}
 		"286"
 		{
@@ -12054,7 +12178,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"304"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"The Bone Zone"
+			"name"	"Benzonen"
 		}
 		"288"
 		{
@@ -12062,7 +12186,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"305"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Arachne's Web"
+			"name"	"Arachnes webb"
 		}
 		"289"
 		{
@@ -12070,7 +12194,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"306"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Acidic Climate"
+			"name"	"Surt klimat"
 		}
 		"290"
 		{
@@ -12078,7 +12202,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"307"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Otherworldly Weather"
+			"name"	"Utomjordiskt väder"
 		}
 		"291"
 		{
@@ -12086,7 +12210,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"308"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Nightmarish Storm"
+			"name"	"Mardrömsstorm"
 		}
 		"292"
 		{
@@ -12226,13 +12350,541 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		}
 		"309"
 		{
+			"system"	"unusual_corrodedknight_teamcolor_red"
+			"id"	"327"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Lojalistens adelskrona"
+		}
+		"310"
+		{
+			"system"	"unusual_corrodedknight_teamcolor_blue"
+			"id"	"328"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Lojalistens adelskrona"
+		}
+		"311"
+		{
+			"system"	"unusual_corrodedknight_parent_silver"
+			"id"	"329"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Riddarens stolthet"
+		}
+		"312"
+		{
+			"system"	"unusual_corrodedknight_parent_golden"
+			"id"	"330"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Baronens krans"
+		}
+		"313"
+		{
+			"system"	"unusual_poseidon_teamcolor_red"
+			"id"	"331"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Djupet lockar"
+		}
+		"314"
+		{
+			"system"	"unusual_poseidon_teamcolor_blue"
+			"id"	"332"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Djupet lockar"
+		}
+		"315"
+		{
+			"system"	"unusual_poseidon_parent_green"
+			"id"	"333"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Våldsam viridian"
+		}
+		"316"
+		{
+			"system"	"unusual_poseidon_parent_purple"
+			"id"	"334"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Magenta-monstrum"
+		}
+		"317"
+		{
+			"system"	"unusual_rainglow_parent"
+			"id"	"335"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Regnbågsdröm"
+		}
+		"318"
+		{
+			"system"	"unusual_cubancigar_parent"
+			"id"	"336"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Kubansk rök"
+		}
+		"319"
+		{
+			"system"	"unusual_mohawk_teamcolor_red"
+			"id"	"337"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Påtänt hår"
+		}
+		"320"
+		{
+			"system"	"unusual_mohawk_teamcolor_blue"
+			"id"	"338"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Påtänt hår"
+		}
+		"321"
+		{
+			"system"	"unusual_mohawk_parent_green"
+			"id"	"339"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Flammande hårbotten"
+		}
+		"322"
+		{
+			"system"	"unusual_mohawk_parent_purple"
+			"id"	"340"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Brandfarlig hjälm"
+		}
+		"323"
+		{
+			"system"	"unusual_rare_shine_glow_parent"
+			"id"	"341"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Sällsynt glans"
+		}
+		"324"
+		{
+			"system"	"unusual_horstars_teamcolor_red"
+			"id"	"342"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Avlägsen drift"
+		}
+		"325"
+		{
+			"system"	"unusual_horstars_teamcolor_blue"
+			"id"	"343"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Avlägsen drift"
+		}
+		"326"
+		{
+			"system"	"unusual_electric_parent_white"
+			"id"	"344"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Tidsresa"
+		}
+		"327"
+		{
+			"system"	"unusual_electric_parent_gold"
+			"id"	"345"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Överbelastning"
+		}
+		"328"
+		{
+			"system"	"unusual_butterflyhead_teamcolor_red"
+			"id"	"346"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Fjärilsäsong"
+		}
+		"329"
+		{
+			"system"	"unusual_butterflyhead_teamcolor_blue"
+			"id"	"347"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Fjärilsäsong"
+		}
+		"330"
+		{
+			"system"	"unusual_hippieaura_parent"
+			"id"	"348"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Psykodelisk"
+		}
+		"331"
+		{
+			"system"	"unusual_butterfly_parent"
+			"id"	"349"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Förtrollade fjärilar"
+		}
+		"332"
+		{
+			"system"	"unusual_spectral_fire_parent"
+			"id"	"350"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Vålnadseld"
+		}
+		"333"
+		{
+			"system"	"unusual_galactic_fire_parent"
+			"id"	"351"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Galaktisk låga"
+		}
+		"334"
+		{
+			"system"	"unusual_frank_green_parent"
+			"id"	"352"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Återladdad"
+		}
+		"335"
+		{
+			"system"	"unusual_frank_purple_parent"
+			"id"	"353"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Vandöd elektricitet"
+		}
+		"336"
+		{
+			"system"	"unusual_frank_yellow_parent"
+			"id"	"354"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Frankenladdad"
+		}
+		"337"
+		{
+			"system"	"unusual_skullsmoke_green_parent"
+			"id"	"355"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Fantompest"
+		}
+		"338"
+		{
+			"system"	"unusual_skullsmoke_purple_parent"
+			"id"	"356"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Hemsökt dimma"
+		}
+		"339"
+		{
+			"system"	"unusual_pigeons_green_parent"
+			"id"	"357"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Bitska vampyrer"
+		}
+		"340"
+		{
+			"system"	"unusual_pigeons_purple_parent"
+			"id"	"358"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Glupska korpar"
+		}
+		"341"
+		{
+			"system"	"unusual_pigeons_white_parent"
+			"id"	"359"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Ljuvliga duvor"
+		}
+		"342"
+		{
+			"system"	"unusual_stove_teamcolor_red"
+			"id"	"360"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Osande spis"
+		}
+		"343"
+		{
+			"system"	"unusual_stove_teamcolor_blue"
+			"id"	"361"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Osande spis"
+		}
+		"344"
+		{
+			"system"	"unusual_electricfire_teamcolor_red"
+			"id"	"362"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Überlåga"
+		}
+		"345"
+		{
+			"system"	"unusual_electricfire_teamcolor_blue"
+			"id"	"363"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Überlåga"
+		}
+		"346"
+		{
+			"system"	"unusual_sizzling_parent"
+			"id"	"364"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Rykande"
+		}
+		"347"
+		{
+			"system"	"unusual_icrown_teamcolor_red"
+			"id"	"365"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Kristallkrona"
+		}
+		"348"
+		{
+			"system"	"unusual_icrown_teamcolor_blue"
+			"id"	"366"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Kristallkrona"
+		}
+		"349"
+		{
+			"system"	"unusual_icrown_parent_purple"
+			"id"	"367"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Salig gloria"
+		}
+		"350"
+		{
+			"system"	"unusual_timeghosts_parent"
+			"id"	"368"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Smissmas andar"
+		}
+		"351"
+		{
+			"system"	"unusual_aurora_parent"
+			"id"	"369"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Polarsky"
+		}
+		"352"
+		{
+			"system"	"unusual_bokehsparkle_parent"
+			"id"	"370"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Glänsande bokeh"
+		}
+		"353"
+		{
+			"system"	"unusual_playful_purple_parent"
+			"id"	"371"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Lekfull aurora"
+		}
+		"354"
+		{
+			"system"	"unusual_playful_yellow_parent"
+			"id"	"372"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Frisk morgon"
+		}
+		"355"
+		{
+			"system"	"unusual_drunk_parent"
+			"id"	"373"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Fyllbult"
+		}
+		"356"
+		{
+			"system"	"unusual_excalibur_teamcolor_red"
+			"id"	"374"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Hundra hugg"
+		}
+		"357"
+		{
+			"system"	"unusual_excalibur_teamcolor_blue"
+			"id"	"375"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Hundra hugg"
+		}
+		"358"
+		{
+			"system"	"unusual_excalibur_parent_purple"
+			"id"	"376"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Dödens dolkar"
+		}
+		"359"
+		{
+			"system"	"unusual_uber_teamcolor_red"
+			"id"	"377"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Maxladdad"
+		}
+		"360"
+		{
+			"system"	"unusual_uber_teamcolor_blue"
+			"id"	"378"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Maxladdad"
+		}
+		"361"
+		{
+			"system"	"unusual_uber_gold_parent"
+			"id"	"379"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Överladdad"
+		}
+		"362"
+		{
+			"system"	"unusual_orbitingbullet_parent"
+			"id"	"380"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Genomborrande huvudvärk"
+		}
+		"363"
+		{
+			"system"	"unusual_typhoon_parent"
+			"id"	"381"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Vansinnig vindstyrka"
+		}
+		"364"
+		{
+			"system"	"unusual_ocean_swirl_teamcolor_red"
+			"id"	"382"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Ocean Swirl"
+		}
+		"365"
+		{
+			"system"	"unusual_ocean_swirl_teamcolor_blue"
+			"id"	"383"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Ocean Swirl"
+		}
+		"366"
+		{
+			"system"	"unusual_ocean_swirl_green_parent"
+			"id"	"384"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Toxic Swirl"
+		}
+		"367"
+		{
+			"system"	"unusual_candle_teamcolor_red"
+			"id"	"385"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Candle Flame"
+		}
+		"368"
+		{
+			"system"	"unusual_candle_teamcolor_blue"
+			"id"	"386"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Candle Flame"
+		}
+		"369"
+		{
+			"system"	"unusual_deadlyaroma_teamcolor_red"
+			"id"	"387"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Sizzling Aroma"
+		}
+		"370"
+		{
+			"system"	"unusual_deadlyaroma_teamcolor_blue"
+			"id"	"388"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Sizzling Aroma"
+		}
+		"371"
+		{
+			"system"	"unusual_deadlyaroma_green_parent"
+			"id"	"389"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Toxic Aroma"
+		}
+		"372"
+		{
+			"system"	"unusual_conductor_teamc_teamcolor_red"
+			"id"	"390"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Current Conductor"
+		}
+		"373"
+		{
+			"system"	"unusual_conductor_teamc_teamcolor_blue"
+			"id"	"391"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Current Conductor"
+		}
+		"374"
+		{
+			"system"	"unusual_sandy_parent"
+			"id"	"392"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Sandy"
+		}
+		"375"
+		{
 			"system"	"weapon_unusual_hot"
 			"id"	"701"
 			"attach_to_rootbone"	"0"
 			"attachment"	"unusual_0"
 			"name"	"Varm"
 		}
-		"310"
+		"376"
 		{
 			"system"	"weapon_unusual_isotope"
 			"id"	"702"
@@ -12240,7 +12892,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"attachment"	"unusual_0"
 			"name"	"Isotop"
 		}
-		"311"
+		"377"
 		{
 			"system"	"weapon_unusual_cool"
 			"id"	"703"
@@ -12248,7 +12900,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"attachment"	"unusual_0"
 			"name"	"Kall"
 		}
-		"312"
+		"378"
 		{
 			"system"	"weapon_unusual_energyorb"
 			"id"	"704"
@@ -12256,1106 +12908,1582 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"attachment"	"unusual_0"
 			"name"	"Energiklot"
 		}
-		"313"
+		"379"
 		{
 			"system"	"killstreak_eyeglow_1_teamcolor_red"
 			"id"	"2001"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2001"
 		}
-		"314"
+		"380"
 		{
 			"system"	"killstreak_t1_lvl1"
 			"id"	"2002"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2002"
 		}
-		"315"
+		"381"
 		{
 			"system"	"killstreak_t2_lvl1"
 			"id"	"2003"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2003"
 		}
-		"316"
+		"382"
 		{
 			"system"	"killstreak_t3_lvl1"
 			"id"	"2004"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2004"
 		}
-		"317"
+		"383"
 		{
 			"system"	"killstreak_t4_lvl1"
 			"id"	"2005"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2005"
 		}
-		"318"
+		"384"
 		{
 			"system"	"killstreak_t5_lvl1"
 			"id"	"2006"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2006"
 		}
-		"319"
+		"385"
 		{
 			"system"	"killstreak_t6_lvl1"
 			"id"	"2007"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2007"
 		}
-		"320"
+		"386"
 		{
 			"system"	"killstreak_t7_lvl1"
 			"id"	"2008"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2008"
 		}
-		"321"
+		"387"
 		{
 			"system"	"utaunt_firework_teamcolor_red"
 			"id"	"3001"
 			"attach_to_rootbone"	"0"
 			"name"	"Showstoppare"
 		}
-		"322"
+		"388"
 		{
 			"system"	"utaunt_firework_teamcolor_blue"
 			"id"	"3002"
 			"attach_to_rootbone"	"0"
 			"name"	"Showstoppare"
 		}
-		"323"
+		"389"
 		{
 			"system"	"utaunt_beams_yellow"
 			"id"	"3003"
 			"attach_to_rootbone"	"0"
 			"name"	"Helig graal"
 		}
-		"324"
+		"390"
 		{
 			"system"	"utaunt_disco_party"
 			"id"	"3004"
 			"attach_to_rootbone"	"0"
 			"name"	"'72"
 		}
-		"325"
+		"391"
 		{
 			"system"	"utaunt_hearts_glow_parent"
 			"id"	"3005"
 			"attach_to_rootbone"	"0"
 			"name"	"Glädjefontän"
 		}
-		"326"
+		"392"
 		{
 			"system"	"utaunt_meteor_parent"
 			"id"	"3006"
 			"attach_to_rootbone"	"0"
 			"name"	"Skrikande Tigern"
 		}
-		"327"
+		"393"
 		{
 			"system"	"utaunt_cash_confetti"
 			"id"	"3007"
 			"attach_to_rootbone"	"0"
 			"name"	"Erfaret förtjänta pengar"
 		}
-		"328"
+		"394"
 		{
 			"system"	"utaunt_tornado_parent_black"
 			"id"	"3008"
 			"attach_to_rootbone"	"0"
 			"name"	"Midnattsvirvelvind"
 		}
-		"329"
+		"395"
 		{
 			"system"	"utaunt_tornado_parent_white"
 			"id"	"3009"
 			"attach_to_rootbone"	"0"
 			"name"	"Silvercyklon"
 		}
-		"330"
+		"396"
 		{
 			"system"	"utaunt_lightning_parent"
 			"id"	"3010"
 			"attach_to_rootbone"	"0"
 			"name"	"Megaslag"
 		}
-		"331"
+		"397"
 		{
 			"system"	"utaunt_souls_green_parent"
 			"id"	"3011"
 			"attach_to_rootbone"	"0"
 			"name"	"Hemsökande spöke"
 		}
-		"332"
+		"398"
 		{
 			"system"	"utaunt_souls_purple_parent"
 			"id"	"3012"
 			"attach_to_rootbone"	"0"
 			"name"	"Gastande gastar"
 		}
-		"333"
+		"399"
 		{
 			"system"	"utaunt_hellpit_parent"
 			"id"	"3013"
 			"attach_to_rootbone"	"0"
 			"name"	"Helvetiskt inferno"
 		}
-		"334"
+		"400"
 		{
 			"system"	"utaunt_hellswirl"
 			"id"	"3014"
 			"attach_to_rootbone"	"0"
 			"name"	"Vålnadsvirvel"
 		}
-		"335"
+		"401"
 		{
 			"system"	"utaunt_headless"
 			"id"	"3015"
 			"attach_to_rootbone"	"0"
 			"name"	"Helveteslågor"
 		}
-		"336"
+		"402"
 		{
 			"system"	"utaunt_merasmus"
 			"id"	"3016"
 			"attach_to_rootbone"	"0"
 			"name"	"Helvetesrök"
 		}
-		"337"
+		"403"
 		{
 			"system"	"utaunt_bubbles_glow_green_parent"
 			"id"	"3017"
 			"attach_to_rootbone"	"0"
 			"name"	"Sura avundbubblor"
 		}
-		"338"
+		"404"
 		{
 			"system"	"utaunt_bubbles_glow_orange_parent"
 			"id"	"3018"
 			"attach_to_rootbone"	"0"
 			"name"	"Lättantändliga attraktionsbubblor"
 		}
-		"339"
+		"405"
 		{
 			"system"	"utaunt_bubbles_glow_purple_parent"
 			"id"	"3019"
 			"attach_to_rootbone"	"0"
 			"name"	"Giftiga ångerbubblor"
 		}
-		"340"
+		"406"
 		{
 			"system"	"utaunt_firework_dragon_parent"
 			"id"	"3020"
 			"attach_to_rootbone"	"0"
 			"name"	"Rytande raketer"
 		}
-		"341"
+		"407"
 		{
 			"system"	"utaunt_smoke_moon_parent"
 			"id"	"3021"
 			"attach_to_rootbone"	"0"
 			"name"	"Kuslig natt"
 		}
-		"342"
+		"408"
 		{
 			"system"	"utaunt_smoke_moon_green_parent"
 			"id"	"3022"
 			"attach_to_rootbone"	"0"
 			"name"	"Olycksbådande natt"
 		}
-		"343"
+		"409"
 		{
 			"system"	"utaunt_arcane_purple_parent"
 			"id"	"3023"
 			"attach_to_rootbone"	"0"
 			"name"	"Förhäxad"
 		}
-		"344"
+		"410"
 		{
 			"system"	"utaunt_arcane_green_parent"
 			"id"	"3024"
 			"attach_to_rootbone"	"0"
 			"name"	"Fördömd"
 		}
-		"345"
+		"411"
 		{
 			"system"	"utaunt_arcane_yellow_parent"
 			"id"	"3025"
 			"attach_to_rootbone"	"0"
 			"name"	"Förtrollad"
 		}
-		"346"
+		"412"
 		{
 			"system"	"utaunt_electric_mist_parent"
 			"id"	"3026"
 			"attach_to_rootbone"	"0"
 			"name"	"Statiskt skimmer"
 		}
-		"347"
+		"413"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WP"
 			"id"	"3027"
 			"attach_to_rootbone"	"0"
 			"name"	"Otäckt oväder"
 		}
-		"348"
+		"414"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WB"
 			"id"	"3028"
 			"attach_to_rootbone"	"0"
 			"name"	"Demoniskt dunder"
 		}
-		"349"
+		"415"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WY"
 			"id"	"3029"
 			"attach_to_rootbone"	"0"
 			"name"	"Jaratechock"
 		}
-		"350"
+		"416"
 		{
 			"system"	"utaunt_portalswirl_purple_parent"
 			"id"	"3030"
 			"attach_to_rootbone"	"0"
 			"name"	"Transcendental portal"
 		}
-		"351"
+		"417"
 		{
 			"system"	"utaunt_present_parent"
 			"id"	"3031"
 			"attach_to_rootbone"	"0"
 			"name"	"Presentregn"
 		}
-		"352"
+		"418"
 		{
 			"system"	"utaunt_snowring_icy_parent"
 			"id"	"3032"
 			"attach_to_rootbone"	"0"
 			"name"	"Isande irrbloss"
 		}
-		"353"
+		"419"
 		{
 			"system"	"utaunt_snowring_space_parent"
 			"id"	"3033"
 			"attach_to_rootbone"	"0"
 			"name"	"Arktisk Aurora"
 		}
-		"354"
+		"420"
 		{
 			"system"	"utaunt_spirit_winter_parent"
 			"id"	"3034"
 			"attach_to_rootbone"	"0"
-			"name"	"Winter Spirit"
+			"name"	"Vinteranda"
 		}
-		"355"
+		"421"
 		{
 			"system"	"utaunt_spirit_festive_parent"
 			"id"	"3035"
 			"attach_to_rootbone"	"0"
-			"name"	"Festive Spirit"
+			"name"	"Feststämning"
 		}
-		"356"
+		"422"
 		{
 			"system"	"utaunt_spirit_magical_parent"
 			"id"	"3036"
 			"attach_to_rootbone"	"0"
-			"name"	"Magical Spirit"
+			"name"	"Magisk stämning"
 		}
-		"357"
+		"423"
 		{
 			"system"	"utaunt_astralbodies_greenorange_parent"
 			"id"	"3037"
 			"attach_to_rootbone"	"0"
-			"name"	"Spectral Escort"
+			"name"	"Spektraleskort"
 		}
-		"358"
+		"424"
 		{
 			"system"	"utaunt_astralbodies_tealpurple_parent"
 			"id"	"3038"
 			"attach_to_rootbone"	"0"
-			"name"	"Astral Presence"
+			"name"	"Astral närvaro"
 		}
-		"359"
+		"425"
 		{
 			"system"	"utaunt_astralbodies_teamcolor_red"
 			"id"	"3039"
 			"attach_to_rootbone"	"0"
-			"name"	"Arcane Assistance"
+			"name"	"Mystisk assistans"
 		}
-		"360"
+		"426"
 		{
 			"system"	"utaunt_astralbodies_teamcolor_blue"
 			"id"	"3040"
 			"attach_to_rootbone"	"0"
-			"name"	"Arcane Assistance"
+			"name"	"Mystisk assistans"
 		}
-		"361"
+		"427"
 		{
 			"system"	"utaunt_glowyplayer_green_parent"
 			"id"	"3041"
 			"attach_to_rootbone"	"0"
-			"name"	"Emerald Allurement"
+			"name"	"Lockande smaragd"
 		}
-		"362"
+		"428"
 		{
 			"system"	"utaunt_glowyplayer_orange_parent"
 			"id"	"3042"
 			"attach_to_rootbone"	"0"
-			"name"	"Pyrophoric Personality"
+			"name"	"Pyroforisk personlighet"
 		}
-		"363"
+		"429"
 		{
 			"system"	"utaunt_glowyplayer_purple_parent"
 			"id"	"3043"
 			"attach_to_rootbone"	"0"
-			"name"	"Spellbound Aspect"
+			"name"	"Förtrollad aspekt"
 		}
-		"364"
+		"430"
 		{
 			"system"	"utaunt_electricity_parent"
 			"id"	"3044"
 			"attach_to_rootbone"	"0"
 			"name"	"Statisk elektricitet"
 		}
-		"365"
+		"431"
 		{
 			"system"	"utaunt_electricity_purple_parent"
 			"id"	"3045"
 			"attach_to_rootbone"	"0"
-			"name"	"Veno Shock"
+			"name"	"Giftchock"
 		}
-		"366"
+		"432"
 		{
 			"system"	"utaunt_spider_green_parent"
 			"id"	"3046"
 			"attach_to_rootbone"	"0"
 			"name"	"Giftiga kryp"
 		}
-		"367"
+		"433"
 		{
 			"system"	"utaunt_spider_orange_parent"
 			"id"	"3047"
 			"attach_to_rootbone"	"0"
-			"name"	"Arachnid Assault"
+			"name"	"Spindelangrepp"
 		}
-		"368"
+		"434"
 		{
 			"system"	"utaunt_spider_purple_parent"
 			"id"	"3048"
 			"attach_to_rootbone"	"0"
-			"name"	"Creepy Crawlies"
+			"name"	"Krälande småkryp"
 		}
-		"369"
+		"435"
 		{
 			"system"	"utaunt_tf2smissmas_tree_parent"
 			"id"	"3049"
 			"attach_to_rootbone"	"0"
-			"name"	"Delightful Star"
+			"name"	"Charmant stjärna"
 		}
-		"370"
+		"436"
 		{
 			"system"	"utaunt_tf2smissmas_tree_parent_w"
 			"id"	"3050"
 			"attach_to_rootbone"	"0"
-			"name"	"Frosted Star"
+			"name"	"Frostad stjärna"
 		}
-		"371"
+		"437"
 		{
 			"system"	"utaunt_spirits_blue_parent"
 			"id"	"3051"
 			"attach_to_rootbone"	"0"
-			"name"	"Apotheosis"
+			"name"	"Apoteos"
 		}
-		"372"
+		"438"
 		{
 			"system"	"utaunt_spirits_purple_parent"
 			"id"	"3052"
 			"attach_to_rootbone"	"0"
-			"name"	"Ascension"
+			"name"	"Uppstigning"
 		}
-		"373"
+		"439"
 		{
 			"system"	"utaunt_balloonicorn_reindeer_teamcolor_red"
 			"id"	"3053"
 			"attach_to_rootbone"	"0"
-			"name"	"Reindoonicorn Rancher"
+			"name"	"Renhörningsskötare"
 		}
-		"374"
+		"440"
 		{
 			"system"	"utaunt_balloonicorn_reindeer_teamcolor_blue"
 			"id"	"3054"
 			"attach_to_rootbone"	"0"
-			"name"	"Reindoonicorn Rancher"
+			"name"	"Renhörningsskötare"
 		}
-		"375"
+		"441"
 		{
 			"system"	"utaunt_twinkling_rgb_parent"
 			"id"	"3055"
 			"attach_to_rootbone"	"0"
-			"name"	"Twinkling Lights"
+			"name"	"Tindrande ljus"
 		}
-		"376"
+		"442"
 		{
 			"system"	"utaunt_twinkling_goldsilver_parent"
 			"id"	"3056"
 			"attach_to_rootbone"	"0"
-			"name"	"Shimmering Lights"
+			"name"	"Skimrande ljus"
 		}
-		"377"
+		"443"
 		{
 			"system"	"utaunt_chain_green_parent"
 			"id"	"3059"
 			"attach_to_rootbone"	"0"
 			"name"	"Kusliga kedjor"
 		}
-		"378"
+		"444"
 		{
 			"system"	"utaunt_chain_purple_parent"
 			"id"	"3060"
 			"attach_to_rootbone"	"0"
 			"name"	"Fördömt fångenskap"
 		}
-		"379"
+		"445"
 		{
 			"system"	"utaunt_tarotcard_teamcolor_red"
 			"id"	"3061"
 			"attach_to_rootbone"	"0"
 			"name"	"Fanns i sjön"
 		}
-		"380"
+		"446"
 		{
 			"system"	"utaunt_tarotcard_teamcolor_blue"
 			"id"	"3062"
 			"attach_to_rootbone"	"0"
 			"name"	"Död mans hand"
 		}
-		"381"
+		"447"
 		{
 			"system"	"utaunt_tarotcard_orange_parent"
 			"id"	"3063"
 			"attach_to_rootbone"	"0"
 			"name"	"Spökpoker"
 		}
-		"382"
+		"448"
 		{
 			"system"	"utaunt_tarotcard_purple_parent"
 			"id"	"3064"
 			"attach_to_rootbone"	"0"
 			"name"	"Magisk kortlek"
 		}
-		"383"
+		"449"
 		{
 			"system"	"utaunt_elebound_green_parent"
 			"id"	"3065"
 			"attach_to_rootbone"	"0"
 			"name"	"Energisk puls"
 		}
-		"384"
+		"450"
 		{
 			"system"	"utaunt_elebound_purple_parent"
 			"id"	"3066"
 			"attach_to_rootbone"	"0"
 			"name"	"Elektrisk ande"
 		}
-		"385"
+		"451"
 		{
 			"system"	"utaunt_elebound_yellow_parent"
 			"id"	"3067"
 			"attach_to_rootbone"	"0"
 			"name"	"Galvanisk trots"
 		}
-		"386"
+		"452"
 		{
 			"system"	"utaunt_wispy_parent_g"
 			"id"	"3068"
 			"attach_to_rootbone"	"0"
 			"name"	"Virriga irrbloss"
 		}
-		"387"
+		"453"
 		{
 			"system"	"utaunt_wispy_parent_p"
 			"id"	"3069"
 			"attach_to_rootbone"	"0"
 			"name"	"Väsentliga väsen"
 		}
-		"388"
+		"454"
 		{
 			"system"	"utaunt_auroraglow_green_parent"
 			"id"	"3070"
 			"attach_to_rootbone"	"0"
 			"name"	"Norrsken"
 		}
-		"389"
+		"455"
 		{
 			"system"	"utaunt_auroraglow_orange_parent"
 			"id"	"3071"
 			"attach_to_rootbone"	"0"
 			"name"	"Sydsken"
 		}
-		"390"
+		"456"
 		{
 			"system"	"utaunt_auroraglow_purple_parent"
 			"id"	"3072"
 			"attach_to_rootbone"	"0"
 			"name"	"Polarsken"
 		}
-		"391"
+		"457"
 		{
 			"system"	"utaunt_snowswirl_purple_parent"
 			"id"	"3073"
 			"attach_to_rootbone"	"0"
-			"name"	"Amethyst Winds"
+			"name"	"Ametistvindar"
 		}
-		"392"
+		"458"
 		{
 			"system"	"utaunt_snowswirl_yellow_parent"
 			"id"	"3074"
 			"attach_to_rootbone"	"0"
-			"name"	"Golden Gusts"
+			"name"	"Gyllene vindbyar"
 		}
-		"393"
+		"459"
 		{
 			"system"	"utaunt_snowswirl_teamcolor_red"
 			"id"	"3075"
 			"attach_to_rootbone"	"0"
-			"name"	"Smissmas Swirls"
+			"name"	"Smissmas-virvlar"
 		}
-		"394"
+		"460"
 		{
 			"system"	"utaunt_snowswirl_teamcolor_blue"
 			"id"	"3076"
 			"attach_to_rootbone"	"0"
-			"name"	"Smissmas Swirls"
+			"name"	"Smissmas-virvlar"
 		}
-		"395"
+		"461"
 		{
 			"system"	"utaunt_treespiral_green_parent"
 			"id"	"3077"
 			"attach_to_rootbone"	"0"
-			"name"	"Minty Cypress"
+			"name"	"Mintcypress"
 		}
-		"396"
+		"462"
 		{
 			"system"	"utaunt_treespiral_purple_parent"
 			"id"	"3078"
 			"attach_to_rootbone"	"0"
-			"name"	"Pristine Pine"
+			"name"	"Pur furu"
 		}
-		"397"
+		"463"
 		{
 			"system"	"utaunt_treespiral_teamcolor_red"
 			"id"	"3079"
 			"attach_to_rootbone"	"0"
-			"name"	"Sparkly Spruce"
+			"name"	"Gnistrande gran"
 		}
-		"398"
+		"464"
 		{
 			"system"	"utaunt_treespiral_teamcolor_blue"
 			"id"	"3080"
 			"attach_to_rootbone"	"0"
-			"name"	"Sparkly Spruce"
+			"name"	"Gnistrande gran"
 		}
-		"399"
+		"465"
 		{
 			"system"	"utaunt_gifts_teamcolor_red"
 			"id"	"3081"
 			"attach_to_rootbone"	"0"
-			"name"	"Festive Fever"
+			"name"	"Festlig feber"
 		}
-		"400"
+		"466"
 		{
 			"system"	"utaunt_gifts_teamcolor_blue"
 			"id"	"3082"
 			"attach_to_rootbone"	"0"
-			"name"	"Festive Fever"
+			"name"	"Festlig feber"
 		}
-		"401"
+		"467"
 		{
 			"system"	"utaunt_glitter_parent_gold"
 			"id"	"3083"
 			"attach_to_rootbone"	"0"
-			"name"	"Golden Glimmer"
+			"name"	"Guldglimmer"
 		}
-		"402"
+		"468"
 		{
 			"system"	"utaunt_glitter_parent_silver"
 			"id"	"3084"
 			"attach_to_rootbone"	"0"
-			"name"	"Frosty Silver"
+			"name"	"Frostig silver"
 		}
-		"403"
+		"469"
 		{
 			"system"	"utaunt_glitter_teamcolor_red"
 			"id"	"3085"
 			"attach_to_rootbone"	"0"
-			"name"	"Glamorous Dazzle"
+			"name"	"Glamoröst skimmer"
 		}
-		"404"
+		"470"
 		{
 			"system"	"utaunt_glitter_teamcolor_blue"
 			"id"	"3086"
 			"attach_to_rootbone"	"0"
-			"name"	"Glamorous Dazzle"
+			"name"	"Glamoröst skimmer"
 		}
-		"405"
+		"471"
 		{
 			"system"	"utaunt_ice_parent"
 			"id"	"3087"
 			"attach_to_rootbone"	"0"
-			"name"	"Sublime Snowstorm"
+			"name"	"Sublim snöstorm"
 		}
-		"406"
+		"472"
 		{
 			"system"	"utaunt_marigoldritual_teamcolor_red"
 			"id"	"3088"
 			"attach_to_rootbone"	"0"
-			"name"	"Marigold Ritual"
+			"name"	"Ringblommedans"
 		}
-		"407"
+		"473"
 		{
 			"system"	"utaunt_marigoldritual_teamcolor_blue"
 			"id"	"3089"
 			"attach_to_rootbone"	"0"
-			"name"	"Marigold Ritual"
+			"name"	"Ringblommedans"
 		}
-		"408"
+		"474"
 		{
 			"system"	"utaunt_poison_parent_green"
 			"id"	"3090"
 			"attach_to_rootbone"	"0"
-			"name"	"Pungent Poison"
+			"name"	"Stickande gift"
 		}
-		"409"
+		"475"
 		{
 			"system"	"utaunt_poison_parent_orange"
 			"id"	"3091"
 			"attach_to_rootbone"	"0"
-			"name"	"Blazed Brew"
+			"name"	"Brinnande brygd"
 		}
-		"410"
+		"476"
 		{
 			"system"	"utaunt_poison_parent_purple"
 			"id"	"3092"
 			"attach_to_rootbone"	"0"
-			"name"	"Mysterious Mixture"
+			"name"	"Mystisk blandning"
 		}
-		"411"
+		"477"
 		{
 			"system"	"utaunt_runeprison_green_parent"
 			"id"	"3093"
 			"attach_to_rootbone"	"0"
-			"name"	"Linguistic Deviation"
+			"name"	"Språklig avvikelse"
 		}
-		"412"
+		"478"
 		{
 			"system"	"utaunt_runeprison_yellow_parent"
 			"id"	"3094"
 			"attach_to_rootbone"	"0"
-			"name"	"Aurelian Seal"
+			"name"	"Aureliskt sigill"
 		}
-		"413"
+		"479"
 		{
 			"system"	"utaunt_runeprison_teamcolor_red"
 			"id"	"3095"
 			"attach_to_rootbone"	"0"
-			"name"	"Runic Imprisonment"
+			"name"	"Runfängsel"
 		}
-		"414"
+		"480"
 		{
 			"system"	"utaunt_runeprison_teamcolor_blue"
 			"id"	"3096"
 			"attach_to_rootbone"	"0"
-			"name"	"Runic Imprisonment"
+			"name"	"Runfängsel"
 		}
-		"415"
+		"481"
 		{
 			"system"	"utaunt_prismatichaze_parent"
 			"id"	"3097"
 			"attach_to_rootbone"	"0"
-			"name"	"Prismatic Haze"
+			"name"	"Prismatiskt dis"
 		}
-		"416"
+		"482"
 		{
 			"system"	"utaunt_risingsprit_teamcolor_red"
 			"id"	"3098"
 			"attach_to_rootbone"	"0"
-			"name"	"Rising Ritual"
+			"name"	"Stigande ritual"
 		}
-		"417"
+		"483"
 		{
 			"system"	"utaunt_risingsprit_teamcolor_blue"
 			"id"	"3099"
 			"attach_to_rootbone"	"0"
-			"name"	"Rising Ritual"
+			"name"	"Stigande ritual"
 		}
-		"418"
+		"484"
 		{
 			"system"	"utaunt_hands_teamcolor_red"
 			"id"	"3100"
 			"attach_to_rootbone"	"0"
-			"name"	"Bloody Grip"
+			"name"	"Blodgrepp"
 		}
-		"419"
+		"485"
 		{
 			"system"	"utaunt_hands_teamcolor_blue"
 			"id"	"3101"
 			"attach_to_rootbone"	"0"
-			"name"	"Bloody Grip"
+			"name"	"Blodgrepp"
 		}
-		"420"
+		"486"
 		{
 			"system"	"utaunt_hands_green_parent"
 			"id"	"3102"
 			"attach_to_rootbone"	"0"
-			"name"	"Toxic Grip"
+			"name"	"Giftgrepp"
 		}
-		"421"
+		"487"
 		{
 			"system"	"utaunt_hands_orange_parent"
 			"id"	"3103"
 			"attach_to_rootbone"	"0"
-			"name"	"Infernal Grip"
+			"name"	"Helvetsgrepp"
 		}
-		"422"
+		"488"
 		{
 			"system"	"utaunt_hands_purple_parent"
 			"id"	"3104"
 			"attach_to_rootbone"	"0"
-			"name"	"Death Grip"
+			"name"	"Dödsgrepp"
 		}
-		"423"
+		"489"
 		{
 			"system"	"utaunt_storm_parent_g"
 			"id"	"3105"
 			"attach_to_rootbone"	"0"
-			"name"	"Charged Arcane"
+			"name"	"Laddad magi"
 		}
-		"424"
+		"490"
 		{
 			"system"	"utaunt_storm_parent_k"
 			"id"	"3106"
 			"attach_to_rootbone"	"0"
-			"name"	"Thunderous Rage"
+			"name"	"Åskande ilska"
 		}
-		"425"
+		"491"
 		{
 			"system"	"utaunt_storm_parent_o"
 			"id"	"3107"
 			"attach_to_rootbone"	"0"
-			"name"	"Convulsive Fiery"
+			"name"	"Konvulsiv glöd"
 		}
-		"426"
+		"492"
 		{
 			"system"	"utaunt_festivelights_teamcolor_red"
 			"id"	"3108"
 			"attach_to_rootbone"	"0"
-			"name"	"Festivized Formation"
+			"name"	"Festlig form"
 		}
-		"427"
+		"493"
 		{
 			"system"	"utaunt_festivelights_teamcolor_blue"
 			"id"	"3109"
 			"attach_to_rootbone"	"0"
-			"name"	"Festivized Formation"
+			"name"	"Festlig form"
 		}
-		"428"
+		"494"
 		{
 			"system"	"utaunt_glow_spirit_parent_cr"
 			"id"	"3110"
 			"attach_to_rootbone"	"0"
-			"name"	"Twirling Spirits"
+			"name"	"Virvlande andar"
 		}
-		"429"
+		"495"
 		{
 			"system"	"utaunt_glow_spirit_parent_og"
 			"id"	"3111"
 			"attach_to_rootbone"	"0"
-			"name"	"Squash n' Twist"
+			"name"	"Squashtwist"
 		}
-		"430"
+		"496"
 		{
 			"system"	"utaunt_glow_spirit_parent_pp"
 			"id"	"3112"
 			"attach_to_rootbone"	"0"
-			"name"	"Midnight Sparklers"
+			"name"	"Midnattsbloss"
 		}
-		"431"
+		"497"
 		{
 			"system"	"utaunt_snowflakesaura_parent"
 			"id"	"3113"
 			"attach_to_rootbone"	"0"
-			"name"	"Boundless Blizzard"
+			"name"	"Ändlös snöstorm"
 		}
-		"432"
+		"498"
 		{
 			"system"	"utaunt_sun_sand_rays_parent"
 			"id"	"3114"
 			"attach_to_rootbone"	"0"
-			"name"	"Solar Scorched"
+			"name"	"Solbränd"
 		}
-		"433"
+		"499"
 		{
 			"system"	"utaunt_undersea_teamcolor_red"
 			"id"	"3115"
 			"attach_to_rootbone"	"0"
-			"name"	"Deepsea Rave"
+			"name"	"Bottenfest"
 		}
-		"434"
+		"500"
 		{
 			"system"	"utaunt_undersea_teamcolor_blue"
 			"id"	"3116"
 			"attach_to_rootbone"	"0"
-			"name"	"Deepsea Rave"
+			"name"	"Bottenfest"
 		}
-		"435"
+		"501"
 		{
 			"system"	"utaunt_lavalamp_green_parent"
 			"id"	"3117"
 			"attach_to_rootbone"	"0"
-			"name"	"Blooming Beacon"
+			"name"	"Grönskande lava"
 		}
-		"436"
+		"502"
 		{
 			"system"	"utaunt_lavalamp_purple_parent"
 			"id"	"3118"
 			"attach_to_rootbone"	"0"
-			"name"	"Beaming Beacon"
+			"name"	"Strålande stråle"
 		}
-		"437"
+		"503"
 		{
 			"system"	"utaunt_lavalamp_yellow_parent"
 			"id"	"3119"
 			"attach_to_rootbone"	"0"
-			"name"	"Blazing Beacon"
+			"name"	"Flammande stråle"
 		}
-		"438"
+		"504"
 		{
 			"system"	"utaunt_fish_parent"
 			"id"	"3120"
 			"attach_to_rootbone"	"0"
-			"name"	"Floppin' Frenzy"
+			"name"	"Fiskfrenesi"
 		}
-		"439"
+		"505"
 		{
 			"system"	"utaunt_rainbow_teamcolor_red"
 			"id"	"3121"
 			"attach_to_rootbone"	"0"
-			"name"	"Pastel Trance"
+			"name"	"Pastelltrance"
 		}
-		"440"
+		"506"
 		{
 			"system"	"utaunt_rainbow_teamcolor_blue"
 			"id"	"3122"
 			"attach_to_rootbone"	"0"
-			"name"	"Pastel Trance"
+			"name"	"Pastelltrance"
 		}
-		"441"
+		"507"
 		{
 			"system"	"utaunt_wild_meadows_parent"
 			"id"	"3123"
 			"attach_to_rootbone"	"0"
-			"name"	"Wildflower Meadows"
+			"name"	"Blomsteräng"
 		}
-		"442"
+		"508"
 		{
 			"system"	"utaunt_krakenmouth_green_parent"
 			"id"	"3124"
 			"attach_to_rootbone"	"0"
-			"name"	"Deep-sea Devourer"
+			"name"	"Djuphavsslukare"
 		}
-		"443"
+		"509"
 		{
 			"system"	"utaunt_krakenmouth_purple_parent"
 			"id"	"3125"
 			"attach_to_rootbone"	"0"
-			"name"	"Eldritch Horror"
+			"name"	"Avgrundsskrik"
 		}
-		"444"
+		"510"
 		{
 			"system"	"utaunt_leaftaunt_parent"
 			"id"	"3126"
 			"attach_to_rootbone"	"0"
-			"name"	"Autumn Leaves"
+			"name"	"Höstlöv"
 		}
-		"445"
+		"511"
 		{
 			"system"	"utaunt_graveparty_parent"
 			"id"	"3127"
 			"attach_to_rootbone"	"0"
-			"name"	"Dead Man's Party"
+			"name"	"Gravfest"
 		}
-		"446"
+		"512"
 		{
 			"system"	"utaunt_spellsplash_parent"
 			"id"	"3128"
 			"attach_to_rootbone"	"0"
-			"name"	"Potion Explosion"
+			"name"	"Explosionsbrygd"
 		}
-		"447"
+		"513"
 		{
 			"system"	"utaunt_cremation_purple_parent"
 			"id"	"3129"
 			"attach_to_rootbone"	"0"
-			"name"	"Haunted Cremation"
+			"name"	"Hemsökt kremering"
 		}
-		"448"
+		"514"
 		{
 			"system"	"utaunt_cremation_black_parent"
 			"id"	"3130"
 			"attach_to_rootbone"	"0"
-			"name"	"Cremation"
+			"name"	"Kremering"
 		}
-		"449"
+		"515"
 		{
 			"system"	"utaunt_snowfall_parent"
 			"id"	"3131"
 			"attach_to_rootbone"	"0"
 			"name"	"Snowfall"
 		}
-		"450"
+		"516"
 		{
 			"system"	"utaunt_constellations_teamcolor_red"
 			"id"	"3132"
 			"attach_to_rootbone"	"0"
 			"name"	"Galaktisk förbindelse"
 		}
-		"451"
+		"517"
 		{
 			"system"	"utaunt_constellations_teamcolor_blue"
 			"id"	"3133"
 			"attach_to_rootbone"	"0"
 			"name"	"Galaktisk förbindelse"
 		}
-		"452"
+		"518"
 		{
 			"system"	"utaunt_constellations_purple_parent"
 			"id"	"3134"
 			"attach_to_rootbone"	"0"
 			"name"	"Dunkel skymning"
 		}
-		"453"
+		"519"
 		{
 			"system"	"utaunt_constellations_pink_parent"
 			"id"	"3135"
 			"attach_to_rootbone"	"0"
 			"name"	"Kosmisk reva"
 		}
-		"454"
+		"520"
 		{
 			"system"	"utaunt_wispyworks_orangegreen_parent"
 			"id"	"3136"
 			"attach_to_rootbone"	"0"
 			"name"	"Osjälvisk känsla"
 		}
-		"455"
+		"521"
 		{
 			"system"	"utaunt_wispyworks_purpleblue_parent"
 			"id"	"3137"
 			"attach_to_rootbone"	"0"
 			"name"	"Avlägsen önskan"
 		}
-		"456"
+		"522"
 		{
 			"system"	"utaunt_wispyworks_yellowpurple_parent"
 			"id"	"3138"
 			"attach_to_rootbone"	"0"
 			"name"	"Glamorös blick"
 		}
-		"457"
+		"523"
 		{
 			"system"	"utaunt_innerblizzard_teamcolor_red"
 			"id"	"3139"
 			"attach_to_rootbone"	"0"
 			"name"	"Permafrostessens"
 		}
-		"458"
+		"524"
 		{
 			"system"	"utaunt_innerblizzard_teamcolor_blue"
 			"id"	"3140"
 			"attach_to_rootbone"	"0"
 			"name"	"Permafrostessens"
 		}
-		"459"
+		"525"
 		{
 			"system"	"utaunt_innerblizzard_purple_parent"
 			"id"	"3141"
 			"attach_to_rootbone"	"0"
 			"name"	"Arktiskt behag"
 		}
-		"460"
+		"526"
 		{
 			"system"	"utaunt_spotlight_parent"
 			"id"	"3142"
 			"attach_to_rootbone"	"0"
 			"name"	"Vinnande anda"
 		}
-		"461"
+		"527"
 		{
 			"system"	"utaunt_pedalfly_teamcolor_red"
 			"id"	"3143"
 			"attach_to_rootbone"	"0"
 			"name"	"Dansanta blad"
 		}
-		"462"
+		"528"
 		{
 			"system"	"utaunt_pedalfly_teamcolor_blue"
 			"id"	"3144"
 			"attach_to_rootbone"	"0"
 			"name"	"Dansanta blad"
 		}
-		"463"
+		"529"
+		{
+			"system"	"utaunt_dragonfly_teamcolor_red"
+			"id"	"3145"
+			"attach_to_rootbone"	"0"
+			"name"	"Trollsländornas famn"
+		}
+		"530"
+		{
+			"system"	"utaunt_dragonfly_teamcolor_blue"
+			"id"	"3146"
+			"attach_to_rootbone"	"0"
+			"name"	"Trollsländornas famn"
+		}
+		"531"
+		{
+			"system"	"utaunt_dragonfly_green_parent"
+			"id"	"3147"
+			"attach_to_rootbone"	"0"
+			"name"	"Trollsländornas natur"
+		}
+		"532"
+		{
+			"system"	"utaunt_dragonfly_purple_parent"
+			"id"	"3148"
+			"attach_to_rootbone"	"0"
+			"name"	"Trollsländornas glans"
+		}
+		"533"
+		{
+			"system"	"utaunt_demigodery_teamcolor_red"
+			"id"	"3149"
+			"attach_to_rootbone"	"0"
+			"name"	"Elstöt"
+		}
+		"534"
+		{
+			"system"	"utaunt_demigodery_teamcolor_blue"
+			"id"	"3150"
+			"attach_to_rootbone"	"0"
+			"name"	"Elstöt"
+		}
+		"535"
+		{
+			"system"	"utaunt_signalflares_teamcolor_red"
+			"id"	"3151"
+			"attach_to_rootbone"	"0"
+			"name"	"Nödsignal"
+		}
+		"536"
+		{
+			"system"	"utaunt_signalflares_teamcolor_blue"
+			"id"	"3152"
+			"attach_to_rootbone"	"0"
+			"name"	"Nödsignal"
+		}
+		"537"
+		{
+			"system"	"utaunt_signalflares_green_parent"
+			"id"	"3153"
+			"attach_to_rootbone"	"0"
+			"name"	"Cariocas kallelse"
+		}
+		"538"
+		{
+			"system"	"utaunt_celebrationtime_teamcolor_red"
+			"id"	"3154"
+			"attach_to_rootbone"	"0"
+			"name"	"Fiesta royale"
+		}
+		"539"
+		{
+			"system"	"utaunt_celebrationtime_teamcolor_blue"
+			"id"	"3155"
+			"attach_to_rootbone"	"0"
+			"name"	"Fiesta royale"
+		}
+		"540"
+		{
+			"system"	"utaunt_celebrationtime_yellow_parent"
+			"id"	"3156"
+			"attach_to_rootbone"	"0"
+			"name"	"Jubileumsjubel"
+		}
+		"541"
+		{
+			"system"	"utaunt_god_lava_teamcolor_red"
+			"id"	"3157"
+			"attach_to_rootbone"	"0"
+			"name"	"Elementär"
+		}
+		"542"
+		{
+			"system"	"utaunt_god_lava_teamcolor_blue"
+			"id"	"3158"
+			"attach_to_rootbone"	"0"
+			"name"	"Elementär"
+		}
+		"543"
+		{
+			"system"	"utaunt_god_gold_parent"
+			"id"	"3159"
+			"attach_to_rootbone"	"0"
+			"name"	"Gudomlig"
+		}
+		"544"
+		{
+			"system"	"utaunt_aestheticlogo_teamcolor_red"
+			"id"	"3160"
+			"attach_to_rootbone"	"0"
+			"name"	"Heroiskt lagarbete"
+		}
+		"545"
+		{
+			"system"	"utaunt_aestheticlogo_teamcolor_blue"
+			"id"	"3161"
+			"attach_to_rootbone"	"0"
+			"name"	"Heroiskt lagarbete"
+		}
+		"546"
+		{
+			"system"	"utaunt_aestheticlogo_orange_parent"
+			"id"	"3162"
+			"attach_to_rootbone"	"0"
+			"name"	"Minnesmärke"
+		}
+		"547"
+		{
+			"system"	"utaunt_desert_wind_parent"
+			"id"	"3163"
+			"attach_to_rootbone"	"0"
+			"name"	"Ökenvind"
+		}
+		"548"
+		{
+			"system"	"utaunt_desert_monsoon_parent"
+			"id"	"3164"
+			"attach_to_rootbone"	"0"
+			"name"	"Regnperiod"
+		}
+		"549"
+		{
+			"system"	"utaunt_treasure_teamcolor_red"
+			"id"	"3165"
+			"attach_to_rootbone"	"0"
+			"name"	"Rikliga rikedomar"
+		}
+		"550"
+		{
+			"system"	"utaunt_treasure_teamcolor_blue"
+			"id"	"3166"
+			"attach_to_rootbone"	"0"
+			"name"	"Rikliga rikedomar"
+		}
+		"551"
+		{
+			"system"	"utaunt_hearttreasure_parent"
+			"id"	"3167"
+			"attach_to_rootbone"	"0"
+			"name"	"Älskare av lyx"
+		}
+		"552"
+		{
+			"system"	"utaunt_wiggletube_teamcolor_red"
+			"id"	"3168"
+			"attach_to_rootbone"	"0"
+			"name"	"Amorös"
+		}
+		"553"
+		{
+			"system"	"utaunt_wiggletube_teamcolor_blue"
+			"id"	"3169"
+			"attach_to_rootbone"	"0"
+			"name"	"Amorös"
+		}
+		"554"
+		{
+			"system"	"utaunt_wiggletube_coffee_parent"
+			"id"	"3170"
+			"attach_to_rootbone"	"0"
+			"name"	"Elektrum"
+		}
+		"555"
+		{
+			"system"	"utaunt_flowerrain_teamcolor_red"
+			"id"	"3171"
+			"attach_to_rootbone"	"0"
+			"name"	"Blomsterregn"
+		}
+		"556"
+		{
+			"system"	"utaunt_flowerrain_teamcolor_blue"
+			"id"	"3172"
+			"attach_to_rootbone"	"0"
+			"name"	"Blomsterregn"
+		}
+		"557"
+		{
+			"system"	"utaunt_flowerrain_purple_parent"
+			"id"	"3173"
+			"attach_to_rootbone"	"0"
+			"name"	"Våldsamma violer"
+		}
+		"558"
+		{
+			"system"	"utaunt_poweraura_teamcolor_red"
+			"id"	"3174"
+			"attach_to_rootbone"	"0"
+			"name"	"Krafttryck"
+		}
+		"559"
+		{
+			"system"	"utaunt_poweraura_teamcolor_blue"
+			"id"	"3175"
+			"attach_to_rootbone"	"0"
+			"name"	"Krafttryck"
+		}
+		"560"
+		{
+			"system"	"utaunt_poweraura_green_parent"
+			"id"	"3176"
+			"attach_to_rootbone"	"0"
+			"name"	"Stigande ström"
+		}
+		"561"
+		{
+			"system"	"utaunt_poweraura_purple_parent"
+			"id"	"3177"
+			"attach_to_rootbone"	"0"
+			"name"	"Laddningskatalysator"
+		}
+		"562"
+		{
+			"system"	"utaunt_poweraura_yellow_parent"
+			"id"	"3178"
+			"attach_to_rootbone"	"0"
+			"name"	"Förstärkande aura"
+		}
+		"563"
+		{
+			"system"	"utaunt_mysticfusion_parent"
+			"id"	"3179"
+			"attach_to_rootbone"	"0"
+			"name"	"Mystisk fusion"
+		}
+		"564"
+		{
+			"system"	"utaunt_confetti_gy_parent"
+			"id"	"3180"
+			"attach_to_rootbone"	"0"
+			"name"	"Irriterande konfetti"
+		}
+		"565"
+		{
+			"system"	"utaunt_confetti_pp_parent"
+			"id"	"3181"
+			"attach_to_rootbone"	"0"
+			"name"	"Älskvärd konfetti"
+		}
+		"566"
+		{
+			"system"	"utaunt_confetti_yp_parent"
+			"id"	"3182"
+			"attach_to_rootbone"	"0"
+			"name"	"Konfettiregn"
+		}
+		"567"
+		{
+			"system"	"utaunt_heavyrain_parent"
+			"id"	"3183"
+			"attach_to_rootbone"	"0"
+			"name"	"Ösregn"
+		}
+		"568"
+		{
+			"system"	"utaunt_field_parent"
+			"id"	"3184"
+			"attach_to_rootbone"	"0"
+			"name"	"Pumpaodling"
+		}
+		"569"
+		{
+			"system"	"utaunt_whitesmissmas_parent"
+			"id"	"3185"
+			"attach_to_rootbone"	"0"
+			"name"	"Snöig dag"
+		}
+		"570"
+		{
+			"system"	"utaunt_busysnow_teamcolor_red"
+			"id"	"3186"
+			"attach_to_rootbone"	"0"
+			"name"	"Snöstämning"
+		}
+		"571"
+		{
+			"system"	"utaunt_busysnow_teamcolor_blue"
+			"id"	"3187"
+			"attach_to_rootbone"	"0"
+			"name"	"Snöstämning"
+		}
+		"572"
+		{
+			"system"	"utaunt_busysnow_parent_p"
+			"id"	"3188"
+			"attach_to_rootbone"	"0"
+			"name"	"Lila sensation"
+		}
+		"573"
+		{
+			"system"	"utaunt_busysnow_parent_g"
+			"id"	"3189"
+			"attach_to_rootbone"	"0"
+			"name"	"Grönt fenomen"
+		}
+		"574"
+		{
+			"system"	"utaunt_roses_teamcolor_red"
+			"id"	"3190"
+			"attach_to_rootbone"	"0"
+			"name"	"Prisbelönt"
+		}
+		"575"
+		{
+			"system"	"utaunt_roses_teamcolor_blue"
+			"id"	"3191"
+			"attach_to_rootbone"	"0"
+			"name"	"Prisbelönt"
+		}
+		"576"
+		{
+			"system"	"utaunt_roses_gold_parent"
+			"id"	"3192"
+			"attach_to_rootbone"	"0"
+			"name"	"Operatisk triumf"
+		}
+		"577"
+		{
+			"system"	"utaunt_tangledlights_parent"
+			"id"	"3193"
+			"attach_to_rootbone"	"0"
+			"name"	"Trassliga ljus"
+		}
+		"578"
+		{
+			"system"	"utaunt_seamine_teamcolor_red"
+			"id"	"3194"
+			"attach_to_rootbone"	"0"
+			"name"	"Sjömina"
+		}
+		"579"
+		{
+			"system"	"utaunt_seamine_teamcolor_blue"
+			"id"	"3195"
+			"attach_to_rootbone"	"0"
+			"name"	"Sjömina"
+		}
+		"580"
+		{
+			"system"	"utaunt_iconicoutline_teamcolor_red"
+			"id"	"3196"
+			"attach_to_rootbone"	"0"
+			"name"	"Ikonisk kontur"
+		}
+		"581"
+		{
+			"system"	"utaunt_iconicoutline_teamcolor_blue"
+			"id"	"3197"
+			"attach_to_rootbone"	"0"
+			"name"	"Ikonisk kontur"
+		}
+		"582"
+		{
+			"system"	"utaunt_iconicoutline_pink_parent"
+			"id"	"3198"
+			"attach_to_rootbone"	"0"
+			"name"	"Subtil silhuett"
+		}
+		"583"
+		{
+			"system"	"utaunt_oceanreef_parent"
+			"id"	"3199"
+			"attach_to_rootbone"	"0"
+			"name"	"Havsrev"
+		}
+		"584"
+		{
+			"system"	"utaunt_signalinterference_parent"
+			"id"	"3200"
+			"attach_to_rootbone"	"0"
+			"name"	"Dålig signal"
+		}
+		"585"
+		{
+			"system"	"utaunt_waterwave_parent"
+			"id"	"3201"
+			"attach_to_rootbone"	"0"
+			"name"	"Sommarbölja"
+		}
+		"586"
+		{
+			"system"	"utaunt_sharkfin2_parent"
+			"id"	"3202"
+			"attach_to_rootbone"	"0"
+			"name"	"Hajattack"
+		}
+		"587"
+		{
+			"system"	"utaunt_phantasam_green_parent"
+			"id"	"3203"
+			"attach_to_rootbone"	"0"
+			"name"	"Hazardous Gas"
+		}
+		"588"
+		{
+			"system"	"utaunt_phantasam_grey_parent"
+			"id"	"3204"
+			"attach_to_rootbone"	"0"
+			"name"	"Phantasmal Fog"
+		}
+		"589"
+		{
+			"system"	"utaunt_phantasam_purple_parent"
+			"id"	"3205"
+			"attach_to_rootbone"	"0"
+			"name"	"Haunted Mist"
+		}
+		"590"
+		{
+			"system"	"utaunt_multicurse_teamcolor_red"
+			"id"	"3206"
+			"attach_to_rootbone"	"0"
+			"name"	"Split Malice"
+		}
+		"591"
+		{
+			"system"	"utaunt_multicurse_teamcolor_blue"
+			"id"	"3207"
+			"attach_to_rootbone"	"0"
+			"name"	"Split Malice"
+		}
+		"592"
+		{
+			"system"	"utaunt_voidcrawlers_parent"
+			"id"	"3208"
+			"attach_to_rootbone"	"0"
+			"name"	"Void Crawlers"
+		}
+		"593"
+		{
+			"system"	"utaunt_tarpit_dinos_parent"
+			"id"	"3209"
+			"attach_to_rootbone"	"0"
+			"name"	"Fossil Fueled"
+		}
+		"594"
+		{
+			"system"	"utaunt_tarpit_people_parent"
+			"id"	"3210"
+			"attach_to_rootbone"	"0"
+			"name"	"Tar Pit"
+		}
+		"595"
+		{
+			"system"	"utaunt_morbed_teamcolor_red"
+			"id"	"3211"
+			"attach_to_rootbone"	"0"
+			"name"	"Morbidly Beast"
+		}
+		"596"
+		{
+			"system"	"utaunt_morbed_teamcolor_blue"
+			"id"	"3212"
+			"attach_to_rootbone"	"0"
+			"name"	"Morbidly Beast"
+		}
+		"597"
 		{
 			"system"	"killstreak_eyeglow_4_teamcolor_red"
 			"id"	"22001"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22001"
 		}
-		"464"
+		"598"
 		{
 			"system"	"killstreak_t1_lvl2"
 			"id"	"22002"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22002"
 		}
-		"465"
+		"599"
 		{
 			"system"	"killstreak_t2_lvl2"
 			"id"	"22003"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22003"
 		}
-		"466"
+		"600"
 		{
 			"system"	"killstreak_t3_lvl2"
 			"id"	"22004"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22004"
 		}
-		"467"
+		"601"
 		{
 			"system"	"killstreak_t4_lvl2"
 			"id"	"22005"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22005"
 		}
-		"468"
+		"602"
 		{
 			"system"	"killstreak_t5_lvl2"
 			"id"	"22006"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22006"
 		}
-		"469"
+		"603"
 		{
 			"system"	"killstreak_t6_lvl2"
 			"id"	"22007"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22007"
 		}
-		"470"
+		"604"
 		{
 			"system"	"killstreak_t7_lvl2"
 			"id"	"22008"
@@ -13386,19 +14514,19 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"2"
 					"required_score"	"45"
-					"name"	"Knappt Dödlig"
+					"name"	"Knappt dödlig"
 				}
 				"3"
 				{
 					"level"	"3"
 					"required_score"	"70"
-					"name"	"Aningen Aggressiv"
+					"name"	"Aningen aggressiv"
 				}
 				"4"
 				{
 					"level"	"4"
 					"required_score"	"100"
-					"name"	"Något Hotfull"
+					"name"	"Något hotfull"
 				}
 				"5"
 				{
@@ -13410,25 +14538,25 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"6"
 					"required_score"	"175"
-					"name"	"Hyfsat Hård"
+					"name"	"Hyfsat hård"
 				}
 				"7"
 				{
 					"level"	"7"
 					"required_score"	"225"
-					"name"	"Tillräckligt Dödlig"
+					"name"	"Tillräckligt dödlig"
 				}
 				"8"
 				{
 					"level"	"8"
 					"required_score"	"275"
-					"name"	"Sannerligen Fruktad"
+					"name"	"Sannerligen fruktad"
 				}
 				"9"
 				{
 					"level"	"9"
 					"required_score"	"350"
-					"name"	"Spektakulärt Hänsynslös"
+					"name"	"Spektakulärt hänsynslös"
 				}
 				"10"
 				{
@@ -13440,19 +14568,19 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"11"
 					"required_score"	"750"
-					"name"	"Galet Elak"
+					"name"	"Galet elak"
 				}
 				"12"
 				{
 					"level"	"12"
 					"required_score"	"999"
-					"name"	"Definitivt Omänsklig"
+					"name"	"Definitivt omänsklig"
 				}
 				"13"
 				{
 					"level"	"13"
 					"required_score"	"1000"
-					"name"	"Totalt Ordinär"
+					"name"	"Totalt ordinär"
 				}
 				"14"
 				{
@@ -13494,7 +14622,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"20"
 					"required_score"	"10000"
-					"name"	"Hales Egen"
+					"name"	"Hales egen"
 				}
 			}
 		}
@@ -13755,7 +14883,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"20"
 					"required_score"	"10000"
-					"name"	"Mann Co.-Exklusiv"
+					"name"	"Mann Co.-exklusiv"
 				}
 			}
 		}
@@ -13780,19 +14908,19 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"2"
 					"required_score"	"5"
-					"name"	"Knappt Använda"
+					"name"	"Knappt använda"
 				}
 				"3"
 				{
 					"level"	"3"
 					"required_score"	"7"
-					"name"	"Något Hotfulla"
+					"name"	"Något hotfulla"
 				}
 				"4"
 				{
 					"level"	"4"
 					"required_score"	"10"
-					"name"	"Förkrossande Krossande"
+					"name"	"Förkrossande krossande"
 				}
 				"5"
 				{
@@ -13804,49 +14932,49 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"6"
 					"required_score"	"18"
-					"name"	"Ganska Ljusdämpande"
+					"name"	"Ganska ljusdämpande"
 				}
 				"7"
 				{
 					"level"	"7"
 					"required_score"	"23"
-					"name"	"Tillräckligt Solförmörkande"
+					"name"	"Tillräckligt solförmörkande"
 				}
 				"8"
 				{
 					"level"	"8"
 					"required_score"	"28"
-					"name"	"Sannerligen Förmörkande"
+					"name"	"Sannerligen förmörkande"
 				}
 				"9"
 				{
 					"level"	"9"
 					"required_score"	"35"
-					"name"	"Spektakulärt Dödliga"
+					"name"	"Spektakulärt dödliga"
 				}
 				"10"
 				{
 					"level"	"10"
 					"required_score"	"50"
-					"name"	"Moderiktiga och Blodstänkta"
+					"name"	"Moderiktiga och blodstänkta"
 				}
 				"11"
 				{
 					"level"	"11"
 					"required_score"	"75"
-					"name"	"Galet Illaluktande"
+					"name"	"Galet illaluktande"
 				}
 				"12"
 				{
 					"level"	"12"
 					"required_score"	"99"
-					"name"	"Positivt Plana"
+					"name"	"Positivt plana"
 				}
 				"13"
 				{
 					"level"	"13"
 					"required_score"	"100"
-					"name"	"Mycket Bekväma"
+					"name"	"Mycket bekväma"
 				}
 				"14"
 				{
@@ -13888,7 +15016,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"20"
 					"required_score"	"1000"
-					"name"	"Hales Anpassade"
+					"name"	"Hales anpassade"
 				}
 			}
 		}
@@ -13913,19 +15041,19 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"2"
 					"required_score"	"15"
-					"name"	"Knappt Chockerande"
+					"name"	"Knappt chockerande"
 				}
 				"3"
 				{
 					"level"	"3"
 					"required_score"	"21"
-					"name"	"Milt Magnetiserande"
+					"name"	"Milt magnetiserande"
 				}
 				"4"
 				{
 					"level"	"4"
 					"required_score"	"30"
-					"name"	"Någorlunda Inducerande"
+					"name"	"Någorlunda inducerande"
 				}
 				"5"
 				{
@@ -13937,25 +15065,25 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"6"
 					"required_score"	"54"
-					"name"	"Märkbart Borttagande"
+					"name"	"Märkbart borttagande"
 				}
 				"7"
 				{
 					"level"	"7"
 					"required_score"	"69"
-					"name"	"Tillräckligt Ruinerande"
+					"name"	"Tillräckligt ruinerande"
 				}
 				"8"
 				{
 					"level"	"8"
 					"required_score"	"84"
-					"name"	"Sannerligen Ledande"
+					"name"	"Sannerligen ledande"
 				}
 				"9"
 				{
 					"level"	"9"
 					"required_score"	"105"
-					"name"	"Spektakulärt Pseudoisk"
+					"name"	"Spektakulärt pseudoisk"
 				}
 				"10"
 				{
@@ -13967,19 +15095,19 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"11"
 					"required_score"	"225"
-					"name"	"Galet Dynamitlig"
+					"name"	"Galet dynamitlig"
 				}
 				"12"
 				{
 					"level"	"12"
 					"required_score"	"299"
-					"name"	"Positivt Plasmatisk"
+					"name"	"Positivt plasmatisk"
 				}
 				"13"
 				{
 					"level"	"13"
 					"required_score"	"300"
-					"name"	"Totalt Ordinär"
+					"name"	"Totalt ordinär"
 				}
 				"14"
 				{
@@ -14021,7 +15149,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"20"
 					"required_score"	"3000"
-					"name"	"Mann Co.-Exklusiv"
+					"name"	"Mann Co.-exklusiv"
 				}
 			}
 		}
@@ -14179,19 +15307,19 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"2"
 					"required_score"	"900"
-					"name"	"Knappt Chockerande"
+					"name"	"Knappt chockerande"
 				}
 				"3"
 				{
 					"level"	"3"
 					"required_score"	"1337"
-					"name"	"Milt Magnetiserande"
+					"name"	"Milt magnetiserande"
 				}
 				"4"
 				{
 					"level"	"4"
 					"required_score"	"2000"
-					"name"	"Någorlunda Inducerande"
+					"name"	"Någorlunda inducerande"
 				}
 				"5"
 				{
@@ -14203,25 +15331,25 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"6"
 					"required_score"	"3500"
-					"name"	"Märkbart Borttagande"
+					"name"	"Märkbart borttagande"
 				}
 				"7"
 				{
 					"level"	"7"
 					"required_score"	"4500"
-					"name"	"Tillräckligt Ruinerande"
+					"name"	"Tillräckligt ruinerande"
 				}
 				"8"
 				{
 					"level"	"8"
 					"required_score"	"5500"
-					"name"	"Sannerligen Ledande"
+					"name"	"Sannerligen ledande"
 				}
 				"9"
 				{
 					"level"	"9"
 					"required_score"	"7000"
-					"name"	"Spekakulärt Pseudoisk"
+					"name"	"Spekakulärt pseudoisk"
 				}
 				"10"
 				{
@@ -14233,19 +15361,19 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"11"
 					"required_score"	"12000"
-					"name"	"Galet Dynamitlig"
+					"name"	"Galet dynamitlig"
 				}
 				"12"
 				{
 					"level"	"12"
 					"required_score"	"16000"
-					"name"	"Positivt Plasmatisk"
+					"name"	"Positivt plasmatisk"
 				}
 				"13"
 				{
 					"level"	"13"
 					"required_score"	"21337"
-					"name"	"Totalt Ordinär"
+					"name"	"Totalt ordinär"
 				}
 				"14"
 				{
@@ -14287,7 +15415,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"20"
 					"required_score"	"200000"
-					"name"	"Mann Co.-Exklusiv"
+					"name"	"Mann Co.-exklusiv"
 				}
 			}
 		}
@@ -14312,19 +15440,19 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"2"
 					"required_score"	"9000"
-					"name"	"Knappt Chockerande"
+					"name"	"Knappt chockerande"
 				}
 				"3"
 				{
 					"level"	"3"
 					"required_score"	"13370"
-					"name"	"Milt Magnetiserande"
+					"name"	"Milt magnetiserande"
 				}
 				"4"
 				{
 					"level"	"4"
 					"required_score"	"20000"
-					"name"	"Någorlunda Inducerande"
+					"name"	"Någorlunda inducerande"
 				}
 				"5"
 				{
@@ -14336,25 +15464,25 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"6"
 					"required_score"	"35000"
-					"name"	"Märkbart Borttagande"
+					"name"	"Märkbart borttagande"
 				}
 				"7"
 				{
 					"level"	"7"
 					"required_score"	"45000"
-					"name"	"Tillräckligt Ruinerande"
+					"name"	"Tillräckligt ruinerande"
 				}
 				"8"
 				{
 					"level"	"8"
 					"required_score"	"55000"
-					"name"	"Sannerligen Ledande"
+					"name"	"Sannerligen ledande"
 				}
 				"9"
 				{
 					"level"	"9"
 					"required_score"	"70000"
-					"name"	"Spektakulärt Pseudoisk"
+					"name"	"Spektakulärt pseudoisk"
 				}
 				"10"
 				{
@@ -14366,19 +15494,19 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"11"
 					"required_score"	"120000"
-					"name"	"Galet Dynamitlig"
+					"name"	"Galet dynamitlig"
 				}
 				"12"
 				{
 					"level"	"12"
 					"required_score"	"160000"
-					"name"	"Positivt Plasmatisk"
+					"name"	"Positivt plasmatisk"
 				}
 				"13"
 				{
 					"level"	"13"
 					"required_score"	"213370"
-					"name"	"Totalt Ordinär"
+					"name"	"Totalt ordinär"
 				}
 				"14"
 				{
@@ -14420,7 +15548,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"20"
 					"required_score"	"2000000"
-					"name"	"Mann Co.-Exklusiv"
+					"name"	"Mann Co.-exklusiv"
 				}
 			}
 		}
@@ -14553,7 +15681,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"20"
 					"required_score"	"25000"
-					"name"	"Mannceaux Signaturkollektion"
+					"name"	"Mannceaux signaturkollektion"
 				}
 			}
 		}
@@ -14578,19 +15706,19 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"2"
 					"required_score"	"3"
-					"name"	"Ganska Ankig"
+					"name"	"Ganska ankig "
 				}
 				"3"
 				{
 					"level"	"3"
 					"required_score"	"4"
-					"name"	"Tämligen Fjädrig"
+					"name"	"Tämligen fjädrig "
 				}
 				"4"
 				{
 					"level"	"4"
 					"required_score"	"5"
-					"name"	"Något Kvackvärdig"
+					"name"	"Något kvackvärdig "
 				}
 				"5"
 				{
@@ -14608,13 +15736,13 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"7"
 					"required_score"	"8"
-					"name"	"Glatt Paddlande"
+					"name"	"Glatt paddlande "
 				}
 				"8"
 				{
 					"level"	"8"
 					"required_score"	"9"
-					"name"	"Perfekt Putsad"
+					"name"	"Perfekt putsad "
 				}
 				"9"
 				{
@@ -14668,7 +15796,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"17"
 					"required_score"	"18"
-					"name"	"Positivt Ankulent "
+					"name"	"Positivt ankulent "
 				}
 				"18"
 				{
@@ -14686,7 +15814,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"20"
 					"required_score"	"21"
-					"name"	"Quackstons Egna"
+					"name"	"Quackstons egen "
 				}
 			}
 		}
@@ -14850,7 +15978,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"20"
 					"required_score"	"38000"
-					"name"	"Merasmus Egen"
+					"name"	"Merasmus egen"
 				}
 			}
 		}
@@ -14894,127 +16022,127 @@ Dödande träffar på brinnande spelare ger en fartökning."
 				{
 					"level"	"0"
 					"required_score"	"1"
-					"name"	"Strange"
+					"name"	"Märklig"
 				}
 				"1"
 				{
 					"level"	"1"
 					"required_score"	"3"
-					"name"	"Unremarkable"
+					"name"	"Obetydlig"
 				}
 				"2"
 				{
 					"level"	"2"
 					"required_score"	"5"
-					"name"	"Scarcely Lethal"
+					"name"	"Knappt dödlig"
 				}
 				"3"
 				{
 					"level"	"3"
 					"required_score"	"7"
-					"name"	"Mildly Menacing"
+					"name"	"Aningen aggressiv"
 				}
 				"4"
 				{
 					"level"	"4"
 					"required_score"	"10"
-					"name"	"Somewhat Threatening"
+					"name"	"Något hotfull"
 				}
 				"5"
 				{
 					"level"	"5"
 					"required_score"	"14"
-					"name"	"Uncharitable"
+					"name"	"Obarmhärtig"
 				}
 				"6"
 				{
 					"level"	"6"
 					"required_score"	"18"
-					"name"	"Notably Dangerous"
+					"name"	"Hyfsat farlig"
 				}
 				"7"
 				{
 					"level"	"7"
 					"required_score"	"23"
-					"name"	"Sufficiently Lethal"
+					"name"	"Tillräckligt dödlig"
 				}
 				"8"
 				{
 					"level"	"8"
 					"required_score"	"28"
-					"name"	"Truly Feared"
+					"name"	"Sannerligen fruktad"
 				}
 				"9"
 				{
 					"level"	"9"
 					"required_score"	"35"
-					"name"	"Spectacularly Lethal"
+					"name"	"Spektakulärt hänsynslös"
 				}
 				"10"
 				{
 					"level"	"10"
 					"required_score"	"50"
-					"name"	"Gore-Spattered"
+					"name"	"Blodindränkt"
 				}
 				"11"
 				{
 					"level"	"11"
 					"required_score"	"75"
-					"name"	"Wicked Nasty"
+					"name"	"Galet elak"
 				}
 				"12"
 				{
 					"level"	"12"
 					"required_score"	"99"
-					"name"	"Positively Inhumane"
+					"name"	"Definitivt omänsklig"
 				}
 				"13"
 				{
 					"level"	"13"
 					"required_score"	"100"
-					"name"	"Totally Ordinary"
+					"name"	"Totalt ordinär"
 				}
 				"14"
 				{
 					"level"	"14"
 					"required_score"	"150"
-					"name"	"Face-Melting"
+					"name"	"Ansiktssmältande"
 				}
 				"15"
 				{
 					"level"	"15"
 					"required_score"	"250"
-					"name"	"Rage-Inducing"
+					"name"	"Ilskaframkallande"
 				}
 				"16"
 				{
 					"level"	"16"
 					"required_score"	"500"
-					"name"	"Server-Clearing"
+					"name"	"Serverrensande"
 				}
 				"17"
 				{
 					"level"	"17"
 					"required_score"	"750"
-					"name"	"Epic"
+					"name"	"Episk"
 				}
 				"18"
 				{
 					"level"	"18"
 					"required_score"	"784"
-					"name"	"Legendary"
+					"name"	"Legendarisk"
 				}
 				"19"
 				{
 					"level"	"19"
 					"required_score"	"850"
-					"name"	"Australian"
+					"name"	"Australiensisk"
 				}
 				"20"
 				{
 					"level"	"20"
 					"required_score"	"1000"
-					"name"	"Hale's Own"
+					"name"	"Hales egen"
 				}
 			}
 		}
@@ -15048,19 +16176,19 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"4"
 		{
 			"type"	"4"
-			"type_name"	"Genomdränkta Offer"
+			"type_name"	"Genomdränkta offer"
 			"level_data"	"KillEaterRank"
 		}
 		"5"
 		{
 			"type"	"5"
-			"type_name"	"Chockade Spioner"
+			"type_name"	"Chockade spioner"
 			"level_data"	"KillEater_BackstabsAbsorbed"
 		}
 		"6"
 		{
 			"type"	"6"
-			"type_name"	"Huggna Halsar"
+			"type_name"	"Huggna halsar"
 			"level_data"	"KillEaterRank"
 		}
 		"7"
@@ -15102,13 +16230,13 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"13"
 		{
 			"type"	"13"
-			"type_name"	"Demomän Dödade"
+			"type_name"	"Demomen dödade"
 			"level_data"	"KillEaterRank"
 		}
 		"14"
 		{
 			"type"	"14"
-			"type_name"	"Dödade Tunga Artillerister"
+			"type_name"	"Heavies dödade"
 			"level_data"	"KillEaterRank"
 		}
 		"15"
@@ -15150,7 +16278,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"21"
 		{
 			"type"	"21"
-			"type_name"	"Dödade av Huvudskott"
+			"type_name"	"Dödade med huvudskott"
 			"level_data"	"KillEaterRank"
 		}
 		"22"
@@ -15216,13 +16344,13 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"32"
 		{
 			"type"	"33"
-			"type_name"	"Dödade med Kritiska Träffar"
+			"type_name"	"Dödade med kritiska träffar"
 			"level_data"	"KillEaterRank"
 		}
 		"33"
 		{
 			"type"	"34"
-			"type_name"	"Dödade under Explosionshopp"
+			"type_name"	"Dödade under explosionshopp"
 			"level_data"	"KillEaterRank"
 		}
 		"34"
@@ -15234,13 +16362,13 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"35"
 		{
 			"type"	"37"
-			"type_name"	"Dolda Spioner dödade"
+			"type_name"	"Dolda Spies dödade"
 			"level_data"	"KillEaterRank"
 		}
 		"36"
 		{
 			"type"	"38"
-			"type_name"	"Dödade Medics som hade full ÜberLaddning"
+			"type_name"	"Dödade Medics som hade full überladdning"
 			"level_data"	"KillEaterRank"
 		}
 		"37"
@@ -15282,7 +16410,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"43"
 		{
 			"type"	"48"
-			"type_name"	"Fiender under vatten dödade"
+			"type_name"	"Fiender dödade under vatten"
 			"level_data"	"KillEaterRank"
 		}
 		"44"
@@ -15354,7 +16482,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"55"
 		{
 			"type"	"66"
-			"type_name"	"Piskade Lagkamrater"
+			"type_name"	"Piskade lagkamrater"
 			"level_data"	"KillEaterRank"
 		}
 		"56"
@@ -15372,7 +16500,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"58"
 		{
 			"type"	"74"
-			"type_name"	"Förstörda Robotspioner"
+			"type_name"	"Förstörda robotspioner"
 			"level_data"	"KillEater_RobotsKilledRank"
 		}
 		"59"
@@ -15432,7 +16560,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"68"
 		{
 			"type"	"86"
-			"type_name"	"Dödade med vaktgevär styrt av Grälmakaren"
+			"type_name"	"Dödade med vaktgevär styrt av grälmakaren"
 			"level_data"	"KillEaterRank"
 		}
 		"69"
@@ -15456,19 +16584,19 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"72"
 		{
 			"type"	"90"
-			"type_name"	"Karneval - Dödade"
+			"type_name"	"Karneval – dödade"
 			"level_data"	"KillEaterRank"
 		}
 		"73"
 		{
 			"type"	"91"
-			"type_name"	"Karneval - Dödade under jord"
+			"type_name"	"Karneval – dödade under jord"
 			"level_data"	"KillEaterRank"
 		}
 		"74"
 		{
 			"type"	"92"
-			"type_name"	"Karneval - Spel vunna"
+			"type_name"	"Karneval – matcher vunna"
 			"level_data"	"KillEaterRank"
 		}
 		"75"
@@ -15582,7 +16710,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"93"
 		{
 			"type"	"111"
-			"type_name"	"Kontraktspoäng bidragit till vänner"
+			"type_name"	"Kontraktspoäng bidraget till vänner"
 			"level_data"	"KillEaterRank"
 		}
 	}

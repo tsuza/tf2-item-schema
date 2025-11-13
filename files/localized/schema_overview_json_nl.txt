@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -1018,7 +1018,7 @@
 				"name": "max pipebombs increased",
 				"defindex": 88,
 				"attribute_class": "add_max_pipebombs",
-				"description_string": "+%s1 max. pijpbommen",
+				"description_string": "+%s1 max. kleefbommen",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1028,7 +1028,7 @@
 				"name": "max pipebombs decreased",
 				"defindex": 89,
 				"attribute_class": "add_max_pipebombs",
-				"description_string": "%s1 max. pijpbommen",
+				"description_string": "%s1 max. kleefbommen",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -6430,8 +6430,10 @@
 				"name": "energy buff dmg taken multiplier",
 				"defindex": 798,
 				"attribute_class": "energy_buff_dmg_taken_multiplier",
+				"description_string": "+%s1% kwetsbaarheid voor schade terwijl actief",
+				"description_format": "value_is_percentage",
 				"effect_type": "negative",
-				"hidden": true,
+				"hidden": false,
 				"stored_as_integer": false
 			},
 			{
@@ -7783,6 +7785,116 @@
 				"stored_as_integer": false
 			},
 			{
+				"name": "freaky fair kritz potion",
+				"defindex": 2069,
+				"attribute_class": "freaky_fair_kritz_potion",
+				"description_string": "Kritz-drankje",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair uber potion",
+				"defindex": 2070,
+				"attribute_class": "freaky_fair_uber_potion",
+				"description_string": "Über-drankje",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair giant potion",
+				"defindex": 2071,
+				"attribute_class": "freaky_fair_giant_potion",
+				"description_string": "Reuzendrankje",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair buster potion",
+				"defindex": 2072,
+				"attribute_class": "freaky_fair_buster_potion",
+				"description_string": "Pompoenplofferdrankje",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair healing potion",
+				"defindex": 2073,
+				"attribute_class": "freaky_fair_healing_potion",
+				"description_string": "Genezend drankje",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair ghost potion",
+				"defindex": 2074,
+				"attribute_class": "freaky_fair_ghost_potion",
+				"description_string": "Spookdrankje",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair ammo potion",
+				"defindex": 2075,
+				"attribute_class": "freaky_fair_ammo_potion",
+				"description_string": "Munitiedrankje",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair rtd potion",
+				"defindex": 2076,
+				"attribute_class": "freaky_fair_rtd_potion",
+				"description_string": "`Gooi de dobbelstenen`-drankje",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair relentless potion",
+				"defindex": 2077,
+				"attribute_class": "freaky_fair_relentless_potion",
+				"description_string": "Onvermoeid drankje",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair extra attrib1",
+				"defindex": 2078,
+				"attribute_class": "freaky_fair_extra_attrib1",
+				"description_string": "Extra Freaky Fair Attrib 1",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair extra attrib2",
+				"defindex": 2079,
+				"attribute_class": "freaky_fair_extra_attrib2",
+				"description_string": "Extra Freaky Fair Attrib 2",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
 				"name": "item slot criteria 1",
 				"defindex": 3000,
 				"attribute_class": "item_slot_criteria",
@@ -8887,6 +8999,7 @@
 				"system": "superrare_beams1",
 				"id": 17,
 				"attach_to_rootbone": true,
+				"attachment": "unusual",
 				"name": "Zonnestralen"
 			},
 			{
@@ -9224,7 +9337,7 @@
 				"id": 83,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Doodse Staar"
+				"name": "Doodse staar"
 			},
 			{
 				"system": "unusual_eyes_green_parent",
@@ -10386,7 +10499,7 @@
 				"id": 249,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Stardust"
+				"name": "Sterrenstof"
 			},
 			{
 				"system": "unusual_erupt_alien_parent",
@@ -10456,14 +10569,14 @@
 				"id": 259,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Soulful Slice"
+				"name": "Bezielde Bijl"
 			},
 			{
 				"system": "unusual_ghostaxe_parent_purple",
 				"id": 260,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Horsemann's Hack"
+				"name": "Houw van de Hoofdloze"
 			},
 			{
 				"system": "unusual_hauntedforever_teamcolor_red",
@@ -10477,14 +10590,14 @@
 				"id": 262,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Haunted Forever!"
+				"name": "Voor Altijd Bezeten!"
 			},
 			{
 				"system": "unusual_hauntedforever_green_parent",
 				"id": 263,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Forever And Forever!"
+				"name": "Voor Eeuwig en Eeuwig!"
 			},
 			{
 				"system": "unusual_hauntedforever_purple_parent",
@@ -10547,14 +10660,14 @@
 				"id": 272,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Verdant Virtuoso"
+				"name": "Groene Virtuoos"
 			},
 			{
 				"system": "unusual_sheetmusic_silver_parent",
 				"id": 273,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Silver Serenade"
+				"name": "Zilveren Serenade"
 			},
 			{
 				"system": "unusual_constellation_teamcolor_red",
@@ -10680,7 +10793,7 @@
 				"id": 291,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fireflies"
+				"name": "Vuurvliegjes"
 			},
 			{
 				"system": "unusual_mountainhalo_parent",
@@ -10729,7 +10842,7 @@
 				"id": 298,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Hellspawned Horns"
+				"name": "Helse Hoorns"
 			},
 			{
 				"system": "unusual_devilish_green_parent",
@@ -10869,42 +10982,42 @@
 				"id": 318,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "North Star"
+				"name": "Poolster"
 			},
 			{
 				"system": "unusual_northstar_teamcolor_blue",
 				"id": 319,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "North Star"
+				"name": "Poolster"
 			},
 			{
 				"system": "unusual_northstar_parent_purple",
 				"id": 320,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Prettiest Star"
+				"name": "Mooiste Ster"
 			},
 			{
 				"system": "unusual_orbitingstar_parent",
 				"id": 321,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Festive Falling Star"
+				"name": "Feeselijke Vallende Ster"
 			},
 			{
 				"system": "unusual_firefly_teamcolor_red",
 				"id": 322,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Lunar Lights"
+				"name": "Maanlichtjes"
 			},
 			{
 				"system": "unusual_firefly_teamcolor_blue",
 				"id": 323,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Lunar Lights"
+				"name": "Maanlichtjes"
 			},
 			{
 				"system": "unusual_firefly_purple_parent",
@@ -10919,6 +11032,468 @@
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
 				"name": "Natural Lights"
+			},
+			{
+				"system": "unusual_corrodedknight_teamcolor_red",
+				"id": 327,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Loyalistenkroon"
+			},
+			{
+				"system": "unusual_corrodedknight_teamcolor_blue",
+				"id": 328,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Loyalistenkroon"
+			},
+			{
+				"system": "unusual_corrodedknight_parent_silver",
+				"id": 329,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Trotse Riddersgeest"
+			},
+			{
+				"system": "unusual_corrodedknight_parent_golden",
+				"id": 330,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Bewonderde Baronskrans"
+			},
+			{
+				"system": "unusual_poseidon_teamcolor_red",
+				"id": 331,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Lokroep uit de Diepte"
+			},
+			{
+				"system": "unusual_poseidon_teamcolor_blue",
+				"id": 332,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Lokroep uit de Diepte"
+			},
+			{
+				"system": "unusual_poseidon_parent_green",
+				"id": 333,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Gewelddadig Groen"
+			},
+			{
+				"system": "unusual_poseidon_parent_purple",
+				"id": 334,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Magentamonstrum"
+			},
+			{
+				"system": "unusual_rainglow_parent",
+				"id": 335,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Regenbooggloed"
+			},
+			{
+				"system": "unusual_cubancigar_parent",
+				"id": 336,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Cubaanse Rook"
+			},
+			{
+				"system": "unusual_mohawk_teamcolor_red",
+				"id": 337,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Hete Hanenkam"
+			},
+			{
+				"system": "unusual_mohawk_teamcolor_blue",
+				"id": 338,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Hete Hanenkam"
+			},
+			{
+				"system": "unusual_mohawk_parent_green",
+				"id": 339,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Hete Hoofdhuid"
+			},
+			{
+				"system": "unusual_mohawk_parent_purple",
+				"id": 340,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Vlammende Kuif"
+			},
+			{
+				"system": "unusual_rare_shine_glow_parent",
+				"id": 341,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Zeldzame Glans"
+			},
+			{
+				"system": "unusual_horstars_teamcolor_red",
+				"id": 342,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Verre Sterren"
+			},
+			{
+				"system": "unusual_horstars_teamcolor_blue",
+				"id": 343,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Verre Sterren"
+			},
+			{
+				"system": "unusual_electric_parent_white",
+				"id": 344,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Warpsnelheid"
+			},
+			{
+				"system": "unusual_electric_parent_gold",
+				"id": 345,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Hoogste Snelheid"
+			},
+			{
+				"system": "unusual_butterflyhead_teamcolor_red",
+				"id": 346,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Vlinderseizoen"
+			},
+			{
+				"system": "unusual_butterflyhead_teamcolor_blue",
+				"id": 347,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Vlinderseizoen"
+			},
+			{
+				"system": "unusual_hippieaura_parent",
+				"id": 348,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Psycho-Delic"
+			},
+			{
+				"system": "unusual_butterfly_parent",
+				"id": 349,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Verleidelijke Vlinders"
+			},
+			{
+				"system": "unusual_spectral_fire_parent",
+				"id": 350,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Spectral Fire"
+			},
+			{
+				"system": "unusual_galactic_fire_parent",
+				"id": 351,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Galactische Vlam"
+			},
+			{
+				"system": "unusual_frank_green_parent",
+				"id": 352,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Herleefde herlading"
+			},
+			{
+				"system": "unusual_frank_purple_parent",
+				"id": 353,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Ondode elektriciteit"
+			},
+			{
+				"system": "unusual_frank_yellow_parent",
+				"id": 354,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Gefrankensteind"
+			},
+			{
+				"system": "unusual_skullsmoke_green_parent",
+				"id": 355,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Fantoompijn"
+			},
+			{
+				"system": "unusual_skullsmoke_purple_parent",
+				"id": 356,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Mysterieuze Mist"
+			},
+			{
+				"system": "unusual_pigeons_green_parent",
+				"id": 357,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Verschrikkelijke Vampieren"
+			},
+			{
+				"system": "unusual_pigeons_purple_parent",
+				"id": 358,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Roofzuchtige Raven"
+			},
+			{
+				"system": "unusual_pigeons_white_parent",
+				"id": 359,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Donzige Duifjes"
+			},
+			{
+				"system": "unusual_stove_teamcolor_red",
+				"id": 360,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Schroeiende Kachel"
+			},
+			{
+				"system": "unusual_stove_teamcolor_blue",
+				"id": 361,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Schroeiende Kachel"
+			},
+			{
+				"system": "unusual_electricfire_teamcolor_red",
+				"id": 362,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Über-brand"
+			},
+			{
+				"system": "unusual_electricfire_teamcolor_blue",
+				"id": 363,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Über-brand"
+			},
+			{
+				"system": "unusual_sizzling_parent",
+				"id": 364,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Stomend"
+			},
+			{
+				"system": "unusual_icrown_teamcolor_red",
+				"id": 365,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Kristallen Kroon"
+			},
+			{
+				"system": "unusual_icrown_teamcolor_blue",
+				"id": 366,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Kristallen Kroon"
+			},
+			{
+				"system": "unusual_icrown_parent_purple",
+				"id": 367,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Schijnheilige Halo"
+			},
+			{
+				"system": "unusual_timeghosts_parent",
+				"id": 368,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Geesten van Smissmas"
+			},
+			{
+				"system": "unusual_aurora_parent",
+				"id": 369,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Noorderlicht"
+			},
+			{
+				"system": "unusual_bokehsparkle_parent",
+				"id": 370,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Stralende Bokeh"
+			},
+			{
+				"system": "unusual_playful_purple_parent",
+				"id": 371,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Speels Noorderlicht"
+			},
+			{
+				"system": "unusual_playful_yellow_parent",
+				"id": 372,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Olijke Ochtend"
+			},
+			{
+				"system": "unusual_drunk_parent",
+				"id": 373,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Drunkard"
+			},
+			{
+				"system": "unusual_excalibur_teamcolor_red",
+				"id": 374,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Blades of Betrayal"
+			},
+			{
+				"system": "unusual_excalibur_teamcolor_blue",
+				"id": 375,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Blades of Betrayal"
+			},
+			{
+				"system": "unusual_excalibur_parent_purple",
+				"id": 376,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Death's Daggers"
+			},
+			{
+				"system": "unusual_uber_teamcolor_red",
+				"id": 377,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Fully Charged"
+			},
+			{
+				"system": "unusual_uber_teamcolor_blue",
+				"id": 378,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Fully Charged"
+			},
+			{
+				"system": "unusual_uber_gold_parent",
+				"id": 379,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Overcharged"
+			},
+			{
+				"system": "unusual_orbitingbullet_parent",
+				"id": 380,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Piercing Headache"
+			},
+			{
+				"system": "unusual_typhoon_parent",
+				"id": 381,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Decimating Wind"
+			},
+			{
+				"system": "unusual_ocean_swirl_teamcolor_red",
+				"id": 382,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Ocean Swirl"
+			},
+			{
+				"system": "unusual_ocean_swirl_teamcolor_blue",
+				"id": 383,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Ocean Swirl"
+			},
+			{
+				"system": "unusual_ocean_swirl_green_parent",
+				"id": 384,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Toxic Swirl"
+			},
+			{
+				"system": "unusual_candle_teamcolor_red",
+				"id": 385,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Candle Flame"
+			},
+			{
+				"system": "unusual_candle_teamcolor_blue",
+				"id": 386,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Candle Flame"
+			},
+			{
+				"system": "unusual_deadlyaroma_teamcolor_red",
+				"id": 387,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Sizzling Aroma"
+			},
+			{
+				"system": "unusual_deadlyaroma_teamcolor_blue",
+				"id": 388,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Sizzling Aroma"
+			},
+			{
+				"system": "unusual_deadlyaroma_green_parent",
+				"id": 389,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Toxic Aroma"
+			},
+			{
+				"system": "unusual_conductor_teamc_teamcolor_red",
+				"id": 390,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Current Conductor"
+			},
+			{
+				"system": "unusual_conductor_teamc_teamcolor_blue",
+				"id": 391,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Current Conductor"
+			},
+			{
+				"system": "unusual_sandy_parent",
+				"id": 392,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Sandy"
 			},
 			{
 				"system": "weapon_unusual_hot",
@@ -11726,7 +12301,7 @@
 				"system": "utaunt_krakenmouth_green_parent",
 				"id": 3124,
 				"attach_to_rootbone": false,
-				"name": "Deep-sea Devourer"
+				"name": "Deep-Sea Devourer"
 			},
 			{
 				"system": "utaunt_krakenmouth_purple_parent",
@@ -11834,7 +12409,7 @@
 				"system": "utaunt_spotlight_parent",
 				"id": 3142,
 				"attach_to_rootbone": false,
-				"name": "Winning Spirit"
+				"name": "Winnaarsmentaliteit"
 			},
 			{
 				"system": "utaunt_pedalfly_teamcolor_red",
@@ -11847,6 +12422,414 @@
 				"id": 3144,
 				"attach_to_rootbone": false,
 				"name": "Petal Prance"
+			},
+			{
+				"system": "utaunt_dragonfly_teamcolor_red",
+				"id": 3145,
+				"attach_to_rootbone": false,
+				"name": "Libellenomarming"
+			},
+			{
+				"system": "utaunt_dragonfly_teamcolor_blue",
+				"id": 3146,
+				"attach_to_rootbone": false,
+				"name": "Libellenomarming"
+			},
+			{
+				"system": "utaunt_dragonfly_green_parent",
+				"id": 3147,
+				"attach_to_rootbone": false,
+				"name": "Libellennatuur"
+			},
+			{
+				"system": "utaunt_dragonfly_purple_parent",
+				"id": 3148,
+				"attach_to_rootbone": false,
+				"name": "Libellenschemer"
+			},
+			{
+				"system": "utaunt_demigodery_teamcolor_red",
+				"id": 3149,
+				"attach_to_rootbone": false,
+				"name": "Elektrocutie"
+			},
+			{
+				"system": "utaunt_demigodery_teamcolor_blue",
+				"id": 3150,
+				"attach_to_rootbone": false,
+				"name": "Elektrocutie"
+			},
+			{
+				"system": "utaunt_signalflares_teamcolor_red",
+				"id": 3151,
+				"attach_to_rootbone": false,
+				"name": "Noodsignaal"
+			},
+			{
+				"system": "utaunt_signalflares_teamcolor_blue",
+				"id": 3152,
+				"attach_to_rootbone": false,
+				"name": "Noodsignaal"
+			},
+			{
+				"system": "utaunt_signalflares_green_parent",
+				"id": 3153,
+				"attach_to_rootbone": false,
+				"name": "Vreugdevuur"
+			},
+			{
+				"system": "utaunt_celebrationtime_teamcolor_red",
+				"id": 3154,
+				"attach_to_rootbone": false,
+				"name": "Fiesta Royale"
+			},
+			{
+				"system": "utaunt_celebrationtime_teamcolor_blue",
+				"id": 3155,
+				"attach_to_rootbone": false,
+				"name": "Fiesta Royale"
+			},
+			{
+				"system": "utaunt_celebrationtime_yellow_parent",
+				"id": 3156,
+				"attach_to_rootbone": false,
+				"name": "Fantastisch Feest"
+			},
+			{
+				"system": "utaunt_god_lava_teamcolor_red",
+				"id": 3157,
+				"attach_to_rootbone": false,
+				"name": "Elementair"
+			},
+			{
+				"system": "utaunt_god_lava_teamcolor_blue",
+				"id": 3158,
+				"attach_to_rootbone": false,
+				"name": "Elementair"
+			},
+			{
+				"system": "utaunt_god_gold_parent",
+				"id": 3159,
+				"attach_to_rootbone": false,
+				"name": "Goddelijk"
+			},
+			{
+				"system": "utaunt_aestheticlogo_teamcolor_red",
+				"id": 3160,
+				"attach_to_rootbone": false,
+				"name": "Teammoed"
+			},
+			{
+				"system": "utaunt_aestheticlogo_teamcolor_blue",
+				"id": 3161,
+				"attach_to_rootbone": false,
+				"name": "Teammoed"
+			},
+			{
+				"system": "utaunt_aestheticlogo_orange_parent",
+				"id": 3162,
+				"attach_to_rootbone": false,
+				"name": "Legendarisch Logo"
+			},
+			{
+				"system": "utaunt_desert_wind_parent",
+				"id": 3163,
+				"attach_to_rootbone": false,
+				"name": "Woestijnwind"
+			},
+			{
+				"system": "utaunt_desert_monsoon_parent",
+				"id": 3164,
+				"attach_to_rootbone": false,
+				"name": "Moessonseizoen"
+			},
+			{
+				"system": "utaunt_treasure_teamcolor_red",
+				"id": 3165,
+				"attach_to_rootbone": false,
+				"name": "Overvloedige Rijkdommen"
+			},
+			{
+				"system": "utaunt_treasure_teamcolor_blue",
+				"id": 3166,
+				"attach_to_rootbone": false,
+				"name": "Overvloedige Rijkdommen"
+			},
+			{
+				"system": "utaunt_hearttreasure_parent",
+				"id": 3167,
+				"attach_to_rootbone": false,
+				"name": "Liefhebber van Luxe"
+			},
+			{
+				"system": "utaunt_wiggletube_teamcolor_red",
+				"id": 3168,
+				"attach_to_rootbone": false,
+				"name": "Amoureus"
+			},
+			{
+				"system": "utaunt_wiggletube_teamcolor_blue",
+				"id": 3169,
+				"attach_to_rootbone": false,
+				"name": "Amoureus"
+			},
+			{
+				"system": "utaunt_wiggletube_coffee_parent",
+				"id": 3170,
+				"attach_to_rootbone": false,
+				"name": "Elektrum"
+			},
+			{
+				"system": "utaunt_flowerrain_teamcolor_red",
+				"id": 3171,
+				"attach_to_rootbone": false,
+				"name": "Sakurazegen"
+			},
+			{
+				"system": "utaunt_flowerrain_teamcolor_blue",
+				"id": 3172,
+				"attach_to_rootbone": false,
+				"name": "Sakurazegen"
+			},
+			{
+				"system": "utaunt_flowerrain_purple_parent",
+				"id": 3173,
+				"attach_to_rootbone": false,
+				"name": "Vechtende Viooltjes"
+			},
+			{
+				"system": "utaunt_poweraura_teamcolor_red",
+				"id": 3174,
+				"attach_to_rootbone": false,
+				"name": "Stroomstoot"
+			},
+			{
+				"system": "utaunt_poweraura_teamcolor_blue",
+				"id": 3175,
+				"attach_to_rootbone": false,
+				"name": "Stroomstoot"
+			},
+			{
+				"system": "utaunt_poweraura_green_parent",
+				"id": 3176,
+				"attach_to_rootbone": false,
+				"name": "Magistraal Moment"
+			},
+			{
+				"system": "utaunt_poweraura_purple_parent",
+				"id": 3177,
+				"attach_to_rootbone": false,
+				"name": "Opladende Katalysator"
+			},
+			{
+				"system": "utaunt_poweraura_yellow_parent",
+				"id": 3178,
+				"attach_to_rootbone": false,
+				"name": "Versterkende Aura"
+			},
+			{
+				"system": "utaunt_mysticfusion_parent",
+				"id": 3179,
+				"attach_to_rootbone": false,
+				"name": "Mystieke Fusie"
+			},
+			{
+				"system": "utaunt_confetti_gy_parent",
+				"id": 3180,
+				"attach_to_rootbone": false,
+				"name": "Vervelende Confetti"
+			},
+			{
+				"system": "utaunt_confetti_pp_parent",
+				"id": 3181,
+				"attach_to_rootbone": false,
+				"name": "Schattige Confetti"
+			},
+			{
+				"system": "utaunt_confetti_yp_parent",
+				"id": 3182,
+				"attach_to_rootbone": false,
+				"name": "Confettifeest"
+			},
+			{
+				"system": "utaunt_heavyrain_parent",
+				"id": 3183,
+				"attach_to_rootbone": false,
+				"name": "Gietende Regen"
+			},
+			{
+				"system": "utaunt_field_parent",
+				"id": 3184,
+				"attach_to_rootbone": false,
+				"name": "Pompoenentuin"
+			},
+			{
+				"system": "utaunt_whitesmissmas_parent",
+				"id": 3185,
+				"attach_to_rootbone": false,
+				"name": "Sneeuwdag"
+			},
+			{
+				"system": "utaunt_busysnow_teamcolor_red",
+				"id": 3186,
+				"attach_to_rootbone": false,
+				"name": "Sneeuwstemming"
+			},
+			{
+				"system": "utaunt_busysnow_teamcolor_blue",
+				"id": 3187,
+				"attach_to_rootbone": false,
+				"name": "Sneeuwstemming"
+			},
+			{
+				"system": "utaunt_busysnow_parent_p",
+				"id": 3188,
+				"attach_to_rootbone": false,
+				"name": "Lavendelsensatie"
+			},
+			{
+				"system": "utaunt_busysnow_parent_g",
+				"id": 3189,
+				"attach_to_rootbone": false,
+				"name": "Groen Fenomeen"
+			},
+			{
+				"system": "utaunt_roses_teamcolor_red",
+				"id": 3190,
+				"attach_to_rootbone": false,
+				"name": "Bekroond"
+			},
+			{
+				"system": "utaunt_roses_teamcolor_blue",
+				"id": 3191,
+				"attach_to_rootbone": false,
+				"name": "Bekroond"
+			},
+			{
+				"system": "utaunt_roses_gold_parent",
+				"id": 3192,
+				"attach_to_rootbone": false,
+				"name": "Opera-triomf"
+			},
+			{
+				"system": "utaunt_tangledlights_parent",
+				"id": 3193,
+				"attach_to_rootbone": false,
+				"name": "Lichtjes in de War"
+			},
+			{
+				"system": "utaunt_seamine_teamcolor_red",
+				"id": 3194,
+				"attach_to_rootbone": false,
+				"name": "Zeemijn"
+			},
+			{
+				"system": "utaunt_seamine_teamcolor_blue",
+				"id": 3195,
+				"attach_to_rootbone": false,
+				"name": "Seamine"
+			},
+			{
+				"system": "utaunt_iconicoutline_teamcolor_red",
+				"id": 3196,
+				"attach_to_rootbone": false,
+				"name": "Iconic Outline"
+			},
+			{
+				"system": "utaunt_iconicoutline_teamcolor_blue",
+				"id": 3197,
+				"attach_to_rootbone": false,
+				"name": "Iconic Outline"
+			},
+			{
+				"system": "utaunt_iconicoutline_pink_parent",
+				"id": 3198,
+				"attach_to_rootbone": false,
+				"name": "Subtle Silhouette"
+			},
+			{
+				"system": "utaunt_oceanreef_parent",
+				"id": 3199,
+				"attach_to_rootbone": false,
+				"name": "Ocean Reef"
+			},
+			{
+				"system": "utaunt_signalinterference_parent",
+				"id": 3200,
+				"attach_to_rootbone": false,
+				"name": "Lost Signal"
+			},
+			{
+				"system": "utaunt_waterwave_parent",
+				"id": 3201,
+				"attach_to_rootbone": false,
+				"name": "Summer Wave"
+			},
+			{
+				"system": "utaunt_sharkfin2_parent",
+				"id": 3202,
+				"attach_to_rootbone": false,
+				"name": "Shark Attack"
+			},
+			{
+				"system": "utaunt_phantasam_green_parent",
+				"id": 3203,
+				"attach_to_rootbone": false,
+				"name": "Hazardous Gas"
+			},
+			{
+				"system": "utaunt_phantasam_grey_parent",
+				"id": 3204,
+				"attach_to_rootbone": false,
+				"name": "Phantasmal Fog"
+			},
+			{
+				"system": "utaunt_phantasam_purple_parent",
+				"id": 3205,
+				"attach_to_rootbone": false,
+				"name": "Haunted Mist"
+			},
+			{
+				"system": "utaunt_multicurse_teamcolor_red",
+				"id": 3206,
+				"attach_to_rootbone": false,
+				"name": "Split Malice"
+			},
+			{
+				"system": "utaunt_multicurse_teamcolor_blue",
+				"id": 3207,
+				"attach_to_rootbone": false,
+				"name": "Split Malice"
+			},
+			{
+				"system": "utaunt_voidcrawlers_parent",
+				"id": 3208,
+				"attach_to_rootbone": false,
+				"name": "Void Crawlers"
+			},
+			{
+				"system": "utaunt_tarpit_dinos_parent",
+				"id": 3209,
+				"attach_to_rootbone": false,
+				"name": "Fossil Fueled"
+			},
+			{
+				"system": "utaunt_tarpit_people_parent",
+				"id": 3210,
+				"attach_to_rootbone": false,
+				"name": "Tar Pit"
+			},
+			{
+				"system": "utaunt_morbed_teamcolor_red",
+				"id": 3211,
+				"attach_to_rootbone": false,
+				"name": "Morbidly Beast"
+			},
+			{
+				"system": "utaunt_morbed_teamcolor_blue",
+				"id": 3212,
+				"attach_to_rootbone": false,
+				"name": "Morbidly Beast"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",
@@ -12106,7 +13089,7 @@
 					{
 						"level": 18,
 						"required_score": 250,
-						"name": "Über-altruïstisch"
+						"name": "The Über-Altruist's"
 					},
 					{
 						"level": 19,

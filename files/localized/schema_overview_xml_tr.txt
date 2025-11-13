@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -1024,7 +1024,7 @@ Ateş söndürmek için de kullanılır</description_string>
 			<name>max pipebombs increased</name>
 			<defindex>88</defindex>
 			<attribute_class>add_max_pipebombs</attribute_class>
-			<description_string>+%s1 azami bomba atışı</description_string>
+			<description_string>+%s1 maksimum yapışkan bomba atışı</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -1034,7 +1034,7 @@ Ateş söndürmek için de kullanılır</description_string>
 			<name>max pipebombs decreased</name>
 			<defindex>89</defindex>
 			<attribute_class>add_max_pipebombs</attribute_class>
-			<description_string>%s1 azami bomba atışı</description_string>
+			<description_string>%s1 maksimum yapışkan bomba atışı</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>negative</effect_type>
 			<hidden>false</hidden>
@@ -6468,8 +6468,10 @@ bu silah daha yavaş çekilir ve kılıfına geri sokulur</description_string>
 			<name>energy buff dmg taken multiplier</name>
 			<defindex>798</defindex>
 			<attribute_class>energy_buff_dmg_taken_multiplier</attribute_class>
+			<description_string>Aktif iken hasar direnci %s1% artar.</description_string>
+			<description_format>value_is_percentage</description_format>
 			<effect_type>negative</effect_type>
-			<hidden>true</hidden>
+			<hidden>false</hidden>
 			<stored_as_integer>false</stored_as_integer>
 		</attribute>
 		<attribute>
@@ -7828,6 +7830,116 @@ Bu silahla yanan oyunculara ölüm vuruşu yaparsanız hız bonusu kazanırsın�
 			<stored_as_integer>false</stored_as_integer>
 		</attribute>
 		<attribute>
+			<name>freaky fair kritz potion</name>
+			<defindex>2069</defindex>
+			<attribute_class>freaky_fair_kritz_potion</attribute_class>
+			<description_string>Kritik İksiri</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair uber potion</name>
+			<defindex>2070</defindex>
+			<attribute_class>freaky_fair_uber_potion</attribute_class>
+			<description_string>Über İksiri</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair giant potion</name>
+			<defindex>2071</defindex>
+			<attribute_class>freaky_fair_giant_potion</attribute_class>
+			<description_string>Dev İksiri</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair buster potion</name>
+			<defindex>2072</defindex>
+			<attribute_class>freaky_fair_buster_potion</attribute_class>
+			<description_string>Bal Kabağı Patlatma İksiri</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair healing potion</name>
+			<defindex>2073</defindex>
+			<attribute_class>freaky_fair_healing_potion</attribute_class>
+			<description_string>Şifa İksiri</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair ghost potion</name>
+			<defindex>2074</defindex>
+			<attribute_class>freaky_fair_ghost_potion</attribute_class>
+			<description_string>Hayalet İksiri</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair ammo potion</name>
+			<defindex>2075</defindex>
+			<attribute_class>freaky_fair_ammo_potion</attribute_class>
+			<description_string>Cephane Doldurma İksiri</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair rtd potion</name>
+			<defindex>2076</defindex>
+			<attribute_class>freaky_fair_rtd_potion</attribute_class>
+			<description_string>Rastgele İksir</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair relentless potion</name>
+			<defindex>2077</defindex>
+			<attribute_class>freaky_fair_relentless_potion</attribute_class>
+			<description_string>Acımasız İksir</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair extra attrib1</name>
+			<defindex>2078</defindex>
+			<attribute_class>freaky_fair_extra_attrib1</attribute_class>
+			<description_string>Extra Freaky Fair Attrib 1</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
+			<name>freaky fair extra attrib2</name>
+			<defindex>2079</defindex>
+			<attribute_class>freaky_fair_extra_attrib2</attribute_class>
+			<description_string>Extra Freaky Fair Attrib 2</description_string>
+			<description_format>value_is_additive</description_format>
+			<effect_type>positive</effect_type>
+			<hidden>false</hidden>
+			<stored_as_integer>false</stored_as_integer>
+		</attribute>
+		<attribute>
 			<name>item slot criteria 1</name>
 			<defindex>3000</defindex>
 			<attribute_class>item_slot_criteria</attribute_class>
@@ -8847,6 +8959,7 @@ Bu silahla yanan oyunculara ölüm vuruşu yaparsanız hız bonusu kazanırsın�
 			<system>superrare_beams1</system>
 			<id>17</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
 			<name>Güneş Parlaması</name>
 		</particle>
 		<particle>
@@ -9310,14 +9423,14 @@ Bu silahla yanan oyunculara ölüm vuruşu yaparsanız hız bonusu kazanırsın�
 			<id>101</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Bu herkes için bir gizem</name>
+			<name>Bu Herkes İçin Bir Gizem</name>
 		</particle>
 		<particle>
 			<system>unusual_mystery_parent_green</system>
 			<id>102</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Benim için bir bulmaca</name>
+			<name>Bu Benim İçin Bir Bulmaca</name>
 		</particle>
 		<particle>
 			<system>unusual_nether_blue</system>
@@ -10171,329 +10284,329 @@ Bu silahla yanan oyunculara ölüm vuruşu yaparsanız hız bonusu kazanırsın�
 			<id>224</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Crustacean Sensation</name>
+			<name>Kabuklu His</name>
 		</particle>
 		<particle>
 			<system>unusual_spycrabs_teamcolor_blue</system>
 			<id>225</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Crustacean Sensation</name>
+			<name>Kabuklu His</name>
 		</particle>
 		<particle>
 			<system>unusual_sprinkles_teamcolor_red</system>
 			<id>226</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Frosted Decadence</name>
+			<name>Buzlu Çöküş</name>
 		</particle>
 		<particle>
 			<system>unusual_sprinkles_teamcolor_blue</system>
 			<id>227</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Frosted Decadence</name>
+			<name>Buzlu Çöküş</name>
 		</particle>
 		<particle>
 			<system>unusual_sprinkles_rainbow_parent</system>
 			<id>228</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Sprinkled Delights</name>
+			<name>Süslü Tatlı</name>
 		</particle>
 		<particle>
 			<system>unusual_liquidmagic_green_parent</system>
 			<id>229</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Terrestrial Favor</name>
+			<name>Karasal İyilik</name>
 		</particle>
 		<particle>
 			<system>unusual_liquidmagic_ocean_parent</system>
 			<id>230</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Tropical Thrill</name>
+			<name>Tropikal Heyecan</name>
 		</particle>
 		<particle>
 			<system>unusual_liquidmagic_pink_parent</system>
 			<id>231</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Flourishing Passion</name>
+			<name>Gelişen Tutku</name>
 		</particle>
 		<particle>
 			<system>unusual_firework_blue_red_parent</system>
 			<id>232</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Dazzling Fireworks</name>
+			<name>Göz Kamaştırıcı Havai Fişek</name>
 		</particle>
 		<particle>
 			<system>unusual_firework_green_yellow_parent</system>
 			<id>233</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Blazing Fireworks</name>
+			<name>Yanan Havai Fişek</name>
 		</particle>
 		<particle>
 			<system>unusual_firework_orange_yellow_parent</system>
 			<id>234</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Shimmering Fireworks</name>
+			<name>Parıltılı Havai Fişekler</name>
 		</particle>
 		<particle>
 			<system>unusual_firework_pgb_parent</system>
 			<id>235</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Twinkling Fireworks</name>
+			<name>Parıldayan Havai Fişekler</name>
 		</particle>
 		<particle>
 			<system>unusual_firework_purple_yellow_parent</system>
 			<id>236</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Sparkling Fireworks</name>
+			<name>Köpüklü Havai Fişekler</name>
 		</particle>
 		<particle>
 			<system>unusual_firework_rainbow_parent</system>
 			<id>237</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Glowing Fireworks</name>
+			<name>Coşkulu Havai Fişekler</name>
 		</particle>
 		<particle>
 			<system>unusual_firework_wgb_parent</system>
 			<id>238</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Glimmering Fireworks</name>
+			<name>Hafif Parıldayan Havai Fişekler</name>
 		</particle>
 		<particle>
 			<system>unusual_lanterns_teamcolor_red</system>
 			<id>239</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Flying Lights</name>
+			<name>Uçan Işıklar</name>
 		</particle>
 		<particle>
 			<system>unusual_lanterns_teamcolor_blue</system>
 			<id>240</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Flying Lights</name>
+			<name>Uçan Işıklar</name>
 		</particle>
 		<particle>
 			<system>unusual_lanterns_green_parent</system>
 			<id>241</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Limelight</name>
+			<name>İlgi Odağı</name>
 		</particle>
 		<particle>
 			<system>unusual_lanterns_yellow_parent</system>
 			<id>242</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Shining Star</name>
+			<name>Parlayan Yıldız</name>
 		</particle>
 		<particle>
 			<system>unusual_coldcosmos_parent</system>
 			<id>243</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Cold Cosmos</name>
+			<name>Soğuk Kozmos</name>
 		</particle>
 		<particle>
 			<system>unusual_helix_parent</system>
 			<id>244</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Refracting Fractals</name>
+			<name>Kırılan Fraktaller</name>
 		</particle>
 		<particle>
 			<system>unusual_stardust_teamcolor_red</system>
 			<id>245</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Startrance</name>
+			<name>Yıldız Büyüsü</name>
 		</particle>
 		<particle>
 			<system>unusual_stardust_teamcolor_blue</system>
 			<id>246</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Startrance</name>
+			<name>Yıldız Büyüsü</name>
 		</particle>
 		<particle>
 			<system>unusual_stardust_green_parent</system>
 			<id>247</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Starlush</name>
+			<name>Yıldız Ormanı</name>
 		</particle>
 		<particle>
 			<system>unusual_stardust_orange_parent</system>
 			<id>248</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Starfire</name>
+			<name>Yıldız Ateşi</name>
 		</particle>
 		<particle>
 			<system>unusual_stardust_white_parent</system>
 			<id>249</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Stardust</name>
+			<name>Yıldız Tozu</name>
 		</particle>
 		<particle>
 			<system>unusual_erupt_alien_parent</system>
 			<id>250</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Contagious Eruption</name>
+			<name>Bulaşıcı Püskürme</name>
 		</particle>
 		<particle>
 			<system>unusual_erupt_daydream_parent</system>
 			<id>251</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Daydream Eruption</name>
+			<name>Hayal Püskürmesi</name>
 		</particle>
 		<particle>
 			<system>unusual_erupt_volcan_parent</system>
 			<id>252</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Volcanic Eruption</name>
+			<name>Volkanik Püskürme</name>
 		</particle>
 		<particle>
 			<system>unusual_supernova_parent</system>
 			<id>253</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Divine Sunlight</name>
+			<name>Kutsal Güneş Işığı</name>
 		</particle>
 		<particle>
 			<system>unusual_audio_soundwave_green_parent</system>
 			<id>254</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Audiophile</name>
+			<name>Ses Tutkunu</name>
 		</particle>
 		<particle>
 			<system>unusual_audio_soundwave_orange_parent</system>
 			<id>255</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Soundwave</name>
+			<name>Ses Dalgası</name>
 		</particle>
 		<particle>
 			<system>unusual_audio_soundwave_purple_parent</system>
 			<id>256</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Synesthesia</name>
+			<name>Sinestezi</name>
 		</particle>
 		<particle>
 			<system>unusual_kraken_green_parent</system>
 			<id>257</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Haunted Kraken</name>
+			<name>Lanetli Kraken</name>
 		</particle>
 		<particle>
 			<system>unusual_kraken_purple_parent</system>
 			<id>258</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Eerie Kraken</name>
+			<name>Ürkütücü Kraken</name>
 		</particle>
 		<particle>
 			<system>unusual_ghostaxe_parent_green</system>
 			<id>259</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Soulful Slice</name>
+			<name>Ruhani Balta</name>
 		</particle>
 		<particle>
 			<system>unusual_ghostaxe_parent_purple</system>
 			<id>260</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Horsemann&apos;s Hack</name>
+			<name>Horsemann&apos;in Balta Darbesi</name>
 		</particle>
 		<particle>
 			<system>unusual_hauntedforever_teamcolor_red</system>
 			<id>261</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Haunted Forever!</name>
+			<name>Sonsuza Kadar Perili!</name>
 		</particle>
 		<particle>
 			<system>unusual_hauntedforever_teamcolor_blue</system>
 			<id>262</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Haunted Forever!</name>
+			<name>Sonsuza Kadar Perili!</name>
 		</particle>
 		<particle>
 			<system>unusual_hauntedforever_green_parent</system>
 			<id>263</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Forever And Forever!</name>
+			<name>Ebediyete Kadar!</name>
 		</particle>
 		<particle>
 			<system>unusual_hauntedforever_purple_parent</system>
 			<id>264</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Cursed Forever!</name>
+			<name>Sonsuza Kadar Lanetli!</name>
 		</particle>
 		<particle>
 			<system>unusual_moths_parent</system>
 			<id>265</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Moth Plague</name>
+			<name>Güve Vebası</name>
 		</particle>
 		<particle>
 			<system>unusual_eyeboss_parent</system>
 			<id>266</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Malevolent Monoculi</name>
+			<name>Kötü Niyetli Tepegöz</name>
 		</particle>
 		<particle>
 			<system>unusual_ghostly_flame_teamcolor_red</system>
 			<id>267</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Haunted Wick</name>
+			<name>Perili Fitil</name>
 		</particle>
 		<particle>
 			<system>unusual_ghostly_flame_teamcolor_blue</system>
 			<id>268</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Haunted Wick</name>
+			<name>Perili Fitil</name>
 		</particle>
 		<particle>
 			<system>unusual_ghostly_flame_parent_orange</system>
 			<id>269</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Wicked Wick</name>
+			<name>Şeytani fitil</name>
 		</particle>
 		<particle>
 			<system>unusual_ghostly_flame_parent_purple</system>
 			<id>270</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Spectral Wick</name>
+			<name>Hayali Fitil</name>
 		</particle>
 		<particle>
 			<system>unusual_sheetmusic_gold_parent</system>
@@ -10542,7 +10655,7 @@ Bu silahla yanan oyunculara ölüm vuruşu yaparsanız hız bonusu kazanırsın�
 			<id>277</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Tainted Frost</name>
+			<name>Lekeli Ayaz</name>
 		</particle>
 		<particle>
 			<system>unusual_aestheticneons_parent</system>
@@ -10675,70 +10788,70 @@ Bu silahla yanan oyunculara ölüm vuruşu yaparsanız hız bonusu kazanırsın�
 			<id>296</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Sapped</name>
+			<name>Bitkin</name>
 		</particle>
 		<particle>
 			<system>unusual_devilish_teamcolor_red</system>
 			<id>297</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Hellspawned Horns</name>
+			<name>Şeytani Boynuzlar</name>
 		</particle>
 		<particle>
 			<system>unusual_devilish_teamcolor_blue</system>
 			<id>298</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Hellspawned Horns</name>
+			<name>Şeytani Boynuzlar</name>
 		</particle>
 		<particle>
 			<system>unusual_devilish_green_parent</system>
 			<id>299</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Demonic Impaler</name>
+			<name>Şeytan Kazığı</name>
 		</particle>
 		<particle>
 			<system>unusual_devilish_purple_parent</system>
 			<id>300</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Revenant&apos;s Rack</name>
+			<name>Hortlağın Izdırabı</name>
 		</particle>
 		<particle>
 			<system>unusual_sixthsense_teamcolor_red</system>
 			<id>301</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Sixth Sense</name>
+			<name>Altıncı His</name>
 		</particle>
 		<particle>
 			<system>unusual_sixthsense_teamcolor_blue</system>
 			<id>302</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Sixth Sense</name>
+			<name>Altıncı His</name>
 		</particle>
 		<particle>
 			<system>unusual_sixthsense_pink_parent</system>
 			<id>303</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Amygdala</name>
+			<name>Amigdala</name>
 		</particle>
 		<particle>
 			<system>unusual_skullhead_parent</system>
 			<id>304</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>The Bone Zone</name>
+			<name>Kemikli Alan</name>
 		</particle>
 		<particle>
 			<system>unusual_spiderweb_parent</system>
 			<id>305</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Arachne&apos;s Web</name>
+			<name>Arakne&apos;nin Ağı</name>
 		</particle>
 		<particle>
 			<system>unusual_deepsmoke_parent_g</system>
@@ -10752,7 +10865,7 @@ Bu silahla yanan oyunculara ölüm vuruşu yaparsanız hız bonusu kazanırsın�
 			<id>307</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Otherworldly Weather</name>
+			<name>Acayip Hava</name>
 		</particle>
 		<particle>
 			<system>unusual_deepsmoke_parent_o</system>
@@ -10879,6 +10992,469 @@ Bu silahla yanan oyunculara ölüm vuruşu yaparsanız hız bonusu kazanırsın�
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
 			<name>Doğal Işık</name>
+		</particle>
+		<particle>
+			<system>unusual_corrodedknight_teamcolor_red</system>
+			<id>327</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Sadık Taç</name>
+		</particle>
+		<particle>
+			<system>unusual_corrodedknight_teamcolor_blue</system>
+			<id>328</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Sadık Taç</name>
+		</particle>
+		<particle>
+			<system>unusual_corrodedknight_parent_silver</system>
+			<id>329</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Şövalyenin Onuru</name>
+		</particle>
+		<particle>
+			<system>unusual_corrodedknight_parent_golden</system>
+			<id>330</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Baronun Özel Tacı</name>
+		</particle>
+		<particle>
+			<system>unusual_poseidon_teamcolor_red</system>
+			<id>331</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Derinlerin Çağrısı</name>
+		</particle>
+		<particle>
+			<system>unusual_poseidon_teamcolor_blue</system>
+			<id>332</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Derinlerin Çağrısı</name>
+		</particle>
+		<particle>
+			<system>unusual_poseidon_parent_green</system>
+			<id>333</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Vahşi Zümrüt Yeşili</name>
+		</particle>
+		<particle>
+			<system>unusual_poseidon_parent_purple</system>
+			<id>334</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Mor Yaratık</name>
+		</particle>
+		<particle>
+			<system>unusual_rainglow_parent</system>
+			<id>335</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Gökkuşağı Rüyası</name>
+		</particle>
+		<particle>
+			<system>unusual_cubancigar_parent</system>
+			<id>336</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Küba Dumanı</name>
+		</particle>
+		<particle>
+			<system>unusual_mohawk_teamcolor_red</system>
+			<id>337</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Eriyen Mohavk</name>
+		</particle>
+		<particle>
+			<system>unusual_mohawk_teamcolor_blue</system>
+			<id>338</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Eriyen Mohavk</name>
+		</particle>
+		<particle>
+			<system>unusual_mohawk_parent_green</system>
+			<id>339</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Yanmış Saç Derisi</name>
+		</particle>
+		<particle>
+			<system>unusual_mohawk_parent_purple</system>
+			<id>340</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Alev Almış Şapka</name>
+		</particle>
+		<particle>
+			<system>unusual_rare_shine_glow_parent</system>
+			<id>341</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Nadir Parıltı</name>
+		</particle>
+		<particle>
+			<system>unusual_horstars_teamcolor_red</system>
+			<id>342</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Uzak Galaksi</name>
+		</particle>
+		<particle>
+			<system>unusual_horstars_teamcolor_blue</system>
+			<id>343</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Uzak Galaksi</name>
+		</particle>
+		<particle>
+			<system>unusual_electric_parent_white</system>
+			<id>344</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Işık Hızı</name>
+		</particle>
+		<particle>
+			<system>unusual_electric_parent_gold</system>
+			<id>345</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Aşırı Hız</name>
+		</particle>
+		<particle>
+			<system>unusual_butterflyhead_teamcolor_red</system>
+			<id>346</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Kelebek Mevsimi</name>
+		</particle>
+		<particle>
+			<system>unusual_butterflyhead_teamcolor_blue</system>
+			<id>347</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Kelebek Mevsimi</name>
+		</particle>
+		<particle>
+			<system>unusual_hippieaura_parent</system>
+			<id>348</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Psycho-Delic</name>
+		</particle>
+		<particle>
+			<system>unusual_butterfly_parent</system>
+			<id>349</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Büyüleyici Böcekler</name>
+		</particle>
+		<particle>
+			<system>unusual_spectral_fire_parent</system>
+			<id>350</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Hayalet Ateşi</name>
+		</particle>
+		<particle>
+			<system>unusual_galactic_fire_parent</system>
+			<id>351</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Galaktik Alev</name>
+		</particle>
+		<particle>
+			<system>unusual_frank_green_parent</system>
+			<id>352</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Dirilten Şarj</name>
+		</particle>
+		<particle>
+			<system>unusual_frank_purple_parent</system>
+			<id>353</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Ölümsüz Elektrik</name>
+		</particle>
+		<particle>
+			<system>unusual_frank_yellow_parent</system>
+			<id>354</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Frankenşarj</name>
+		</particle>
+		<particle>
+			<system>unusual_skullsmoke_green_parent</system>
+			<id>355</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Hayalet Vebası</name>
+		</particle>
+		<particle>
+			<system>unusual_skullsmoke_purple_parent</system>
+			<id>356</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Lanetli Duman</name>
+		</particle>
+		<particle>
+			<system>unusual_pigeons_green_parent</system>
+			<id>357</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Vahşi Vampirler</name>
+		</particle>
+		<particle>
+			<system>unusual_pigeons_purple_parent</system>
+			<id>358</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Kanmaz Kuzgunlar</name>
+		</particle>
+		<particle>
+			<system>unusual_pigeons_white_parent</system>
+			<id>359</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Güzel Güvercinler</name>
+		</particle>
+		<particle>
+			<system>unusual_stove_teamcolor_red</system>
+			<id>360</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Kavurucu Ocak</name>
+		</particle>
+		<particle>
+			<system>unusual_stove_teamcolor_blue</system>
+			<id>361</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Kavurucu Ocak</name>
+		</particle>
+		<particle>
+			<system>unusual_electricfire_teamcolor_red</system>
+			<id>362</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Über Alev</name>
+		</particle>
+		<particle>
+			<system>unusual_electricfire_teamcolor_blue</system>
+			<id>363</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Über Alev</name>
+		</particle>
+		<particle>
+			<system>unusual_sizzling_parent</system>
+			<id>364</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Duman Altı</name>
+		</particle>
+		<particle>
+			<system>unusual_icrown_teamcolor_red</system>
+			<id>365</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Kristal Taç</name>
+		</particle>
+		<particle>
+			<system>unusual_icrown_teamcolor_blue</system>
+			<id>366</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Kristal Taç</name>
+		</particle>
+		<particle>
+			<system>unusual_icrown_parent_purple</system>
+			<id>367</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Dingin Işıklar</name>
+		</particle>
+		<particle>
+			<system>unusual_timeghosts_parent</system>
+			<id>368</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Smissmas Hayaletleri</name>
+		</particle>
+		<particle>
+			<system>unusual_aurora_parent</system>
+			<id>369</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Büyüleyici Kuzey Işığı</name>
+		</particle>
+		<particle>
+			<system>unusual_bokehsparkle_parent</system>
+			<id>370</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Parlayan Noktalar</name>
+		</particle>
+		<particle>
+			<system>unusual_playful_purple_parent</system>
+			<id>371</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Hareketli Kuzey Işıkları</name>
+		</particle>
+		<particle>
+			<system>unusual_playful_yellow_parent</system>
+			<id>372</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Renkli Sabah</name>
+		</particle>
+		<particle>
+			<system>unusual_drunk_parent</system>
+			<id>373</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Sarhoş</name>
+		</particle>
+		<particle>
+			<system>unusual_excalibur_teamcolor_red</system>
+			<id>374</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>İhanet Bıçakları</name>
+		</particle>
+		<particle>
+			<system>unusual_excalibur_teamcolor_blue</system>
+			<id>375</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>İhanet Bıçakları</name>
+		</particle>
+		<particle>
+			<system>unusual_excalibur_parent_purple</system>
+			<id>376</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Ölüm Hançerleri</name>
+		</particle>
+		<particle>
+			<system>unusual_uber_teamcolor_red</system>
+			<id>377</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Tam Şarj</name>
+		</particle>
+		<particle>
+			<system>unusual_uber_teamcolor_blue</system>
+			<id>378</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Tam Şarj
+</name>
+		</particle>
+		<particle>
+			<system>unusual_uber_gold_parent</system>
+			<id>379</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Aşırı Şarj</name>
+		</particle>
+		<particle>
+			<system>unusual_orbitingbullet_parent</system>
+			<id>380</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Kesici Baş Ağrısı</name>
+		</particle>
+		<particle>
+			<system>unusual_typhoon_parent</system>
+			<id>381</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Yıkıp Geçen Rüzgar</name>
+		</particle>
+		<particle>
+			<system>unusual_ocean_swirl_teamcolor_red</system>
+			<id>382</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Ocean Swirl</name>
+		</particle>
+		<particle>
+			<system>unusual_ocean_swirl_teamcolor_blue</system>
+			<id>383</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Ocean Swirl</name>
+		</particle>
+		<particle>
+			<system>unusual_ocean_swirl_green_parent</system>
+			<id>384</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Toxic Swirl</name>
+		</particle>
+		<particle>
+			<system>unusual_candle_teamcolor_red</system>
+			<id>385</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Mum Alevi</name>
+		</particle>
+		<particle>
+			<system>unusual_candle_teamcolor_blue</system>
+			<id>386</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Candle Flame</name>
+		</particle>
+		<particle>
+			<system>unusual_deadlyaroma_teamcolor_red</system>
+			<id>387</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Sizzling Aroma</name>
+		</particle>
+		<particle>
+			<system>unusual_deadlyaroma_teamcolor_blue</system>
+			<id>388</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Sizzling Aroma</name>
+		</particle>
+		<particle>
+			<system>unusual_deadlyaroma_green_parent</system>
+			<id>389</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Toxic Aroma</name>
+		</particle>
+		<particle>
+			<system>unusual_conductor_teamc_teamcolor_red</system>
+			<id>390</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Current Conductor</name>
+		</particle>
+		<particle>
+			<system>unusual_conductor_teamc_teamcolor_blue</system>
+			<id>391</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Current Conductor</name>
+		</particle>
+		<particle>
+			<system>unusual_sandy_parent</system>
+			<id>392</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Tozlu</name>
 		</particle>
 		<particle>
 			<system>weapon_unusual_hot</system>
@@ -11470,103 +12046,103 @@ Bu silahla yanan oyunculara ölüm vuruşu yaparsanız hız bonusu kazanırsın�
 			<system>utaunt_marigoldritual_teamcolor_red</system>
 			<id>3088</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Marigold Ritual</name>
+			<name>Kadife Çiçeği Ritüeli</name>
 		</particle>
 		<particle>
 			<system>utaunt_marigoldritual_teamcolor_blue</system>
 			<id>3089</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Marigold Ritual</name>
+			<name>Kadife Çiçeği Ritüeli</name>
 		</particle>
 		<particle>
 			<system>utaunt_poison_parent_green</system>
 			<id>3090</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Pungent Poison</name>
+			<name>Etkili Zehir</name>
 		</particle>
 		<particle>
 			<system>utaunt_poison_parent_orange</system>
 			<id>3091</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Blazed Brew</name>
+			<name>Alevli Karışım</name>
 		</particle>
 		<particle>
 			<system>utaunt_poison_parent_purple</system>
 			<id>3092</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Mysterious Mixture</name>
+			<name>Gizemli Karışım</name>
 		</particle>
 		<particle>
 			<system>utaunt_runeprison_green_parent</system>
 			<id>3093</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Linguistic Deviation</name>
+			<name>Dilsel Sapma</name>
 		</particle>
 		<particle>
 			<system>utaunt_runeprison_yellow_parent</system>
 			<id>3094</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Aurelian Seal</name>
+			<name>Altın Mühür</name>
 		</particle>
 		<particle>
 			<system>utaunt_runeprison_teamcolor_red</system>
 			<id>3095</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Runic Imprisonment</name>
+			<name>Runik Hapis</name>
 		</particle>
 		<particle>
 			<system>utaunt_runeprison_teamcolor_blue</system>
 			<id>3096</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Runic Imprisonment</name>
+			<name>Runik Hapis</name>
 		</particle>
 		<particle>
 			<system>utaunt_prismatichaze_parent</system>
 			<id>3097</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Prismatic Haze</name>
+			<name>Puslu Prizma</name>
 		</particle>
 		<particle>
 			<system>utaunt_risingsprit_teamcolor_red</system>
 			<id>3098</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Rising Ritual</name>
+			<name>Yükseltme Ritüeli</name>
 		</particle>
 		<particle>
 			<system>utaunt_risingsprit_teamcolor_blue</system>
 			<id>3099</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Rising Ritual</name>
+			<name>Yükseltme Ritüeli</name>
 		</particle>
 		<particle>
 			<system>utaunt_hands_teamcolor_red</system>
 			<id>3100</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Bloody Grip</name>
+			<name>Kanlı Pençe</name>
 		</particle>
 		<particle>
 			<system>utaunt_hands_teamcolor_blue</system>
 			<id>3101</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Bloody Grip</name>
+			<name>Kanlı Pençe</name>
 		</particle>
 		<particle>
 			<system>utaunt_hands_green_parent</system>
 			<id>3102</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Toxic Grip</name>
+			<name>Zehirli Pençe</name>
 		</particle>
 		<particle>
 			<system>utaunt_hands_orange_parent</system>
 			<id>3103</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Infernal Grip</name>
+			<name>Cehennem Pençesi</name>
 		</particle>
 		<particle>
 			<system>utaunt_hands_purple_parent</system>
 			<id>3104</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Death Grip</name>
+			<name>Ölüm Pençesi</name>
 		</particle>
 		<particle>
 			<system>utaunt_storm_parent_g</system>
@@ -11590,13 +12166,13 @@ Bu silahla yanan oyunculara ölüm vuruşu yaparsanız hız bonusu kazanırsın�
 			<system>utaunt_festivelights_teamcolor_red</system>
 			<id>3108</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Festivized Formation</name>
+			<name>Şenlik Düzeni</name>
 		</particle>
 		<particle>
 			<system>utaunt_festivelights_teamcolor_blue</system>
 			<id>3109</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Festivized Formation</name>
+			<name>Şenlik Düzeni</name>
 		</particle>
 		<particle>
 			<system>utaunt_glow_spirit_parent_cr</system>
@@ -11608,7 +12184,7 @@ Bu silahla yanan oyunculara ölüm vuruşu yaparsanız hız bonusu kazanırsın�
 			<system>utaunt_glow_spirit_parent_og</system>
 			<id>3111</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Squash n&apos; Twist</name>
+			<name>Ezerdöner</name>
 		</particle>
 		<particle>
 			<system>utaunt_glow_spirit_parent_pp</system>
@@ -11686,7 +12262,7 @@ Bu silahla yanan oyunculara ölüm vuruşu yaparsanız hız bonusu kazanırsın�
 			<system>utaunt_krakenmouth_green_parent</system>
 			<id>3124</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Derin Deniz Canavarı</name>
+			<name>Deep-Sea Devourer</name>
 		</particle>
 		<particle>
 			<system>utaunt_krakenmouth_purple_parent</system>
@@ -11698,31 +12274,31 @@ Bu silahla yanan oyunculara ölüm vuruşu yaparsanız hız bonusu kazanırsın�
 			<system>utaunt_leaftaunt_parent</system>
 			<id>3126</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Autumn Leaves</name>
+			<name>Sonbahar Yaprakları</name>
 		</particle>
 		<particle>
 			<system>utaunt_graveparty_parent</system>
 			<id>3127</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Dead Man&apos;s Party</name>
+			<name>Cenaze Partisi</name>
 		</particle>
 		<particle>
 			<system>utaunt_spellsplash_parent</system>
 			<id>3128</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Potion Explosion</name>
+			<name>İksir Patlaması</name>
 		</particle>
 		<particle>
 			<system>utaunt_cremation_purple_parent</system>
 			<id>3129</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Haunted Cremation</name>
+			<name>Perili Kremasyon</name>
 		</particle>
 		<particle>
 			<system>utaunt_cremation_black_parent</system>
 			<id>3130</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Cremation</name>
+			<name>Kremasyon</name>
 		</particle>
 		<particle>
 			<system>utaunt_snowfall_parent</system>
@@ -11807,6 +12383,414 @@ Bu silahla yanan oyunculara ölüm vuruşu yaparsanız hız bonusu kazanırsın�
 			<id>3144</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
 			<name>Yaprak Fırtınası</name>
+		</particle>
+		<particle>
+			<system>utaunt_dragonfly_teamcolor_red</system>
+			<id>3145</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Yusufçuk Sarılması</name>
+		</particle>
+		<particle>
+			<system>utaunt_dragonfly_teamcolor_blue</system>
+			<id>3146</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Yusufçuk Sarılması</name>
+		</particle>
+		<particle>
+			<system>utaunt_dragonfly_green_parent</system>
+			<id>3147</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Yusufçuk Doğası</name>
+		</particle>
+		<particle>
+			<system>utaunt_dragonfly_purple_parent</system>
+			<id>3148</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Yusufçuk Parıltısı</name>
+		</particle>
+		<particle>
+			<system>utaunt_demigodery_teamcolor_red</system>
+			<id>3149</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Elektrik Çarpması</name>
+		</particle>
+		<particle>
+			<system>utaunt_demigodery_teamcolor_blue</system>
+			<id>3150</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Elektrik Çarpması</name>
+		</particle>
+		<particle>
+			<system>utaunt_signalflares_teamcolor_red</system>
+			<id>3151</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Tehlike Sinyali</name>
+		</particle>
+		<particle>
+			<system>utaunt_signalflares_teamcolor_blue</system>
+			<id>3152</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Tehlike Sinyali</name>
+		</particle>
+		<particle>
+			<system>utaunt_signalflares_green_parent</system>
+			<id>3153</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Carioca&apos;nın Çağrısı</name>
+		</particle>
+		<particle>
+			<system>utaunt_celebrationtime_teamcolor_red</system>
+			<id>3154</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Kraliyet Şenliği</name>
+		</particle>
+		<particle>
+			<system>utaunt_celebrationtime_teamcolor_blue</system>
+			<id>3155</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Kraliyet Şenliği</name>
+		</particle>
+		<particle>
+			<system>utaunt_celebrationtime_yellow_parent</system>
+			<id>3156</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Büyük Jübile</name>
+		</particle>
+		<particle>
+			<system>utaunt_god_lava_teamcolor_red</system>
+			<id>3157</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Doğadaki Güç</name>
+		</particle>
+		<particle>
+			<system>utaunt_god_lava_teamcolor_blue</system>
+			<id>3158</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Doğadaki Güç</name>
+		</particle>
+		<particle>
+			<system>utaunt_god_gold_parent</system>
+			<id>3159</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>İlahi</name>
+		</particle>
+		<particle>
+			<system>utaunt_aestheticlogo_teamcolor_red</system>
+			<id>3160</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Takım Cesareti</name>
+		</particle>
+		<particle>
+			<system>utaunt_aestheticlogo_teamcolor_blue</system>
+			<id>3161</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Takım Cesareti</name>
+		</particle>
+		<particle>
+			<system>utaunt_aestheticlogo_orange_parent</system>
+			<id>3162</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Klasik Logo</name>
+		</particle>
+		<particle>
+			<system>utaunt_desert_wind_parent</system>
+			<id>3163</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Çöl Rüzgarı</name>
+		</particle>
+		<particle>
+			<system>utaunt_desert_monsoon_parent</system>
+			<id>3164</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Muson Mevsimi</name>
+		</particle>
+		<particle>
+			<system>utaunt_treasure_teamcolor_red</system>
+			<id>3165</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Muazzam Zenginlikler</name>
+		</particle>
+		<particle>
+			<system>utaunt_treasure_teamcolor_blue</system>
+			<id>3166</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Muazzam Zenginlikler</name>
+		</particle>
+		<particle>
+			<system>utaunt_hearttreasure_parent</system>
+			<id>3167</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Lüks Aşk</name>
+		</particle>
+		<particle>
+			<system>utaunt_wiggletube_teamcolor_red</system>
+			<id>3168</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Ateşli</name>
+		</particle>
+		<particle>
+			<system>utaunt_wiggletube_teamcolor_blue</system>
+			<id>3169</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Ateşli</name>
+		</particle>
+		<particle>
+			<system>utaunt_wiggletube_coffee_parent</system>
+			<id>3170</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Elektrum</name>
+		</particle>
+		<particle>
+			<system>utaunt_flowerrain_teamcolor_red</system>
+			<id>3171</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Kiraz Çiçeği Yağmuru</name>
+		</particle>
+		<particle>
+			<system>utaunt_flowerrain_teamcolor_blue</system>
+			<id>3172</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Kiraz Çiçeği Yağmuru</name>
+		</particle>
+		<particle>
+			<system>utaunt_flowerrain_purple_parent</system>
+			<id>3173</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Vahşi Menekşeler</name>
+		</particle>
+		<particle>
+			<system>utaunt_poweraura_teamcolor_red</system>
+			<id>3174</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Yüksek Basınç</name>
+		</particle>
+		<particle>
+			<system>utaunt_poweraura_teamcolor_blue</system>
+			<id>3175</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Yüksek Basınç</name>
+		</particle>
+		<particle>
+			<system>utaunt_poweraura_green_parent</system>
+			<id>3176</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Artan İvme</name>
+		</particle>
+		<particle>
+			<system>utaunt_poweraura_purple_parent</system>
+			<id>3177</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Şarj Katalizörü</name>
+		</particle>
+		<particle>
+			<system>utaunt_poweraura_yellow_parent</system>
+			<id>3178</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Parlak Aura</name>
+		</particle>
+		<particle>
+			<system>utaunt_mysticfusion_parent</system>
+			<id>3179</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Mistik Füzyon</name>
+		</particle>
+		<particle>
+			<system>utaunt_confetti_gy_parent</system>
+			<id>3180</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Nahoş Konfeti</name>
+		</particle>
+		<particle>
+			<system>utaunt_confetti_pp_parent</system>
+			<id>3181</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Hoş Konfeti</name>
+		</particle>
+		<particle>
+			<system>utaunt_confetti_yp_parent</system>
+			<id>3182</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Konfetili Kutlama</name>
+		</particle>
+		<particle>
+			<system>utaunt_heavyrain_parent</system>
+			<id>3183</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Şiddetli Yağmur</name>
+		</particle>
+		<particle>
+			<system>utaunt_field_parent</system>
+			<id>3184</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Bal Kabağı Bahçesi</name>
+		</particle>
+		<particle>
+			<system>utaunt_whitesmissmas_parent</system>
+			<id>3185</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Karlı Gün</name>
+		</particle>
+		<particle>
+			<system>utaunt_busysnow_teamcolor_red</system>
+			<id>3186</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Kar Ruhu</name>
+		</particle>
+		<particle>
+			<system>utaunt_busysnow_teamcolor_blue</system>
+			<id>3187</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Kar Ruhu</name>
+		</particle>
+		<particle>
+			<system>utaunt_busysnow_parent_p</system>
+			<id>3188</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Lavanta Hissi</name>
+		</particle>
+		<particle>
+			<system>utaunt_busysnow_parent_g</system>
+			<id>3189</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Yeşil Fenomen</name>
+		</particle>
+		<particle>
+			<system>utaunt_roses_teamcolor_red</system>
+			<id>3190</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Ödül Sahibi</name>
+		</particle>
+		<particle>
+			<system>utaunt_roses_teamcolor_blue</system>
+			<id>3191</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Ödül Sahibi</name>
+		</particle>
+		<particle>
+			<system>utaunt_roses_gold_parent</system>
+			<id>3192</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Çarpıcı Zafer</name>
+		</particle>
+		<particle>
+			<system>utaunt_tangledlights_parent</system>
+			<id>3193</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Karışık Işıklar</name>
+		</particle>
+		<particle>
+			<system>utaunt_seamine_teamcolor_red</system>
+			<id>3194</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Deniz Mayını</name>
+		</particle>
+		<particle>
+			<system>utaunt_seamine_teamcolor_blue</system>
+			<id>3195</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Deniz Mayını</name>
+		</particle>
+		<particle>
+			<system>utaunt_iconicoutline_teamcolor_red</system>
+			<id>3196</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>İkonik Hatlar</name>
+		</particle>
+		<particle>
+			<system>utaunt_iconicoutline_teamcolor_blue</system>
+			<id>3197</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>İkonik Hatlar</name>
+		</particle>
+		<particle>
+			<system>utaunt_iconicoutline_pink_parent</system>
+			<id>3198</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>İnce Silüet</name>
+		</particle>
+		<particle>
+			<system>utaunt_oceanreef_parent</system>
+			<id>3199</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Okyanus Resifi</name>
+		</particle>
+		<particle>
+			<system>utaunt_signalinterference_parent</system>
+			<id>3200</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Kayıp Sinyal</name>
+		</particle>
+		<particle>
+			<system>utaunt_waterwave_parent</system>
+			<id>3201</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Yaz Dalgası</name>
+		</particle>
+		<particle>
+			<system>utaunt_sharkfin2_parent</system>
+			<id>3202</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Köpekbalığı Saldırısı</name>
+		</particle>
+		<particle>
+			<system>utaunt_phantasam_green_parent</system>
+			<id>3203</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Hazardous Gas</name>
+		</particle>
+		<particle>
+			<system>utaunt_phantasam_grey_parent</system>
+			<id>3204</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Phantasmal Fog</name>
+		</particle>
+		<particle>
+			<system>utaunt_phantasam_purple_parent</system>
+			<id>3205</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Haunted Mist</name>
+		</particle>
+		<particle>
+			<system>utaunt_multicurse_teamcolor_red</system>
+			<id>3206</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Split Malice</name>
+		</particle>
+		<particle>
+			<system>utaunt_multicurse_teamcolor_blue</system>
+			<id>3207</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Split Malice</name>
+		</particle>
+		<particle>
+			<system>utaunt_voidcrawlers_parent</system>
+			<id>3208</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Void Crawlers</name>
+		</particle>
+		<particle>
+			<system>utaunt_tarpit_dinos_parent</system>
+			<id>3209</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Fossil Fueled</name>
+		</particle>
+		<particle>
+			<system>utaunt_tarpit_people_parent</system>
+			<id>3210</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Tar Pit</name>
+		</particle>
+		<particle>
+			<system>utaunt_morbed_teamcolor_red</system>
+			<id>3211</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Morbidly Beast</name>
+		</particle>
+		<particle>
+			<system>utaunt_morbed_teamcolor_blue</system>
+			<id>3212</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Morbidly Beast</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>
@@ -12064,7 +13048,7 @@ Bu silahla yanan oyunculara ölüm vuruşu yaparsanız hız bonusu kazanırsın�
 				<level>
 					<level>18</level>
 					<required_score>250</required_score>
-					<name>Über-Fedakar</name>
+					<name>The Über-Altruist&apos;s</name>
 				</level>
 				<level>
 					<level>19</level>
@@ -13232,7 +14216,7 @@ Bu silahla yanan oyunculara ölüm vuruşu yaparsanız hız bonusu kazanırsın�
 		</kill_eater_score_type>
 		<kill_eater_score_type>
 			<type>1</type>
-			<type_name>ÜberŞarjlar</type_name>
+			<type_name>Übers</type_name>
 			<level_data>KillEaterRank</level_data>
 		</kill_eater_score_type>
 		<kill_eater_score_type>

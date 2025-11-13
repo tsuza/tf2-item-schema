@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -1178,7 +1178,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<defindex>37</defindex>
 			<item_class>tf_weapon_bonesaw</item_class>
 			<item_type_name>Bonesaw</item_type_name>
-			<item_name>Ubersaw</item_name>
+			<item_name>Übersaw</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_ubersaw/c_ubersaw.mdl</model_player>
@@ -1563,7 +1563,7 @@ Foc alt: Împarte un Sandvich cu un prieten (Health Kit mediu)</item_description
 			<defindex>45</defindex>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Scattergun</item_type_name>
-			<item_name>Force-A-Nature</item_name>
+			<item_name>Force-a-Nature</item_name>
 			<item_description>Această armă își reîncarcă toată rezerva de muniție deodată.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
@@ -2196,7 +2196,7 @@ Ai nevoie de curaj să iei dinții unui crocodil viu.</item_description>
 			<name>The Razorback</name>
 			<defindex>57</defindex>
 			<item_class>tf_wearable_razorback</item_class>
-			<item_type_name>Shield</item_type_name>
+			<item_type_name>Scut</item_type_name>
 			<item_name>Razorback</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
@@ -2914,7 +2914,7 @@ Plus că încălzește supa.</item_description>
 			<name>Camera Beard</name>
 			<defindex>103</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Păr Facial</item_type_name>
+			<item_type_name>Păr facial</item_type_name>
 			<item_name>Camera Beard</item_name>
 			<item_description>Nu te deranjează dacă citesc acest document strict secret cu barba, nu-i așa?</item_description>
 			<proper_name>false</proper_name>
@@ -3343,7 +3343,7 @@ dar la fel de rotund în vârf.</item_description>
 			<name>Mildly Disturbing Halloween Mask</name>
 			<defindex>115</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Holiday Hat</item_type_name>
+			<item_type_name>Pălărie de sărbătoare</item_type_name>
 			<item_name>Mildly Disturbing Halloween Mask</item_name>
 			<item_description>Hârtia maronie nu a arătat niciodata așa de perturbator.</item_description>
 			<proper_name>false</proper_name>
@@ -3608,7 +3608,7 @@ Glonțul meu a fost mai aproape.
 			<name>Web Easteregg Medal</name>
 			<defindex>121</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medal</item_type_name>
+			<item_type_name>Medalie</item_type_name>
 			<item_name>Gentle Manne&apos;s Service Medal</item_name>
 			<item_description>Oferită celor puțini soldați curajoși care au și-au ținut pasul cu stăruință fără somn, hrană, sau o viață socială.</item_description>
 			<proper_name>false</proper_name>
@@ -3790,7 +3790,7 @@ Contravențiile ulterioare vor duce la închiderea contului.</item_name>
 			<name>Honest Halo</name>
 			<defindex>125</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Aură a Incoruptibilității</item_type_name>
+			<item_type_name>Aură a incoruptibilității</item_type_name>
 			<item_name>Cheater&apos;s Lament</item_name>
 			<item_description>Deși unii se dedau la orice ca să obțină pălării, tu ai rămas ferm și incoruptibil în căutarea decorațiunilor pentru cap. Pentru asta, ai fost răsplătit.</item_description>
 			<proper_name>false</proper_name>
@@ -3852,7 +3852,7 @@ Contravențiile ulterioare vor duce la închiderea contului.</item_name>
 			<name>L4D Hat</name>
 			<defindex>126</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Veteran&apos;s Beret</item_type_name>
+			<item_type_name>Bereta veteranului</item_type_name>
 			<item_name>Bill&apos;s Hat</item_name>
 			<item_description>Lăsat pentru Tine.</item_description>
 			<proper_name>false</proper_name>
@@ -4129,7 +4129,7 @@ Furia crește prin damage-ul cauzat.</item_description>
 			<name>The Chargin&apos; Targe</name>
 			<defindex>131</defindex>
 			<item_class>tf_wearable_demoshield</item_class>
-			<item_type_name>Shield</item_type_name>
+			<item_type_name>Scut</item_type_name>
 			<item_name>Chargin&apos; Targe</item_name>
 			<item_description>Foc alt: Șarjează către inamicii tăi și elimină debuffurile.
 Primești o lovitură melee critică după impactul cu un inamic de la distanță.</item_description>
@@ -4260,7 +4260,7 @@ cu fiecare cap pe care îl iei.	</item_description>
 			<name>The Gunboats</name>
 			<defindex>133</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Boots</item_type_name>
+			<item_type_name>Cizme</item_type_name>
 			<item_name>Gunboats</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
@@ -4395,7 +4395,7 @@ cu fiecare cap pe care îl iei.	</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Pălărie</item_type_name>
 			<item_name>Amber&apos;s Rad As All Hell Hat</item_name>
-			<item_description>First Runner-Up, Propaganda Contest</item_description>
+			<item_description>Concursul de propagandă – Locul 2</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/hat_second.mdl</model_player>
@@ -4484,7 +4484,7 @@ cu fiecare cap pe care îl iei.	</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Pălărie</item_type_name>
 			<item_name>Uncle Sam</item_name>
-			<item_description>Second Runner-Up, Propaganda Contest</item_description>
+			<item_description>Concursul de propagandă – Locul 3</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/hat_third.mdl</model_player>
@@ -5457,7 +5457,7 @@ Alt-fire: Împarte o ciocolată cu un prieten (Kit de viață mic)</item_descrip
 			<item_class>tf_weapon_pistol</item_class>
 			<item_type_name>Pistol</item_type_name>
 			<item_name>Lugermorph</item_name>
-			<item_description>The ultimate in semi-concealed weaponry. There&apos;s no question you need this gun, the only question is: where will you keep it?</item_description>
+			<item_description>Arma supremă când vine vorba de arme semicamuflate. Nu există dubii privind nevoia ta de a avea această armă, dar întrebare adevărată este: unde o vei ține?</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_ttg_max_gun/c_ttg_max_gun.mdl</model_player>
@@ -5491,7 +5491,7 @@ Alt-fire: Împarte o ciocolată cu un prieten (Kit de viață mic)</item_descrip
 			<item_class>tf_weapon_revolver</item_class>
 			<item_type_name>Revolver</item_type_name>
 			<item_name>Big Kill</item_name>
-			<item_description>Combines style with stopping power. Long exclusive to Freelance Police, now available for other blood-thirsty mercenaries.</item_description>
+			<item_description>Combină stilul cu puterea semnificativă de foc. Înainte aparținea secției Freelance Police, dar acum e disponibilă altor mercenari însetați de sânge.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_ttg_sam_gun/c_ttg_sam_gun.mdl</model_player>
@@ -5524,7 +5524,7 @@ Alt-fire: Împarte o ciocolată cu un prieten (Kit de viață mic)</item_descrip
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Pălărie</item_type_name>
 			<item_name>Max&apos;s Severed Head</item_name>
-			<item_description>Expertly crafted headwear from cruelty-free farms in the Philippines. Hollowed-out skull casing wicks moisture away when in the heat of battle.</item_description>
+			<item_description>Realizată cu măiestrie la fermele lipsite de cruzime din Filipine. Craniul golit și scobit elimină umezeala în vâltoarea luptei.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/Scout_ttg_max.mdl</model_player>
@@ -5777,10 +5777,10 @@ Alt-fire: Împarte o ciocolată cu un prieten (Kit de viață mic)</item_descrip
 			<item_class>no_entity</item_class>
 			<item_type_name>Batjocură Specială</item_type_name>
 			<item_name>Taunt: The High Five!</item_name>
-			<item_description>All Class Taunt
-Don&apos;t leave your friends hanging.
+			<item_description>Batjocură pentru toate clasele.
+Nu-ți lăsa prietenii să aștepte.
 
-This is a partner taunt. Press the taunt key to toggle.</item_description>
+Această batjocură necesită un partener. Apasă tasta pentru batjocură pentru a o activa.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -6119,7 +6119,7 @@ This is a partner taunt. Press the taunt key to toggle.</item_description>
 			<name>Pyro Monocle</name>
 			<defindex>175</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Păr Facial</item_type_name>
+			<item_type_name>Păr facial</item_type_name>
 			<item_name>Whiskered Gentleman</item_name>
 			<item_description>Cel mai distins păr facial rezistent la foc lipit cu bandă adezivă disponibil, pentru pătrunzătorului domn al conflagrației.</item_description>
 			<proper_name>false</proper_name>
@@ -6551,7 +6551,7 @@ Vezi să nu-ți scoți ochiul.</item_description>
 			<name>Heavy Do-rag</name>
 			<defindex>185</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Bandana</item_type_name>
+			<item_type_name>Bandană</item_type_name>
 			<item_name>Heavy Duty Rag</item_name>
 			<item_description>Costă $400,000 să porți baticul acesta pentru 12 secunde.</item_description>
 			<proper_name>true</proper_name>
@@ -8392,7 +8392,7 @@ Furia crește de la damage-ul produs.</item_description>
 			<name>Darwin&apos;s Danger Shield</name>
 			<defindex>231</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Shield</item_type_name>
+			<item_type_name>Scut</item_type_name>
 			<item_name>Darwin&apos;s Danger Shield</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>secondary</item_slot>
@@ -8934,7 +8934,7 @@ Marește nivelul ei câștigând dueluri!</item_description>
 			<name>Pugilist&apos;s Protector</name>
 			<defindex>246</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Pălărie</item_type_name>
+			<item_type_name>Echipament pentru cap</item_type_name>
 			<item_name>Pugilist&apos;s Protector</item_name>
 			<item_description></item_description>
 			<proper_name>false</proper_name>
@@ -10880,7 +10880,7 @@ cele care locuiesc în interiorul lui Eyelander.	</item_description>
 			<item_class>tf_weapon_pistol</item_class>
 			<item_type_name>Pistol</item_type_name>
 			<item_name>Lugermorph</item_name>
-			<item_description>The ultimate in semi-concealed weaponry. There&apos;s no question you need this gun, the only question is: where will you keep it?</item_description>
+			<item_description>Arma supremă când vine vorba de arme semicamuflate. Nu există dubii privind nevoia ta de a avea această armă, dar întrebare adevărată este: unde o vei ține?</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_ttg_max_gun/c_ttg_max_gun.mdl</model_player>
@@ -11127,7 +11127,7 @@ cele care locuiesc în interiorul lui Eyelander.	</item_description>
 			<name>Camera Helm</name>
 			<defindex>302</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Pălărie</item_type_name>
+			<item_type_name>Echipament pentru cap</item_type_name>
 			<item_name>Frontline Field Recorder</item_name>
 			<item_description>Eu sunt scenaristul, directorul, și starul.</item_description>
 			<proper_name>false</proper_name>
@@ -11329,9 +11329,9 @@ Această armă se reîncarcă automat cand nu este activă.</item_description>
 			<name>Scotch Bonnet</name>
 			<defindex>306</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Pălărie</item_type_name>
+			<item_type_name>Echipament pentru cap</item_type_name>
 			<item_name>Scotch Bonnet</item_name>
-			<item_description>Don&apos;t let those ninnies take yer good eye!</item_description>
+			<item_description>Nu-i lăsa pe imbecili să te lase și fără ochiul cel bun!</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/demo_scotchbonnet.mdl</model_player>
@@ -11899,10 +11899,10 @@ Cine are nevoie de pâine?</item_description>
 					<name>Original</name>
 				</style>
 				<style>
-					<name>Colorat complet</name>
+					<name>Vopsit complet</name>
 				</style>
 				<style>
-					<name>Colorat cu stil</name>
+					<name>Vopsit cu stil</name>
 				</style>
 			</styles>
 			<used_by_classes>
@@ -12668,7 +12668,7 @@ Cine are nevoie de pâine?</item_description>
 			<defindex>334</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Pălărie</item_type_name>
-			<item_name>Hat of Undeniable Wealth And Respect</item_name>
+			<item_name>Hat of Undeniable Wealth and Respect</item_name>
 			<item_description>Câștigată completând 28 obiective în &apos;The Great Steam Treasure Hunt&apos;. Ai grijă la încuietoarea Cefalopodului.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -13273,7 +13273,7 @@ Cine are nevoie de pâine?</item_description>
 			<name>MNC Mascot Outfit</name>
 			<defindex>347</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Țoalele</item_type_name>
+			<item_type_name>Haine</item_type_name>
 			<item_name>The Essential Accessories</item_name>
 			<item_description></item_description>
 			<proper_name>false</proper_name>
@@ -13320,7 +13320,7 @@ Cine are nevoie de pâine?</item_description>
 			<item_class>tf_weapon_fireaxe</item_class>
 			<item_type_name>RIFT Fire Axe</item_type_name>
 			<item_name>Sharpened Volcano Fragment</item_name>
-			<item_description>Improves upon Mother Nature&apos;s original design for volcanos by increasing portability. Modern science is unable to explain exactly where the lava is coming from.</item_description>
+			<item_description>Îmbunătățește designul inițial al mamei-natură pentru vulcani, sporindu-le portabilitatea. Știința modernă nu poate explica exact de unde provine lava.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_rift_fire_axe/c_rift_fire_axe.mdl</model_player>
@@ -13807,7 +13807,7 @@ O dă-n bară și leșină</item_description>
 			<name>Hero&apos;s Hachimaki</name>
 			<defindex>360</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Bandana</item_type_name>
+			<item_type_name>Bandană</item_type_name>
 			<item_name>Hero&apos;s Hachimaki</item_name>
 			<item_description></item_description>
 			<proper_name>false</proper_name>
@@ -14226,7 +14226,7 @@ Dacă nu, ascunde-l sub această glugă discretă.</item_description>
 			<defindex>380</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Mască</item_type_name>
-			<item_name>Large Luchadore</item_name>
+			<item_name>Large Luchador</item_name>
 			<item_description>Wrestlingul e pe bune, iar acum o poți dovedi.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -14500,7 +14500,7 @@ de macabră ca această pălărie la care te uiți.</item_description>
 			<name>Teddy Roosebelt</name>
 			<defindex>386</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Pocket Buddy</item_type_name>
+			<item_type_name>Însoțitor de buzunar</item_type_name>
 			<item_name>Teddy Roosebelt</item_name>
 			<item_description>Un prieten drăguț din pluș de buzunar.
 Aw, el are chiar și prorpia lui pălărie!</item_description>
@@ -14553,7 +14553,7 @@ Aw, el are chiar și prorpia lui pălărie!</item_description>
 			<name>Sight for Sore Eyes</name>
 			<defindex>387</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Eyes</item_type_name>
+			<item_type_name>Ochi</item_type_name>
 			<item_name>Sight for Sore Eyes</item_name>
 			<item_description>Vitros haios surescitat.</item_description>
 			<proper_name>false</proper_name>
@@ -14650,7 +14650,7 @@ Aw, el are chiar și prorpia lui pălărie!</item_description>
 			<name>Googly Gazer</name>
 			<defindex>389</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Augmentare Cosmetică</item_type_name>
+			<item_type_name>Augmentare accesoriu</item_type_name>
 			<item_name>Googly Gazer</item_name>
 			<item_description>Ține un ochi pe inamicul tău și
 celălalt pe orice altceva.</item_description>
@@ -14818,7 +14818,7 @@ celălalt pe orice altceva.</item_description>
 			<name>Pocket Medic</name>
 			<defindex>392</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Pocket Buddy</item_type_name>
+			<item_type_name>Însoțitor de buzunar</item_type_name>
 			<item_name>Pocket Medic</item_name>
 			<item_description>Ține micuțul om vindecător aproape.</item_description>
 			<proper_name>false</proper_name>
@@ -14871,7 +14871,7 @@ celălalt pe orice altceva.</item_description>
 			<name>Villain&apos;s Veil</name>
 			<defindex>393</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Bandana</item_type_name>
+			<item_type_name>Bandană</item_type_name>
 			<item_name>Villain&apos;s Veil</item_name>
 			<item_description>Cel bun, cel rău, și cel mort.</item_description>
 			<proper_name>false</proper_name>
@@ -15430,7 +15430,7 @@ celălalt pe orice altceva.</item_description>
 			<name>Ali Baba&apos;s Wee Booties</name>
 			<defindex>405</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Boots</item_type_name>
+			<item_type_name>Cizme</item_type_name>
 			<item_name>Ali Baba&apos;s Wee Booties</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>primary</item_slot>
@@ -15492,7 +15492,7 @@ celălalt pe orice altceva.</item_description>
 			<name>The Splendid Screen</name>
 			<defindex>406</defindex>
 			<item_class>tf_wearable_demoshield</item_class>
-			<item_type_name>Shield</item_type_name>
+			<item_type_name>Scut</item_type_name>
 			<item_name>Splendid Screen</item_name>
 			<item_description>Foc alt: Șarjează înspre inamici și elimină debuff-urile.
 Obține o lovitură critică melee după impactul cu un inamic de la distanță.</item_description>
@@ -15570,7 +15570,7 @@ Obține o lovitură critică melee după impactul cu un inamic de la distanță.
 			<name>Humanitarian&apos;s Hachimaki</name>
 			<defindex>408</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Bandana</item_type_name>
+			<item_type_name>Bandană</item_type_name>
 			<item_name>Humanitarian&apos;s Hachimaki</item_name>
 			<item_description>Sprijinim ajutorul către victimele dezastrului din Japonia</item_description>
 			<proper_name>false</proper_name>
@@ -16185,7 +16185,7 @@ A NU SE UTILIZA ÎN AFARA FACILITĂȚILOR OFICIALE APERTURE.</item_description>
 			<name>Saxxy</name>
 			<defindex>423</defindex>
 			<item_class>saxxy</item_class>
-			<item_type_name>Award</item_type_name>
+			<item_type_name>Premiu</item_type_name>
 			<item_name>Saxxy</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
@@ -16821,8 +16821,8 @@ Produs Complet Natural Derivat din Mâncare de Pește Artificială al Vossler In
 			<item_class>no_entity</item_class>
 			<item_type_name>Batjocură Specială</item_type_name>
 			<item_name>Taunt: The Director&apos;s Vision</item_name>
-			<item_description>All Class Taunt
-Equip this item in a Taunt Slot. Activate to tell your victims you are making a Replay of their pathetic demise to share with everyone.</item_description>
+			<item_description>Batjocură pentru toate clasele.
+Echipează acest obiect într-un slot de batjocură. Activează batjocura pentru a-ți informa victimele că înregistrezi sfârșitul lor patetic pentru a-l împărtăși cu toată lumea.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -16858,7 +16858,7 @@ Equip this item in a Taunt Slot. Activate to tell your victims you are making a 
 			<name>Lord Cockswain&apos;s Pith Helmet</name>
 			<defindex>439</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Pălărie</item_type_name>
+			<item_type_name>Echipament pentru cap</item_type_name>
 			<item_name>Lord Cockswain&apos;s Pith Helmet</item_name>
 			<item_description></item_description>
 			<proper_name>false</proper_name>
@@ -16908,7 +16908,7 @@ Equip this item in a Taunt Slot. Activate to tell your victims you are making a 
 			<name>Lord Cockswain&apos;s Novelty Mutton Chops and Pipe</name>
 			<defindex>440</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Păr Facial</item_type_name>
+			<item_type_name>Păr facial</item_type_name>
 			<item_name>Lord Cockswain&apos;s Novelty Mutton Chops and Pipe</item_name>
 			<item_description></item_description>
 			<proper_name>false</proper_name>
@@ -17105,7 +17105,7 @@ Equip this item in a Taunt Slot. Activate to tell your victims you are making a 
 			<name>The Mantreads</name>
 			<defindex>444</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Boots</item_type_name>
+			<item_type_name>Cizme</item_type_name>
 			<item_name>Mantreads</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
@@ -17916,7 +17916,7 @@ Această armă își reumple întregul încărcător deodată.</item_description
 			<name>The Made Man</name>
 			<defindex>462</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Rose</item_type_name>
+			<item_type_name>Trandafir</item_type_name>
 			<item_name>Made Man</item_name>
 			<item_description>Un gentleman are întotdeauna o floare la îndemână pe care s-o arunce pe mormântul adversarului său.</item_description>
 			<proper_name>true</proper_name>
@@ -17968,8 +17968,8 @@ Această armă își reumple întregul încărcător deodată.</item_description
 			<item_class>no_entity</item_class>
 			<item_type_name>Batjocură Specială</item_type_name>
 			<item_name>Taunt: The Schadenfreude</item_name>
-			<item_description>All Class Taunt
-Share a good natured laugh with everyone except that one guy you just shot.</item_description>
+			<item_description>Batjocură pentru toate clasele.
+Râzi împreună cu toată lumea, cu excepția tipului pe care tocmai l-ai împușcat.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -18406,8 +18406,8 @@ Pot fi aplicate texturi personalizate.</item_description>
 			<item_class>no_entity</item_class>
 			<item_type_name>Batjocură Specială</item_type_name>
 			<item_name>Taunt: The Meet the Medic</item_name>
-			<item_description>Medic Taunt
-Remind those ungrateful bastards how valuable your Medic skills are by striking a heroic pose accompanied by an angelic choir, beams of divine light, and a flock of doves.</item_description>
+			<item_description>Batjocură pentru medic.
+Amintește-le nemernicilor ălora nerecunoscători cât de importante sunt calitățile tale de Medic cu această postură eroică acompaniată de un cor angelic, raze de lumină divină și un stol de porumbei.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -18738,7 +18738,7 @@ cu fiecare cap pe care îl iei.	</item_description>
 			<name>Rogue&apos;s Col Roule</name>
 			<defindex>483</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Țoalele</item_type_name>
+			<item_type_name>Haine</item_type_name>
 			<item_name>Rogue&apos;s Col Roule</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -18786,7 +18786,7 @@ cu fiecare cap pe care îl iei.	</item_description>
 			<name>Prairie Heel Biters</name>
 			<defindex>484</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Spurs</item_type_name>
+			<item_type_name>Pinteni</item_type_name>
 			<item_name>Prairie Heel Biters</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -18834,7 +18834,7 @@ cu fiecare cap pe care îl iei.	</item_description>
 			<name>Big Steel Jaw of Summer Fun</name>
 			<defindex>485</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Pălărie</item_type_name>
+			<item_type_name>Echipament pentru cap</item_type_name>
 			<item_name>Big Steel Jaw of Summer Fun</item_name>
 			<item_description>Ieeei! E vară! Ne distrăm!
 AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
@@ -18986,7 +18986,7 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>Scout Flip-Flops</name>
 			<defindex>490</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Flip-Flops</item_type_name>
+			<item_type_name>Șlapi</item_type_name>
 			<item_name>Flip-Flops</item_name>
 			<item_description>Numai pentru cei cu aductori halluci bărbătești.</item_description>
 			<proper_name>false</proper_name>
@@ -19033,7 +19033,7 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>Lucky No. 42</name>
 			<defindex>491</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Beach Towel</item_type_name>
+			<item_type_name>Prosop de plajă</item_type_name>
 			<item_name>Nr. Norocos 42</item_name>
 			<item_description>De ce să te lupți în soare când poți lenevi la umbră?</item_description>
 			<proper_name>false</proper_name>
@@ -19170,7 +19170,7 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>TournamentMedal - GWJ Winners</name>
 			<defindex>496</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>Gamers With Jobs Tournament – Locul 1</item_name>
 			<item_description>Acordată câștigătorilor!</item_description>
 			<proper_name>false</proper_name>
@@ -19217,9 +19217,9 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>TournamentMedal - GWJ Runnerups</name>
 			<defindex>497</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>Gamers With Jobs Tournament – Locul 2</item_name>
-			<item_description>Acordată celorlalți finaliști!</item_description>
+			<item_description>Acordată vicecampionilor!</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/weiner_bomb_medal.mdl</model_player>
@@ -19264,7 +19264,7 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>TournamentMedal - GWJ Participants</name>
 			<defindex>498</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>Gamers With Jobs Tournament – Participant</item_name>
 			<item_description>Acordată jucătorilor care au participat la campionat.</item_description>
 			<proper_name>false</proper_name>
@@ -19311,7 +19311,7 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>TournamentMedal - ETF2LHL Winners</name>
 			<defindex>499</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>ETF2L Highlander Tournament – Locul 1</item_name>
 			<item_description>Acordată câștigătorilor!</item_description>
 			<proper_name>false</proper_name>
@@ -19358,7 +19358,7 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>TournamentMedal - ETF2LHL 2nd</name>
 			<defindex>500</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>ETF2L Highlander Tournament – Locul 2</item_name>
 			<item_description>Acordată echipei de pe locul al doilea!</item_description>
 			<proper_name>false</proper_name>
@@ -19405,7 +19405,7 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>TournamentMedal - ETF2LHL 3rd</name>
 			<defindex>501</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>ETF2L Highlander Tournament – Locul 3</item_name>
 			<item_description>Acordată echipei de pe locul al treilea!</item_description>
 			<proper_name>false</proper_name>
@@ -19452,7 +19452,7 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>TournamentMedal - ETF2LHL Participants</name>
 			<defindex>502</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>ETF2L Highlander Tournament – Paricipant</item_name>
 			<item_description>Acordată jucătorilor care au participat la campionat.</item_description>
 			<proper_name>false</proper_name>
@@ -19499,7 +19499,7 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>TournamentMedal - UGCHL Participants</name>
 			<defindex>503</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander – Participant</item_name>
 			<item_description>Acordată jucătorilor care au participat la campionat.</item_description>
 			<proper_name>false</proper_name>
@@ -19546,7 +19546,7 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>TournamentMedal - UGCHLDiv1 Winners</name>
 			<defindex>504</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Platinum – Locul 1</item_name>
 			<item_description>Acordată câștigătorilor!</item_description>
 			<proper_name>false</proper_name>
@@ -19593,7 +19593,7 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>TournamentMedal - UGCHLDiv1 2nd</name>
 			<defindex>505</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Platinum – Locul 2</item_name>
 			<item_description>Acordată echipei de pe locul al doilea!</item_description>
 			<proper_name>false</proper_name>
@@ -19640,7 +19640,7 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>TournamentMedal - UGCHLDiv1 3rd</name>
 			<defindex>506</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Platinum – Locul 3</item_name>
 			<item_description>Acordată echipei de pe locul al treilea!</item_description>
 			<proper_name>false</proper_name>
@@ -19687,7 +19687,7 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>TournamentMedal - UGCHLDiv2 Winners</name>
 			<defindex>507</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Silver – Locul 1</item_name>
 			<item_description>Acordată câștigătorilor!</item_description>
 			<proper_name>false</proper_name>
@@ -19734,7 +19734,7 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>TournamentMedal - UGCHLDiv2 2nd</name>
 			<defindex>508</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Silver – Locul 2</item_name>
 			<item_description>Acordată echipei de pe locul al doilea!</item_description>
 			<proper_name>false</proper_name>
@@ -19781,7 +19781,7 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>TournamentMedal - UGCHLDiv2 3rd</name>
 			<defindex>509</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Silver – Locul 3</item_name>
 			<item_description>Acordată echipei de pe locul al treilea!</item_description>
 			<proper_name>false</proper_name>
@@ -19828,7 +19828,7 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>TournamentMedal - UGCHLDiv3 Winners</name>
 			<defindex>510</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Iron – Locul 1</item_name>
 			<item_description>Acordată câștigătorilor!</item_description>
 			<proper_name>false</proper_name>
@@ -19875,7 +19875,7 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>TournamentMedal - UGCHLDiv3 2nd</name>
 			<defindex>511</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Iron – Locul 2</item_name>
 			<item_description>Acordată echipei de pe locul al doilea!</item_description>
 			<proper_name>false</proper_name>
@@ -19922,7 +19922,7 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>TournamentMedal - UGCHLDiv3 3rd</name>
 			<defindex>512</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Iron – Locul 3</item_name>
 			<item_description>Acordată echipei de pe locul al treilea!</item_description>
 			<proper_name>false</proper_name>
@@ -20251,7 +20251,7 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>Pip-Boy</name>
 			<defindex>519</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Armband</item_type_name>
+			<item_type_name>Manșetă</item_type_name>
 			<item_name>Pip-Boy</item_name>
 			<item_description>Folosește grafică modernă de rezoluție super-delux!</item_description>
 			<proper_name>false</proper_name>
@@ -20495,7 +20495,7 @@ AH, DUMNEZEULE, E FIXATĂ DE CAPUL LUI!</item_description>
 			<name>The Purity Fist</name>
 			<defindex>524</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Augmentare Cosmetică</item_type_name>
+			<item_type_name>Augmentare accesoriu</item_type_name>
 			<item_name>Purity Fist</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -21132,7 +21132,7 @@ Gamescom 2011</item_description>
 			<name>Ball-Kicking Boots</name>
 			<defindex>540</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Papuci</item_type_name>
+			<item_type_name>Încălțăminte</item_type_name>
 			<item_name>Ball-Kicking Boots</item_name>
 			<item_description>Arată mingilor cine e șeful.</item_description>
 			<proper_name>true</proper_name>
@@ -21272,7 +21272,7 @@ Gamescom 2011</item_description>
 			<name>Hair of the Dog</name>
 			<defindex>543</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Hair of the Dog</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -21325,7 +21325,7 @@ Gamescom 2011</item_description>
 			<name>Scottish Snarl</name>
 			<defindex>544</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Scottish Snarl</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -21378,7 +21378,7 @@ Gamescom 2011</item_description>
 			<name>Pickled Paws</name>
 			<defindex>545</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Pickled Paws</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -21431,7 +21431,7 @@ Gamescom 2011</item_description>
 			<name>Wrap Battler</name>
 			<defindex>546</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Wrap Battler</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -21484,8 +21484,8 @@ Gamescom 2011</item_description>
 			<name>B-ankh!</name>
 			<defindex>547</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
-			<item_name>B-ankh!</item_name>
+			<item_type_name>Piesă de costum</item_type_name>
+			<item_name>B-Ankh!</item_name>
 			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -21537,7 +21537,7 @@ Gamescom 2011</item_description>
 			<name>Futankhamun</name>
 			<defindex>548</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Futankhamun</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -21590,7 +21590,7 @@ Gamescom 2011</item_description>
 			<name>Blazing Bull</name>
 			<defindex>549</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Blazing Bull</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -21643,7 +21643,7 @@ Gamescom 2011</item_description>
 			<name>Fallen Angel</name>
 			<defindex>550</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Fallen Angel</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -21696,7 +21696,7 @@ Gamescom 2011</item_description>
 			<name>Tail From the Crypt</name>
 			<defindex>551</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Tail from the Crypt</item_name>
 			<item_description></item_description>
 			<proper_name>false</proper_name>
@@ -21749,7 +21749,7 @@ Gamescom 2011</item_description>
 			<name>Einstein</name>
 			<defindex>552</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Einstein</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -21802,7 +21802,7 @@ Gamescom 2011</item_description>
 			<name>Dr. Gogglestache</name>
 			<defindex>553</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Dr. Gogglestache</item_name>
 			<item_description></item_description>
 			<proper_name>false</proper_name>
@@ -21855,7 +21855,7 @@ Gamescom 2011</item_description>
 			<name>Emerald Jarate</name>
 			<defindex>554</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Emerald Jarate</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -21908,7 +21908,7 @@ Gamescom 2011</item_description>
 			<name>Idiot Box</name>
 			<defindex>555</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Idiot Box</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -21961,7 +21961,7 @@ Gamescom 2011</item_description>
 			<name>Steel Pipes</name>
 			<defindex>556</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Steel Pipes</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -22014,7 +22014,7 @@ Gamescom 2011</item_description>
 			<name>Shoestring Budget</name>
 			<defindex>557</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Shoestring Budget</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -22067,7 +22067,7 @@ Gamescom 2011</item_description>
 			<name>Under Cover</name>
 			<defindex>558</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Under Cover</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -22120,7 +22120,7 @@ Gamescom 2011</item_description>
 			<name>Griffin&apos;s Gog</name>
 			<defindex>559</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Griffin&apos;s Gog</item_name>
 			<item_description></item_description>
 			<proper_name>false</proper_name>
@@ -22173,7 +22173,7 @@ Gamescom 2011</item_description>
 			<name>Intangible Ascot</name>
 			<defindex>560</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Intangible Ascot</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -22226,7 +22226,7 @@ Gamescom 2011</item_description>
 			<name>Can Opener</name>
 			<defindex>561</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Can Opener</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -22279,7 +22279,7 @@ Gamescom 2011</item_description>
 			<name>Soviet Stitch-Up</name>
 			<defindex>562</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Soviet Stitch-Up</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -22332,7 +22332,7 @@ Gamescom 2011</item_description>
 			<name>Steel-Toed Stompers</name>
 			<defindex>563</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Steel-Toed Stompers</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -22385,7 +22385,7 @@ Gamescom 2011</item_description>
 			<name>Holy Hunter</name>
 			<defindex>564</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Holy Hunter</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -22438,7 +22438,7 @@ Gamescom 2011</item_description>
 			<name>Silver Bullets</name>
 			<defindex>565</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Silver Bullets</item_name>
 			<item_description></item_description>
 			<proper_name>false</proper_name>
@@ -22491,7 +22491,7 @@ Gamescom 2011</item_description>
 			<name>Garlic Flank Stake</name>
 			<defindex>566</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Garlic Flank Stake</item_name>
 			<item_description></item_description>
 			<proper_name>false</proper_name>
@@ -22544,7 +22544,7 @@ Gamescom 2011</item_description>
 			<name>Buzz Killer</name>
 			<defindex>567</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Buzz Killer</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -22597,7 +22597,7 @@ Gamescom 2011</item_description>
 			<name>Frontier Flyboy</name>
 			<defindex>568</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Frontier Flyboy</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -22650,7 +22650,7 @@ Gamescom 2011</item_description>
 			<name>Legend of Bugfoot</name>
 			<defindex>569</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Legend of Bugfoot</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
@@ -22915,7 +22915,7 @@ Gamescom 2011</item_description>
 			<name>The Infernal Impaler</name>
 			<defindex>575</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Pălărie</item_type_name>
+			<item_type_name>Echipament pentru cap</item_type_name>
 			<item_name>Infernal Impaler</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -23665,7 +23665,7 @@ Gamescom 2011</item_description>
 			<name>The Brainiac Hairpiece</name>
 			<defindex>590</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Păr Facial</item_type_name>
+			<item_type_name>Păr facial</item_type_name>
 			<item_name>Brainiac Hairpiece</item_name>
 			<item_description>Fiind o decorațiune pentru păr ce îmbunătățește matematica care se încumetă să potențeze simțurile oricărui suflet, fie el un gentleman al timpului liber ce merită un asemenea lucru, sau un detestabil muncitor al pământului căruia o bătaie nu i-ar fi nejustificată.</item_description>
 			<proper_name>true</proper_name>
@@ -24014,7 +24014,7 @@ Fiind un dispozitiv ce batjocorește consensul științific convențional, cum c
 			<name>The Moonman Backpack</name>
 			<defindex>596</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Fuel Tank</item_type_name>
+			<item_type_name>Rezervor de combustibil</item_type_name>
 			<item_name>Moonman Backpack</item_name>
 			<item_description>Este un pachet cu ingredientele fundamentale necesare pentru supraviețuirea corpului în spațiu - mai exact o parte oxigen, o parte mercur și douăsprezece părți laudanum.</item_description>
 			<proper_name>true</proper_name>
@@ -24602,7 +24602,7 @@ Conține o mostră gratuită din gama noastră din această toamnă și poate fi
 			<name>The Bootlegger</name>
 			<defindex>608</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Boots</item_type_name>
+			<item_type_name>Cizme</item_type_name>
 			<item_name>Bootlegger</item_name>
 			<item_description>Uimește-ți prietenii ! Impresionează femei! Șchiopătează pe viață! Este grotesc!</item_description>
 			<proper_name>true</proper_name>
@@ -24707,7 +24707,7 @@ Conține o mostră gratuită din gama noastră din această toamnă și poate fi
 			<name>A Whiff of the Old Brimstone</name>
 			<defindex>610</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Bombe Decorative</item_type_name>
+			<item_type_name>Bombe decorative</item_type_name>
 			<item_name>A Whiff of the Old Brimstone</item_name>
 			<item_description>Inamicii tăi vor aplauda de încântare la inocența animată a acestor bombe de demult, făcând mult mai plăcută distrugerea brațelor lor.</item_description>
 			<proper_name>false</proper_name>
@@ -25122,7 +25122,7 @@ Conține o mostră gratuită din gama noastră din această toamnă și poate fi
 			<name>The Crocodile Smile</name>
 			<defindex>618</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Necklace</item_type_name>
+			<item_type_name>Colier</item_type_name>
 			<item_name>Crocodile Smile</item_name>
 			<item_description>Câți crocodili au trebuit să moară ca să fie făcut acest lănțișor? Mulți. Asta e ideea.</item_description>
 			<proper_name>true</proper_name>
@@ -25170,7 +25170,7 @@ Conține o mostră gratuită din gama noastră din această toamnă și poate fi
 			<name>Flair!</name>
 			<defindex>619</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Flair!</item_type_name>
+			<item_type_name>Insigne!</item_type_name>
 			<item_name>Flair!</item_name>
 			<item_description>Arată entuziasm! Pentru lucrurile tale preferate!
 
@@ -25218,7 +25218,7 @@ Texturi modificate pot fi aplicate pe acest obiect.</item_description>
 			<name>Couvre Corner</name>
 			<defindex>620</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Pocket Square</item_type_name>
+			<item_type_name>Batistă de buzunar</item_type_name>
 			<item_name>Couvre Corner</item_name>
 			<item_description>Câteodată punem glume în aceste descrieri. Dar, fără glumă: Asta arată bine. Foarte ascuțită.</item_description>
 			<proper_name>false</proper_name>
@@ -25267,7 +25267,7 @@ Texturi modificate pot fi aplicate pe acest obiect.</item_description>
 			<name>The Surgeon&apos;s Stethoscope</name>
 			<defindex>621</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Stethoscope</item_type_name>
+			<item_type_name>Stetoscop</item_type_name>
 			<item_name>Surgeon&apos;s Stethoscope</item_name>
 			<item_description>Arată ca și cum ai știi ce faci când declari oamenii decedați.</item_description>
 			<proper_name>true</proper_name>
@@ -25559,7 +25559,7 @@ Texturi modificate pot fi aplicate pe acest obiect.</item_description>
 			<name>The Virtual Reality Headset</name>
 			<defindex>628</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Căști</item_type_name>
+			<item_type_name>Pereche de căști</item_type_name>
 			<item_name>Virtual Reality Headset</item_name>
 			<item_description>Cu acestea pe tine, poți să pretinzi că învingi.</item_description>
 			<proper_name>true</proper_name>
@@ -25707,7 +25707,7 @@ Texturi modificate pot fi aplicate pe acest obiect.</item_description>
 			<defindex>631</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Pălărie</item_type_name>
-			<item_name>Hat With No Name</item_name>
+			<item_name>Hat with No Name</item_name>
 			<item_description>O pălărie fără nume pentru un om fără nume.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -26086,7 +26086,7 @@ Texturi modificate pot fi aplicate pe acest obiect.</item_description>
 			<name>Bowtie</name>
 			<defindex>639</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Shirt</item_type_name>
+			<item_type_name>Bluză</item_type_name>
 			<item_name>Dr. Whoa</item_name>
 			<item_description></item_description>
 			<proper_name>false</proper_name>
@@ -26181,7 +26181,7 @@ Texturi modificate pot fi aplicate pe acest obiect.</item_description>
 			<name>The Ornament Armament</name>
 			<defindex>641</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Bombe Decorative</item_type_name>
+			<item_type_name>Bombe decorative</item_type_name>
 			<item_name>Ornament Armament</item_name>
 			<item_description>La fel ca și grenadele originale ale Soldier-ului, aceste globuri strălucitoare de sticlă sunt complet ornamentale.</item_description>
 			<proper_name>true</proper_name>
@@ -26288,7 +26288,7 @@ Texturi modificate pot fi aplicate pe acest obiect.</item_description>
 			<name>The Sandvich Safe</name>
 			<defindex>643</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Lunchbox</item_type_name>
+			<item_type_name>Caserolă de mâncare</item_type_name>
 			<item_name>Sandvich Safe</item_name>
 			<item_description>Ține sandvich-ul sigur cu cutia pentru sanvich. Ok, e bine, atât cu descrierea. Cumpăr-o.</item_description>
 			<proper_name>true</proper_name>
@@ -26385,7 +26385,7 @@ Texturi modificate pot fi aplicate pe acest obiect.</item_description>
 			<name>The Outback Intellectual</name>
 			<defindex>645</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Țoalele</item_type_name>
+			<item_type_name>Haine</item_type_name>
 			<item_name>Outback Intellectual</item_name>
 			<item_description>Carouri. Fumatul de pipă. Individual, te fac să arăți ca un idiot. Împreună, te fac să arăți deștept ȘI cu stil! Ca Umberto Eco!</item_description>
 			<proper_name>true</proper_name>
@@ -26439,7 +26439,7 @@ Texturi modificate pot fi aplicate pe acest obiect.</item_description>
 			<name>The Itsy Bitsy Spyer</name>
 			<defindex>646</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Pocket Buddy</item_type_name>
+			<item_type_name>Însoțitor de buzunar</item_type_name>
 			<item_name>Itsy Bitsy Spyer</item_name>
 			<item_description>Ai un Spy în miniatură în buzunar, sau esți doar fericit să &quot;OH DOAMNE NU MĂ MAI LOVI!&quot;</item_description>
 			<proper_name>true</proper_name>
@@ -26488,7 +26488,7 @@ Texturi modificate pot fi aplicate pe acest obiect.</item_description>
 			<name>The All-Father</name>
 			<defindex>647</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Păr Facial</item_type_name>
+			<item_type_name>Păr facial</item_type_name>
 			<item_name>All-Father</item_name>
 			<item_description>De-a lungul istoriei civilizației, barba albă a ajuns să simbolizeze înțelepciune și statut. Arată lumii că e posibil să fii bărbos ȘI prost cu acest cuib de față. Ia de aici, civilizație!</item_description>
 			<proper_name>true</proper_name>
@@ -26603,7 +26603,7 @@ Texturi modificate pot fi aplicate pe acest obiect.</item_description>
 			<defindex>649</defindex>
 			<item_class>tf_weapon_knife</item_class>
 			<item_type_name>Knife</item_type_name>
-			<item_name>Spy-cicle</item_name>
+			<item_name>Spy-Cicle</item_name>
 			<item_description>Este cadoul perfect pentru bărbatul care are tot: un țurțure înfipt în spatele cuiva. Nici măcar bogații nu pot cumpăra asta din magazine.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
@@ -26658,7 +26658,7 @@ Texturi modificate pot fi aplicate pe acest obiect.</item_description>
 			<name>The Kringle Collection</name>
 			<defindex>650</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Coat</item_type_name>
+			<item_type_name>Haină</item_type_name>
 			<item_name>Kringle Collection</item_name>
 			<item_description>Fă dansul pantalonilor de zăpadă cu acest ansamblu stilat de sărbători de la faimosul creator Arctic Kristoff Kringle.</item_description>
 			<proper_name>true</proper_name>
@@ -26706,7 +26706,7 @@ Texturi modificate pot fi aplicate pe acest obiect.</item_description>
 			<name>The Jingle Belt</name>
 			<defindex>651</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Bells</item_type_name>
+			<item_type_name>Clopoței</item_type_name>
 			<item_name>Jingle Belt</item_name>
 			<item_description>Colopoțeii morții vor suna în urechile prăjite încet ale victimelor tale arse.</item_description>
 			<proper_name>true</proper_name>
@@ -26818,7 +26818,7 @@ Texturi modificate pot fi aplicate pe acest obiect.</item_description>
 			<name>The Bootie Time</name>
 			<defindex>653</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Țoalele</item_type_name>
+			<item_type_name>Haine</item_type_name>
 			<item_name>Bootie Time</item_name>
 			<item_description>Încântătorule! Dansatorule! Splendidule! ȘIRETULE! Trageți sania lui Moș Crăciun singuri, bărbați mici și sexy ce sunteți.</item_description>
 			<proper_name>true</proper_name>
@@ -27034,9 +27034,9 @@ Texturi modificate pot fi aplicate pe acest obiect.</item_description>
 			<name>The Nine-Pipe Problem</name>
 			<defindex>657</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Pipe</item_type_name>
+			<item_type_name>Pipă</item_type_name>
 			<item_name>Nine-Pipe Problem</item_name>
-			<item_description>În timpul necesar citirii acestei descrieri, am dat uber pe un heavy, am capturat baza voastră, am rezolvat o crimă, și am fumat trei pipe.</item_description>
+			<item_description>Cât timp citești această descriere, am dat Über unui heavy, ți-am ocupat baza, am elucidat o infracțiune și am fumat trei pipe.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/medic_smokingpipe.mdl</model_player>
@@ -27390,7 +27390,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>The B.M.O.C.</name>
 			<defindex>666</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Holiday Hat</item_type_name>
+			<item_type_name>Pălărie de sărbătoare</item_type_name>
 			<item_name>B.M.O.C.</item_name>
 			<item_description>Fii Omul Mare al Crăciunului cu aceasta pălărie cu blană!</item_description>
 			<proper_name>true</proper_name>
@@ -27435,7 +27435,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>The Holiday Headcase</name>
 			<defindex>667</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Holiday Hat</item_type_name>
+			<item_type_name>Pălărie de sărbătoare</item_type_name>
 			<item_name>Holiday Headcase</item_name>
 			<item_description>Smissmass Fericit, tuturor! Fie ca toate sărbătorile voastre să fie vesele (sau mai puțin vesele, în funcție de tradițiile culturale ale fiecăruia) cu acest obiect ultrarar din TF, donat de utilizatorul Steam BANG.</item_description>
 			<proper_name>true</proper_name>
@@ -27555,7 +27555,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>The Stocking Stuffer</name>
 			<defindex>670</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Stocking</item_type_name>
+			<item_type_name>Ciorap de Crăciun</item_type_name>
 			<item_name>Stocking Stuffer</item_name>
 			<item_description>Nu este nevoie să agăți acest ciorap de șemineu. Este deja umplut. Mulțumesc pentru nimic, Moș Crăciun.</item_description>
 			<proper_name>true</proper_name>
@@ -27701,7 +27701,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>The Ebenezer</name>
 			<defindex>675</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Holiday Hat</item_type_name>
+			<item_type_name>Pălărie de sărbătoare</item_type_name>
 			<item_name>Ebenezer</item_name>
 			<item_description>Dacă ești vizitat în această noapte de o piesă fantomatică de vestimentație pentru cap, fă-o să fie Fantoma Pălăriilor de Crăciun, donate în adevăratul spirit de Smissmas de către Utilizatorul Steam Jacen.</item_description>
 			<proper_name>true</proper_name>
@@ -27746,7 +27746,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>UGC Tournament Fall 2011 - Platinum 1st Place</name>
 			<defindex>680</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Platinum – Locul 1</item_name>
 			<item_description>Toamnă 2011</item_description>
 			<proper_name>false</proper_name>
@@ -27793,7 +27793,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>UGC Tournament Fall 2011 - Platinum 2nd Place</name>
 			<defindex>681</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Platinum – Locul 2</item_name>
 			<item_description>Toamnă 2011</item_description>
 			<proper_name>false</proper_name>
@@ -27840,7 +27840,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>UGC Tournament Fall 2011 - Platinum 3rd Place</name>
 			<defindex>682</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Platinum – Locul 3</item_name>
 			<item_description>Toamnă 2011</item_description>
 			<proper_name>false</proper_name>
@@ -27887,7 +27887,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>UGC Tournament Fall 2011 - Platinum Participant</name>
 			<defindex>683</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Platinum – Participant</item_name>
 			<item_description>Toamnă 2011</item_description>
 			<proper_name>false</proper_name>
@@ -27934,8 +27934,8 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>UGC Tournament Autumn 2011 - Euro Platinum</name>
 			<defindex>684</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
-			<item_name>UGC Highlander Euro Platinum</item_name>
+			<item_type_name>Medalie de turneu</item_type_name>
+			<item_name>UGC Highlander Euro – Platină</item_name>
 			<item_description>Toamnă 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -27981,7 +27981,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>UGC Tournament Fall 2011 - Silver 1st Place</name>
 			<defindex>685</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Silver – Locul 1</item_name>
 			<item_description>Toamnă 2011</item_description>
 			<proper_name>false</proper_name>
@@ -28028,7 +28028,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>UGC Tournament Fall 2011 - Silver 2nd Place</name>
 			<defindex>686</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Silver – Locul 2</item_name>
 			<item_description>Toamnă 2011</item_description>
 			<proper_name>false</proper_name>
@@ -28075,7 +28075,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>UGC Tournament Fall 2011 - Silver 3rd Place</name>
 			<defindex>687</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Silver – Locul 3</item_name>
 			<item_description>Toamnă 2011</item_description>
 			<proper_name>false</proper_name>
@@ -28122,7 +28122,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>UGC Tournament Fall 2011 - Silver Participant</name>
 			<defindex>688</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Silver – Participant</item_name>
 			<item_description>Toamnă 2011</item_description>
 			<proper_name>false</proper_name>
@@ -28169,8 +28169,8 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>UGC Tournament Autumn 2011 - Euro Silver</name>
 			<defindex>689</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
-			<item_name>UGC Highlander Euro Silver</item_name>
+			<item_type_name>Medalie de turneu</item_type_name>
+			<item_name>UGC Highlander Euro – Argint</item_name>
 			<item_description>Toamnă 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -28216,7 +28216,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>UGC Tournament Fall 2011 - Iron 2nd Place</name>
 			<defindex>690</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Iron – Locul 2</item_name>
 			<item_description>Toamnă 2011</item_description>
 			<proper_name>false</proper_name>
@@ -28263,7 +28263,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>UGC Tournament Fall 2011 - Iron 1st Place</name>
 			<defindex>691</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Iron – Locul 1</item_name>
 			<item_description>Toamnă 2011</item_description>
 			<proper_name>false</proper_name>
@@ -28310,7 +28310,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>UGC Tournament Fall 2011 - Iron 3rd Place</name>
 			<defindex>692</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Iron – Locul 3</item_name>
 			<item_description>Toamnă 2011</item_description>
 			<proper_name>false</proper_name>
@@ -28357,8 +28357,8 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>UGC Tournament Autumn 2011 - Euro Iron</name>
 			<defindex>693</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
-			<item_name>UGC Highlander Euro Iron</item_name>
+			<item_type_name>Medalie de turneu</item_type_name>
+			<item_name>UGC Highlander Euro – Fier</item_name>
 			<item_description>Toamnă 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -28404,7 +28404,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>UGC Tournament Fall 2011 - Tin 1st Place</name>
 			<defindex>694</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Tin – Locul 1</item_name>
 			<item_description>Toamnă 2011</item_description>
 			<proper_name>false</proper_name>
@@ -28451,7 +28451,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>UGC Tournament Fall 2011 - Tin 2nd Place</name>
 			<defindex>695</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Tin – Locul 2</item_name>
 			<item_description>Toamnă 2011</item_description>
 			<proper_name>false</proper_name>
@@ -28498,7 +28498,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>UGC Tournament Fall 2011 - Tin 3rd Place</name>
 			<defindex>696</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Tin – Locul 3</item_name>
 			<item_description>Toamnă 2011</item_description>
 			<proper_name>false</proper_name>
@@ -28545,7 +28545,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>UGC Tournament Fall 2011 - Participant</name>
 			<defindex>697</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander – Participant</item_name>
 			<item_description>Toamnă 2011</item_description>
 			<proper_name>false</proper_name>
@@ -28592,7 +28592,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>UGC Tournament Autumn 2011 - Euro Participant</name>
 			<defindex>698</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Medalie de Campionat</item_type_name>
+			<item_type_name>Medalie de turneu</item_type_name>
 			<item_name>UGC Highlander Euro – Participant</item_name>
 			<item_description>Toamnă 2011</item_description>
 			<proper_name>false</proper_name>
@@ -28858,7 +28858,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>The Boston Boom-Bringer</name>
 			<defindex>707</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Dispozitiv audio futuristic</item_type_name>
+			<item_type_name>Dispozitiv audio futurist</item_type_name>
 			<item_name>Boston Boom-Bringer</item_name>
 			<item_description>Plimbându-se pe stradă, asculta o piesă mișto, în timp ce asfaltul vibra sub bass-ul Mann Co.</item_description>
 			<proper_name>true</proper_name>
@@ -28910,7 +28910,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>Aladdin&apos;s Private Reserve</name>
 			<defindex>708</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Mystical Lamp</item_type_name>
+			<item_type_name>Lampă magică</item_type_name>
 			<item_name>Aladdin&apos;s Private Reserve</item_name>
 			<item_description>Deținută original de un copil golan din Siria, aceast artefact arab de îndeplinit dorințe este o lampă plină cu curaj lichid. Doar freac-o, gândește-te la gânduri alcoolice, și toarnă. Atenție: nu te gândi la altceva în timp ce freci, sau ai putea să nu primești tărie.</item_description>
 			<proper_name>false</proper_name>
@@ -28962,7 +28962,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>The Snapped Pupil</name>
 			<defindex>709</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Photograph</item_type_name>
+			<item_type_name>Fotografie</item_type_name>
 			<item_name>The Snapped Pupil</item_name>
 			<item_description>Fiți sinceri, prieteni. Nici nu vă puteți da seama de diferență, nu-i așa?</item_description>
 			<proper_name>true</proper_name>
@@ -29060,7 +29060,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<defindex>712</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Pălărie</item_type_name>
-			<item_name>Omul Dăruitor din Lumea cu Cadouri</item_name>
+			<item_name>Gifting Man from Gifting Land</item_name>
 			<item_description>Felicitări pentru oferirea mai multor cadouri pe ziua de ieri decât orice alt jucător de TF2! Poartă asta cu mândrie înainte de a se schimba de mâine!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -29406,7 +29406,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>The Fast Learner</name>
 			<defindex>722</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Shirt</item_type_name>
+			<item_type_name>Bluză</item_type_name>
 			<item_name>Fast Learner</item_name>
 			<item_description>Citește o carte – sau măcar prefă-te că poți – cu acest ansamblu educațional vintage. Fii B.M.O.C.-ul (Big Mouth on Campus - Gură Mare În Campus) al propriei Ligi Ivy imaginare!</item_description>
 			<proper_name>true</proper_name>
@@ -29417,7 +29417,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>100</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/scout_prep_shirt.906456dfdb9b9c54543dcb716bb1952efb3fdde9.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.c56d08ff23b3f30249a18501fef79d221f034cd0.png</image_url_large>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.05be377767ca55c152b815f1d9774759c875a90c.png</image_url_large>
 			<drop_type>none</drop_type>
 			<craft_class>hat</craft_class>
 			<craft_material_type>hat</craft_material_type>
@@ -29697,7 +29697,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>The Captain&apos;s Cocktails</name>
 			<defindex>731</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Bombe Decorative</item_type_name>
+			<item_type_name>Bombe decorative</item_type_name>
 			<item_name>Captain&apos;s Cocktails</item_name>
 			<item_description>Atenție, domnișoarelor! Sunteți destul de BĂRBAȚI încât să umblați cu niște cutii pline de supă expirată? Sunteți destul de NEBUNI încât să pretindeți ca sunt grenade? Sunteți destul de FLĂMÂNZI încât să mâncați supa mai târziu, când nimeni nu e atent? Suntem siguri că da!</item_description>
 			<proper_name>true</proper_name>
@@ -29747,7 +29747,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<defindex>732</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Cască</item_type_name>
-			<item_name>Helmet Without a Home</item_name>
+			<item_name>Helmet without a Home</item_name>
 			<item_description>Gândește-te la casca asta ca fiind fortificată, un adăpost portabil pentru capul tău. Este de asemeni, căptușită cu folie de aluminiu, încât nimeni să nu îți fure valoroasele gânduri hoinărești.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -29846,7 +29846,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>The Teufort Tooth Kicker</name>
 			<defindex>734</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Boots</item_type_name>
+			<item_type_name>Cizme</item_type_name>
 			<item_name>Teufort Tooth Kicker</item_name>
 			<item_description>Acești micuți cu vârfuri de oțel au fost proiectați științific (într-un tunel de vânt) de câtre cei mai de seamă reprezentați ai lovitului-în-gură din America pentru a încăpea perfect în gura oricărui idiot.</item_description>
 			<proper_name>true</proper_name>
@@ -30272,7 +30272,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>Autogrant Pyrovision Goggles</name>
 			<defindex>743</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Pyrovision Goggles</item_type_name>
+			<item_type_name>Ochelari Pyrovision</item_type_name>
 			<item_name>Pyrovision Goggles</item_name>
 			<item_description>Intră într-o lume a imaginației ce e cu mult presus lumilor imaginare jalnice din cărți. Pyrovision îți permite să vezi TF2niversul din punctul de vedere al incendiatorului nostru preferat.</item_description>
 			<proper_name>false</proper_name>
@@ -30328,7 +30328,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>Pyrovision Goggles</name>
 			<defindex>744</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Pyrovision Goggles</item_type_name>
+			<item_type_name>Ochelari Pyrovision</item_type_name>
 			<item_name>Pyrovision Goggles</item_name>
 			<item_description>Intră într-o lume a imaginației ce e cu mult presus lumilor imaginare jalnice din cărți. Pyrovision îți permite să vezi TF2niversul din punctul de vedere al incendiatorului nostru preferat.</item_description>
 			<proper_name>false</proper_name>
@@ -30846,7 +30846,7 @@ Capete o să cadă.</item_description>
 			<name>The Toss-Proof Towel</name>
 			<defindex>757</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Țoalele</item_type_name>
+			<item_type_name>Haine</item_type_name>
 			<item_name>Toss-Proof Towel</item_name>
 			<item_description>Asigură-te că niciodată nu arunci în prosop, nici măcar din greșeală, păstrându-l frumos și aproape, de unde nu poate cădea și se preda că un laș când tu nu te uiți.</item_description>
 			<proper_name>true</proper_name>
@@ -31153,7 +31153,7 @@ Capete o să cadă.</item_description>
 			<name>The Sneaky Spats of Sneaking</name>
 			<defindex>763</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Papuci</item_type_name>
+			<item_type_name>Încălțăminte</item_type_name>
 			<item_name>Sneaky Spats of Sneaking</item_name>
 			<item_description>Desigur, ești la piață pentru pantofi care te ajută să stai ascuns în umbre. Dar de îndată ce te încalți în acești spatterdashes făcuți din piele de vită, vei vrea ca TOATĂ lumea să te vadă.</item_description>
 			<proper_name>true</proper_name>
@@ -31251,7 +31251,7 @@ Capete o să cadă.</item_description>
 			<name>The Cross-Comm Express</name>
 			<defindex>765</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Pălărie</item_type_name>
+			<item_type_name>Echipament pentru cap</item_type_name>
 			<item_name>Cross-Comm Express</item_name>
 			<item_description>Acest monoclu de război cu spectru complet, primește semnale cu viteza luminii de la un satelit, asta însemnând că va trebui să încetinești un pic ca să te ajungă din urmă.</item_description>
 			<proper_name>true</proper_name>
@@ -31396,7 +31396,7 @@ Capete o să cadă.</item_description>
 			<name>The Professor&apos;s Pineapple</name>
 			<defindex>768</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Science Project</item_type_name>
+			<item_type_name>Proiect științific</item_type_name>
 			<item_name>Professor&apos;s Pineapple</item_name>
 			<item_description>Nu știm ce e în asta, dar am găsit-o în niște tobe ruginite îngropate într-un mormânt puțin adânc într-o pădure pădure, așa că hai să fim serioși, probabil vei obține superi puteri dacă o bei.</item_description>
 			<proper_name>true</proper_name>
@@ -31447,7 +31447,7 @@ Capete o să cadă.</item_description>
 			<name>The Quadwrangler</name>
 			<defindex>769</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Science Project</item_type_name>
+			<item_type_name>Proiect științific</item_type_name>
 			<item_name>Quadwrangler</item_name>
 			<item_description>Acest halat de laborator cu guler include o țeavă din cauciuc ce scurge sânge de la inimă, unde nu este nevoie de el, către brațul cu arma, care are nevoie din plin!</item_description>
 			<proper_name>true</proper_name>
@@ -31544,7 +31544,7 @@ Capete o să cadă.</item_description>
 			<name>The Liquor Locker</name>
 			<defindex>771</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Treasure</item_type_name>
+			<item_type_name>Comoară</item_type_name>
 			<item_name>Liquor Locker</item_name>
 			<item_description>Demo își păstrează averea aproape, la piept: mai exact, pe cealaltă parte, legată de spatele său. Nu vei găsi bani înăuntru: Demo investește cu întelepciune în aur, pe care îl cheltuiește pe băuturi vechi, în butoiașe rare, pe care le bea, de obicei - motiv pentru care le ține încuiate și cu cheia ascunsă.</item_description>
 			<proper_name>true</proper_name>
@@ -31900,7 +31900,7 @@ Capete o să cadă.</item_description>
 			<name>The Apparatchik&apos;s Apparel</name>
 			<defindex>777</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Shirt</item_type_name>
+			<item_type_name>Bluză</item_type_name>
 			<item_name>Apparatchik&apos;s Apparel</item_name>
 			<item_description>Umblatul cu o armă de 150 de kilograme oferă mușchilor brațelor un bun antrenament. Laudă-te, purtând aceste tricouri cu mânecile ridicate, alegând modelul ecosez, pădurar, dungi de rugby sau dungi verticale fine.</item_description>
 			<proper_name>true</proper_name>
@@ -32161,7 +32161,7 @@ Capete o să cadă.</item_description>
 			<name>The Business Casual</name>
 			<defindex>782</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Shirt</item_type_name>
+			<item_type_name>Bluză</item_type_name>
 			<item_name>Business Casual</item_name>
 			<item_description>Transmite eleganță din față și chiar mai multă eleganță din spate. Acum: verifică lateralele. Întradevăr. Eleganța se regăsește și aici. Acoperă esența eleganței cu acest sacou fără nasturi.</item_description>
 			<proper_name>true</proper_name>
@@ -32568,8 +32568,8 @@ Capete o să cadă.</item_description>
 			<defindex>790</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Pachet</item_type_name>
-			<item_name>Ce e în cutia de Sandvich?</item_name>
-			<item_description>Deschide cutia de sandvich pentru a-i dezvălui conținutul.</item_description>
+			<item_name>What&apos;s in the Sandvich Box?</item_name>
+			<item_description>Deschide cutia pentru a descoperi conținutul său.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -32600,8 +32600,8 @@ Capete o să cadă.</item_description>
 			<defindex>791</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Pachet</item_type_name>
-			<item_name>Ce se află în Companion Square Box?</item_name>
-			<item_description>Deschide Companion Square Box pentru a-i descoperi conținutul.</item_description>
+			<item_name>What&apos;s in the Companion Square Box?</item_name>
+			<item_description>Deschide cutia pentru a descoperi conținutul său.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -33582,7 +33582,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>The Triad Trinket</name>
 			<defindex>814</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Țoalele</item_type_name>
+			<item_type_name>Haine</item_type_name>
 			<item_name>Triad Trinket</item_name>
 			<item_description>Hainele îl fac pe om, iar podoabele îl fac pe om să arate ridicol dacă nu sunt purtate corespunzător. Acest lanț de aur subestimat lovește cu o balanța perfectă ce spune &quot;Da! Port un lanț, dar am lăsat coronița acasă.&quot;</item_description>
 			<proper_name>true</proper_name>
@@ -34218,7 +34218,7 @@ Atenție: Este posibil ca nici tu însuți să nu poți face față terorii!</it
 			<name>The Track Terrorizer</name>
 			<defindex>827</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Shirt</item_type_name>
+			<item_type_name>Bluză</item_type_name>
 			<item_name>Track Terrorizer</item_name>
 			<item_description>Pentru o perioadă scurtă de timp în liceu, Scout s-a alăturat echipei de atletici într-una din numeroasele sale încercări de a agăța fete. A fost dat afară după trei zile, după ce toată lumea a realizat că are 23 de ani și că nici nu era înscris la școală.</item_description>
 			<proper_name>true</proper_name>
@@ -34320,7 +34320,7 @@ Atenție: Este posibil ca nici tu însuți să nu poți face față terorii!</it
 			<name>The War Pig</name>
 			<defindex>829</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Pălărie</item_type_name>
+			<item_type_name>Echipament pentru cap</item_type_name>
 			<item_name>War Pig</item_name>
 			<item_description>După plângeri cu privire la faptul că vederea-i slabă îi afecta performanțele, Soldier și-a pus în grabă niște ochelari de protecție pe cască și s-a avântat înapoi în luptă. Nu s-a observat nicio îmbunătățire, dar partea cea bună este că toată lumea a încetat să mai aibă vreo așteptare de la el.</item_description>
 			<proper_name>true</proper_name>
@@ -34377,7 +34377,7 @@ Atenție: Este posibil ca nici tu însuți să nu poți face față terorii!</it
 			<name>The Bearded Bombardier</name>
 			<defindex>830</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Păr Facial</item_type_name>
+			<item_type_name>Păr facial</item_type_name>
 			<item_name>Bearded Bombardier</item_name>
 			<item_description>Demo îi seamănă deja lui Moș Crăciun. Amândoi au cunoștințe vaste despre explozibile moderne, amândoi o urăsc pe Judy Garland și, acum, amândoi pot purta câte o barbă încântătoare și câte o pipă din cocean de porumb.</item_description>
 			<proper_name>true</proper_name>
@@ -34662,7 +34662,7 @@ Atenție: Este posibil ca nici tu însuți să nu poți face față terorii!</it
 			<name>Promo Triad Trinket</name>
 			<defindex>835</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Țoalele</item_type_name>
+			<item_type_name>Haine</item_type_name>
 			<item_name>Triad Trinket</item_name>
 			<item_description>Hainele îl fac pe om, iar podoabele îl fac pe om să arate ridicol dacă nu sunt purtate corespunzător. Acest lanț de aur subestimat lovește cu o balanța perfectă ce spune &quot;Da! Port un lanț, dar am lăsat coronița acasă.&quot;</item_description>
 			<proper_name>true</proper_name>
@@ -34924,7 +34924,7 @@ Atenție: Este posibil ca nici tu însuți să nu poți face față terorii!</it
 			<defindex>840</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Pălărie</item_type_name>
-			<item_name>U-clank-a</item_name>
+			<item_name>U-Clank-A</item_name>
 			<item_description>Prăjește în foc această ushanka metalică și pune-ope cap pentru căldură menținută tot timpul zilei. Asigură-te că ai o istorisire imrpesionantă inventată care să explice arsurile de gradul trei!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -35168,7 +35168,7 @@ Atenție: Este posibil ca nici tu însuți să nu poți face față terorii!</it
 			<name>The Battery Bandolier</name>
 			<defindex>845</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Bombe Decorative</item_type_name>
+			<item_type_name>Bombe decorative</item_type_name>
 			<item_name>Battery Bandolier</item_name>
 			<item_description>Pentru prima dată în istorie, bateriile sunt incluse la achiziția Battery Bandolier-ului Demoman-ului. Pentru că, ei bine, cumperi baterii. Ar fi trebuit să spunem, pentru prima dată în istorie [exceptând dățile când ai cumpărat baterii].</item_description>
 			<proper_name>true</proper_name>
@@ -35678,7 +35678,7 @@ Atenție: Este posibil ca nici tu însuți să nu poți face față terorii!</it
 			<name>Flunkyware</name>
 			<defindex>857</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Țoalele</item_type_name>
+			<item_type_name>Haine</item_type_name>
 			<item_name>Flunkyware</item_name>
 			<item_description>Aceste cizme, cureaua și buzunarele asortate ale pajului îți permit să fugi de diverse lucruri, să îți păstrezi pantalonii pe tine și să duci cu tine ce a mai rămas din demnitatea ta. Și toate astea în același timp!</item_description>
 			<proper_name>false</proper_name>
@@ -35783,7 +35783,7 @@ Atenție: Este posibil ca nici tu însuți să nu poți face față terorii!</it
 			<name>The Flight of the Monarch</name>
 			<defindex>859</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Wings</item_type_name>
+			<item_type_name>Aripi</item_type_name>
 			<item_name>Flight of the Monarch</item_name>
 			<item_description>Spre deosebire de aripile adevărate, acestea nu te ajută să zbori deloc, și nici nu-l au pe Paul McCartney în ele. Însă, aceste aripi SUNT făcute 100% din Steve Winwood.</item_description>
 			<proper_name>true</proper_name>
@@ -36456,7 +36456,7 @@ Atenție: Este posibil ca nici tu însuți să nu poți face față terorii!</it
 			<name>The K-9 Mane</name>
 			<defindex>876</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Spirit Animal</item_type_name>
+			<item_type_name>Animal spiritual</item_type_name>
 			<item_name>K-9 Mane</item_name>
 			<item_description>Coama K-9 este perfectă pentru situații sociale tensionate. Oamenii vor dori să vorbească doar despre pălărie, ceea ce înseamnă că vor fi distrași de la acea erupție ce ajunge până la vena ta jugulară sau te vor evita întru totul. Ambele părți câștigă!</item_description>
 			<proper_name>true</proper_name>
@@ -36555,7 +36555,7 @@ Atenție: Este posibil ca nici tu însuți să nu poți face față terorii!</it
 			<name>The Foppish Physician</name>
 			<defindex>878</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Țoalele</item_type_name>
+			<item_type_name>Haine</item_type_name>
 			<item_name>Foppish Physician</item_name>
 			<item_description>Chiar dacă faci o trepanație unui craniu pentru a elibera stafiile bolii sau atașezi destule lipitori pe un pacient încât acesta va leșina din cauza pierderii de sânge înainte să apuci să elimini vreun membru ce arată ciudat, această cămașă gulerată și acest palton bine pus la punct vor asigura pacienții că au ajuns la locul potrivit pentru tratamentul lor teribil de nebun din secolul 18.</item_description>
 			<proper_name>true</proper_name>
@@ -36612,7 +36612,7 @@ Atenție: Este posibil ca nici tu însuți să nu poți face față terorii!</it
 			<name>The Distinguished Rogue</name>
 			<defindex>879</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Țoalele</item_type_name>
+			<item_type_name>Haine</item_type_name>
 			<item_name>Distinguished Rogue</item_name>
 			<item_description>Această haină depune atât de mult efort pentru a te face să arăți ca un bărbat sofisticat al spionajului, încât nu va trebui să porți nimic altceva. Vezi cum se întorc toate acele capete data următoare când te duci la o gală extravagantă complet nud, exceptând această haină. Atâta gelozie. Dar de omul acela ce sună a poliție? Oare este și EL gelos? Da, chiar este.</item_description>
 			<proper_name>true</proper_name>
@@ -38226,7 +38226,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>The Master Mind</name>
 			<defindex>918</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Augmentare Cosmetică</item_type_name>
+			<item_type_name>Augmentare accesoriu</item_type_name>
 			<item_name>Master Mind</item_name>
 			<item_description>Fapt științific: creierul uman e cu 70% mai eficient când e expus la oxigen. Sfat la modă: creierul uman arată cu 90% mai tare când lipești chestii de la Radio Shack pe el. În sfârșit, un obiect care să le îmbine pe amândouă.</item_description>
 			<proper_name>false</proper_name>
@@ -38519,7 +38519,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>The Spooky Shoes</name>
 			<defindex>924</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Papuci</item_type_name>
+			<item_type_name>Încălțăminte</item_type_name>
 			<item_name>Spooky Shoes</item_name>
 			<item_description>Din Iad! Mărime 666! În afara iadului, e 5 1/2. Bărbați! Experimentați teroarea agonizantă a picioarelor mici de bărbat!</item_description>
 			<proper_name>true</proper_name>
@@ -38567,7 +38567,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>The Spooky Sleeves</name>
 			<defindex>925</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Țoalele</item_type_name>
+			<item_type_name>Haine</item_type_name>
 			<item_name>Spooky Sleeves</item_name>
 			<item_description>Ia astea acum, înainte ca Glenn Danzig să afle de ele și să le cumpere pe toate! Serios, puteți avea o lume în care acete mâneci înfricoșătoare sunt în stoc, sau o lume în care Glenn Danzig există, dar nu ambele! Repede! El caută pe Google &quot;mâneci înfricoșătoare&quot; CHIAR ACUM!</item_description>
 			<proper_name>true</proper_name>
@@ -38734,8 +38734,8 @@ copiilor tăi!</item_description>
 			<defindex>928</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Pachet</item_type_name>
-			<item_name>Ce e în Portal 2 Soundtrack Box?</item_name>
-			<item_description>Deschide Portal 2 Soundtrack Box pentru a-i dezvălui conținutul.</item_description>
+			<item_name>What&apos;s in the Portal 2 Soundtrack Box?</item_name>
+			<item_description>Deschide cutia pentru a descoperi conținutul său.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -38815,7 +38815,7 @@ copiilor tăi!</item_description>
 			<name>The Grand Duchess Tutu</name>
 			<defindex>930</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Grand Duchess Tutu</item_name>
 			<item_description>Sărbătorește viața Marii Ducese Anastasia Nikolaevna cu acest costum istoric melancolic. Bucură-te de această replică a tutuului pe care îl purta, în timp ce guverna Rusia din vârful tronului ei din bomboane, înalt de 100 de picioare.</item_description>
 			<proper_name>true</proper_name>
@@ -38865,7 +38865,7 @@ copiilor tăi!</item_description>
 			<name>The Grand Duchess Fairy Wings</name>
 			<defindex>931</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Grand Duchess Fairy Wings</item_name>
 			<item_description>Sărbătorește viața Marii Ducese Anastasia Nikolaevna cu acest costum istoric melancolic. Bucură-te de această replică a aripilor de zână pe care le purta, în timp ce guverna Rusia din vârful tronului ei din bomboane, înalt de 100 de picioare.</item_description>
 			<proper_name>true</proper_name>
@@ -38915,7 +38915,7 @@ copiilor tăi!</item_description>
 			<name>The Grand Duchess Tiara</name>
 			<defindex>932</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Costume Piece</item_type_name>
+			<item_type_name>Piesă de costum</item_type_name>
 			<item_name>Grand Duchess Tiara</item_name>
 			<item_description>Sărbătorește viața Marii Ducese Anastasia Nikolaevna cu acest costum istoric melancolic. Bucură-te de această replică a diademei pe care o purta, în timp ce guverna Rusia din vârful tronului ei din bomboane, înalt de 100 de picioare.</item_description>
 			<proper_name>true</proper_name>
@@ -39108,7 +39108,7 @@ copiilor tăi!</item_description>
 			<name>The Exorcizor</name>
 			<defindex>936</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Țoalele</item_type_name>
+			<item_type_name>Haine</item_type_name>
 			<item_name>Exorcizor</item_name>
 			<item_description>Puterea lui Iisus te constrânge.. să iei acest costum șmecher de exorcizări!</item_description>
 			<proper_name>true</proper_name>
@@ -39159,7 +39159,7 @@ copiilor tăi!</item_description>
 			<name>The Wraith Wrap</name>
 			<defindex>937</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Țoalele</item_type_name>
+			<item_type_name>Haine</item_type_name>
 			<item_name>Wraith Wrap</item_name>
 			<item_description>Accesoriul perfect pentru păstrarea anonimatului în timp ce furi inele de la pitici.</item_description>
 			<proper_name>true</proper_name>
@@ -39588,7 +39588,7 @@ copiilor tăi!</item_description>
 			<name>The Siberian Sophisticate</name>
 			<defindex>946</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Shirt</item_type_name>
+			<item_type_name>Bluză</item_type_name>
 			<item_name>Siberian Sophisticate</item_name>
 			<item_description>Cămașa și cravata le dau de înțeles inamicilor că ești serios. Dar vesta cu mâneci scurte le spune că ești genul de om de afaceri care nu poate găsi un sacou de costum care să îți acopere armele imense.</item_description>
 			<proper_name>true</proper_name>
@@ -40060,7 +40060,7 @@ copiilor tăi!</item_description>
 			<name>The Tuxxy</name>
 			<defindex>955</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Tuxedo</item_type_name>
+			<item_type_name>Smoching</item_type_name>
 			<item_name>Tuxxy</item_name>
 			<item_description>Covoarele se vor înroși cu sângele inamicilor mulțumită acestui costum dichisit aparținând celei de-a Doua Premiere Anuală Saxxy.</item_description>
 			<proper_name>true</proper_name>
@@ -40105,7 +40105,7 @@ copiilor tăi!</item_description>
 			<name>Faerie Solitaire Pin</name>
 			<defindex>956</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Pin</item_type_name>
+			<item_type_name>Broșă</item_type_name>
 			<item_name>Faerie Solitaire Pin</item_name>
 			<item_description>Fabricată cu atenție la detalii, această imitație de broșă cu aripi de zână este identică celei reale. În sfârșit poți scăpa de aripile în descompunere prinse pe haine, putând, în continuare, transmite celorlalți că îți pasă de vietăți legendare.</item_description>
 			<proper_name>false</proper_name>
@@ -40979,7 +40979,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>The Cut-Throat Concierge</name>
 			<defindex>977</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Shirt</item_type_name>
+			<item_type_name>Bluză</item_type_name>
 			<item_name>Cut Throat Concierge</item_name>
 			<item_description>Păcălește-ți inamicii să creadă că ești un portar la un hotel elegant. Până când își dau seama de adevăr, vei fi deja la mile distanță cu mașina și bagajele lor, cotrobăind prin hainele lor și râzând de ei.</item_description>
 			<proper_name>true</proper_name>
@@ -41028,7 +41028,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>Der Wintermantel</name>
 			<defindex>978</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Țoalele</item_type_name>
+			<item_type_name>Haine</item_type_name>
 			<item_name>Der Wintermantel</item_name>
 			<item_description>Această combinație de haină de blană și pulover vine cu garanția Mann Co. - și anume că, la fel ca toate produsele noastre, cel puțin trei specii pe cale de dispariție s-au evaporat în timpul realizării acestui produs. Notă: blana este sintetică.</item_description>
 			<proper_name>false</proper_name>
@@ -41239,7 +41239,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>Doc&apos;s Holiday</name>
 			<defindex>982</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Țoalele</item_type_name>
+			<item_type_name>Haine</item_type_name>
 			<item_name>Doc&apos;s Holiday</item_name>
 			<item_description>Vine cu stilurile &quot;Flu&quot; (Gripă), &quot;Fever&quot; (Febră) și &quot;Virus&quot; (Virus), în funcție de epidemia pe care o vei contacta cu cea mai mare probabilitate în timpul vacanței.</item_description>
 			<proper_name>false</proper_name>
@@ -41678,7 +41678,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>Aqua Flops</name>
 			<defindex>990</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Flip-Flops</item_type_name>
+			<item_type_name>Șlapi</item_type_name>
 			<item_name>Aqua Flops</item_name>
 			<item_description>În timp ce restul corpului tău e în război, de ce să nu oferi picioarelor tale puțină senzație ca la tropice?</item_description>
 			<proper_name>false</proper_name>
@@ -41727,7 +41727,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>The Hunger Force</name>
 			<defindex>991</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Shirt</item_type_name>
+			<item_type_name>Bluză</item_type_name>
 			<item_name>Hunger Force</item_name>
 			<item_description>Arată-le inamicilor că ești de necontrolat demonstrându-le cât de puțin îți pasă de propria imagine. Ai lăsat totul în voia sorții și nu mai ai nimic de pierdut. Terifiant!</item_description>
 			<proper_name>true</proper_name>
@@ -41775,7 +41775,7 @@ Foc alternativ: Eliberează o explozie de aer care împinge inamici, proiectile 
 			<name>Smissmas Wreath</name>
 			<defindex>992</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Pin</item_type_name>
+			<item_type_name>Broșă</item_type_name>
 			<item_name>Smissmas Wreath</item_name>
 			<item_description>Nimic nu spune &quot;Sărbători Fericite&quot; la fel ca niște frunze înțepătoare și fructe de pădure otrăvitoare prinse de pieptul tău.</item_description>
 			<proper_name>false</proper_name>
@@ -42409,7 +42409,7 @@ Foc alt: Împarte un Sandvich cu un prieten (Health Kit mediu)</item_description
 			<defindex>1003</defindex>
 			<item_class>tf_weapon_bonesaw</item_class>
 			<item_type_name>Bonesaw</item_type_name>
-			<item_name>Festive Ubersaw</item_name>
+			<item_name>Festive Übersaw</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_ubersaw/c_ubersaw_xmas.mdl</model_player>
@@ -42666,7 +42666,7 @@ Foc alt: Împarte un Sandvich cu un prieten (Health Kit mediu)</item_description
 			<name>The Prize Plushy</name>
 			<defindex>1008</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Pocket Buddy</item_type_name>
+			<item_type_name>Însoțitor de buzunar</item_type_name>
 			<item_name>Prize Plushy</item_name>
 			<item_description>Gata cu jocurile de carnaval pentru tine! De ce să cumperi trei aruncări cu un dolar și o șansă de a câștiga un premiu de pluș pentru iubita ta, când poți pur și simplu să iei unul de la sursă și să-l cari după tine oriunde te-ai duce!</item_description>
 			<proper_name>true</proper_name>
@@ -42720,7 +42720,7 @@ Foc alt: Împarte un Sandvich cu un prieten (Health Kit mediu)</item_description
 			<name>The Grizzled Growth</name>
 			<defindex>1009</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Păr Facial</item_type_name>
+			<item_type_name>Păr facial</item_type_name>
 			<item_name>Grizzled Growth</item_name>
 			<item_description>Indiferent că este de la farmecul aspru al maxilarului tău sau de la mirosul gelului expirat, cu siguranță că domnișoarele vor leșina de fiecare dată când tu vei fi prin preajmă. Bărbierește-te în timp ce ele sunt amețite și prefă-te că le-ai salvat de un urs atunci când se vor trezi. Merge de fiecare dată.</item_description>
 			<proper_name>true</proper_name>
@@ -43051,9 +43051,9 @@ Foc alt: Împarte un Sandvich cu un prieten (Health Kit mediu)</item_description
 			<defindex>1015</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>Batjocură Specială</item_type_name>
-			<item_name>Shred Alert</item_name>
-			<item_description>All Class Taunt
-Harness the unholy power of the Dark One (Yngwie Malmsteen) and crush your opponents with blistering riffs, lava-hot licks and emotionally crippling power ballads!</item_description>
+			<item_name>Taunt: The Shred Alert</item_name>
+			<item_description>Batjocură pentru toate clasele.
+Stâpânește puterea profană a Celui Întunecat (Yngwie Malmsteen) și zdrobește-ți oponenții cu riffuri sfâșietoare, melodii incendiare și balade emoționante!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -43099,7 +43099,7 @@ Harness the unholy power of the Dark One (Yngwie Malmsteen) and crush your oppon
 			<name>Buck Turner All-Stars</name>
 			<defindex>1016</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Papuci</item_type_name>
+			<item_type_name>Încălțăminte</item_type_name>
 			<item_name>Buck Turner All-Stars</item_name>
 			<item_description>Denumite după celebrul alergător din Badlands ce a înregistrat un record de viteză în culcatul cu nevestele altor bărbați. Turner a conceput adidașii pentru a fugi de mulțimea de soți furioși, dar, din păcate, nu a putut scăpa de diabet. Ambele picioare i-au fost, mai târziu, amputate.</item_description>
 			<proper_name>false</proper_name>
@@ -43247,7 +43247,7 @@ Harness the unholy power of the Dark One (Yngwie Malmsteen) and crush your oppon
 			<name>Blind Justice</name>
 			<defindex>1019</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Păr Facial</item_type_name>
+			<item_type_name>Păr facial</item_type_name>
 			<item_name>Blind Justice</item_name>
 			<item_description>Vrei să ordonezi respectul de la oamenii ce stau la o distanță nederminată de la dreapta ta imediată? Pune-ți o insignă de platină Pinkerton și simte experiența pe propria piele!</item_description>
 			<proper_name>false</proper_name>
@@ -43548,7 +43548,7 @@ Harness the unholy power of the Dark One (Yngwie Malmsteen) and crush your oppon
 			<name>The Fortune Hunter</name>
 			<defindex>1025</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Topor cosmetic</item_type_name>
+			<item_type_name>Topor accesoriu</item_type_name>
 			<item_name>Fortune Hunter</item_name>
 			<item_description>Fie că e în fundul unei catacombe prăfuite sau se ascunde la vedere în cavitatea din spatele ochilor cuiva, orice comoară e doar la o singură lovitură cu acest topor de încredere pentru aventurieri.</item_description>
 			<proper_name>true</proper_name>
@@ -43871,7 +43871,7 @@ Harness the unholy power of the Dark One (Yngwie Malmsteen) and crush your oppon
 			<name>The Long Fall Loafers</name>
 			<defindex>1032</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Boots</item_type_name>
+			<item_type_name>Cizme</item_type_name>
 			<item_name>Long Fall Loafers</item_name>
 			<item_description>Aceste amortizoare curbate de titan se conectează la baza coloanei tale și trec prin interiorul ambelor picioare. Acum, când vei cădea de la o înălțime mare, agonia impactului va fi absorbită, și apoi redistribuită uniform în tot corpul tău agonizant.</item_description>
 			<proper_name>true</proper_name>
@@ -43918,7 +43918,7 @@ Harness the unholy power of the Dark One (Yngwie Malmsteen) and crush your oppon
 			<name>The TF2VRH</name>
 			<defindex>1033</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Căști</item_type_name>
+			<item_type_name>Pereche de căști</item_type_name>
 			<item_name>TF2VRH</item_name>
 			<item_description>Adio, pătratelor! Mergeți la plimbare, triunghiurilor! Introducem Team Fortress 2 Very Rectangular Headset, ce aduce sute de decade a tehnologiilor și cercetărilor despre patrulatere către fruntea feței tale!</item_description>
 			<proper_name>true</proper_name>
@@ -45185,7 +45185,7 @@ Echipeaz-o pentru a putea colecta și folosi vrăji.</item_description>
 			<name>The War on Smissmas Battle Socks</name>
 			<defindex>1074</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Bombe Decorative</item_type_name>
+			<item_type_name>Bombe decorative</item_type_name>
 			<item_name>War on Smissmas Battle Socks</item_name>
 			<item_description>Oferit în urma fabricării insignei Oferta Steam de Sărbători 2013.</item_description>
 			<proper_name>true</proper_name>
@@ -45394,7 +45394,7 @@ Echipeaz-o pentru a putea colecta și folosi vrăji.</item_description>
 			<defindex>1078</defindex>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Scattergun</item_type_name>
-			<item_name>Festive Force-A-Nature</item_name>
+			<item_name>Festive Force-a-Nature</item_name>
 			<item_description>Această armă își reîncarcă toată rezerva de muniție deodată.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>primary</item_slot>
@@ -45750,7 +45750,7 @@ cu fiecare cap pe care îl iei.	</item_description>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas.mdl</model_player>
 			<item_quality>6</item_quality>
-			<image_inventory>backpack/weapons/c_models/c_boxing_gloves\c_boxing_gloves_xmas</image_inventory>
+			<image_inventory>backpack/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas</image_inventory>
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>99</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/c_boxing_gloves_xmas.0dbdc11afb9da14d86bc2a7cd946fc4a2e46a23c.png</image_url>
@@ -45935,7 +45935,7 @@ Sentry-urile sunt dezactivate timp de 3 secunde după ce dezechipezi Wranglerul.
 			<name>Die Regime-Panzerung</name>
 			<defindex>1088</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Armură Cosmetică</item_type_name>
+			<item_type_name>Armură accesoriu</item_type_name>
 			<item_name>Die Regime-Panzerung</item_name>
 			<item_description>Așa cum spune proverbul, &quot;Cei care nu își pot aminti trecutul alternativ sunt condamnați să îl repete.&quot; Din moment ce trebuie să îl repeți oricum, de ce nu înveselești lucrurile cu un costum de robot malefic?</item_description>
 			<proper_name>false</proper_name>
@@ -45983,7 +45983,7 @@ Sentry-urile sunt dezactivate timp de 3 secunde după ce dezechipezi Wranglerul.
 			<name>Mister Bubbles</name>
 			<defindex>1089</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Pocket Buddy</item_type_name>
+			<item_type_name>Însoțitor de buzunar</item_type_name>
 			<item_name>Mister Bubbles</item_name>
 			<item_description>Oprește hoți de buzunare, oameni curioși de conținutul buzunarului tău și trișori care ignoră regulile jocului &quot;Ce e în buzunarul meu?&quot; cu ultimul răgnet în apărare blindată miniaturizată a buzunarului. Funcționează și cu buzunarele subacvatice!</item_description>
 			<proper_name>false</proper_name>
@@ -46372,7 +46372,7 @@ Sentry-urile sunt dezactivate timp de 3 secunde după ce dezechipezi Wranglerul.
 			<name>The Little Bear</name>
 			<defindex>1097</defindex>
 			<item_class>tf_wearable</item_class>
-			<item_type_name>Pocket Buddy</item_type_name>
+			<item_type_name>Însoțitor de buzunar</item_type_name>
 			<item_name>Little Bear</item_name>
 			<item_description>Asigură-te că ai conținutul buzunarelor tale distribuit în mod egal cu ultimul răgnet în întărire comunistă a buzunarelor.</item_description>
 			<proper_name>true</proper_name>
@@ -46490,7 +46490,7 @@ Sentry-urile sunt dezactivate timp de 3 secunde după ce dezechipezi Wranglerul.
 			<name>The Tide Turner</name>
 			<defindex>1099</defindex>
 			<item_class>tf_wearable_demoshield</item_class>
-			<item_type_name>Shield</item_type_name>
+			<item_type_name>Scut</item_type_name>
 			<item_name>Tide Turner</item_name>
 			<item_description>Foc alt: Șarjează înspre inamici și elimină debuff-urile.
 Obține o lovitură minicritică melee după impactul cu un inamic de la distanță.</item_description>
@@ -47000,7 +47000,7 @@ Această batjocură necesită un partener. Apasă tasta pentru batjocură pentru
 			<defindex>1108</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>Batjocură Specială</item_type_name>
-			<item_name>Taunt: Buy A Life</item_name>
+			<item_name>Taunt: Buy a Life</item_name>
 			<item_description>Batjocură pentru Spy</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
@@ -47083,10 +47083,10 @@ Această batjocură necesită un partener. Apasă tasta pentru batjocură pentru
 			<item_class>no_entity</item_class>
 			<item_type_name>Batjocură Specială</item_type_name>
 			<item_name>Taunt: Rock, Paper, Scissors</item_name>
-			<item_description>All Class Taunt
+			<item_description>Batjocură pentru toate clasele.
 
-This is a partner taunt.  Press the taunt key to toggle.
-Opposing teams will face off to the death.</item_description>
+Această batjocură necesită un partener. Apasă tasta pentru batjocură pentru a o activa.
+Echipele adverse se vor lupta până la moarte.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -47985,7 +47985,7 @@ Echipeaz-o pentru a putea colecta și folosi vrăji.</item_description>
 			<defindex>1133</defindex>
 			<item_class>saxxy</item_class>
 			<item_type_name></item_type_name>
-			<item_name>Stimulent: Forță</item_name>
+			<item_name>Putere: forță</item_name>
 			<item_description>Damage mărit de la toate armele
 Imunitate la damage-ul colateral la distanță</item_description>
 			<proper_name>false</proper_name>
@@ -48014,7 +48014,7 @@ Imunitate la damage-ul colateral la distanță</item_description>
 			<defindex>1134</defindex>
 			<item_class>saxxy</item_class>
 			<item_type_name></item_type_name>
-			<item_name>Stimulent: Grabă</item_name>
+			<item_name>Putere: iuțeală</item_name>
 			<item_description>Rată de foc, reîncărcare,
 mărime încărcător, limită muniție maximă mărite
 Viteză de mișcare mărită</item_description>
@@ -48044,7 +48044,7 @@ Viteză de mișcare mărită</item_description>
 			<defindex>1135</defindex>
 			<item_class>saxxy</item_class>
 			<item_type_name></item_type_name>
-			<item_name>Stimulent: Regenerare</item_name>
+			<item_name>Putere: regenerare</item_name>
 			<item_description>Viața, muniția și metalul se regenerează</item_description>
 			<proper_name>false</proper_name>
 			<model_player>null</model_player>
@@ -48072,7 +48072,7 @@ Viteză de mișcare mărită</item_description>
 			<defindex>1136</defindex>
 			<item_class>saxxy</item_class>
 			<item_type_name></item_type_name>
-			<item_name>Stimulent: Rezistență</item_name>
+			<item_name>Putere: rezistență</item_name>
 			<item_description>Damage-ul primit redus
 Imun la multiplicatorul de damage critical</item_description>
 			<proper_name>false</proper_name>
@@ -48101,7 +48101,7 @@ Imun la multiplicatorul de damage critical</item_description>
 			<defindex>1137</defindex>
 			<item_class>saxxy</item_class>
 			<item_type_name></item_type_name>
-			<item_name>Stimulent: Vampir</item_name>
+			<item_name>Putere: vampir</item_name>
 			<item_description>Damage-ul provocat este înapoiat ca viață
 Damage-ul primit redus
 Viața maximă mărită</item_description>
@@ -48131,7 +48131,7 @@ Viața maximă mărită</item_description>
 			<defindex>1138</defindex>
 			<item_class>saxxy</item_class>
 			<item_type_name></item_type_name>
-			<item_name>Powerup: Reflect</item_name>
+			<item_name>Putere: reflectare</item_name>
 			<item_description>Damage-ul primit este reflectat parțial înapoi către atacator
 Viață maximă sporită</item_description>
 			<proper_name>false</proper_name>
@@ -48160,7 +48160,7 @@ Viață maximă sporită</item_description>
 			<defindex>1139</defindex>
 			<item_class>saxxy</item_class>
 			<item_type_name></item_type_name>
-			<item_name>Stimulent: Precizie</item_name>
+			<item_name>Putere: precizie</item_name>
 			<item_description>Dispersia gloanțelor redusă
 Imunitate la damage-ul colateral la distanță
 Viteza rachetelor și grenadelor mărită</item_description>
@@ -48190,9 +48190,9 @@ Viteza rachetelor și grenadelor mărită</item_description>
 			<defindex>1140</defindex>
 			<item_class>saxxy</item_class>
 			<item_type_name></item_type_name>
-			<item_name>Stimulent: Agilitate</item_name>
+			<item_name>Putere: agilitate</item_name>
 			<item_description>Viteza de mișcare mărită
-Viteza de aruncare a cârligului mărită
+Viteza grapinei mărită
 Înălțime săritură mărită
 Schimbare instantanee a armei</item_description>
 			<proper_name>false</proper_name>
@@ -48332,7 +48332,7 @@ Schimbare instantanee a armei</item_description>
 			<name>Festive Targe 2014</name>
 			<defindex>1144</defindex>
 			<item_class>tf_wearable_demoshield</item_class>
-			<item_type_name>Shield</item_type_name>
+			<item_type_name>Scut</item_type_name>
 			<item_name>Festive Chargin&apos; Targe</item_name>
 			<item_description>Foc alt: Șarjează către inamicii tăi și elimină debuffurile.
 Primești o lovitură melee critică după impactul cu un inamic de la distanță.</item_description>

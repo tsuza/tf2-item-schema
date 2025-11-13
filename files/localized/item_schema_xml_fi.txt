@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -1563,7 +1563,7 @@ Kakkostulitus: Jaa leipä kaverin kanssa (keskikokoinen terveyspakkaus)</item_de
 			<defindex>45</defindex>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Haulinsylkijä</item_type_name>
-			<item_name>Luonnonvoima</item_name>
+			<item_name>Force-a-Nature</item_name>
 			<item_description>Ase lataa koko lippaansa kerralla</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
@@ -1642,7 +1642,7 @@ Kakkostulitus: Jaa leipä kaverin kanssa (keskikokoinen terveyspakkaus)</item_de
 			<defindex>46</defindex>
 			<item_class>tf_weapon_lunchbox_drink</item_class>
 			<item_type_name>välipala</item_type_name>
-			<item_name>Bonk! Atomic Punch</item_name>
+			<item_name>Bonk-atomijuoma</item_name>
 			<item_description>Juomalla muutut haavoittumattomaksi 8 sekunnin ajaksi. Et voi hyökätä sen aikana.
 Otettu vahinko hidastaa sinua vaikutuksen päätyttyä.</item_description>
 			<proper_name>false</proper_name>
@@ -5458,7 +5458,7 @@ Kakkostulitus: Jaa suklaalevy kaverin kanssa (Pieni terveyspakkaus)</item_descri
 			<item_class>tf_weapon_pistol</item_class>
 			<item_type_name>Pistooli</item_type_name>
 			<item_name>Lugermorph</item_name>
-			<item_description>The ultimate in semi-concealed weaponry. There&apos;s no question you need this gun, the only question is: where will you keep it?</item_description>
+			<item_description>Puolikätketyn aseistuksen multihuipentuma. Aseen tarpeellisuudesta ei ole kysymystäkään, mutta missä voit säilyttää sitä?</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_ttg_max_gun/c_ttg_max_gun.mdl</model_player>
@@ -5492,7 +5492,7 @@ Kakkostulitus: Jaa suklaalevy kaverin kanssa (Pieni terveyspakkaus)</item_descri
 			<item_class>tf_weapon_revolver</item_class>
 			<item_type_name>Revolveri</item_type_name>
 			<item_name>Suurmurha</item_name>
-			<item_description>Combines style with stopping power. Long exclusive to Freelance Police, now available for other blood-thirsty mercenaries.</item_description>
+			<item_description>Yhdistää tyylin ja pysäytysvoiman. Ennen yksinoikeudella freelance-poliiseille, nyt tarjolla muillekin verenhimoisille palkkasotureille.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_ttg_sam_gun/c_ttg_sam_gun.mdl</model_player>
@@ -5525,7 +5525,7 @@ Kakkostulitus: Jaa suklaalevy kaverin kanssa (Pieni terveyspakkaus)</item_descri
 			<item_class>tf_wearable</item_class>
 			<item_type_name>hattu</item_type_name>
 			<item_name>Maxin irtileikattu pää</item_name>
-			<item_description>Expertly crafted headwear from cruelty-free farms in the Philippines. Hollowed-out skull casing wicks moisture away when in the heat of battle.</item_description>
+			<item_description>Ammattilaisen tekemä päähine suoraan Filippiinien eläinystävällistä maatiloilta. Ontoksi kaiverrettu kallo poistaa miellyttävästi kosteutta päälaelta jopa keskellä taistelun tuisketta.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/Scout_ttg_max.mdl</model_player>
@@ -5778,10 +5778,10 @@ Kakkostulitus: Jaa suklaalevy kaverin kanssa (Pieni terveyspakkaus)</item_descri
 			<item_class>no_entity</item_class>
 			<item_type_name>Erikoispilkka</item_type_name>
 			<item_name>Pilkka: Yläfemma!</item_name>
-			<item_description>All Class Taunt
-Don&apos;t leave your friends hanging.
+			<item_description>Kaikkien luokkien pilkka
+Älä jätä kavereita odottamaan.
 
-This is a partner taunt. Press the taunt key to toggle.</item_description>
+Tämä on kaveripilkka. Kytke pilkka painamalla toimintopaikan näppäintä.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -8059,7 +8059,7 @@ Sopii myös palon sammuttamiseen.</item_description>
 			<defindex>225</defindex>
 			<item_class>tf_weapon_knife</item_class>
 			<item_type_name>Veitsi</item_type_name>
-			<item_name>Sinun ikuinen osuutesi</item_name>
+			<item_name>Ikuinen palkkiosi</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_eternal_reward/c_eternal_reward.mdl</model_player>
@@ -10879,7 +10879,7 @@ kiroama kuin Silmäterä.</item_description>
 			<item_class>tf_weapon_pistol</item_class>
 			<item_type_name>Pistooli</item_type_name>
 			<item_name>Lugermorph</item_name>
-			<item_description>The ultimate in semi-concealed weaponry. There&apos;s no question you need this gun, the only question is: where will you keep it?</item_description>
+			<item_description>Puolikätketyn aseistuksen multihuipentuma. Aseen tarpeellisuudesta ei ole kysymystäkään, mutta missä voit säilyttää sitä?</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_ttg_max_gun/c_ttg_max_gun.mdl</model_player>
@@ -11330,7 +11330,7 @@ Ase latautuu automaattisesti, kun se ei ole käytössä</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>päähine</item_type_name>
 			<item_name>Viskivisiiri</item_name>
-			<item_description>Don&apos;t let those ninnies take yer good eye!</item_description>
+			<item_description>Älä anna noiden nynnyjen viedä parempaa silmääsi.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/demo_scotchbonnet.mdl</model_player>
@@ -13318,7 +13318,7 @@ Kuka nyt leipää tarvitsee?</item_description>
 			<item_class>tf_weapon_fireaxe</item_class>
 			<item_type_name>RIFT tulikirves</item_type_name>
 			<item_name>Teroitettu tulivuoren kappale</item_name>
-			<item_description>Improves upon Mother Nature&apos;s original design for volcanos by increasing portability. Modern science is unable to explain exactly where the lava is coming from.</item_description>
+			<item_description>Luontoäidin tekniikka on parantunut alkuperäisestä tulivuoresta lisäämällä liikkuvuutta. Nykytieteellä ei voi tarkalleen selittää, mistä ihmeestä laava tulee.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_rift_fire_axe/c_rift_fire_axe.mdl</model_player>
@@ -16820,8 +16820,8 @@ Vossler-teollisuuden tekokalasta johdettu luomuelintarvike</item_description>
 			<item_class>no_entity</item_class>
 			<item_type_name>Erikoispilkka</item_type_name>
 			<item_name>Pilkka: Ohjaajan näkökulma</item_name>
-			<item_description>All Class Taunt
-Equip this item in a Taunt Slot. Activate to tell your victims you are making a Replay of their pathetic demise to share with everyone.</item_description>
+			<item_description>Kaikkien luokkien pilkka.
+Varusta tämä esine yhteen pilkkapaikoistasi. Käytä viestittääksesi uhreillesi, että olet tekemässä heidän säälittävästä yrityksestään uusinnan näytettäväksi kaikille.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -17967,8 +17967,8 @@ Ase lataa koko lippaansa kerralla.</item_description>
 			<item_class>no_entity</item_class>
 			<item_type_name>Erikoispilkka</item_type_name>
 			<item_name>Pilkka: Schadenfreude</item_name>
-			<item_description>All Class Taunt
-Share a good natured laugh with everyone except that one guy you just shot.</item_description>
+			<item_description>Kaikkien luokkien pilkka
+Naura hyväntahtoisesti kaikkien, paitsi juuri ampumasi tyypin, kanssa.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -18405,8 +18405,7 @@ Tähän esineeseen voi asettaa räätälöidyn tarran.</item_description>
 			<item_class>no_entity</item_class>
 			<item_type_name>Erikoispilkka</item_type_name>
 			<item_name>Pilkka: Tapaa Medic</item_name>
-			<item_description>Medic Taunt
-Remind those ungrateful bastards how valuable your Medic skills are by striking a heroic pose accompanied by an angelic choir, beams of divine light, and a flock of doves.</item_description>
+			<item_description>Muistuta niitä kiittämättömiä törkimyksiä siitä, kuinka arvokkaita taitosi Medicinä ovat, poseeraamalla sankarillisesti enkelikuoron laulaessa, jumalallisen valon loistaessa ja kyyhkysparven lentäessä.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -19264,7 +19263,7 @@ VOI LUOJA SE ON PULTATTU HÄNEN PÄÄHÄNSÄ!</item_description>
 			<defindex>498</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Osallistuja - Gamers With Jobs -turnaus</item_name>
+			<item_name>Gamers With Jobs Tournament – Osallistuja</item_name>
 			<item_description>Annettu turnaukseen osallistuneille.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -19452,7 +19451,7 @@ VOI LUOJA SE ON PULTATTU HÄNEN PÄÄHÄNSÄ!</item_description>
 			<defindex>502</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Osallistuja - ETF2L Highlander -turnaus</item_name>
+			<item_name>ETF2L Highlander – Osallistuja</item_name>
 			<item_description>Annettu turnaukseen osallistuneille.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -19499,7 +19498,7 @@ VOI LUOJA SE ON PULTATTU HÄNEN PÄÄHÄNSÄ!</item_description>
 			<defindex>503</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Osallistuja - UGC Highlander</item_name>
+			<item_name>UGC Highlander – Osallistuja</item_name>
 			<item_description>Annettu turnaukseen osallistuneille.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -19546,7 +19545,7 @@ VOI LUOJA SE ON PULTATTU HÄNEN PÄÄHÄNSÄ!</item_description>
 			<defindex>504</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Voittaja - UGC Highlander -turnauksen platinataso</item_name>
+			<item_name>UGC Highlander Platinum 1st Place – Voittaja</item_name>
 			<item_description>Annettu voittajille!</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -19593,7 +19592,7 @@ VOI LUOJA SE ON PULTATTU HÄNEN PÄÄHÄNSÄ!</item_description>
 			<defindex>505</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Toinen sija - UGC Highlander -turnauksen platinataso</item_name>
+			<item_name>UGC Highlander Platinum – 2. sija</item_name>
 			<item_description>Annettu hopeamitalisteille!</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -19640,7 +19639,7 @@ VOI LUOJA SE ON PULTATTU HÄNEN PÄÄHÄNSÄ!</item_description>
 			<defindex>506</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Kolmas sija - UGC Highlander -turnauksen platinataso</item_name>
+			<item_name>UGC Highlander Platinum – 3. sija</item_name>
 			<item_description>Annettu pronssimitalisteille!</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -19687,7 +19686,7 @@ VOI LUOJA SE ON PULTATTU HÄNEN PÄÄHÄNSÄ!</item_description>
 			<defindex>507</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Voittaja - UGC Highlander -turnauksen hopeataso</item_name>
+			<item_name>UGC Highlander Silver – Voittaja</item_name>
 			<item_description>Annettu voittajille!</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -19734,7 +19733,7 @@ VOI LUOJA SE ON PULTATTU HÄNEN PÄÄHÄNSÄ!</item_description>
 			<defindex>508</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Toinen sija - UGC Highlander -turnauksen hopeataso</item_name>
+			<item_name>UGC Highlander Silver – 2. sija</item_name>
 			<item_description>Annettu hopeamitalisteille!</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -19781,7 +19780,7 @@ VOI LUOJA SE ON PULTATTU HÄNEN PÄÄHÄNSÄ!</item_description>
 			<defindex>509</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Kolmas sija - UGC Highlander -turnauksen hopeataso</item_name>
+			<item_name>UGC Highlander Silver – 3. sija</item_name>
 			<item_description>Annettu pronssimitalisteille!</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -19828,7 +19827,7 @@ VOI LUOJA SE ON PULTATTU HÄNEN PÄÄHÄNSÄ!</item_description>
 			<defindex>510</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Voittaja - UGC Highlander -turnauksen rautataso</item_name>
+			<item_name>UGC Highlander Iron – Voittaja</item_name>
 			<item_description>Annettu voittajille!</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -19875,7 +19874,7 @@ VOI LUOJA SE ON PULTATTU HÄNEN PÄÄHÄNSÄ!</item_description>
 			<defindex>511</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Toinen sija - UGC Highlander -turnauksen rautataso</item_name>
+			<item_name>UGC Highlander Iron – 2. sija</item_name>
 			<item_description>Annettu hopeamitalisteille!</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -19922,7 +19921,7 @@ VOI LUOJA SE ON PULTATTU HÄNEN PÄÄHÄNSÄ!</item_description>
 			<defindex>512</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Kolmas sija - UGC Highlander -turnauksen rautataso</item_name>
+			<item_name>UGC Highlander Iron – 3. sija</item_name>
 			<item_description>Annettu pronssimitalisteille!</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -27036,7 +27035,7 @@ Tähän esineeseen voi asettaa räätälöidyn tarran.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>piippu</item_type_name>
 			<item_name>Ysipiippuinen ongelma</item_name>
-			<item_description>Sillä aikaa kun olet lukenut tämän kuvauksen, olen jo ehtinyt ylilataamaan Heavyn, valtaamaan tukikohtanne, ratkaisemaan rikoksen ja polttamaan kolme piipullista.</item_description>
+			<item_description>In the time it takes you to read this description, I&apos;ve already übered a heavy, captured your base, solved a crime, and smoked three pipes.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/medic_smokingpipe.mdl</model_player>
@@ -27703,7 +27702,7 @@ Vaihtoehtoinen tulitus: vapauttaa puuskan ilmaa, joka työntää vihollisia ja a
 			<item_class>tf_wearable</item_class>
 			<item_type_name>juhlahattu</item_type_name>
 			<item_name>Saiturin silkkipytty</item_name>
-			<item_description>Jos saat yöllisen vieraan aavemaisen päähineen muodossa, varmistu että se on Steam-käyttäjä Jacenin lahjoittama Jouluhattujen Henki.</item_description>
+			<item_description>Jos saat yöllisen vieraan aavemaisen päähineen muodossa, varmistu että se on Steam-käyttäjä Jacenin lahjoittama Jouluhattujen henki.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/xms_winter_joy_hat_Scout.mdl</model_player>
@@ -27747,7 +27746,7 @@ Vaihtoehtoinen tulitus: vapauttaa puuskan ilmaa, joka työntää vihollisia ja a
 			<defindex>680</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Voittaja - UGC Highlander -turnauksen platinataso</item_name>
+			<item_name>UGC Highlander Platinum 1st Place – Voittaja</item_name>
 			<item_description>Syksy 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -27794,7 +27793,7 @@ Vaihtoehtoinen tulitus: vapauttaa puuskan ilmaa, joka työntää vihollisia ja a
 			<defindex>681</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Toinen sija - UGC Highlander -turnauksen platinataso</item_name>
+			<item_name>UGC Highlander Platinum – 2. sija</item_name>
 			<item_description>Syksy 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -27841,7 +27840,7 @@ Vaihtoehtoinen tulitus: vapauttaa puuskan ilmaa, joka työntää vihollisia ja a
 			<defindex>682</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Kolmas sija - UGC Highlander -turnauksen platinataso</item_name>
+			<item_name>UGC Highlander Platinum – 3. sija</item_name>
 			<item_description>Syksy 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -27888,7 +27887,7 @@ Vaihtoehtoinen tulitus: vapauttaa puuskan ilmaa, joka työntää vihollisia ja a
 			<defindex>683</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Osallistuja - UGC Highlander -turnauksen platinataso</item_name>
+			<item_name>UGC Highlander Platinum – Osallistuja</item_name>
 			<item_description>Syksy 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -27982,7 +27981,7 @@ Vaihtoehtoinen tulitus: vapauttaa puuskan ilmaa, joka työntää vihollisia ja a
 			<defindex>685</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Voittaja - UGC Highlander -turnauksen hopeataso</item_name>
+			<item_name>UGC Highlander Silver – Voittaja</item_name>
 			<item_description>Syksy 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -28029,7 +28028,7 @@ Vaihtoehtoinen tulitus: vapauttaa puuskan ilmaa, joka työntää vihollisia ja a
 			<defindex>686</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Toinen sija - UGC Highlander -turnauksen hopeataso</item_name>
+			<item_name>UGC Highlander Silver – 2. sija</item_name>
 			<item_description>Syksy 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -28076,7 +28075,7 @@ Vaihtoehtoinen tulitus: vapauttaa puuskan ilmaa, joka työntää vihollisia ja a
 			<defindex>687</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Kolmas sija - UGC Highlander -turnauksen hopeataso</item_name>
+			<item_name>UGC Highlander Silver – 3. sija</item_name>
 			<item_description>Syksy 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -28123,7 +28122,7 @@ Vaihtoehtoinen tulitus: vapauttaa puuskan ilmaa, joka työntää vihollisia ja a
 			<defindex>688</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Osallistuja - UGC Highlander -turnauksen hopeataso</item_name>
+			<item_name>UGC Highlander Silver – Osallistuja</item_name>
 			<item_description>Syksy 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -28217,7 +28216,7 @@ Vaihtoehtoinen tulitus: vapauttaa puuskan ilmaa, joka työntää vihollisia ja a
 			<defindex>690</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Toinen sija - UGC Highlander -turnauksen rautataso</item_name>
+			<item_name>UGC Highlander Iron – 2. sija</item_name>
 			<item_description>Syksy 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -28264,7 +28263,7 @@ Vaihtoehtoinen tulitus: vapauttaa puuskan ilmaa, joka työntää vihollisia ja a
 			<defindex>691</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Voittaja - UGC Highlander -turnauksen rautataso</item_name>
+			<item_name>UGC Highlander Iron – Voittaja</item_name>
 			<item_description>Syksy 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -28311,7 +28310,7 @@ Vaihtoehtoinen tulitus: vapauttaa puuskan ilmaa, joka työntää vihollisia ja a
 			<defindex>692</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Kolmas sija - UGC Highlander -turnauksen rautataso</item_name>
+			<item_name>UGC Highlander Iron – 3. sija</item_name>
 			<item_description>Syksy 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -28405,7 +28404,7 @@ Vaihtoehtoinen tulitus: vapauttaa puuskan ilmaa, joka työntää vihollisia ja a
 			<defindex>694</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Voittaja - UGC Highlander -turnauksen tinataso</item_name>
+			<item_name>UGC Highlander Tin – Voittaja</item_name>
 			<item_description>Syksy 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -28452,7 +28451,7 @@ Vaihtoehtoinen tulitus: vapauttaa puuskan ilmaa, joka työntää vihollisia ja a
 			<defindex>695</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Toinen sija - UGC Highlander -turnauksen tinataso</item_name>
+			<item_name>UGC Highlander Tin – 2. sija</item_name>
 			<item_description>Syksy 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -28499,7 +28498,7 @@ Vaihtoehtoinen tulitus: vapauttaa puuskan ilmaa, joka työntää vihollisia ja a
 			<defindex>696</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Kolmas sija - UGC Highlander -turnauksen tinataso</item_name>
+			<item_name>UGC Highlander Tin – 3. sija</item_name>
 			<item_description>Syksy 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -28546,7 +28545,7 @@ Vaihtoehtoinen tulitus: vapauttaa puuskan ilmaa, joka työntää vihollisia ja a
 			<defindex>697</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>Osallistuja - UGC Highlander</item_name>
+			<item_name>UGC Highlander – Osallistuja</item_name>
 			<item_description>Syksy 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -28593,7 +28592,7 @@ Vaihtoehtoinen tulitus: vapauttaa puuskan ilmaa, joka työntää vihollisia ja a
 			<defindex>698</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>turnausmitali</item_type_name>
-			<item_name>UGC Highlander -Eurooppa-turnauksen osallistuja</item_name>
+			<item_name>UGC Highlander Euro – Osallistuja</item_name>
 			<item_description>Syksy 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -29417,7 +29416,7 @@ Vaihtoehtoinen tulitus: vapauttaa puuskan ilmaa, joka työntää vihollisia ja a
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>100</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/scout_prep_shirt.906456dfdb9b9c54543dcb716bb1952efb3fdde9.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.c56d08ff23b3f30249a18501fef79d221f034cd0.png</image_url_large>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.05be377767ca55c152b815f1d9774759c875a90c.png</image_url_large>
 			<drop_type>none</drop_type>
 			<craft_class>hat</craft_class>
 			<craft_material_type>hat</craft_material_type>
@@ -41774,7 +41773,7 @@ Vaihtoehtoinen tulitus: vapauttaa puuskan ilmaa, joka työntää vihollisia ja a
 			<defindex>992</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>pinssi</item_type_name>
-			<item_name>Jouluseppele</item_name>
+			<item_name>Smissmas-seppele</item_name>
 			<item_description>Mikään ei sano &quot;Hyvää joulua&quot; paremmin kuin myrkkymarjat rinnassasi.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -43049,9 +43048,9 @@ Kakkostulitus: Jaa leipä kaverin kanssa (keskikokoinen terveyspakkaus)</item_de
 			<defindex>1015</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>Erikoispilkka</item_type_name>
-			<item_name>Riffiritari</item_name>
-			<item_description>All Class Taunt
-Harness the unholy power of the Dark One (Yngwie Malmsteen) and crush your opponents with blistering riffs, lava-hot licks and emotionally crippling power ballads!</item_description>
+			<item_name>Pilkka: Sähköinen soolo</item_name>
+			<item_description>Kaikkien luokkien pilkka
+Ota käyttöösi Pimeyden prinssin (Yngwie Malmsteenin) voimat ja murskaa vastustajasi ronskeilla riffeillä, tulikuumilla tilutuksilla ja sydäntäsärkevillä rock-balladeilla!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -45288,7 +45287,7 @@ Varusta poimiaksesi ja loitsiaksesi loitsuja.</item_description>
 			<defindex>1076</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>hattu</item_type_name>
-			<item_name>Joulupeura</item_name>
+			<item_name>Smissmas-poro</item_name>
 			<item_description>Myönnetty Steam Holiday Sale 2013 -merkin luomisesta.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -45392,7 +45391,7 @@ Varusta poimiaksesi ja loitsiaksesi loitsuja.</item_description>
 			<defindex>1078</defindex>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Haulinsylkijä</item_type_name>
-			<item_name>Juhlava luonnonvoima</item_name>
+			<item_name>Festive Force-a-Nature</item_name>
 			<item_description>Ase lataa koko lippaansa kerralla</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>primary</item_slot>
@@ -45748,7 +45747,7 @@ jokaisesta katkaisemastasi päästä.</item_description>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas.mdl</model_player>
 			<item_quality>6</item_quality>
-			<image_inventory>backpack/weapons/c_models/c_boxing_gloves\c_boxing_gloves_xmas</image_inventory>
+			<image_inventory>backpack/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas</image_inventory>
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>99</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/c_boxing_gloves_xmas.0dbdc11afb9da14d86bc2a7cd946fc4a2e46a23c.png</image_url>
@@ -46889,9 +46888,9 @@ Avattu laskuvarjo hidastaa pudotusta.</item_description>
 			<item_class>no_entity</item_class>
 			<item_type_name>Erikoispilkka</item_type_name>
 			<item_name>Pilkka: Latotanssi</item_name>
-			<item_description>All Class Taunt
+			<item_description>Kaikkien luokkien pilkka
 
-This is a partner taunt.  Press the taunt key to toggle.</item_description>
+Tämä on kaveripilkka. Kytke pilkka painamalla toimintopaikan näppäintä.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -46944,9 +46943,9 @@ This is a partner taunt.  Press the taunt key to toggle.</item_description>
 			<item_class>no_entity</item_class>
 			<item_type_name>Erikoispilkka</item_type_name>
 			<item_name>Pilkka: Tyylivapaa takaperinvoltti</item_name>
-			<item_description>All Class Taunt
+			<item_description>Kaikkien luokkien pilkka
 
-This is a partner taunt.  Press the taunt key to toggle.</item_description>
+Tämä on kaveripilkka. Kytke pilkka painamalla toimintopaikan näppäintä.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -46998,7 +46997,7 @@ This is a partner taunt.  Press the taunt key to toggle.</item_description>
 			<defindex>1108</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>Erikoispilkka</item_type_name>
-			<item_name>Pilkka: Hanki elämä</item_name>
+			<item_name>Taunt: Buy a Life</item_name>
 			<item_description>Spyn pilkka</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
@@ -47081,10 +47080,10 @@ This is a partner taunt.  Press the taunt key to toggle.</item_description>
 			<item_class>no_entity</item_class>
 			<item_type_name>Erikoispilkka</item_type_name>
 			<item_name>Pilkka: Kivi, paperi, sakset</item_name>
-			<item_description>All Class Taunt
+			<item_description>Kaikkien luokkien pilkka
 
-This is a partner taunt.  Press the taunt key to toggle.
-Opposing teams will face off to the death.</item_description>
+Tämä on kaveripilkka. Kytke pilkka painamalla toimintopaikan näppäintä.
+Pelattaessa vastapuolen kanssa häviäjä menehtyy.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -47137,9 +47136,9 @@ Opposing teams will face off to the death.</item_description>
 			<item_class>no_entity</item_class>
 			<item_type_name>Erikoispilkka</item_type_name>
 			<item_name>Pilkka: Kallonmurtaja</item_name>
-			<item_description>All Class Taunt
+			<item_description>Kaikkien luokkien pilkka
 
-This is a partner taunt.  Press the taunt key to toggle.</item_description>
+Tämä on kaveripilkka. Kytke pilkka painamalla toimintopaikan näppäintä.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>

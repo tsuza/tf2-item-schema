@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -1178,7 +1178,7 @@ Alt-vuur: Laat een luchtstoot los die vijanden en projectielen wegduwt en brande
 			<defindex>37</defindex>
 			<item_class>tf_weapon_bonesaw</item_class>
 			<item_type_name>Bottenzaag</item_type_name>
-			<item_name>De Überzaag</item_name>
+			<item_name>Übersaw</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_ubersaw/c_ubersaw.mdl</model_player>
@@ -1563,7 +1563,7 @@ Alt-vuur: Deel een Sandvich met een vriend (Middelgrote medikit)</item_descripti
 			<defindex>45</defindex>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Scattergun</item_type_name>
-			<item_name>De Kracht-der-Natuur</item_name>
+			<item_name>Force-a-Nature</item_name>
 			<item_description>Dit wapen herlaadt het volledige magazijn in een keer</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
@@ -4014,7 +4014,7 @@ Bij verdere overtredingen wordt je account mogelijk geblokkeerd.</item_name>
 			<defindex>129</defindex>
 			<item_class>tf_weapon_buff_item</item_class>
 			<item_type_name>Strijdsbanier</item_type_name>
-			<item_name>Het Versterkende Banier</item_name>
+			<item_name>De Versterkende Banier</item_name>
 			<item_description>Biedt een aanvallende boost waardoor teamgenoten
 in de buurt minivoltreffers kunnen uitvoeren.
 Woede neemt toe door uitgedeelde schade.</item_description>
@@ -14226,7 +14226,7 @@ Als je het niet hebt, verberg het dan onder deze discrete capuchon.</item_descri
 			<defindex>380</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Masker</item_type_name>
-			<item_name>Grote Luchadore</item_name>
+			<item_name>Large Luchador</item_name>
 			<item_description>Worstelen is echt, en nu kan je het bewijzen.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -17968,8 +17968,8 @@ Dit wapen herlaadt het volledige magazijn in een keer.</item_description>
 			<item_class>no_entity</item_class>
 			<item_type_name>Speciale bespotting</item_type_name>
 			<item_name>Bespotting: De Schadenfreude</item_name>
-			<item_description>All Class Taunt
-Share a good natured laugh with everyone except that one guy you just shot.</item_description>
+			<item_description>Bespotting voor alle klassen
+Deel een goedaardige lach met iedereen behalve met die ene kerel die je net beschoten hebt.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -21485,7 +21485,7 @@ Gamescom 2011</item_description>
 			<defindex>547</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
-			<item_name>B-ankh!</item_name>
+			<item_name>B-Ankh!</item_name>
 			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -25707,7 +25707,7 @@ Zelfgekozen decals kunnen op dit voorwerp gebruikt worden.</item_description>
 			<defindex>631</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoed</item_type_name>
-			<item_name>De Hoed Zonder Naam</item_name>
+			<item_name>Hat with No Name</item_name>
 			<item_description>Een naamloze hoed voor een naamloze man.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -26604,7 +26604,7 @@ Zelfgekozen decals kunnen op dit voorwerp gebruikt worden.</item_description>
 			<defindex>649</defindex>
 			<item_class>tf_weapon_knife</item_class>
 			<item_type_name>Mes</item_type_name>
-			<item_name>De Spy-spegel</item_name>
+			<item_name>Spy-Cicle</item_name>
 			<item_description>Het is het perfecte cadeau voor de man die alles heeft: een ijspegel in de rug. Zelfs rijke mensen kunnen dat niet in winkels kopen.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
@@ -27037,7 +27037,7 @@ Zelfgekozen decals kunnen op dit voorwerp gebruikt worden.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Pijp</item_type_name>
 			<item_name>Het Nine-Pipe-probleem</item_name>
-			<item_description>Tegen de tijd dat je deze beschrijving hebt gelezen, heb ik al een überlading aan een Heavy gegeven, je basis veroverd, een misdaad opgelost en drie pijpen gerookt.</item_description>
+			<item_description>In the time it takes you to read this description, I&apos;ve already übered a heavy, captured your base, solved a crime, and smoked three pipes.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/medic_smokingpipe.mdl</model_player>
@@ -29418,7 +29418,7 @@ Alt-vuur: Laat een luchtstoot los die vijanden en projectielen wegduwt en brande
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>100</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/scout_prep_shirt.906456dfdb9b9c54543dcb716bb1952efb3fdde9.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.c56d08ff23b3f30249a18501fef79d221f034cd0.png</image_url_large>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.05be377767ca55c152b815f1d9774759c875a90c.png</image_url_large>
 			<drop_type>none</drop_type>
 			<craft_class>hat</craft_class>
 			<craft_material_type>hat</craft_material_type>
@@ -29748,7 +29748,7 @@ Alt-vuur: Laat een luchtstoot los die vijanden en projectielen wegduwt en brande
 			<defindex>732</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Helm</item_type_name>
-			<item_name>De Helm Zonder Huis</item_name>
+			<item_name>Helmet without a Home</item_name>
 			<item_description>Zie deze helm als een verstevigd, draagbaar huis voor je hoofd. Hij is ook bedekt met aluminiumfolie, zodat niemand je waardevolle zwerversgedachten kan stelen.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -34924,7 +34924,7 @@ Alt-vuur: Laat een luchtstoot los die vijanden en projectielen wegduwt en brande
 			<defindex>840</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoed</item_type_name>
-			<item_name>De Oe-klank-a</item_name>
+			<item_name>U-Clank-A</item_name>
 			<item_description>Rooster deze stalen oesjanka in het vuur en draag hem op je hoofd voor warmte gedurende de hele dag. Denk er wel aan om een indrukwekkend klinkend verhaal te verzinnen over waarom je al die derdegraads brandwonden hebt.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -42408,7 +42408,7 @@ Alt-vuur: Deel een Sandvich met een vriend (Middelgrote medikit)</item_descripti
 			<defindex>1003</defindex>
 			<item_class>tf_weapon_bonesaw</item_class>
 			<item_type_name>Bottenzaag</item_type_name>
-			<item_name>Feestelijke Überzaag</item_name>
+			<item_name>Festive Übersaw</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_ubersaw/c_ubersaw_xmas.mdl</model_player>
@@ -43050,9 +43050,9 @@ Alt-vuur: Deel een Sandvich met een vriend (Middelgrote medikit)</item_descripti
 			<defindex>1015</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>Speciale bespotting</item_type_name>
-			<item_name>Het Gitaargevaar</item_name>
-			<item_description>All Class Taunt
-Harness the unholy power of the Dark One (Yngwie Malmsteen) and crush your opponents with blistering riffs, lava-hot licks and emotionally crippling power ballads!</item_description>
+			<item_name>Bespotting: het Shred-alarm</item_name>
+			<item_description>Bespotting voor alle klassen
+Gebruik de onheilige kracht van de Duistere (Yngwie Malmsteen) en verpletter je vijanden met zinderende deuntjes, loeihete motieven en emotioneel vernietigende ballades!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -45393,7 +45393,7 @@ Rust het uit om spreuken op te pakken en af te vuren.</item_description>
 			<defindex>1078</defindex>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Scattergun</item_type_name>
-			<item_name>Feestelijke Kracht-der-Natuur</item_name>
+			<item_name>Festive Force-a-Nature</item_name>
 			<item_description>Dit wapen herlaadt het volledige magazijn in een keer</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>primary</item_slot>
@@ -45749,7 +45749,7 @@ gezondheid bij elk hoofd dat je verzamelt.</item_description>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas.mdl</model_player>
 			<item_quality>6</item_quality>
-			<image_inventory>backpack/weapons/c_models/c_boxing_gloves\c_boxing_gloves_xmas</image_inventory>
+			<image_inventory>backpack/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas</image_inventory>
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>99</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/c_boxing_gloves_xmas.0dbdc11afb9da14d86bc2a7cd946fc4a2e46a23c.png</image_url>
@@ -46999,7 +46999,7 @@ This is a partner taunt.  Press the taunt key to toggle.</item_description>
 			<defindex>1108</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>Speciale bespotting</item_type_name>
-			<item_name>Bespotting: Koop Een Leven</item_name>
+			<item_name>Taunt: Buy a Life</item_name>
 			<item_description>Spy-bespotting</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>

@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -1178,7 +1178,7 @@ Tir secondaire : provoque un souffle d&apos;air puissant repoussant les ennemis 
 			<defindex>37</defindex>
 			<item_class>tf_weapon_bonesaw</item_class>
 			<item_type_name>Scie à amputation</item_type_name>
-			<item_name>L&apos;Überscie</item_name>
+			<item_name>L&apos;Über-scie</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_ubersaw/c_ubersaw.mdl</model_player>
@@ -15533,7 +15533,7 @@ Gagnez un boost critique en corps à corps après avoir causé des dégâts à u
 					<name>Flèche</name>
 				</style>
 				<style>
-					<name>Pointe Et Flèche</name>
+					<name>Pointe et Flèche</name>
 				</style>
 			</styles>
 			<used_by_classes>
@@ -18365,7 +18365,7 @@ Cette arme se recharge en une fois.</item_description>
 			<item_name>L&apos;objecteur de conscience</item_name>
 			<item_description>Nous avons donné une chance à la paix. Ça n&apos;a pas marché.
 
-Des décalcomanies personnalisés peuvent être appliqués à cet objet.</item_description>
+Des décalcomanies personnalisées peuvent être appliquées à cet objet.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_picket/c_picket.mdl</model_player>
@@ -25174,7 +25174,7 @@ Ce paquet contient un exemplaire gratuit de notre gamme d&apos;automne et peut �
 			<item_name>Flair !</item_name>
 			<item_description>Portez fièrement les domaines qui vous passionnent !
 
-Des décalcomanies personnalisés peuvent être appliqués à cet objet.</item_description>
+Des décalcomanies personnalisées peuvent être appliquées à cet objet.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/flair_Scout.mdl</model_player>
@@ -25369,7 +25369,7 @@ Des décalcomanies personnalisés peuvent être appliqués à cet objet.</item_d
 			<item_name>Badge Photo</item_name>
 			<item_description>Décourage le vol d&apos;identité.
 
-Des décalcomanies personnalisés peuvent être appliqués à cet objet.</item_description>
+Des décalcomanies personnalisées peuvent être appliquées à cet objet.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/photo_badge.mdl</model_player>
@@ -25417,7 +25417,7 @@ Des décalcomanies personnalisés peuvent être appliqués à cet objet.</item_d
 			<item_name>Fierté de l&apos;Équipe</item_name>
 			<item_description>Parce que c&apos;est moins cher et moins douloureux qu&apos;un tatouage.
 
-Des décalcomanies personnalisés peuvent être appliqués à cet objet.</item_description>
+Des décalcomanies personnalisées peuvent être appliquées à cet objet.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/stampable_medal.mdl</model_player>
@@ -29417,7 +29417,7 @@ Tir secondaire : provoque un souffle d&apos;air puissant repoussant les ennemis 
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>100</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/scout_prep_shirt.906456dfdb9b9c54543dcb716bb1952efb3fdde9.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.c56d08ff23b3f30249a18501fef79d221f034cd0.png</image_url_large>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.05be377767ca55c152b815f1d9774759c875a90c.png</image_url_large>
 			<drop_type>none</drop_type>
 			<craft_class>hat</craft_class>
 			<craft_material_type>hat</craft_material_type>
@@ -43049,7 +43049,7 @@ Tir secondaire : partage un Sandvich avec un ami (kit de soins moyen)</item_desc
 			<defindex>1015</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>Raillerie spéciale</item_type_name>
-			<item_name>Raillerie : La Shred Alert</item_name>
+			<item_name>Raillerie : Bête de scène</item_name>
 			<item_description>Raillerie pour toutes les classes
 Exploitez la puissance impie du Prince des Ténèbres (Yngwie Malmsteen) et écrasez vos ennemis avec des riffs cinglants, des coups de poing brulants et des balades qui les paralyseront sous le coup de l&apos;émotion !</item_description>
 			<proper_name>true</proper_name>
@@ -44904,7 +44904,7 @@ Exploitez la puissance impie du Prince des Ténèbres (Yngwie Malmsteen) et écr
 			<name>Halloween Unfilled Spellbook</name>
 			<defindex>1068</defindex>
 			<item_class>craft_item</item_class>
-			<item_type_name>Livre de sorts</item_type_name>
+			<item_type_name>Grimoire</item_type_name>
 			<item_name>Grimoire sans page</item_name>
 			<item_description>
 Voilà un bien beau livre de sorts, mais il lui manque encore des pages ! Dès qu&apos;il aura suffisamment de pages, vous pourrez l&apos;équiper et l&apos;utiliser pour lancer des sorts.</item_description>
@@ -44935,7 +44935,7 @@ Voilà un bien beau livre de sorts, mais il lui manque encore des pages ! Dès q
 			<name>Halloween Spellbook</name>
 			<defindex>1069</defindex>
 			<item_class>tf_weapon_spellbook</item_class>
-			<item_type_name>Livre de sorts</item_type_name>
+			<item_type_name>Grimoire</item_type_name>
 			<item_name>Grimoire</item_name>
 			<item_description>
 Voilà un bien beau livre de sorts, plein de pages que vous avez récupéré. Cependant, on a jamais assez de magie...</item_description>
@@ -44977,7 +44977,7 @@ Voilà un bien beau livre de sorts, plein de pages que vous avez récupéré. Ce
 			<name>Basic Spellbook</name>
 			<defindex>1070</defindex>
 			<item_class>tf_weapon_spellbook</item_class>
-			<item_type_name>Livre de sorts</item_type_name>
+			<item_type_name>Grimoire</item_type_name>
 			<item_name>Magazine de sorts</item_name>
 			<item_description>
 Une édition originale de Casters Quarterly.
@@ -45745,7 +45745,7 @@ Cette arme se rechargera automatiquement lorsque non active</item_description>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas.mdl</model_player>
 			<item_quality>6</item_quality>
-			<image_inventory>backpack/weapons/c_models/c_boxing_gloves\c_boxing_gloves_xmas</image_inventory>
+			<image_inventory>backpack/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas</image_inventory>
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>99</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/c_boxing_gloves_xmas.0dbdc11afb9da14d86bc2a7cd946fc4a2e46a23c.png</image_url>
@@ -46996,7 +46996,7 @@ Ceci est une raillerie collective. Appuyez sur la touche de raillerie pour l&apo
 			<defindex>1108</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>Raillerie spéciale</item_type_name>
-			<item_name>Raillerie : Achète-toi une Vie</item_name>
+			<item_name>Raillerie : Achète-toi une vie</item_name>
 			<item_description>Raillerie Spy</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
@@ -47935,7 +47935,7 @@ Les badges de niveau plus élevés augmentent le nombre de drops de canards.</it
 			<name>TF_WEAPON_SPELLBOOK</name>
 			<defindex>1132</defindex>
 			<item_class>tf_weapon_spellbook</item_class>
-			<item_type_name>Livre de sorts</item_type_name>
+			<item_type_name>Grimoire</item_type_name>
 			<item_name>Magazine de sorts</item_name>
 			<item_description>
 Une édition originale de Casters Quarterly.

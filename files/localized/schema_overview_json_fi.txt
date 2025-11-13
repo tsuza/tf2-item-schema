@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -1018,7 +1018,7 @@
 				"name": "max pipebombs increased",
 				"defindex": 88,
 				"attribute_class": "add_max_pipebombs",
-				"description_string": "+%s1 putkipommien enimmäismäärä",
+				"description_string": "+%s1 tahmapommien enimmäismäärä",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1028,7 +1028,7 @@
 				"name": "max pipebombs decreased",
 				"defindex": 89,
 				"attribute_class": "add_max_pipebombs",
-				"description_string": "%s1 putkipommien enimmäismäärä",
+				"description_string": "+%s1 tahmapommien enimmäismäärä",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -6430,8 +6430,10 @@
 				"name": "energy buff dmg taken multiplier",
 				"defindex": 798,
 				"attribute_class": "energy_buff_dmg_taken_multiplier",
+				"description_string": "+%s1% enemmän vahinkoa käyttäjälle aktivoituna",
+				"description_format": "value_is_percentage",
 				"effect_type": "negative",
-				"hidden": true,
+				"hidden": false,
 				"stored_as_integer": false
 			},
 			{
@@ -7783,6 +7785,116 @@
 				"stored_as_integer": false
 			},
 			{
+				"name": "freaky fair kritz potion",
+				"defindex": 2069,
+				"attribute_class": "freaky_fair_kritz_potion",
+				"description_string": "Kritz-rohto",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair uber potion",
+				"defindex": 2070,
+				"attribute_class": "freaky_fair_uber_potion",
+				"description_string": "Über-rohto",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair giant potion",
+				"defindex": 2071,
+				"attribute_class": "freaky_fair_giant_potion",
+				"description_string": "Jättirohto",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair buster potion",
+				"defindex": 2072,
+				"attribute_class": "freaky_fair_buster_potion",
+				"description_string": "Kurpitsapommirohto",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair healing potion",
+				"defindex": 2073,
+				"attribute_class": "freaky_fair_healing_potion",
+				"description_string": "Parannusrohto",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair ghost potion",
+				"defindex": 2074,
+				"attribute_class": "freaky_fair_ghost_potion",
+				"description_string": "Haamurohto",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair ammo potion",
+				"defindex": 2075,
+				"attribute_class": "freaky_fair_ammo_potion",
+				"description_string": "Latausrohto",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair rtd potion",
+				"defindex": 2076,
+				"attribute_class": "freaky_fair_rtd_potion",
+				"description_string": "Tuurirohto",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair relentless potion",
+				"defindex": 2077,
+				"attribute_class": "freaky_fair_relentless_potion",
+				"description_string": "Armoton rohto",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair extra attrib1",
+				"defindex": 2078,
+				"attribute_class": "freaky_fair_extra_attrib1",
+				"description_string": "1. lisäominaisuus – Freaky Fair",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair extra attrib2",
+				"defindex": 2079,
+				"attribute_class": "freaky_fair_extra_attrib2",
+				"description_string": "2. lisäominaisuus – Freaky Fair",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
 				"name": "item slot criteria 1",
 				"defindex": 3000,
 				"attribute_class": "item_slot_criteria",
@@ -8887,6 +8999,7 @@
 				"system": "superrare_beams1",
 				"id": 17,
 				"attach_to_rootbone": true,
+				"attachment": "unusual",
 				"name": "Auringonsäteet"
 			},
 			{
@@ -9966,49 +10079,49 @@
 				"id": 189,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Tempered Thorns"
+				"name": "Karkaistut sarvet"
 			},
 			{
 				"system": "unusual_demonhorns_orange_parent",
 				"id": 190,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Devilish Diablo"
+				"name": "Paholaismainen Diablo"
 			},
 			{
 				"system": "unusual_demonhorns_purple_parent",
 				"id": 191,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Severed Serration"
+				"name": "Katkaistu hammastus"
 			},
 			{
 				"system": "unusual_souls_shades_parent",
 				"id": 192,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Shrieking Shades"
+				"name": "Kirkuvat varjot"
 			},
 			{
 				"system": "unusual_souls_teamcolor_red",
 				"id": 193,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Restless Wraiths"
+				"name": "Rauhattomat aaveet"
 			},
 			{
 				"system": "unusual_souls_teamcolor_blue",
 				"id": 194,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Restless Wraiths"
+				"name": "Rauhattomat aaveet"
 			},
 			{
 				"system": "unusual_phantomcrown_green_parent",
 				"id": 195,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Infernal Wraith"
+				"name": "Karmea aave"
 			},
 			{
 				"system": "unusual_phantomcrown_purple_parent",
@@ -10022,28 +10135,28 @@
 				"id": 197,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ancient Specter"
+				"name": "Muinainen kummitus"
 			},
 			{
 				"system": "unusual_lurking_eyes_parent_g",
 				"id": 198,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Viridescent Peeper"
+				"name": "Kivat klasit"
 			},
 			{
 				"system": "unusual_lurking_eyes_parent_o",
 				"id": 199,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Eyes of Molten"
+				"name": "Sulavaiset silmät"
 			},
 			{
 				"system": "unusual_lurking_eyes_parent_p",
 				"id": 200,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ominous Stare"
+				"name": "Pahaenteinen tuijotus"
 			},
 			{
 				"system": "unusual_pumpkin_moon_parent",
@@ -10078,462 +10191,462 @@
 				"id": 205,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Smissmas Tree"
+				"name": "Smissmas-puu"
 			},
 			{
 				"system": "unusual_tree3_yellow_parent",
 				"id": 206,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Hospitable Festivity"
+				"name": "Vieraanvarainen välke"
 			},
 			{
 				"system": "unusual_tree3_teamcolor_red",
 				"id": 207,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Condescending Embrace"
+				"name": "Ylimielinen syleily"
 			},
 			{
 				"system": "unusual_tree3_teamcolor_blue",
 				"id": 208,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Condescending Embrace"
+				"name": "Ylimielinen syleily"
 			},
 			{
 				"system": "unusual_sparkletree_gold_parent",
 				"id": 209,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sparkling Spruce"
+				"name": "Kimaltava kuusi"
 			},
 			{
 				"system": "unusual_sparkletree_silver_parent",
 				"id": 210,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Glittering Juniper"
+				"name": "Kiiltelevä kataja"
 			},
 			{
 				"system": "unusual_sparkletree_RGB_parent",
 				"id": 211,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Prismatic Pine"
+				"name": "Prismaattinen pistely"
 			},
 			{
 				"system": "unusual_fairylights_green_parent",
 				"id": 212,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Spiraling Lights"
+				"name": "Valospiraali"
 			},
 			{
 				"system": "unusual_fairylights_purple_parent",
 				"id": 213,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Twisting Lights"
+				"name": "Valokierre"
 			},
 			{
 				"system": "unusual_spire_star_parent",
 				"id": 214,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Stardust Pathway"
+				"name": "Tähtipöly"
 			},
 			{
 				"system": "unusual_spire_snowball_parent",
 				"id": 215,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flurry Rush"
+				"name": "Lumiryöppy"
 			},
 			{
 				"system": "unusual_spire_firework_teamcolor_red",
 				"id": 216,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Spark of Smissmas"
+				"name": "Smissmasin säpinä"
 			},
 			{
 				"system": "unusual_spire_firework_teamcolor_blue",
 				"id": 217,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Spark of Smissmas"
+				"name": "Smissmasin säpinä"
 			},
 			{
 				"system": "unusual_snowflake_parent",
 				"id": 218,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Polar Forecast"
+				"name": "Lunta tupaan"
 			},
 			{
 				"system": "unusual_antlers_gold_parent",
 				"id": 219,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Shining Stag"
+				"name": "Sarvien tulet"
 			},
 			{
 				"system": "unusual_antlers_purple_parent",
 				"id": 220,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Holiday Horns"
+				"name": "Lomasarvet"
 			},
 			{
 				"system": "unusual_antlers_teamcolor_red",
 				"id": 221,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ardent Antlers"
+				"name": "Sihisevät sarvet"
 			},
 			{
 				"system": "unusual_antlers_teamcolor_blue",
 				"id": 222,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ardent Antlers"
+				"name": "Sihisevät sarvet"
 			},
 			{
 				"system": "unusual_festive_lights_lights1_parent",
 				"id": 223,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Festive Lights"
+				"name": "Tuikkivat valot"
 			},
 			{
 				"system": "unusual_spycrabs_teamcolor_red",
 				"id": 224,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Crustacean Sensation"
+				"name": "Ällistyttävät äyriäiset"
 			},
 			{
 				"system": "unusual_spycrabs_teamcolor_blue",
 				"id": 225,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Crustacean Sensation"
+				"name": "Ällistyttävät äyriäiset"
 			},
 			{
 				"system": "unusual_sprinkles_teamcolor_red",
 				"id": 226,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Frosted Decadence"
+				"name": "Routainen rappio"
 			},
 			{
 				"system": "unusual_sprinkles_teamcolor_blue",
 				"id": 227,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Frosted Decadence"
+				"name": "Routainen rappio"
 			},
 			{
 				"system": "unusual_sprinkles_rainbow_parent",
 				"id": 228,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sprinkled Delights"
+				"name": "Strösselisade"
 			},
 			{
 				"system": "unusual_liquidmagic_green_parent",
 				"id": 229,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Terrestrial Favor"
+				"name": "Maanpäällinen suosikki"
 			},
 			{
 				"system": "unusual_liquidmagic_ocean_parent",
 				"id": 230,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Tropical Thrill"
+				"name": "Lomakuume"
 			},
 			{
 				"system": "unusual_liquidmagic_pink_parent",
 				"id": 231,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flourishing Passion"
+				"name": "Kukoistava intohimo"
 			},
 			{
 				"system": "unusual_firework_blue_red_parent",
 				"id": 232,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Dazzling Fireworks"
+				"name": "Ihmeellinen ilotulitus"
 			},
 			{
 				"system": "unusual_firework_green_yellow_parent",
 				"id": 233,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Blazing Fireworks"
+				"name": "Roihuava ilotulitus"
 			},
 			{
 				"system": "unusual_firework_orange_yellow_parent",
 				"id": 234,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Shimmering Fireworks"
+				"name": "Kimmeltävä ilotulitus"
 			},
 			{
 				"system": "unusual_firework_pgb_parent",
 				"id": 235,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Twinkling Fireworks"
+				"name": "Tuikkiva ilotulitus"
 			},
 			{
 				"system": "unusual_firework_purple_yellow_parent",
 				"id": 236,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sparkling Fireworks"
+				"name": "Välkkyvä ilotulitus"
 			},
 			{
 				"system": "unusual_firework_rainbow_parent",
 				"id": 237,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Glowing Fireworks"
+				"name": "Hehkuva ilotulitus"
 			},
 			{
 				"system": "unusual_firework_wgb_parent",
 				"id": 238,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Glimmering Fireworks"
+				"name": "Kiiltävä ilotulitus"
 			},
 			{
 				"system": "unusual_lanterns_teamcolor_red",
 				"id": 239,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flying Lights"
+				"name": "Veikeät valot"
 			},
 			{
 				"system": "unusual_lanterns_teamcolor_blue",
 				"id": 240,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flying Lights"
+				"name": "Veikeät valot"
 			},
 			{
 				"system": "unusual_lanterns_green_parent",
 				"id": 241,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Limelight"
+				"name": "Parrasvalot"
 			},
 			{
 				"system": "unusual_lanterns_yellow_parent",
 				"id": 242,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Shining Star"
+				"name": "Tähdenloisto"
 			},
 			{
 				"system": "unusual_coldcosmos_parent",
 				"id": 243,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Cold Cosmos"
+				"name": "Kolea kosmos"
 			},
 			{
 				"system": "unusual_helix_parent",
 				"id": 244,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Refracting Fractals"
+				"name": "Huikea heijastus"
 			},
 			{
 				"system": "unusual_stardust_teamcolor_red",
 				"id": 245,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Startrance"
+				"name": "Tähtien transsi"
 			},
 			{
 				"system": "unusual_stardust_teamcolor_blue",
 				"id": 246,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Startrance"
+				"name": "Tähtien transsi"
 			},
 			{
 				"system": "unusual_stardust_green_parent",
 				"id": 247,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Starlush"
+				"name": "Tähtikuvio"
 			},
 			{
 				"system": "unusual_stardust_orange_parent",
 				"id": 248,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Starfire"
+				"name": "Tähtisade"
 			},
 			{
 				"system": "unusual_stardust_white_parent",
 				"id": 249,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Stardust"
+				"name": "Tähtipöly"
 			},
 			{
 				"system": "unusual_erupt_alien_parent",
 				"id": 250,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Contagious Eruption"
+				"name": "Kulkutautikohtaus"
 			},
 			{
 				"system": "unusual_erupt_daydream_parent",
 				"id": 251,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Daydream Eruption"
+				"name": "Lempeä leimahdus"
 			},
 			{
 				"system": "unusual_erupt_volcan_parent",
 				"id": 252,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Volcanic Eruption"
+				"name": "Tulivuorenpurkaus"
 			},
 			{
 				"system": "unusual_supernova_parent",
 				"id": 253,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Divine Sunlight"
+				"name": "Ihana aurinko"
 			},
 			{
 				"system": "unusual_audio_soundwave_green_parent",
 				"id": 254,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Audiophile"
+				"name": "Audionörtti"
 			},
 			{
 				"system": "unusual_audio_soundwave_orange_parent",
 				"id": 255,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Soundwave"
+				"name": "Ääniaalto"
 			},
 			{
 				"system": "unusual_audio_soundwave_purple_parent",
 				"id": 256,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Synesthesia"
+				"name": "Synestesia"
 			},
 			{
 				"system": "unusual_kraken_green_parent",
 				"id": 257,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Haunted Kraken"
+				"name": "Kummitteleva kraken"
 			},
 			{
 				"system": "unusual_kraken_purple_parent",
 				"id": 258,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Eerie Kraken"
+				"name": "Kaamea kraken"
 			},
 			{
 				"system": "unusual_ghostaxe_parent_green",
 				"id": 259,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Soulful Slice"
+				"name": "Sielukas sivallus"
 			},
 			{
 				"system": "unusual_ghostaxe_parent_purple",
 				"id": 260,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Horsemann's Hack"
+				"name": "Ratsumiehen hakku"
 			},
 			{
 				"system": "unusual_hauntedforever_teamcolor_red",
 				"id": 261,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Haunted Forever!"
+				"name": "Ikipiina"
 			},
 			{
 				"system": "unusual_hauntedforever_teamcolor_blue",
 				"id": 262,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Haunted Forever!"
+				"name": "Ikipiina"
 			},
 			{
 				"system": "unusual_hauntedforever_green_parent",
 				"id": 263,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Forever And Forever!"
+				"name": "Aina ja ikuisesti!"
 			},
 			{
 				"system": "unusual_hauntedforever_purple_parent",
 				"id": 264,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Cursed Forever!"
+				"name": "Ikikirous"
 			},
 			{
 				"system": "unusual_moths_parent",
 				"id": 265,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Moth Plague"
+				"name": "Kaveeraavat koiperhoset"
 			},
 			{
 				"system": "unusual_eyeboss_parent",
 				"id": 266,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Malevolent Monoculi"
+				"name": "Sihtaava silmä"
 			},
 			{
 				"system": "unusual_ghostly_flame_teamcolor_red",
 				"id": 267,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Haunted Wick"
+				"name": "Sykähdyttävä sydänlanka"
 			},
 			{
 				"system": "unusual_ghostly_flame_teamcolor_blue",
 				"id": 268,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Haunted Wick"
+				"name": "Sykähdyttävä sydänlanka"
 			},
 			{
 				"system": "unusual_ghostly_flame_parent_orange",
 				"id": 269,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Wicked Wick"
+				"name": "Pelottava sydänlanka"
 			},
 			{
 				"system": "unusual_ghostly_flame_parent_purple",
 				"id": 270,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Spectral Wick"
+				"name": "Sydänlankaspektri"
 			},
 			{
 				"system": "unusual_sheetmusic_gold_parent",
@@ -10561,21 +10674,21 @@
 				"id": 274,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Cosmic Constellations"
+				"name": "Tuhdit tähdistöt"
 			},
 			{
 				"system": "unusual_constellation_teamcolor_blue",
 				"id": 275,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Cosmic Constellations"
+				"name": "Tuhdit tähdistöt"
 			},
 			{
 				"system": "unusual_constellation_green_parent",
 				"id": 276,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Dazzling Constellations"
+				"name": "Tahdilliset tähdistöt"
 			},
 			{
 				"system": "unusual_blood_snow_parent",
@@ -10589,105 +10702,105 @@
 				"id": 278,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Starlight Haze"
+				"name": "Tähtisumu"
 			},
 			{
 				"system": "unusual_hardcarry_teamcolor_red",
 				"id": 279,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Hard Carry"
+				"name": "Painava pipo"
 			},
 			{
 				"system": "unusual_hardcarry_teamcolor_blue",
 				"id": 280,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Hard Carry"
+				"name": "Painava pipo"
 			},
 			{
 				"system": "unusual_jellyfish_teamcolor_red",
 				"id": 281,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Jellyfish Field"
+				"name": "Muikeat meduusat"
 			},
 			{
 				"system": "unusual_jellyfish_teamcolor_blue",
 				"id": 282,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Jellyfish Field"
+				"name": "Muikeat meduusat"
 			},
 			{
 				"system": "unusual_jellyfish_green_parent",
 				"id": 283,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Jellyfish Hunter"
+				"name": "Meduusojen metsästäjä"
 			},
 			{
 				"system": "unusual_jellyfish_purple_parent",
 				"id": 284,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Jellyfish Jam"
+				"name": "Mainiot meduusat"
 			},
 			{
 				"system": "unusual_shootingstar_green_parent",
 				"id": 285,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Global Clusters"
+				"name": "Tähtiterttu"
 			},
 			{
 				"system": "unusual_shootingstar_purple_parent",
 				"id": 286,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Celestial Starburst"
+				"name": "Taivaan tähtisade"
 			},
 			{
 				"system": "unusual_shootingstar_orange_parent",
 				"id": 287,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sylicone Succiduous"
+				"name": "Putoava pii"
 			},
 			{
 				"system": "unusual_sakura_smokebomb",
 				"id": 288,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sakura Smoke Bomb"
+				"name": "Kirsikankukkakäry"
 			},
 			{
 				"system": "unusual_australian_riches",
 				"id": 289,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Treasure Trove"
+				"name": "Aarrekätkö"
 			},
 			{
 				"system": "unusual_buble_parent",
 				"id": 290,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Bubble Breeze"
+				"name": "Kuplien kimallus"
 			},
 			{
 				"system": "unusual_fireflies",
 				"id": 291,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fireflies"
+				"name": "Tulikärpäset"
 			},
 			{
 				"system": "unusual_mountainhalo_parent",
 				"id": 292,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Mountain Halo"
+				"name": "Auringonkajo"
 			},
 			{
 				"system": "unusual_risingstar_green_parent",
@@ -10701,21 +10814,21 @@
 				"id": 294,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Stellar Ascent"
+				"name": "Tähtiin nousu"
 			},
 			{
 				"system": "unusual_sapper_teamcolor_red",
 				"id": 295,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sapped"
+				"name": "Tyhjennetty"
 			},
 			{
 				"system": "unusual_sapper_teamcolor_blue",
 				"id": 296,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sapped"
+				"name": "Tyhjennetty"
 			},
 			{
 				"system": "unusual_devilish_teamcolor_red",
@@ -10750,56 +10863,56 @@
 				"id": 301,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sixth Sense"
+				"name": "Kuudes aisti"
 			},
 			{
 				"system": "unusual_sixthsense_teamcolor_blue",
 				"id": 302,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sixth Sense"
+				"name": "Kuudes aisti"
 			},
 			{
 				"system": "unusual_sixthsense_pink_parent",
 				"id": 303,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Amygdala"
+				"name": "Manteliaisti"
 			},
 			{
 				"system": "unusual_skullhead_parent",
 				"id": 304,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "The Bone Zone"
+				"name": "Luutanssi"
 			},
 			{
 				"system": "unusual_spiderweb_parent",
 				"id": 305,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Arachne's Web"
+				"name": "Lukinseitti"
 			},
 			{
 				"system": "unusual_deepsmoke_parent_g",
 				"id": 306,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Acidic Climate"
+				"name": "Happosade"
 			},
 			{
 				"system": "unusual_deepsmoke_parent_p",
 				"id": 307,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Otherworldly Weather"
+				"name": "Ylimaallinen sääilmiö"
 			},
 			{
 				"system": "unusual_deepsmoke_parent_o",
 				"id": 308,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Nightmarish Storm"
+				"name": "Painajaismyrsky"
 			},
 			{
 				"system": "unusual_icearrow_teamcolor_red",
@@ -10919,6 +11032,468 @@
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
 				"name": "Luonnonvalot"
+			},
+			{
+				"system": "unusual_corrodedknight_teamcolor_red",
+				"id": 327,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Kannattajan kruunu (Loyalist's Coronet)"
+			},
+			{
+				"system": "unusual_corrodedknight_teamcolor_blue",
+				"id": 328,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Kannattajan kruunu (Loyalist's Coronet)"
+			},
+			{
+				"system": "unusual_corrodedknight_parent_silver",
+				"id": 329,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Ritarin ylpeä sielu (Knight's Prideful Spirit)"
+			},
+			{
+				"system": "unusual_corrodedknight_parent_golden",
+				"id": 330,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Paronin rakas päähine (Baron's Cherished Chaplet)"
+			},
+			{
+				"system": "unusual_poseidon_teamcolor_red",
+				"id": 331,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Krotti (Lure of the Deep)"
+			},
+			{
+				"system": "unusual_poseidon_teamcolor_blue",
+				"id": 332,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Krotti (Lure of the Deep)"
+			},
+			{
+				"system": "unusual_poseidon_parent_green",
+				"id": 333,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Vaarallisen vihreä (Violent Viridian)"
+			},
+			{
+				"system": "unusual_poseidon_parent_purple",
+				"id": 334,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Magenta monsteri (Magenta Monstrum)"
+			},
+			{
+				"system": "unusual_rainglow_parent",
+				"id": 335,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Sateenkaarisäteet (Rainbow Reverie)"
+			},
+			{
+				"system": "unusual_cubancigar_parent",
+				"id": 336,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Sikarinsauhu (Cuban Smoke)"
+			},
+			{
+				"system": "unusual_mohawk_teamcolor_red",
+				"id": 337,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Liekki-irokeesi (Melting Mohawk)"
+			},
+			{
+				"system": "unusual_mohawk_teamcolor_blue",
+				"id": 338,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Liekki-irokeesi (Melting Mohawk)"
+			},
+			{
+				"system": "unusual_mohawk_parent_green",
+				"id": 339,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Palanut päänahka (Scorched Scalp)"
+			},
+			{
+				"system": "unusual_mohawk_parent_purple",
+				"id": 340,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Tulinen harja (Ignited Crest)"
+			},
+			{
+				"system": "unusual_rare_shine_glow_parent",
+				"id": 341,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Harvinainen kimallus (Rare Shine)"
+			},
+			{
+				"system": "unusual_horstars_teamcolor_red",
+				"id": 342,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Tähtisade (Distant Drift)"
+			},
+			{
+				"system": "unusual_horstars_teamcolor_blue",
+				"id": 343,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Tähtisade (Distant Drift)"
+			},
+			{
+				"system": "unusual_electric_parent_white",
+				"id": 344,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Migreeni (Warp Drive)"
+			},
+			{
+				"system": "unusual_electric_parent_gold",
+				"id": 345,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Meno päällä (Overdrive)"
+			},
+			{
+				"system": "unusual_butterflyhead_teamcolor_red",
+				"id": 346,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Perhospilvi (Butterfly Season)"
+			},
+			{
+				"system": "unusual_butterflyhead_teamcolor_blue",
+				"id": 347,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Perhospilvi (Butterfly Season)"
+			},
+			{
+				"system": "unusual_hippieaura_parent",
+				"id": 348,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Psycho-Delic"
+			},
+			{
+				"system": "unusual_butterfly_parent",
+				"id": 349,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Lumoavat ötökät (Bewitching Bugs)"
+			},
+			{
+				"system": "unusual_spectral_fire_parent",
+				"id": 350,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Aavemainen liekki"
+			},
+			{
+				"system": "unusual_galactic_fire_parent",
+				"id": 351,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Galaktinen liekki"
+			},
+			{
+				"system": "unusual_frank_green_parent",
+				"id": 352,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Elvytetty lataus"
+			},
+			{
+				"system": "unusual_frank_purple_parent",
+				"id": 353,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Epäkuollut energia"
+			},
+			{
+				"system": "unusual_frank_yellow_parent",
+				"id": 354,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Frankensähkö"
+			},
+			{
+				"system": "unusual_skullsmoke_green_parent",
+				"id": 355,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Haamuvitsaus"
+			},
+			{
+				"system": "unusual_skullsmoke_purple_parent",
+				"id": 356,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Aavemainen auer"
+			},
+			{
+				"system": "unusual_pigeons_green_parent",
+				"id": 357,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Verenhimoiset vampyyrit (Vicious Vampires)"
+			},
+			{
+				"system": "unusual_pigeons_purple_parent",
+				"id": 358,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Karmaisevat korpit (Ravenous Ravens)"
+			},
+			{
+				"system": "unusual_pigeons_white_parent",
+				"id": 359,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Kauniit kyyhkyset (Delightful Doves)"
+			},
+			{
+				"system": "unusual_stove_teamcolor_red",
+				"id": 360,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Lieden liekki"
+			},
+			{
+				"system": "unusual_stove_teamcolor_blue",
+				"id": 361,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Lieden liekki"
+			},
+			{
+				"system": "unusual_electricfire_teamcolor_red",
+				"id": 362,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Überroihu"
+			},
+			{
+				"system": "unusual_electricfire_teamcolor_blue",
+				"id": 363,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Überroihu"
+			},
+			{
+				"system": "unusual_sizzling_parent",
+				"id": 364,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Tulikuuma"
+			},
+			{
+				"system": "unusual_icrown_teamcolor_red",
+				"id": 365,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Kristallikruunu"
+			},
+			{
+				"system": "unusual_icrown_teamcolor_blue",
+				"id": 366,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Kristallikruunu"
+			},
+			{
+				"system": "unusual_icrown_parent_purple",
+				"id": 367,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Halcyonin kehä"
+			},
+			{
+				"system": "unusual_timeghosts_parent",
+				"id": 368,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Smissmas-muistelot"
+			},
+			{
+				"system": "unusual_aurora_parent",
+				"id": 369,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Revontulet"
+			},
+			{
+				"system": "unusual_bokehsparkle_parent",
+				"id": 370,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Hohtava bokeh"
+			},
+			{
+				"system": "unusual_playful_purple_parent",
+				"id": 371,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Leikkisät revontulet"
+			},
+			{
+				"system": "unusual_playful_yellow_parent",
+				"id": 372,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Viileä aamu"
+			},
+			{
+				"system": "unusual_drunk_parent",
+				"id": 373,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Pöhnässä"
+			},
+			{
+				"system": "unusual_excalibur_teamcolor_red",
+				"id": 374,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Petos pistää"
+			},
+			{
+				"system": "unusual_excalibur_teamcolor_blue",
+				"id": 375,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Petos pistää"
+			},
+			{
+				"system": "unusual_excalibur_parent_purple",
+				"id": 376,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Tuonelan tikarit"
+			},
+			{
+				"system": "unusual_uber_teamcolor_red",
+				"id": 377,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Täyslataus"
+			},
+			{
+				"system": "unusual_uber_teamcolor_blue",
+				"id": 378,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Täyslataus"
+			},
+			{
+				"system": "unusual_uber_gold_parent",
+				"id": 379,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Ylilataus"
+			},
+			{
+				"system": "unusual_orbitingbullet_parent",
+				"id": 380,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Mahtava migreeni"
+			},
+			{
+				"system": "unusual_typhoon_parent",
+				"id": 381,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Aivomyrsky"
+			},
+			{
+				"system": "unusual_ocean_swirl_teamcolor_red",
+				"id": 382,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Ocean Swirl"
+			},
+			{
+				"system": "unusual_ocean_swirl_teamcolor_blue",
+				"id": 383,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Ocean Swirl"
+			},
+			{
+				"system": "unusual_ocean_swirl_green_parent",
+				"id": 384,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Toxic Swirl"
+			},
+			{
+				"system": "unusual_candle_teamcolor_red",
+				"id": 385,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Kynttilän liekki"
+			},
+			{
+				"system": "unusual_candle_teamcolor_blue",
+				"id": 386,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Candle Flame"
+			},
+			{
+				"system": "unusual_deadlyaroma_teamcolor_red",
+				"id": 387,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Sizzling Aroma"
+			},
+			{
+				"system": "unusual_deadlyaroma_teamcolor_blue",
+				"id": 388,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Sizzling Aroma"
+			},
+			{
+				"system": "unusual_deadlyaroma_green_parent",
+				"id": 389,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Toxic Aroma"
+			},
+			{
+				"system": "unusual_conductor_teamc_teamcolor_red",
+				"id": 390,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Current Conductor"
+			},
+			{
+				"system": "unusual_conductor_teamc_teamcolor_blue",
+				"id": 391,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Current Conductor"
+			},
+			{
+				"system": "unusual_sandy_parent",
+				"id": 392,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Santaisa"
 			},
 			{
 				"system": "weapon_unusual_hot",
@@ -11354,7 +11929,7 @@
 				"system": "utaunt_tarotcard_teamcolor_blue",
 				"id": 3062,
 				"attach_to_rootbone": false,
-				"name": "Cavalier de Carte"
+				"name": "Korttien kavaljeeri"
 			},
 			{
 				"system": "utaunt_tarotcard_orange_parent",
@@ -11372,31 +11947,31 @@
 				"system": "utaunt_elebound_green_parent",
 				"id": 3065,
 				"attach_to_rootbone": false,
-				"name": "Vigorous Pulse"
+				"name": "Ponteva pulssi"
 			},
 			{
 				"system": "utaunt_elebound_purple_parent",
 				"id": 3066,
 				"attach_to_rootbone": false,
-				"name": "Thundering Spirit"
+				"name": "Ukkosen henki"
 			},
 			{
 				"system": "utaunt_elebound_yellow_parent",
 				"id": 3067,
 				"attach_to_rootbone": false,
-				"name": "Galvanic Defiance"
+				"name": "Uskomaton uhma"
 			},
 			{
 				"system": "utaunt_wispy_parent_g",
 				"id": 3068,
 				"attach_to_rootbone": false,
-				"name": "Wispy Halos"
+				"name": "Harsokehrät"
 			},
 			{
 				"system": "utaunt_wispy_parent_p",
 				"id": 3069,
 				"attach_to_rootbone": false,
-				"name": "Nether Wisps"
+				"name": "Alaharsot"
 			},
 			{
 				"system": "utaunt_auroraglow_green_parent",
@@ -11420,325 +11995,325 @@
 				"system": "utaunt_snowswirl_purple_parent",
 				"id": 3073,
 				"attach_to_rootbone": false,
-				"name": "Amethyst Winds"
+				"name": "Ametistituulet"
 			},
 			{
 				"system": "utaunt_snowswirl_yellow_parent",
 				"id": 3074,
 				"attach_to_rootbone": false,
-				"name": "Golden Gusts"
+				"name": "Kultainen kierre"
 			},
 			{
 				"system": "utaunt_snowswirl_teamcolor_red",
 				"id": 3075,
 				"attach_to_rootbone": false,
-				"name": "Smissmas Swirls"
+				"name": "Smissmas-pyörre"
 			},
 			{
 				"system": "utaunt_snowswirl_teamcolor_blue",
 				"id": 3076,
 				"attach_to_rootbone": false,
-				"name": "Smissmas Swirls"
+				"name": "Smissmas-pyörre"
 			},
 			{
 				"system": "utaunt_treespiral_green_parent",
 				"id": 3077,
 				"attach_to_rootbone": false,
-				"name": "Minty Cypress"
+				"name": "Minttusypressi"
 			},
 			{
 				"system": "utaunt_treespiral_purple_parent",
 				"id": 3078,
 				"attach_to_rootbone": false,
-				"name": "Pristine Pine"
+				"name": "Luonnonmänty"
 			},
 			{
 				"system": "utaunt_treespiral_teamcolor_red",
 				"id": 3079,
 				"attach_to_rootbone": false,
-				"name": "Sparkly Spruce"
+				"name": "Hehkuva kuusi"
 			},
 			{
 				"system": "utaunt_treespiral_teamcolor_blue",
 				"id": 3080,
 				"attach_to_rootbone": false,
-				"name": "Sparkly Spruce"
+				"name": "Hehkuva kuusi"
 			},
 			{
 				"system": "utaunt_gifts_teamcolor_red",
 				"id": 3081,
 				"attach_to_rootbone": false,
-				"name": "Festive Fever"
+				"name": "Yhtä juhlaa"
 			},
 			{
 				"system": "utaunt_gifts_teamcolor_blue",
 				"id": 3082,
 				"attach_to_rootbone": false,
-				"name": "Festive Fever"
+				"name": "Yhtä juhlaa"
 			},
 			{
 				"system": "utaunt_glitter_parent_gold",
 				"id": 3083,
 				"attach_to_rootbone": false,
-				"name": "Golden Glimmer"
+				"name": "Kultainen kimallus"
 			},
 			{
 				"system": "utaunt_glitter_parent_silver",
 				"id": 3084,
 				"attach_to_rootbone": false,
-				"name": "Frosty Silver"
+				"name": "Huurteinen hurma"
 			},
 			{
 				"system": "utaunt_glitter_teamcolor_red",
 				"id": 3085,
 				"attach_to_rootbone": false,
-				"name": "Glamorous Dazzle"
+				"name": "Juhlava hehku"
 			},
 			{
 				"system": "utaunt_glitter_teamcolor_blue",
 				"id": 3086,
 				"attach_to_rootbone": false,
-				"name": "Glamorous Dazzle"
+				"name": "Juhlava hehku"
 			},
 			{
 				"system": "utaunt_ice_parent",
 				"id": 3087,
 				"attach_to_rootbone": false,
-				"name": "Sublime Snowstorm"
+				"name": "Melkoinen myräkkä"
 			},
 			{
 				"system": "utaunt_marigoldritual_teamcolor_red",
 				"id": 3088,
 				"attach_to_rootbone": false,
-				"name": "Marigold Ritual"
+				"name": "Kehäkukkakaava"
 			},
 			{
 				"system": "utaunt_marigoldritual_teamcolor_blue",
 				"id": 3089,
 				"attach_to_rootbone": false,
-				"name": "Marigold Ritual"
+				"name": "Kehäkukkakaava"
 			},
 			{
 				"system": "utaunt_poison_parent_green",
 				"id": 3090,
 				"attach_to_rootbone": false,
-				"name": "Pungent Poison"
+				"name": "Kalmankäry"
 			},
 			{
 				"system": "utaunt_poison_parent_orange",
 				"id": 3091,
 				"attach_to_rootbone": false,
-				"name": "Blazed Brew"
+				"name": "Kuuma keitos"
 			},
 			{
 				"system": "utaunt_poison_parent_purple",
 				"id": 3092,
 				"attach_to_rootbone": false,
-				"name": "Mysterious Mixture"
+				"name": "Mystinen mikstuura"
 			},
 			{
 				"system": "utaunt_runeprison_green_parent",
 				"id": 3093,
 				"attach_to_rootbone": false,
-				"name": "Linguistic Deviation"
+				"name": "Kielellinen este"
 			},
 			{
 				"system": "utaunt_runeprison_yellow_parent",
 				"id": 3094,
 				"attach_to_rootbone": false,
-				"name": "Aurelian Seal"
+				"name": "Aurelianuksen sinetti"
 			},
 			{
 				"system": "utaunt_runeprison_teamcolor_red",
 				"id": 3095,
 				"attach_to_rootbone": false,
-				"name": "Runic Imprisonment"
+				"name": "Riimuvankeus"
 			},
 			{
 				"system": "utaunt_runeprison_teamcolor_blue",
 				"id": 3096,
 				"attach_to_rootbone": false,
-				"name": "Runic Imprisonment"
+				"name": "Riimuvankeus"
 			},
 			{
 				"system": "utaunt_prismatichaze_parent",
 				"id": 3097,
 				"attach_to_rootbone": false,
-				"name": "Prismatic Haze"
+				"name": "Prismapilvi"
 			},
 			{
 				"system": "utaunt_risingsprit_teamcolor_red",
 				"id": 3098,
 				"attach_to_rootbone": false,
-				"name": "Rising Ritual"
+				"name": "Nouseva rituaali"
 			},
 			{
 				"system": "utaunt_risingsprit_teamcolor_blue",
 				"id": 3099,
 				"attach_to_rootbone": false,
-				"name": "Rising Ritual"
+				"name": "Nouseva rituaali"
 			},
 			{
 				"system": "utaunt_hands_teamcolor_red",
 				"id": 3100,
 				"attach_to_rootbone": false,
-				"name": "Bloody Grip"
+				"name": "Verikourat"
 			},
 			{
 				"system": "utaunt_hands_teamcolor_blue",
 				"id": 3101,
 				"attach_to_rootbone": false,
-				"name": "Bloody Grip"
+				"name": "Verikourat"
 			},
 			{
 				"system": "utaunt_hands_green_parent",
 				"id": 3102,
 				"attach_to_rootbone": false,
-				"name": "Toxic Grip"
+				"name": "Kohtalokkaat kourat"
 			},
 			{
 				"system": "utaunt_hands_orange_parent",
 				"id": 3103,
 				"attach_to_rootbone": false,
-				"name": "Infernal Grip"
+				"name": "Karmeat kourat"
 			},
 			{
 				"system": "utaunt_hands_purple_parent",
 				"id": 3104,
 				"attach_to_rootbone": false,
-				"name": "Death Grip"
+				"name": "Kuolon kourat"
 			},
 			{
 				"system": "utaunt_storm_parent_g",
 				"id": 3105,
 				"attach_to_rootbone": false,
-				"name": "Charged Arcane"
+				"name": "Varjolataus"
 			},
 			{
 				"system": "utaunt_storm_parent_k",
 				"id": 3106,
 				"attach_to_rootbone": false,
-				"name": "Thunderous Rage"
+				"name": "Ukkosraivo"
 			},
 			{
 				"system": "utaunt_storm_parent_o",
 				"id": 3107,
 				"attach_to_rootbone": false,
-				"name": "Convulsive Fiery"
+				"name": "Tulinen kouristus"
 			},
 			{
 				"system": "utaunt_festivelights_teamcolor_red",
 				"id": 3108,
 				"attach_to_rootbone": false,
-				"name": "Festivized Formation"
+				"name": "Juhlallinen järjestys"
 			},
 			{
 				"system": "utaunt_festivelights_teamcolor_blue",
 				"id": 3109,
 				"attach_to_rootbone": false,
-				"name": "Festivized Formation"
+				"name": "Juhlallinen järjestys"
 			},
 			{
 				"system": "utaunt_glow_spirit_parent_cr",
 				"id": 3110,
 				"attach_to_rootbone": false,
-				"name": "Twirling Spirits"
+				"name": "Pyörivät henget"
 			},
 			{
 				"system": "utaunt_glow_spirit_parent_og",
 				"id": 3111,
 				"attach_to_rootbone": false,
-				"name": "Squash n' Twist"
+				"name": "Kiertelevä kesäkurpitsa"
 			},
 			{
 				"system": "utaunt_glow_spirit_parent_pp",
 				"id": 3112,
 				"attach_to_rootbone": false,
-				"name": "Midnight Sparklers"
+				"name": "Keskiyön kipinät"
 			},
 			{
 				"system": "utaunt_snowflakesaura_parent",
 				"id": 3113,
 				"attach_to_rootbone": false,
-				"name": "Boundless Blizzard"
+				"name": "Kunnon myräkkä"
 			},
 			{
 				"system": "utaunt_sun_sand_rays_parent",
 				"id": 3114,
 				"attach_to_rootbone": false,
-				"name": "Solar Scorched"
+				"name": "Auringon haalistama"
 			},
 			{
 				"system": "utaunt_undersea_teamcolor_red",
 				"id": 3115,
 				"attach_to_rootbone": false,
-				"name": "Deepsea Rave"
+				"name": "Pohjabileet"
 			},
 			{
 				"system": "utaunt_undersea_teamcolor_blue",
 				"id": 3116,
 				"attach_to_rootbone": false,
-				"name": "Deepsea Rave"
+				"name": "Pohjabileet"
 			},
 			{
 				"system": "utaunt_lavalamp_green_parent",
 				"id": 3117,
 				"attach_to_rootbone": false,
-				"name": "Blooming Beacon"
+				"name": "Vehreä valaistus"
 			},
 			{
 				"system": "utaunt_lavalamp_purple_parent",
 				"id": 3118,
 				"attach_to_rootbone": false,
-				"name": "Beaming Beacon"
+				"name": "Veikeä valaistus"
 			},
 			{
 				"system": "utaunt_lavalamp_yellow_parent",
 				"id": 3119,
 				"attach_to_rootbone": false,
-				"name": "Blazing Beacon"
+				"name": "Väkevä valaistus"
 			},
 			{
 				"system": "utaunt_fish_parent",
 				"id": 3120,
 				"attach_to_rootbone": false,
-				"name": "Floppin' Frenzy"
+				"name": "Kalakajahdus"
 			},
 			{
 				"system": "utaunt_rainbow_teamcolor_red",
 				"id": 3121,
 				"attach_to_rootbone": false,
-				"name": "Pastel Trance"
+				"name": "Pastellitranssi"
 			},
 			{
 				"system": "utaunt_rainbow_teamcolor_blue",
 				"id": 3122,
 				"attach_to_rootbone": false,
-				"name": "Pastel Trance"
+				"name": "Pastellitranssi"
 			},
 			{
 				"system": "utaunt_wild_meadows_parent",
 				"id": 3123,
 				"attach_to_rootbone": false,
-				"name": "Wildflower Meadows"
+				"name": "Kukkiva kesanto"
 			},
 			{
 				"system": "utaunt_krakenmouth_green_parent",
 				"id": 3124,
 				"attach_to_rootbone": false,
-				"name": "Deep-sea Devourer"
+				"name": "Deep-Sea Devourer"
 			},
 			{
 				"system": "utaunt_krakenmouth_purple_parent",
 				"id": 3125,
 				"attach_to_rootbone": false,
-				"name": "Eldritch Horror"
+				"name": "Käsittämätön kauhunaihe"
 			},
 			{
 				"system": "utaunt_leaftaunt_parent",
 				"id": 3126,
 				"attach_to_rootbone": false,
-				"name": "Autumn Leaves"
+				"name": "Syksyn lehdet"
 			},
 			{
 				"system": "utaunt_graveparty_parent",
@@ -11756,13 +12331,13 @@
 				"system": "utaunt_cremation_purple_parent",
 				"id": 3129,
 				"attach_to_rootbone": false,
-				"name": "Haunted Cremation"
+				"name": "Valoisa viikatemies"
 			},
 			{
 				"system": "utaunt_cremation_black_parent",
 				"id": 3130,
 				"attach_to_rootbone": false,
-				"name": "Cremation"
+				"name": "Tuhkaus"
 			},
 			{
 				"system": "utaunt_snowfall_parent",
@@ -11847,6 +12422,414 @@
 				"id": 3144,
 				"attach_to_rootbone": false,
 				"name": "Terälehtitanssi"
+			},
+			{
+				"system": "utaunt_dragonfly_teamcolor_red",
+				"id": 3145,
+				"attach_to_rootbone": false,
+				"name": "Sudenkorentojen syleily (Dragonflies' Embrace)"
+			},
+			{
+				"system": "utaunt_dragonfly_teamcolor_blue",
+				"id": 3146,
+				"attach_to_rootbone": false,
+				"name": "Sudenkorentojen syleily (Dragonflies' Embrace)"
+			},
+			{
+				"system": "utaunt_dragonfly_green_parent",
+				"id": 3147,
+				"attach_to_rootbone": false,
+				"name": "Sudenkorentojen tanssi (Dragonflies' Nature)"
+			},
+			{
+				"system": "utaunt_dragonfly_purple_parent",
+				"id": 3148,
+				"attach_to_rootbone": false,
+				"name": "Sudenkorentojen lento (Dragonflies' Lucent)"
+			},
+			{
+				"system": "utaunt_demigodery_teamcolor_red",
+				"id": 3149,
+				"attach_to_rootbone": false,
+				"name": "Sähköshokki (Electrocution)"
+			},
+			{
+				"system": "utaunt_demigodery_teamcolor_blue",
+				"id": 3150,
+				"attach_to_rootbone": false,
+				"name": "Sähköshokki (Electrocution)"
+			},
+			{
+				"system": "utaunt_signalflares_teamcolor_red",
+				"id": 3151,
+				"attach_to_rootbone": false,
+				"name": "Hätäkutsu (Distress Signal)"
+			},
+			{
+				"system": "utaunt_signalflares_teamcolor_blue",
+				"id": 3152,
+				"attach_to_rootbone": false,
+				"name": "Hätäkutsu (Distress Signal)"
+			},
+			{
+				"system": "utaunt_signalflares_green_parent",
+				"id": 3153,
+				"attach_to_rootbone": false,
+				"name": "Cariocan kutsu (Carioca's Call)"
+			},
+			{
+				"system": "utaunt_celebrationtime_teamcolor_red",
+				"id": 3154,
+				"attach_to_rootbone": false,
+				"name": "Juhlahumu (Fiesta Royale)"
+			},
+			{
+				"system": "utaunt_celebrationtime_teamcolor_blue",
+				"id": 3155,
+				"attach_to_rootbone": false,
+				"name": "Juhlahumu (Fiesta Royale)"
+			},
+			{
+				"system": "utaunt_celebrationtime_yellow_parent",
+				"id": 3156,
+				"attach_to_rootbone": false,
+				"name": "Pannahisen pamaus (Grand Jubilee)"
+			},
+			{
+				"system": "utaunt_god_lava_teamcolor_red",
+				"id": 3157,
+				"attach_to_rootbone": false,
+				"name": "Elementit (Elemental)"
+			},
+			{
+				"system": "utaunt_god_lava_teamcolor_blue",
+				"id": 3158,
+				"attach_to_rootbone": false,
+				"name": "Elementit (Elemental)"
+			},
+			{
+				"system": "utaunt_god_gold_parent",
+				"id": 3159,
+				"attach_to_rootbone": false,
+				"name": "Jumalainen (Godlike)"
+			},
+			{
+				"system": "utaunt_aestheticlogo_teamcolor_red",
+				"id": 3160,
+				"attach_to_rootbone": false,
+				"name": "Tiimityön voima (Teamwork Valorance)"
+			},
+			{
+				"system": "utaunt_aestheticlogo_teamcolor_blue",
+				"id": 3161,
+				"attach_to_rootbone": false,
+				"name": "Tiimityön voima (Teamwork Valorance)"
+			},
+			{
+				"system": "utaunt_aestheticlogo_orange_parent",
+				"id": 3162,
+				"attach_to_rootbone": false,
+				"name": "Vanha logo (Legacy Logo)"
+			},
+			{
+				"system": "utaunt_desert_wind_parent",
+				"id": 3163,
+				"attach_to_rootbone": false,
+				"name": "Aavikkotuuli (Desert Wind)"
+			},
+			{
+				"system": "utaunt_desert_monsoon_parent",
+				"id": 3164,
+				"attach_to_rootbone": false,
+				"name": "Monsuunikausi (Monsoon Season)"
+			},
+			{
+				"system": "utaunt_treasure_teamcolor_red",
+				"id": 3165,
+				"attach_to_rootbone": false,
+				"name": "Ökyrikas (Bountiful Riches)"
+			},
+			{
+				"system": "utaunt_treasure_teamcolor_blue",
+				"id": 3166,
+				"attach_to_rootbone": false,
+				"name": "Ökyrikas (Bountiful Riches)"
+			},
+			{
+				"system": "utaunt_hearttreasure_parent",
+				"id": 3167,
+				"attach_to_rootbone": false,
+				"name": "Aika porvari (Luxurious Lover)"
+			},
+			{
+				"system": "utaunt_wiggletube_teamcolor_red",
+				"id": 3168,
+				"attach_to_rootbone": false,
+				"name": "Intohimoa ilmassa (Amatory)"
+			},
+			{
+				"system": "utaunt_wiggletube_teamcolor_blue",
+				"id": 3169,
+				"attach_to_rootbone": false,
+				"name": "Intohimoa ilmassa (Amatory)"
+			},
+			{
+				"system": "utaunt_wiggletube_coffee_parent",
+				"id": 3170,
+				"attach_to_rootbone": false,
+				"name": "Ruskeankeltainen (Electrum)"
+			},
+			{
+				"system": "utaunt_flowerrain_teamcolor_red",
+				"id": 3171,
+				"attach_to_rootbone": false,
+				"name": "Kirsikkapuun kukkaset (Sakura Blessings)"
+			},
+			{
+				"system": "utaunt_flowerrain_teamcolor_blue",
+				"id": 3172,
+				"attach_to_rootbone": false,
+				"name": "Kirsikkapuun kukkaset (Sakura Blessings)"
+			},
+			{
+				"system": "utaunt_flowerrain_purple_parent",
+				"id": 3173,
+				"attach_to_rootbone": false,
+				"name": "Vaaralliset orvokit (Violent Violets)"
+			},
+			{
+				"system": "utaunt_poweraura_teamcolor_red",
+				"id": 3174,
+				"attach_to_rootbone": false,
+				"name": "Korkeapaine"
+			},
+			{
+				"system": "utaunt_poweraura_teamcolor_blue",
+				"id": 3175,
+				"attach_to_rootbone": false,
+				"name": "Korkeapaine"
+			},
+			{
+				"system": "utaunt_poweraura_green_parent",
+				"id": 3176,
+				"attach_to_rootbone": false,
+				"name": "Voimistuva virta"
+			},
+			{
+				"system": "utaunt_poweraura_purple_parent",
+				"id": 3177,
+				"attach_to_rootbone": false,
+				"name": "Kuormittava katalysaattori"
+			},
+			{
+				"system": "utaunt_poweraura_yellow_parent",
+				"id": 3178,
+				"attach_to_rootbone": false,
+				"name": "Avartava aura"
+			},
+			{
+				"system": "utaunt_mysticfusion_parent",
+				"id": 3179,
+				"attach_to_rootbone": false,
+				"name": "Mystinen fuusio"
+			},
+			{
+				"system": "utaunt_confetti_gy_parent",
+				"id": 3180,
+				"attach_to_rootbone": false,
+				"name": "Karsea konfettisade"
+			},
+			{
+				"system": "utaunt_confetti_pp_parent",
+				"id": 3181,
+				"attach_to_rootbone": false,
+				"name": "Kiva konfettisade"
+			},
+			{
+				"system": "utaunt_confetti_yp_parent",
+				"id": 3182,
+				"attach_to_rootbone": false,
+				"name": "Kultainen konfettisade"
+			},
+			{
+				"system": "utaunt_heavyrain_parent",
+				"id": 3183,
+				"attach_to_rootbone": false,
+				"name": "Kaatosade"
+			},
+			{
+				"system": "utaunt_field_parent",
+				"id": 3184,
+				"attach_to_rootbone": false,
+				"name": "Kurpitsafarmari"
+			},
+			{
+				"system": "utaunt_whitesmissmas_parent",
+				"id": 3185,
+				"attach_to_rootbone": false,
+				"name": "Lumipäivä"
+			},
+			{
+				"system": "utaunt_busysnow_teamcolor_red",
+				"id": 3186,
+				"attach_to_rootbone": false,
+				"name": "Lumimieli"
+			},
+			{
+				"system": "utaunt_busysnow_teamcolor_blue",
+				"id": 3187,
+				"attach_to_rootbone": false,
+				"name": "Lumimieli"
+			},
+			{
+				"system": "utaunt_busysnow_parent_p",
+				"id": 3188,
+				"attach_to_rootbone": false,
+				"name": "Laventelimainen tunnelma"
+			},
+			{
+				"system": "utaunt_busysnow_parent_g",
+				"id": 3189,
+				"attach_to_rootbone": false,
+				"name": "Vehreä ilmiö"
+			},
+			{
+				"system": "utaunt_roses_teamcolor_red",
+				"id": 3190,
+				"attach_to_rootbone": false,
+				"name": "Ruususade"
+			},
+			{
+				"system": "utaunt_roses_teamcolor_blue",
+				"id": 3191,
+				"attach_to_rootbone": false,
+				"name": "Ruususade"
+			},
+			{
+				"system": "utaunt_roses_gold_parent",
+				"id": 3192,
+				"attach_to_rootbone": false,
+				"name": "Kultaruususade"
+			},
+			{
+				"system": "utaunt_tangledlights_parent",
+				"id": 3193,
+				"attach_to_rootbone": false,
+				"name": "Valot solmussa"
+			},
+			{
+				"system": "utaunt_seamine_teamcolor_red",
+				"id": 3194,
+				"attach_to_rootbone": false,
+				"name": "Merimiina"
+			},
+			{
+				"system": "utaunt_seamine_teamcolor_blue",
+				"id": 3195,
+				"attach_to_rootbone": false,
+				"name": "Merimiina"
+			},
+			{
+				"system": "utaunt_iconicoutline_teamcolor_red",
+				"id": 3196,
+				"attach_to_rootbone": false,
+				"name": "Ikoninen ääriviiva"
+			},
+			{
+				"system": "utaunt_iconicoutline_teamcolor_blue",
+				"id": 3197,
+				"attach_to_rootbone": false,
+				"name": "Ikoninen ääriviiva"
+			},
+			{
+				"system": "utaunt_iconicoutline_pink_parent",
+				"id": 3198,
+				"attach_to_rootbone": false,
+				"name": "Siisti siluetti"
+			},
+			{
+				"system": "utaunt_oceanreef_parent",
+				"id": 3199,
+				"attach_to_rootbone": false,
+				"name": "Meririutta"
+			},
+			{
+				"system": "utaunt_signalinterference_parent",
+				"id": 3200,
+				"attach_to_rootbone": false,
+				"name": "Huono yhteys"
+			},
+			{
+				"system": "utaunt_waterwave_parent",
+				"id": 3201,
+				"attach_to_rootbone": false,
+				"name": "Kesäaalto"
+			},
+			{
+				"system": "utaunt_sharkfin2_parent",
+				"id": 3202,
+				"attach_to_rootbone": false,
+				"name": "Haihyökkäys"
+			},
+			{
+				"system": "utaunt_phantasam_green_parent",
+				"id": 3203,
+				"attach_to_rootbone": false,
+				"name": "Hazardous Gas"
+			},
+			{
+				"system": "utaunt_phantasam_grey_parent",
+				"id": 3204,
+				"attach_to_rootbone": false,
+				"name": "Phantasmal Fog"
+			},
+			{
+				"system": "utaunt_phantasam_purple_parent",
+				"id": 3205,
+				"attach_to_rootbone": false,
+				"name": "Haunted Mist"
+			},
+			{
+				"system": "utaunt_multicurse_teamcolor_red",
+				"id": 3206,
+				"attach_to_rootbone": false,
+				"name": "Split Malice"
+			},
+			{
+				"system": "utaunt_multicurse_teamcolor_blue",
+				"id": 3207,
+				"attach_to_rootbone": false,
+				"name": "Split Malice"
+			},
+			{
+				"system": "utaunt_voidcrawlers_parent",
+				"id": 3208,
+				"attach_to_rootbone": false,
+				"name": "Void Crawlers"
+			},
+			{
+				"system": "utaunt_tarpit_dinos_parent",
+				"id": 3209,
+				"attach_to_rootbone": false,
+				"name": "Fossil Fueled"
+			},
+			{
+				"system": "utaunt_tarpit_people_parent",
+				"id": 3210,
+				"attach_to_rootbone": false,
+				"name": "Tar Pit"
+			},
+			{
+				"system": "utaunt_morbed_teamcolor_red",
+				"id": 3211,
+				"attach_to_rootbone": false,
+				"name": "Morbidly Beast"
+			},
+			{
+				"system": "utaunt_morbed_teamcolor_blue",
+				"id": 3212,
+				"attach_to_rootbone": false,
+				"name": "Morbidly Beast"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",
@@ -12106,7 +13089,7 @@
 					{
 						"level": 18,
 						"required_score": 250,
-						"name": "Uber-altruistin"
+						"name": "The Über-Altruist's"
 					},
 					{
 						"level": 19,
@@ -13288,7 +14271,7 @@
 			},
 			{
 				"type": 1,
-				"type_name": "Ylilataukset",
+				"type_name": "Übers",
 				"level_data": "KillEaterRank"
 			},
 			{
@@ -13403,7 +14386,7 @@
 			},
 			{
 				"type": 24,
-				"type_name": "Buildings Sapped",
+				"type_name": "Rakennukset tyhjennetty",
 				"level_data": "KillEater_SapperRank"
 			},
 			{

@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -1018,7 +1018,7 @@
 				"name": "max pipebombs increased",
 				"defindex": 88,
 				"attribute_class": "add_max_pipebombs",
-				"description_string": "+%s1 max. Bomben auf einmal",
+				"description_string": "+%s1 max. Haftbomben auf einmal",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1028,7 +1028,7 @@
 				"name": "max pipebombs decreased",
 				"defindex": 89,
 				"attribute_class": "add_max_pipebombs",
-				"description_string": "%s1 max. Bomben auf einmal",
+				"description_string": "%s1 max. Haftbomben auf einmal",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -2860,7 +2860,7 @@
 				"name": "maxammo grenades1 increased",
 				"defindex": 279,
 				"attribute_class": "mult_maxammo_grenades1",
-				"description_string": "+%s1% maximale sonstige Munition für den Träger",
+				"description_string": "+%s1% max. sonstige Mun. für Träger",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -6430,8 +6430,10 @@
 				"name": "energy buff dmg taken multiplier",
 				"defindex": 798,
 				"attribute_class": "energy_buff_dmg_taken_multiplier",
+				"description_string": "+%s1% Verwundbarkeit, wenn aktiv",
+				"description_format": "value_is_percentage",
 				"effect_type": "negative",
-				"hidden": true,
+				"hidden": false,
 				"stored_as_integer": false
 			},
 			{
@@ -7783,6 +7785,116 @@
 				"stored_as_integer": false
 			},
 			{
+				"name": "freaky fair kritz potion",
+				"defindex": 2069,
+				"attribute_class": "freaky_fair_kritz_potion",
+				"description_string": "Kritz-Tonikum",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair uber potion",
+				"defindex": 2070,
+				"attribute_class": "freaky_fair_uber_potion",
+				"description_string": "Über-Tonikum",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair giant potion",
+				"defindex": 2071,
+				"attribute_class": "freaky_fair_giant_potion",
+				"description_string": "Riesen-Tonikum",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair buster potion",
+				"defindex": 2072,
+				"attribute_class": "freaky_fair_buster_potion",
+				"description_string": "Kürbisbomben-Tonikum",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair healing potion",
+				"defindex": 2073,
+				"attribute_class": "freaky_fair_healing_potion",
+				"description_string": "Heilungs-Tonikum",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair ghost potion",
+				"defindex": 2074,
+				"attribute_class": "freaky_fair_ghost_potion",
+				"description_string": "Geister-Tonikum",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair ammo potion",
+				"defindex": 2075,
+				"attribute_class": "freaky_fair_ammo_potion",
+				"description_string": "Nachlade-Tonikum",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair rtd potion",
+				"defindex": 2076,
+				"attribute_class": "freaky_fair_rtd_potion",
+				"description_string": "Zufalls-Tonikum",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair relentless potion",
+				"defindex": 2077,
+				"attribute_class": "freaky_fair_relentless_potion",
+				"description_string": "Zähigkeits-Tonikum",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair extra attrib1",
+				"defindex": 2078,
+				"attribute_class": "freaky_fair_extra_attrib1",
+				"description_string": "Zusätzliches Freaky-Fair-Attribut 1",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair extra attrib2",
+				"defindex": 2079,
+				"attribute_class": "freaky_fair_extra_attrib2",
+				"description_string": "Zusätzliches Freaky-Fair-Attribut 2",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
 				"name": "item slot criteria 1",
 				"defindex": 3000,
 				"attribute_class": "item_slot_criteria",
@@ -8887,6 +8999,7 @@
 				"system": "superrare_beams1",
 				"id": 17,
 				"attach_to_rootbone": true,
+				"attachment": "unusual",
 				"name": "Sonnenstrahlen"
 			},
 			{
@@ -10921,6 +11034,468 @@
 				"name": "Naturlichter"
 			},
 			{
+				"system": "unusual_corrodedknight_teamcolor_red",
+				"id": 327,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Krone des Königstreuen"
+			},
+			{
+				"system": "unusual_corrodedknight_teamcolor_blue",
+				"id": 328,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Krone des Königstreuen"
+			},
+			{
+				"system": "unusual_corrodedknight_parent_silver",
+				"id": 329,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Edelmut des Edelmanns"
+			},
+			{
+				"system": "unusual_corrodedknight_parent_golden",
+				"id": 330,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Geschätzter Kranz des Barons"
+			},
+			{
+				"system": "unusual_poseidon_teamcolor_red",
+				"id": 331,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Verlockung der Tiefe"
+			},
+			{
+				"system": "unusual_poseidon_teamcolor_blue",
+				"id": 332,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Verlockung der Tiefe"
+			},
+			{
+				"system": "unusual_poseidon_parent_green",
+				"id": 333,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Gewalttätiger Grünling"
+			},
+			{
+				"system": "unusual_poseidon_parent_purple",
+				"id": 334,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Magenta-Monstrum"
+			},
+			{
+				"system": "unusual_rainglow_parent",
+				"id": 335,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Regenbogen-Träumerei"
+			},
+			{
+				"system": "unusual_cubancigar_parent",
+				"id": 336,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Kubanischer Rauch"
+			},
+			{
+				"system": "unusual_mohawk_teamcolor_red",
+				"id": 337,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Brennender Irokese"
+			},
+			{
+				"system": "unusual_mohawk_teamcolor_blue",
+				"id": 338,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Brennender Irokese"
+			},
+			{
+				"system": "unusual_mohawk_parent_green",
+				"id": 339,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Verbrannte Kopfhaut"
+			},
+			{
+				"system": "unusual_mohawk_parent_purple",
+				"id": 340,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Entflammter Kamm"
+			},
+			{
+				"system": "unusual_rare_shine_glow_parent",
+				"id": 341,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Sternenschimmer"
+			},
+			{
+				"system": "unusual_horstars_teamcolor_red",
+				"id": 342,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Sternenschauer"
+			},
+			{
+				"system": "unusual_horstars_teamcolor_blue",
+				"id": 343,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Sternenschauer"
+			},
+			{
+				"system": "unusual_electric_parent_white",
+				"id": 344,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Warpantrieb"
+			},
+			{
+				"system": "unusual_electric_parent_gold",
+				"id": 345,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Hyperantrieb"
+			},
+			{
+				"system": "unusual_butterflyhead_teamcolor_red",
+				"id": 346,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Schmetterlingssaison"
+			},
+			{
+				"system": "unusual_butterflyhead_teamcolor_blue",
+				"id": 347,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Schmetterlingssaison"
+			},
+			{
+				"system": "unusual_hippieaura_parent",
+				"id": 348,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Psycho-delisch"
+			},
+			{
+				"system": "unusual_butterfly_parent",
+				"id": 349,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Illustre Insekten"
+			},
+			{
+				"system": "unusual_spectral_fire_parent",
+				"id": 350,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Spektrales Feuer"
+			},
+			{
+				"system": "unusual_galactic_fire_parent",
+				"id": 351,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Galaktische Flamme"
+			},
+			{
+				"system": "unusual_frank_green_parent",
+				"id": 352,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Aufgeladener Auferstandener"
+			},
+			{
+				"system": "unusual_frank_purple_parent",
+				"id": 353,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Erweckte Elektrizität"
+			},
+			{
+				"system": "unusual_frank_yellow_parent",
+				"id": 354,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Frankenstatik"
+			},
+			{
+				"system": "unusual_skullsmoke_green_parent",
+				"id": 355,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Phantomplage"
+			},
+			{
+				"system": "unusual_skullsmoke_purple_parent",
+				"id": 356,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Gespenstischer Dunst"
+			},
+			{
+				"system": "unusual_pigeons_green_parent",
+				"id": 357,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Fiese Fledermäuse"
+			},
+			{
+				"system": "unusual_pigeons_purple_parent",
+				"id": 358,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Räuberische Raben"
+			},
+			{
+				"system": "unusual_pigeons_white_parent",
+				"id": 359,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Traumhafte Tauben"
+			},
+			{
+				"system": "unusual_stove_teamcolor_red",
+				"id": 360,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Heizender Herd"
+			},
+			{
+				"system": "unusual_stove_teamcolor_blue",
+				"id": 361,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Heizender Herd"
+			},
+			{
+				"system": "unusual_electricfire_teamcolor_red",
+				"id": 362,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Über-Spannung"
+			},
+			{
+				"system": "unusual_electricfire_teamcolor_blue",
+				"id": 363,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Über-Spannung"
+			},
+			{
+				"system": "unusual_sizzling_parent",
+				"id": 364,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Brutzelnd"
+			},
+			{
+				"system": "unusual_icrown_teamcolor_red",
+				"id": 365,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Kristallkrone"
+			},
+			{
+				"system": "unusual_icrown_teamcolor_blue",
+				"id": 366,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Kristallkrone"
+			},
+			{
+				"system": "unusual_icrown_parent_purple",
+				"id": 367,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Halkyonischer Heiligenschein"
+			},
+			{
+				"system": "unusual_timeghosts_parent",
+				"id": 368,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Geister der Smissmas-Zeit"
+			},
+			{
+				"system": "unusual_aurora_parent",
+				"id": 369,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Polarlichthimmel"
+			},
+			{
+				"system": "unusual_bokehsparkle_parent",
+				"id": 370,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Brillantes Bokeh"
+			},
+			{
+				"system": "unusual_playful_purple_parent",
+				"id": 371,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Verspieltes Polarlicht"
+			},
+			{
+				"system": "unusual_playful_yellow_parent",
+				"id": 372,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Munterer Morgen"
+			},
+			{
+				"system": "unusual_drunk_parent",
+				"id": 373,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Trunkenbold"
+			},
+			{
+				"system": "unusual_excalibur_teamcolor_red",
+				"id": 374,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Klingen des Verrats"
+			},
+			{
+				"system": "unusual_excalibur_teamcolor_blue",
+				"id": 375,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Klingen des Verrats"
+			},
+			{
+				"system": "unusual_excalibur_parent_purple",
+				"id": 376,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Dolche des Todes"
+			},
+			{
+				"system": "unusual_uber_teamcolor_red",
+				"id": 377,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Voll aufgeladen"
+			},
+			{
+				"system": "unusual_uber_teamcolor_blue",
+				"id": 378,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Voll aufgeladen"
+			},
+			{
+				"system": "unusual_uber_gold_parent",
+				"id": 379,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Überladen"
+			},
+			{
+				"system": "unusual_orbitingbullet_parent",
+				"id": 380,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Durchdringender Kopfschmerz"
+			},
+			{
+				"system": "unusual_typhoon_parent",
+				"id": 381,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Laues Lüftchen"
+			},
+			{
+				"system": "unusual_ocean_swirl_teamcolor_red",
+				"id": 382,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Meereswirbel"
+			},
+			{
+				"system": "unusual_ocean_swirl_teamcolor_blue",
+				"id": 383,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Meereswirbel"
+			},
+			{
+				"system": "unusual_ocean_swirl_green_parent",
+				"id": 384,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Giftwirbel"
+			},
+			{
+				"system": "unusual_candle_teamcolor_red",
+				"id": 385,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Kerzenflamme"
+			},
+			{
+				"system": "unusual_candle_teamcolor_blue",
+				"id": 386,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Kerzenflamme"
+			},
+			{
+				"system": "unusual_deadlyaroma_teamcolor_red",
+				"id": 387,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Brutzelnder Duft"
+			},
+			{
+				"system": "unusual_deadlyaroma_teamcolor_blue",
+				"id": 388,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Brutzelnder Duft"
+			},
+			{
+				"system": "unusual_deadlyaroma_green_parent",
+				"id": 389,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Giftiger Duft"
+			},
+			{
+				"system": "unusual_conductor_teamc_teamcolor_red",
+				"id": 390,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Stromleiter"
+			},
+			{
+				"system": "unusual_conductor_teamc_teamcolor_blue",
+				"id": 391,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Stromleiter"
+			},
+			{
+				"system": "unusual_sandy_parent",
+				"id": 392,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Sandig"
+			},
+			{
 				"system": "weapon_unusual_hot",
 				"id": 701,
 				"attach_to_rootbone": false,
@@ -11847,6 +12422,414 @@
 				"id": 3144,
 				"attach_to_rootbone": false,
 				"name": "Blütentanz"
+			},
+			{
+				"system": "utaunt_dragonfly_teamcolor_red",
+				"id": 3145,
+				"attach_to_rootbone": false,
+				"name": "Umarmung der Libellen"
+			},
+			{
+				"system": "utaunt_dragonfly_teamcolor_blue",
+				"id": 3146,
+				"attach_to_rootbone": false,
+				"name": "Umarmung der Libellen"
+			},
+			{
+				"system": "utaunt_dragonfly_green_parent",
+				"id": 3147,
+				"attach_to_rootbone": false,
+				"name": "Natur der Libellen"
+			},
+			{
+				"system": "utaunt_dragonfly_purple_parent",
+				"id": 3148,
+				"attach_to_rootbone": false,
+				"name": "Glanz der Libellen"
+			},
+			{
+				"system": "utaunt_demigodery_teamcolor_red",
+				"id": 3149,
+				"attach_to_rootbone": false,
+				"name": "Tod durch Stromschlag"
+			},
+			{
+				"system": "utaunt_demigodery_teamcolor_blue",
+				"id": 3150,
+				"attach_to_rootbone": false,
+				"name": "Tod durch Stromschlag"
+			},
+			{
+				"system": "utaunt_signalflares_teamcolor_red",
+				"id": 3151,
+				"attach_to_rootbone": false,
+				"name": "Notsignal"
+			},
+			{
+				"system": "utaunt_signalflares_teamcolor_blue",
+				"id": 3152,
+				"attach_to_rootbone": false,
+				"name": "Notsignal"
+			},
+			{
+				"system": "utaunt_signalflares_green_parent",
+				"id": 3153,
+				"attach_to_rootbone": false,
+				"name": "Cariocas Ruf"
+			},
+			{
+				"system": "utaunt_celebrationtime_teamcolor_red",
+				"id": 3154,
+				"attach_to_rootbone": false,
+				"name": "Königliche Festlichkeiten"
+			},
+			{
+				"system": "utaunt_celebrationtime_teamcolor_blue",
+				"id": 3155,
+				"attach_to_rootbone": false,
+				"name": "Königliche Festlichkeiten"
+			},
+			{
+				"system": "utaunt_celebrationtime_yellow_parent",
+				"id": 3156,
+				"attach_to_rootbone": false,
+				"name": "Große Jubelfeier"
+			},
+			{
+				"system": "utaunt_god_lava_teamcolor_red",
+				"id": 3157,
+				"attach_to_rootbone": false,
+				"name": "Elementar"
+			},
+			{
+				"system": "utaunt_god_lava_teamcolor_blue",
+				"id": 3158,
+				"attach_to_rootbone": false,
+				"name": "Elementar"
+			},
+			{
+				"system": "utaunt_god_gold_parent",
+				"id": 3159,
+				"attach_to_rootbone": false,
+				"name": "Göttlich"
+			},
+			{
+				"system": "utaunt_aestheticlogo_teamcolor_red",
+				"id": 3160,
+				"attach_to_rootbone": false,
+				"name": "Heldenhaftes Zusammenspiel"
+			},
+			{
+				"system": "utaunt_aestheticlogo_teamcolor_blue",
+				"id": 3161,
+				"attach_to_rootbone": false,
+				"name": "Heldenhaftes Zusammenspiel"
+			},
+			{
+				"system": "utaunt_aestheticlogo_orange_parent",
+				"id": 3162,
+				"attach_to_rootbone": false,
+				"name": "Klassisches Logo"
+			},
+			{
+				"system": "utaunt_desert_wind_parent",
+				"id": 3163,
+				"attach_to_rootbone": false,
+				"name": "Wüstenwind"
+			},
+			{
+				"system": "utaunt_desert_monsoon_parent",
+				"id": 3164,
+				"attach_to_rootbone": false,
+				"name": "Monsunzeit"
+			},
+			{
+				"system": "utaunt_treasure_teamcolor_red",
+				"id": 3165,
+				"attach_to_rootbone": false,
+				"name": "Gewaltige Reichtümer"
+			},
+			{
+				"system": "utaunt_treasure_teamcolor_blue",
+				"id": 3166,
+				"attach_to_rootbone": false,
+				"name": "Gewaltige Reichtümer"
+			},
+			{
+				"system": "utaunt_hearttreasure_parent",
+				"id": 3167,
+				"attach_to_rootbone": false,
+				"name": "Luxuriöser Liebhaber"
+			},
+			{
+				"system": "utaunt_wiggletube_teamcolor_red",
+				"id": 3168,
+				"attach_to_rootbone": false,
+				"name": "Amourös"
+			},
+			{
+				"system": "utaunt_wiggletube_teamcolor_blue",
+				"id": 3169,
+				"attach_to_rootbone": false,
+				"name": "Amourös"
+			},
+			{
+				"system": "utaunt_wiggletube_coffee_parent",
+				"id": 3170,
+				"attach_to_rootbone": false,
+				"name": "Elektrum"
+			},
+			{
+				"system": "utaunt_flowerrain_teamcolor_red",
+				"id": 3171,
+				"attach_to_rootbone": false,
+				"name": "Kirschblüten-Segen"
+			},
+			{
+				"system": "utaunt_flowerrain_teamcolor_blue",
+				"id": 3172,
+				"attach_to_rootbone": false,
+				"name": "Kirschblüten-Segen"
+			},
+			{
+				"system": "utaunt_flowerrain_purple_parent",
+				"id": 3173,
+				"attach_to_rootbone": false,
+				"name": "Violente Veilchen"
+			},
+			{
+				"system": "utaunt_poweraura_teamcolor_red",
+				"id": 3174,
+				"attach_to_rootbone": false,
+				"name": "Spiritueller Druck"
+			},
+			{
+				"system": "utaunt_poweraura_teamcolor_blue",
+				"id": 3175,
+				"attach_to_rootbone": false,
+				"name": "Spiritueller Druck"
+			},
+			{
+				"system": "utaunt_poweraura_green_parent",
+				"id": 3176,
+				"attach_to_rootbone": false,
+				"name": "Intensivierender Impuls"
+			},
+			{
+				"system": "utaunt_poweraura_purple_parent",
+				"id": 3177,
+				"attach_to_rootbone": false,
+				"name": "Kraftladender Katalysator"
+			},
+			{
+				"system": "utaunt_poweraura_yellow_parent",
+				"id": 3178,
+				"attach_to_rootbone": false,
+				"name": "Amplifizierende Aura"
+			},
+			{
+				"system": "utaunt_mysticfusion_parent",
+				"id": 3179,
+				"attach_to_rootbone": false,
+				"name": "Mystische Fusion"
+			},
+			{
+				"system": "utaunt_confetti_gy_parent",
+				"id": 3180,
+				"attach_to_rootbone": false,
+				"name": "Übermäßiges Konfetti"
+			},
+			{
+				"system": "utaunt_confetti_pp_parent",
+				"id": 3181,
+				"attach_to_rootbone": false,
+				"name": "Entzückendes Konfetti"
+			},
+			{
+				"system": "utaunt_confetti_yp_parent",
+				"id": 3182,
+				"attach_to_rootbone": false,
+				"name": "Konfetti-Feier"
+			},
+			{
+				"system": "utaunt_heavyrain_parent",
+				"id": 3183,
+				"attach_to_rootbone": false,
+				"name": "Starkregen"
+			},
+			{
+				"system": "utaunt_field_parent",
+				"id": 3184,
+				"attach_to_rootbone": false,
+				"name": "Kürbisfeld"
+			},
+			{
+				"system": "utaunt_whitesmissmas_parent",
+				"id": 3185,
+				"attach_to_rootbone": false,
+				"name": "Verschneiter Tag"
+			},
+			{
+				"system": "utaunt_busysnow_teamcolor_red",
+				"id": 3186,
+				"attach_to_rootbone": false,
+				"name": "Verschneiter Geist"
+			},
+			{
+				"system": "utaunt_busysnow_teamcolor_blue",
+				"id": 3187,
+				"attach_to_rootbone": false,
+				"name": "Verschneiter Geist"
+			},
+			{
+				"system": "utaunt_busysnow_parent_p",
+				"id": 3188,
+				"attach_to_rootbone": false,
+				"name": "Violetter Sinneseindruck"
+			},
+			{
+				"system": "utaunt_busysnow_parent_g",
+				"id": 3189,
+				"attach_to_rootbone": false,
+				"name": "Grüne Erscheinung"
+			},
+			{
+				"system": "utaunt_roses_teamcolor_red",
+				"id": 3190,
+				"attach_to_rootbone": false,
+				"name": "Preisgekrönt"
+			},
+			{
+				"system": "utaunt_roses_teamcolor_blue",
+				"id": 3191,
+				"attach_to_rootbone": false,
+				"name": "Preisgekrönt"
+			},
+			{
+				"system": "utaunt_roses_gold_parent",
+				"id": 3192,
+				"attach_to_rootbone": false,
+				"name": "Erfolgreiche Uraufführung"
+			},
+			{
+				"system": "utaunt_tangledlights_parent",
+				"id": 3193,
+				"attach_to_rootbone": false,
+				"name": "Verworrene Weihnachtsbeleuchtung"
+			},
+			{
+				"system": "utaunt_seamine_teamcolor_red",
+				"id": 3194,
+				"attach_to_rootbone": false,
+				"name": "Seemine"
+			},
+			{
+				"system": "utaunt_seamine_teamcolor_blue",
+				"id": 3195,
+				"attach_to_rootbone": false,
+				"name": "Seemine"
+			},
+			{
+				"system": "utaunt_iconicoutline_teamcolor_red",
+				"id": 3196,
+				"attach_to_rootbone": false,
+				"name": "Kultige Kontur"
+			},
+			{
+				"system": "utaunt_iconicoutline_teamcolor_blue",
+				"id": 3197,
+				"attach_to_rootbone": false,
+				"name": "Kultige Kontur"
+			},
+			{
+				"system": "utaunt_iconicoutline_pink_parent",
+				"id": 3198,
+				"attach_to_rootbone": false,
+				"name": "Subtile Silhouette"
+			},
+			{
+				"system": "utaunt_oceanreef_parent",
+				"id": 3199,
+				"attach_to_rootbone": false,
+				"name": "Meeresriff"
+			},
+			{
+				"system": "utaunt_signalinterference_parent",
+				"id": 3200,
+				"attach_to_rootbone": false,
+				"name": "Verlorenes Signal"
+			},
+			{
+				"system": "utaunt_waterwave_parent",
+				"id": 3201,
+				"attach_to_rootbone": false,
+				"name": "Hitzewelle"
+			},
+			{
+				"system": "utaunt_sharkfin2_parent",
+				"id": 3202,
+				"attach_to_rootbone": false,
+				"name": "Haiangriff"
+			},
+			{
+				"system": "utaunt_phantasam_green_parent",
+				"id": 3203,
+				"attach_to_rootbone": false,
+				"name": "Gefährliches Gas"
+			},
+			{
+				"system": "utaunt_phantasam_grey_parent",
+				"id": 3204,
+				"attach_to_rootbone": false,
+				"name": "Geisterhafter Dunst"
+			},
+			{
+				"system": "utaunt_phantasam_purple_parent",
+				"id": 3205,
+				"attach_to_rootbone": false,
+				"name": "Verfluchter Nebel"
+			},
+			{
+				"system": "utaunt_multicurse_teamcolor_red",
+				"id": 3206,
+				"attach_to_rootbone": false,
+				"name": "Geteilter Groll"
+			},
+			{
+				"system": "utaunt_multicurse_teamcolor_blue",
+				"id": 3207,
+				"attach_to_rootbone": false,
+				"name": "Geteilter Groll"
+			},
+			{
+				"system": "utaunt_voidcrawlers_parent",
+				"id": 3208,
+				"attach_to_rootbone": false,
+				"name": "Leerenkriecher"
+			},
+			{
+				"system": "utaunt_tarpit_dinos_parent",
+				"id": 3209,
+				"attach_to_rootbone": false,
+				"name": "Fossiler Brennstoff"
+			},
+			{
+				"system": "utaunt_tarpit_people_parent",
+				"id": 3210,
+				"attach_to_rootbone": false,
+				"name": "Teergrube"
+			},
+			{
+				"system": "utaunt_morbed_teamcolor_red",
+				"id": 3211,
+				"attach_to_rootbone": false,
+				"name": "Krankhafte Kreaturen"
+			},
+			{
+				"system": "utaunt_morbed_teamcolor_blue",
+				"id": 3212,
+				"attach_to_rootbone": false,
+				"name": "Krankhafte Kreaturen"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",

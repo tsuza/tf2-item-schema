@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -3389,7 +3389,7 @@
 			"name"	"add onhit addammo"
 			"defindex"	"299"
 			"attribute_class"	"add_onhit_addammo"
-			"description_string"	"Урон, нанесенный врагу, пополняет запас металла."
+			"description_string"	"Урон, нанесённый врагу, пополняет запас металла."
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -7188,8 +7188,10 @@
 			"name"	"energy buff dmg taken multiplier"
 			"defindex"	"798"
 			"attribute_class"	"energy_buff_dmg_taken_multiplier"
+			"description_string"	"Получаемый урон, если это оружие в руках: +%s1%"
+			"description_format"	"value_is_percentage"
 			"effect_type"	"negative"
-			"hidden"	"1"
+			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
 		"662"
@@ -8700,6 +8702,127 @@
 		}
 		"813"
 		{
+			"name"	"freaky fair kritz potion"
+			"defindex"	"2069"
+			"attribute_class"	"freaky_fair_kritz_potion"
+			"description_string"	"Зелье критов"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"814"
+		{
+			"name"	"freaky fair uber potion"
+			"defindex"	"2070"
+			"attribute_class"	"freaky_fair_uber_potion"
+			"description_string"	"Зелье убер-заряда"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"815"
+		{
+			"name"	"freaky fair giant potion"
+			"defindex"	"2071"
+			"attribute_class"	"freaky_fair_giant_potion"
+			"description_string"	"Зелье гиганта"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"816"
+		{
+			"name"	"freaky fair buster potion"
+			"defindex"	"2072"
+			"attribute_class"	"freaky_fair_buster_potion"
+			"description_string"	"Зелье подрыва тыкв"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"817"
+		{
+			"name"	"freaky fair healing potion"
+			"defindex"	"2073"
+			"attribute_class"	"freaky_fair_healing_potion"
+			"description_string"	"Зелье лечения"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"818"
+		{
+			"name"	"freaky fair ghost potion"
+			"defindex"	"2074"
+			"attribute_class"	"freaky_fair_ghost_potion"
+			"description_string"	"Зелье призрака"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"819"
+		{
+			"name"	"freaky fair ammo potion"
+			"defindex"	"2075"
+			"attribute_class"	"freaky_fair_ammo_potion"
+			"description_string"	"Зелье боезапаса"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"820"
+		{
+			"name"	"freaky fair rtd potion"
+			"defindex"	"2076"
+			"attribute_class"	"freaky_fair_rtd_potion"
+			"description_string"	"Зелье броска кости"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"821"
+		{
+			"name"	"freaky fair relentless potion"
+			"defindex"	"2077"
+			"attribute_class"	"freaky_fair_relentless_potion"
+			"description_string"	"Зелье отваги"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"822"
+		{
+			"name"	"freaky fair extra attrib1"
+			"defindex"	"2078"
+			"attribute_class"	"freaky_fair_extra_attrib1"
+			"description_string"	"Доп. эффект Freaky Fair 1"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"823"
+		{
+			"name"	"freaky fair extra attrib2"
+			"defindex"	"2079"
+			"attribute_class"	"freaky_fair_extra_attrib2"
+			"description_string"	"Доп. эффект Freaky Fair 2"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"824"
+		{
 			"name"	"item slot criteria 1"
 			"defindex"	"3000"
 			"attribute_class"	"item_slot_criteria"
@@ -8708,7 +8831,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"814"
+		"825"
 		{
 			"name"	"item in slot 1"
 			"defindex"	"3001"
@@ -8718,7 +8841,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"815"
+		"826"
 		{
 			"name"	"item slot criteria 2"
 			"defindex"	"3002"
@@ -8728,7 +8851,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"816"
+		"827"
 		{
 			"name"	"item in slot 2"
 			"defindex"	"3003"
@@ -8738,7 +8861,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"817"
+		"828"
 		{
 			"name"	"item slot criteria 3"
 			"defindex"	"3004"
@@ -8748,7 +8871,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"818"
+		"829"
 		{
 			"name"	"item in slot 3"
 			"defindex"	"3005"
@@ -8758,7 +8881,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"819"
+		"830"
 		{
 			"name"	"item slot criteria 4"
 			"defindex"	"3006"
@@ -8768,7 +8891,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"820"
+		"831"
 		{
 			"name"	"item in slot 4"
 			"defindex"	"3007"
@@ -8778,7 +8901,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"821"
+		"832"
 		{
 			"name"	"item slot criteria 5"
 			"defindex"	"3008"
@@ -8788,7 +8911,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"822"
+		"833"
 		{
 			"name"	"item in slot 5"
 			"defindex"	"3009"
@@ -8798,7 +8921,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"823"
+		"834"
 		{
 			"name"	"item slot criteria 6"
 			"defindex"	"3010"
@@ -8808,7 +8931,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"824"
+		"835"
 		{
 			"name"	"item in slot 6"
 			"defindex"	"3011"
@@ -8818,7 +8941,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"825"
+		"836"
 		{
 			"name"	"item slot criteria 7"
 			"defindex"	"3012"
@@ -8828,7 +8951,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"826"
+		"837"
 		{
 			"name"	"item in slot 7"
 			"defindex"	"3013"
@@ -8838,7 +8961,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"827"
+		"838"
 		{
 			"name"	"item slot criteria 8"
 			"defindex"	"3014"
@@ -8848,7 +8971,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"828"
+		"839"
 		{
 			"name"	"item in slot 8"
 			"defindex"	"3015"
@@ -8858,7 +8981,7 @@
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"829"
+		"840"
 		{
 			"name"	"quest earned standard points"
 			"defindex"	"3016"
@@ -8867,7 +8990,7 @@
 			"hidden"	"1"
 			"stored_as_integer"	"1"
 		}
-		"830"
+		"841"
 		{
 			"name"	"quest earned bonus points"
 			"defindex"	"3017"
@@ -8876,7 +8999,7 @@
 			"hidden"	"1"
 			"stored_as_integer"	"1"
 		}
-		"831"
+		"842"
 		{
 			"name"	"item drop wave"
 			"defindex"	"3018"
@@ -9924,6 +10047,7 @@
 			"system"	"superrare_beams1"
 			"id"	"17"
 			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
 			"name"	"Солнечные лучи"
 		}
 		"17"
@@ -12251,13 +12375,541 @@
 		}
 		"309"
 		{
+			"system"	"unusual_corrodedknight_teamcolor_red"
+			"id"	"327"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Коронет лоялиста"
+		}
+		"310"
+		{
+			"system"	"unusual_corrodedknight_teamcolor_blue"
+			"id"	"328"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Коронет лоялиста"
+		}
+		"311"
+		{
+			"system"	"unusual_corrodedknight_parent_silver"
+			"id"	"329"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Гордый дух рыцаря"
+		}
+		"312"
+		{
+			"system"	"unusual_corrodedknight_parent_golden"
+			"id"	"330"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Заветный венок барона"
+		}
+		"313"
+		{
+			"system"	"unusual_poseidon_teamcolor_red"
+			"id"	"331"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Приманка глубин"
+		}
+		"314"
+		{
+			"system"	"unusual_poseidon_teamcolor_blue"
+			"id"	"332"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Приманка глубин"
+		}
+		"315"
+		{
+			"system"	"unusual_poseidon_parent_green"
+			"id"	"333"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Изумрудный изувер"
+		}
+		"316"
+		{
+			"system"	"unusual_poseidon_parent_purple"
+			"id"	"334"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Пурпурный палач"
+		}
+		"317"
+		{
+			"system"	"unusual_rainglow_parent"
+			"id"	"335"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Радужная радость"
+		}
+		"318"
+		{
+			"system"	"unusual_cubancigar_parent"
+			"id"	"336"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Кубинский дымок"
+		}
+		"319"
+		{
+			"system"	"unusual_mohawk_teamcolor_red"
+			"id"	"337"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Испепеляющий ирокез"
+		}
+		"320"
+		{
+			"system"	"unusual_mohawk_teamcolor_blue"
+			"id"	"338"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Испепеляющий ирокез"
+		}
+		"321"
+		{
+			"system"	"unusual_mohawk_parent_green"
+			"id"	"339"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Жгучий череп"
+		}
+		"322"
+		{
+			"system"	"unusual_mohawk_parent_purple"
+			"id"	"340"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Тлеющее темя"
+		}
+		"323"
+		{
+			"system"	"unusual_rare_shine_glow_parent"
+			"id"	"341"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Редкое сияние"
+		}
+		"324"
+		{
+			"system"	"unusual_horstars_teamcolor_red"
+			"id"	"342"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Дальний дрейф"
+		}
+		"325"
+		{
+			"system"	"unusual_horstars_teamcolor_blue"
+			"id"	"343"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Дальний дрейф"
+		}
+		"326"
+		{
+			"system"	"unusual_electric_parent_white"
+			"id"	"344"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Варп-двигатель"
+		}
+		"327"
+		{
+			"system"	"unusual_electric_parent_gold"
+			"id"	"345"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Овердрайв"
+		}
+		"328"
+		{
+			"system"	"unusual_butterflyhead_teamcolor_red"
+			"id"	"346"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Сезон бабочек"
+		}
+		"329"
+		{
+			"system"	"unusual_butterflyhead_teamcolor_blue"
+			"id"	"347"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Сезон бабочек"
+		}
+		"330"
+		{
+			"system"	"unusual_hippieaura_parent"
+			"id"	"348"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Психо-делия"
+		}
+		"331"
+		{
+			"system"	"unusual_butterfly_parent"
+			"id"	"349"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Обаятельные бабочки"
+		}
+		"332"
+		{
+			"system"	"unusual_spectral_fire_parent"
+			"id"	"350"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Спектральный огонь"
+		}
+		"333"
+		{
+			"system"	"unusual_galactic_fire_parent"
+			"id"	"351"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Галактическое пламя"
+		}
+		"334"
+		{
+			"system"	"unusual_frank_green_parent"
+			"id"	"352"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Реанимирующий разряд"
+		}
+		"335"
+		{
+			"system"	"unusual_frank_purple_parent"
+			"id"	"353"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Энергия нежити"
+		}
+		"336"
+		{
+			"system"	"unusual_frank_yellow_parent"
+			"id"	"354"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Франкеншторм"
+		}
+		"337"
+		{
+			"system"	"unusual_skullsmoke_green_parent"
+			"id"	"355"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Трупный туман"
+		}
+		"338"
+		{
+			"system"	"unusual_skullsmoke_purple_parent"
+			"id"	"356"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Проклятая пелена"
+		}
+		"339"
+		{
+			"system"	"unusual_pigeons_green_parent"
+			"id"	"357"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Мыши-мучители"
+		}
+		"340"
+		{
+			"system"	"unusual_pigeons_purple_parent"
+			"id"	"358"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Вороватые вороны"
+		}
+		"341"
+		{
+			"system"	"unusual_pigeons_white_parent"
+			"id"	"359"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Грациозные голуби"
+		}
+		"342"
+		{
+			"system"	"unusual_stove_teamcolor_red"
+			"id"	"360"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Пылающая плита"
+		}
+		"343"
+		{
+			"system"	"unusual_stove_teamcolor_blue"
+			"id"	"361"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Пылающая плита"
+		}
+		"344"
+		{
+			"system"	"unusual_electricfire_teamcolor_red"
+			"id"	"362"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Убер-запал"
+		}
+		"345"
+		{
+			"system"	"unusual_electricfire_teamcolor_blue"
+			"id"	"363"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Убер-запал"
+		}
+		"346"
+		{
+			"system"	"unusual_sizzling_parent"
+			"id"	"364"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Обжарка"
+		}
+		"347"
+		{
+			"system"	"unusual_icrown_teamcolor_red"
+			"id"	"365"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Кристальная корона"
+		}
+		"348"
+		{
+			"system"	"unusual_icrown_teamcolor_blue"
+			"id"	"366"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Кристальная корона"
+		}
+		"349"
+		{
+			"system"	"unusual_icrown_parent_purple"
+			"id"	"367"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Невозмутимый нимб"
+		}
+		"350"
+		{
+			"system"	"unusual_timeghosts_parent"
+			"id"	"368"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Духи Шмождества"
+		}
+		"351"
+		{
+			"system"	"unusual_aurora_parent"
+			"id"	"369"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Полярные небеса"
+		}
+		"352"
+		{
+			"system"	"unusual_bokehsparkle_parent"
+			"id"	"370"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Блестящее боке"
+		}
+		"353"
+		{
+			"system"	"unusual_playful_purple_parent"
+			"id"	"371"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Игривое сияние"
+		}
+		"354"
+		{
+			"system"	"unusual_playful_yellow_parent"
+			"id"	"372"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Резвое утро"
+		}
+		"355"
+		{
+			"system"	"unusual_drunk_parent"
+			"id"	"373"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Пьяница"
+		}
+		"356"
+		{
+			"system"	"unusual_excalibur_teamcolor_red"
+			"id"	"374"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Кинжалы коварства"
+		}
+		"357"
+		{
+			"system"	"unusual_excalibur_teamcolor_blue"
+			"id"	"375"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Кинжалы коварства"
+		}
+		"358"
+		{
+			"system"	"unusual_excalibur_parent_purple"
+			"id"	"376"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Пронзающая погибель"
+		}
+		"359"
+		{
+			"system"	"unusual_uber_teamcolor_red"
+			"id"	"377"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Полный заряд"
+		}
+		"360"
+		{
+			"system"	"unusual_uber_teamcolor_blue"
+			"id"	"378"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Полный заряд"
+		}
+		"361"
+		{
+			"system"	"unusual_uber_gold_parent"
+			"id"	"379"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Сверхзаряд"
+		}
+		"362"
+		{
+			"system"	"unusual_orbitingbullet_parent"
+			"id"	"380"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Мимолётная мигрень"
+		}
+		"363"
+		{
+			"system"	"unusual_typhoon_parent"
+			"id"	"381"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Пагубный ветер"
+		}
+		"364"
+		{
+			"system"	"unusual_ocean_swirl_teamcolor_red"
+			"id"	"382"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Океанское завихрение"
+		}
+		"365"
+		{
+			"system"	"unusual_ocean_swirl_teamcolor_blue"
+			"id"	"383"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Океанское завихрение"
+		}
+		"366"
+		{
+			"system"	"unusual_ocean_swirl_green_parent"
+			"id"	"384"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Токсичное завихрение"
+		}
+		"367"
+		{
+			"system"	"unusual_candle_teamcolor_red"
+			"id"	"385"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Пламя свечи"
+		}
+		"368"
+		{
+			"system"	"unusual_candle_teamcolor_blue"
+			"id"	"386"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Пламя свечи"
+		}
+		"369"
+		{
+			"system"	"unusual_deadlyaroma_teamcolor_red"
+			"id"	"387"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Обжигающий аромат"
+		}
+		"370"
+		{
+			"system"	"unusual_deadlyaroma_teamcolor_blue"
+			"id"	"388"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Обжигающий аромат"
+		}
+		"371"
+		{
+			"system"	"unusual_deadlyaroma_green_parent"
+			"id"	"389"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Токсичный аромат"
+		}
+		"372"
+		{
+			"system"	"unusual_conductor_teamc_teamcolor_red"
+			"id"	"390"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Переменчивый проводник"
+		}
+		"373"
+		{
+			"system"	"unusual_conductor_teamc_teamcolor_blue"
+			"id"	"391"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Переменчивый проводник"
+		}
+		"374"
+		{
+			"system"	"unusual_sandy_parent"
+			"id"	"392"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Песочник"
+		}
+		"375"
+		{
 			"system"	"weapon_unusual_hot"
 			"id"	"701"
 			"attach_to_rootbone"	"0"
 			"attachment"	"unusual_0"
 			"name"	"Жар"
 		}
-		"310"
+		"376"
 		{
 			"system"	"weapon_unusual_isotope"
 			"id"	"702"
@@ -12265,7 +12917,7 @@
 			"attachment"	"unusual_0"
 			"name"	"Изотоп"
 		}
-		"311"
+		"377"
 		{
 			"system"	"weapon_unusual_cool"
 			"id"	"703"
@@ -12273,7 +12925,7 @@
 			"attachment"	"unusual_0"
 			"name"	"Холод"
 		}
-		"312"
+		"378"
 		{
 			"system"	"weapon_unusual_energyorb"
 			"id"	"704"
@@ -12281,1106 +12933,1582 @@
 			"attachment"	"unusual_0"
 			"name"	"Энергетический шар"
 		}
-		"313"
+		"379"
 		{
 			"system"	"killstreak_eyeglow_1_teamcolor_red"
 			"id"	"2001"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2001"
 		}
-		"314"
+		"380"
 		{
 			"system"	"killstreak_t1_lvl1"
 			"id"	"2002"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2002"
 		}
-		"315"
+		"381"
 		{
 			"system"	"killstreak_t2_lvl1"
 			"id"	"2003"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2003"
 		}
-		"316"
+		"382"
 		{
 			"system"	"killstreak_t3_lvl1"
 			"id"	"2004"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2004"
 		}
-		"317"
+		"383"
 		{
 			"system"	"killstreak_t4_lvl1"
 			"id"	"2005"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2005"
 		}
-		"318"
+		"384"
 		{
 			"system"	"killstreak_t5_lvl1"
 			"id"	"2006"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2006"
 		}
-		"319"
+		"385"
 		{
 			"system"	"killstreak_t6_lvl1"
 			"id"	"2007"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2007"
 		}
-		"320"
+		"386"
 		{
 			"system"	"killstreak_t7_lvl1"
 			"id"	"2008"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2008"
 		}
-		"321"
+		"387"
 		{
 			"system"	"utaunt_firework_teamcolor_red"
 			"id"	"3001"
 			"attach_to_rootbone"	"0"
 			"name"	"Гвоздь программы"
 		}
-		"322"
+		"388"
 		{
 			"system"	"utaunt_firework_teamcolor_blue"
 			"id"	"3002"
 			"attach_to_rootbone"	"0"
 			"name"	"Гвоздь программы"
 		}
-		"323"
+		"389"
 		{
 			"system"	"utaunt_beams_yellow"
 			"id"	"3003"
 			"attach_to_rootbone"	"0"
 			"name"	"Святой Грааль"
 		}
-		"324"
+		"390"
 		{
 			"system"	"utaunt_disco_party"
 			"id"	"3004"
 			"attach_to_rootbone"	"0"
 			"name"	"72-й"
 		}
-		"325"
+		"391"
 		{
 			"system"	"utaunt_hearts_glow_parent"
 			"id"	"3005"
 			"attach_to_rootbone"	"0"
 			"name"	"Фонтан желаний"
 		}
-		"326"
+		"392"
 		{
 			"system"	"utaunt_meteor_parent"
 			"id"	"3006"
 			"attach_to_rootbone"	"0"
 			"name"	"Ревущий тигр"
 		}
-		"327"
+		"393"
 		{
 			"system"	"utaunt_cash_confetti"
 			"id"	"3007"
 			"attach_to_rootbone"	"0"
 			"name"	"Нечестное мастерство"
 		}
-		"328"
+		"394"
 		{
 			"system"	"utaunt_tornado_parent_black"
 			"id"	"3008"
 			"attach_to_rootbone"	"0"
 			"name"	"Полуночный ураган"
 		}
-		"329"
+		"395"
 		{
 			"system"	"utaunt_tornado_parent_white"
 			"id"	"3009"
 			"attach_to_rootbone"	"0"
 			"name"	"Серебристый циклон"
 		}
-		"330"
+		"396"
 		{
 			"system"	"utaunt_lightning_parent"
 			"id"	"3010"
 			"attach_to_rootbone"	"0"
 			"name"	"Мега-удар"
 		}
-		"331"
+		"397"
 		{
 			"system"	"utaunt_souls_green_parent"
 			"id"	"3011"
 			"attach_to_rootbone"	"0"
 			"name"	"Проклятый Призрак"
 		}
-		"332"
+		"398"
 		{
 			"system"	"utaunt_souls_purple_parent"
 			"id"	"3012"
 			"attach_to_rootbone"	"0"
 			"name"	"Жуткие призраки"
 		}
-		"333"
+		"399"
 		{
 			"system"	"utaunt_hellpit_parent"
 			"id"	"3013"
 			"attach_to_rootbone"	"0"
 			"name"	"Адская преисподняя"
 		}
-		"334"
+		"400"
 		{
 			"system"	"utaunt_hellswirl"
 			"id"	"3014"
 			"attach_to_rootbone"	"0"
 			"name"	"Призрачная спираль"
 		}
-		"335"
+		"401"
 		{
 			"system"	"utaunt_headless"
 			"id"	"3015"
 			"attach_to_rootbone"	"0"
 			"name"	"Пламя преисподней"
 		}
-		"336"
+		"402"
 		{
 			"system"	"utaunt_merasmus"
 			"id"	"3016"
 			"attach_to_rootbone"	"0"
 			"name"	"Чад преисподней"
 		}
-		"337"
+		"403"
 		{
 			"system"	"utaunt_bubbles_glow_green_parent"
 			"id"	"3017"
 			"attach_to_rootbone"	"0"
 			"name"	"Кислотные пузыри зависти"
 		}
-		"338"
+		"404"
 		{
 			"system"	"utaunt_bubbles_glow_orange_parent"
 			"id"	"3018"
 			"attach_to_rootbone"	"0"
 			"name"	"Воспламеняющиеся пузыри притяжения"
 		}
-		"339"
+		"405"
 		{
 			"system"	"utaunt_bubbles_glow_purple_parent"
 			"id"	"3019"
 			"attach_to_rootbone"	"0"
 			"name"	"Ядовитые пузыри сожаления"
 		}
-		"340"
+		"406"
 		{
 			"system"	"utaunt_firework_dragon_parent"
 			"id"	"3020"
 			"attach_to_rootbone"	"0"
 			"name"	"Ревущие ракеты"
 		}
-		"341"
+		"407"
 		{
 			"system"	"utaunt_smoke_moon_parent"
 			"id"	"3021"
 			"attach_to_rootbone"	"0"
 			"name"	"Жуткая ночь"
 		}
-		"342"
+		"408"
 		{
 			"system"	"utaunt_smoke_moon_green_parent"
 			"id"	"3022"
 			"attach_to_rootbone"	"0"
 			"name"	"Зловещая ночь"
 		}
-		"343"
+		"409"
 		{
 			"system"	"utaunt_arcane_purple_parent"
 			"id"	"3023"
 			"attach_to_rootbone"	"0"
 			"name"	"Колдовство"
 		}
-		"344"
+		"410"
 		{
 			"system"	"utaunt_arcane_green_parent"
 			"id"	"3024"
 			"attach_to_rootbone"	"0"
 			"name"	"Проклятие"
 		}
-		"345"
+		"411"
 		{
 			"system"	"utaunt_arcane_yellow_parent"
 			"id"	"3025"
 			"attach_to_rootbone"	"0"
 			"name"	"Чары"
 		}
-		"346"
+		"412"
 		{
 			"system"	"utaunt_electric_mist_parent"
 			"id"	"3026"
 			"attach_to_rootbone"	"0"
 			"name"	"Электромгла"
 		}
-		"347"
+		"413"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WP"
 			"id"	"3027"
 			"attach_to_rootbone"	"0"
 			"name"	"Мрачные молнии"
 		}
-		"348"
+		"414"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WB"
 			"id"	"3028"
 			"attach_to_rootbone"	"0"
 			"name"	"Гнетущая гроза"
 		}
-		"349"
+		"415"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WY"
 			"id"	"3029"
 			"attach_to_rootbone"	"0"
 			"name"	"Буря банкате"
 		}
-		"350"
+		"416"
 		{
 			"system"	"utaunt_portalswirl_purple_parent"
 			"id"	"3030"
 			"attach_to_rootbone"	"0"
 			"name"	"Портал в пустоту"
 		}
-		"351"
+		"417"
 		{
 			"system"	"utaunt_present_parent"
 			"id"	"3031"
 			"attach_to_rootbone"	"0"
 			"name"	"Добросердечные дары"
 		}
-		"352"
+		"418"
 		{
 			"system"	"utaunt_snowring_icy_parent"
 			"id"	"3032"
 			"attach_to_rootbone"	"0"
 			"name"	"Морозное мерцание"
 		}
-		"353"
+		"419"
 		{
 			"system"	"utaunt_snowring_space_parent"
 			"id"	"3033"
 			"attach_to_rootbone"	"0"
 			"name"	"Северное сияние"
 		}
-		"354"
+		"420"
 		{
 			"system"	"utaunt_spirit_winter_parent"
 			"id"	"3034"
 			"attach_to_rootbone"	"0"
 			"name"	"Дух зимы"
 		}
-		"355"
+		"421"
 		{
 			"system"	"utaunt_spirit_festive_parent"
 			"id"	"3035"
 			"attach_to_rootbone"	"0"
 			"name"	"Дух праздника"
 		}
-		"356"
+		"422"
 		{
 			"system"	"utaunt_spirit_magical_parent"
 			"id"	"3036"
 			"attach_to_rootbone"	"0"
 			"name"	"Дух магии"
 		}
-		"357"
+		"423"
 		{
 			"system"	"utaunt_astralbodies_greenorange_parent"
 			"id"	"3037"
 			"attach_to_rootbone"	"0"
 			"name"	"Призрачные провожатые"
 		}
-		"358"
+		"424"
 		{
 			"system"	"utaunt_astralbodies_tealpurple_parent"
 			"id"	"3038"
 			"attach_to_rootbone"	"0"
 			"name"	"Астральное присутствие"
 		}
-		"359"
+		"425"
 		{
 			"system"	"utaunt_astralbodies_teamcolor_red"
 			"id"	"3039"
 			"attach_to_rootbone"	"0"
 			"name"	"Потайная поддержка"
 		}
-		"360"
+		"426"
 		{
 			"system"	"utaunt_astralbodies_teamcolor_blue"
 			"id"	"3040"
 			"attach_to_rootbone"	"0"
 			"name"	"Потайная поддержка"
 		}
-		"361"
+		"427"
 		{
 			"system"	"utaunt_glowyplayer_green_parent"
 			"id"	"3041"
 			"attach_to_rootbone"	"0"
 			"name"	"Изумрудное искушение"
 		}
-		"362"
+		"428"
 		{
 			"system"	"utaunt_glowyplayer_orange_parent"
 			"id"	"3042"
 			"attach_to_rootbone"	"0"
 			"name"	"Пирофорная персона"
 		}
-		"363"
+		"429"
 		{
 			"system"	"utaunt_glowyplayer_purple_parent"
 			"id"	"3043"
 			"attach_to_rootbone"	"0"
 			"name"	"Околдованный облик"
 		}
-		"364"
+		"430"
 		{
 			"system"	"utaunt_electricity_parent"
 			"id"	"3044"
 			"attach_to_rootbone"	"0"
 			"name"	"Статический разряд"
 		}
-		"365"
+		"431"
 		{
 			"system"	"utaunt_electricity_purple_parent"
 			"id"	"3045"
 			"attach_to_rootbone"	"0"
 			"name"	"Ядовитый разряд"
 		}
-		"366"
+		"432"
 		{
 			"system"	"utaunt_spider_green_parent"
 			"id"	"3046"
 			"attach_to_rootbone"	"0"
 			"name"	"Токсичные твари"
 		}
-		"367"
+		"433"
 		{
 			"system"	"utaunt_spider_orange_parent"
 			"id"	"3047"
 			"attach_to_rootbone"	"0"
 			"name"	"Атака арахнидов"
 		}
-		"368"
+		"434"
 		{
 			"system"	"utaunt_spider_purple_parent"
 			"id"	"3048"
 			"attach_to_rootbone"	"0"
 			"name"	"Противные ползуны"
 		}
-		"369"
+		"435"
 		{
 			"system"	"utaunt_tf2smissmas_tree_parent"
 			"id"	"3049"
 			"attach_to_rootbone"	"0"
 			"name"	"Прелестная звезда"
 		}
-		"370"
+		"436"
 		{
 			"system"	"utaunt_tf2smissmas_tree_parent_w"
 			"id"	"3050"
 			"attach_to_rootbone"	"0"
 			"name"	"Ледяная звезда"
 		}
-		"371"
+		"437"
 		{
 			"system"	"utaunt_spirits_blue_parent"
 			"id"	"3051"
 			"attach_to_rootbone"	"0"
 			"name"	"Апофеоз"
 		}
-		"372"
+		"438"
 		{
 			"system"	"utaunt_spirits_purple_parent"
 			"id"	"3052"
 			"attach_to_rootbone"	"0"
 			"name"	"Вознесение"
 		}
-		"373"
+		"439"
 		{
 			"system"	"utaunt_balloonicorn_reindeer_teamcolor_red"
 			"id"	"3053"
 			"attach_to_rootbone"	"0"
 			"name"	"Набег Надуволенерогов"
 		}
-		"374"
+		"440"
 		{
 			"system"	"utaunt_balloonicorn_reindeer_teamcolor_blue"
 			"id"	"3054"
 			"attach_to_rootbone"	"0"
 			"name"	"Набег Надуволенерогов"
 		}
-		"375"
+		"441"
 		{
 			"system"	"utaunt_twinkling_rgb_parent"
 			"id"	"3055"
 			"attach_to_rootbone"	"0"
 			"name"	"Мерцающие огоньки"
 		}
-		"376"
+		"442"
 		{
 			"system"	"utaunt_twinkling_goldsilver_parent"
 			"id"	"3056"
 			"attach_to_rootbone"	"0"
 			"name"	"Дрожащие огоньки"
 		}
-		"377"
+		"443"
 		{
 			"system"	"utaunt_chain_green_parent"
 			"id"	"3059"
 			"attach_to_rootbone"	"0"
 			"name"	"Кошмарные кандалы"
 		}
-		"378"
+		"444"
 		{
 			"system"	"utaunt_chain_purple_parent"
 			"id"	"3060"
 			"attach_to_rootbone"	"0"
 			"name"	"Проклятые путы"
 		}
-		"379"
+		"445"
 		{
 			"system"	"utaunt_tarotcard_teamcolor_red"
 			"id"	"3061"
 			"attach_to_rootbone"	"0"
 			"name"	"Картёжный кавалер"
 		}
-		"380"
+		"446"
 		{
 			"system"	"utaunt_tarotcard_teamcolor_blue"
 			"id"	"3062"
 			"attach_to_rootbone"	"0"
 			"name"	"Картёжный кавалер"
 		}
-		"381"
+		"447"
 		{
 			"system"	"utaunt_tarotcard_orange_parent"
 			"id"	"3063"
 			"attach_to_rootbone"	"0"
 			"name"	"Шикарный шулер"
 		}
-		"382"
+		"448"
 		{
 			"system"	"utaunt_tarotcard_purple_parent"
 			"id"	"3064"
 			"attach_to_rootbone"	"0"
 			"name"	"Таинственный тасовщик"
 		}
-		"383"
+		"449"
 		{
 			"system"	"utaunt_elebound_green_parent"
 			"id"	"3065"
 			"attach_to_rootbone"	"0"
 			"name"	"Заряжающее побуждение"
 		}
-		"384"
+		"450"
 		{
 			"system"	"utaunt_elebound_purple_parent"
 			"id"	"3066"
 			"attach_to_rootbone"	"0"
 			"name"	"Шокирующая воля"
 		}
-		"385"
+		"451"
 		{
 			"system"	"utaunt_elebound_yellow_parent"
 			"id"	"3067"
 			"attach_to_rootbone"	"0"
 			"name"	"Духовное сопротивление"
 		}
-		"386"
+		"452"
 		{
 			"system"	"utaunt_wispy_parent_g"
 			"id"	"3068"
 			"attach_to_rootbone"	"0"
 			"name"	"Блуждающие духи"
 		}
-		"387"
+		"453"
 		{
 			"system"	"utaunt_wispy_parent_p"
 			"id"	"3069"
 			"attach_to_rootbone"	"0"
 			"name"	"Заблудшие души"
 		}
-		"388"
+		"454"
 		{
 			"system"	"utaunt_auroraglow_green_parent"
 			"id"	"3070"
 			"attach_to_rootbone"	"0"
 			"name"	"Арктическое сияние"
 		}
-		"389"
+		"455"
 		{
 			"system"	"utaunt_auroraglow_orange_parent"
 			"id"	"3071"
 			"attach_to_rootbone"	"0"
 			"name"	"Антарктическое сияние"
 		}
-		"390"
+		"456"
 		{
 			"system"	"utaunt_auroraglow_purple_parent"
 			"id"	"3072"
 			"attach_to_rootbone"	"0"
 			"name"	"Полярное сияние"
 		}
-		"391"
+		"457"
 		{
 			"system"	"utaunt_snowswirl_purple_parent"
 			"id"	"3073"
 			"attach_to_rootbone"	"0"
 			"name"	"Аметистовые ветра"
 		}
-		"392"
+		"458"
 		{
 			"system"	"utaunt_snowswirl_yellow_parent"
 			"id"	"3074"
 			"attach_to_rootbone"	"0"
 			"name"	"Золотая заметь"
 		}
-		"393"
+		"459"
 		{
 			"system"	"utaunt_snowswirl_teamcolor_red"
 			"id"	"3075"
 			"attach_to_rootbone"	"0"
 			"name"	"Шмождественская вьюга"
 		}
-		"394"
+		"460"
 		{
 			"system"	"utaunt_snowswirl_teamcolor_blue"
 			"id"	"3076"
 			"attach_to_rootbone"	"0"
 			"name"	"Шмождественская вьюга"
 		}
-		"395"
+		"461"
 		{
 			"system"	"utaunt_treespiral_green_parent"
 			"id"	"3077"
 			"attach_to_rootbone"	"0"
 			"name"	"Мятный кипарис"
 		}
-		"396"
+		"462"
 		{
 			"system"	"utaunt_treespiral_purple_parent"
 			"id"	"3078"
 			"attach_to_rootbone"	"0"
 			"name"	"Превосходная пихта"
 		}
-		"397"
+		"463"
 		{
 			"system"	"utaunt_treespiral_teamcolor_red"
 			"id"	"3079"
 			"attach_to_rootbone"	"0"
 			"name"	"Сияющая сосна"
 		}
-		"398"
+		"464"
 		{
 			"system"	"utaunt_treespiral_teamcolor_blue"
 			"id"	"3080"
 			"attach_to_rootbone"	"0"
 			"name"	"Сияющая сосна"
 		}
-		"399"
+		"465"
 		{
 			"system"	"utaunt_gifts_teamcolor_red"
 			"id"	"3081"
 			"attach_to_rootbone"	"0"
 			"name"	"Подарочный переполох"
 		}
-		"400"
+		"466"
 		{
 			"system"	"utaunt_gifts_teamcolor_blue"
 			"id"	"3082"
 			"attach_to_rootbone"	"0"
 			"name"	"Подарочный переполох"
 		}
-		"401"
+		"467"
 		{
 			"system"	"utaunt_glitter_parent_gold"
 			"id"	"3083"
 			"attach_to_rootbone"	"0"
 			"name"	"Золотое свечение"
 		}
-		"402"
+		"468"
 		{
 			"system"	"utaunt_glitter_parent_silver"
 			"id"	"3084"
 			"attach_to_rootbone"	"0"
 			"name"	"Морозный блеск"
 		}
-		"403"
+		"469"
 		{
 			"system"	"utaunt_glitter_teamcolor_red"
 			"id"	"3085"
 			"attach_to_rootbone"	"0"
 			"name"	"Обаятельные искры"
 		}
-		"404"
+		"470"
 		{
 			"system"	"utaunt_glitter_teamcolor_blue"
 			"id"	"3086"
 			"attach_to_rootbone"	"0"
 			"name"	"Обаятельные искры"
 		}
-		"405"
+		"471"
 		{
 			"system"	"utaunt_ice_parent"
 			"id"	"3087"
 			"attach_to_rootbone"	"0"
 			"name"	"Совершенный снегопад"
 		}
-		"406"
+		"472"
 		{
 			"system"	"utaunt_marigoldritual_teamcolor_red"
 			"id"	"3088"
 			"attach_to_rootbone"	"0"
 			"name"	"Цветочный ритуал"
 		}
-		"407"
+		"473"
 		{
 			"system"	"utaunt_marigoldritual_teamcolor_blue"
 			"id"	"3089"
 			"attach_to_rootbone"	"0"
 			"name"	"Цветочный ритуал"
 		}
-		"408"
+		"474"
 		{
 			"system"	"utaunt_poison_parent_green"
 			"id"	"3090"
 			"attach_to_rootbone"	"0"
 			"name"	"Ядрёный яд"
 		}
-		"409"
+		"475"
 		{
 			"system"	"utaunt_poison_parent_orange"
 			"id"	"3091"
 			"attach_to_rootbone"	"0"
 			"name"	"Опаляющий отвар"
 		}
-		"410"
+		"476"
 		{
 			"system"	"utaunt_poison_parent_purple"
 			"id"	"3092"
 			"attach_to_rootbone"	"0"
 			"name"	"Секретная смесь"
 		}
-		"411"
+		"477"
 		{
 			"system"	"utaunt_runeprison_green_parent"
 			"id"	"3093"
 			"attach_to_rootbone"	"0"
 			"name"	"Лингвистическое отклонение"
 		}
-		"412"
+		"478"
 		{
 			"system"	"utaunt_runeprison_yellow_parent"
 			"id"	"3094"
 			"attach_to_rootbone"	"0"
 			"name"	"Печать Аврелия"
 		}
-		"413"
+		"479"
 		{
 			"system"	"utaunt_runeprison_teamcolor_red"
 			"id"	"3095"
 			"attach_to_rootbone"	"0"
 			"name"	"Руническое заточение"
 		}
-		"414"
+		"480"
 		{
 			"system"	"utaunt_runeprison_teamcolor_blue"
 			"id"	"3096"
 			"attach_to_rootbone"	"0"
 			"name"	"Руническое заточение"
 		}
-		"415"
+		"481"
 		{
 			"system"	"utaunt_prismatichaze_parent"
 			"id"	"3097"
 			"attach_to_rootbone"	"0"
 			"name"	"Призменная вуаль"
 		}
-		"416"
+		"482"
 		{
 			"system"	"utaunt_risingsprit_teamcolor_red"
 			"id"	"3098"
 			"attach_to_rootbone"	"0"
 			"name"	"Ритуал вознесения"
 		}
-		"417"
+		"483"
 		{
 			"system"	"utaunt_risingsprit_teamcolor_blue"
 			"id"	"3099"
 			"attach_to_rootbone"	"0"
 			"name"	"Ритуал вознесения"
 		}
-		"418"
+		"484"
 		{
 			"system"	"utaunt_hands_teamcolor_red"
 			"id"	"3100"
 			"attach_to_rootbone"	"0"
 			"name"	"Кровавая хватка"
 		}
-		"419"
+		"485"
 		{
 			"system"	"utaunt_hands_teamcolor_blue"
 			"id"	"3101"
 			"attach_to_rootbone"	"0"
 			"name"	"Кровавая хватка"
 		}
-		"420"
+		"486"
 		{
 			"system"	"utaunt_hands_green_parent"
 			"id"	"3102"
 			"attach_to_rootbone"	"0"
 			"name"	"Токсичная хватка"
 		}
-		"421"
+		"487"
 		{
 			"system"	"utaunt_hands_orange_parent"
 			"id"	"3103"
 			"attach_to_rootbone"	"0"
 			"name"	"Адская хватка"
 		}
-		"422"
+		"488"
 		{
 			"system"	"utaunt_hands_purple_parent"
 			"id"	"3104"
 			"attach_to_rootbone"	"0"
 			"name"	"Смертельная хватка"
 		}
-		"423"
+		"489"
 		{
 			"system"	"utaunt_storm_parent_g"
 			"id"	"3105"
 			"attach_to_rootbone"	"0"
 			"name"	"Заряженное заклятие"
 		}
-		"424"
+		"490"
 		{
 			"system"	"utaunt_storm_parent_k"
 			"id"	"3106"
 			"attach_to_rootbone"	"0"
 			"name"	"Грозовой гнев"
 		}
-		"425"
+		"491"
 		{
 			"system"	"utaunt_storm_parent_o"
 			"id"	"3107"
 			"attach_to_rootbone"	"0"
 			"name"	"Всплеск вспыльчивости"
 		}
-		"426"
+		"492"
 		{
 			"system"	"utaunt_festivelights_teamcolor_red"
 			"id"	"3108"
 			"attach_to_rootbone"	"0"
 			"name"	"Праздничная подсветка"
 		}
-		"427"
+		"493"
 		{
 			"system"	"utaunt_festivelights_teamcolor_blue"
 			"id"	"3109"
 			"attach_to_rootbone"	"0"
 			"name"	"Праздничная подсветка"
 		}
-		"428"
+		"494"
 		{
 			"system"	"utaunt_glow_spirit_parent_cr"
 			"id"	"3110"
 			"attach_to_rootbone"	"0"
 			"name"	"Кружение духов"
 		}
-		"429"
+		"495"
 		{
 			"system"	"utaunt_glow_spirit_parent_og"
 			"id"	"3111"
 			"attach_to_rootbone"	"0"
 			"name"	"Вращение призраков"
 		}
-		"430"
+		"496"
 		{
 			"system"	"utaunt_glow_spirit_parent_pp"
 			"id"	"3112"
 			"attach_to_rootbone"	"0"
 			"name"	"Сияние полуночи"
 		}
-		"431"
+		"497"
 		{
 			"system"	"utaunt_snowflakesaura_parent"
 			"id"	"3113"
 			"attach_to_rootbone"	"0"
 			"name"	"Бесконечная буря"
 		}
-		"432"
+		"498"
 		{
 			"system"	"utaunt_sun_sand_rays_parent"
 			"id"	"3114"
 			"attach_to_rootbone"	"0"
 			"name"	"Солнечный след"
 		}
-		"433"
+		"499"
 		{
 			"system"	"utaunt_undersea_teamcolor_red"
 			"id"	"3115"
 			"attach_to_rootbone"	"0"
 			"name"	"Глубоководный рейв"
 		}
-		"434"
+		"500"
 		{
 			"system"	"utaunt_undersea_teamcolor_blue"
 			"id"	"3116"
 			"attach_to_rootbone"	"0"
 			"name"	"Глубоководный рейв"
 		}
-		"435"
+		"501"
 		{
 			"system"	"utaunt_lavalamp_green_parent"
 			"id"	"3117"
 			"attach_to_rootbone"	"0"
 			"name"	"Потусторонние пузыри"
 		}
-		"436"
+		"502"
 		{
 			"system"	"utaunt_lavalamp_purple_parent"
 			"id"	"3118"
 			"attach_to_rootbone"	"0"
 			"name"	"Полуночные пузыри"
 		}
-		"437"
+		"503"
 		{
 			"system"	"utaunt_lavalamp_yellow_parent"
 			"id"	"3119"
 			"attach_to_rootbone"	"0"
 			"name"	"Пылающие пузыри"
 		}
-		"438"
+		"504"
 		{
 			"system"	"utaunt_fish_parent"
 			"id"	"3120"
 			"attach_to_rootbone"	"0"
 			"name"	"Булькающая братва"
 		}
-		"439"
+		"505"
 		{
 			"system"	"utaunt_rainbow_teamcolor_red"
 			"id"	"3121"
 			"attach_to_rootbone"	"0"
 			"name"	"Пастельный транс"
 		}
-		"440"
+		"506"
 		{
 			"system"	"utaunt_rainbow_teamcolor_blue"
 			"id"	"3122"
 			"attach_to_rootbone"	"0"
 			"name"	"Пастельный транс"
 		}
-		"441"
+		"507"
 		{
 			"system"	"utaunt_wild_meadows_parent"
 			"id"	"3123"
 			"attach_to_rootbone"	"0"
 			"name"	"Цветочные луга"
 		}
-		"442"
+		"508"
 		{
 			"system"	"utaunt_krakenmouth_green_parent"
 			"id"	"3124"
 			"attach_to_rootbone"	"0"
 			"name"	"Подводный пожиратель"
 		}
-		"443"
+		"509"
 		{
 			"system"	"utaunt_krakenmouth_purple_parent"
 			"id"	"3125"
 			"attach_to_rootbone"	"0"
 			"name"	"Хтонический ужас"
 		}
-		"444"
+		"510"
 		{
 			"system"	"utaunt_leaftaunt_parent"
 			"id"	"3126"
 			"attach_to_rootbone"	"0"
 			"name"	"Осенняя листва"
 		}
-		"445"
+		"511"
 		{
 			"system"	"utaunt_graveparty_parent"
 			"id"	"3127"
 			"attach_to_rootbone"	"0"
 			"name"	"Трупная тусовка"
 		}
-		"446"
+		"512"
 		{
 			"system"	"utaunt_spellsplash_parent"
 			"id"	"3128"
 			"attach_to_rootbone"	"0"
 			"name"	"Зелья веселья"
 		}
-		"447"
+		"513"
 		{
 			"system"	"utaunt_cremation_purple_parent"
 			"id"	"3129"
 			"attach_to_rootbone"	"0"
 			"name"	"Замогильная кремация"
 		}
-		"448"
+		"514"
 		{
 			"system"	"utaunt_cremation_black_parent"
 			"id"	"3130"
 			"attach_to_rootbone"	"0"
 			"name"	"Кремация"
 		}
-		"449"
+		"515"
 		{
 			"system"	"utaunt_snowfall_parent"
 			"id"	"3131"
 			"attach_to_rootbone"	"0"
 			"name"	"Снегопад"
 		}
-		"450"
+		"516"
 		{
 			"system"	"utaunt_constellations_teamcolor_red"
 			"id"	"3132"
 			"attach_to_rootbone"	"0"
 			"name"	"Межгалактическая связь"
 		}
-		"451"
+		"517"
 		{
 			"system"	"utaunt_constellations_teamcolor_blue"
 			"id"	"3133"
 			"attach_to_rootbone"	"0"
 			"name"	"Межгалактическая связь"
 		}
-		"452"
+		"518"
 		{
 			"system"	"utaunt_constellations_purple_parent"
 			"id"	"3134"
 			"attach_to_rootbone"	"0"
 			"name"	"Тёмные сумерки"
 		}
-		"453"
+		"519"
 		{
 			"system"	"utaunt_constellations_pink_parent"
 			"id"	"3135"
 			"attach_to_rootbone"	"0"
 			"name"	"Зловещий разлом"
 		}
-		"454"
+		"520"
 		{
 			"system"	"utaunt_wispyworks_orangegreen_parent"
 			"id"	"3136"
 			"attach_to_rootbone"	"0"
 			"name"	"Всплеск великодушия"
 		}
-		"455"
+		"521"
 		{
 			"system"	"utaunt_wispyworks_purpleblue_parent"
 			"id"	"3137"
 			"attach_to_rootbone"	"0"
 			"name"	"Далёкая страсть"
 		}
-		"456"
+		"522"
 		{
 			"system"	"utaunt_wispyworks_yellowpurple_parent"
 			"id"	"3138"
 			"attach_to_rootbone"	"0"
 			"name"	"Влекущий взгляд"
 		}
-		"457"
+		"523"
 		{
 			"system"	"utaunt_innerblizzard_teamcolor_red"
 			"id"	"3139"
 			"attach_to_rootbone"	"0"
 			"name"	"Дымка вечной мерзлоты"
 		}
-		"458"
+		"524"
 		{
 			"system"	"utaunt_innerblizzard_teamcolor_blue"
 			"id"	"3140"
 			"attach_to_rootbone"	"0"
 			"name"	"Дымка вечной мерзлоты"
 		}
-		"459"
+		"525"
 		{
 			"system"	"utaunt_innerblizzard_purple_parent"
 			"id"	"3141"
 			"attach_to_rootbone"	"0"
 			"name"	"Арктический восторг"
 		}
-		"460"
+		"526"
 		{
 			"system"	"utaunt_spotlight_parent"
 			"id"	"3142"
 			"attach_to_rootbone"	"0"
 			"name"	"Дух победы"
 		}
-		"461"
+		"527"
 		{
 			"system"	"utaunt_pedalfly_teamcolor_red"
 			"id"	"3143"
 			"attach_to_rootbone"	"0"
 			"name"	"Летучие лепестки"
 		}
-		"462"
+		"528"
 		{
 			"system"	"utaunt_pedalfly_teamcolor_blue"
 			"id"	"3144"
 			"attach_to_rootbone"	"0"
 			"name"	"Летучие лепестки"
 		}
-		"463"
+		"529"
+		{
+			"system"	"utaunt_dragonfly_teamcolor_red"
+			"id"	"3145"
+			"attach_to_rootbone"	"0"
+			"name"	"Объятия стрекоз"
+		}
+		"530"
+		{
+			"system"	"utaunt_dragonfly_teamcolor_blue"
+			"id"	"3146"
+			"attach_to_rootbone"	"0"
+			"name"	"Объятия стрекоз"
+		}
+		"531"
+		{
+			"system"	"utaunt_dragonfly_green_parent"
+			"id"	"3147"
+			"attach_to_rootbone"	"0"
+			"name"	"Природа стрекоз"
+		}
+		"532"
+		{
+			"system"	"utaunt_dragonfly_purple_parent"
+			"id"	"3148"
+			"attach_to_rootbone"	"0"
+			"name"	"Сияние стрекоз"
+		}
+		"533"
+		{
+			"system"	"utaunt_demigodery_teamcolor_red"
+			"id"	"3149"
+			"attach_to_rootbone"	"0"
+			"name"	"Электрошок"
+		}
+		"534"
+		{
+			"system"	"utaunt_demigodery_teamcolor_blue"
+			"id"	"3150"
+			"attach_to_rootbone"	"0"
+			"name"	"Электрошок"
+		}
+		"535"
+		{
+			"system"	"utaunt_signalflares_teamcolor_red"
+			"id"	"3151"
+			"attach_to_rootbone"	"0"
+			"name"	"Сигнал бедствия"
+		}
+		"536"
+		{
+			"system"	"utaunt_signalflares_teamcolor_blue"
+			"id"	"3152"
+			"attach_to_rootbone"	"0"
+			"name"	"Сигнал бедствия"
+		}
+		"537"
+		{
+			"system"	"utaunt_signalflares_green_parent"
+			"id"	"3153"
+			"attach_to_rootbone"	"0"
+			"name"	"Кариокский карнавал"
+		}
+		"538"
+		{
+			"system"	"utaunt_celebrationtime_teamcolor_red"
+			"id"	"3154"
+			"attach_to_rootbone"	"0"
+			"name"	"Королевская фиеста"
+		}
+		"539"
+		{
+			"system"	"utaunt_celebrationtime_teamcolor_blue"
+			"id"	"3155"
+			"attach_to_rootbone"	"0"
+			"name"	"Королевская фиеста"
+		}
+		"540"
+		{
+			"system"	"utaunt_celebrationtime_yellow_parent"
+			"id"	"3156"
+			"attach_to_rootbone"	"0"
+			"name"	"Грандиозное празднество"
+		}
+		"541"
+		{
+			"system"	"utaunt_god_lava_teamcolor_red"
+			"id"	"3157"
+			"attach_to_rootbone"	"0"
+			"name"	"Элементаль"
+		}
+		"542"
+		{
+			"system"	"utaunt_god_lava_teamcolor_blue"
+			"id"	"3158"
+			"attach_to_rootbone"	"0"
+			"name"	"Элементаль"
+		}
+		"543"
+		{
+			"system"	"utaunt_god_gold_parent"
+			"id"	"3159"
+			"attach_to_rootbone"	"0"
+			"name"	"Богоподобие"
+		}
+		"544"
+		{
+			"system"	"utaunt_aestheticlogo_teamcolor_red"
+			"id"	"3160"
+			"attach_to_rootbone"	"0"
+			"name"	"Командная удаль"
+		}
+		"545"
+		{
+			"system"	"utaunt_aestheticlogo_teamcolor_blue"
+			"id"	"3161"
+			"attach_to_rootbone"	"0"
+			"name"	"Командная удаль"
+		}
+		"546"
+		{
+			"system"	"utaunt_aestheticlogo_orange_parent"
+			"id"	"3162"
+			"attach_to_rootbone"	"0"
+			"name"	"Типовой логотип"
+		}
+		"547"
+		{
+			"system"	"utaunt_desert_wind_parent"
+			"id"	"3163"
+			"attach_to_rootbone"	"0"
+			"name"	"Пустынный ветер"
+		}
+		"548"
+		{
+			"system"	"utaunt_desert_monsoon_parent"
+			"id"	"3164"
+			"attach_to_rootbone"	"0"
+			"name"	"Сезон муссонов"
+		}
+		"549"
+		{
+			"system"	"utaunt_treasure_teamcolor_red"
+			"id"	"3165"
+			"attach_to_rootbone"	"0"
+			"name"	"Несметные богатства"
+		}
+		"550"
+		{
+			"system"	"utaunt_treasure_teamcolor_blue"
+			"id"	"3166"
+			"attach_to_rootbone"	"0"
+			"name"	"Несметные богатства"
+		}
+		"551"
+		{
+			"system"	"utaunt_hearttreasure_parent"
+			"id"	"3167"
+			"attach_to_rootbone"	"0"
+			"name"	"Роскошная романтика"
+		}
+		"552"
+		{
+			"system"	"utaunt_wiggletube_teamcolor_red"
+			"id"	"3168"
+			"attach_to_rootbone"	"0"
+			"name"	"Любвеобильность"
+		}
+		"553"
+		{
+			"system"	"utaunt_wiggletube_teamcolor_blue"
+			"id"	"3169"
+			"attach_to_rootbone"	"0"
+			"name"	"Любвеобильность"
+		}
+		"554"
+		{
+			"system"	"utaunt_wiggletube_coffee_parent"
+			"id"	"3170"
+			"attach_to_rootbone"	"0"
+			"name"	"Электрум"
+		}
+		"555"
+		{
+			"system"	"utaunt_flowerrain_teamcolor_red"
+			"id"	"3171"
+			"attach_to_rootbone"	"0"
+			"name"	"Благословение сакуры"
+		}
+		"556"
+		{
+			"system"	"utaunt_flowerrain_teamcolor_blue"
+			"id"	"3172"
+			"attach_to_rootbone"	"0"
+			"name"	"Благословение сакуры"
+		}
+		"557"
+		{
+			"system"	"utaunt_flowerrain_purple_parent"
+			"id"	"3173"
+			"attach_to_rootbone"	"0"
+			"name"	"Фиалковая феерия"
+		}
+		"558"
+		{
+			"system"	"utaunt_poweraura_teamcolor_red"
+			"id"	"3174"
+			"attach_to_rootbone"	"0"
+			"name"	"Скопление силы"
+		}
+		"559"
+		{
+			"system"	"utaunt_poweraura_teamcolor_blue"
+			"id"	"3175"
+			"attach_to_rootbone"	"0"
+			"name"	"Скопление силы"
+		}
+		"560"
+		{
+			"system"	"utaunt_poweraura_green_parent"
+			"id"	"3176"
+			"attach_to_rootbone"	"0"
+			"name"	"Нагнетание напряжения"
+		}
+		"561"
+		{
+			"system"	"utaunt_poweraura_purple_parent"
+			"id"	"3177"
+			"attach_to_rootbone"	"0"
+			"name"	"Захватывающая зарядка"
+		}
+		"562"
+		{
+			"system"	"utaunt_poweraura_yellow_parent"
+			"id"	"3178"
+			"attach_to_rootbone"	"0"
+			"name"	"Аккумулирующая аура"
+		}
+		"563"
+		{
+			"system"	"utaunt_mysticfusion_parent"
+			"id"	"3179"
+			"attach_to_rootbone"	"0"
+			"name"	"Мистическое слияние"
+		}
+		"564"
+		{
+			"system"	"utaunt_confetti_gy_parent"
+			"id"	"3180"
+			"attach_to_rootbone"	"0"
+			"name"	"Надоедливое конфетти"
+		}
+		"565"
+		{
+			"system"	"utaunt_confetti_pp_parent"
+			"id"	"3181"
+			"attach_to_rootbone"	"0"
+			"name"	"Симпатичное конфетти"
+		}
+		"566"
+		{
+			"system"	"utaunt_confetti_yp_parent"
+			"id"	"3182"
+			"attach_to_rootbone"	"0"
+			"name"	"Торжественное конфетти"
+		}
+		"567"
+		{
+			"system"	"utaunt_heavyrain_parent"
+			"id"	"3183"
+			"attach_to_rootbone"	"0"
+			"name"	"Ливень"
+		}
+		"568"
+		{
+			"system"	"utaunt_field_parent"
+			"id"	"3184"
+			"attach_to_rootbone"	"0"
+			"name"	"Тыквенная грядка"
+		}
+		"569"
+		{
+			"system"	"utaunt_whitesmissmas_parent"
+			"id"	"3185"
+			"attach_to_rootbone"	"0"
+			"name"	"Снежный день"
+		}
+		"570"
+		{
+			"system"	"utaunt_busysnow_teamcolor_red"
+			"id"	"3186"
+			"attach_to_rootbone"	"0"
+			"name"	"Снежный дух"
+		}
+		"571"
+		{
+			"system"	"utaunt_busysnow_teamcolor_blue"
+			"id"	"3187"
+			"attach_to_rootbone"	"0"
+			"name"	"Снежный дух"
+		}
+		"572"
+		{
+			"system"	"utaunt_busysnow_parent_p"
+			"id"	"3188"
+			"attach_to_rootbone"	"0"
+			"name"	"Лавандовая сенсация"
+		}
+		"573"
+		{
+			"system"	"utaunt_busysnow_parent_g"
+			"id"	"3189"
+			"attach_to_rootbone"	"0"
+			"name"	"Лиственный феномен"
+		}
+		"574"
+		{
+			"system"	"utaunt_roses_teamcolor_red"
+			"id"	"3190"
+			"attach_to_rootbone"	"0"
+			"name"	"Всеобщее признание"
+		}
+		"575"
+		{
+			"system"	"utaunt_roses_teamcolor_blue"
+			"id"	"3191"
+			"attach_to_rootbone"	"0"
+			"name"	"Всеобщее признание"
+		}
+		"576"
+		{
+			"system"	"utaunt_roses_gold_parent"
+			"id"	"3192"
+			"attach_to_rootbone"	"0"
+			"name"	"Оперный триумф"
+		}
+		"577"
+		{
+			"system"	"utaunt_tangledlights_parent"
+			"id"	"3193"
+			"attach_to_rootbone"	"0"
+			"name"	"Запутанная гирлянда"
+		}
+		"578"
+		{
+			"system"	"utaunt_seamine_teamcolor_red"
+			"id"	"3194"
+			"attach_to_rootbone"	"0"
+			"name"	"Морская мина"
+		}
+		"579"
+		{
+			"system"	"utaunt_seamine_teamcolor_blue"
+			"id"	"3195"
+			"attach_to_rootbone"	"0"
+			"name"	"Морская мина"
+		}
+		"580"
+		{
+			"system"	"utaunt_iconicoutline_teamcolor_red"
+			"id"	"3196"
+			"attach_to_rootbone"	"0"
+			"name"	"Культовый контур"
+		}
+		"581"
+		{
+			"system"	"utaunt_iconicoutline_teamcolor_blue"
+			"id"	"3197"
+			"attach_to_rootbone"	"0"
+			"name"	"Культовый контур"
+		}
+		"582"
+		{
+			"system"	"utaunt_iconicoutline_pink_parent"
+			"id"	"3198"
+			"attach_to_rootbone"	"0"
+			"name"	"Скромный силуэт"
+		}
+		"583"
+		{
+			"system"	"utaunt_oceanreef_parent"
+			"id"	"3199"
+			"attach_to_rootbone"	"0"
+			"name"	"Океанский риф"
+		}
+		"584"
+		{
+			"system"	"utaunt_signalinterference_parent"
+			"id"	"3200"
+			"attach_to_rootbone"	"0"
+			"name"	"Слабый сигнал"
+		}
+		"585"
+		{
+			"system"	"utaunt_waterwave_parent"
+			"id"	"3201"
+			"attach_to_rootbone"	"0"
+			"name"	"Летние волны"
+		}
+		"586"
+		{
+			"system"	"utaunt_sharkfin2_parent"
+			"id"	"3202"
+			"attach_to_rootbone"	"0"
+			"name"	"Акулки на прогулке"
+		}
+		"587"
+		{
+			"system"	"utaunt_phantasam_green_parent"
+			"id"	"3203"
+			"attach_to_rootbone"	"0"
+			"name"	"Опасное облако"
+		}
+		"588"
+		{
+			"system"	"utaunt_phantasam_grey_parent"
+			"id"	"3204"
+			"attach_to_rootbone"	"0"
+			"name"	"Призрачная пелена"
+		}
+		"589"
+		{
+			"system"	"utaunt_phantasam_purple_parent"
+			"id"	"3205"
+			"attach_to_rootbone"	"0"
+			"name"	"Мистическая мгла"
+		}
+		"590"
+		{
+			"system"	"utaunt_multicurse_teamcolor_red"
+			"id"	"3206"
+			"attach_to_rootbone"	"0"
+			"name"	"Разлом раздора"
+		}
+		"591"
+		{
+			"system"	"utaunt_multicurse_teamcolor_blue"
+			"id"	"3207"
+			"attach_to_rootbone"	"0"
+			"name"	"Разлом раздора"
+		}
+		"592"
+		{
+			"system"	"utaunt_voidcrawlers_parent"
+			"id"	"3208"
+			"attach_to_rootbone"	"0"
+			"name"	"Ползучая пустота"
+		}
+		"593"
+		{
+			"system"	"utaunt_tarpit_dinos_parent"
+			"id"	"3209"
+			"attach_to_rootbone"	"0"
+			"name"	"Источник ископаемых"
+		}
+		"594"
+		{
+			"system"	"utaunt_tarpit_people_parent"
+			"id"	"3210"
+			"attach_to_rootbone"	"0"
+			"name"	"Смоляная скважина"
+		}
+		"595"
+		{
+			"system"	"utaunt_morbed_teamcolor_red"
+			"id"	"3211"
+			"attach_to_rootbone"	"0"
+			"name"	"Болезнетворный бестиарий"
+		}
+		"596"
+		{
+			"system"	"utaunt_morbed_teamcolor_blue"
+			"id"	"3212"
+			"attach_to_rootbone"	"0"
+			"name"	"Болезнетворный бестиарий"
+		}
+		"597"
 		{
 			"system"	"killstreak_eyeglow_4_teamcolor_red"
 			"id"	"22001"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22001"
 		}
-		"464"
+		"598"
 		{
 			"system"	"killstreak_t1_lvl2"
 			"id"	"22002"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22002"
 		}
-		"465"
+		"599"
 		{
 			"system"	"killstreak_t2_lvl2"
 			"id"	"22003"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22003"
 		}
-		"466"
+		"600"
 		{
 			"system"	"killstreak_t3_lvl2"
 			"id"	"22004"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22004"
 		}
-		"467"
+		"601"
 		{
 			"system"	"killstreak_t4_lvl2"
 			"id"	"22005"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22005"
 		}
-		"468"
+		"602"
 		{
 			"system"	"killstreak_t5_lvl2"
 			"id"	"22006"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22006"
 		}
-		"469"
+		"603"
 		{
 			"system"	"killstreak_t6_lvl2"
 			"id"	"22007"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22007"
 		}
-		"470"
+		"604"
 		{
 			"system"	"killstreak_t7_lvl2"
 			"id"	"22008"
@@ -14711,7 +15839,7 @@
 				{
 					"level"	"20"
 					"required_score"	"21"
-					"name"	"самого Крякстона"
+					"name"	" самого Крякстона"
 				}
 			}
 		}
@@ -15433,7 +16561,7 @@
 		"64"
 		{
 			"type"	"82"
-			"type_name"	"Нанесенный урон"
+			"type_name"	"Нанесённый урон"
 			"level_data"	"KillEaterRank"
 		}
 		"65"

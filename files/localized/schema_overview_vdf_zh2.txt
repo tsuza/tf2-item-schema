@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -1144,7 +1144,7 @@ Can be used to extinguish fires"
 			"name"	"max pipebombs increased"
 			"defindex"	"88"
 			"attribute_class"	"add_max_pipebombs"
-			"description_string"	"+%s1 max pipebombs out"
+			"description_string"	"+%s1 max stickybombs out"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -1155,7 +1155,7 @@ Can be used to extinguish fires"
 			"name"	"max pipebombs decreased"
 			"defindex"	"89"
 			"attribute_class"	"add_max_pipebombs"
-			"description_string"	"%s1 max pipebombs out"
+			"description_string"	"%s1 max stickybombs out"
 			"description_format"	"value_is_additive"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -7162,8 +7162,10 @@ deploys and holsters slower"
 			"name"	"energy buff dmg taken multiplier"
 			"defindex"	"798"
 			"attribute_class"	"energy_buff_dmg_taken_multiplier"
+			"description_string"	"+%s1% damage vulnerability while active"
+			"description_format"	"value_is_percentage"
 			"effect_type"	"negative"
-			"hidden"	"1"
+			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
 		"662"
@@ -8609,7 +8611,7 @@ deploys and holsters slower"
 			"defindex"	"2063"
 			"attribute_class"	"dragons_fury_positive_properties"
 			"description_string"	"Deals 300% damage to burning players
-+50% re-pressurization rate on hit"
++50% repressurization rate on hit"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -8674,6 +8676,127 @@ Killing blows on burning players grant a speed boost."
 		}
 		"813"
 		{
+			"name"	"freaky fair kritz potion"
+			"defindex"	"2069"
+			"attribute_class"	"freaky_fair_kritz_potion"
+			"description_string"	"Kritz Potion"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"814"
+		{
+			"name"	"freaky fair uber potion"
+			"defindex"	"2070"
+			"attribute_class"	"freaky_fair_uber_potion"
+			"description_string"	"Über Potion"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"815"
+		{
+			"name"	"freaky fair giant potion"
+			"defindex"	"2071"
+			"attribute_class"	"freaky_fair_giant_potion"
+			"description_string"	"Giant Potion"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"816"
+		{
+			"name"	"freaky fair buster potion"
+			"defindex"	"2072"
+			"attribute_class"	"freaky_fair_buster_potion"
+			"description_string"	"Pumpkin Buster Potion"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"817"
+		{
+			"name"	"freaky fair healing potion"
+			"defindex"	"2073"
+			"attribute_class"	"freaky_fair_healing_potion"
+			"description_string"	"Healing Potion"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"818"
+		{
+			"name"	"freaky fair ghost potion"
+			"defindex"	"2074"
+			"attribute_class"	"freaky_fair_ghost_potion"
+			"description_string"	"Ghost Potion"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"819"
+		{
+			"name"	"freaky fair ammo potion"
+			"defindex"	"2075"
+			"attribute_class"	"freaky_fair_ammo_potion"
+			"description_string"	"Refill Ammo Potion"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"820"
+		{
+			"name"	"freaky fair rtd potion"
+			"defindex"	"2076"
+			"attribute_class"	"freaky_fair_rtd_potion"
+			"description_string"	"`Roll The Dice` Potion"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"821"
+		{
+			"name"	"freaky fair relentless potion"
+			"defindex"	"2077"
+			"attribute_class"	"freaky_fair_relentless_potion"
+			"description_string"	"Relentless Potion"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"822"
+		{
+			"name"	"freaky fair extra attrib1"
+			"defindex"	"2078"
+			"attribute_class"	"freaky_fair_extra_attrib1"
+			"description_string"	"Extra Freaky Fair Attrib 1"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"823"
+		{
+			"name"	"freaky fair extra attrib2"
+			"defindex"	"2079"
+			"attribute_class"	"freaky_fair_extra_attrib2"
+			"description_string"	"Extra Freaky Fair Attrib 2"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"824"
+		{
 			"name"	"item slot criteria 1"
 			"defindex"	"3000"
 			"attribute_class"	"item_slot_criteria"
@@ -8682,7 +8805,7 @@ Killing blows on burning players grant a speed boost."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"814"
+		"825"
 		{
 			"name"	"item in slot 1"
 			"defindex"	"3001"
@@ -8692,7 +8815,7 @@ Killing blows on burning players grant a speed boost."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"815"
+		"826"
 		{
 			"name"	"item slot criteria 2"
 			"defindex"	"3002"
@@ -8702,7 +8825,7 @@ Killing blows on burning players grant a speed boost."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"816"
+		"827"
 		{
 			"name"	"item in slot 2"
 			"defindex"	"3003"
@@ -8712,7 +8835,7 @@ Killing blows on burning players grant a speed boost."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"817"
+		"828"
 		{
 			"name"	"item slot criteria 3"
 			"defindex"	"3004"
@@ -8722,7 +8845,7 @@ Killing blows on burning players grant a speed boost."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"818"
+		"829"
 		{
 			"name"	"item in slot 3"
 			"defindex"	"3005"
@@ -8732,7 +8855,7 @@ Killing blows on burning players grant a speed boost."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"819"
+		"830"
 		{
 			"name"	"item slot criteria 4"
 			"defindex"	"3006"
@@ -8742,7 +8865,7 @@ Killing blows on burning players grant a speed boost."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"820"
+		"831"
 		{
 			"name"	"item in slot 4"
 			"defindex"	"3007"
@@ -8752,7 +8875,7 @@ Killing blows on burning players grant a speed boost."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"821"
+		"832"
 		{
 			"name"	"item slot criteria 5"
 			"defindex"	"3008"
@@ -8762,7 +8885,7 @@ Killing blows on burning players grant a speed boost."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"822"
+		"833"
 		{
 			"name"	"item in slot 5"
 			"defindex"	"3009"
@@ -8772,7 +8895,7 @@ Killing blows on burning players grant a speed boost."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"823"
+		"834"
 		{
 			"name"	"item slot criteria 6"
 			"defindex"	"3010"
@@ -8782,7 +8905,7 @@ Killing blows on burning players grant a speed boost."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"824"
+		"835"
 		{
 			"name"	"item in slot 6"
 			"defindex"	"3011"
@@ -8792,7 +8915,7 @@ Killing blows on burning players grant a speed boost."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"825"
+		"836"
 		{
 			"name"	"item slot criteria 7"
 			"defindex"	"3012"
@@ -8802,7 +8925,7 @@ Killing blows on burning players grant a speed boost."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"826"
+		"837"
 		{
 			"name"	"item in slot 7"
 			"defindex"	"3013"
@@ -8812,7 +8935,7 @@ Killing blows on burning players grant a speed boost."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"827"
+		"838"
 		{
 			"name"	"item slot criteria 8"
 			"defindex"	"3014"
@@ -8822,7 +8945,7 @@ Killing blows on burning players grant a speed boost."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"828"
+		"839"
 		{
 			"name"	"item in slot 8"
 			"defindex"	"3015"
@@ -8832,7 +8955,7 @@ Killing blows on burning players grant a speed boost."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"829"
+		"840"
 		{
 			"name"	"quest earned standard points"
 			"defindex"	"3016"
@@ -8841,7 +8964,7 @@ Killing blows on burning players grant a speed boost."
 			"hidden"	"1"
 			"stored_as_integer"	"1"
 		}
-		"830"
+		"841"
 		{
 			"name"	"quest earned bonus points"
 			"defindex"	"3017"
@@ -8850,7 +8973,7 @@ Killing blows on burning players grant a speed boost."
 			"hidden"	"1"
 			"stored_as_integer"	"1"
 		}
-		"831"
+		"842"
 		{
 			"name"	"item drop wave"
 			"defindex"	"3018"
@@ -9898,6 +10021,7 @@ Killing blows on burning players grant a speed boost."
 			"system"	"superrare_beams1"
 			"id"	"17"
 			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
 			"name"	"Sunbeams"
 		}
 		"17"
@@ -10045,7 +10169,7 @@ Killing blows on burning players grant a speed boost."
 			"id"	"46"
 			"attach_to_rootbone"	"1"
 			"attachment"	"muzzle"
-			"name"	"It's A Secret To Everybody"
+			"name"	"It's a Secret to Everybody"
 		}
 		"37"
 		{
@@ -10269,7 +10393,7 @@ Killing blows on burning players grant a speed boost."
 			"id"	"81"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Bonzo The All-Gnawing"
+			"name"	"Bonzo the All-Gnawing"
 		}
 		"65"
 		{
@@ -10285,7 +10409,7 @@ Killing blows on burning players grant a speed boost."
 			"id"	"83"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Stare From Beyond"
+			"name"	"Stare from Beyond"
 		}
 		"67"
 		{
@@ -10429,7 +10553,7 @@ Killing blows on burning players grant a speed boost."
 			"id"	"101"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"It's a mystery to everyone"
+			"name"	"It's a Mystery to Everyone"
 		}
 		"85"
 		{
@@ -10437,7 +10561,7 @@ Killing blows on burning players grant a speed boost."
 			"id"	"102"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"It's a puzzle to me"
+			"name"	"It's a Puzzle to Me"
 		}
 		"86"
 		{
@@ -11725,7 +11849,7 @@ Killing blows on burning players grant a speed boost."
 			"id"	"263"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Forever And Forever!"
+			"name"	"Forever and Forever!"
 		}
 		"247"
 		{
@@ -12225,13 +12349,541 @@ Killing blows on burning players grant a speed boost."
 		}
 		"309"
 		{
+			"system"	"unusual_corrodedknight_teamcolor_red"
+			"id"	"327"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Loyalist's Coronet"
+		}
+		"310"
+		{
+			"system"	"unusual_corrodedknight_teamcolor_blue"
+			"id"	"328"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Loyalist's Coronet"
+		}
+		"311"
+		{
+			"system"	"unusual_corrodedknight_parent_silver"
+			"id"	"329"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Knight's Prideful Spirit"
+		}
+		"312"
+		{
+			"system"	"unusual_corrodedknight_parent_golden"
+			"id"	"330"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Baron's Cherished Chaplet"
+		}
+		"313"
+		{
+			"system"	"unusual_poseidon_teamcolor_red"
+			"id"	"331"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Lure of the Deep"
+		}
+		"314"
+		{
+			"system"	"unusual_poseidon_teamcolor_blue"
+			"id"	"332"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Lure of the Deep"
+		}
+		"315"
+		{
+			"system"	"unusual_poseidon_parent_green"
+			"id"	"333"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Violent Viridian"
+		}
+		"316"
+		{
+			"system"	"unusual_poseidon_parent_purple"
+			"id"	"334"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Magenta Monstrum"
+		}
+		"317"
+		{
+			"system"	"unusual_rainglow_parent"
+			"id"	"335"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Rainbow Reverie"
+		}
+		"318"
+		{
+			"system"	"unusual_cubancigar_parent"
+			"id"	"336"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Cuban Smoke"
+		}
+		"319"
+		{
+			"system"	"unusual_mohawk_teamcolor_red"
+			"id"	"337"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Melting Mohawk"
+		}
+		"320"
+		{
+			"system"	"unusual_mohawk_teamcolor_blue"
+			"id"	"338"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Melting Mohawk"
+		}
+		"321"
+		{
+			"system"	"unusual_mohawk_parent_green"
+			"id"	"339"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Scorched Scalp"
+		}
+		"322"
+		{
+			"system"	"unusual_mohawk_parent_purple"
+			"id"	"340"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Ignited Crest"
+		}
+		"323"
+		{
+			"system"	"unusual_rare_shine_glow_parent"
+			"id"	"341"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Rare Shine"
+		}
+		"324"
+		{
+			"system"	"unusual_horstars_teamcolor_red"
+			"id"	"342"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Distant Drift"
+		}
+		"325"
+		{
+			"system"	"unusual_horstars_teamcolor_blue"
+			"id"	"343"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Distant Drift"
+		}
+		"326"
+		{
+			"system"	"unusual_electric_parent_white"
+			"id"	"344"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Warp Drive"
+		}
+		"327"
+		{
+			"system"	"unusual_electric_parent_gold"
+			"id"	"345"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Overdrive"
+		}
+		"328"
+		{
+			"system"	"unusual_butterflyhead_teamcolor_red"
+			"id"	"346"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Butterfly Season"
+		}
+		"329"
+		{
+			"system"	"unusual_butterflyhead_teamcolor_blue"
+			"id"	"347"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Butterfly Season"
+		}
+		"330"
+		{
+			"system"	"unusual_hippieaura_parent"
+			"id"	"348"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Psycho-Delic"
+		}
+		"331"
+		{
+			"system"	"unusual_butterfly_parent"
+			"id"	"349"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Bewitching Bugs"
+		}
+		"332"
+		{
+			"system"	"unusual_spectral_fire_parent"
+			"id"	"350"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Spectral Fire"
+		}
+		"333"
+		{
+			"system"	"unusual_galactic_fire_parent"
+			"id"	"351"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Galactic Flame"
+		}
+		"334"
+		{
+			"system"	"unusual_frank_green_parent"
+			"id"	"352"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Revived Recharge"
+		}
+		"335"
+		{
+			"system"	"unusual_frank_purple_parent"
+			"id"	"353"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Undead Electricity"
+		}
+		"336"
+		{
+			"system"	"unusual_frank_yellow_parent"
+			"id"	"354"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Frankencharged"
+		}
+		"337"
+		{
+			"system"	"unusual_skullsmoke_green_parent"
+			"id"	"355"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Phantom Plague"
+		}
+		"338"
+		{
+			"system"	"unusual_skullsmoke_purple_parent"
+			"id"	"356"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Haunting Haze"
+		}
+		"339"
+		{
+			"system"	"unusual_pigeons_green_parent"
+			"id"	"357"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Vicious Vampires"
+		}
+		"340"
+		{
+			"system"	"unusual_pigeons_purple_parent"
+			"id"	"358"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Ravenous Ravens"
+		}
+		"341"
+		{
+			"system"	"unusual_pigeons_white_parent"
+			"id"	"359"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Delightful Doves"
+		}
+		"342"
+		{
+			"system"	"unusual_stove_teamcolor_red"
+			"id"	"360"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Searing Stove"
+		}
+		"343"
+		{
+			"system"	"unusual_stove_teamcolor_blue"
+			"id"	"361"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Searing Stove"
+		}
+		"344"
+		{
+			"system"	"unusual_electricfire_teamcolor_red"
+			"id"	"362"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Über Blaze"
+		}
+		"345"
+		{
+			"system"	"unusual_electricfire_teamcolor_blue"
+			"id"	"363"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Über Blaze"
+		}
+		"346"
+		{
+			"system"	"unusual_sizzling_parent"
+			"id"	"364"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Sizzling"
+		}
+		"347"
+		{
+			"system"	"unusual_icrown_teamcolor_red"
+			"id"	"365"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Crystal Crown"
+		}
+		"348"
+		{
+			"system"	"unusual_icrown_teamcolor_blue"
+			"id"	"366"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Crystal Crown"
+		}
+		"349"
+		{
+			"system"	"unusual_icrown_parent_purple"
+			"id"	"367"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Halcyon Halo"
+		}
+		"350"
+		{
+			"system"	"unusual_timeghosts_parent"
+			"id"	"368"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Ghosts of Smissmas Time"
+		}
+		"351"
+		{
+			"system"	"unusual_aurora_parent"
+			"id"	"369"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Aurora Skies"
+		}
+		"352"
+		{
+			"system"	"unusual_bokehsparkle_parent"
+			"id"	"370"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Shining Bokeh"
+		}
+		"353"
+		{
+			"system"	"unusual_playful_purple_parent"
+			"id"	"371"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Playful Aurora"
+		}
+		"354"
+		{
+			"system"	"unusual_playful_yellow_parent"
+			"id"	"372"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Frisky Morning"
+		}
+		"355"
+		{
+			"system"	"unusual_drunk_parent"
+			"id"	"373"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Drunkard"
+		}
+		"356"
+		{
+			"system"	"unusual_excalibur_teamcolor_red"
+			"id"	"374"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Blades of Betrayal"
+		}
+		"357"
+		{
+			"system"	"unusual_excalibur_teamcolor_blue"
+			"id"	"375"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Blades of Betrayal"
+		}
+		"358"
+		{
+			"system"	"unusual_excalibur_parent_purple"
+			"id"	"376"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Death's Daggers"
+		}
+		"359"
+		{
+			"system"	"unusual_uber_teamcolor_red"
+			"id"	"377"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Fully Charged"
+		}
+		"360"
+		{
+			"system"	"unusual_uber_teamcolor_blue"
+			"id"	"378"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Fully Charged"
+		}
+		"361"
+		{
+			"system"	"unusual_uber_gold_parent"
+			"id"	"379"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Overcharged"
+		}
+		"362"
+		{
+			"system"	"unusual_orbitingbullet_parent"
+			"id"	"380"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Piercing Headache"
+		}
+		"363"
+		{
+			"system"	"unusual_typhoon_parent"
+			"id"	"381"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Decimating Wind"
+		}
+		"364"
+		{
+			"system"	"unusual_ocean_swirl_teamcolor_red"
+			"id"	"382"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Ocean Swirl"
+		}
+		"365"
+		{
+			"system"	"unusual_ocean_swirl_teamcolor_blue"
+			"id"	"383"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Ocean Swirl"
+		}
+		"366"
+		{
+			"system"	"unusual_ocean_swirl_green_parent"
+			"id"	"384"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Toxic Swirl"
+		}
+		"367"
+		{
+			"system"	"unusual_candle_teamcolor_red"
+			"id"	"385"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Candle Flame"
+		}
+		"368"
+		{
+			"system"	"unusual_candle_teamcolor_blue"
+			"id"	"386"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Candle Flame"
+		}
+		"369"
+		{
+			"system"	"unusual_deadlyaroma_teamcolor_red"
+			"id"	"387"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Sizzling Aroma"
+		}
+		"370"
+		{
+			"system"	"unusual_deadlyaroma_teamcolor_blue"
+			"id"	"388"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Sizzling Aroma"
+		}
+		"371"
+		{
+			"system"	"unusual_deadlyaroma_green_parent"
+			"id"	"389"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Toxic Aroma"
+		}
+		"372"
+		{
+			"system"	"unusual_conductor_teamc_teamcolor_red"
+			"id"	"390"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Current Conductor"
+		}
+		"373"
+		{
+			"system"	"unusual_conductor_teamc_teamcolor_blue"
+			"id"	"391"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Current Conductor"
+		}
+		"374"
+		{
+			"system"	"unusual_sandy_parent"
+			"id"	"392"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Sandy"
+		}
+		"375"
+		{
 			"system"	"weapon_unusual_hot"
 			"id"	"701"
 			"attach_to_rootbone"	"0"
 			"attachment"	"unusual_0"
 			"name"	"Hot"
 		}
-		"310"
+		"376"
 		{
 			"system"	"weapon_unusual_isotope"
 			"id"	"702"
@@ -12239,7 +12891,7 @@ Killing blows on burning players grant a speed boost."
 			"attachment"	"unusual_0"
 			"name"	"Isotope"
 		}
-		"311"
+		"377"
 		{
 			"system"	"weapon_unusual_cool"
 			"id"	"703"
@@ -12247,7 +12899,7 @@ Killing blows on burning players grant a speed boost."
 			"attachment"	"unusual_0"
 			"name"	"Cool"
 		}
-		"312"
+		"378"
 		{
 			"system"	"weapon_unusual_energyorb"
 			"id"	"704"
@@ -12255,1106 +12907,1582 @@ Killing blows on burning players grant a speed boost."
 			"attachment"	"unusual_0"
 			"name"	"Energy Orb"
 		}
-		"313"
+		"379"
 		{
 			"system"	"killstreak_eyeglow_1_teamcolor_red"
 			"id"	"2001"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2001"
 		}
-		"314"
+		"380"
 		{
 			"system"	"killstreak_t1_lvl1"
 			"id"	"2002"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2002"
 		}
-		"315"
+		"381"
 		{
 			"system"	"killstreak_t2_lvl1"
 			"id"	"2003"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2003"
 		}
-		"316"
+		"382"
 		{
 			"system"	"killstreak_t3_lvl1"
 			"id"	"2004"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2004"
 		}
-		"317"
+		"383"
 		{
 			"system"	"killstreak_t4_lvl1"
 			"id"	"2005"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2005"
 		}
-		"318"
+		"384"
 		{
 			"system"	"killstreak_t5_lvl1"
 			"id"	"2006"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2006"
 		}
-		"319"
+		"385"
 		{
 			"system"	"killstreak_t6_lvl1"
 			"id"	"2007"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2007"
 		}
-		"320"
+		"386"
 		{
 			"system"	"killstreak_t7_lvl1"
 			"id"	"2008"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2008"
 		}
-		"321"
+		"387"
 		{
 			"system"	"utaunt_firework_teamcolor_red"
 			"id"	"3001"
 			"attach_to_rootbone"	"0"
 			"name"	"Showstopper"
 		}
-		"322"
+		"388"
 		{
 			"system"	"utaunt_firework_teamcolor_blue"
 			"id"	"3002"
 			"attach_to_rootbone"	"0"
 			"name"	"Showstopper"
 		}
-		"323"
+		"389"
 		{
 			"system"	"utaunt_beams_yellow"
 			"id"	"3003"
 			"attach_to_rootbone"	"0"
 			"name"	"Holy Grail"
 		}
-		"324"
+		"390"
 		{
 			"system"	"utaunt_disco_party"
 			"id"	"3004"
 			"attach_to_rootbone"	"0"
 			"name"	"'72"
 		}
-		"325"
+		"391"
 		{
 			"system"	"utaunt_hearts_glow_parent"
 			"id"	"3005"
 			"attach_to_rootbone"	"0"
 			"name"	"Fountain of Delight"
 		}
-		"326"
+		"392"
 		{
 			"system"	"utaunt_meteor_parent"
 			"id"	"3006"
 			"attach_to_rootbone"	"0"
 			"name"	"Screaming Tiger"
 		}
-		"327"
+		"393"
 		{
 			"system"	"utaunt_cash_confetti"
 			"id"	"3007"
 			"attach_to_rootbone"	"0"
 			"name"	"Skill Gotten Gains"
 		}
-		"328"
+		"394"
 		{
 			"system"	"utaunt_tornado_parent_black"
 			"id"	"3008"
 			"attach_to_rootbone"	"0"
 			"name"	"Midnight Whirlwind"
 		}
-		"329"
+		"395"
 		{
 			"system"	"utaunt_tornado_parent_white"
 			"id"	"3009"
 			"attach_to_rootbone"	"0"
 			"name"	"Silver Cyclone"
 		}
-		"330"
+		"396"
 		{
 			"system"	"utaunt_lightning_parent"
 			"id"	"3010"
 			"attach_to_rootbone"	"0"
 			"name"	"Mega Strike"
 		}
-		"331"
+		"397"
 		{
 			"system"	"utaunt_souls_green_parent"
 			"id"	"3011"
 			"attach_to_rootbone"	"0"
 			"name"	"Haunted Phantasm"
 		}
-		"332"
+		"398"
 		{
 			"system"	"utaunt_souls_purple_parent"
 			"id"	"3012"
 			"attach_to_rootbone"	"0"
 			"name"	"Ghastly Ghosts"
 		}
-		"333"
+		"399"
 		{
 			"system"	"utaunt_hellpit_parent"
 			"id"	"3013"
 			"attach_to_rootbone"	"0"
 			"name"	"Hellish Inferno"
 		}
-		"334"
+		"400"
 		{
 			"system"	"utaunt_hellswirl"
 			"id"	"3014"
 			"attach_to_rootbone"	"0"
 			"name"	"Spectral Swirl"
 		}
-		"335"
+		"401"
 		{
 			"system"	"utaunt_headless"
 			"id"	"3015"
 			"attach_to_rootbone"	"0"
 			"name"	"Infernal Flames"
 		}
-		"336"
+		"402"
 		{
 			"system"	"utaunt_merasmus"
 			"id"	"3016"
 			"attach_to_rootbone"	"0"
 			"name"	"Infernal Smoke"
 		}
-		"337"
+		"403"
 		{
 			"system"	"utaunt_bubbles_glow_green_parent"
 			"id"	"3017"
 			"attach_to_rootbone"	"0"
 			"name"	"Acidic Bubbles of Envy"
 		}
-		"338"
+		"404"
 		{
 			"system"	"utaunt_bubbles_glow_orange_parent"
 			"id"	"3018"
 			"attach_to_rootbone"	"0"
 			"name"	"Flammable Bubbles of Attraction"
 		}
-		"339"
+		"405"
 		{
 			"system"	"utaunt_bubbles_glow_purple_parent"
 			"id"	"3019"
 			"attach_to_rootbone"	"0"
 			"name"	"Poisonous Bubbles of Regret"
 		}
-		"340"
+		"406"
 		{
 			"system"	"utaunt_firework_dragon_parent"
 			"id"	"3020"
 			"attach_to_rootbone"	"0"
 			"name"	"Roaring Rockets"
 		}
-		"341"
+		"407"
 		{
 			"system"	"utaunt_smoke_moon_parent"
 			"id"	"3021"
 			"attach_to_rootbone"	"0"
 			"name"	"Spooky Night"
 		}
-		"342"
+		"408"
 		{
 			"system"	"utaunt_smoke_moon_green_parent"
 			"id"	"3022"
 			"attach_to_rootbone"	"0"
 			"name"	"Ominous Night"
 		}
-		"343"
+		"409"
 		{
 			"system"	"utaunt_arcane_purple_parent"
 			"id"	"3023"
 			"attach_to_rootbone"	"0"
 			"name"	"Bewitched"
 		}
-		"344"
+		"410"
 		{
 			"system"	"utaunt_arcane_green_parent"
 			"id"	"3024"
 			"attach_to_rootbone"	"0"
 			"name"	"Accursed"
 		}
-		"345"
+		"411"
 		{
 			"system"	"utaunt_arcane_yellow_parent"
 			"id"	"3025"
 			"attach_to_rootbone"	"0"
 			"name"	"Enchanted"
 		}
-		"346"
+		"412"
 		{
 			"system"	"utaunt_electric_mist_parent"
 			"id"	"3026"
 			"attach_to_rootbone"	"0"
 			"name"	"Static Mist"
 		}
-		"347"
+		"413"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WP"
 			"id"	"3027"
 			"attach_to_rootbone"	"0"
 			"name"	"Eerie Lightning"
 		}
-		"348"
+		"414"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WB"
 			"id"	"3028"
 			"attach_to_rootbone"	"0"
 			"name"	"Terrifying Thunder"
 		}
-		"349"
+		"415"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WY"
 			"id"	"3029"
 			"attach_to_rootbone"	"0"
 			"name"	"Jarate Shock"
 		}
-		"350"
+		"416"
 		{
 			"system"	"utaunt_portalswirl_purple_parent"
 			"id"	"3030"
 			"attach_to_rootbone"	"0"
 			"name"	"Nether Void"
 		}
-		"351"
+		"417"
 		{
 			"system"	"utaunt_present_parent"
 			"id"	"3031"
 			"attach_to_rootbone"	"0"
 			"name"	"Good-Hearted Goodies"
 		}
-		"352"
+		"418"
 		{
 			"system"	"utaunt_snowring_icy_parent"
 			"id"	"3032"
 			"attach_to_rootbone"	"0"
 			"name"	"Wintery Wisp"
 		}
-		"353"
+		"419"
 		{
 			"system"	"utaunt_snowring_space_parent"
 			"id"	"3033"
 			"attach_to_rootbone"	"0"
 			"name"	"Arctic Aurora"
 		}
-		"354"
+		"420"
 		{
 			"system"	"utaunt_spirit_winter_parent"
 			"id"	"3034"
 			"attach_to_rootbone"	"0"
 			"name"	"Winter Spirit"
 		}
-		"355"
+		"421"
 		{
 			"system"	"utaunt_spirit_festive_parent"
 			"id"	"3035"
 			"attach_to_rootbone"	"0"
 			"name"	"Festive Spirit"
 		}
-		"356"
+		"422"
 		{
 			"system"	"utaunt_spirit_magical_parent"
 			"id"	"3036"
 			"attach_to_rootbone"	"0"
 			"name"	"Magical Spirit"
 		}
-		"357"
+		"423"
 		{
 			"system"	"utaunt_astralbodies_greenorange_parent"
 			"id"	"3037"
 			"attach_to_rootbone"	"0"
 			"name"	"Spectral Escort"
 		}
-		"358"
+		"424"
 		{
 			"system"	"utaunt_astralbodies_tealpurple_parent"
 			"id"	"3038"
 			"attach_to_rootbone"	"0"
 			"name"	"Astral Presence"
 		}
-		"359"
+		"425"
 		{
 			"system"	"utaunt_astralbodies_teamcolor_red"
 			"id"	"3039"
 			"attach_to_rootbone"	"0"
 			"name"	"Arcane Assistance"
 		}
-		"360"
+		"426"
 		{
 			"system"	"utaunt_astralbodies_teamcolor_blue"
 			"id"	"3040"
 			"attach_to_rootbone"	"0"
 			"name"	"Arcane Assistance"
 		}
-		"361"
+		"427"
 		{
 			"system"	"utaunt_glowyplayer_green_parent"
 			"id"	"3041"
 			"attach_to_rootbone"	"0"
 			"name"	"Emerald Allurement"
 		}
-		"362"
+		"428"
 		{
 			"system"	"utaunt_glowyplayer_orange_parent"
 			"id"	"3042"
 			"attach_to_rootbone"	"0"
 			"name"	"Pyrophoric Personality"
 		}
-		"363"
+		"429"
 		{
 			"system"	"utaunt_glowyplayer_purple_parent"
 			"id"	"3043"
 			"attach_to_rootbone"	"0"
 			"name"	"Spellbound Aspect"
 		}
-		"364"
+		"430"
 		{
 			"system"	"utaunt_electricity_parent"
 			"id"	"3044"
 			"attach_to_rootbone"	"0"
 			"name"	"Static Shock"
 		}
-		"365"
+		"431"
 		{
 			"system"	"utaunt_electricity_purple_parent"
 			"id"	"3045"
 			"attach_to_rootbone"	"0"
 			"name"	"Veno Shock"
 		}
-		"366"
+		"432"
 		{
 			"system"	"utaunt_spider_green_parent"
 			"id"	"3046"
 			"attach_to_rootbone"	"0"
 			"name"	"Toxic Terrors"
 		}
-		"367"
+		"433"
 		{
 			"system"	"utaunt_spider_orange_parent"
 			"id"	"3047"
 			"attach_to_rootbone"	"0"
 			"name"	"Arachnid Assault"
 		}
-		"368"
+		"434"
 		{
 			"system"	"utaunt_spider_purple_parent"
 			"id"	"3048"
 			"attach_to_rootbone"	"0"
 			"name"	"Creepy Crawlies"
 		}
-		"369"
+		"435"
 		{
 			"system"	"utaunt_tf2smissmas_tree_parent"
 			"id"	"3049"
 			"attach_to_rootbone"	"0"
 			"name"	"Delightful Star"
 		}
-		"370"
+		"436"
 		{
 			"system"	"utaunt_tf2smissmas_tree_parent_w"
 			"id"	"3050"
 			"attach_to_rootbone"	"0"
 			"name"	"Frosted Star"
 		}
-		"371"
+		"437"
 		{
 			"system"	"utaunt_spirits_blue_parent"
 			"id"	"3051"
 			"attach_to_rootbone"	"0"
 			"name"	"Apotheosis"
 		}
-		"372"
+		"438"
 		{
 			"system"	"utaunt_spirits_purple_parent"
 			"id"	"3052"
 			"attach_to_rootbone"	"0"
 			"name"	"Ascension"
 		}
-		"373"
+		"439"
 		{
 			"system"	"utaunt_balloonicorn_reindeer_teamcolor_red"
 			"id"	"3053"
 			"attach_to_rootbone"	"0"
 			"name"	"Reindoonicorn Rancher"
 		}
-		"374"
+		"440"
 		{
 			"system"	"utaunt_balloonicorn_reindeer_teamcolor_blue"
 			"id"	"3054"
 			"attach_to_rootbone"	"0"
 			"name"	"Reindoonicorn Rancher"
 		}
-		"375"
+		"441"
 		{
 			"system"	"utaunt_twinkling_rgb_parent"
 			"id"	"3055"
 			"attach_to_rootbone"	"0"
 			"name"	"Twinkling Lights"
 		}
-		"376"
+		"442"
 		{
 			"system"	"utaunt_twinkling_goldsilver_parent"
 			"id"	"3056"
 			"attach_to_rootbone"	"0"
 			"name"	"Shimmering Lights"
 		}
-		"377"
+		"443"
 		{
 			"system"	"utaunt_chain_green_parent"
 			"id"	"3059"
 			"attach_to_rootbone"	"0"
 			"name"	"Spectral Shackles"
 		}
-		"378"
+		"444"
 		{
 			"system"	"utaunt_chain_purple_parent"
 			"id"	"3060"
 			"attach_to_rootbone"	"0"
 			"name"	"Cursed Confinement"
 		}
-		"379"
+		"445"
 		{
 			"system"	"utaunt_tarotcard_teamcolor_red"
 			"id"	"3061"
 			"attach_to_rootbone"	"0"
 			"name"	"Cavalier de Carte"
 		}
-		"380"
+		"446"
 		{
 			"system"	"utaunt_tarotcard_teamcolor_blue"
 			"id"	"3062"
 			"attach_to_rootbone"	"0"
 			"name"	"Cavalier de Carte"
 		}
-		"381"
+		"447"
 		{
 			"system"	"utaunt_tarotcard_orange_parent"
 			"id"	"3063"
 			"attach_to_rootbone"	"0"
 			"name"	"Hollow Flourish"
 		}
-		"382"
+		"448"
 		{
 			"system"	"utaunt_tarotcard_purple_parent"
 			"id"	"3064"
 			"attach_to_rootbone"	"0"
 			"name"	"Magic Shuffle"
 		}
-		"383"
+		"449"
 		{
 			"system"	"utaunt_elebound_green_parent"
 			"id"	"3065"
 			"attach_to_rootbone"	"0"
 			"name"	"Vigorous Pulse"
 		}
-		"384"
+		"450"
 		{
 			"system"	"utaunt_elebound_purple_parent"
 			"id"	"3066"
 			"attach_to_rootbone"	"0"
 			"name"	"Thundering Spirit"
 		}
-		"385"
+		"451"
 		{
 			"system"	"utaunt_elebound_yellow_parent"
 			"id"	"3067"
 			"attach_to_rootbone"	"0"
 			"name"	"Galvanic Defiance"
 		}
-		"386"
+		"452"
 		{
 			"system"	"utaunt_wispy_parent_g"
 			"id"	"3068"
 			"attach_to_rootbone"	"0"
 			"name"	"Wispy Halos"
 		}
-		"387"
+		"453"
 		{
 			"system"	"utaunt_wispy_parent_p"
 			"id"	"3069"
 			"attach_to_rootbone"	"0"
 			"name"	"Nether Wisps"
 		}
-		"388"
+		"454"
 		{
 			"system"	"utaunt_auroraglow_green_parent"
 			"id"	"3070"
 			"attach_to_rootbone"	"0"
 			"name"	"Aurora Borealis"
 		}
-		"389"
+		"455"
 		{
 			"system"	"utaunt_auroraglow_orange_parent"
 			"id"	"3071"
 			"attach_to_rootbone"	"0"
 			"name"	"Aurora Australis"
 		}
-		"390"
+		"456"
 		{
 			"system"	"utaunt_auroraglow_purple_parent"
 			"id"	"3072"
 			"attach_to_rootbone"	"0"
 			"name"	"Aurora Polaris"
 		}
-		"391"
+		"457"
 		{
 			"system"	"utaunt_snowswirl_purple_parent"
 			"id"	"3073"
 			"attach_to_rootbone"	"0"
 			"name"	"Amethyst Winds"
 		}
-		"392"
+		"458"
 		{
 			"system"	"utaunt_snowswirl_yellow_parent"
 			"id"	"3074"
 			"attach_to_rootbone"	"0"
 			"name"	"Golden Gusts"
 		}
-		"393"
+		"459"
 		{
 			"system"	"utaunt_snowswirl_teamcolor_red"
 			"id"	"3075"
 			"attach_to_rootbone"	"0"
 			"name"	"Smissmas Swirls"
 		}
-		"394"
+		"460"
 		{
 			"system"	"utaunt_snowswirl_teamcolor_blue"
 			"id"	"3076"
 			"attach_to_rootbone"	"0"
 			"name"	"Smissmas Swirls"
 		}
-		"395"
+		"461"
 		{
 			"system"	"utaunt_treespiral_green_parent"
 			"id"	"3077"
 			"attach_to_rootbone"	"0"
 			"name"	"Minty Cypress"
 		}
-		"396"
+		"462"
 		{
 			"system"	"utaunt_treespiral_purple_parent"
 			"id"	"3078"
 			"attach_to_rootbone"	"0"
 			"name"	"Pristine Pine"
 		}
-		"397"
+		"463"
 		{
 			"system"	"utaunt_treespiral_teamcolor_red"
 			"id"	"3079"
 			"attach_to_rootbone"	"0"
 			"name"	"Sparkly Spruce"
 		}
-		"398"
+		"464"
 		{
 			"system"	"utaunt_treespiral_teamcolor_blue"
 			"id"	"3080"
 			"attach_to_rootbone"	"0"
 			"name"	"Sparkly Spruce"
 		}
-		"399"
+		"465"
 		{
 			"system"	"utaunt_gifts_teamcolor_red"
 			"id"	"3081"
 			"attach_to_rootbone"	"0"
 			"name"	"Festive Fever"
 		}
-		"400"
+		"466"
 		{
 			"system"	"utaunt_gifts_teamcolor_blue"
 			"id"	"3082"
 			"attach_to_rootbone"	"0"
 			"name"	"Festive Fever"
 		}
-		"401"
+		"467"
 		{
 			"system"	"utaunt_glitter_parent_gold"
 			"id"	"3083"
 			"attach_to_rootbone"	"0"
 			"name"	"Golden Glimmer"
 		}
-		"402"
+		"468"
 		{
 			"system"	"utaunt_glitter_parent_silver"
 			"id"	"3084"
 			"attach_to_rootbone"	"0"
 			"name"	"Frosty Silver"
 		}
-		"403"
+		"469"
 		{
 			"system"	"utaunt_glitter_teamcolor_red"
 			"id"	"3085"
 			"attach_to_rootbone"	"0"
 			"name"	"Glamorous Dazzle"
 		}
-		"404"
+		"470"
 		{
 			"system"	"utaunt_glitter_teamcolor_blue"
 			"id"	"3086"
 			"attach_to_rootbone"	"0"
 			"name"	"Glamorous Dazzle"
 		}
-		"405"
+		"471"
 		{
 			"system"	"utaunt_ice_parent"
 			"id"	"3087"
 			"attach_to_rootbone"	"0"
 			"name"	"Sublime Snowstorm"
 		}
-		"406"
+		"472"
 		{
 			"system"	"utaunt_marigoldritual_teamcolor_red"
 			"id"	"3088"
 			"attach_to_rootbone"	"0"
 			"name"	"Marigold Ritual"
 		}
-		"407"
+		"473"
 		{
 			"system"	"utaunt_marigoldritual_teamcolor_blue"
 			"id"	"3089"
 			"attach_to_rootbone"	"0"
 			"name"	"Marigold Ritual"
 		}
-		"408"
+		"474"
 		{
 			"system"	"utaunt_poison_parent_green"
 			"id"	"3090"
 			"attach_to_rootbone"	"0"
 			"name"	"Pungent Poison"
 		}
-		"409"
+		"475"
 		{
 			"system"	"utaunt_poison_parent_orange"
 			"id"	"3091"
 			"attach_to_rootbone"	"0"
 			"name"	"Blazed Brew"
 		}
-		"410"
+		"476"
 		{
 			"system"	"utaunt_poison_parent_purple"
 			"id"	"3092"
 			"attach_to_rootbone"	"0"
 			"name"	"Mysterious Mixture"
 		}
-		"411"
+		"477"
 		{
 			"system"	"utaunt_runeprison_green_parent"
 			"id"	"3093"
 			"attach_to_rootbone"	"0"
 			"name"	"Linguistic Deviation"
 		}
-		"412"
+		"478"
 		{
 			"system"	"utaunt_runeprison_yellow_parent"
 			"id"	"3094"
 			"attach_to_rootbone"	"0"
 			"name"	"Aurelian Seal"
 		}
-		"413"
+		"479"
 		{
 			"system"	"utaunt_runeprison_teamcolor_red"
 			"id"	"3095"
 			"attach_to_rootbone"	"0"
 			"name"	"Runic Imprisonment"
 		}
-		"414"
+		"480"
 		{
 			"system"	"utaunt_runeprison_teamcolor_blue"
 			"id"	"3096"
 			"attach_to_rootbone"	"0"
 			"name"	"Runic Imprisonment"
 		}
-		"415"
+		"481"
 		{
 			"system"	"utaunt_prismatichaze_parent"
 			"id"	"3097"
 			"attach_to_rootbone"	"0"
 			"name"	"Prismatic Haze"
 		}
-		"416"
+		"482"
 		{
 			"system"	"utaunt_risingsprit_teamcolor_red"
 			"id"	"3098"
 			"attach_to_rootbone"	"0"
 			"name"	"Rising Ritual"
 		}
-		"417"
+		"483"
 		{
 			"system"	"utaunt_risingsprit_teamcolor_blue"
 			"id"	"3099"
 			"attach_to_rootbone"	"0"
 			"name"	"Rising Ritual"
 		}
-		"418"
+		"484"
 		{
 			"system"	"utaunt_hands_teamcolor_red"
 			"id"	"3100"
 			"attach_to_rootbone"	"0"
 			"name"	"Bloody Grip"
 		}
-		"419"
+		"485"
 		{
 			"system"	"utaunt_hands_teamcolor_blue"
 			"id"	"3101"
 			"attach_to_rootbone"	"0"
 			"name"	"Bloody Grip"
 		}
-		"420"
+		"486"
 		{
 			"system"	"utaunt_hands_green_parent"
 			"id"	"3102"
 			"attach_to_rootbone"	"0"
 			"name"	"Toxic Grip"
 		}
-		"421"
+		"487"
 		{
 			"system"	"utaunt_hands_orange_parent"
 			"id"	"3103"
 			"attach_to_rootbone"	"0"
 			"name"	"Infernal Grip"
 		}
-		"422"
+		"488"
 		{
 			"system"	"utaunt_hands_purple_parent"
 			"id"	"3104"
 			"attach_to_rootbone"	"0"
 			"name"	"Death Grip"
 		}
-		"423"
+		"489"
 		{
 			"system"	"utaunt_storm_parent_g"
 			"id"	"3105"
 			"attach_to_rootbone"	"0"
 			"name"	"Charged Arcane"
 		}
-		"424"
+		"490"
 		{
 			"system"	"utaunt_storm_parent_k"
 			"id"	"3106"
 			"attach_to_rootbone"	"0"
 			"name"	"Thunderous Rage"
 		}
-		"425"
+		"491"
 		{
 			"system"	"utaunt_storm_parent_o"
 			"id"	"3107"
 			"attach_to_rootbone"	"0"
 			"name"	"Convulsive Fiery"
 		}
-		"426"
+		"492"
 		{
 			"system"	"utaunt_festivelights_teamcolor_red"
 			"id"	"3108"
 			"attach_to_rootbone"	"0"
 			"name"	"Festivized Formation"
 		}
-		"427"
+		"493"
 		{
 			"system"	"utaunt_festivelights_teamcolor_blue"
 			"id"	"3109"
 			"attach_to_rootbone"	"0"
 			"name"	"Festivized Formation"
 		}
-		"428"
+		"494"
 		{
 			"system"	"utaunt_glow_spirit_parent_cr"
 			"id"	"3110"
 			"attach_to_rootbone"	"0"
 			"name"	"Twirling Spirits"
 		}
-		"429"
+		"495"
 		{
 			"system"	"utaunt_glow_spirit_parent_og"
 			"id"	"3111"
 			"attach_to_rootbone"	"0"
 			"name"	"Squash n' Twist"
 		}
-		"430"
+		"496"
 		{
 			"system"	"utaunt_glow_spirit_parent_pp"
 			"id"	"3112"
 			"attach_to_rootbone"	"0"
 			"name"	"Midnight Sparklers"
 		}
-		"431"
+		"497"
 		{
 			"system"	"utaunt_snowflakesaura_parent"
 			"id"	"3113"
 			"attach_to_rootbone"	"0"
 			"name"	"Boundless Blizzard"
 		}
-		"432"
+		"498"
 		{
 			"system"	"utaunt_sun_sand_rays_parent"
 			"id"	"3114"
 			"attach_to_rootbone"	"0"
 			"name"	"Solar Scorched"
 		}
-		"433"
+		"499"
 		{
 			"system"	"utaunt_undersea_teamcolor_red"
 			"id"	"3115"
 			"attach_to_rootbone"	"0"
 			"name"	"Deepsea Rave"
 		}
-		"434"
+		"500"
 		{
 			"system"	"utaunt_undersea_teamcolor_blue"
 			"id"	"3116"
 			"attach_to_rootbone"	"0"
 			"name"	"Deepsea Rave"
 		}
-		"435"
+		"501"
 		{
 			"system"	"utaunt_lavalamp_green_parent"
 			"id"	"3117"
 			"attach_to_rootbone"	"0"
 			"name"	"Blooming Beacon"
 		}
-		"436"
+		"502"
 		{
 			"system"	"utaunt_lavalamp_purple_parent"
 			"id"	"3118"
 			"attach_to_rootbone"	"0"
 			"name"	"Beaming Beacon"
 		}
-		"437"
+		"503"
 		{
 			"system"	"utaunt_lavalamp_yellow_parent"
 			"id"	"3119"
 			"attach_to_rootbone"	"0"
 			"name"	"Blazing Beacon"
 		}
-		"438"
+		"504"
 		{
 			"system"	"utaunt_fish_parent"
 			"id"	"3120"
 			"attach_to_rootbone"	"0"
 			"name"	"Floppin' Frenzy"
 		}
-		"439"
+		"505"
 		{
 			"system"	"utaunt_rainbow_teamcolor_red"
 			"id"	"3121"
 			"attach_to_rootbone"	"0"
 			"name"	"Pastel Trance"
 		}
-		"440"
+		"506"
 		{
 			"system"	"utaunt_rainbow_teamcolor_blue"
 			"id"	"3122"
 			"attach_to_rootbone"	"0"
 			"name"	"Pastel Trance"
 		}
-		"441"
+		"507"
 		{
 			"system"	"utaunt_wild_meadows_parent"
 			"id"	"3123"
 			"attach_to_rootbone"	"0"
 			"name"	"Wildflower Meadows"
 		}
-		"442"
+		"508"
 		{
 			"system"	"utaunt_krakenmouth_green_parent"
 			"id"	"3124"
 			"attach_to_rootbone"	"0"
-			"name"	"Deep-sea Devourer"
+			"name"	"Deep-Sea Devourer"
 		}
-		"443"
+		"509"
 		{
 			"system"	"utaunt_krakenmouth_purple_parent"
 			"id"	"3125"
 			"attach_to_rootbone"	"0"
 			"name"	"Eldritch Horror"
 		}
-		"444"
+		"510"
 		{
 			"system"	"utaunt_leaftaunt_parent"
 			"id"	"3126"
 			"attach_to_rootbone"	"0"
 			"name"	"Autumn Leaves"
 		}
-		"445"
+		"511"
 		{
 			"system"	"utaunt_graveparty_parent"
 			"id"	"3127"
 			"attach_to_rootbone"	"0"
 			"name"	"Dead Man's Party"
 		}
-		"446"
+		"512"
 		{
 			"system"	"utaunt_spellsplash_parent"
 			"id"	"3128"
 			"attach_to_rootbone"	"0"
 			"name"	"Potion Explosion"
 		}
-		"447"
+		"513"
 		{
 			"system"	"utaunt_cremation_purple_parent"
 			"id"	"3129"
 			"attach_to_rootbone"	"0"
 			"name"	"Haunted Cremation"
 		}
-		"448"
+		"514"
 		{
 			"system"	"utaunt_cremation_black_parent"
 			"id"	"3130"
 			"attach_to_rootbone"	"0"
 			"name"	"Cremation"
 		}
-		"449"
+		"515"
 		{
 			"system"	"utaunt_snowfall_parent"
 			"id"	"3131"
 			"attach_to_rootbone"	"0"
 			"name"	"Snowfall"
 		}
-		"450"
+		"516"
 		{
 			"system"	"utaunt_constellations_teamcolor_red"
 			"id"	"3132"
 			"attach_to_rootbone"	"0"
 			"name"	"Galactic Connection"
 		}
-		"451"
+		"517"
 		{
 			"system"	"utaunt_constellations_teamcolor_blue"
 			"id"	"3133"
 			"attach_to_rootbone"	"0"
 			"name"	"Galactic Connection"
 		}
-		"452"
+		"518"
 		{
 			"system"	"utaunt_constellations_purple_parent"
 			"id"	"3134"
 			"attach_to_rootbone"	"0"
 			"name"	"Dark Twilight"
 		}
-		"453"
+		"519"
 		{
 			"system"	"utaunt_constellations_pink_parent"
 			"id"	"3135"
 			"attach_to_rootbone"	"0"
 			"name"	"Eldritch Rift"
 		}
-		"454"
+		"520"
 		{
 			"system"	"utaunt_wispyworks_orangegreen_parent"
 			"id"	"3136"
 			"attach_to_rootbone"	"0"
 			"name"	"Selfless Sensation"
 		}
-		"455"
+		"521"
 		{
 			"system"	"utaunt_wispyworks_purpleblue_parent"
 			"id"	"3137"
 			"attach_to_rootbone"	"0"
 			"name"	"Distant Desire"
 		}
-		"456"
+		"522"
 		{
 			"system"	"utaunt_wispyworks_yellowpurple_parent"
 			"id"	"3138"
 			"attach_to_rootbone"	"0"
 			"name"	"Glamorous Glance"
 		}
-		"457"
+		"523"
 		{
 			"system"	"utaunt_innerblizzard_teamcolor_red"
 			"id"	"3139"
 			"attach_to_rootbone"	"0"
 			"name"	"Permafrost Essence"
 		}
-		"458"
+		"524"
 		{
 			"system"	"utaunt_innerblizzard_teamcolor_blue"
 			"id"	"3140"
 			"attach_to_rootbone"	"0"
 			"name"	"Permafrost Essence"
 		}
-		"459"
+		"525"
 		{
 			"system"	"utaunt_innerblizzard_purple_parent"
 			"id"	"3141"
 			"attach_to_rootbone"	"0"
 			"name"	"Arctic Delight"
 		}
-		"460"
+		"526"
 		{
 			"system"	"utaunt_spotlight_parent"
 			"id"	"3142"
 			"attach_to_rootbone"	"0"
 			"name"	"Winning Spirit"
 		}
-		"461"
+		"527"
 		{
 			"system"	"utaunt_pedalfly_teamcolor_red"
 			"id"	"3143"
 			"attach_to_rootbone"	"0"
 			"name"	"Petal Prance"
 		}
-		"462"
+		"528"
 		{
 			"system"	"utaunt_pedalfly_teamcolor_blue"
 			"id"	"3144"
 			"attach_to_rootbone"	"0"
 			"name"	"Petal Prance"
 		}
-		"463"
+		"529"
+		{
+			"system"	"utaunt_dragonfly_teamcolor_red"
+			"id"	"3145"
+			"attach_to_rootbone"	"0"
+			"name"	"Dragonflies' Embrace"
+		}
+		"530"
+		{
+			"system"	"utaunt_dragonfly_teamcolor_blue"
+			"id"	"3146"
+			"attach_to_rootbone"	"0"
+			"name"	"Dragonflies' Embrace"
+		}
+		"531"
+		{
+			"system"	"utaunt_dragonfly_green_parent"
+			"id"	"3147"
+			"attach_to_rootbone"	"0"
+			"name"	"Dragonflies' Nature"
+		}
+		"532"
+		{
+			"system"	"utaunt_dragonfly_purple_parent"
+			"id"	"3148"
+			"attach_to_rootbone"	"0"
+			"name"	"Dragonflies' Lucent"
+		}
+		"533"
+		{
+			"system"	"utaunt_demigodery_teamcolor_red"
+			"id"	"3149"
+			"attach_to_rootbone"	"0"
+			"name"	"Electrocution"
+		}
+		"534"
+		{
+			"system"	"utaunt_demigodery_teamcolor_blue"
+			"id"	"3150"
+			"attach_to_rootbone"	"0"
+			"name"	"Electrocution"
+		}
+		"535"
+		{
+			"system"	"utaunt_signalflares_teamcolor_red"
+			"id"	"3151"
+			"attach_to_rootbone"	"0"
+			"name"	"Distress Signal"
+		}
+		"536"
+		{
+			"system"	"utaunt_signalflares_teamcolor_blue"
+			"id"	"3152"
+			"attach_to_rootbone"	"0"
+			"name"	"Distress Signal"
+		}
+		"537"
+		{
+			"system"	"utaunt_signalflares_green_parent"
+			"id"	"3153"
+			"attach_to_rootbone"	"0"
+			"name"	"Carioca's Call"
+		}
+		"538"
+		{
+			"system"	"utaunt_celebrationtime_teamcolor_red"
+			"id"	"3154"
+			"attach_to_rootbone"	"0"
+			"name"	"Fiesta Royale"
+		}
+		"539"
+		{
+			"system"	"utaunt_celebrationtime_teamcolor_blue"
+			"id"	"3155"
+			"attach_to_rootbone"	"0"
+			"name"	"Fiesta Royale"
+		}
+		"540"
+		{
+			"system"	"utaunt_celebrationtime_yellow_parent"
+			"id"	"3156"
+			"attach_to_rootbone"	"0"
+			"name"	"Grand Jubilee"
+		}
+		"541"
+		{
+			"system"	"utaunt_god_lava_teamcolor_red"
+			"id"	"3157"
+			"attach_to_rootbone"	"0"
+			"name"	"Elemental"
+		}
+		"542"
+		{
+			"system"	"utaunt_god_lava_teamcolor_blue"
+			"id"	"3158"
+			"attach_to_rootbone"	"0"
+			"name"	"Elemental"
+		}
+		"543"
+		{
+			"system"	"utaunt_god_gold_parent"
+			"id"	"3159"
+			"attach_to_rootbone"	"0"
+			"name"	"Godlike"
+		}
+		"544"
+		{
+			"system"	"utaunt_aestheticlogo_teamcolor_red"
+			"id"	"3160"
+			"attach_to_rootbone"	"0"
+			"name"	"Teamwork Valorance"
+		}
+		"545"
+		{
+			"system"	"utaunt_aestheticlogo_teamcolor_blue"
+			"id"	"3161"
+			"attach_to_rootbone"	"0"
+			"name"	"Teamwork Valorance"
+		}
+		"546"
+		{
+			"system"	"utaunt_aestheticlogo_orange_parent"
+			"id"	"3162"
+			"attach_to_rootbone"	"0"
+			"name"	"Legacy Logo"
+		}
+		"547"
+		{
+			"system"	"utaunt_desert_wind_parent"
+			"id"	"3163"
+			"attach_to_rootbone"	"0"
+			"name"	"Desert Wind"
+		}
+		"548"
+		{
+			"system"	"utaunt_desert_monsoon_parent"
+			"id"	"3164"
+			"attach_to_rootbone"	"0"
+			"name"	"Monsoon Season"
+		}
+		"549"
+		{
+			"system"	"utaunt_treasure_teamcolor_red"
+			"id"	"3165"
+			"attach_to_rootbone"	"0"
+			"name"	"Bountiful Riches"
+		}
+		"550"
+		{
+			"system"	"utaunt_treasure_teamcolor_blue"
+			"id"	"3166"
+			"attach_to_rootbone"	"0"
+			"name"	"Bountiful Riches"
+		}
+		"551"
+		{
+			"system"	"utaunt_hearttreasure_parent"
+			"id"	"3167"
+			"attach_to_rootbone"	"0"
+			"name"	"Luxurious Lover"
+		}
+		"552"
+		{
+			"system"	"utaunt_wiggletube_teamcolor_red"
+			"id"	"3168"
+			"attach_to_rootbone"	"0"
+			"name"	"Amatory"
+		}
+		"553"
+		{
+			"system"	"utaunt_wiggletube_teamcolor_blue"
+			"id"	"3169"
+			"attach_to_rootbone"	"0"
+			"name"	"Amatory"
+		}
+		"554"
+		{
+			"system"	"utaunt_wiggletube_coffee_parent"
+			"id"	"3170"
+			"attach_to_rootbone"	"0"
+			"name"	"Electrum"
+		}
+		"555"
+		{
+			"system"	"utaunt_flowerrain_teamcolor_red"
+			"id"	"3171"
+			"attach_to_rootbone"	"0"
+			"name"	"Sakura Blessings"
+		}
+		"556"
+		{
+			"system"	"utaunt_flowerrain_teamcolor_blue"
+			"id"	"3172"
+			"attach_to_rootbone"	"0"
+			"name"	"Sakura Blessings"
+		}
+		"557"
+		{
+			"system"	"utaunt_flowerrain_purple_parent"
+			"id"	"3173"
+			"attach_to_rootbone"	"0"
+			"name"	"Violent Violets"
+		}
+		"558"
+		{
+			"system"	"utaunt_poweraura_teamcolor_red"
+			"id"	"3174"
+			"attach_to_rootbone"	"0"
+			"name"	"Power Pressure"
+		}
+		"559"
+		{
+			"system"	"utaunt_poweraura_teamcolor_blue"
+			"id"	"3175"
+			"attach_to_rootbone"	"0"
+			"name"	"Power Pressure"
+		}
+		"560"
+		{
+			"system"	"utaunt_poweraura_green_parent"
+			"id"	"3176"
+			"attach_to_rootbone"	"0"
+			"name"	"Magnifying Momentum"
+		}
+		"561"
+		{
+			"system"	"utaunt_poweraura_purple_parent"
+			"id"	"3177"
+			"attach_to_rootbone"	"0"
+			"name"	"Charging Catalyst"
+		}
+		"562"
+		{
+			"system"	"utaunt_poweraura_yellow_parent"
+			"id"	"3178"
+			"attach_to_rootbone"	"0"
+			"name"	"Amplifying Aura"
+		}
+		"563"
+		{
+			"system"	"utaunt_mysticfusion_parent"
+			"id"	"3179"
+			"attach_to_rootbone"	"0"
+			"name"	"Mystic Fusion"
+		}
+		"564"
+		{
+			"system"	"utaunt_confetti_gy_parent"
+			"id"	"3180"
+			"attach_to_rootbone"	"0"
+			"name"	"Obnoxious Confetti"
+		}
+		"565"
+		{
+			"system"	"utaunt_confetti_pp_parent"
+			"id"	"3181"
+			"attach_to_rootbone"	"0"
+			"name"	"Lovable Confetti"
+		}
+		"566"
+		{
+			"system"	"utaunt_confetti_yp_parent"
+			"id"	"3182"
+			"attach_to_rootbone"	"0"
+			"name"	"Confetti Celebration"
+		}
+		"567"
+		{
+			"system"	"utaunt_heavyrain_parent"
+			"id"	"3183"
+			"attach_to_rootbone"	"0"
+			"name"	"Heavy Rain"
+		}
+		"568"
+		{
+			"system"	"utaunt_field_parent"
+			"id"	"3184"
+			"attach_to_rootbone"	"0"
+			"name"	"Pumpkin Patch"
+		}
+		"569"
+		{
+			"system"	"utaunt_whitesmissmas_parent"
+			"id"	"3185"
+			"attach_to_rootbone"	"0"
+			"name"	"Snowy Day"
+		}
+		"570"
+		{
+			"system"	"utaunt_busysnow_teamcolor_red"
+			"id"	"3186"
+			"attach_to_rootbone"	"0"
+			"name"	"Snowy Spirit"
+		}
+		"571"
+		{
+			"system"	"utaunt_busysnow_teamcolor_blue"
+			"id"	"3187"
+			"attach_to_rootbone"	"0"
+			"name"	"Snowy Spirit"
+		}
+		"572"
+		{
+			"system"	"utaunt_busysnow_parent_p"
+			"id"	"3188"
+			"attach_to_rootbone"	"0"
+			"name"	"Lavender Sensation"
+		}
+		"573"
+		{
+			"system"	"utaunt_busysnow_parent_g"
+			"id"	"3189"
+			"attach_to_rootbone"	"0"
+			"name"	"Verdant Phenomenon"
+		}
+		"574"
+		{
+			"system"	"utaunt_roses_teamcolor_red"
+			"id"	"3190"
+			"attach_to_rootbone"	"0"
+			"name"	"Award Winning"
+		}
+		"575"
+		{
+			"system"	"utaunt_roses_teamcolor_blue"
+			"id"	"3191"
+			"attach_to_rootbone"	"0"
+			"name"	"Award Winning"
+		}
+		"576"
+		{
+			"system"	"utaunt_roses_gold_parent"
+			"id"	"3192"
+			"attach_to_rootbone"	"0"
+			"name"	"Operatic Triumph"
+		}
+		"577"
+		{
+			"system"	"utaunt_tangledlights_parent"
+			"id"	"3193"
+			"attach_to_rootbone"	"0"
+			"name"	"Tangled Lights"
+		}
+		"578"
+		{
+			"system"	"utaunt_seamine_teamcolor_red"
+			"id"	"3194"
+			"attach_to_rootbone"	"0"
+			"name"	"Seamine"
+		}
+		"579"
+		{
+			"system"	"utaunt_seamine_teamcolor_blue"
+			"id"	"3195"
+			"attach_to_rootbone"	"0"
+			"name"	"Seamine"
+		}
+		"580"
+		{
+			"system"	"utaunt_iconicoutline_teamcolor_red"
+			"id"	"3196"
+			"attach_to_rootbone"	"0"
+			"name"	"Iconic Outline"
+		}
+		"581"
+		{
+			"system"	"utaunt_iconicoutline_teamcolor_blue"
+			"id"	"3197"
+			"attach_to_rootbone"	"0"
+			"name"	"Iconic Outline"
+		}
+		"582"
+		{
+			"system"	"utaunt_iconicoutline_pink_parent"
+			"id"	"3198"
+			"attach_to_rootbone"	"0"
+			"name"	"Subtle Silhouette"
+		}
+		"583"
+		{
+			"system"	"utaunt_oceanreef_parent"
+			"id"	"3199"
+			"attach_to_rootbone"	"0"
+			"name"	"Ocean Reef"
+		}
+		"584"
+		{
+			"system"	"utaunt_signalinterference_parent"
+			"id"	"3200"
+			"attach_to_rootbone"	"0"
+			"name"	"Lost Signal"
+		}
+		"585"
+		{
+			"system"	"utaunt_waterwave_parent"
+			"id"	"3201"
+			"attach_to_rootbone"	"0"
+			"name"	"Summer Wave"
+		}
+		"586"
+		{
+			"system"	"utaunt_sharkfin2_parent"
+			"id"	"3202"
+			"attach_to_rootbone"	"0"
+			"name"	"Shark Attack"
+		}
+		"587"
+		{
+			"system"	"utaunt_phantasam_green_parent"
+			"id"	"3203"
+			"attach_to_rootbone"	"0"
+			"name"	"Hazardous Gas"
+		}
+		"588"
+		{
+			"system"	"utaunt_phantasam_grey_parent"
+			"id"	"3204"
+			"attach_to_rootbone"	"0"
+			"name"	"Phantasmal Fog"
+		}
+		"589"
+		{
+			"system"	"utaunt_phantasam_purple_parent"
+			"id"	"3205"
+			"attach_to_rootbone"	"0"
+			"name"	"Haunted Mist"
+		}
+		"590"
+		{
+			"system"	"utaunt_multicurse_teamcolor_red"
+			"id"	"3206"
+			"attach_to_rootbone"	"0"
+			"name"	"Split Malice"
+		}
+		"591"
+		{
+			"system"	"utaunt_multicurse_teamcolor_blue"
+			"id"	"3207"
+			"attach_to_rootbone"	"0"
+			"name"	"Split Malice"
+		}
+		"592"
+		{
+			"system"	"utaunt_voidcrawlers_parent"
+			"id"	"3208"
+			"attach_to_rootbone"	"0"
+			"name"	"Void Crawlers"
+		}
+		"593"
+		{
+			"system"	"utaunt_tarpit_dinos_parent"
+			"id"	"3209"
+			"attach_to_rootbone"	"0"
+			"name"	"Fossil Fueled"
+		}
+		"594"
+		{
+			"system"	"utaunt_tarpit_people_parent"
+			"id"	"3210"
+			"attach_to_rootbone"	"0"
+			"name"	"Tar Pit"
+		}
+		"595"
+		{
+			"system"	"utaunt_morbed_teamcolor_red"
+			"id"	"3211"
+			"attach_to_rootbone"	"0"
+			"name"	"Morbidly Beast"
+		}
+		"596"
+		{
+			"system"	"utaunt_morbed_teamcolor_blue"
+			"id"	"3212"
+			"attach_to_rootbone"	"0"
+			"name"	"Morbidly Beast"
+		}
+		"597"
 		{
 			"system"	"killstreak_eyeglow_4_teamcolor_red"
 			"id"	"22001"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22001"
 		}
-		"464"
+		"598"
 		{
 			"system"	"killstreak_t1_lvl2"
 			"id"	"22002"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22002"
 		}
-		"465"
+		"599"
 		{
 			"system"	"killstreak_t2_lvl2"
 			"id"	"22003"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22003"
 		}
-		"466"
+		"600"
 		{
 			"system"	"killstreak_t3_lvl2"
 			"id"	"22004"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22004"
 		}
-		"467"
+		"601"
 		{
 			"system"	"killstreak_t4_lvl2"
 			"id"	"22005"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22005"
 		}
-		"468"
+		"602"
 		{
 			"system"	"killstreak_t5_lvl2"
 			"id"	"22006"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22006"
 		}
-		"469"
+		"603"
 		{
 			"system"	"killstreak_t6_lvl2"
 			"id"	"22007"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22007"
 		}
-		"470"
+		"604"
 		{
 			"system"	"killstreak_t7_lvl2"
 			"id"	"22008"
@@ -13614,7 +14742,7 @@ Killing blows on burning players grant a speed boost."
 				{
 					"level"	"18"
 					"required_score"	"250"
-					"name"	"The Uber-Altruist's"
+					"name"	"The Über-Altruist's"
 				}
 				"19"
 				{
@@ -15028,7 +16156,7 @@ Killing blows on burning players grant a speed boost."
 		"1"
 		{
 			"type"	"1"
-			"type_name"	"Ubers"
+			"type_name"	"Übers"
 			"level_data"	"KillEaterRank"
 		}
 		"2"

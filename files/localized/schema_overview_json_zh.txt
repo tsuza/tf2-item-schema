@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -24,7 +24,7 @@
 			"Normal": "普通",
 			"rarity1": "纯正",
 			"rarity2": "rarity2",
-			"vintage": "特等",
+			"vintage": "古典",
 			"rarity3": "rarity3",
 			"rarity4": "稀有",
 			"Unique": "独特",
@@ -35,7 +35,7 @@
 			"strange": "奇异",
 			"completed": "已完成",
 			"haunted": "闹鬼",
-			"collectors": "收藏者",
+			"collectors": "收藏家",
 			"paintkitweapon": "装饰武器"
 		},
 		"originNames": [
@@ -206,7 +206,7 @@
 				"name": "fire rate penalty",
 				"defindex": 5,
 				"attribute_class": "mult_postfiredelay",
-				"description_string": "开火速度 -%s1%",
+				"description_string": "攻击速度 %s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -216,7 +216,7 @@
 				"name": "fire rate bonus",
 				"defindex": 6,
 				"attribute_class": "mult_postfiredelay",
-				"description_string": "开火速度 +%s1%",
+				"description_string": "攻击速度 +%s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -246,7 +246,7 @@
 				"name": "ubercharge rate penalty",
 				"defindex": 9,
 				"attribute_class": "mult_medigun_uberchargerate",
-				"description_string": "UberCharge 蓄积速度 %s1%",
+				"description_string": "UberCharge 充能速率 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -256,7 +256,7 @@
 				"name": "ubercharge rate bonus",
 				"defindex": 10,
 				"attribute_class": "mult_medigun_uberchargerate",
-				"description_string": "UberCharge 蓄积速度 +%s1%",
+				"description_string": "UberCharge 充能速率 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -306,7 +306,7 @@
 				"name": "crit mod disabled",
 				"defindex": 15,
 				"attribute_class": "mult_crit_chance",
-				"description_string": "不会出现随机爆击",
+				"description_string": "无随机爆击",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -316,7 +316,7 @@
 				"name": "heal on hit for rapidfire",
 				"defindex": 16,
 				"attribute_class": "add_onhit_addhealth",
-				"description_string": "击中后至多 +%s1 点生命值",
+				"description_string": "击中时：获得至多 +%s1 点生命值",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -326,7 +326,7 @@
 				"name": "add uber charge on hit",
 				"defindex": 17,
 				"attribute_class": "add_onhit_ubercharge",
-				"description_string": "击中后加 %s1% UberCharge 能量",
+				"description_string": "击中后获得 %s1% UberCharge 能量",
 				"description_format": "value_is_additive_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -336,7 +336,7 @@
 				"name": "medigun charge is crit boost",
 				"defindex": 18,
 				"attribute_class": "set_charge_type",
-				"description_string": "UberCharge 提供爆击",
+				"description_string": "UberCharge 提供爆击加成",
 				"description_format": "value_is_additive",
 				"effect_type": "neutral",
 				"hidden": false,
@@ -346,7 +346,7 @@
 				"name": "tmp dmgbuff on hit",
 				"defindex": 19,
 				"attribute_class": "addperc_ondmgdone_tmpbuff",
-				"description_string": "击中后造成的伤害 +%s1%",
+				"description_string": "击中时：+%s1% 伤害",
 				"description_format": "value_is_additive_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -356,7 +356,7 @@
 				"name": "crit vs burning players",
 				"defindex": 20,
 				"attribute_class": "or_crit_vs_playercond",
-				"description_string": "对着火的敌人 100% 爆击",
+				"description_string": "对着火的敌人必定爆击",
 				"description_format": "value_is_or",
 				"effect_type": "positive",
 				"hidden": false,
@@ -386,7 +386,7 @@
 				"name": "mod flamethrower push",
 				"defindex": 23,
 				"attribute_class": "set_flamethrower_push_disabled",
-				"description_string": "无压缩空气",
+				"description_string": "无法使用压缩气爆",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -396,7 +396,7 @@
 				"name": "mod flamethrower back crit",
 				"defindex": 24,
 				"attribute_class": "set_flamethrower_back_crit",
-				"description_string": "从背后攻击时会产生爆击",
+				"description_string": "攻击敌人后背必定爆击",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -414,7 +414,7 @@
 				"name": "max health additive bonus",
 				"defindex": 26,
 				"attribute_class": "add_maxhealth",
-				"description_string": "穿戴时最大生命值 +%s1",
+				"description_string": "装备时最大生命值 +%s1",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -434,7 +434,7 @@
 				"name": "crit mod disabled hidden",
 				"defindex": 28,
 				"attribute_class": "mult_crit_chance",
-				"description_string": "不会出现随机爆击",
+				"description_string": "无随机爆击",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": true,
@@ -464,7 +464,7 @@
 				"name": "slow enemy on hit",
 				"defindex": 32,
 				"attribute_class": "mult_onhit_enemyspeed",
-				"description_string": "击中后有 %s1% 的机率降低目标的移动速度",
+				"description_string": "击中时：有 %s1% 的几率降低目标的移动速度",
 				"description_format": "value_is_additive_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -504,7 +504,7 @@
 				"name": "spread penalty",
 				"defindex": 36,
 				"attribute_class": "mult_spread_scale",
-				"description_string": "准确度降低 %s1% ",
+				"description_string": "精准度降低 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -522,7 +522,7 @@
 				"name": "mod bat launches balls",
 				"defindex": 38,
 				"attribute_class": "set_weapon_mode",
-				"description_string": "辅助开火能力：打出一个能使敌人减速的球",
+				"description_string": "辅助能力：打出一个能使敌人减速的球",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -552,7 +552,7 @@
 				"name": "sniper charge per sec",
 				"defindex": 41,
 				"attribute_class": "mult_sniper_charge_per_sec",
-				"description_string": "蓄能速度 +%s1%",
+				"description_string": "充能速率 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -562,7 +562,7 @@
 				"name": "sniper no headshots",
 				"defindex": 42,
 				"attribute_class": "set_weapon_mode",
-				"description_string": "不能爆头",
+				"description_string": "无法爆头",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -590,7 +590,7 @@
 				"name": "bullets per shot bonus",
 				"defindex": 45,
 				"attribute_class": "mult_bullets_per_shot",
-				"description_string": "每次射击的子弹数 +%s1%",
+				"description_string": "单发射击的子弹数 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -620,7 +620,7 @@
 				"name": "set cloak is movement based",
 				"defindex": 48,
 				"attribute_class": "set_weapon_mode",
-				"description_string": "隐身类型：移动敏感型。\n辅助开火能力：进入隐形状态。隐形时不能攻击。撞到敌人会使你略微显形。\n能量消耗的速率与移动速度相关。",
+				"description_string": "隐身类型：移动敏感型。\n辅助能力：进入隐形状态。隐形期间无法攻击，并且触碰敌人会使你略微显形。\n移动速度越快，能量消耗越快。",
 				"description_format": "value_is_additive",
 				"effect_type": "neutral",
 				"hidden": false,
@@ -650,7 +650,7 @@
 				"name": "revolver use hit locations",
 				"defindex": 51,
 				"attribute_class": "set_weapon_mode",
-				"description_string": "击中头部可产生爆击",
+				"description_string": "爆头可造成爆击",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -680,7 +680,7 @@
 				"name": "move speed penalty",
 				"defindex": 54,
 				"attribute_class": "mult_player_movespeed",
-				"description_string": "穿戴时移动速度减慢 %s1%",
+				"description_string": "装备时移动速度减慢 %s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -698,7 +698,7 @@
 				"name": "jarate description",
 				"defindex": 56,
 				"attribute_class": "desc_jarate_description",
-				"description_string": "被泼尿的敌人受到的伤害均为迷你爆击\n并可用于灭火",
+				"description_string": "敌人在被泼中后所受伤害均为迷你爆击。\n可用于灭火。",
 				"description_format": "value_is_percentage",
 				"effect_type": "neutral",
 				"hidden": false,
@@ -708,7 +708,7 @@
 				"name": "health regen",
 				"defindex": 57,
 				"attribute_class": "add_health_regen",
-				"description_string": "穿戴时生命值每秒 +%s1",
+				"description_string": "装备时每秒 +%s1 生命值",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -738,7 +738,7 @@
 				"name": "dmg taken from fire reduced",
 				"defindex": 60,
 				"attribute_class": "mult_dmgtaken_from_fire",
-				"description_string": "穿戴时火焰伤害抗性 +%s1%",
+				"description_string": "装备时火焰伤害抗性 +%s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -748,7 +748,7 @@
 				"name": "dmg taken from fire increased",
 				"defindex": 61,
 				"attribute_class": "mult_dmgtaken_from_fire",
-				"description_string": "穿戴时受到的火焰伤害 +%s1%",
+				"description_string": "装备时受到的火焰伤害 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -758,7 +758,7 @@
 				"name": "dmg taken from crit reduced",
 				"defindex": 62,
 				"attribute_class": "mult_dmgtaken_from_crit",
-				"description_string": "穿戴时爆击伤害抗性 +%s1%",
+				"description_string": "装备时爆击伤害抗性 +%s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -768,7 +768,7 @@
 				"name": "dmg taken from crit increased",
 				"defindex": 63,
 				"attribute_class": "mult_dmgtaken_from_crit",
-				"description_string": "穿戴时受到的爆击伤害 +%s1%",
+				"description_string": "装备时受到的爆击伤害 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -778,7 +778,7 @@
 				"name": "dmg taken from blast reduced",
 				"defindex": 64,
 				"attribute_class": "mult_dmgtaken_from_explosions",
-				"description_string": "穿戴时爆炸伤害抗性 +%s1%",
+				"description_string": "装备时爆炸伤害抗性 +%s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -788,7 +788,7 @@
 				"name": "dmg taken from blast increased",
 				"defindex": 65,
 				"attribute_class": "mult_dmgtaken_from_explosions",
-				"description_string": "穿戴时受到的爆炸伤害 +%s1%",
+				"description_string": "装备时受到的爆炸伤害 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -798,7 +798,7 @@
 				"name": "dmg taken from bullets reduced",
 				"defindex": 66,
 				"attribute_class": "mult_dmgtaken_from_bullets",
-				"description_string": "穿戴时子弹伤害抗性 +%s1%",
+				"description_string": "装备时子弹伤害抗性 +%s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -808,7 +808,7 @@
 				"name": "dmg taken from bullets increased",
 				"defindex": 67,
 				"attribute_class": "mult_dmgtaken_from_bullets",
-				"description_string": "穿戴时受到的子弹伤害 +%s1%",
+				"description_string": "装备时受到的子弹伤害 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -818,7 +818,7 @@
 				"name": "increase player capture value",
 				"defindex": 68,
 				"attribute_class": "add_player_capturevalue",
-				"description_string": "穿戴时占领速度 +%s1",
+				"description_string": "装备时占领速度 +%s1",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -828,7 +828,7 @@
 				"name": "health from healers reduced",
 				"defindex": 69,
 				"attribute_class": "mult_health_fromhealers",
-				"description_string": "穿戴时受到治疗者的治疗量 %s1%",
+				"description_string": "装备时受到治疗者的治疗量 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -898,7 +898,7 @@
 				"name": "maxammo primary increased",
 				"defindex": 76,
 				"attribute_class": "mult_maxammo_primary",
-				"description_string": "穿戴时主弹药上限 +%s1%",
+				"description_string": "装备时主弹药上限 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -908,7 +908,7 @@
 				"name": "maxammo primary reduced",
 				"defindex": 77,
 				"attribute_class": "mult_maxammo_primary",
-				"description_string": "穿戴时主武器弹药携带量 %s1%",
+				"description_string": "装备时主武器弹药携带量 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -918,7 +918,7 @@
 				"name": "maxammo secondary increased",
 				"defindex": 78,
 				"attribute_class": "mult_maxammo_secondary",
-				"description_string": "穿戴时副武器弹药上限 +%s1%",
+				"description_string": "装备时副武器弹药上限 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -928,7 +928,7 @@
 				"name": "maxammo secondary reduced",
 				"defindex": 79,
 				"attribute_class": "mult_maxammo_secondary",
-				"description_string": "穿戴时副武器弹药上限 %s1%",
+				"description_string": "装备时副武器弹药上限 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -938,7 +938,7 @@
 				"name": "maxammo metal increased",
 				"defindex": 80,
 				"attribute_class": "mult_maxammo_metal",
-				"description_string": "穿戴时金属上限 +%s1%",
+				"description_string": "装备时金属上限 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -948,7 +948,7 @@
 				"name": "maxammo metal reduced",
 				"defindex": 81,
 				"attribute_class": "mult_maxammo_metal",
-				"description_string": "穿戴时金属上限 %s1%",
+				"description_string": "装备时金属上限 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -1018,7 +1018,7 @@
 				"name": "max pipebombs increased",
 				"defindex": 88,
 				"attribute_class": "add_max_pipebombs",
-				"description_string": "榴弹量上限 +%s1",
+				"description_string": "最大黏性炸弹发射量 +%s1",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1028,7 +1028,7 @@
 				"name": "max pipebombs decreased",
 				"defindex": 89,
 				"attribute_class": "add_max_pipebombs",
-				"description_string": "同时存在的黏弹量上限 %s1",
+				"description_string": "%s1 最大黏性炸弹发射量",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -1058,7 +1058,7 @@
 				"name": "Construction rate increased",
 				"defindex": 92,
 				"attribute_class": "mult_construction_value",
-				"description_string": "建造速度加成 +%s1%",
+				"description_string": "建造加速效果 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1068,7 +1068,7 @@
 				"name": "Construction rate decreased",
 				"defindex": 93,
 				"attribute_class": "mult_construction_value",
-				"description_string": "建造速度加成 -%s1%",
+				"description_string": "建造加速效果 -%s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -1118,7 +1118,7 @@
 				"name": "selfdmg on hit for rapidfire",
 				"defindex": 98,
 				"attribute_class": "add_onhit_addhealth",
-				"description_string": "击中后 %s1 点生命值",
+				"description_string": "击中时：%s1 点生命值",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -1168,7 +1168,7 @@
 				"name": "Projectile speed increased",
 				"defindex": 103,
 				"attribute_class": "mult_projectile_speed",
-				"description_string": "炮弹速度 +%s1%",
+				"description_string": "炮弹飞行速度 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1178,7 +1178,7 @@
 				"name": "Projectile speed decreased",
 				"defindex": 104,
 				"attribute_class": "mult_projectile_speed",
-				"description_string": "炮弹速度 %s1%",
+				"description_string": "炮弹飞行速度 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -1188,7 +1188,7 @@
 				"name": "overheal penalty",
 				"defindex": 105,
 				"attribute_class": "mult_medigun_overheal_amount",
-				"description_string": "%s1% 超量治疗上限",
+				"description_string": "超量治疗上限降低至 %s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -1198,7 +1198,7 @@
 				"name": "weapon spread bonus",
 				"defindex": 106,
 				"attribute_class": "mult_spread_scale",
-				"description_string": "准确度提高 %s1% ",
+				"description_string": "精准度提高 %s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1208,7 +1208,7 @@
 				"name": "move speed bonus",
 				"defindex": 107,
 				"attribute_class": "mult_player_movespeed",
-				"description_string": "穿戴时移动速度 +%s1%",
+				"description_string": "装备时移动速度 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1218,7 +1218,7 @@
 				"name": "health from packs increased",
 				"defindex": 108,
 				"attribute_class": "mult_health_frompacks",
-				"description_string": "穿戴时从医疗包获得的生命值 +%s1%",
+				"description_string": "装备时从医疗包获得的生命值 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1228,7 +1228,7 @@
 				"name": "health from packs decreased",
 				"defindex": 109,
 				"attribute_class": "mult_health_frompacks",
-				"description_string": "穿戴时从医疗包获得的生命值 %s1%",
+				"description_string": "装备时从医疗包获得的生命值 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -1238,7 +1238,7 @@
 				"name": "heal on hit for slowfire",
 				"defindex": 110,
 				"attribute_class": "add_onhit_addhealth",
-				"description_string": "击中后至多 +%s1 点生命值",
+				"description_string": "击中时：获得至多 +%s1 点生命值",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1248,7 +1248,7 @@
 				"name": "selfdmg on hit for slowfire",
 				"defindex": 111,
 				"attribute_class": "add_onhit_addhealth",
-				"description_string": "击中后 %s1 点生命值",
+				"description_string": "击中时：%s1 点生命值",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -1258,7 +1258,7 @@
 				"name": "ammo regen",
 				"defindex": 112,
 				"attribute_class": "addperc_ammo_regen",
-				"description_string": "穿戴时弹药每 5 秒钟增加 %s1%",
+				"description_string": "装备时每 5 秒 +%s1% 弹药",
 				"description_format": "value_is_additive_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1268,7 +1268,7 @@
 				"name": "metal regen",
 				"defindex": 113,
 				"attribute_class": "add_metal_regen",
-				"description_string": "穿戴时每 5 秒金属量 +%s1",
+				"description_string": "装备时每 5 秒 +%s1 金属",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1288,7 +1288,7 @@
 				"name": "mod shovel damage boost",
 				"defindex": 115,
 				"attribute_class": "set_weapon_mode",
-				"description_string": "使用者受伤时攻击力增强",
+				"description_string": "伤害随着使用者的受伤程度而增加",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1326,7 +1326,7 @@
 				"name": "sticky detonate mode",
 				"defindex": 119,
 				"attribute_class": "set_detonate_mode",
-				"description_string": "引爆准星附近的黏性炸弹",
+				"description_string": "引爆准星周围和脚下的黏性炸弹",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1336,7 +1336,7 @@
 				"name": "sticky arm time penalty",
 				"defindex": 120,
 				"attribute_class": "sticky_arm_time",
-				"description_string": "炸弹就绪时间减慢 %s1 秒",
+				"description_string": "炸弹就绪时间 +%s1 秒",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -1374,7 +1374,7 @@
 				"name": "mod wrench builds minisentry",
 				"defindex": 124,
 				"attribute_class": "wrench_builds_minisentry",
-				"description_string": "建造迷你步哨枪来取代一般步哨枪",
+				"description_string": "使用迷你型步哨枪",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -1384,7 +1384,7 @@
 				"name": "max health additive penalty",
 				"defindex": 125,
 				"attribute_class": "add_maxhealth",
-				"description_string": "穿戴时最大生命值 %s1",
+				"description_string": "装备时最大生命值 %s1",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -1404,7 +1404,7 @@
 				"name": "sticky air burst mode",
 				"defindex": 127,
 				"attribute_class": "set_detonate_mode",
-				"description_string": "射出的炸弹碰到表面会粉碎",
+				"description_string": "发射的榴弹在碰到表面后会碎裂",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -1424,7 +1424,7 @@
 				"name": "health drain",
 				"defindex": 129,
 				"attribute_class": "add_health_regen",
-				"description_string": "穿戴时每秒生命值 -%s1",
+				"description_string": "装备时每秒生命值 %s1",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -1504,7 +1504,7 @@
 				"name": "dmg bonus vs buildings",
 				"defindex": 137,
 				"attribute_class": "mult_dmg_vs_buildings",
-				"description_string": "对建筑物的伤害 %s1%",
+				"description_string": "对建筑物的伤害 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1524,7 +1524,7 @@
 				"name": "lunchbox adds maxhealth bonus",
 				"defindex": 139,
 				"attribute_class": "set_weapon_mode",
-				"description_string": "生命值上限 +50，持续30秒",
+				"description_string": "生命值上限 +50，持续 30 秒",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1534,7 +1534,7 @@
 				"name": "hidden maxhealth non buffed",
 				"defindex": 140,
 				"attribute_class": "add_maxhealth_nonbuffed",
-				"description_string": "穿戴时最大生命值 +%s1",
+				"description_string": "装备时最大生命值 +%s1",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": true,
@@ -1622,7 +1622,7 @@
 				"name": "bleeding duration",
 				"defindex": 149,
 				"attribute_class": "bleeding_duration",
-				"description_string": "击中后使对方持续失血 %s1 秒",
+				"description_string": "击中时：使对方持续流血 %s1 秒",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1670,7 +1670,7 @@
 				"name": "disguise on backstab",
 				"defindex": 154,
 				"attribute_class": "set_disguise_on_backstab",
-				"description_string": "背刺人类目标成功时，会迅速自动伪装为受害者",
+				"description_string": "成功背刺人类目标后，自动且迅速地伪装成被杀目标",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1820,7 +1820,7 @@
 				"name": "SET BONUS: dmg from sentry reduced",
 				"defindex": 169,
 				"attribute_class": "dmg_from_sentry_reduced",
-				"description_string": "穿戴时步哨枪伤害抗性 +%s1%",
+				"description_string": "装备时步哨枪伤害抗性 +%s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1830,7 +1830,7 @@
 				"name": "airblast cost increased",
 				"defindex": 170,
 				"attribute_class": "mult_airblast_cost",
-				"description_string": "压缩空气消耗弹药 +%s1%",
+				"description_string": "气爆弹药消耗量 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -1860,7 +1860,7 @@
 				"name": "flame ammopersec increased",
 				"defindex": 173,
 				"attribute_class": "mult_flame_ammopersec",
-				"description_string": "每秒消耗的喷火器弹药 +%s1%",
+				"description_string": "每秒消耗的火焰喷射器弹药 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -1870,7 +1870,7 @@
 				"name": "flame ammopersec decreased",
 				"defindex": 174,
 				"attribute_class": "mult_flame_ammopersec",
-				"description_string": "每秒消耗的喷火器弹药 %s1%",
+				"description_string": "每秒消耗的火焰喷射器弹药 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1880,7 +1880,7 @@
 				"name": "jarate duration",
 				"defindex": 175,
 				"attribute_class": "jarate_duration",
-				"description_string": "开镜击中敌人后：瓶手道的效果作用于目标 2 到 %s1 秒，蓄力越久作用时间越长\n尿意袭来：开镜爆头时迷你爆击，并缩短瓶手道的剩余冷却时间 1 秒。",
+				"description_string": "开镜击中目标时：对目标施加 2 到 %s1 秒的瓶手道效果。充能时间越久，效果时间越长。\n人有三急：开镜爆头后只能造成迷你爆击，\n并会减少瓶手道剩余的冷却时间 1 秒。",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1920,7 +1920,7 @@
 				"name": "minicrits become crits",
 				"defindex": 179,
 				"attribute_class": "minicrits_become_crits",
-				"description_string": "在任何正常来说应当产生迷你爆击的时候，产生爆击",
+				"description_string": "在理应造成迷你爆击的情况下，造成爆击",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1950,7 +1950,7 @@
 				"name": "slow enemy on hit major",
 				"defindex": 182,
 				"attribute_class": "mult_onhit_enemyspeed_major",
-				"description_string": "击中后降低目标 40% 的移动速度 %s1 秒",
+				"description_string": "击中时：降低目标 40% 的移动速度，持续 %s1 秒",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -1960,7 +1960,7 @@
 				"name": "aiming movespeed decreased",
 				"defindex": 183,
 				"attribute_class": "mult_player_aiming_movespeed",
-				"description_string": "部署状态下移动速度 %s1%",
+				"description_string": "预热或开火时移动速度 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -2010,7 +2010,7 @@
 				"name": "preserve ubercharge",
 				"defindex": 188,
 				"attribute_class": "preserve_ubercharge",
-				"description_string": "在死亡时，将保留最多 %s1% 的 UberCharge",
+				"description_string": "死亡时，将保留最多 %s1% 已储存的 UberCharge 能量",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2028,7 +2028,7 @@
 				"name": "active health regen",
 				"defindex": 190,
 				"attribute_class": "active_item_health_regen",
-				"description_string": "穿戴时生命值每秒 +%s1",
+				"description_string": "装备时每秒 +%s1 生命值",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2038,7 +2038,7 @@
 				"name": "active health degen",
 				"defindex": 191,
 				"attribute_class": "active_item_health_regen",
-				"description_string": "穿戴时每秒生命值 -%s1",
+				"description_string": "装备时每秒生命值 %s1",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -2122,7 +2122,7 @@
 				"name": "enables aoe heal",
 				"defindex": 200,
 				"attribute_class": "enables_aoe_heal",
-				"description_string": "辅助开火能力：治疗附近的所有队友",
+				"description_string": "辅助能力：治疗周围的所有队友",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2132,7 +2132,7 @@
 				"name": "gesture speed increase",
 				"defindex": 201,
 				"attribute_class": "mult_gesture_time",
-				"description_string": "穿戴时嘲讽速度 +%s1%",
+				"description_string": "装备时嘲讽速度 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2162,7 +2162,7 @@
 				"name": "hit self on miss",
 				"defindex": 204,
 				"attribute_class": "hit_self_on_miss",
-				"description_string": "挥空后打到你自己。笨蛋。",
+				"description_string": "挥空后：打到你自己，笨蛋。",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -2182,7 +2182,7 @@
 				"name": "dmg from melee increased",
 				"defindex": 206,
 				"attribute_class": "dmg_from_melee",
-				"description_string": "手持时受到近战武器的伤害 +%s1%",
+				"description_string": "手持时受到的近战伤害 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -2192,7 +2192,7 @@
 				"name": "blast dmg to self increased",
 				"defindex": 207,
 				"attribute_class": "blast_dmg_to_self",
-				"description_string": "+%s1% 自身伤害",
+				"description_string": "自身伤害 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -2202,7 +2202,7 @@
 				"name": "Set DamageType Ignite",
 				"defindex": 208,
 				"attribute_class": "set_dmgtype_ignite",
-				"description_string": "击中后令目标被火焰吞噬",
+				"description_string": "击中后使目标被火焰吞噬",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2212,7 +2212,7 @@
 				"name": "minicrit vs burning player",
 				"defindex": 209,
 				"attribute_class": "or_minicrit_vs_playercond_burning",
-				"description_string": "对着火的敌人会 100% 迷你爆击",
+				"description_string": "对着火的敌人必定迷你爆击",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2264,7 +2264,7 @@
 				"name": "sanguisuge",
 				"defindex": 217,
 				"attribute_class": "sanguisuge",
-				"description_string": "背刺成功后，会迅速吸收被害者的生命值",
+				"description_string": "成功背刺后，立刻吸收被刺目标的生命值",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2274,7 +2274,7 @@
 				"name": "mark for death",
 				"defindex": 218,
 				"attribute_class": "mark_for_death",
-				"description_string": "击中后对最多一个目标打上死亡标记，死亡标记持续时间内所受伤害均为迷你爆击",
+				"description_string": "击中时：对目标打上死亡标记，使其所受伤害均为迷你爆击，只能对一个敌人生效",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2332,7 +2332,7 @@
 				"name": "dmg bonus while half dead",
 				"defindex": 224,
 				"attribute_class": "mult_dmg_bonus_while_half_dead",
-				"description_string": "当生命值 <50% 时，伤害 +%s1%",
+				"description_string": "当生命值低于 50% 时，伤害 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2342,7 +2342,7 @@
 				"name": "dmg penalty while half alive",
 				"defindex": 225,
 				"attribute_class": "mult_dmg_penalty_while_half_alive",
-				"description_string": "当生命值 >50% 时，伤害 %s1%",
+				"description_string": "当生命值高于 50% 时，伤害 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -2352,7 +2352,7 @@
 				"name": "honorbound",
 				"defindex": 226,
 				"attribute_class": "honorbound",
-				"description_string": "荣誉之魂：一旦拔出，除非斩杀敌人，否则收回时对你造成 50 点伤害",
+				"description_string": "荣誉之魂：一旦出鞘，除非斩杀敌人，否则收回时将对自身造成 50 点伤害",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -2398,7 +2398,7 @@
 				"name": "medigun charge is megaheal",
 				"defindex": 231,
 				"attribute_class": "set_charge_type",
-				"description_string": "UberCharge 时治疗速度提高 300% ，并使治疗对象对减速效果免疫",
+				"description_string": "UberCharge 期间治疗速度提高至 300% ，同时免疫减速效果",
 				"description_format": "value_is_additive",
 				"effect_type": "neutral",
 				"hidden": false,
@@ -2468,7 +2468,7 @@
 				"name": "minigun no spin sounds",
 				"defindex": 238,
 				"attribute_class": "minigun_no_spin_sounds",
-				"description_string": "无声杀手：没有枪管转动的声音",
+				"description_string": "无声杀手：预热枪管不会发出声音",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2548,7 +2548,7 @@
 				"name": "mult charge turn control",
 				"defindex": 246,
 				"attribute_class": "charge_turn_control",
-				"description_string": "+%s1% 在冲锋时控制转向的能力",
+				"description_string": "冲锋状态下的转向控制力 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2588,7 +2588,7 @@
 				"name": "air dash count",
 				"defindex": 250,
 				"attribute_class": "air_dash_count",
-				"description_string": "手持时可以进行三段跳。\n在空中进行的近战攻击为迷你爆击。",
+				"description_string": "手持时，可以进行三段跳。\n空中近战攻击均为迷你爆击。",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2608,7 +2608,7 @@
 				"name": "damage force reduction",
 				"defindex": 252,
 				"attribute_class": "damage_force_reduction",
-				"description_string": "所受伤害造成的击退力 -%s1%",
+				"description_string": "所受伤害造成的击退力 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2664,7 +2664,7 @@
 				"name": "boots falling stomp",
 				"defindex": 259,
 				"attribute_class": "boots_falling_stomp",
-				"description_string": "对被踩中的敌人造成 3 倍的掉落伤害。",
+				"description_string": "对被踩中的敌人造成 3 倍的摔落伤害",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2740,7 +2740,7 @@
 				"name": "mod crit while airborne",
 				"defindex": 267,
 				"attribute_class": "crit_while_airborne",
-				"description_string": "火箭跳跃后，未落地前用此武器的攻击都是爆击。",
+				"description_string": "火箭跳跃后，未落地前此武器的攻击均为爆击",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2750,7 +2750,7 @@
 				"name": "mult sniper charge penalty DISPLAY ONLY",
 				"defindex": 268,
 				"attribute_class": "mult_sniper_charge_base_dummy",
-				"description_string": "初始蓄能速度减慢 %s1%",
+				"description_string": "初始充能速度减慢 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -2760,7 +2760,7 @@
 				"name": "mod see enemy health",
 				"defindex": 269,
 				"attribute_class": "see_enemy_health",
-				"description_string": "可以让您看见敌人的血量",
+				"description_string": "可以让你看见敌人的生命值",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2800,7 +2800,7 @@
 				"name": "critboost",
 				"defindex": 273,
 				"attribute_class": "critboost",
-				"description_string": "可消耗：5秒内全爆击\n（同时步哨射速翻倍）",
+				"description_string": "可消耗：获得爆击加成，持续 5 秒\n（同时步哨射速翻倍）",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2810,7 +2810,7 @@
 				"name": "ubercharge",
 				"defindex": 274,
 				"attribute_class": "ubercharge",
-				"description_string": "可消耗：5秒内无敌\n（同时步哨防御力提升）",
+				"description_string": "可消耗：进入无敌状态，持续 5 秒\n（同时步哨获得防御护盾）",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2850,7 +2850,7 @@
 				"name": "effect bar recharge rate increased",
 				"defindex": 278,
 				"attribute_class": "effectbar_recharge_rate",
-				"description_string": "+%s1%  冷却速度提升",
+				"description_string": "冷却速率 +%s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2860,7 +2860,7 @@
 				"name": "maxammo grenades1 increased",
 				"defindex": 279,
 				"attribute_class": "mult_maxammo_grenades1",
-				"description_string": "穿戴时其他类弹药上限 +%s1%",
+				"description_string": "其它弹药上限 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2889,7 +2889,7 @@
 				"name": "energy weapon charged shot",
 				"defindex": 282,
 				"attribute_class": "energy_weapon_charged_shot",
-				"description_string": "辅助开火能力：发射的蓄力弹对玩家造成\n迷你爆击和着火状态并使建筑停止工作 4 秒",
+				"description_string": "辅助能力：发射能量弹对玩家造成\n迷你爆击并点燃目标，还可以瘫痪建筑 4 秒",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2899,7 +2899,7 @@
 				"name": "energy weapon penetration",
 				"defindex": 283,
 				"attribute_class": "energy_weapon_penetration",
-				"description_string": "炮弹能穿透敌方目标",
+				"description_string": "飞行物能穿透敌方目标",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -2919,7 +2919,7 @@
 				"name": "energy weapon no deflect",
 				"defindex": 285,
 				"attribute_class": "energy_weapon_no_deflect",
-				"description_string": "炮弹无法被反弹",
+				"description_string": "飞行物无法被反弹",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3029,7 +3029,7 @@
 				"name": "add onhit addammo",
 				"defindex": 299,
 				"attribute_class": "add_onhit_addammo",
-				"description_string": "击中后伤害值作为弹药量归还",
+				"description_string": "击中时：造成的伤害均作为弹药量归还",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3039,7 +3039,7 @@
 				"name": "electrical airblast DISPLAY ONLY",
 				"defindex": 300,
 				"attribute_class": "electrical_airblast_DISPLAY_ONLY",
-				"description_string": "辅助开火能力：消耗 65 金属，发射一个能摧毁飞行物的能量球。",
+				"description_string": "辅助能力：消耗 65 金属，发射一个能摧毁飞行物的能量球。",
 				"description_format": "value_is_additive_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3077,7 +3077,7 @@
 				"name": "sniper full charge damage bonus",
 				"defindex": 304,
 				"attribute_class": "sniper_full_charge_damage_bonus",
-				"description_string": "完全充能时：伤害增加 %s1%",
+				"description_string": "完全充能时：该发伤害 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3107,7 +3107,7 @@
 				"name": "mod no reload DISPLAY ONLY",
 				"defindex": 307,
 				"attribute_class": "mod_no_reload_display_only",
-				"description_string": "不需要重新装填弹药",
+				"description_string": "无需换弹",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3127,7 +3127,7 @@
 				"name": "crit kill will gib",
 				"defindex": 309,
 				"attribute_class": "crit_kill_will_gib",
-				"description_string": "用爆击杀死敌人时，他会被肢解。注意，是痛苦地哦！",
+				"description_string": "用爆击杀敌会将敌人碎尸万段，惨烈至极！",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3185,7 +3185,7 @@
 				"name": "refill_ammo",
 				"defindex": 315,
 				"attribute_class": "refill_ammo",
-				"description_string": "可消耗：瞬间装满弹匣和储备弹药",
+				"description_string": "可消耗：瞬间装满弹匣和后备弹药",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3203,7 +3203,7 @@
 				"name": "faster reload rate",
 				"defindex": 318,
 				"attribute_class": "fast_reload",
-				"description_string": "+%s1% 装填速度",
+				"description_string": "装填速度 +%s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3233,7 +3233,7 @@
 				"name": "build rate bonus",
 				"defindex": 321,
 				"attribute_class": "mod_build_rate",
-				"description_string": "+%s1% 修建速度",
+				"description_string": "建造速度 +%s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3251,7 +3251,7 @@
 				"name": "attack projectiles",
 				"defindex": 323,
 				"attribute_class": "attack_projectiles",
-				"description_string": "击落飞行的火箭和榴弹。每升一级提高精准度和攻击频率。",
+				"description_string": "子弹可以击落飞行中的火箭和榴弹。每次升级提升精准度和击落频率。",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3291,7 +3291,7 @@
 				"name": "building instant upgrade",
 				"defindex": 327,
 				"attribute_class": "building_instant_upgrade",
-				"description_string": "可消耗：瞬间将所有建筑升级至最高级别",
+				"description_string": "可消耗：瞬间将所有建筑升级至满级",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3309,7 +3309,7 @@
 				"name": "airblast vulnerability multiplier",
 				"defindex": 329,
 				"attribute_class": "airblast_vulnerability_multiplier",
-				"description_string": "受压缩空气击退作用 %s1%",
+				"description_string": "受到由气爆产生的击退推力 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3381,7 +3381,7 @@
 				"name": "subtract victim medigun charge on hit",
 				"defindex": 337,
 				"attribute_class": "subtract_victim_medigun_charge_onhit",
-				"description_string": "击中时：被击中者损失至多 %s1% 的医疗枪能量",
+				"description_string": "击中时：使目标损失至多 %s1% 的医疗枪能量",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3391,7 +3391,7 @@
 				"name": "subtract victim cloak on hit",
 				"defindex": 338,
 				"attribute_class": "subtract_victim_cloak_on_hit",
-				"description_string": "击中时：被击中者损失至多 %s1% 的隐身能量",
+				"description_string": "击中时：使目标损失至多 %s1% 的隐身能量",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3431,7 +3431,7 @@
 				"name": "engy sentry fire rate increased",
 				"defindex": 343,
 				"attribute_class": "mult_sentry_firerate",
-				"description_string": "+%s1% 步哨枪射速",
+				"description_string": "步哨枪射击速度 +%s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3471,7 +3471,7 @@
 				"name": "freeze backstab victim",
 				"defindex": 347,
 				"attribute_class": "freeze_backstab_victim",
-				"description_string": "受背刺者变成冰块",
+				"description_string": "背刺敌人会使其变成冰雕",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -3515,7 +3515,7 @@
 				"name": "alt fire teleport to spawn",
 				"defindex": 352,
 				"attribute_class": "alt_fire_teleport_to_spawn",
-				"description_string": "按下装弹键来选择传送回己方出生点或传送出口",
+				"description_string": "按下装弹键，可以选择传送回己方出生点或者传送装置出口",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3555,7 +3555,7 @@
 				"name": "airblast disabled",
 				"defindex": 356,
 				"attribute_class": "airblast_disabled",
-				"description_string": "无压缩空气",
+				"description_string": "无法使用气爆",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -3573,7 +3573,7 @@
 				"name": "crit forces victim to laugh",
 				"defindex": 358,
 				"attribute_class": "crit_forces_victim_to_laugh",
-				"description_string": "爆击攻击能让被打中的敌人发出笑声",
+				"description_string": "爆击攻击会强制使敌人大笑",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3583,7 +3583,7 @@
 				"name": "melts in fire",
 				"defindex": 359,
 				"attribute_class": "melts_in_fire",
-				"description_string": "被火烧后会融化，在 %s1 秒后或捡起弹药包后复原。",
+				"description_string": "着火会使冰锥融化，需要等待 %s1 秒或捡起弹药箱后才能重新使用",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -3593,7 +3593,7 @@
 				"name": "damage all connected",
 				"defindex": 360,
 				"attribute_class": "damage_all_connected",
-				"description_string": "所有由医疗枪治疗链相连接的玩家都会受伤",
+				"description_string": "可以同时伤害所有被医疗枪治疗链所连接的玩家",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3613,7 +3613,7 @@
 				"name": "crit from behind",
 				"defindex": 362,
 				"attribute_class": "crit_from_behind",
-				"description_string": "从敌人背后所进行的攻击均为爆击",
+				"description_string": "攻击敌人后背必定爆击",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3651,7 +3651,7 @@
 				"name": "mod stun waist high airborne",
 				"defindex": 366,
 				"attribute_class": "stun_waist_high_airborne",
-				"description_string": "击中时：如果敌人的腰带在你的平视视线以上，\n他们会被击晕 %s1 秒",
+				"description_string": "击中时：如果敌人的腰带在你的平视视线高度或以上，\n他们会被击晕 %s1 秒",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3661,7 +3661,7 @@
 				"name": "extinguish earns revenge crits",
 				"defindex": 367,
 				"attribute_class": "extinguish_revenge",
-				"description_string": "辅助开火能力：为队友灭火来积攒爆击",
+				"description_string": "辅助能力：为队友灭火可以积累爆击",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3671,7 +3671,7 @@
 				"name": "burn damage earns rage",
 				"defindex": 368,
 				"attribute_class": "burn_damage_earns_rage",
-				"description_string": "通过造成伤害来“呜唔”值。\n“呜唔”满载时的辅助开火能力：嘲讽以获得数秒的爆击。\n“呜唔”嘲讽时保持无敌状态。",
+				"description_string": "通过造成伤害来积累“呜唔”值。\n“呜唔”充满时，使用辅助能力：嘲讽以获得数秒的爆击。\n“呜唔”嘲讽时进入无敌状态。",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3681,7 +3681,7 @@
 				"name": "tickle enemies wielding same weapon",
 				"defindex": 369,
 				"attribute_class": "tickle_enemies_wielding_same_weapon",
-				"description_string": "击中时：能让同样使用着此武器的敌人发出笑声",
+				"description_string": "击中后能强制使同样装备此物品的敌人大笑",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3740,7 +3740,7 @@
 				"name": "generate rage on damage",
 				"defindex": 375,
 				"attribute_class": "generate_rage_on_dmg",
-				"description_string": "提高造成伤害积攒怒气。完全充能时，按下“特殊攻击”键以激活击退力量。",
+				"description_string": "通过造成伤害积攒怒气。怒气攒满后，按下“特殊攻击”键即可激活击退效果。",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3750,7 +3750,7 @@
 				"name": "aiming no flinch",
 				"defindex": 376,
 				"attribute_class": "aiming_no_flinch",
-				"description_string": "蓄力满时视野不会晃动",
+				"description_string": "开镜充能完毕时视野不会因其他影响而晃动",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3844,7 +3844,7 @@
 				"name": "rage on kill",
 				"defindex": 387,
 				"attribute_class": "rage_on_kill",
-				"description_string": "杀敌或协助杀敌积蓄“专注”能量",
+				"description_string": "杀敌或助攻即可积累“专注”能量",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3902,7 +3902,7 @@
 				"name": "sniper rage DISPLAY ONLY",
 				"defindex": 393,
 				"attribute_class": "sniper_rage_DISPLAY_ONLY",
-				"description_string": "按下 '装弹' 键以启用专注\n启用专注时：+25%蓄能速度，无法取消开镜",
+				"description_string": "按下“装弹”键以启用专注\n专注状态：充能速度 +25%，且无法取消开镜",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3920,7 +3920,7 @@
 				"name": "explosive sniper shot",
 				"defindex": 395,
 				"attribute_class": "explosive_sniper_shot",
-				"description_string": "增大爆头造成的爆炸的范围，对周围的敌人也造成伤害",
+				"description_string": "增加爆头产生爆炸的范围和对附近敌人造成的伤害",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3970,7 +3970,7 @@
 				"name": "cannot pick up intelligence",
 				"defindex": 400,
 				"attribute_class": "cannot_pick_up_intelligence",
-				"description_string": "穿戴者不能捡起情报箱或手球",
+				"description_string": "使用者无法携带情报箱或手球",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -4010,7 +4010,7 @@
 				"name": "share consumable with patient",
 				"defindex": 404,
 				"attribute_class": "share_consumable_with_patient",
-				"description_string": "使用你的增益水壶时，其加成效果将会同时作用于你的治疗对象",
+				"description_string": "在使用自己的增益水壶时，你的治疗对象也会获得同样的加成效果",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -4079,7 +4079,7 @@
 				"name": "projectile spread angle penalty",
 				"defindex": 411,
 				"attribute_class": "projectile_spread_angle",
-				"description_string": "+%s1 弹道分布角度",
+				"description_string": "炮弹随机散布程度 +%s1",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -4089,7 +4089,7 @@
 				"name": "dmg taken increased",
 				"defindex": 412,
 				"attribute_class": "mult_dmgtaken",
-				"description_string": "穿戴时受到的伤害 +%s1%",
+				"description_string": "装备时受到的伤害 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -4099,7 +4099,7 @@
 				"name": "auto fires full clip",
 				"defindex": 413,
 				"attribute_class": "auto_fires_full_clip",
-				"description_string": "按住开火键，装入火箭，最多 3 发\n松手，火箭同时发射",
+				"description_string": "按住开火键，装入至多 3 发火箭\n松开按键后连发释放膛内火箭",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -4127,7 +4127,7 @@
 				"name": "mod flaregun fires pellets with knockback",
 				"defindex": 416,
 				"attribute_class": "set_weapon_mode",
-				"description_string": "信号弹具有击退效果\n击中表面后爆炸。\n对于着火的敌人具有更强的击退效果",
+				"description_string": "信号弹具有击退效果，\n击中表面后炸开。\n对于着火的敌人具有更强的击退效果",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -4157,7 +4157,7 @@
 				"name": "hype resets on jump",
 				"defindex": 419,
 				"attribute_class": "hype_resets_on_jump",
-				"description_string": "空中跳跃后速度加成蓄能减少",
+				"description_string": "空中跳跃后削减加速能量",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -4255,7 +4255,7 @@
 				"name": "ring of fire while aiming",
 				"defindex": 430,
 				"attribute_class": "ring_of_fire_while_aiming",
-				"description_string": "枪管高速旋转时产生一个火圈",
+				"description_string": "预热或开火时自身产生一个火圈",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -4265,7 +4265,7 @@
 				"name": "uses ammo while aiming",
 				"defindex": 431,
 				"attribute_class": "uses_ammo_while_aiming",
-				"description_string": "枪管高速旋转时每秒额外消耗 %s1 单位弹药",
+				"description_string": "预热或开火时每秒额外消耗 %s1 点弹药",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -4321,7 +4321,7 @@
 				"name": "crit vs wet players",
 				"defindex": 438,
 				"attribute_class": "crit_vs_wet_players",
-				"description_string": "攻击湿身的玩家会产生爆击",
+				"description_string": "对湿身的玩家必定爆击",
 				"description_format": "value_is_or",
 				"effect_type": "positive",
 				"hidden": false,
@@ -4571,7 +4571,7 @@
 				"name": "grenade launcher mortar mode",
 				"defindex": 466,
 				"attribute_class": "grenade_launcher_mortar_mode",
-				"description_string": "炮弹的爆炸引信为 1 秒，按下开火键不放，可以缩短引信时间",
+				"description_string": "炮弹的爆炸引信时间为 1 秒，按住开火键可以缩短引信时间",
 				"description_format": "value_is_additive",
 				"effect_type": "neutral",
 				"hidden": false,
@@ -4581,7 +4581,7 @@
 				"name": "grenade not explode on impact",
 				"defindex": 467,
 				"attribute_class": "grenade_not_explode_on_impact",
-				"description_string": "炮弹接触固体表面时不会引爆",
+				"description_string": "炮弹击中目标时不会立刻引爆",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -4599,7 +4599,7 @@
 				"name": "engineer building teleporting pickup",
 				"defindex": 469,
 				"attribute_class": "building_teleporting_pickup",
-				"description_string": "辅助开火能力：消耗 %s1 金属，远距离搬取建筑",
+				"description_string": "辅助能力：消耗 %s1 金属，远距离搬取目标建筑",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -4629,7 +4629,7 @@
 				"name": "mark for death on building pickup",
 				"defindex": 472,
 				"attribute_class": "mark_for_death_on_building_pickup",
-				"description_string": "搬运建筑时，为自己打上死亡标记",
+				"description_string": "搬运建筑时，对自身产生死亡标记",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -4639,7 +4639,7 @@
 				"name": "medigun charge is resists",
 				"defindex": 473,
 				"attribute_class": "set_charge_type",
-				"description_string": "按下装弹键来在伤害抗性类别之间循环选择。\n在治疗时，你和治疗目标具有 10% 选定类别的伤害抗性。",
+				"description_string": "按下换弹键可以切换伤害抗性类型。\n在治疗时，你和治疗目标会持续获得 10% 当前所选的伤害抗性。",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -4649,7 +4649,7 @@
 				"name": "arrow heals buildings",
 				"defindex": 474,
 				"attribute_class": "arrow_heals_buildings",
-				"description_string": "发射特殊箭矢，可以修复友方建筑",
+				"description_string": "发射特殊飞弹，可以修复友方建筑",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -4675,7 +4675,7 @@
 				"name": "cannonball push back",
 				"defindex": 477,
 				"attribute_class": "cannonball_push_back",
-				"description_string": "炮弹具有击退作用",
+				"description_string": "炮弹击中目标会造成击退效果",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -4723,7 +4723,7 @@
 				"name": "mad milk syringes",
 				"defindex": 484,
 				"attribute_class": "mad_milk_syringes",
-				"description_string": "注射枪射出的针管内含高浓度疯狂的牛奶。连续击中时牛奶作用时间可叠加，最多持续 4 秒。",
+				"description_string": "注射枪射出的针管内含高浓度的疯狂牛奶。多次命中可以叠加牛奶的作用时间，最多叠加到 4 秒。",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -4733,7 +4733,7 @@
 				"name": "rocket specialist",
 				"defindex": 488,
 				"attribute_class": "rocket_specialist",
-				"description_string": "第一次升级时，+15% 火箭飞行速度。并在直接击中目标时，无视距离造成的伤害衰减，附带击昏效果，+15% 爆炸范围。以后每次升级时，+15% 的火箭飞行速度和直接击中时的爆炸范围。",
+				"description_string": "每升级一次，火箭飞行速度和直接命中目标时的爆炸范围均 +15%。直接命中时，火箭伤害无视距离衰减，并附加击昏效果。",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -4743,7 +4743,7 @@
 				"name": "SET BONUS: move speed set bonus",
 				"defindex": 489,
 				"attribute_class": "mult_player_movespeed",
-				"description_string": "穿戴时移动速度 +%s1%",
+				"description_string": "装备时移动速度 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -4753,7 +4753,7 @@
 				"name": "SET BONUS: health regen set bonus",
 				"defindex": 490,
 				"attribute_class": "add_health_regen",
-				"description_string": "穿戴时生命值每秒 +%s1",
+				"description_string": "装备时每秒 +%s1 生命值",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -4763,7 +4763,7 @@
 				"name": "SET BONUS: dmg taken from crit reduced set bonus",
 				"defindex": 491,
 				"attribute_class": "mult_dmgtaken_from_crit",
-				"description_string": "穿戴时爆击伤害抗性 +%s1%",
+				"description_string": "装备时爆击伤害抗性 +%s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -4773,7 +4773,7 @@
 				"name": "SET BONUS: dmg taken from fire reduced set bonus",
 				"defindex": 492,
 				"attribute_class": "mult_dmgtaken_from_fire",
-				"description_string": "穿戴时火焰伤害抗性 +%s1%",
+				"description_string": "装备时火焰伤害抗性 +%s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -4833,7 +4833,7 @@
 				"name": "generate rage on heal",
 				"defindex": 499,
 				"attribute_class": "generate_rage_on_heal",
-				"description_string": "通过治疗队友积攒能量。当完全充能时，按下“特殊攻击”键以部署正面能量护盾。",
+				"description_string": "通过治疗队友积攒能量。充能完毕后，按下“特殊攻击”键即可部署正面能量护盾。",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -4963,7 +4963,7 @@
 				"name": "SET BONUS: dmg taken from bullets increased",
 				"defindex": 516,
 				"attribute_class": "mult_dmgtaken_from_bullets",
-				"description_string": "穿戴时受到的子弹伤害 +%s1%",
+				"description_string": "装备时受到的子弹伤害 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -4973,7 +4973,7 @@
 				"name": "SET BONUS: max health additive bonus",
 				"defindex": 517,
 				"attribute_class": "add_maxhealth",
-				"description_string": "穿戴时最大生命值 +%s1",
+				"description_string": "装备时最大生命值 +%s1",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -5054,7 +5054,7 @@
 				"name": "afterburn immunity",
 				"defindex": 527,
 				"attribute_class": "afterburn_immunity",
-				"description_string": "对后续燃烧免疫",
+				"description_string": "免疫后续燃烧",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -5186,7 +5186,7 @@
 				"name": "single wep deploy time decreased",
 				"defindex": 547,
 				"attribute_class": "mult_single_wep_deploy_time",
-				"description_string": "部署速度 +%s1%",
+				"description_string": "武器部署速度 +%s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -5377,7 +5377,7 @@
 				"name": "closerange backattack minicrits",
 				"defindex": 619,
 				"attribute_class": "closerange_backattack_minicrits",
-				"description_string": "近距离射击敌人背部时迷你爆击",
+				"description_string": "近距离射击敌人后背时必定迷你爆击",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -5396,7 +5396,7 @@
 				"name": "rocketjump attackrate bonus",
 				"defindex": 621,
 				"attribute_class": "rocketjump_attackrate_bonus",
-				"description_string": "爆炸起跳过程中提升攻击速率并减小爆炸范围",
+				"description_string": "爆炸起跳过程中提升攻击速度并削减爆炸范围",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -5451,7 +5451,7 @@
 				"name": "sniper crit no scope",
 				"defindex": 636,
 				"attribute_class": "sniper_crit_no_scope",
-				"description_string": "充能和开火不受开镜与否的限制",
+				"description_string": "只能手动充能射击，无论开镜与否均可充能",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -5481,7 +5481,7 @@
 				"name": "full charge turn control",
 				"defindex": 639,
 				"attribute_class": "charge_turn_control",
-				"description_string": "冲锋时可自由变向",
+				"description_string": "冲锋时可自由转向",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -5523,7 +5523,7 @@
 				"name": "clipsize increase on kill",
 				"defindex": 644,
 				"attribute_class": "clipsize_increase_on_kill",
-				"description_string": "杀敌时增加弹匣容量",
+				"description_string": "杀敌后扩大弹匣容量",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -5910,7 +5910,7 @@
 				"name": "stickybomb_charge_damage_increase",
 				"defindex": 727,
 				"attribute_class": "stickybomb_charge_damage_increase",
-				"description_string": "根据发射时的蓄力，至多 +%s1% 伤害",
+				"description_string": "蓄力越久伤害越高，至多 +%s1% 伤害",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -5920,7 +5920,7 @@
 				"name": "NoCloakWhenCloaked",
 				"defindex": 728,
 				"attribute_class": "NoCloakWhenCloaked",
-				"description_string": "隐形时捡起的弹药包不能补充隐形能量",
+				"description_string": "隐形时无法通过捡起弹药箱来补充隐形能量",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -5930,7 +5930,7 @@
 				"name": "ReducedCloakFromAmmo",
 				"defindex": 729,
 				"attribute_class": "ReducedCloakFromAmmo",
-				"description_string": "来自弹药包的隐形能量 %s1%",
+				"description_string": "从弹药箱补充的隐形能量 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -5956,7 +5956,7 @@
 				"name": "metal_pickup_decreased",
 				"defindex": 732,
 				"attribute_class": "mult_metal_pickup",
-				"description_string": "来自弹药包和补给器的金属 -%s1%",
+				"description_string": "从弹药箱和补给器获得的金属 -%s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -5966,7 +5966,7 @@
 				"name": "lose hype on take damage",
 				"defindex": 733,
 				"attribute_class": "lose_hype_on_take_damage",
-				"description_string": "被击中时速度加成蓄能减少",
+				"description_string": "受到攻击时削减加速能量",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -5986,7 +5986,7 @@
 				"name": "crit_vs_burning_FLARES_DISPLAY_ONLY",
 				"defindex": 735,
 				"attribute_class": "crit_vs_burning_FLARES_DISPLAY_ONLY",
-				"description_string": "对着火的敌人 100% 爆击",
+				"description_string": "对着火的敌人必定爆击",
 				"description_format": "value_is_or",
 				"effect_type": "positive",
 				"hidden": false,
@@ -6006,7 +6006,7 @@
 				"name": "speed_boost_on_hit",
 				"defindex": 737,
 				"attribute_class": "speed_boost_on_hit",
-				"description_string": "击中时：获得一次速度加成",
+				"description_string": "击中后获得一次速度加成",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -6016,7 +6016,7 @@
 				"name": "spunup_damage_resistance",
 				"defindex": 738,
 				"attribute_class": "spunup_damage_resistance",
-				"description_string": "生命值低于 50% 时，枪管高速旋转时所受伤害 %s1%",
+				"description_string": "生命值低于 50% 且在预热或开火时，所受伤害 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -6026,7 +6026,7 @@
 				"name": "ubercharge overheal rate penalty",
 				"defindex": 739,
 				"attribute_class": "mult_medigun_overheal_uberchargerate",
-				"description_string": "对已超量治疗的对象 UberCharge 积累速率 %s1%",
+				"description_string": "超量治疗时，医疗枪的 UberCharge 充能速率 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -6036,7 +6036,7 @@
 				"name": "reduced_healing_from_medics",
 				"defindex": 740,
 				"attribute_class": "mult_healing_from_medics",
-				"description_string": "医生的治疗效果 %s1%",
+				"description_string": "医生提供的治疗量 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -6248,7 +6248,7 @@
 				"name": "minicrit_boost_when_charged",
 				"defindex": 779,
 				"attribute_class": "minicrit_boost_when_charged",
-				"description_string": "充满时使用辅助开火可以获得 %s1 秒的迷你爆击。",
+				"description_string": "辅助能力：充能完毕后使用，即可获得 %s1 秒的迷你爆击",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -6258,7 +6258,7 @@
 				"name": "minicrit_boost_charge_rate",
 				"defindex": 780,
 				"attribute_class": "minicrit_boost_charge_rate",
-				"description_string": "造成伤害可以填充能量槽",
+				"description_string": "造成伤害即可填充能量",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -6268,7 +6268,7 @@
 				"name": "is_a_sword",
 				"defindex": 781,
 				"attribute_class": "is_a_sword",
-				"description_string": "此武器具有较大近战范围\n取出和收回速度下降",
+				"description_string": "此武器具有较大的近战范围\n取出和收回速度较慢",
 				"description_format": "value_is_additive",
 				"effect_type": "neutral",
 				"hidden": false,
@@ -6278,7 +6278,7 @@
 				"name": "ammo gives charge",
 				"defindex": 782,
 				"attribute_class": "ammo_gives_charge",
-				"description_string": "弹药箱同时提供冲锋能量",
+				"description_string": "可以通过弹药箱补充冲锋能量",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -6298,7 +6298,7 @@
 				"name": "extinguish reduces cooldown",
 				"defindex": 784,
 				"attribute_class": "extinguish_reduces_cooldown",
-				"description_string": "为队友灭火减少 %s1% 的冷却时间",
+				"description_string": "为队友灭火 %s1% 冷却时间",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -6344,7 +6344,7 @@
 				"name": "damage bonus bullet vs sentry target",
 				"defindex": 789,
 				"attribute_class": "mult_dmg_bullet_vs_sentry_target",
-				"description_string": "对步哨枪正在攻击的目标伤害 +%s1%",
+				"description_string": "对步哨枪锁定的目标造成的伤害 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -6382,7 +6382,7 @@
 				"name": "hype on damage",
 				"defindex": 793,
 				"attribute_class": "hype_on_damage",
-				"description_string": "击中时：可以积蓄能量",
+				"description_string": "击中时：积累跳跃能量",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -6392,7 +6392,7 @@
 				"name": "dmg taken from fire reduced on active",
 				"defindex": 794,
 				"attribute_class": "mult_dmgtaken_from_fire_active",
-				"description_string": "手持时火焰伤害抗性 +%s1%",
+				"description_string": "手持时，火焰伤害抗性 +%s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -6430,15 +6430,17 @@
 				"name": "energy buff dmg taken multiplier",
 				"defindex": 798,
 				"attribute_class": "energy_buff_dmg_taken_multiplier",
+				"description_string": "手持时受到的伤害 +%s1%",
+				"description_format": "value_is_percentage",
 				"effect_type": "negative",
-				"hidden": true,
+				"hidden": false,
 				"stored_as_integer": false
 			},
 			{
 				"name": "lose revenge crits on death DISPLAY ONLY",
 				"defindex": 799,
 				"attribute_class": "lose_revenge_crits_on_death_DISPLAY_ONLY",
-				"description_string": "复仇爆击在死亡时丢失",
+				"description_string": "死亡后丢失所有的复仇爆击",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -6448,7 +6450,7 @@
 				"name": "patient overheal penalty",
 				"defindex": 800,
 				"attribute_class": "mult_patient_overheal_penalty",
-				"description_string": "穿戴时最高超量治疗量 %s1%",
+				"description_string": "装备时超量治疗量上限 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -6500,7 +6502,7 @@
 				"name": "mult_spread_scales_consecutive",
 				"defindex": 808,
 				"attribute_class": "mult_spread_scales_consecutive",
-				"description_string": "连续射击时精准度下降",
+				"description_string": "连续射击将导致精准度下降",
 				"description_format": "value_is_additive_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -6577,7 +6579,7 @@
 				"name": "mod_disguise_consumes_cloak",
 				"defindex": 816,
 				"attribute_class": "mod_disguise_consumes_cloak",
-				"description_string": "使用伪装工具伪装会消耗全部隐身能量",
+				"description_string": "使用伪装工具伪装需耗尽全部隐身能量",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -6854,7 +6856,7 @@
 				"name": "mult_player_movespeed_active",
 				"defindex": 851,
 				"attribute_class": "mult_player_movespeed_active",
-				"description_string": "穿戴时移动速度 +%s1%",
+				"description_string": "装备时移动速度 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -6864,7 +6866,7 @@
 				"name": "mult_dmgtaken_active",
 				"defindex": 852,
 				"attribute_class": "mult_dmgtaken_active",
-				"description_string": "穿戴时受到的伤害 +%s1%",
+				"description_string": "装备时受到的伤害 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -6874,7 +6876,7 @@
 				"name": "mult_patient_overheal_penalty_active",
 				"defindex": 853,
 				"attribute_class": "mult_patient_overheal_penalty_active",
-				"description_string": "穿戴时最高超量治疗量 %s1%",
+				"description_string": "装备时超量治疗量上限 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -6884,7 +6886,7 @@
 				"name": "mult_health_fromhealers_penalty_active",
 				"defindex": 854,
 				"attribute_class": "mult_health_fromhealers_penalty_active",
-				"description_string": "穿戴时受到治疗者的治疗量 %s1%",
+				"description_string": "装备时受到治疗者的治疗量 %s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -6976,7 +6978,7 @@
 				"name": "crit_dmg_falloff",
 				"defindex": 868,
 				"attribute_class": "crit_dmg_falloff",
-				"description_string": "爆击伤害受距离影响",
+				"description_string": "爆击伤害受射击距离影响",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -6986,7 +6988,7 @@
 				"name": "crits_become_minicrits",
 				"defindex": 869,
 				"attribute_class": "crits_become_minicrits",
-				"description_string": "在任何正常来说应当产生爆击的时候，产生迷你爆击",
+				"description_string": "在理应造成爆击的情况下，造成迷你爆击",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -6996,7 +6998,7 @@
 				"name": "falling_impact_radius_pushback",
 				"defindex": 870,
 				"attribute_class": "falling_impact_radius_pushback",
-				"description_string": "落地时击退敌人（力量和范围取决于落地速度）",
+				"description_string": "落地时击退敌人（推动力和范围取决于落地速度）",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -7042,7 +7044,7 @@
 				"name": "explode_on_ignite",
 				"defindex": 875,
 				"attribute_class": "explode_on_ignite",
-				"description_string": "敌人在被点燃时爆炸",
+				"description_string": "点燃被汽油泼中的敌人会产生爆炸",
 				"description_format": "value_is_additive",
 				"effect_type": "value_is_from_lookup_table",
 				"hidden": false,
@@ -7062,7 +7064,7 @@
 				"name": "speed_boost_on_hit_enemy",
 				"defindex": 877,
 				"attribute_class": "speed_boost_on_hit_enemy",
-				"description_string": "击中敌人时获得速度加成",
+				"description_string": "击中敌人时获得移速加成",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -7072,7 +7074,7 @@
 				"name": "item_meter_starts_empty_DISPLAY_ONLY",
 				"defindex": 878,
 				"attribute_class": "item_meter_starts_empty_DISPLAY_ONLY",
-				"description_string": "油料在开始时为空",
+				"description_string": "初始油量为空",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -7082,7 +7084,7 @@
 				"name": "item_meter_charge_type_3_DISPLAY_ONLY",
 				"defindex": 879,
 				"attribute_class": "item_meter_charge_type_3_DISPLAY_ONLY",
-				"description_string": "油料随时间积累，制造伤害可以加快积累",
+				"description_string": "油料随时间补充，对敌方造成伤害可以加快补充",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -7102,7 +7104,7 @@
 				"name": "health drain medic",
 				"defindex": 881,
 				"attribute_class": "add_health_regen",
-				"description_string": "%s1 health regenerated per second on wearer",
+				"description_string": "装备时每秒生命值自回复量 %s1",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -7122,7 +7124,7 @@
 				"name": "CARD: dmg taken from bullets reduced",
 				"defindex": 1001,
 				"attribute_class": "mult_dmgtaken_from_bullets",
-				"description_string": "穿戴时子弹伤害抗性 +%s1%",
+				"description_string": "装备时子弹伤害抗性 +%s1%",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -7132,7 +7134,7 @@
 				"name": "CARD: move speed bonus",
 				"defindex": 1002,
 				"attribute_class": "mult_player_movespeed",
-				"description_string": "穿戴时移动速度 +%s1%",
+				"description_string": "装备时移动速度 +%s1%",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -7142,7 +7144,7 @@
 				"name": "CARD: health regen",
 				"defindex": 1003,
 				"attribute_class": "add_health_regen",
-				"description_string": "穿戴时生命值每秒 +%s1",
+				"description_string": "装备时每秒 +%s1 生命值",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -7630,7 +7632,7 @@
 				"name": "gunslinger punch combo",
 				"defindex": 2049,
 				"attribute_class": "gunslinger_punch_combo",
-				"description_string": "连续命中的第三下攻击总是爆击",
+				"description_string": "连续三拳命中敌人时，第三拳必定爆击",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -7730,7 +7732,7 @@
 				"name": "dragons fury positive properties",
 				"defindex": 2063,
 				"attribute_class": "dragons_fury_positive_properties",
-				"description_string": "对着火的敌人伤害 300%\n击中后冷却速率 +50%",
+				"description_string": "对着火的敌人造成 300% 的伤害\n击中敌人后攻击冷却速率 +50%",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -7740,7 +7742,7 @@
 				"name": "dragons fury negative properties",
 				"defindex": 2064,
 				"attribute_class": "dragons_fury_negative_properties",
-				"description_string": "使用辅助开火能力后冷却速率 -50%",
+				"description_string": "使用辅助能力后攻击冷却速率 -50%",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -7750,7 +7752,7 @@
 				"name": "dragons fury neutral properties",
 				"defindex": 2065,
 				"attribute_class": "dragons_fury_neutral_properties",
-				"description_string": "主要和辅助开火共用冷却时间。\n\n主要开火能力：发射一个高速飞行的火球，使敌人短暂着火\n\n辅助开火能力： 释放压缩空气，能推开敌人和飞行物，并为着火的队友灭火。",
+				"description_string": "主要攻击和辅助能力共用同一个压力槽。\n\n主要攻击：发射一个高速飞行的火球，并短暂点燃敌人\n\n辅助能力：释放一股压缩气流，可以击退敌人、反弹飞行物，并为着火的队友灭火。",
 				"description_format": "value_is_additive",
 				"effect_type": "neutral",
 				"hidden": false,
@@ -7768,7 +7770,7 @@
 				"name": "attack_minicrits_and_consumes_burning",
 				"defindex": 2067,
 				"attribute_class": "attack_minicrits_and_consumes_burning",
-				"description_string": "对着火敌人迷你爆击，并为他们灭火。\n敌人剩余着火时间越长，伤害越高。\n击杀着火敌人后暂时提高移动速度",
+				"description_string": "对着火敌人造成迷你爆击，并为他们灭火。\n敌人剩余着火时间越长，伤害越高。\n击杀着火敌人后获得短暂的移速加成。",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -7780,6 +7782,116 @@
 				"attribute_class": null,
 				"effect_type": "value_is_from_lookup_table",
 				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair kritz potion",
+				"defindex": 2069,
+				"attribute_class": "freaky_fair_kritz_potion",
+				"description_string": "爆击药水",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair uber potion",
+				"defindex": 2070,
+				"attribute_class": "freaky_fair_uber_potion",
+				"description_string": "无敌药水",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair giant potion",
+				"defindex": 2071,
+				"attribute_class": "freaky_fair_giant_potion",
+				"description_string": "巨人药水",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair buster potion",
+				"defindex": 2072,
+				"attribute_class": "freaky_fair_buster_potion",
+				"description_string": "南瓜毁灭者药水",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair healing potion",
+				"defindex": 2073,
+				"attribute_class": "freaky_fair_healing_potion",
+				"description_string": "治疗药水",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair ghost potion",
+				"defindex": 2074,
+				"attribute_class": "freaky_fair_ghost_potion",
+				"description_string": "幽灵药水",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair ammo potion",
+				"defindex": 2075,
+				"attribute_class": "freaky_fair_ammo_potion",
+				"description_string": "弹药填充药水",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair rtd potion",
+				"defindex": 2076,
+				"attribute_class": "freaky_fair_rtd_potion",
+				"description_string": "“抽奖”药水",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair relentless potion",
+				"defindex": 2077,
+				"attribute_class": "freaky_fair_relentless_potion",
+				"description_string": "无尽药水",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair extra attrib1",
+				"defindex": 2078,
+				"attribute_class": "freaky_fair_extra_attrib1",
+				"description_string": "更多 Freaky Fair 属性 1",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "freaky fair extra attrib2",
+				"defindex": 2079,
+				"attribute_class": "freaky_fair_extra_attrib2",
+				"description_string": "更多 Freaky Fair 属性 2",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
 				"stored_as_integer": false
 			},
 			{
@@ -8887,6 +8999,7 @@
 				"system": "superrare_beams1",
 				"id": 17,
 				"attach_to_rootbone": true,
+				"attachment": "unusual",
 				"name": "太阳之光"
 			},
 			{
@@ -9882,21 +9995,21 @@
 				"id": 177,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Resonation"
+				"name": "共鸣电光"
 			},
 			{
 				"system": "unusual_breaker_orange_parent",
 				"id": 178,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Aggradation"
+				"name": "高能电光"
 			},
 			{
 				"system": "unusual_breaker_purple_parent",
 				"id": 179,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Lucidation"
+				"name": "明澈电光"
 			},
 			{
 				"system": "unusual_star_parent",
@@ -9910,21 +10023,21 @@
 				"id": 181,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ardentum Saturnalis"
+				"name": "璀璨星弦"
 			},
 			{
 				"system": "unusual_magic_stingers_pink_parent",
 				"id": 182,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fragrancium Elementalis"
+				"name": "迷离星弦"
 			},
 			{
 				"system": "unusual_magic_stingers_teamcolor_red",
 				"id": 183,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Reverium Irregularis"
+				"name": "梦幻星弦"
 			},
 			{
 				"system": "unusual_magic_stingers_teamcolor_blue",
@@ -9938,140 +10051,140 @@
 				"id": 185,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Perennial Petals"
+				"name": "花香常漫"
 			},
 			{
 				"system": "unusual_bloomhead_orangepurple_parent",
 				"id": 186,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flavorsome Sunset"
+				"name": "落幕余晖"
 			},
 			{
 				"system": "unusual_bloomhead_pinkgreen_parent",
 				"id": 187,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Raspberry Bloom"
+				"name": "华彩绽放"
 			},
 			{
 				"system": "unusual_magicalorb_parent",
 				"id": 188,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Iridescence"
+				"name": "虹彩萦绕"
 			},
 			{
 				"system": "unusual_demonhorns_green_parent",
 				"id": 189,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Tempered Thorns"
+				"name": "棘刺魔角"
 			},
 			{
 				"system": "unusual_demonhorns_orange_parent",
 				"id": 190,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Devilish Diablo"
+				"name": "赤炎魔角"
 			},
 			{
 				"system": "unusual_demonhorns_purple_parent",
 				"id": 191,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Severed Serration"
+				"name": "幽能魔角"
 			},
 			{
 				"system": "unusual_souls_shades_parent",
 				"id": 192,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Shrieking Shades"
+				"name": "鬼哭狼嚎"
 			},
 			{
 				"system": "unusual_souls_teamcolor_red",
 				"id": 193,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Restless Wraiths"
+				"name": "惊神泣鬼"
 			},
 			{
 				"system": "unusual_souls_teamcolor_blue",
 				"id": 194,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Restless Wraiths"
+				"name": "惊神泣鬼"
 			},
 			{
 				"system": "unusual_phantomcrown_green_parent",
 				"id": 195,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Infernal Wraith"
+				"name": "幽冥魂冠"
 			},
 			{
 				"system": "unusual_phantomcrown_purple_parent",
 				"id": 196,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Phantom Crown"
+				"name": "幻影魂冠"
 			},
 			{
 				"system": "unusual_phantomcrown_yellow_parent",
 				"id": 197,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ancient Specter"
+				"name": "上古魂冠"
 			},
 			{
 				"system": "unusual_lurking_eyes_parent_g",
 				"id": 198,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Viridescent Peeper"
+				"name": "妒意凝视"
 			},
 			{
 				"system": "unusual_lurking_eyes_parent_o",
 				"id": 199,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Eyes of Molten"
+				"name": "灼怒凝视"
 			},
 			{
 				"system": "unusual_lurking_eyes_parent_p",
 				"id": 200,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ominous Stare"
+				"name": "怪诞凝视"
 			},
 			{
 				"system": "unusual_pumpkin_moon_parent",
 				"id": 201,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Pumpkin Moon"
+				"name": "瓜月当空"
 			},
 			{
 				"system": "unusual_wacky_spooky_ghost_parent_g",
 				"id": 202,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Frantic Spooker"
+				"name": "狂乱怪灵"
 			},
 			{
 				"system": "unusual_wacky_spooky_ghost_parent_o",
 				"id": 203,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Frightened Poltergeist"
+				"name": "惊恐怪灵"
 			},
 			{
 				"system": "unusual_wacky_spooky_ghost_parent_p",
 				"id": 204,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Energetic Haunter"
+				"name": "欢脱怪灵"
 			},
 			{
 				"system": "unusual_smissmas_tree_parent",
@@ -10085,42 +10198,42 @@
 				"id": 206,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Hospitable Festivity"
+				"name": "盛情欢庆"
 			},
 			{
 				"system": "unusual_tree3_teamcolor_red",
 				"id": 207,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Condescending Embrace"
+				"name": "傲慢怀抱"
 			},
 			{
 				"system": "unusual_tree3_teamcolor_blue",
 				"id": 208,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Condescending Embrace"
+				"name": "傲慢怀抱"
 			},
 			{
 				"system": "unusual_sparkletree_gold_parent",
 				"id": 209,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sparkling Spruce"
+				"name": "璀璨云杉"
 			},
 			{
 				"system": "unusual_sparkletree_silver_parent",
 				"id": 210,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Glittering Juniper"
+				"name": "闪耀杜松"
 			},
 			{
 				"system": "unusual_sparkletree_RGB_parent",
 				"id": 211,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Prismatic Pine"
+				"name": "七彩冷杉"
 			},
 			{
 				"system": "unusual_fairylights_green_parent",
@@ -10148,7 +10261,7 @@
 				"id": 215,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flurry Rush"
+				"name": "喷薄雪花"
 			},
 			{
 				"system": "unusual_spire_firework_teamcolor_red",
@@ -10211,28 +10324,28 @@
 				"id": 224,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Crustacean Sensation"
+				"name": "蟹意满面"
 			},
 			{
 				"system": "unusual_spycrabs_teamcolor_blue",
 				"id": 225,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Crustacean Sensation"
+				"name": "蟹意满面"
 			},
 			{
 				"system": "unusual_sprinkles_teamcolor_red",
 				"id": 226,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Frosted Decadence"
+				"name": "霜落纷纷"
 			},
 			{
 				"system": "unusual_sprinkles_teamcolor_blue",
 				"id": 227,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Frosted Decadence"
+				"name": "霜落纷纷"
 			},
 			{
 				"system": "unusual_sprinkles_rainbow_parent",
@@ -10246,28 +10359,28 @@
 				"id": 229,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Terrestrial Favor"
+				"name": "交织之境"
 			},
 			{
 				"system": "unusual_liquidmagic_ocean_parent",
 				"id": 230,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Tropical Thrill"
+				"name": "交织之力"
 			},
 			{
 				"system": "unusual_liquidmagic_pink_parent",
 				"id": 231,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flourishing Passion"
+				"name": "交织之意"
 			},
 			{
 				"system": "unusual_firework_blue_red_parent",
 				"id": 232,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Dazzling Fireworks"
+				"name": "闪映爆竹"
 			},
 			{
 				"system": "unusual_firework_green_yellow_parent",
@@ -10281,7 +10394,7 @@
 				"id": 234,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Shimmering Fireworks"
+				"name": "闪耀爆竹"
 			},
 			{
 				"system": "unusual_firework_pgb_parent",
@@ -10309,84 +10422,84 @@
 				"id": 238,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Glimmering Fireworks"
+				"name": "闪色爆竹"
 			},
 			{
 				"system": "unusual_lanterns_teamcolor_red",
 				"id": 239,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flying Lights"
+				"name": "映福天灯"
 			},
 			{
 				"system": "unusual_lanterns_teamcolor_blue",
 				"id": 240,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flying Lights"
+				"name": "映福天灯"
 			},
 			{
 				"system": "unusual_lanterns_green_parent",
 				"id": 241,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Limelight"
+				"name": "寓福天灯"
 			},
 			{
 				"system": "unusual_lanterns_yellow_parent",
 				"id": 242,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Shining Star"
+				"name": "祈福天灯"
 			},
 			{
 				"system": "unusual_coldcosmos_parent",
 				"id": 243,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Cold Cosmos"
+				"name": "寒暮星辰"
 			},
 			{
 				"system": "unusual_helix_parent",
 				"id": 244,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Refracting Fractals"
+				"name": "双升螺旋"
 			},
 			{
 				"system": "unusual_stardust_teamcolor_red",
 				"id": 245,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Startrance"
+				"name": "星律波纹"
 			},
 			{
 				"system": "unusual_stardust_teamcolor_blue",
 				"id": 246,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Startrance"
+				"name": "星律波纹"
 			},
 			{
 				"system": "unusual_stardust_green_parent",
 				"id": 247,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Starlush"
+				"name": "星萃波纹"
 			},
 			{
 				"system": "unusual_stardust_orange_parent",
 				"id": 248,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Starfire"
+				"name": "星火波纹"
 			},
 			{
 				"system": "unusual_stardust_white_parent",
 				"id": 249,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Stardust"
+				"name": "星尘波纹"
 			},
 			{
 				"system": "unusual_erupt_alien_parent",
@@ -10400,525 +10513,987 @@
 				"id": 251,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Daydream Eruption"
+				"name": "梦境喷发"
 			},
 			{
 				"system": "unusual_erupt_volcan_parent",
 				"id": 252,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Volcanic Eruption"
+				"name": "熔岩喷发"
 			},
 			{
 				"system": "unusual_supernova_parent",
 				"id": 253,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Divine Sunlight"
+				"name": "神圣日光"
 			},
 			{
 				"system": "unusual_audio_soundwave_green_parent",
 				"id": 254,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Audiophile"
+				"name": "韵感声波"
 			},
 			{
 				"system": "unusual_audio_soundwave_orange_parent",
 				"id": 255,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Soundwave"
+				"name": "动感声波"
 			},
 			{
 				"system": "unusual_audio_soundwave_purple_parent",
 				"id": 256,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Synesthesia"
+				"name": "劲感声波"
 			},
 			{
 				"system": "unusual_kraken_green_parent",
 				"id": 257,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Haunted Kraken"
+				"name": "海魔触须"
 			},
 			{
 				"system": "unusual_kraken_purple_parent",
 				"id": 258,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Eerie Kraken"
+				"name": "海妖触须"
 			},
 			{
 				"system": "unusual_ghostaxe_parent_green",
 				"id": 259,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Soulful Slice"
+				"name": "断魂灵斧"
 			},
 			{
 				"system": "unusual_ghostaxe_parent_purple",
 				"id": 260,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Horsemann's Hack"
+				"name": "斩首灵斧"
 			},
 			{
 				"system": "unusual_hauntedforever_teamcolor_red",
 				"id": 261,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Haunted Forever!"
+				"name": "永劫诅咒！"
 			},
 			{
 				"system": "unusual_hauntedforever_teamcolor_blue",
 				"id": 262,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Haunted Forever!"
+				"name": "永劫诅咒！"
 			},
 			{
 				"system": "unusual_hauntedforever_green_parent",
 				"id": 263,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Forever And Forever!"
+				"name": "永恒诅咒！"
 			},
 			{
 				"system": "unusual_hauntedforever_purple_parent",
 				"id": 264,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Cursed Forever!"
+				"name": "永世诅咒！"
 			},
 			{
 				"system": "unusual_moths_parent",
 				"id": 265,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Moth Plague"
+				"name": "蛾疫风波"
 			},
 			{
 				"system": "unusual_eyeboss_parent",
 				"id": 266,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Malevolent Monoculi"
+				"name": "眼观六路"
 			},
 			{
 				"system": "unusual_ghostly_flame_teamcolor_red",
 				"id": 267,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Haunted Wick"
+				"name": "亡灵魂火"
 			},
 			{
 				"system": "unusual_ghostly_flame_teamcolor_blue",
 				"id": 268,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Haunted Wick"
+				"name": "亡灵魂火"
 			},
 			{
 				"system": "unusual_ghostly_flame_parent_orange",
 				"id": 269,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Wicked Wick"
+				"name": "邪灵魂火"
 			},
 			{
 				"system": "unusual_ghostly_flame_parent_purple",
 				"id": 270,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Spectral Wick"
+				"name": "幽灵魂火"
 			},
 			{
 				"system": "unusual_sheetmusic_gold_parent",
 				"id": 271,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Musical Maelstrom"
+				"name": "音乐漩涡"
 			},
 			{
 				"system": "unusual_sheetmusic_green_parent",
 				"id": 272,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Verdant Virtuoso"
+				"name": "青绿艺匠"
 			},
 			{
 				"system": "unusual_sheetmusic_silver_parent",
 				"id": 273,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Silver Serenade"
+				"name": "银白夜曲"
 			},
 			{
 				"system": "unusual_constellation_teamcolor_red",
 				"id": 274,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Cosmic Constellations"
+				"name": "宇宙星座"
 			},
 			{
 				"system": "unusual_constellation_teamcolor_blue",
 				"id": 275,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Cosmic Constellations"
+				"name": "宇宙星座"
 			},
 			{
 				"system": "unusual_constellation_green_parent",
 				"id": 276,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Dazzling Constellations"
+				"name": "灿烂星团"
 			},
 			{
 				"system": "unusual_blood_snow_parent",
 				"id": 277,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Tainted Frost"
+				"name": "血染寒霜"
 			},
 			{
 				"system": "unusual_aestheticneons_parent",
 				"id": 278,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Starlight Haze"
+				"name": "星光迷雾"
 			},
 			{
 				"system": "unusual_hardcarry_teamcolor_red",
 				"id": 279,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Hard Carry"
+				"name": "硬核运送"
 			},
 			{
 				"system": "unusual_hardcarry_teamcolor_blue",
 				"id": 280,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Hard Carry"
+				"name": "硬核运送"
 			},
 			{
 				"system": "unusual_jellyfish_teamcolor_red",
 				"id": 281,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Jellyfish Field"
+				"name": "水母秘境"
 			},
 			{
 				"system": "unusual_jellyfish_teamcolor_blue",
 				"id": 282,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Jellyfish Field"
+				"name": "水母秘境"
 			},
 			{
 				"system": "unusual_jellyfish_green_parent",
 				"id": 283,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Jellyfish Hunter"
+				"name": "水母捕手"
 			},
 			{
 				"system": "unusual_jellyfish_purple_parent",
 				"id": 284,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Jellyfish Jam"
+				"name": "水母果酱"
 			},
 			{
 				"system": "unusual_shootingstar_green_parent",
 				"id": 285,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Global Clusters"
+				"name": "球状星团"
 			},
 			{
 				"system": "unusual_shootingstar_purple_parent",
 				"id": 286,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Celestial Starburst"
+				"name": "天域星爆"
 			},
 			{
 				"system": "unusual_shootingstar_orange_parent",
 				"id": 287,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sylicone Succiduous"
+				"name": "硅华星流"
 			},
 			{
 				"system": "unusual_sakura_smokebomb",
 				"id": 288,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sakura Smoke Bomb"
+				"name": "樱花烟雾弹"
 			},
 			{
 				"system": "unusual_australian_riches",
 				"id": 289,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Treasure Trove"
+				"name": "无主宝藏"
 			},
 			{
 				"system": "unusual_buble_parent",
 				"id": 290,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Bubble Breeze"
+				"name": "泡影微岚"
 			},
 			{
 				"system": "unusual_fireflies",
 				"id": 291,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fireflies"
+				"name": "萤火虫"
 			},
 			{
 				"system": "unusual_mountainhalo_parent",
 				"id": 292,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Mountain Halo"
+				"name": "山峦光晕"
 			},
 			{
 				"system": "unusual_risingstar_green_parent",
 				"id": 293,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Celestial Summit"
+				"name": "星际之巅"
 			},
 			{
 				"system": "unusual_risingstar_purple_parent",
 				"id": 294,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Stellar Ascent"
+				"name": "升腾星辉"
 			},
 			{
 				"system": "unusual_sapper_teamcolor_red",
 				"id": 295,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sapped"
+				"name": "电子瘫痪"
 			},
 			{
 				"system": "unusual_sapper_teamcolor_blue",
 				"id": 296,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sapped"
+				"name": "电子瘫痪"
 			},
 			{
 				"system": "unusual_devilish_teamcolor_red",
 				"id": 297,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Hellspawned Horns"
+				"name": "地狱号角"
 			},
 			{
 				"system": "unusual_devilish_teamcolor_blue",
 				"id": 298,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Hellspawned Horns"
+				"name": "地狱号角"
 			},
 			{
 				"system": "unusual_devilish_green_parent",
 				"id": 299,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Demonic Impaler"
+				"name": "恶魔贯刺"
 			},
 			{
 				"system": "unusual_devilish_purple_parent",
 				"id": 300,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Revenant's Rack"
+				"name": "亡魂魔角"
 			},
 			{
 				"system": "unusual_sixthsense_teamcolor_red",
 				"id": 301,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sixth Sense"
+				"name": "第六感"
 			},
 			{
 				"system": "unusual_sixthsense_teamcolor_blue",
 				"id": 302,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sixth Sense"
+				"name": "第六感"
 			},
 			{
 				"system": "unusual_sixthsense_pink_parent",
 				"id": 303,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Amygdala"
+				"name": "梦魇之眼"
 			},
 			{
 				"system": "unusual_skullhead_parent",
 				"id": 304,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "The Bone Zone"
+				"name": "骸骨地带"
 			},
 			{
 				"system": "unusual_spiderweb_parent",
 				"id": 305,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Arachne's Web"
+				"name": "诡丝迷网"
 			},
 			{
 				"system": "unusual_deepsmoke_parent_g",
 				"id": 306,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Acidic Climate"
+				"name": "酸性气候"
 			},
 			{
 				"system": "unusual_deepsmoke_parent_p",
 				"id": 307,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Otherworldly Weather"
+				"name": "超凡天象"
 			},
 			{
 				"system": "unusual_deepsmoke_parent_o",
 				"id": 308,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Nightmarish Storm"
+				"name": "噩梦风暴"
 			},
 			{
 				"system": "unusual_icearrow_teamcolor_red",
 				"id": 309,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Icestruck"
+				"name": "冰霜飞箭"
 			},
 			{
 				"system": "unusual_icearrow_teamcolor_blue",
 				"id": 310,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Icestruck"
+				"name": "冰霜飞箭"
 			},
 			{
 				"system": "unusual_goldarrow_parent",
 				"id": 311,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Goldstruck"
+				"name": "黄金飞箭"
 			},
 			{
 				"system": "unusual_aestheticsigns_teamcolor_red",
 				"id": 312,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Radiant Rivalry"
+				"name": "耀世之争"
 			},
 			{
 				"system": "unusual_aestheticsigns_teamcolor_blue",
 				"id": 313,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Radiant Rivalry"
+				"name": "耀世之争"
 			},
 			{
 				"system": "unusual_aestheticsigns_mannco_parent",
 				"id": 314,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Radiant Legacy"
+				"name": "耀世遗产"
 			},
 			{
 				"system": "unusual_frosty_flavours_teamcolor_red",
 				"id": 315,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Frosty Flavours"
+				"name": "冰霜风味"
 			},
 			{
 				"system": "unusual_frosty_flavours_teamcolor_blue",
 				"id": 316,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Frosty Flavours"
+				"name": "冰霜风味"
 			},
 			{
 				"system": "unusual_frosty_mint_glow_parent",
 				"id": 317,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Mint Frost"
+				"name": "冰爽薄荷"
 			},
 			{
 				"system": "unusual_northstar_teamcolor_red",
 				"id": 318,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "North Star"
+				"name": "北极星"
 			},
 			{
 				"system": "unusual_northstar_teamcolor_blue",
 				"id": 319,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "North Star"
+				"name": "北极星"
 			},
 			{
 				"system": "unusual_northstar_parent_purple",
 				"id": 320,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Prettiest Star"
+				"name": "璀璨明星"
 			},
 			{
 				"system": "unusual_orbitingstar_parent",
 				"id": 321,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Festive Falling Star"
+				"name": "盛典流光"
 			},
 			{
 				"system": "unusual_firefly_teamcolor_red",
 				"id": 322,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Lunar Lights"
+				"name": "明月之光"
 			},
 			{
 				"system": "unusual_firefly_teamcolor_blue",
 				"id": 323,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Lunar Lights"
+				"name": "明月之光"
 			},
 			{
 				"system": "unusual_firefly_purple_parent",
 				"id": 324,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fairy Lights"
+				"name": "童话之光"
 			},
 			{
 				"system": "unusual_firefly_green_parent",
 				"id": 325,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Natural Lights"
+				"name": "自然之光"
+			},
+			{
+				"system": "unusual_corrodedknight_teamcolor_red",
+				"id": 327,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "虔诚冠冕"
+			},
+			{
+				"system": "unusual_corrodedknight_teamcolor_blue",
+				"id": 328,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "虔诚冠冕"
+			},
+			{
+				"system": "unusual_corrodedknight_parent_silver",
+				"id": 329,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "骑士傲灵"
+			},
+			{
+				"system": "unusual_corrodedknight_parent_golden",
+				"id": 330,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "贵族珍冠"
+			},
+			{
+				"system": "unusual_poseidon_teamcolor_red",
+				"id": 331,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "深海诱饵"
+			},
+			{
+				"system": "unusual_poseidon_teamcolor_blue",
+				"id": 332,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "深海诱饵"
+			},
+			{
+				"system": "unusual_poseidon_parent_green",
+				"id": 333,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "凶猛绿鳍"
+			},
+			{
+				"system": "unusual_poseidon_parent_purple",
+				"id": 334,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "紫红怪鳍"
+			},
+			{
+				"system": "unusual_rainglow_parent",
+				"id": 335,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "彩虹幻梦"
+			},
+			{
+				"system": "unusual_cubancigar_parent",
+				"id": 336,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "古巴雪茄"
+			},
+			{
+				"system": "unusual_mohawk_teamcolor_red",
+				"id": 337,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "熔动莫西干"
+			},
+			{
+				"system": "unusual_mohawk_teamcolor_blue",
+				"id": 338,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "熔动莫西干"
+			},
+			{
+				"system": "unusual_mohawk_parent_green",
+				"id": 339,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "头皮发热"
+			},
+			{
+				"system": "unusual_mohawk_parent_purple",
+				"id": 340,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "引火羽冠"
+			},
+			{
+				"system": "unusual_rare_shine_glow_parent",
+				"id": 341,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "稀物闪耀"
+			},
+			{
+				"system": "unusual_horstars_teamcolor_red",
+				"id": 342,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "漂泊羁旅"
+			},
+			{
+				"system": "unusual_horstars_teamcolor_blue",
+				"id": 343,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "漂泊羁旅"
+			},
+			{
+				"system": "unusual_electric_parent_white",
+				"id": 344,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "曲速引擎"
+			},
+			{
+				"system": "unusual_electric_parent_gold",
+				"id": 345,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "超负荷"
+			},
+			{
+				"system": "unusual_butterflyhead_teamcolor_red",
+				"id": 346,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "蝴蝶热季"
+			},
+			{
+				"system": "unusual_butterflyhead_teamcolor_blue",
+				"id": 347,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "蝴蝶热季"
+			},
+			{
+				"system": "unusual_hippieaura_parent",
+				"id": 348,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "精神迷幻"
+			},
+			{
+				"system": "unusual_butterfly_parent",
+				"id": 349,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "迷人飞虫"
+			},
+			{
+				"system": "unusual_spectral_fire_parent",
+				"id": 350,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "幻影魂火"
+			},
+			{
+				"system": "unusual_galactic_fire_parent",
+				"id": 351,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "银河之火"
+			},
+			{
+				"system": "unusual_frank_green_parent",
+				"id": 352,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "回生充能"
+			},
+			{
+				"system": "unusual_frank_purple_parent",
+				"id": 353,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "不死电流"
+			},
+			{
+				"system": "unusual_frank_yellow_parent",
+				"id": 354,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "爆能怪人"
+			},
+			{
+				"system": "unusual_skullsmoke_green_parent",
+				"id": 355,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "幻影瘟疫"
+			},
+			{
+				"system": "unusual_skullsmoke_purple_parent",
+				"id": 356,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "阴霾萦绕"
+			},
+			{
+				"system": "unusual_pigeons_green_parent",
+				"id": 357,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "凶残血蝠"
+			},
+			{
+				"system": "unusual_pigeons_purple_parent",
+				"id": 358,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "饥饿黑鸦"
+			},
+			{
+				"system": "unusual_pigeons_white_parent",
+				"id": 359,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "欢愉白鸽"
+			},
+			{
+				"system": "unusual_stove_teamcolor_red",
+				"id": 360,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "灼热炉火"
+			},
+			{
+				"system": "unusual_stove_teamcolor_blue",
+				"id": 361,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "灼热炉火"
+			},
+			{
+				"system": "unusual_electricfire_teamcolor_red",
+				"id": 362,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "超能炫光"
+			},
+			{
+				"system": "unusual_electricfire_teamcolor_blue",
+				"id": 363,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "超能炫光"
+			},
+			{
+				"system": "unusual_sizzling_parent",
+				"id": 364,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "滋滋冒气"
+			},
+			{
+				"system": "unusual_icrown_teamcolor_red",
+				"id": 365,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "水晶王冠"
+			},
+			{
+				"system": "unusual_icrown_teamcolor_blue",
+				"id": 366,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "水晶王冠"
+			},
+			{
+				"system": "unusual_icrown_parent_purple",
+				"id": 367,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "太平光环"
+			},
+			{
+				"system": "unusual_timeghosts_parent",
+				"id": 368,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "圣诞众灵"
+			},
+			{
+				"system": "unusual_aurora_parent",
+				"id": 369,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "极地夜空"
+			},
+			{
+				"system": "unusual_bokehsparkle_parent",
+				"id": 370,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "闪亮散焦"
+			},
+			{
+				"system": "unusual_playful_purple_parent",
+				"id": 371,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "欢腾极光"
+			},
+			{
+				"system": "unusual_playful_yellow_parent",
+				"id": 372,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "蓬勃朝气"
+			},
+			{
+				"system": "unusual_drunk_parent",
+				"id": 373,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "酩酊大醉"
+			},
+			{
+				"system": "unusual_excalibur_teamcolor_red",
+				"id": 374,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "背叛之刃"
+			},
+			{
+				"system": "unusual_excalibur_teamcolor_blue",
+				"id": 375,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "背叛之刃"
+			},
+			{
+				"system": "unusual_excalibur_parent_purple",
+				"id": 376,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "死神匕首"
+			},
+			{
+				"system": "unusual_uber_teamcolor_red",
+				"id": 377,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "能量爆棚"
+			},
+			{
+				"system": "unusual_uber_teamcolor_blue",
+				"id": 378,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "能量爆棚"
+			},
+			{
+				"system": "unusual_uber_gold_parent",
+				"id": 379,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "超量充能"
+			},
+			{
+				"system": "unusual_orbitingbullet_parent",
+				"id": 380,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "脑洞大开"
+			},
+			{
+				"system": "unusual_typhoon_parent",
+				"id": 381,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "风卷残云"
+			},
+			{
+				"system": "unusual_ocean_swirl_teamcolor_red",
+				"id": 382,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "大洋漩涡"
+			},
+			{
+				"system": "unusual_ocean_swirl_teamcolor_blue",
+				"id": 383,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "大洋漩涡"
+			},
+			{
+				"system": "unusual_ocean_swirl_green_parent",
+				"id": 384,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "剧毒漩涡"
+			},
+			{
+				"system": "unusual_candle_teamcolor_red",
+				"id": 385,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "摇曳烛火"
+			},
+			{
+				"system": "unusual_candle_teamcolor_blue",
+				"id": 386,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "摇曳烛火"
+			},
+			{
+				"system": "unusual_deadlyaroma_teamcolor_red",
+				"id": 387,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "滋油喷香"
+			},
+			{
+				"system": "unusual_deadlyaroma_teamcolor_blue",
+				"id": 388,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "滋油喷香"
+			},
+			{
+				"system": "unusual_deadlyaroma_green_parent",
+				"id": 389,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "毒液迷臭"
+			},
+			{
+				"system": "unusual_conductor_teamc_teamcolor_red",
+				"id": 390,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "电流导体"
+			},
+			{
+				"system": "unusual_conductor_teamc_teamcolor_blue",
+				"id": 391,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "电流导体"
+			},
+			{
+				"system": "unusual_sandy_parent",
+				"id": 392,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "灰头土脸"
 			},
 			{
 				"system": "weapon_unusual_hot",
@@ -11336,85 +11911,85 @@
 				"system": "utaunt_chain_green_parent",
 				"id": 3059,
 				"attach_to_rootbone": false,
-				"name": "Spectral Shackles"
+				"name": "幽灵枷锁"
 			},
 			{
 				"system": "utaunt_chain_purple_parent",
 				"id": 3060,
 				"attach_to_rootbone": false,
-				"name": "Cursed Confinement"
+				"name": "诅咒枷锁"
 			},
 			{
 				"system": "utaunt_tarotcard_teamcolor_red",
 				"id": 3061,
 				"attach_to_rootbone": false,
-				"name": "Cavalier de Carte"
+				"name": "卡牌骑士"
 			},
 			{
 				"system": "utaunt_tarotcard_teamcolor_blue",
 				"id": 3062,
 				"attach_to_rootbone": false,
-				"name": "Cavalier de Carte"
+				"name": "卡牌骑士"
 			},
 			{
 				"system": "utaunt_tarotcard_orange_parent",
 				"id": 3063,
 				"attach_to_rootbone": false,
-				"name": "Hollow Flourish"
+				"name": "卡牌幽灵"
 			},
 			{
 				"system": "utaunt_tarotcard_purple_parent",
 				"id": 3064,
 				"attach_to_rootbone": false,
-				"name": "Magic Shuffle"
+				"name": "卡牌术士"
 			},
 			{
 				"system": "utaunt_elebound_green_parent",
 				"id": 3065,
 				"attach_to_rootbone": false,
-				"name": "Vigorous Pulse"
+				"name": "活力脉冲"
 			},
 			{
 				"system": "utaunt_elebound_purple_parent",
 				"id": 3066,
 				"attach_to_rootbone": false,
-				"name": "Thundering Spirit"
+				"name": "强劲脉冲"
 			},
 			{
 				"system": "utaunt_elebound_yellow_parent",
 				"id": 3067,
 				"attach_to_rootbone": false,
-				"name": "Galvanic Defiance"
+				"name": "抵抗脉冲"
 			},
 			{
 				"system": "utaunt_wispy_parent_g",
 				"id": 3068,
 				"attach_to_rootbone": false,
-				"name": "Wispy Halos"
+				"name": "迷失魂灵"
 			},
 			{
 				"system": "utaunt_wispy_parent_p",
 				"id": 3069,
 				"attach_to_rootbone": false,
-				"name": "Nether Wisps"
+				"name": "下界魂灵"
 			},
 			{
 				"system": "utaunt_auroraglow_green_parent",
 				"id": 3070,
 				"attach_to_rootbone": false,
-				"name": "Aurora Borealis"
+				"name": "碧宇极光"
 			},
 			{
 				"system": "utaunt_auroraglow_orange_parent",
 				"id": 3071,
 				"attach_to_rootbone": false,
-				"name": "Aurora Australis"
+				"name": "天穹极光"
 			},
 			{
 				"system": "utaunt_auroraglow_purple_parent",
 				"id": 3072,
 				"attach_to_rootbone": false,
-				"name": "Aurora Polaris"
+				"name": "太虚极光"
 			},
 			{
 				"system": "utaunt_snowswirl_purple_parent",
@@ -11444,25 +12019,25 @@
 				"system": "utaunt_treespiral_green_parent",
 				"id": 3077,
 				"attach_to_rootbone": false,
-				"name": "Minty Cypress"
+				"name": "薄荷冷杉"
 			},
 			{
 				"system": "utaunt_treespiral_purple_parent",
 				"id": 3078,
 				"attach_to_rootbone": false,
-				"name": "Pristine Pine"
+				"name": "清逸雪松"
 			},
 			{
 				"system": "utaunt_treespiral_teamcolor_red",
 				"id": 3079,
 				"attach_to_rootbone": false,
-				"name": "Sparkly Spruce"
+				"name": "霜华云杉"
 			},
 			{
 				"system": "utaunt_treespiral_teamcolor_blue",
 				"id": 3080,
 				"attach_to_rootbone": false,
-				"name": "Sparkly Spruce"
+				"name": "霜华云杉"
 			},
 			{
 				"system": "utaunt_gifts_teamcolor_red",
@@ -11510,343 +12085,751 @@
 				"system": "utaunt_marigoldritual_teamcolor_red",
 				"id": 3088,
 				"attach_to_rootbone": false,
-				"name": "Marigold Ritual"
+				"name": "瓣旋仪礼"
 			},
 			{
 				"system": "utaunt_marigoldritual_teamcolor_blue",
 				"id": 3089,
 				"attach_to_rootbone": false,
-				"name": "Marigold Ritual"
+				"name": "瓣旋仪礼"
 			},
 			{
 				"system": "utaunt_poison_parent_green",
 				"id": 3090,
 				"attach_to_rootbone": false,
-				"name": "Pungent Poison"
+				"name": "疫毒脓酿"
 			},
 			{
 				"system": "utaunt_poison_parent_orange",
 				"id": 3091,
 				"attach_to_rootbone": false,
-				"name": "Blazed Brew"
+				"name": "狱焰沸煮"
 			},
 			{
 				"system": "utaunt_poison_parent_purple",
 				"id": 3092,
 				"attach_to_rootbone": false,
-				"name": "Mysterious Mixture"
+				"name": "玄混秘搅"
 			},
 			{
 				"system": "utaunt_runeprison_green_parent",
 				"id": 3093,
 				"attach_to_rootbone": false,
-				"name": "Linguistic Deviation"
+				"name": "真言禁锢"
 			},
 			{
 				"system": "utaunt_runeprison_yellow_parent",
 				"id": 3094,
 				"attach_to_rootbone": false,
-				"name": "Aurelian Seal"
+				"name": "魔咒禁锢"
 			},
 			{
 				"system": "utaunt_runeprison_teamcolor_red",
 				"id": 3095,
 				"attach_to_rootbone": false,
-				"name": "Runic Imprisonment"
+				"name": "符文禁锢"
 			},
 			{
 				"system": "utaunt_runeprison_teamcolor_blue",
 				"id": 3096,
 				"attach_to_rootbone": false,
-				"name": "Runic Imprisonment"
+				"name": "符文禁锢"
 			},
 			{
 				"system": "utaunt_prismatichaze_parent",
 				"id": 3097,
 				"attach_to_rootbone": false,
-				"name": "Prismatic Haze"
+				"name": "多彩朦胧"
 			},
 			{
 				"system": "utaunt_risingsprit_teamcolor_red",
 				"id": 3098,
 				"attach_to_rootbone": false,
-				"name": "Rising Ritual"
+				"name": "升格仪式"
 			},
 			{
 				"system": "utaunt_risingsprit_teamcolor_blue",
 				"id": 3099,
 				"attach_to_rootbone": false,
-				"name": "Rising Ritual"
+				"name": "升格仪式"
 			},
 			{
 				"system": "utaunt_hands_teamcolor_red",
 				"id": 3100,
 				"attach_to_rootbone": false,
-				"name": "Bloody Grip"
+				"name": "索绝血沼"
 			},
 			{
 				"system": "utaunt_hands_teamcolor_blue",
 				"id": 3101,
 				"attach_to_rootbone": false,
-				"name": "Bloody Grip"
+				"name": "索绝血沼"
 			},
 			{
 				"system": "utaunt_hands_green_parent",
 				"id": 3102,
 				"attach_to_rootbone": false,
-				"name": "Toxic Grip"
+				"name": "索绝毒沼"
 			},
 			{
 				"system": "utaunt_hands_orange_parent",
 				"id": 3103,
 				"attach_to_rootbone": false,
-				"name": "Infernal Grip"
+				"name": "索绝狱沼"
 			},
 			{
 				"system": "utaunt_hands_purple_parent",
 				"id": 3104,
 				"attach_to_rootbone": false,
-				"name": "Death Grip"
+				"name": "索绝灵沼"
 			},
 			{
 				"system": "utaunt_storm_parent_g",
 				"id": 3105,
 				"attach_to_rootbone": false,
-				"name": "Charged Arcane"
+				"name": "秘法电弧"
 			},
 			{
 				"system": "utaunt_storm_parent_k",
 				"id": 3106,
 				"attach_to_rootbone": false,
-				"name": "Thunderous Rage"
+				"name": "雷霆之怒"
 			},
 			{
 				"system": "utaunt_storm_parent_o",
 				"id": 3107,
 				"attach_to_rootbone": false,
-				"name": "Convulsive Fiery"
+				"name": "狂焰怒涌"
 			},
 			{
 				"system": "utaunt_festivelights_teamcolor_red",
 				"id": 3108,
 				"attach_to_rootbone": false,
-				"name": "Festivized Formation"
+				"name": "华彩阵式"
 			},
 			{
 				"system": "utaunt_festivelights_teamcolor_blue",
 				"id": 3109,
 				"attach_to_rootbone": false,
-				"name": "Festivized Formation"
+				"name": "华彩阵式"
 			},
 			{
 				"system": "utaunt_glow_spirit_parent_cr",
 				"id": 3110,
 				"attach_to_rootbone": false,
-				"name": "Twirling Spirits"
+				"name": "螺旋精灵"
 			},
 			{
 				"system": "utaunt_glow_spirit_parent_og",
 				"id": 3111,
 				"attach_to_rootbone": false,
-				"name": "Squash n' Twist"
+				"name": "扭曲南瓜"
 			},
 			{
 				"system": "utaunt_glow_spirit_parent_pp",
 				"id": 3112,
 				"attach_to_rootbone": false,
-				"name": "Midnight Sparklers"
+				"name": "午夜火花"
 			},
 			{
 				"system": "utaunt_snowflakesaura_parent",
 				"id": 3113,
 				"attach_to_rootbone": false,
-				"name": "Boundless Blizzard"
+				"name": "无边暴雪"
 			},
 			{
 				"system": "utaunt_sun_sand_rays_parent",
 				"id": 3114,
 				"attach_to_rootbone": false,
-				"name": "Solar Scorched"
+				"name": "烈日炙烤"
 			},
 			{
 				"system": "utaunt_undersea_teamcolor_red",
 				"id": 3115,
 				"attach_to_rootbone": false,
-				"name": "Deepsea Rave"
+				"name": "海底狂欢"
 			},
 			{
 				"system": "utaunt_undersea_teamcolor_blue",
 				"id": 3116,
 				"attach_to_rootbone": false,
-				"name": "Deepsea Rave"
+				"name": "海底狂欢"
 			},
 			{
 				"system": "utaunt_lavalamp_green_parent",
 				"id": 3117,
 				"attach_to_rootbone": false,
-				"name": "Blooming Beacon"
+				"name": "盛放灯塔"
 			},
 			{
 				"system": "utaunt_lavalamp_purple_parent",
 				"id": 3118,
 				"attach_to_rootbone": false,
-				"name": "Beaming Beacon"
+				"name": "闪耀灯塔"
 			},
 			{
 				"system": "utaunt_lavalamp_yellow_parent",
 				"id": 3119,
 				"attach_to_rootbone": false,
-				"name": "Blazing Beacon"
+				"name": "热烈灯塔"
 			},
 			{
 				"system": "utaunt_fish_parent",
 				"id": 3120,
 				"attach_to_rootbone": false,
-				"name": "Floppin' Frenzy"
+				"name": "恶鱼扑腾"
 			},
 			{
 				"system": "utaunt_rainbow_teamcolor_red",
 				"id": 3121,
 				"attach_to_rootbone": false,
-				"name": "Pastel Trance"
+				"name": "粉色幻境"
 			},
 			{
 				"system": "utaunt_rainbow_teamcolor_blue",
 				"id": 3122,
 				"attach_to_rootbone": false,
-				"name": "Pastel Trance"
+				"name": "粉色幻境"
 			},
 			{
 				"system": "utaunt_wild_meadows_parent",
 				"id": 3123,
 				"attach_to_rootbone": false,
-				"name": "Wildflower Meadows"
+				"name": "野花草甸"
 			},
 			{
 				"system": "utaunt_krakenmouth_green_parent",
 				"id": 3124,
 				"attach_to_rootbone": false,
-				"name": "Deep-sea Devourer"
+				"name": "深海吞噬"
 			},
 			{
 				"system": "utaunt_krakenmouth_purple_parent",
 				"id": 3125,
 				"attach_to_rootbone": false,
-				"name": "Eldritch Horror"
+				"name": "克式恐怖"
 			},
 			{
 				"system": "utaunt_leaftaunt_parent",
 				"id": 3126,
 				"attach_to_rootbone": false,
-				"name": "Autumn Leaves"
+				"name": "秋风落叶"
 			},
 			{
 				"system": "utaunt_graveparty_parent",
 				"id": 3127,
 				"attach_to_rootbone": false,
-				"name": "Dead Man's Party"
+				"name": "亡者派对"
 			},
 			{
 				"system": "utaunt_spellsplash_parent",
 				"id": 3128,
 				"attach_to_rootbone": false,
-				"name": "Potion Explosion"
+				"name": "药剂爆炸"
 			},
 			{
 				"system": "utaunt_cremation_purple_parent",
 				"id": 3129,
 				"attach_to_rootbone": false,
-				"name": "Haunted Cremation"
+				"name": "鬼火送葬"
 			},
 			{
 				"system": "utaunt_cremation_black_parent",
 				"id": 3130,
 				"attach_to_rootbone": false,
-				"name": "Cremation"
+				"name": "烈火送葬"
 			},
 			{
 				"system": "utaunt_snowfall_parent",
 				"id": 3131,
 				"attach_to_rootbone": false,
-				"name": "Snowfall"
+				"name": "巨木雪乡"
 			},
 			{
 				"system": "utaunt_constellations_teamcolor_red",
 				"id": 3132,
 				"attach_to_rootbone": false,
-				"name": "Galactic Connection"
+				"name": "银河连线"
 			},
 			{
 				"system": "utaunt_constellations_teamcolor_blue",
 				"id": 3133,
 				"attach_to_rootbone": false,
-				"name": "Galactic Connection"
+				"name": "银河连线"
 			},
 			{
 				"system": "utaunt_constellations_purple_parent",
 				"id": 3134,
 				"attach_to_rootbone": false,
-				"name": "Dark Twilight"
+				"name": "暗黑暮色"
 			},
 			{
 				"system": "utaunt_constellations_pink_parent",
 				"id": 3135,
 				"attach_to_rootbone": false,
-				"name": "Eldritch Rift"
+				"name": "邪祟裂痕"
 			},
 			{
 				"system": "utaunt_wispyworks_orangegreen_parent",
 				"id": 3136,
 				"attach_to_rootbone": false,
-				"name": "Selfless Sensation"
+				"name": "无私感受"
 			},
 			{
 				"system": "utaunt_wispyworks_purpleblue_parent",
 				"id": 3137,
 				"attach_to_rootbone": false,
-				"name": "Distant Desire"
+				"name": "远方之愿"
 			},
 			{
 				"system": "utaunt_wispyworks_yellowpurple_parent",
 				"id": 3138,
 				"attach_to_rootbone": false,
-				"name": "Glamorous Glance"
+				"name": "光彩照人"
 			},
 			{
 				"system": "utaunt_innerblizzard_teamcolor_red",
 				"id": 3139,
 				"attach_to_rootbone": false,
-				"name": "Permafrost Essence"
+				"name": "永冻精华"
 			},
 			{
 				"system": "utaunt_innerblizzard_teamcolor_blue",
 				"id": 3140,
 				"attach_to_rootbone": false,
-				"name": "Permafrost Essence"
+				"name": "永冻精华"
 			},
 			{
 				"system": "utaunt_innerblizzard_purple_parent",
 				"id": 3141,
 				"attach_to_rootbone": false,
-				"name": "Arctic Delight"
+				"name": "北极乐事"
 			},
 			{
 				"system": "utaunt_spotlight_parent",
 				"id": 3142,
 				"attach_to_rootbone": false,
-				"name": "Winning Spirit"
+				"name": "必胜精神"
 			},
 			{
 				"system": "utaunt_pedalfly_teamcolor_red",
 				"id": 3143,
 				"attach_to_rootbone": false,
-				"name": "Petal Prance"
+				"name": "花瓣飞舞"
 			},
 			{
 				"system": "utaunt_pedalfly_teamcolor_blue",
 				"id": 3144,
 				"attach_to_rootbone": false,
-				"name": "Petal Prance"
+				"name": "花瓣飞舞"
+			},
+			{
+				"system": "utaunt_dragonfly_teamcolor_red",
+				"id": 3145,
+				"attach_to_rootbone": false,
+				"name": "蜻蜓怀抱"
+			},
+			{
+				"system": "utaunt_dragonfly_teamcolor_blue",
+				"id": 3146,
+				"attach_to_rootbone": false,
+				"name": "蜻蜓怀抱"
+			},
+			{
+				"system": "utaunt_dragonfly_green_parent",
+				"id": 3147,
+				"attach_to_rootbone": false,
+				"name": "蜻蜓自然"
+			},
+			{
+				"system": "utaunt_dragonfly_purple_parent",
+				"id": 3148,
+				"attach_to_rootbone": false,
+				"name": "蜻蜓光辉"
+			},
+			{
+				"system": "utaunt_demigodery_teamcolor_red",
+				"id": 3149,
+				"attach_to_rootbone": false,
+				"name": "高压电刑"
+			},
+			{
+				"system": "utaunt_demigodery_teamcolor_blue",
+				"id": 3150,
+				"attach_to_rootbone": false,
+				"name": "高压电刑"
+			},
+			{
+				"system": "utaunt_signalflares_teamcolor_red",
+				"id": 3151,
+				"attach_to_rootbone": false,
+				"name": "求救信号"
+			},
+			{
+				"system": "utaunt_signalflares_teamcolor_blue",
+				"id": 3152,
+				"attach_to_rootbone": false,
+				"name": "求救信号"
+			},
+			{
+				"system": "utaunt_signalflares_green_parent",
+				"id": 3153,
+				"attach_to_rootbone": false,
+				"name": "里约呼唤"
+			},
+			{
+				"system": "utaunt_celebrationtime_teamcolor_red",
+				"id": 3154,
+				"attach_to_rootbone": false,
+				"name": "皇家庆典"
+			},
+			{
+				"system": "utaunt_celebrationtime_teamcolor_blue",
+				"id": 3155,
+				"attach_to_rootbone": false,
+				"name": "皇家庆典"
+			},
+			{
+				"system": "utaunt_celebrationtime_yellow_parent",
+				"id": 3156,
+				"attach_to_rootbone": false,
+				"name": "盛大禧年"
+			},
+			{
+				"system": "utaunt_god_lava_teamcolor_red",
+				"id": 3157,
+				"attach_to_rootbone": false,
+				"name": "元素之力"
+			},
+			{
+				"system": "utaunt_god_lava_teamcolor_blue",
+				"id": 3158,
+				"attach_to_rootbone": false,
+				"name": "元素之力"
+			},
+			{
+				"system": "utaunt_god_gold_parent",
+				"id": 3159,
+				"attach_to_rootbone": false,
+				"name": "神迹降临"
+			},
+			{
+				"system": "utaunt_aestheticlogo_teamcolor_red",
+				"id": 3160,
+				"attach_to_rootbone": false,
+				"name": "无畏团队"
+			},
+			{
+				"system": "utaunt_aestheticlogo_teamcolor_blue",
+				"id": 3161,
+				"attach_to_rootbone": false,
+				"name": "无畏团队"
+			},
+			{
+				"system": "utaunt_aestheticlogo_orange_parent",
+				"id": 3162,
+				"attach_to_rootbone": false,
+				"name": "传承徽标"
+			},
+			{
+				"system": "utaunt_desert_wind_parent",
+				"id": 3163,
+				"attach_to_rootbone": false,
+				"name": "荒漠狂风"
+			},
+			{
+				"system": "utaunt_desert_monsoon_parent",
+				"id": 3164,
+				"attach_to_rootbone": false,
+				"name": "季风时节"
+			},
+			{
+				"system": "utaunt_treasure_teamcolor_red",
+				"id": 3165,
+				"attach_to_rootbone": false,
+				"name": "财源滚滚"
+			},
+			{
+				"system": "utaunt_treasure_teamcolor_blue",
+				"id": 3166,
+				"attach_to_rootbone": false,
+				"name": "财源滚滚"
+			},
+			{
+				"system": "utaunt_hearttreasure_parent",
+				"id": 3167,
+				"attach_to_rootbone": false,
+				"name": "骄奢恋人"
+			},
+			{
+				"system": "utaunt_wiggletube_teamcolor_red",
+				"id": 3168,
+				"attach_to_rootbone": false,
+				"name": "热脑情欲"
+			},
+			{
+				"system": "utaunt_wiggletube_teamcolor_blue",
+				"id": 3169,
+				"attach_to_rootbone": false,
+				"name": "热脑情欲"
+			},
+			{
+				"system": "utaunt_wiggletube_coffee_parent",
+				"id": 3170,
+				"attach_to_rootbone": false,
+				"name": "琥珀金光"
+			},
+			{
+				"system": "utaunt_flowerrain_teamcolor_red",
+				"id": 3171,
+				"attach_to_rootbone": false,
+				"name": "樱花祝福"
+			},
+			{
+				"system": "utaunt_flowerrain_teamcolor_blue",
+				"id": 3172,
+				"attach_to_rootbone": false,
+				"name": "樱花祝福"
+			},
+			{
+				"system": "utaunt_flowerrain_purple_parent",
+				"id": 3173,
+				"attach_to_rootbone": false,
+				"name": "暴力紫罗兰"
+			},
+			{
+				"system": "utaunt_poweraura_teamcolor_red",
+				"id": 3174,
+				"attach_to_rootbone": false,
+				"name": "爆发气场"
+			},
+			{
+				"system": "utaunt_poweraura_teamcolor_blue",
+				"id": 3175,
+				"attach_to_rootbone": false,
+				"name": "爆发气场"
+			},
+			{
+				"system": "utaunt_poweraura_green_parent",
+				"id": 3176,
+				"attach_to_rootbone": false,
+				"name": "动力飙升"
+			},
+			{
+				"system": "utaunt_poweraura_purple_parent",
+				"id": 3177,
+				"attach_to_rootbone": false,
+				"name": "燃能催化"
+			},
+			{
+				"system": "utaunt_poweraura_yellow_parent",
+				"id": 3178,
+				"attach_to_rootbone": false,
+				"name": "增幅灵场"
+			},
+			{
+				"system": "utaunt_mysticfusion_parent",
+				"id": 3179,
+				"attach_to_rootbone": false,
+				"name": "玄妙融变"
+			},
+			{
+				"system": "utaunt_confetti_gy_parent",
+				"id": 3180,
+				"attach_to_rootbone": false,
+				"name": "可恨彩屑"
+			},
+			{
+				"system": "utaunt_confetti_pp_parent",
+				"id": 3181,
+				"attach_to_rootbone": false,
+				"name": "可爱亮片"
+			},
+			{
+				"system": "utaunt_confetti_yp_parent",
+				"id": 3182,
+				"attach_to_rootbone": false,
+				"name": "缤纷庆典"
+			},
+			{
+				"system": "utaunt_heavyrain_parent",
+				"id": 3183,
+				"attach_to_rootbone": false,
+				"name": "倾盆大雨"
+			},
+			{
+				"system": "utaunt_field_parent",
+				"id": 3184,
+				"attach_to_rootbone": false,
+				"name": "南瓜遍地"
+			},
+			{
+				"system": "utaunt_whitesmissmas_parent",
+				"id": 3185,
+				"attach_to_rootbone": false,
+				"name": "鹅毛大雪"
+			},
+			{
+				"system": "utaunt_busysnow_teamcolor_red",
+				"id": 3186,
+				"attach_to_rootbone": false,
+				"name": "雪白精神"
+			},
+			{
+				"system": "utaunt_busysnow_teamcolor_blue",
+				"id": 3187,
+				"attach_to_rootbone": false,
+				"name": "雪白精神"
+			},
+			{
+				"system": "utaunt_busysnow_parent_p",
+				"id": 3188,
+				"attach_to_rootbone": false,
+				"name": "淡紫感应"
+			},
+			{
+				"system": "utaunt_busysnow_parent_g",
+				"id": 3189,
+				"attach_to_rootbone": false,
+				"name": "翠绿奇象"
+			},
+			{
+				"system": "utaunt_roses_teamcolor_red",
+				"id": 3190,
+				"attach_to_rootbone": false,
+				"name": "获奖现场"
+			},
+			{
+				"system": "utaunt_roses_teamcolor_blue",
+				"id": 3191,
+				"attach_to_rootbone": false,
+				"name": "获奖现场"
+			},
+			{
+				"system": "utaunt_roses_gold_parent",
+				"id": 3192,
+				"attach_to_rootbone": false,
+				"name": "圆满歌剧"
+			},
+			{
+				"system": "utaunt_tangledlights_parent",
+				"id": 3193,
+				"attach_to_rootbone": false,
+				"name": "彩灯缠身"
+			},
+			{
+				"system": "utaunt_seamine_teamcolor_red",
+				"id": 3194,
+				"attach_to_rootbone": false,
+				"name": "鱼雷四伏"
+			},
+			{
+				"system": "utaunt_seamine_teamcolor_blue",
+				"id": 3195,
+				"attach_to_rootbone": false,
+				"name": "鱼雷四伏"
+			},
+			{
+				"system": "utaunt_iconicoutline_teamcolor_red",
+				"id": 3196,
+				"attach_to_rootbone": false,
+				"name": "闪亮轮廓"
+			},
+			{
+				"system": "utaunt_iconicoutline_teamcolor_blue",
+				"id": 3197,
+				"attach_to_rootbone": false,
+				"name": "闪亮轮廓"
+			},
+			{
+				"system": "utaunt_iconicoutline_pink_parent",
+				"id": 3198,
+				"attach_to_rootbone": false,
+				"name": "晦涩剪影"
+			},
+			{
+				"system": "utaunt_oceanreef_parent",
+				"id": 3199,
+				"attach_to_rootbone": false,
+				"name": "浅海暗礁"
+			},
+			{
+				"system": "utaunt_signalinterference_parent",
+				"id": 3200,
+				"attach_to_rootbone": false,
+				"name": "信号丢失"
+			},
+			{
+				"system": "utaunt_waterwave_parent",
+				"id": 3201,
+				"attach_to_rootbone": false,
+				"name": "盛夏波澜"
+			},
+			{
+				"system": "utaunt_sharkfin2_parent",
+				"id": 3202,
+				"attach_to_rootbone": false,
+				"name": "鲨鱼袭击"
+			},
+			{
+				"system": "utaunt_phantasam_green_parent",
+				"id": 3203,
+				"attach_to_rootbone": false,
+				"name": "致命毒气"
+			},
+			{
+				"system": "utaunt_phantasam_grey_parent",
+				"id": 3204,
+				"attach_to_rootbone": false,
+				"name": "妖风四起"
+			},
+			{
+				"system": "utaunt_phantasam_purple_parent",
+				"id": 3205,
+				"attach_to_rootbone": false,
+				"name": "鬼影重重"
+			},
+			{
+				"system": "utaunt_multicurse_teamcolor_red",
+				"id": 3206,
+				"attach_to_rootbone": false,
+				"name": "恶意撕裂"
+			},
+			{
+				"system": "utaunt_multicurse_teamcolor_blue",
+				"id": 3207,
+				"attach_to_rootbone": false,
+				"name": "恶意撕裂"
+			},
+			{
+				"system": "utaunt_voidcrawlers_parent",
+				"id": 3208,
+				"attach_to_rootbone": false,
+				"name": "虚空爬物"
+			},
+			{
+				"system": "utaunt_tarpit_dinos_parent",
+				"id": 3209,
+				"attach_to_rootbone": false,
+				"name": "化石燃料"
+			},
+			{
+				"system": "utaunt_tarpit_people_parent",
+				"id": 3210,
+				"attach_to_rootbone": false,
+				"name": "焦油深坑"
+			},
+			{
+				"system": "utaunt_morbed_teamcolor_red",
+				"id": 3211,
+				"attach_to_rootbone": false,
+				"name": "病态恶兽"
+			},
+			{
+				"system": "utaunt_morbed_teamcolor_blue",
+				"id": 3212,
+				"attach_to_rootbone": false,
+				"name": "病态恶兽"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",
@@ -13193,7 +14176,7 @@
 					{
 						"level": 4,
 						"required_score": 10,
-						"name": "Somewhat Threatening"
+						"name": "些许威胁"
 					},
 					{
 						"level": 5,
@@ -13203,12 +14186,12 @@
 					{
 						"level": 6,
 						"required_score": 18,
-						"name": "Notably Dangerous"
+						"name": "十足危险"
 					},
 					{
 						"level": 7,
 						"required_score": 23,
-						"name": "Sufficiently Lethal"
+						"name": "足以致命"
 					},
 					{
 						"level": 8,
@@ -13218,7 +14201,7 @@
 					{
 						"level": 9,
 						"required_score": 35,
-						"name": "Spectacularly Lethal"
+						"name": "致命杀机"
 					},
 					{
 						"level": 10,
@@ -13233,7 +14216,7 @@
 					{
 						"level": 12,
 						"required_score": 99,
-						"name": "Positively Inhumane"
+						"name": "残忍不仁"
 					},
 					{
 						"level": 13,
@@ -13263,7 +14246,7 @@
 					{
 						"level": 18,
 						"required_score": 784,
-						"name": "Legendary"
+						"name": "传奇不朽"
 					},
 					{
 						"level": 19,
@@ -13288,7 +14271,7 @@
 			},
 			{
 				"type": 1,
-				"type_name": "UberCharge 数",
+				"type_name": "Uber 激活数",
 				"level_data": "KillEaterRank"
 			},
 			{
@@ -13463,7 +14446,7 @@
 			},
 			{
 				"type": 38,
-				"type_name": "满 Ubercharge 医生消灭数",
+				"type_name": "满 Ubercharge 能量医生击杀数",
 				"level_data": "KillEaterRank"
 			},
 			{
@@ -13503,7 +14486,7 @@
 			},
 			{
 				"type": 49,
-				"type_name": "UberCharged 激活时杀敌数",
+				"type_name": "UberCharged 激活无敌时杀敌数",
 				"level_data": "KillEaterRank"
 			},
 			{

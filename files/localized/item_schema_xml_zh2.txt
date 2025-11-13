@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -1178,7 +1178,7 @@ Alt-Fire: Release a blast of air that pushes enemies and projectiles and extingu
 			<defindex>37</defindex>
 			<item_class>tf_weapon_bonesaw</item_class>
 			<item_type_name>Bonesaw</item_type_name>
-			<item_name>Ubersaw</item_name>
+			<item_name>Übersaw</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_ubersaw/c_ubersaw.mdl</model_player>
@@ -1563,7 +1563,7 @@ Alt-fire: Share a Sandvich with a friend (Medium Health Kit)</item_description>
 			<defindex>45</defindex>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Scattergun</item_type_name>
-			<item_name>Force-A-Nature</item_name>
+			<item_name>Force-a-Nature</item_name>
 			<item_description>This weapon reloads its entire clip at once</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
@@ -12668,7 +12668,7 @@ Who needs bread?</item_description>
 			<defindex>334</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hat</item_type_name>
-			<item_name>Hat of Undeniable Wealth And Respect</item_name>
+			<item_name>Hat of Undeniable Wealth and Respect</item_name>
 			<item_description>Earned by completing 28 objectives in &apos;The Great Steam Treasure Hunt.&apos;  Beware the Cephalopod padlock.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -14226,7 +14226,7 @@ If you don&apos;t, hide it under this discreet hoodie.</item_description>
 			<defindex>380</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Mask</item_type_name>
-			<item_name>Large Luchadore</item_name>
+			<item_name>Large Luchador</item_name>
 			<item_description>Wrestling&apos;s real, and now you can prove it.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -15532,7 +15532,7 @@ Gain a critical melee strike after impacting an enemy.</item_description>
 					<name>Arrow</name>
 				</style>
 				<style>
-					<name>Spike And Arrow</name>
+					<name>Spike and Arrow</name>
 				</style>
 			</styles>
 			<used_by_classes>
@@ -21485,7 +21485,7 @@ Gamescom 2011</item_description>
 			<defindex>547</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Costume Piece</item_type_name>
-			<item_name>B-ankh!</item_name>
+			<item_name>B-Ankh!</item_name>
 			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -25707,7 +25707,7 @@ Custom decals can be applied to this item.</item_description>
 			<defindex>631</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hat</item_type_name>
-			<item_name>Hat With No Name</item_name>
+			<item_name>Hat with No Name</item_name>
 			<item_description>A nameless hat for a nameless man.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -26603,7 +26603,7 @@ Custom decals can be applied to this item.</item_description>
 			<defindex>649</defindex>
 			<item_class>tf_weapon_knife</item_class>
 			<item_type_name>Knife</item_type_name>
-			<item_name>Spy-cicle</item_name>
+			<item_name>Spy-Cicle</item_name>
 			<item_description>It&apos;s the perfect gift for the man who has everything: an icicle driven into their back. Even rich people can&apos;t buy that in stores.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
@@ -27036,7 +27036,7 @@ Custom decals can be applied to this item.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Pipe</item_type_name>
 			<item_name>Nine-Pipe Problem</item_name>
-			<item_description>In the time it takes you to read this description, I&apos;ve already ubered a heavy, captured your base, solved a crime, and smoked three pipes.</item_description>
+			<item_description>In the time it takes you to read this description, I&apos;ve already übered a heavy, captured your base, solved a crime, and smoked three pipes.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/medic_smokingpipe.mdl</model_player>
@@ -29060,7 +29060,7 @@ Alt-Fire: Release a blast of air that pushes enemies and projectiles and extingu
 			<defindex>712</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hat</item_type_name>
-			<item_name>Gifting Man From Gifting Land</item_name>
+			<item_name>Gifting Man from Gifting Land</item_name>
 			<item_description>Congratulations on giving out more gifts yesterday than any other TF2 player! Wear this with pride before it changes hands tomorrow!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -29417,7 +29417,7 @@ Alt-Fire: Release a blast of air that pushes enemies and projectiles and extingu
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>100</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/scout_prep_shirt.906456dfdb9b9c54543dcb716bb1952efb3fdde9.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.c56d08ff23b3f30249a18501fef79d221f034cd0.png</image_url_large>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.05be377767ca55c152b815f1d9774759c875a90c.png</image_url_large>
 			<drop_type>none</drop_type>
 			<craft_class>hat</craft_class>
 			<craft_material_type>hat</craft_material_type>
@@ -29747,7 +29747,7 @@ Alt-Fire: Release a blast of air that pushes enemies and projectiles and extingu
 			<defindex>732</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Helmet</item_type_name>
-			<item_name>Helmet Without a Home</item_name>
+			<item_name>Helmet without a Home</item_name>
 			<item_description>Think of this helmet as a fortified, portable home for your head. It&apos;s also lined with tin foil, so nobody will be able to steal your valuable tramp-thoughts.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -34923,7 +34923,7 @@ Alt-Fire: Release a blast of air that pushes enemies and projectiles and extingu
 			<defindex>840</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hat</item_type_name>
-			<item_name>U-clank-a</item_name>
+			<item_name>U-Clank-A</item_name>
 			<item_description>Roast this steel ushanka in the fire and place it on your head for sustained warmth throughout the day. Make sure to come up with an impressive sounding fake anecdote for your third degree burns!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -42407,7 +42407,7 @@ Alt-fire: Share a Sandvich with a friend (Medium Health Kit)</item_description>
 			<defindex>1003</defindex>
 			<item_class>tf_weapon_bonesaw</item_class>
 			<item_type_name>Bonesaw</item_type_name>
-			<item_name>Festive Ubersaw</item_name>
+			<item_name>Festive Übersaw</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_ubersaw/c_ubersaw_xmas.mdl</model_player>
@@ -43049,7 +43049,7 @@ Alt-fire: Share a Sandvich with a friend (Medium Health Kit)</item_description>
 			<defindex>1015</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>Special Taunt</item_type_name>
-			<item_name>Shred Alert</item_name>
+			<item_name>Taunt: The Shred Alert</item_name>
 			<item_description>All Class Taunt
 Harness the unholy power of the Dark One (Yngwie Malmsteen) and crush your opponents with blistering riffs, lava-hot licks and emotionally crippling power ballads!</item_description>
 			<proper_name>true</proper_name>
@@ -45392,7 +45392,7 @@ Equip to enable picking up and casting spells.</item_description>
 			<defindex>1078</defindex>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Scattergun</item_type_name>
-			<item_name>Festive Force-A-Nature</item_name>
+			<item_name>Festive Force-a-Nature</item_name>
 			<item_description>This weapon reloads its entire clip at once</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>primary</item_slot>
@@ -45748,7 +45748,7 @@ with every head you take.</item_description>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas.mdl</model_player>
 			<item_quality>6</item_quality>
-			<image_inventory>backpack/weapons/c_models/c_boxing_gloves\c_boxing_gloves_xmas</image_inventory>
+			<image_inventory>backpack/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas</image_inventory>
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>99</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/c_boxing_gloves_xmas.0dbdc11afb9da14d86bc2a7cd946fc4a2e46a23c.png</image_url>
@@ -46999,7 +46999,7 @@ This is a partner taunt.  Press the taunt key to toggle.</item_description>
 			<defindex>1108</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>Special Taunt</item_type_name>
-			<item_name>Taunt: Buy A Life</item_name>
+			<item_name>Taunt: Buy a Life</item_name>
 			<item_description>Spy Taunt</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>

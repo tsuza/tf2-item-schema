@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt",
 		"items": [
 			{
 				"name": "TF_WEAPON_BAT",
@@ -14674,7 +14674,7 @@
 				"defindex": 380,
 				"item_class": "tf_wearable",
 				"item_type_name": "Máscara",
-				"item_name": "Grande Luchadore",
+				"item_name": "Grande Luchador",
 				"item_description": "Aquelas lutas são reais e agora você pode provar.",
 				"proper_name": false,
 				"item_slot": "misc",
@@ -30373,7 +30373,7 @@
 				"min_ilevel": 1,
 				"max_ilevel": 100,
 				"image_url": "http://media.steampowered.com/apps/440/icons/scout_prep_shirt.906456dfdb9b9c54543dcb716bb1952efb3fdde9.png",
-				"image_url_large": "http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.c56d08ff23b3f30249a18501fef79d221f034cd0.png",
+				"image_url_large": "http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.05be377767ca55c152b815f1d9774759c875a90c.png",
 				"drop_type": "none",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
@@ -30718,7 +30718,7 @@
 				"defindex": 732,
 				"item_class": "tf_wearable",
 				"item_type_name": "Capacete",
-				"item_name": "O Capacete sem Lar",
+				"item_name": "O Capacete Sem Lar",
 				"item_description": "Pense neste capacete como uma casa portátil fortificada para a sua cabeça. Ele também é forrado com alumínio, então ninguém vai poder roubar seus valiosos pensamentos insignificantes.",
 				"proper_name": true,
 				"item_slot": "misc",
@@ -44537,7 +44537,7 @@
 				"defindex": 1015,
 				"item_class": "no_entity",
 				"item_type_name": "Provocação Especial",
-				"item_name": "O Metalerta Vermelho",
+				"item_name": "Provocação: O Metalerta Vermelho",
 				"item_description": "Provocação para todas as classes\nTire proveito do poder maldito do Senhor Sombrio (Yngwie Malmsteen) e acabe com os seus adversários com riffs intensos, licks quentíssimos e power ballads emocionalmente esmagadoras!",
 				"proper_name": true,
 				"item_slot": "taunt",
@@ -47333,7 +47333,7 @@
 				"item_slot": "melee",
 				"model_player": "models/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack/weapons/c_models/c_boxing_gloves\\c_boxing_gloves_xmas",
+				"image_inventory": "backpack/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas",
 				"min_ilevel": 1,
 				"max_ilevel": 99,
 				"image_url": "http://media.steampowered.com/apps/440/icons/c_boxing_gloves_xmas.0dbdc11afb9da14d86bc2a7cd946fc4a2e46a23c.png",

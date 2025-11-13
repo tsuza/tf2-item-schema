@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -1464,7 +1464,7 @@ Alt.-Feuer: Mit einem Freund teilen (mittleres Medikit)</item_description>
 			<defindex>43</defindex>
 			<item_class>tf_weapon_fists</item_class>
 			<item_type_name>Boxhandschuhe</item_type_name>
-			<item_name>Die Killing Gloves of Boxing</item_name>
+			<item_name>Die Kampfhandschuhe des Gewalttätigen Boxens</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_boxing_gloves/c_boxing_gloves.mdl</model_player>
@@ -1563,7 +1563,7 @@ Alt.-Feuer: Mit einem Freund teilen (mittleres Medikit)</item_description>
 			<defindex>45</defindex>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Scattergun</item_type_name>
-			<item_name>Die Force-A-Nature</item_name>
+			<item_name>Die Naturgewalt</item_name>
 			<item_description>Diese Waffe lädt das komplette Magazin auf einmal nach</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
@@ -9758,7 +9758,7 @@ http://wiki.teamfortress.com/</item_description>
 			<defindex>266</defindex>
 			<item_class>tf_weapon_sword</item_class>
 			<item_type_name>Axt</item_type_name>
-			<item_name>Kopfabreißer des Pferdlosen Kopflosen Reiters</item_name>
+			<item_name>Der Kopfabreißer des Pferdlosen Kopflosen Reiters</item_name>
 			<item_description>Verflucht von finsteren Geistern, ähnlich denen
 die im Eyelander hausen.</item_description>
 			<proper_name>true</proper_name>
@@ -11546,7 +11546,7 @@ Der erste Treffer verursacht eine Explosion</item_description>
 			<defindex>310</defindex>
 			<item_class>tf_weapon_fists</item_class>
 			<item_type_name>Boxhandschuhe</item_type_name>
-			<item_name>Geist des Kriegers</item_name>
+			<item_name>Der Geist des Kriegers</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_bear_claw/c_bear_claw.mdl</model_player>
@@ -14226,7 +14226,7 @@ Ansonsten eignet sich diese Kapuze auch als Versteck.</item_description>
 			<defindex>380</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Maske</item_type_name>
-			<item_name>Großer Luchadore</item_name>
+			<item_name>Großer Luchador</item_name>
 			<item_description>Wrestling ist echt und jetzt können Sie&apos;s beweisen.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -20794,7 +20794,7 @@ OH GOTT, ES IST AN SEINEM KOPF VERSCHRAUBT!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
 			<item_name>Clockwerks Helm</item_name>
-			<item_description>DOTA 2 International-Meisterschaft
+			<item_description>DOTA 2 – The International
 Gamescom 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -20844,7 +20844,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
 			<item_name>Snipers Scharfschützenbrille</item_name>
-			<item_description>DOTA 2 International-Meisterschaft
+			<item_description>DOTA 2 – The International
 Gamescom 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -20894,7 +20894,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
 			<item_name>Storm Spirits lustiger Hut</item_name>
-			<item_description>DOTA 2 International-Meisterschaft
+			<item_description>DOTA 2 – The International
 Gamescom 2011</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -21485,7 +21485,7 @@ Gamescom 2011</item_description>
 			<defindex>547</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
-			<item_name>B-ankh!</item_name>
+			<item_name>B-Ankh!</item_name>
 			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -26603,7 +26603,7 @@ Eigene Aufkleber können an diesen Gegenstand angebracht werden.</item_descripti
 			<defindex>649</defindex>
 			<item_class>tf_weapon_knife</item_class>
 			<item_type_name>Messer</item_type_name>
-			<item_name>Der Spys-zapfen</item_name>
+			<item_name>Der Spy-szapfen</item_name>
 			<item_description>Das perfekte Geschenk für jemanden, der schon alles hat: Ein Eiszapfen im Rücken. Selbst reiche Leute können sich das nicht im Laden kaufen.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
@@ -29417,7 +29417,7 @@ Alt.-Feuer: Gibt einen Luftstoß ab, der Gegner und Projektile wegstößt sowie 
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>100</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/scout_prep_shirt.906456dfdb9b9c54543dcb716bb1952efb3fdde9.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.c56d08ff23b3f30249a18501fef79d221f034cd0.png</image_url_large>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/scout_prep_shirt_large.05be377767ca55c152b815f1d9774759c875a90c.png</image_url_large>
 			<drop_type>none</drop_type>
 			<craft_class>hat</craft_class>
 			<craft_material_type>hat</craft_material_type>
@@ -34923,7 +34923,7 @@ Alt.-Feuer: Gibt einen Luftstoß ab, der Gegner und Projektile wegstößt sowie 
 			<defindex>840</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
-			<item_name>Die U-klank-a</item_name>
+			<item_name>Die U-Klank-A</item_name>
 			<item_description>Erhitzen Sie diese stählerne Ushanka im Feuer und setzen Sie sie auf Ihren Kopf, um es den ganze Tag angenehm warm zu haben. Vergessen Sie nur nicht, eine beeindruckende Geschichte für Ihre Verbrennungen dritten Grades zu erfinden!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -43049,7 +43049,7 @@ Alt.-Feuer: Mit einem Freund teilen (mittleres Medikit)</item_description>
 			<defindex>1015</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>Spezial-Verspottung</item_type_name>
-			<item_name>Die Alarmstufe Rock</item_name>
+			<item_name>Verspottung: Der Shredding-Alarm</item_name>
 			<item_description>Verspottung für alle Klassen
 Nutzen Sie die gottlose Macht von „dem Dunklen“ (Yngwie Malmsteen) und vernichten Sie Ihre Feinde mit glühenden Riffs, lava-heißen Licks und emotional lähmenden Powerballaden!</item_description>
 			<proper_name>true</proper_name>
@@ -45392,7 +45392,7 @@ Ausrüsten, um das Aufnehmen und Verwenden von Zaubern zu aktivieren.</item_desc
 			<defindex>1078</defindex>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Scattergun</item_type_name>
-			<item_name>Festliche Force-A-Nature</item_name>
+			<item_name>Festliche Naturgewalt</item_name>
 			<item_description>Diese Waffe lädt das komplette Magazin auf einmal nach</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>primary</item_slot>
@@ -45748,7 +45748,7 @@ mit jeder Köpfung.</item_description>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas.mdl</model_player>
 			<item_quality>6</item_quality>
-			<image_inventory>backpack/weapons/c_models/c_boxing_gloves\c_boxing_gloves_xmas</image_inventory>
+			<image_inventory>backpack/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas</image_inventory>
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>99</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/c_boxing_gloves_xmas.0dbdc11afb9da14d86bc2a7cd946fc4a2e46a23c.png</image_url>

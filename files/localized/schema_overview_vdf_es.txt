@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.1e570215664da74281ea3ca4558c39a6e7ef0a54.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -409,7 +409,7 @@
 			"name"	"crit vs burning players"
 			"defindex"	"20"
 			"attribute_class"	"or_crit_vs_playercond"
-			"description_string"	"100 % de probabilidad de crítico contra jugadores ardiendo"
+			"description_string"	"100 % de probabilidad de crítico contra jugadores ardiendo"
 			"description_format"	"value_is_or"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -1143,7 +1143,7 @@ Puede usarse para apagar el fuego"
 			"name"	"max pipebombs increased"
 			"defindex"	"88"
 			"attribute_class"	"add_max_pipebombs"
-			"description_string"	"Máximo de bombas desplegadas aumentado en %s1"
+			"description_string"	"Máximo de bombas lapa desplegadas aumentado en %s1"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -1154,7 +1154,7 @@ Puede usarse para apagar el fuego"
 			"name"	"max pipebombs decreased"
 			"defindex"	"89"
 			"attribute_class"	"add_max_pipebombs"
-			"description_string"	"Máximo de bombas desplegadas: %s1"
+			"description_string"	"Máximo de bombas lapa desplegadas reducido en %s1"
 			"description_format"	"value_is_additive"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -1733,7 +1733,7 @@ Puede usarse para apagar el fuego"
 			"name"	"set item tint RGB"
 			"defindex"	"142"
 			"attribute_class"	"set_item_tint_rgb"
-			"description_string"	"Código de color del objeto: %s1"
+			"description_string"	"Código de color del artículo: %s1"
 			"description_format"	"value_is_additive"
 			"effect_type"	"neutral"
 			"hidden"	"1"
@@ -2170,7 +2170,7 @@ Llamada de la Naturaleza: los disparos en la cabeza con mira siempre producen mi
 			"name"	"slow enemy on hit major"
 			"defindex"	"182"
 			"attribute_class"	"mult_onhit_enemyspeed_major"
-			"description_string"	"Al impactar: velocidad de movimiento del objetivo reducida un 40 % durante %s1 segundos"
+			"description_string"	"Al impactar: velocidad de movimiento del objetivo reducida un 40 % durante %s1 segundos"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -2331,7 +2331,7 @@ Supercarga almacenada"
 			"name"	"halloween item"
 			"defindex"	"197"
 			"attribute_class"	"halloween_item"
-			"description_string"	"Este es un objeto especial de Halloween %s1"
+			"description_string"	"Este es un artículo especial de Halloween %s1"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -2595,7 +2595,7 @@ Intercambiable a partir del %s1"
 			"name"	"dmg bonus while half dead"
 			"defindex"	"224"
 			"attribute_class"	"mult_dmg_bonus_while_half_dead"
-			"description_string"	"Cuando la salud máxima es <50 %, el daño causado se incrementa un %s1 %"
+			"description_string"	"Cuando la salud máxima es <50 %, el daño causado se incrementa un %s1 %"
 			"description_format"	"value_is_percentage"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -2606,7 +2606,7 @@ Intercambiable a partir del %s1"
 			"name"	"dmg penalty while half alive"
 			"defindex"	"225"
 			"attribute_class"	"mult_dmg_penalty_while_half_alive"
-			"description_string"	"Cuando la salud máxima es >50 %, el daño causado disminuye un %s1 %"
+			"description_string"	"Cuando la salud máxima es >50 %, el daño causado disminuye un %s1 %"
 			"description_format"	"value_is_percentage"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -2990,7 +2990,7 @@ Los ataques cuerpo a cuerpo causan minicríticos mientras estás en el aire."
 			"name"	"set item tint RGB 2"
 			"defindex"	"261"
 			"attribute_class"	"set_item_tint_rgb_2"
-			"description_string"	"Código de color del objeto: %s1"
+			"description_string"	"Código de color del artículo: %s1"
 			"description_format"	"value_is_additive"
 			"effect_type"	"neutral"
 			"hidden"	"1"
@@ -3411,7 +3411,7 @@ o apuñales a un enemigo."
 			"name"	"expiration date"
 			"defindex"	"302"
 			"attribute_class"	"expiration_date"
-			"description_string"	"Este objeto caducará el %s1."
+			"description_string"	"Este artículo caducará el %s1."
 			"description_format"	"value_is_date"
 			"effect_type"	"neutral"
 			"hidden"	"1"
@@ -4102,7 +4102,7 @@ Mientras te burlas con el 'MMMF', eres invulnerable."
 			"name"	"tickle enemies wielding same weapon"
 			"defindex"	"369"
 			"attribute_class"	"tickle_enemies_wielding_same_weapon"
-			"description_string"	"Al impactar: obliga a los enemigos a reír si también llevan este objeto"
+			"description_string"	"Al impactar: obliga a los enemigos a reír si también llevan este artículo"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -4804,7 +4804,7 @@ Los impactos a gran distancia reducen el tiempo de recarga."
 			"name"	"crit vs stunned players"
 			"defindex"	"437"
 			"attribute_class"	"or_crit_vs_playercond"
-			"description_string"	"100 % de probabilidad de crítico contra jugadores aturdidos"
+			"description_string"	"100 % de probabilidad de crítico contra jugadores aturdidos"
 			"description_format"	"value_is_or"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -4815,7 +4815,7 @@ Los impactos a gran distancia reducen el tiempo de recarga."
 			"name"	"crit vs wet players"
 			"defindex"	"438"
 			"attribute_class"	"crit_vs_wet_players"
-			"description_string"	"100 % de probabilidad de crítico contra jugadores empapados"
+			"description_string"	"100 % de probabilidad de crítico contra jugadores empapados"
 			"description_format"	"value_is_or"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -5274,7 +5274,7 @@ Al curar, te proporciona a ti y a tu objetivo un 10 % de resistencia constante 
 			"name"	"rocket specialist"
 			"defindex"	"488"
 			"attribute_class"	"rocket_specialist"
-			"description_string"	"+15 % de vel. de cohete por punto. Los impactos directos hacen daño máximo, aturden al objetivo y aumentan su explosión +15 % por punto."
+			"description_string"	"+15 % de vel. de cohete por punto. Los impactos directos hacen daño máximo, aturden al objetivo y aumentan su explosión +15 % por punto."
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -5329,7 +5329,7 @@ Al curar, te proporciona a ti y a tu objetivo un 10 % de resistencia constante 
 			"name"	"healing mastery"
 			"defindex"	"493"
 			"attribute_class"	"healing_mastery"
-			"description_string"	"+25 % de velocidad de curación por paciente, +25 % de velocidad al revivir un aliado y +25 % de curación propia por punto"
+			"description_string"	"+25 % de velocidad de curación por paciente, +25 % de velocidad al revivir un aliado y +25 % de curación propia por punto"
 			"description_format"	"value_is_additive"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -6669,7 +6669,7 @@ Minicríticos a jugadores en llamas de frente"
 			"name"	"crit_vs_burning_FLARES_DISPLAY_ONLY"
 			"defindex"	"735"
 			"attribute_class"	"crit_vs_burning_FLARES_DISPLAY_ONLY"
-			"description_string"	"100 % de probabilidad de crítico contra jugadores ardiendo"
+			"description_string"	"100 % de probabilidad de crítico contra jugadores ardiendo"
 			"description_format"	"value_is_or"
 			"effect_type"	"positive"
 			"hidden"	"0"
@@ -6724,7 +6724,7 @@ Minicríticos a jugadores en llamas de frente"
 			"name"	"reduced_healing_from_medics"
 			"defindex"	"740"
 			"attribute_class"	"mult_healing_from_medics"
-			"description_string"	"-%s1 % de curación procedente de un Medic"
+			"description_string"	"%s1 % de curación procedente de un Medic"
 			"description_format"	"value_is_percentage"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -7162,8 +7162,10 @@ se despliega y guarda con más lentitud"
 			"name"	"energy buff dmg taken multiplier"
 			"defindex"	"798"
 			"attribute_class"	"energy_buff_dmg_taken_multiplier"
+			"description_string"	"+%s1 % de vulnerabilidad al daño mientras se usa"
+			"description_format"	"value_is_percentage"
 			"effect_type"	"negative"
-			"hidden"	"1"
+			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
 		"662"
@@ -7678,7 +7680,7 @@ se despliega y guarda con más lentitud"
 			"name"	"mod_maxhealth_drain_rate"
 			"defindex"	"855"
 			"attribute_class"	"mod_maxhealth_drain_rate"
-			"description_string"	"Reduce la vida máxima cuando el objeto está activo"
+			"description_string"	"Reduce la vida máxima cuando el artículo está activo"
 			"description_format"	"value_is_additive"
 			"effect_type"	"negative"
 			"hidden"	"0"
@@ -8674,6 +8676,127 @@ Matar a objetivos en llamas da un subidón de velocidad."
 		}
 		"813"
 		{
+			"name"	"freaky fair kritz potion"
+			"defindex"	"2069"
+			"attribute_class"	"freaky_fair_kritz_potion"
+			"description_string"	"Poción de críticos"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"814"
+		{
+			"name"	"freaky fair uber potion"
+			"defindex"	"2070"
+			"attribute_class"	"freaky_fair_uber_potion"
+			"description_string"	"Poción de invulnerabilidad"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"815"
+		{
+			"name"	"freaky fair giant potion"
+			"defindex"	"2071"
+			"attribute_class"	"freaky_fair_giant_potion"
+			"description_string"	"Poción de gigantismo"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"816"
+		{
+			"name"	"freaky fair buster potion"
+			"defindex"	"2072"
+			"attribute_class"	"freaky_fair_buster_potion"
+			"description_string"	"Poción revientacalabazas"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"817"
+		{
+			"name"	"freaky fair healing potion"
+			"defindex"	"2073"
+			"attribute_class"	"freaky_fair_healing_potion"
+			"description_string"	"Poción de curación"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"818"
+		{
+			"name"	"freaky fair ghost potion"
+			"defindex"	"2074"
+			"attribute_class"	"freaky_fair_ghost_potion"
+			"description_string"	"Poción de fantasma"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"819"
+		{
+			"name"	"freaky fair ammo potion"
+			"defindex"	"2075"
+			"attribute_class"	"freaky_fair_ammo_potion"
+			"description_string"	"Poción reabastecedora"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"820"
+		{
+			"name"	"freaky fair rtd potion"
+			"defindex"	"2076"
+			"attribute_class"	"freaky_fair_rtd_potion"
+			"description_string"	"Poción de tirar el dado"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"821"
+		{
+			"name"	"freaky fair relentless potion"
+			"defindex"	"2077"
+			"attribute_class"	"freaky_fair_relentless_potion"
+			"description_string"	"Poción de implacabilidad"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"822"
+		{
+			"name"	"freaky fair extra attrib1"
+			"defindex"	"2078"
+			"attribute_class"	"freaky_fair_extra_attrib1"
+			"description_string"	"Atributo adicional de Freaky Fair 1"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"823"
+		{
+			"name"	"freaky fair extra attrib2"
+			"defindex"	"2079"
+			"attribute_class"	"freaky_fair_extra_attrib2"
+			"description_string"	"Atributo adicional de Freaky Fair 2"
+			"description_format"	"value_is_additive"
+			"effect_type"	"positive"
+			"hidden"	"0"
+			"stored_as_integer"	"0"
+		}
+		"824"
+		{
 			"name"	"item slot criteria 1"
 			"defindex"	"3000"
 			"attribute_class"	"item_slot_criteria"
@@ -8682,7 +8805,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"814"
+		"825"
 		{
 			"name"	"item in slot 1"
 			"defindex"	"3001"
@@ -8692,7 +8815,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"815"
+		"826"
 		{
 			"name"	"item slot criteria 2"
 			"defindex"	"3002"
@@ -8702,7 +8825,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"816"
+		"827"
 		{
 			"name"	"item in slot 2"
 			"defindex"	"3003"
@@ -8712,7 +8835,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"817"
+		"828"
 		{
 			"name"	"item slot criteria 3"
 			"defindex"	"3004"
@@ -8722,7 +8845,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"818"
+		"829"
 		{
 			"name"	"item in slot 3"
 			"defindex"	"3005"
@@ -8732,7 +8855,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"819"
+		"830"
 		{
 			"name"	"item slot criteria 4"
 			"defindex"	"3006"
@@ -8742,7 +8865,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"820"
+		"831"
 		{
 			"name"	"item in slot 4"
 			"defindex"	"3007"
@@ -8752,7 +8875,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"821"
+		"832"
 		{
 			"name"	"item slot criteria 5"
 			"defindex"	"3008"
@@ -8762,7 +8885,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"822"
+		"833"
 		{
 			"name"	"item in slot 5"
 			"defindex"	"3009"
@@ -8772,7 +8895,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"823"
+		"834"
 		{
 			"name"	"item slot criteria 6"
 			"defindex"	"3010"
@@ -8782,7 +8905,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"824"
+		"835"
 		{
 			"name"	"item in slot 6"
 			"defindex"	"3011"
@@ -8792,7 +8915,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"825"
+		"836"
 		{
 			"name"	"item slot criteria 7"
 			"defindex"	"3012"
@@ -8802,7 +8925,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"826"
+		"837"
 		{
 			"name"	"item in slot 7"
 			"defindex"	"3013"
@@ -8812,7 +8935,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"827"
+		"838"
 		{
 			"name"	"item slot criteria 8"
 			"defindex"	"3014"
@@ -8822,7 +8945,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"828"
+		"839"
 		{
 			"name"	"item in slot 8"
 			"defindex"	"3015"
@@ -8832,7 +8955,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"hidden"	"0"
 			"stored_as_integer"	"0"
 		}
-		"829"
+		"840"
 		{
 			"name"	"quest earned standard points"
 			"defindex"	"3016"
@@ -8841,7 +8964,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"hidden"	"1"
 			"stored_as_integer"	"1"
 		}
-		"830"
+		"841"
 		{
 			"name"	"quest earned bonus points"
 			"defindex"	"3017"
@@ -8850,7 +8973,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"hidden"	"1"
 			"stored_as_integer"	"1"
 		}
-		"831"
+		"842"
 		{
 			"name"	"item drop wave"
 			"defindex"	"3018"
@@ -9898,6 +10021,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"system"	"superrare_beams1"
 			"id"	"17"
 			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
 			"name"	"Rayos de sol"
 		}
 		"17"
@@ -11997,7 +12121,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"297"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Hellspawned Horns"
+			"name"	"Luzbel luciente"
 		}
 		"281"
 		{
@@ -12005,7 +12129,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"298"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Hellspawned Horns"
+			"name"	"Luzbel luciente"
 		}
 		"282"
 		{
@@ -12013,7 +12137,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"299"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Demonic Impaler"
+			"name"	"Empalador demoníaco"
 		}
 		"283"
 		{
@@ -12029,7 +12153,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"301"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sixth Sense"
+			"name"	"Sexto sentido"
 		}
 		"285"
 		{
@@ -12037,7 +12161,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"302"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sixth Sense"
+			"name"	"Sexto sentido"
 		}
 		"286"
 		{
@@ -12045,7 +12169,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"303"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Amygdala"
+			"name"	"Amígdala"
 		}
 		"287"
 		{
@@ -12053,7 +12177,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"304"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"The Bone Zone"
+			"name"	"La zona ósea"
 		}
 		"288"
 		{
@@ -12117,7 +12241,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"312"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Radiant Rivalry"
+			"name"	"Rivalidad radiante"
 		}
 		"296"
 		{
@@ -12125,7 +12249,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"313"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Radiant Rivalry"
+			"name"	"Rivalidad radiante"
 		}
 		"297"
 		{
@@ -12133,7 +12257,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"314"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Radiant Legacy"
+			"name"	"Legado radiante"
 		}
 		"298"
 		{
@@ -12141,7 +12265,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"315"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Frosty Flavours"
+			"name"	"Sabores escarchados"
 		}
 		"299"
 		{
@@ -12149,7 +12273,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"316"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Frosty Flavours"
+			"name"	"Sabores escarchados"
 		}
 		"300"
 		{
@@ -12157,7 +12281,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"317"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Mint Frost"
+			"name"	"Escarcha de menta"
 		}
 		"301"
 		{
@@ -12165,7 +12289,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"318"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"North Star"
+			"name"	"Estrella polar"
 		}
 		"302"
 		{
@@ -12173,7 +12297,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"319"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"North Star"
+			"name"	"Estrella polar"
 		}
 		"303"
 		{
@@ -12189,7 +12313,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"321"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Festive Falling Star"
+			"name"	"Estrella de Navidad"
 		}
 		"305"
 		{
@@ -12197,7 +12321,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"322"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Lunar Lights"
+			"name"	"Luces lunares"
 		}
 		"306"
 		{
@@ -12205,7 +12329,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"323"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Lunar Lights"
+			"name"	"Luces lunares"
 		}
 		"307"
 		{
@@ -12213,7 +12337,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"324"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fairy Lights"
+			"name"	"Luces de hadas"
 		}
 		"308"
 		{
@@ -12221,9 +12345,537 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"325"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Natural Lights"
+			"name"	"Luces naturales"
 		}
 		"309"
+		{
+			"system"	"unusual_corrodedknight_teamcolor_red"
+			"id"	"327"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Diadema del lealista"
+		}
+		"310"
+		{
+			"system"	"unusual_corrodedknight_teamcolor_blue"
+			"id"	"328"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Diadema del lealista"
+		}
+		"311"
+		{
+			"system"	"unusual_corrodedknight_parent_silver"
+			"id"	"329"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Espíritu orgulloso del caballero"
+		}
+		"312"
+		{
+			"system"	"unusual_corrodedknight_parent_golden"
+			"id"	"330"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Corona preciada del barón"
+		}
+		"313"
+		{
+			"system"	"unusual_poseidon_teamcolor_red"
+			"id"	"331"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Señuelo de las profundidades"
+		}
+		"314"
+		{
+			"system"	"unusual_poseidon_teamcolor_blue"
+			"id"	"332"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Señuelo de las profundidades"
+		}
+		"315"
+		{
+			"system"	"unusual_poseidon_parent_green"
+			"id"	"333"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Viridián violento"
+		}
+		"316"
+		{
+			"system"	"unusual_poseidon_parent_purple"
+			"id"	"334"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Magenta monstruoso"
+		}
+		"317"
+		{
+			"system"	"unusual_rainglow_parent"
+			"id"	"335"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Ensueño multicolor"
+		}
+		"318"
+		{
+			"system"	"unusual_cubancigar_parent"
+			"id"	"336"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Humo cubano"
+		}
+		"319"
+		{
+			"system"	"unusual_mohawk_teamcolor_red"
+			"id"	"337"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Mohicano derretido"
+		}
+		"320"
+		{
+			"system"	"unusual_mohawk_teamcolor_blue"
+			"id"	"338"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Mohicano derretido"
+		}
+		"321"
+		{
+			"system"	"unusual_mohawk_parent_green"
+			"id"	"339"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Cuero chamuscado"
+		}
+		"322"
+		{
+			"system"	"unusual_mohawk_parent_purple"
+			"id"	"340"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Cresta prendida"
+		}
+		"323"
+		{
+			"system"	"unusual_rare_shine_glow_parent"
+			"id"	"341"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Resplandor raro"
+		}
+		"324"
+		{
+			"system"	"unusual_horstars_teamcolor_red"
+			"id"	"342"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Deriva distante"
+		}
+		"325"
+		{
+			"system"	"unusual_horstars_teamcolor_blue"
+			"id"	"343"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Deriva distante"
+		}
+		"326"
+		{
+			"system"	"unusual_electric_parent_white"
+			"id"	"344"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Viaje en el tiempo"
+		}
+		"327"
+		{
+			"system"	"unusual_electric_parent_gold"
+			"id"	"345"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Exceso de velocidad"
+		}
+		"328"
+		{
+			"system"	"unusual_butterflyhead_teamcolor_red"
+			"id"	"346"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Temporada de mariposas"
+		}
+		"329"
+		{
+			"system"	"unusual_butterflyhead_teamcolor_blue"
+			"id"	"347"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Temporada de mariposas"
+		}
+		"330"
+		{
+			"system"	"unusual_hippieaura_parent"
+			"id"	"348"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Psicodélico"
+		}
+		"331"
+		{
+			"system"	"unusual_butterfly_parent"
+			"id"	"349"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Insectos hechizantes"
+		}
+		"332"
+		{
+			"system"	"unusual_spectral_fire_parent"
+			"id"	"350"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Fuego espectral"
+		}
+		"333"
+		{
+			"system"	"unusual_galactic_fire_parent"
+			"id"	"351"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Llama galáctica"
+		}
+		"334"
+		{
+			"system"	"unusual_frank_green_parent"
+			"id"	"352"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Recarga reactivada"
+		}
+		"335"
+		{
+			"system"	"unusual_frank_purple_parent"
+			"id"	"353"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Electricidad no muerta"
+		}
+		"336"
+		{
+			"system"	"unusual_frank_yellow_parent"
+			"id"	"354"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Frankencargado"
+		}
+		"337"
+		{
+			"system"	"unusual_skullsmoke_green_parent"
+			"id"	"355"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Plaga fantasma"
+		}
+		"338"
+		{
+			"system"	"unusual_skullsmoke_purple_parent"
+			"id"	"356"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Neblina inquietante"
+		}
+		"339"
+		{
+			"system"	"unusual_pigeons_green_parent"
+			"id"	"357"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Vampiros despiadados"
+		}
+		"340"
+		{
+			"system"	"unusual_pigeons_purple_parent"
+			"id"	"358"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Cuervos voraces"
+		}
+		"341"
+		{
+			"system"	"unusual_pigeons_white_parent"
+			"id"	"359"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Palomas encantadoras"
+		}
+		"342"
+		{
+			"system"	"unusual_stove_teamcolor_red"
+			"id"	"360"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Fogón abrasador"
+		}
+		"343"
+		{
+			"system"	"unusual_stove_teamcolor_blue"
+			"id"	"361"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Fogón abrasador"
+		}
+		"344"
+		{
+			"system"	"unusual_electricfire_teamcolor_red"
+			"id"	"362"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Superresplandor"
+		}
+		"345"
+		{
+			"system"	"unusual_electricfire_teamcolor_blue"
+			"id"	"363"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Superresplandor"
+		}
+		"346"
+		{
+			"system"	"unusual_sizzling_parent"
+			"id"	"364"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Candente"
+		}
+		"347"
+		{
+			"system"	"unusual_icrown_teamcolor_red"
+			"id"	"365"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Corona de cristal"
+		}
+		"348"
+		{
+			"system"	"unusual_icrown_teamcolor_blue"
+			"id"	"366"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Corona de cristal"
+		}
+		"349"
+		{
+			"system"	"unusual_icrown_parent_purple"
+			"id"	"367"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Halo de alción"
+		}
+		"350"
+		{
+			"system"	"unusual_timeghosts_parent"
+			"id"	"368"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Fantasmas de Navidad"
+		}
+		"351"
+		{
+			"system"	"unusual_aurora_parent"
+			"id"	"369"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Cielos con auroras"
+		}
+		"352"
+		{
+			"system"	"unusual_bokehsparkle_parent"
+			"id"	"370"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Bokeh brillante"
+		}
+		"353"
+		{
+			"system"	"unusual_playful_purple_parent"
+			"id"	"371"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Aurora juguetona"
+		}
+		"354"
+		{
+			"system"	"unusual_playful_yellow_parent"
+			"id"	"372"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Mañana animada"
+		}
+		"355"
+		{
+			"system"	"unusual_drunk_parent"
+			"id"	"373"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Ebrio"
+		}
+		"356"
+		{
+			"system"	"unusual_excalibur_teamcolor_red"
+			"id"	"374"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Dagas de traición"
+		}
+		"357"
+		{
+			"system"	"unusual_excalibur_teamcolor_blue"
+			"id"	"375"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Dagas de traición"
+		}
+		"358"
+		{
+			"system"	"unusual_excalibur_parent_purple"
+			"id"	"376"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Puñales de la muerte"
+		}
+		"359"
+		{
+			"system"	"unusual_uber_teamcolor_red"
+			"id"	"377"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Carga completa"
+		}
+		"360"
+		{
+			"system"	"unusual_uber_teamcolor_blue"
+			"id"	"378"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Carga completa"
+		}
+		"361"
+		{
+			"system"	"unusual_uber_gold_parent"
+			"id"	"379"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Sobrecarga"
+		}
+		"362"
+		{
+			"system"	"unusual_orbitingbullet_parent"
+			"id"	"380"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Cefalea punzante"
+		}
+		"363"
+		{
+			"system"	"unusual_typhoon_parent"
+			"id"	"381"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Viento diezmador"
+		}
+		"364"
+		{
+			"system"	"unusual_ocean_swirl_teamcolor_red"
+			"id"	"382"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Remolino oceánico"
+		}
+		"365"
+		{
+			"system"	"unusual_ocean_swirl_teamcolor_blue"
+			"id"	"383"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Remolino oceánico"
+		}
+		"366"
+		{
+			"system"	"unusual_ocean_swirl_green_parent"
+			"id"	"384"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Remolino tóxico"
+		}
+		"367"
+		{
+			"system"	"unusual_candle_teamcolor_red"
+			"id"	"385"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Llama de vela"
+		}
+		"368"
+		{
+			"system"	"unusual_candle_teamcolor_blue"
+			"id"	"386"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Llama de vela"
+		}
+		"369"
+		{
+			"system"	"unusual_deadlyaroma_teamcolor_red"
+			"id"	"387"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Aroma candente"
+		}
+		"370"
+		{
+			"system"	"unusual_deadlyaroma_teamcolor_blue"
+			"id"	"388"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Aroma candente"
+		}
+		"371"
+		{
+			"system"	"unusual_deadlyaroma_green_parent"
+			"id"	"389"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Aroma tóxico"
+		}
+		"372"
+		{
+			"system"	"unusual_conductor_teamc_teamcolor_red"
+			"id"	"390"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Conductor de corriente"
+		}
+		"373"
+		{
+			"system"	"unusual_conductor_teamc_teamcolor_blue"
+			"id"	"391"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Conductor de corriente"
+		}
+		"374"
+		{
+			"system"	"unusual_sandy_parent"
+			"id"	"392"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Arenoso"
+		}
+		"375"
 		{
 			"system"	"weapon_unusual_hot"
 			"id"	"701"
@@ -12231,7 +12883,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"attachment"	"unusual_0"
 			"name"	"Caliente"
 		}
-		"310"
+		"376"
 		{
 			"system"	"weapon_unusual_isotope"
 			"id"	"702"
@@ -12239,7 +12891,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"attachment"	"unusual_0"
 			"name"	"Isótopo"
 		}
-		"311"
+		"377"
 		{
 			"system"	"weapon_unusual_cool"
 			"id"	"703"
@@ -12247,7 +12899,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"attachment"	"unusual_0"
 			"name"	"Frío"
 		}
-		"312"
+		"378"
 		{
 			"system"	"weapon_unusual_energyorb"
 			"id"	"704"
@@ -12255,1106 +12907,1582 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"attachment"	"unusual_0"
 			"name"	"Orbe de energía"
 		}
-		"313"
+		"379"
 		{
 			"system"	"killstreak_eyeglow_1_teamcolor_red"
 			"id"	"2001"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2001"
 		}
-		"314"
+		"380"
 		{
 			"system"	"killstreak_t1_lvl1"
 			"id"	"2002"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2002"
 		}
-		"315"
+		"381"
 		{
 			"system"	"killstreak_t2_lvl1"
 			"id"	"2003"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2003"
 		}
-		"316"
+		"382"
 		{
 			"system"	"killstreak_t3_lvl1"
 			"id"	"2004"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2004"
 		}
-		"317"
+		"383"
 		{
 			"system"	"killstreak_t4_lvl1"
 			"id"	"2005"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2005"
 		}
-		"318"
+		"384"
 		{
 			"system"	"killstreak_t5_lvl1"
 			"id"	"2006"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2006"
 		}
-		"319"
+		"385"
 		{
 			"system"	"killstreak_t6_lvl1"
 			"id"	"2007"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2007"
 		}
-		"320"
+		"386"
 		{
 			"system"	"killstreak_t7_lvl1"
 			"id"	"2008"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2008"
 		}
-		"321"
+		"387"
 		{
 			"system"	"utaunt_firework_teamcolor_red"
 			"id"	"3001"
 			"attach_to_rootbone"	"0"
 			"name"	"Sensación"
 		}
-		"322"
+		"388"
 		{
 			"system"	"utaunt_firework_teamcolor_blue"
 			"id"	"3002"
 			"attach_to_rootbone"	"0"
 			"name"	"Sensación"
 		}
-		"323"
+		"389"
 		{
 			"system"	"utaunt_beams_yellow"
 			"id"	"3003"
 			"attach_to_rootbone"	"0"
 			"name"	"Santo Grial"
 		}
-		"324"
+		"390"
 		{
 			"system"	"utaunt_disco_party"
 			"id"	"3004"
 			"attach_to_rootbone"	"0"
 			"name"	"Del 72"
 		}
-		"325"
+		"391"
 		{
 			"system"	"utaunt_hearts_glow_parent"
 			"id"	"3005"
 			"attach_to_rootbone"	"0"
 			"name"	"Fuente de placer"
 		}
-		"326"
+		"392"
 		{
 			"system"	"utaunt_meteor_parent"
 			"id"	"3006"
 			"attach_to_rootbone"	"0"
 			"name"	"Alarido del tigre"
 		}
-		"327"
+		"393"
 		{
 			"system"	"utaunt_cash_confetti"
 			"id"	"3007"
 			"attach_to_rootbone"	"0"
 			"name"	"Ganancia habilidosa"
 		}
-		"328"
+		"394"
 		{
 			"system"	"utaunt_tornado_parent_black"
 			"id"	"3008"
 			"attach_to_rootbone"	"0"
 			"name"	"Torbellino nocturno"
 		}
-		"329"
+		"395"
 		{
 			"system"	"utaunt_tornado_parent_white"
 			"id"	"3009"
 			"attach_to_rootbone"	"0"
 			"name"	"Ciclón plateado"
 		}
-		"330"
+		"396"
 		{
 			"system"	"utaunt_lightning_parent"
 			"id"	"3010"
 			"attach_to_rootbone"	"0"
 			"name"	"Mega impacto"
 		}
-		"331"
+		"397"
 		{
 			"system"	"utaunt_souls_green_parent"
 			"id"	"3011"
 			"attach_to_rootbone"	"0"
 			"name"	"Fantasma embrujado"
 		}
-		"332"
+		"398"
 		{
 			"system"	"utaunt_souls_purple_parent"
 			"id"	"3012"
 			"attach_to_rootbone"	"0"
 			"name"	"Fantasmas fantasmagóricos"
 		}
-		"333"
+		"399"
 		{
 			"system"	"utaunt_hellpit_parent"
 			"id"	"3013"
 			"attach_to_rootbone"	"0"
 			"name"	"Infierno infernal"
 		}
-		"334"
+		"400"
 		{
 			"system"	"utaunt_hellswirl"
 			"id"	"3014"
 			"attach_to_rootbone"	"0"
 			"name"	"Remolino espectral"
 		}
-		"335"
+		"401"
 		{
 			"system"	"utaunt_headless"
 			"id"	"3015"
 			"attach_to_rootbone"	"0"
 			"name"	"Llamas infernales"
 		}
-		"336"
+		"402"
 		{
 			"system"	"utaunt_merasmus"
 			"id"	"3016"
 			"attach_to_rootbone"	"0"
 			"name"	"Humo infernal"
 		}
-		"337"
+		"403"
 		{
 			"system"	"utaunt_bubbles_glow_green_parent"
 			"id"	"3017"
 			"attach_to_rootbone"	"0"
 			"name"	"Burbujas ácidas de envidia"
 		}
-		"338"
+		"404"
 		{
 			"system"	"utaunt_bubbles_glow_orange_parent"
 			"id"	"3018"
 			"attach_to_rootbone"	"0"
 			"name"	"Burbujas inflamables de atracción"
 		}
-		"339"
+		"405"
 		{
 			"system"	"utaunt_bubbles_glow_purple_parent"
 			"id"	"3019"
 			"attach_to_rootbone"	"0"
 			"name"	"Burbujas envenenadas de arrepentimiento"
 		}
-		"340"
+		"406"
 		{
 			"system"	"utaunt_firework_dragon_parent"
 			"id"	"3020"
 			"attach_to_rootbone"	"0"
 			"name"	"Cohetes rugientes"
 		}
-		"341"
+		"407"
 		{
 			"system"	"utaunt_smoke_moon_parent"
 			"id"	"3021"
 			"attach_to_rootbone"	"0"
 			"name"	"Noche fantasmagórica"
 		}
-		"342"
+		"408"
 		{
 			"system"	"utaunt_smoke_moon_green_parent"
 			"id"	"3022"
 			"attach_to_rootbone"	"0"
 			"name"	"Noche siniestra"
 		}
-		"343"
+		"409"
 		{
 			"system"	"utaunt_arcane_purple_parent"
 			"id"	"3023"
 			"attach_to_rootbone"	"0"
 			"name"	"Embrujado"
 		}
-		"344"
+		"410"
 		{
 			"system"	"utaunt_arcane_green_parent"
 			"id"	"3024"
 			"attach_to_rootbone"	"0"
 			"name"	"Maldito"
 		}
-		"345"
+		"411"
 		{
 			"system"	"utaunt_arcane_yellow_parent"
 			"id"	"3025"
 			"attach_to_rootbone"	"0"
 			"name"	"Encantado"
 		}
-		"346"
+		"412"
 		{
 			"system"	"utaunt_electric_mist_parent"
 			"id"	"3026"
 			"attach_to_rootbone"	"0"
 			"name"	"Niebla estática"
 		}
-		"347"
+		"413"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WP"
 			"id"	"3027"
 			"attach_to_rootbone"	"0"
 			"name"	"Rayo espeluznante"
 		}
-		"348"
+		"414"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WB"
 			"id"	"3028"
 			"attach_to_rootbone"	"0"
 			"name"	"Trueno aterrador"
 		}
-		"349"
+		"415"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WY"
 			"id"	"3029"
 			"attach_to_rootbone"	"0"
 			"name"	"Golpe de Fraskungfú"
 		}
-		"350"
+		"416"
 		{
 			"system"	"utaunt_portalswirl_purple_parent"
 			"id"	"3030"
 			"attach_to_rootbone"	"0"
 			"name"	"Vacío abisal"
 		}
-		"351"
+		"417"
 		{
 			"system"	"utaunt_present_parent"
 			"id"	"3031"
 			"attach_to_rootbone"	"0"
 			"name"	"Lluvia de regalos"
 		}
-		"352"
+		"418"
 		{
 			"system"	"utaunt_snowring_icy_parent"
 			"id"	"3032"
 			"attach_to_rootbone"	"0"
 			"name"	"Iluminación invernal"
 		}
-		"353"
+		"419"
 		{
 			"system"	"utaunt_snowring_space_parent"
 			"id"	"3033"
 			"attach_to_rootbone"	"0"
 			"name"	"Aurora ártica"
 		}
-		"354"
+		"420"
 		{
 			"system"	"utaunt_spirit_winter_parent"
 			"id"	"3034"
 			"attach_to_rootbone"	"0"
 			"name"	"Espíritu invernal"
 		}
-		"355"
+		"421"
 		{
 			"system"	"utaunt_spirit_festive_parent"
 			"id"	"3035"
 			"attach_to_rootbone"	"0"
 			"name"	"Espíritu festivo"
 		}
-		"356"
+		"422"
 		{
 			"system"	"utaunt_spirit_magical_parent"
 			"id"	"3036"
 			"attach_to_rootbone"	"0"
 			"name"	"Espíritu mágico"
 		}
-		"357"
+		"423"
 		{
 			"system"	"utaunt_astralbodies_greenorange_parent"
 			"id"	"3037"
 			"attach_to_rootbone"	"0"
 			"name"	"Escolta espectral"
 		}
-		"358"
+		"424"
 		{
 			"system"	"utaunt_astralbodies_tealpurple_parent"
 			"id"	"3038"
 			"attach_to_rootbone"	"0"
 			"name"	"Presencia astral"
 		}
-		"359"
+		"425"
 		{
 			"system"	"utaunt_astralbodies_teamcolor_red"
 			"id"	"3039"
 			"attach_to_rootbone"	"0"
 			"name"	"Ayuda arcana"
 		}
-		"360"
+		"426"
 		{
 			"system"	"utaunt_astralbodies_teamcolor_blue"
 			"id"	"3040"
 			"attach_to_rootbone"	"0"
 			"name"	"Ayuda arcana"
 		}
-		"361"
+		"427"
 		{
 			"system"	"utaunt_glowyplayer_green_parent"
 			"id"	"3041"
 			"attach_to_rootbone"	"0"
 			"name"	"Atracción esmeralda"
 		}
-		"362"
+		"428"
 		{
 			"system"	"utaunt_glowyplayer_orange_parent"
 			"id"	"3042"
 			"attach_to_rootbone"	"0"
 			"name"	"Personalidad pirofórica"
 		}
-		"363"
+		"429"
 		{
 			"system"	"utaunt_glowyplayer_purple_parent"
 			"id"	"3043"
 			"attach_to_rootbone"	"0"
 			"name"	"Aspecto embrujado"
 		}
-		"364"
+		"430"
 		{
 			"system"	"utaunt_electricity_parent"
 			"id"	"3044"
 			"attach_to_rootbone"	"0"
 			"name"	"Carga eléctrica"
 		}
-		"365"
+		"431"
 		{
 			"system"	"utaunt_electricity_purple_parent"
 			"id"	"3045"
 			"attach_to_rootbone"	"0"
 			"name"	"Carga tóxica"
 		}
-		"366"
+		"432"
 		{
 			"system"	"utaunt_spider_green_parent"
 			"id"	"3046"
 			"attach_to_rootbone"	"0"
 			"name"	"Terrores tóxicos"
 		}
-		"367"
+		"433"
 		{
 			"system"	"utaunt_spider_orange_parent"
 			"id"	"3047"
 			"attach_to_rootbone"	"0"
 			"name"	"Asalto arácnido"
 		}
-		"368"
+		"434"
 		{
 			"system"	"utaunt_spider_purple_parent"
 			"id"	"3048"
 			"attach_to_rootbone"	"0"
 			"name"	"Telarañas enmarañadas"
 		}
-		"369"
+		"435"
 		{
 			"system"	"utaunt_tf2smissmas_tree_parent"
 			"id"	"3049"
 			"attach_to_rootbone"	"0"
 			"name"	"Estrella encantadora"
 		}
-		"370"
+		"436"
 		{
 			"system"	"utaunt_tf2smissmas_tree_parent_w"
 			"id"	"3050"
 			"attach_to_rootbone"	"0"
 			"name"	"Estrella heladora"
 		}
-		"371"
+		"437"
 		{
 			"system"	"utaunt_spirits_blue_parent"
 			"id"	"3051"
 			"attach_to_rootbone"	"0"
 			"name"	"Apoteosis"
 		}
-		"372"
+		"438"
 		{
 			"system"	"utaunt_spirits_purple_parent"
 			"id"	"3052"
 			"attach_to_rootbone"	"0"
 			"name"	"Ascensión"
 		}
-		"373"
+		"439"
 		{
 			"system"	"utaunt_balloonicorn_reindeer_teamcolor_red"
 			"id"	"3053"
 			"attach_to_rootbone"	"0"
 			"name"	"Granjero de renicornios"
 		}
-		"374"
+		"440"
 		{
 			"system"	"utaunt_balloonicorn_reindeer_teamcolor_blue"
 			"id"	"3054"
 			"attach_to_rootbone"	"0"
 			"name"	"Granjero de renicornios"
 		}
-		"375"
+		"441"
 		{
 			"system"	"utaunt_twinkling_rgb_parent"
 			"id"	"3055"
 			"attach_to_rootbone"	"0"
 			"name"	"Luces centelleantes"
 		}
-		"376"
+		"442"
 		{
 			"system"	"utaunt_twinkling_goldsilver_parent"
 			"id"	"3056"
 			"attach_to_rootbone"	"0"
 			"name"	"Luces brillantes"
 		}
-		"377"
+		"443"
 		{
 			"system"	"utaunt_chain_green_parent"
 			"id"	"3059"
 			"attach_to_rootbone"	"0"
 			"name"	"Cadenas espectrales"
 		}
-		"378"
+		"444"
 		{
 			"system"	"utaunt_chain_purple_parent"
 			"id"	"3060"
 			"attach_to_rootbone"	"0"
 			"name"	"Confinamiento maldito"
 		}
-		"379"
+		"445"
 		{
 			"system"	"utaunt_tarotcard_teamcolor_red"
 			"id"	"3061"
 			"attach_to_rootbone"	"0"
 			"name"	"Caballero de cartas"
 		}
-		"380"
+		"446"
 		{
 			"system"	"utaunt_tarotcard_teamcolor_blue"
 			"id"	"3062"
 			"attach_to_rootbone"	"0"
 			"name"	"Caballero de cartas"
 		}
-		"381"
+		"447"
 		{
 			"system"	"utaunt_tarotcard_orange_parent"
 			"id"	"3063"
 			"attach_to_rootbone"	"0"
 			"name"	"Florecimiento vacío"
 		}
-		"382"
+		"448"
 		{
 			"system"	"utaunt_tarotcard_purple_parent"
 			"id"	"3064"
 			"attach_to_rootbone"	"0"
 			"name"	"Barajadura mágica"
 		}
-		"383"
+		"449"
 		{
 			"system"	"utaunt_elebound_green_parent"
 			"id"	"3065"
 			"attach_to_rootbone"	"0"
 			"name"	"Pulso vigoroso"
 		}
-		"384"
+		"450"
 		{
 			"system"	"utaunt_elebound_purple_parent"
 			"id"	"3066"
 			"attach_to_rootbone"	"0"
 			"name"	"Espíritu atronador"
 		}
-		"385"
+		"451"
 		{
 			"system"	"utaunt_elebound_yellow_parent"
 			"id"	"3067"
 			"attach_to_rootbone"	"0"
 			"name"	"Desafío galvánico"
 		}
-		"386"
+		"452"
 		{
 			"system"	"utaunt_wispy_parent_g"
 			"id"	"3068"
 			"attach_to_rootbone"	"0"
 			"name"	"Halos tenues"
 		}
-		"387"
+		"453"
 		{
 			"system"	"utaunt_wispy_parent_p"
 			"id"	"3069"
 			"attach_to_rootbone"	"0"
 			"name"	"Espectros abisales"
 		}
-		"388"
+		"454"
 		{
 			"system"	"utaunt_auroraglow_green_parent"
 			"id"	"3070"
 			"attach_to_rootbone"	"0"
 			"name"	"Aurora borealis"
 		}
-		"389"
+		"455"
 		{
 			"system"	"utaunt_auroraglow_orange_parent"
 			"id"	"3071"
 			"attach_to_rootbone"	"0"
 			"name"	"Aurora australis"
 		}
-		"390"
+		"456"
 		{
 			"system"	"utaunt_auroraglow_purple_parent"
 			"id"	"3072"
 			"attach_to_rootbone"	"0"
 			"name"	"Aurora polaris"
 		}
-		"391"
+		"457"
 		{
 			"system"	"utaunt_snowswirl_purple_parent"
 			"id"	"3073"
 			"attach_to_rootbone"	"0"
 			"name"	"Vientos de amatista"
 		}
-		"392"
+		"458"
 		{
 			"system"	"utaunt_snowswirl_yellow_parent"
 			"id"	"3074"
 			"attach_to_rootbone"	"0"
 			"name"	"Ráfagas de oro"
 		}
-		"393"
+		"459"
 		{
 			"system"	"utaunt_snowswirl_teamcolor_red"
 			"id"	"3075"
 			"attach_to_rootbone"	"0"
 			"name"	"Remolinos navideños"
 		}
-		"394"
+		"460"
 		{
 			"system"	"utaunt_snowswirl_teamcolor_blue"
 			"id"	"3076"
 			"attach_to_rootbone"	"0"
 			"name"	"Remolinos navideños"
 		}
-		"395"
+		"461"
 		{
 			"system"	"utaunt_treespiral_green_parent"
 			"id"	"3077"
 			"attach_to_rootbone"	"0"
 			"name"	"Ciprés mentolado"
 		}
-		"396"
+		"462"
 		{
 			"system"	"utaunt_treespiral_purple_parent"
 			"id"	"3078"
 			"attach_to_rootbone"	"0"
 			"name"	"Pino prístino"
 		}
-		"397"
+		"463"
 		{
 			"system"	"utaunt_treespiral_teamcolor_red"
 			"id"	"3079"
 			"attach_to_rootbone"	"0"
 			"name"	"Abeto reluciente"
 		}
-		"398"
+		"464"
 		{
 			"system"	"utaunt_treespiral_teamcolor_blue"
 			"id"	"3080"
 			"attach_to_rootbone"	"0"
 			"name"	"Abeto reluciente"
 		}
-		"399"
+		"465"
 		{
 			"system"	"utaunt_gifts_teamcolor_red"
 			"id"	"3081"
 			"attach_to_rootbone"	"0"
 			"name"	"Fiebre festiva"
 		}
-		"400"
+		"466"
 		{
 			"system"	"utaunt_gifts_teamcolor_blue"
 			"id"	"3082"
 			"attach_to_rootbone"	"0"
 			"name"	"Fiebre festiva"
 		}
-		"401"
+		"467"
 		{
 			"system"	"utaunt_glitter_parent_gold"
 			"id"	"3083"
 			"attach_to_rootbone"	"0"
 			"name"	"Centelleo dorado"
 		}
-		"402"
+		"468"
 		{
 			"system"	"utaunt_glitter_parent_silver"
 			"id"	"3084"
 			"attach_to_rootbone"	"0"
 			"name"	"Escarchado plateado"
 		}
-		"403"
+		"469"
 		{
 			"system"	"utaunt_glitter_teamcolor_red"
 			"id"	"3085"
 			"attach_to_rootbone"	"0"
 			"name"	"Resplandor glamuroso"
 		}
-		"404"
+		"470"
 		{
 			"system"	"utaunt_glitter_teamcolor_blue"
 			"id"	"3086"
 			"attach_to_rootbone"	"0"
 			"name"	"Resplandor glamuroso"
 		}
-		"405"
+		"471"
 		{
 			"system"	"utaunt_ice_parent"
 			"id"	"3087"
 			"attach_to_rootbone"	"0"
 			"name"	"Nevisca sublime"
 		}
-		"406"
+		"472"
 		{
 			"system"	"utaunt_marigoldritual_teamcolor_red"
 			"id"	"3088"
 			"attach_to_rootbone"	"0"
 			"name"	"Ritual de caléndulas"
 		}
-		"407"
+		"473"
 		{
 			"system"	"utaunt_marigoldritual_teamcolor_blue"
 			"id"	"3089"
 			"attach_to_rootbone"	"0"
 			"name"	"Ritual de caléndulas"
 		}
-		"408"
+		"474"
 		{
 			"system"	"utaunt_poison_parent_green"
 			"id"	"3090"
 			"attach_to_rootbone"	"0"
 			"name"	"Veneno punzante"
 		}
-		"409"
+		"475"
 		{
 			"system"	"utaunt_poison_parent_orange"
 			"id"	"3091"
 			"attach_to_rootbone"	"0"
 			"name"	"Brebaje ardiente"
 		}
-		"410"
+		"476"
 		{
 			"system"	"utaunt_poison_parent_purple"
 			"id"	"3092"
 			"attach_to_rootbone"	"0"
 			"name"	"Mezcla misteriosa"
 		}
-		"411"
+		"477"
 		{
 			"system"	"utaunt_runeprison_green_parent"
 			"id"	"3093"
 			"attach_to_rootbone"	"0"
 			"name"	"Desvío lingüístico"
 		}
-		"412"
+		"478"
 		{
 			"system"	"utaunt_runeprison_yellow_parent"
 			"id"	"3094"
 			"attach_to_rootbone"	"0"
 			"name"	"Sello aureliano"
 		}
-		"413"
+		"479"
 		{
 			"system"	"utaunt_runeprison_teamcolor_red"
 			"id"	"3095"
 			"attach_to_rootbone"	"0"
 			"name"	"Prisión rúnica"
 		}
-		"414"
+		"480"
 		{
 			"system"	"utaunt_runeprison_teamcolor_blue"
 			"id"	"3096"
 			"attach_to_rootbone"	"0"
 			"name"	"Prisión rúnica"
 		}
-		"415"
+		"481"
 		{
 			"system"	"utaunt_prismatichaze_parent"
 			"id"	"3097"
 			"attach_to_rootbone"	"0"
 			"name"	"Neblina prismática"
 		}
-		"416"
+		"482"
 		{
 			"system"	"utaunt_risingsprit_teamcolor_red"
 			"id"	"3098"
 			"attach_to_rootbone"	"0"
 			"name"	"Ritual ascendente"
 		}
-		"417"
+		"483"
 		{
 			"system"	"utaunt_risingsprit_teamcolor_blue"
 			"id"	"3099"
 			"attach_to_rootbone"	"0"
 			"name"	"Ritual ascendente"
 		}
-		"418"
+		"484"
 		{
 			"system"	"utaunt_hands_teamcolor_red"
 			"id"	"3100"
 			"attach_to_rootbone"	"0"
 			"name"	"Agarre sangriento"
 		}
-		"419"
+		"485"
 		{
 			"system"	"utaunt_hands_teamcolor_blue"
 			"id"	"3101"
 			"attach_to_rootbone"	"0"
 			"name"	"Agarre sangriento"
 		}
-		"420"
+		"486"
 		{
 			"system"	"utaunt_hands_green_parent"
 			"id"	"3102"
 			"attach_to_rootbone"	"0"
 			"name"	"Agarre tóxico"
 		}
-		"421"
+		"487"
 		{
 			"system"	"utaunt_hands_orange_parent"
 			"id"	"3103"
 			"attach_to_rootbone"	"0"
 			"name"	"Agarre infernal"
 		}
-		"422"
+		"488"
 		{
 			"system"	"utaunt_hands_purple_parent"
 			"id"	"3104"
 			"attach_to_rootbone"	"0"
 			"name"	"Agarre de la muerte"
 		}
-		"423"
+		"489"
 		{
 			"system"	"utaunt_storm_parent_g"
 			"id"	"3105"
 			"attach_to_rootbone"	"0"
 			"name"	"Arcano cargado"
 		}
-		"424"
+		"490"
 		{
 			"system"	"utaunt_storm_parent_k"
 			"id"	"3106"
 			"attach_to_rootbone"	"0"
 			"name"	"Furia atronadora"
 		}
-		"425"
+		"491"
 		{
 			"system"	"utaunt_storm_parent_o"
 			"id"	"3107"
 			"attach_to_rootbone"	"0"
 			"name"	"Fogosidad convulsiva"
 		}
-		"426"
+		"492"
 		{
 			"system"	"utaunt_festivelights_teamcolor_red"
 			"id"	"3108"
 			"attach_to_rootbone"	"0"
 			"name"	"Formación festivizada"
 		}
-		"427"
+		"493"
 		{
 			"system"	"utaunt_festivelights_teamcolor_blue"
 			"id"	"3109"
 			"attach_to_rootbone"	"0"
 			"name"	"Formación festivizada"
 		}
-		"428"
+		"494"
 		{
 			"system"	"utaunt_glow_spirit_parent_cr"
 			"id"	"3110"
 			"attach_to_rootbone"	"0"
 			"name"	"Espíritus giratorios"
 		}
-		"429"
+		"495"
 		{
 			"system"	"utaunt_glow_spirit_parent_og"
 			"id"	"3111"
 			"attach_to_rootbone"	"0"
 			"name"	"Retorcimiento anaranjado"
 		}
-		"430"
+		"496"
 		{
 			"system"	"utaunt_glow_spirit_parent_pp"
 			"id"	"3112"
 			"attach_to_rootbone"	"0"
 			"name"	"Destellos de medianoche"
 		}
-		"431"
+		"497"
 		{
 			"system"	"utaunt_snowflakesaura_parent"
 			"id"	"3113"
 			"attach_to_rootbone"	"0"
 			"name"	"Ventisca sin límites"
 		}
-		"432"
+		"498"
 		{
 			"system"	"utaunt_sun_sand_rays_parent"
 			"id"	"3114"
 			"attach_to_rootbone"	"0"
 			"name"	"Incineración solar"
 		}
-		"433"
+		"499"
 		{
 			"system"	"utaunt_undersea_teamcolor_red"
 			"id"	"3115"
 			"attach_to_rootbone"	"0"
 			"name"	"Rave bajo el mar"
 		}
-		"434"
+		"500"
 		{
 			"system"	"utaunt_undersea_teamcolor_blue"
 			"id"	"3116"
 			"attach_to_rootbone"	"0"
 			"name"	"Rave bajo el mar"
 		}
-		"435"
+		"501"
 		{
 			"system"	"utaunt_lavalamp_green_parent"
 			"id"	"3117"
 			"attach_to_rootbone"	"0"
 			"name"	"Lava fluorescente"
 		}
-		"436"
+		"502"
 		{
 			"system"	"utaunt_lavalamp_purple_parent"
 			"id"	"3118"
 			"attach_to_rootbone"	"0"
 			"name"	"Lava púrpura"
 		}
-		"437"
+		"503"
 		{
 			"system"	"utaunt_lavalamp_yellow_parent"
 			"id"	"3119"
 			"attach_to_rootbone"	"0"
 			"name"	"Lava ardiente"
 		}
-		"438"
+		"504"
 		{
 			"system"	"utaunt_fish_parent"
 			"id"	"3120"
 			"attach_to_rootbone"	"0"
 			"name"	"Frenesí de peces"
 		}
-		"439"
+		"505"
 		{
 			"system"	"utaunt_rainbow_teamcolor_red"
 			"id"	"3121"
 			"attach_to_rootbone"	"0"
 			"name"	"Trance de globunicornios"
 		}
-		"440"
+		"506"
 		{
 			"system"	"utaunt_rainbow_teamcolor_blue"
 			"id"	"3122"
 			"attach_to_rootbone"	"0"
 			"name"	"Trance de globunicornios"
 		}
-		"441"
+		"507"
 		{
 			"system"	"utaunt_wild_meadows_parent"
 			"id"	"3123"
 			"attach_to_rootbone"	"0"
 			"name"	"Praderas de flores silvestres"
 		}
-		"442"
+		"508"
 		{
 			"system"	"utaunt_krakenmouth_green_parent"
 			"id"	"3124"
 			"attach_to_rootbone"	"0"
-			"name"	"Devorador marino"
+			"name"	"Devorador de las profundidades"
 		}
-		"443"
+		"509"
 		{
 			"system"	"utaunt_krakenmouth_purple_parent"
 			"id"	"3125"
 			"attach_to_rootbone"	"0"
 			"name"	"Terror sobrenatural"
 		}
-		"444"
+		"510"
 		{
 			"system"	"utaunt_leaftaunt_parent"
 			"id"	"3126"
 			"attach_to_rootbone"	"0"
-			"name"	"Autumn Leaves"
+			"name"	"Hojas de otoño"
 		}
-		"445"
+		"511"
 		{
 			"system"	"utaunt_graveparty_parent"
 			"id"	"3127"
 			"attach_to_rootbone"	"0"
 			"name"	"La fiesta de los muertos"
 		}
-		"446"
+		"512"
 		{
 			"system"	"utaunt_spellsplash_parent"
 			"id"	"3128"
 			"attach_to_rootbone"	"0"
 			"name"	"Explosión de pociones"
 		}
-		"447"
+		"513"
 		{
 			"system"	"utaunt_cremation_purple_parent"
 			"id"	"3129"
 			"attach_to_rootbone"	"0"
-			"name"	"Haunted Cremation"
+			"name"	"Cremación embrujada"
 		}
-		"448"
+		"514"
 		{
 			"system"	"utaunt_cremation_black_parent"
 			"id"	"3130"
 			"attach_to_rootbone"	"0"
-			"name"	"Cremation"
+			"name"	"Cremación"
 		}
-		"449"
+		"515"
 		{
 			"system"	"utaunt_snowfall_parent"
 			"id"	"3131"
 			"attach_to_rootbone"	"0"
-			"name"	"Snowfall"
+			"name"	"Nevada"
 		}
-		"450"
+		"516"
 		{
 			"system"	"utaunt_constellations_teamcolor_red"
 			"id"	"3132"
 			"attach_to_rootbone"	"0"
-			"name"	"Galactic Connection"
+			"name"	"Conexión galáctica"
 		}
-		"451"
+		"517"
 		{
 			"system"	"utaunt_constellations_teamcolor_blue"
 			"id"	"3133"
 			"attach_to_rootbone"	"0"
-			"name"	"Galactic Connection"
+			"name"	"Conexión galáctica"
 		}
-		"452"
+		"518"
 		{
 			"system"	"utaunt_constellations_purple_parent"
 			"id"	"3134"
 			"attach_to_rootbone"	"0"
-			"name"	"Dark Twilight"
+			"name"	"Crepúsculo oscuro"
 		}
-		"453"
+		"519"
 		{
 			"system"	"utaunt_constellations_pink_parent"
 			"id"	"3135"
 			"attach_to_rootbone"	"0"
 			"name"	"Grieta de Eldritch"
 		}
-		"454"
+		"520"
 		{
 			"system"	"utaunt_wispyworks_orangegreen_parent"
 			"id"	"3136"
 			"attach_to_rootbone"	"0"
-			"name"	"Selfless Sensation"
+			"name"	"Sensación altruista"
 		}
-		"455"
+		"521"
 		{
 			"system"	"utaunt_wispyworks_purpleblue_parent"
 			"id"	"3137"
 			"attach_to_rootbone"	"0"
-			"name"	"Distant Desire"
+			"name"	"Deseo distante"
 		}
-		"456"
+		"522"
 		{
 			"system"	"utaunt_wispyworks_yellowpurple_parent"
 			"id"	"3138"
 			"attach_to_rootbone"	"0"
-			"name"	"Glamorous Glance"
+			"name"	"Mirada glamurosa"
 		}
-		"457"
+		"523"
 		{
 			"system"	"utaunt_innerblizzard_teamcolor_red"
 			"id"	"3139"
 			"attach_to_rootbone"	"0"
-			"name"	"Permafrost Essence"
+			"name"	"Esencia de permafrost"
 		}
-		"458"
+		"524"
 		{
 			"system"	"utaunt_innerblizzard_teamcolor_blue"
 			"id"	"3140"
 			"attach_to_rootbone"	"0"
-			"name"	"Permafrost Essence"
+			"name"	"Esencia de permafrost"
 		}
-		"459"
+		"525"
 		{
 			"system"	"utaunt_innerblizzard_purple_parent"
 			"id"	"3141"
 			"attach_to_rootbone"	"0"
-			"name"	"Arctic Delight"
+			"name"	"Delicia ártica"
 		}
-		"460"
+		"526"
 		{
 			"system"	"utaunt_spotlight_parent"
 			"id"	"3142"
 			"attach_to_rootbone"	"0"
 			"name"	"Espíritu vencedor"
 		}
-		"461"
+		"527"
 		{
 			"system"	"utaunt_pedalfly_teamcolor_red"
 			"id"	"3143"
 			"attach_to_rootbone"	"0"
 			"name"	"Cabriola floral"
 		}
-		"462"
+		"528"
 		{
 			"system"	"utaunt_pedalfly_teamcolor_blue"
 			"id"	"3144"
 			"attach_to_rootbone"	"0"
 			"name"	"Cabriola floral"
 		}
-		"463"
+		"529"
+		{
+			"system"	"utaunt_dragonfly_teamcolor_red"
+			"id"	"3145"
+			"attach_to_rootbone"	"0"
+			"name"	"Abrazo de libélulas"
+		}
+		"530"
+		{
+			"system"	"utaunt_dragonfly_teamcolor_blue"
+			"id"	"3146"
+			"attach_to_rootbone"	"0"
+			"name"	"Abrazo de libélulas"
+		}
+		"531"
+		{
+			"system"	"utaunt_dragonfly_green_parent"
+			"id"	"3147"
+			"attach_to_rootbone"	"0"
+			"name"	"Naturaleza de libélulas"
+		}
+		"532"
+		{
+			"system"	"utaunt_dragonfly_purple_parent"
+			"id"	"3148"
+			"attach_to_rootbone"	"0"
+			"name"	"Luminosidad de libélulas"
+		}
+		"533"
+		{
+			"system"	"utaunt_demigodery_teamcolor_red"
+			"id"	"3149"
+			"attach_to_rootbone"	"0"
+			"name"	"Electrocución"
+		}
+		"534"
+		{
+			"system"	"utaunt_demigodery_teamcolor_blue"
+			"id"	"3150"
+			"attach_to_rootbone"	"0"
+			"name"	"Electrocución"
+		}
+		"535"
+		{
+			"system"	"utaunt_signalflares_teamcolor_red"
+			"id"	"3151"
+			"attach_to_rootbone"	"0"
+			"name"	"Señal de socorro"
+		}
+		"536"
+		{
+			"system"	"utaunt_signalflares_teamcolor_blue"
+			"id"	"3152"
+			"attach_to_rootbone"	"0"
+			"name"	"Señal de socorro"
+		}
+		"537"
+		{
+			"system"	"utaunt_signalflares_green_parent"
+			"id"	"3153"
+			"attach_to_rootbone"	"0"
+			"name"	"Llamada del carioca"
+		}
+		"538"
+		{
+			"system"	"utaunt_celebrationtime_teamcolor_red"
+			"id"	"3154"
+			"attach_to_rootbone"	"0"
+			"name"	"Fiesta real"
+		}
+		"539"
+		{
+			"system"	"utaunt_celebrationtime_teamcolor_blue"
+			"id"	"3155"
+			"attach_to_rootbone"	"0"
+			"name"	"Fiesta real"
+		}
+		"540"
+		{
+			"system"	"utaunt_celebrationtime_yellow_parent"
+			"id"	"3156"
+			"attach_to_rootbone"	"0"
+			"name"	"Gran jubileo"
+		}
+		"541"
+		{
+			"system"	"utaunt_god_lava_teamcolor_red"
+			"id"	"3157"
+			"attach_to_rootbone"	"0"
+			"name"	"Elemental"
+		}
+		"542"
+		{
+			"system"	"utaunt_god_lava_teamcolor_blue"
+			"id"	"3158"
+			"attach_to_rootbone"	"0"
+			"name"	"Elemental"
+		}
+		"543"
+		{
+			"system"	"utaunt_god_gold_parent"
+			"id"	"3159"
+			"attach_to_rootbone"	"0"
+			"name"	"Como un dios"
+		}
+		"544"
+		{
+			"system"	"utaunt_aestheticlogo_teamcolor_red"
+			"id"	"3160"
+			"attach_to_rootbone"	"0"
+			"name"	"Valor del trabajo en equipo"
+		}
+		"545"
+		{
+			"system"	"utaunt_aestheticlogo_teamcolor_blue"
+			"id"	"3161"
+			"attach_to_rootbone"	"0"
+			"name"	"Valor del trabajo en equipo"
+		}
+		"546"
+		{
+			"system"	"utaunt_aestheticlogo_orange_parent"
+			"id"	"3162"
+			"attach_to_rootbone"	"0"
+			"name"	"Logotipo heredado"
+		}
+		"547"
+		{
+			"system"	"utaunt_desert_wind_parent"
+			"id"	"3163"
+			"attach_to_rootbone"	"0"
+			"name"	"Viento del desierto"
+		}
+		"548"
+		{
+			"system"	"utaunt_desert_monsoon_parent"
+			"id"	"3164"
+			"attach_to_rootbone"	"0"
+			"name"	"Temporada de monzones"
+		}
+		"549"
+		{
+			"system"	"utaunt_treasure_teamcolor_red"
+			"id"	"3165"
+			"attach_to_rootbone"	"0"
+			"name"	"Riquezas abundantes"
+		}
+		"550"
+		{
+			"system"	"utaunt_treasure_teamcolor_blue"
+			"id"	"3166"
+			"attach_to_rootbone"	"0"
+			"name"	"Riquezas abundantes"
+		}
+		"551"
+		{
+			"system"	"utaunt_hearttreasure_parent"
+			"id"	"3167"
+			"attach_to_rootbone"	"0"
+			"name"	"Amante del lujo"
+		}
+		"552"
+		{
+			"system"	"utaunt_wiggletube_teamcolor_red"
+			"id"	"3168"
+			"attach_to_rootbone"	"0"
+			"name"	"Amatorio"
+		}
+		"553"
+		{
+			"system"	"utaunt_wiggletube_teamcolor_blue"
+			"id"	"3169"
+			"attach_to_rootbone"	"0"
+			"name"	"Amatorio"
+		}
+		"554"
+		{
+			"system"	"utaunt_wiggletube_coffee_parent"
+			"id"	"3170"
+			"attach_to_rootbone"	"0"
+			"name"	"Electro"
+		}
+		"555"
+		{
+			"system"	"utaunt_flowerrain_teamcolor_red"
+			"id"	"3171"
+			"attach_to_rootbone"	"0"
+			"name"	"Bendiciones de Sakura"
+		}
+		"556"
+		{
+			"system"	"utaunt_flowerrain_teamcolor_blue"
+			"id"	"3172"
+			"attach_to_rootbone"	"0"
+			"name"	"Bendiciones de Sakura"
+		}
+		"557"
+		{
+			"system"	"utaunt_flowerrain_purple_parent"
+			"id"	"3173"
+			"attach_to_rootbone"	"0"
+			"name"	"Violetas violentas"
+		}
+		"558"
+		{
+			"system"	"utaunt_poweraura_teamcolor_red"
+			"id"	"3174"
+			"attach_to_rootbone"	"0"
+			"name"	"Aura de energía"
+		}
+		"559"
+		{
+			"system"	"utaunt_poweraura_teamcolor_blue"
+			"id"	"3175"
+			"attach_to_rootbone"	"0"
+			"name"	"Aura de energía"
+		}
+		"560"
+		{
+			"system"	"utaunt_poweraura_green_parent"
+			"id"	"3176"
+			"attach_to_rootbone"	"0"
+			"name"	"Impulso incrementado"
+		}
+		"561"
+		{
+			"system"	"utaunt_poweraura_purple_parent"
+			"id"	"3177"
+			"attach_to_rootbone"	"0"
+			"name"	"Catalizador de carga"
+		}
+		"562"
+		{
+			"system"	"utaunt_poweraura_yellow_parent"
+			"id"	"3178"
+			"attach_to_rootbone"	"0"
+			"name"	"Aura amplificadora"
+		}
+		"563"
+		{
+			"system"	"utaunt_mysticfusion_parent"
+			"id"	"3179"
+			"attach_to_rootbone"	"0"
+			"name"	"Fusión mística"
+		}
+		"564"
+		{
+			"system"	"utaunt_confetti_gy_parent"
+			"id"	"3180"
+			"attach_to_rootbone"	"0"
+			"name"	"Confeti odioso"
+		}
+		"565"
+		{
+			"system"	"utaunt_confetti_pp_parent"
+			"id"	"3181"
+			"attach_to_rootbone"	"0"
+			"name"	"Confeti adorable"
+		}
+		"566"
+		{
+			"system"	"utaunt_confetti_yp_parent"
+			"id"	"3182"
+			"attach_to_rootbone"	"0"
+			"name"	"Celebración de confeti"
+		}
+		"567"
+		{
+			"system"	"utaunt_heavyrain_parent"
+			"id"	"3183"
+			"attach_to_rootbone"	"0"
+			"name"	"Diluvio"
+		}
+		"568"
+		{
+			"system"	"utaunt_field_parent"
+			"id"	"3184"
+			"attach_to_rootbone"	"0"
+			"name"	"Huerto de calabazas"
+		}
+		"569"
+		{
+			"system"	"utaunt_whitesmissmas_parent"
+			"id"	"3185"
+			"attach_to_rootbone"	"0"
+			"name"	"Día de nieve"
+		}
+		"570"
+		{
+			"system"	"utaunt_busysnow_teamcolor_red"
+			"id"	"3186"
+			"attach_to_rootbone"	"0"
+			"name"	"Espíritu de las nieves"
+		}
+		"571"
+		{
+			"system"	"utaunt_busysnow_teamcolor_blue"
+			"id"	"3187"
+			"attach_to_rootbone"	"0"
+			"name"	"Espíritu de las nieves"
+		}
+		"572"
+		{
+			"system"	"utaunt_busysnow_parent_p"
+			"id"	"3188"
+			"attach_to_rootbone"	"0"
+			"name"	"Sensación de lavanda"
+		}
+		"573"
+		{
+			"system"	"utaunt_busysnow_parent_g"
+			"id"	"3189"
+			"attach_to_rootbone"	"0"
+			"name"	"Fenómeno verdoso"
+		}
+		"574"
+		{
+			"system"	"utaunt_roses_teamcolor_red"
+			"id"	"3190"
+			"attach_to_rootbone"	"0"
+			"name"	"Triunfador"
+		}
+		"575"
+		{
+			"system"	"utaunt_roses_teamcolor_blue"
+			"id"	"3191"
+			"attach_to_rootbone"	"0"
+			"name"	"Triunfador"
+		}
+		"576"
+		{
+			"system"	"utaunt_roses_gold_parent"
+			"id"	"3192"
+			"attach_to_rootbone"	"0"
+			"name"	"Triunfo operístico"
+		}
+		"577"
+		{
+			"system"	"utaunt_tangledlights_parent"
+			"id"	"3193"
+			"attach_to_rootbone"	"0"
+			"name"	"Luces enredadas"
+		}
+		"578"
+		{
+			"system"	"utaunt_seamine_teamcolor_red"
+			"id"	"3194"
+			"attach_to_rootbone"	"0"
+			"name"	"Mina marina"
+		}
+		"579"
+		{
+			"system"	"utaunt_seamine_teamcolor_blue"
+			"id"	"3195"
+			"attach_to_rootbone"	"0"
+			"name"	"Mina marina"
+		}
+		"580"
+		{
+			"system"	"utaunt_iconicoutline_teamcolor_red"
+			"id"	"3196"
+			"attach_to_rootbone"	"0"
+			"name"	"Contorno icónico"
+		}
+		"581"
+		{
+			"system"	"utaunt_iconicoutline_teamcolor_blue"
+			"id"	"3197"
+			"attach_to_rootbone"	"0"
+			"name"	"Contorno icónico"
+		}
+		"582"
+		{
+			"system"	"utaunt_iconicoutline_pink_parent"
+			"id"	"3198"
+			"attach_to_rootbone"	"0"
+			"name"	"Silueta sutil"
+		}
+		"583"
+		{
+			"system"	"utaunt_oceanreef_parent"
+			"id"	"3199"
+			"attach_to_rootbone"	"0"
+			"name"	"Arrecife oceánico"
+		}
+		"584"
+		{
+			"system"	"utaunt_signalinterference_parent"
+			"id"	"3200"
+			"attach_to_rootbone"	"0"
+			"name"	"Pérdida de señal"
+		}
+		"585"
+		{
+			"system"	"utaunt_waterwave_parent"
+			"id"	"3201"
+			"attach_to_rootbone"	"0"
+			"name"	"Ola veraniega"
+		}
+		"586"
+		{
+			"system"	"utaunt_sharkfin2_parent"
+			"id"	"3202"
+			"attach_to_rootbone"	"0"
+			"name"	"Ataque de tiburón"
+		}
+		"587"
+		{
+			"system"	"utaunt_phantasam_green_parent"
+			"id"	"3203"
+			"attach_to_rootbone"	"0"
+			"name"	"Gas peligroso"
+		}
+		"588"
+		{
+			"system"	"utaunt_phantasam_grey_parent"
+			"id"	"3204"
+			"attach_to_rootbone"	"0"
+			"name"	"Niebla fantasmal"
+		}
+		"589"
+		{
+			"system"	"utaunt_phantasam_purple_parent"
+			"id"	"3205"
+			"attach_to_rootbone"	"0"
+			"name"	"Neblina embrujada"
+		}
+		"590"
+		{
+			"system"	"utaunt_multicurse_teamcolor_red"
+			"id"	"3206"
+			"attach_to_rootbone"	"0"
+			"name"	"Aura maliciosa"
+		}
+		"591"
+		{
+			"system"	"utaunt_multicurse_teamcolor_blue"
+			"id"	"3207"
+			"attach_to_rootbone"	"0"
+			"name"	"Aura maliciosa"
+		}
+		"592"
+		{
+			"system"	"utaunt_voidcrawlers_parent"
+			"id"	"3208"
+			"attach_to_rootbone"	"0"
+			"name"	"Criaturas del vacío"
+		}
+		"593"
+		{
+			"system"	"utaunt_tarpit_dinos_parent"
+			"id"	"3209"
+			"attach_to_rootbone"	"0"
+			"name"	"Combustible fósil"
+		}
+		"594"
+		{
+			"system"	"utaunt_tarpit_people_parent"
+			"id"	"3210"
+			"attach_to_rootbone"	"0"
+			"name"	"Pozo de alquitrán"
+		}
+		"595"
+		{
+			"system"	"utaunt_morbed_teamcolor_red"
+			"id"	"3211"
+			"attach_to_rootbone"	"0"
+			"name"	"Bestia mórbida"
+		}
+		"596"
+		{
+			"system"	"utaunt_morbed_teamcolor_blue"
+			"id"	"3212"
+			"attach_to_rootbone"	"0"
+			"name"	"Bestia mórbida"
+		}
+		"597"
 		{
 			"system"	"killstreak_eyeglow_4_teamcolor_red"
 			"id"	"22001"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22001"
 		}
-		"464"
+		"598"
 		{
 			"system"	"killstreak_t1_lvl2"
 			"id"	"22002"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22002"
 		}
-		"465"
+		"599"
 		{
 			"system"	"killstreak_t2_lvl2"
 			"id"	"22003"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22003"
 		}
-		"466"
+		"600"
 		{
 			"system"	"killstreak_t3_lvl2"
 			"id"	"22004"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22004"
 		}
-		"467"
+		"601"
 		{
 			"system"	"killstreak_t4_lvl2"
 			"id"	"22005"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22005"
 		}
-		"468"
+		"602"
 		{
 			"system"	"killstreak_t5_lvl2"
 			"id"	"22006"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22006"
 		}
-		"469"
+		"603"
 		{
 			"system"	"killstreak_t6_lvl2"
 			"id"	"22007"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22007"
 		}
-		"470"
+		"604"
 		{
 			"system"	"killstreak_t7_lvl2"
 			"id"	"22008"
