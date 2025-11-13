@@ -28,11 +28,16 @@ jobs:
       - name: Compare & Download schema
         id: compare
         run: |
-          set -e
-
           function download_files() {
             local FILES=("$@")
-            curl -A "TF2-Schema-Parser" -f --retry 5 "${FILES[@]}"
+
+            result=$(curl -A "TF2-Schema-Parser" -f --retry 70 ${FILES[@]})
+
+            if [ $? -eq 0 ]; then
+              return 0
+            else
+              return 1
+            fi
           }
 
           formats=("json" "vdf" "xml")
@@ -40,59 +45,59 @@ jobs:
 
           args=()
 
-          # Download the latest schema to a temp file
-          curl "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=json" -o "item_schema_json_new.txt"
+          curl "https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=json" -o "item_schema_json_test.txt"
 
-          # Compare with existing file if it exists
+          rm item_schema_json_test.txt
+          
           if [ -f item_schema_json.txt ] && cmp -s item_schema_json.txt item_schema_json_new.txt; then
-            echo "No schema changes detected."
             echo "files_same=true" >> $GITHUB_OUTPUT
-            rm item_schema_json_new.txt
             exit 0
           else
-            echo "Schema has changed — downloading all formats."
             echo "files_same=false" >> $GITHUB_OUTPUT
-
-            mv item_schema_json_new.txt item_schema_json.txt
-
-            for format in "${formats[@]}"; do
-              args+=("--url https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=${format} -o item_schema_${format}.txt")
-              args+=("--url https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=${format} -o schema_overview_${format}.txt")
-              for language in "${languages[@]}"; do
-                args+=("--url https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=${format}&language=${language} -o localized/item_schema_${format}_${language}.txt")
-                args+=("--url https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=${format}&language=${language} -o localized/schema_overview_${format}_${language}.txt")
-              done
-            done
-
-            download_files "${args[@]}"
           fi
 
-          # Optional: items_game
+          for format in "${formats[@]}";
+          do
+            args+=("--url https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=$format -o item_schema_$format.txt")
+            args+=("--url https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=$format -o schema_overview_$format.txt")
+            
+            echo "files_same=false" >> $GITHUB_OUTPUT
+            
+            for language in "${languages[@]}";
+            do
+              args+=("--url https://api.steampowered.com/IEconItems_440/GetSchemaItems/v1?key=${{ secrets.STEAM_API_KEY }}&format=${format}&language=${language} -o localized/item_schema_${format}_${language}.txt")
+              args+=("--url https://api.steampowered.com/IEconItems_440/GetSchemaOverview/v1?key=${{ secrets.STEAM_API_KEY }}&format=${format}&language=${language} -o localized/schema_overview_${format}_${language}.txt")
+            done
+
+            download_files "${args[@]}";
+          done
+
           items_game_url=$(sed -n 's/.*"\(http:\/\/media\.steampowered\.com\/apps\/440\/scripts\/items\/items_game[^"]*\)".*/\1/p' item_schema_json.txt)
-          if [ -n "$items_game_url" ]; then
+
+          if ! [ -z "$items_game_url" ]; 
+          then
             curl "${items_game_url}" -o items_game_vdf.txt
+
             pip install vdf2json
+
             vdf2json items_game_vdf.txt items_game_json.txt -p
           fi
         working-directory: ${{ env.SCHEMA_PATH }}/files
-
+      
       - name: Commit files
         if: steps.compare.outputs.files_same == 'false'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add -A
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update the schema"
-          fi
-        working-directory: ${{ env.SCHEMA_PATH }}/files
 
+          git add *
+
+          git commit -a -m "Update the schema"
+        working-directory: ${{ env.SCHEMA_PATH }}/files
 
       - name: Push changes
         if: steps.compare.outputs.files_same == 'false'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref_name }}
+          branch: ${{ github.ref }} 
