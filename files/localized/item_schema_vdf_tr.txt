@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.9e8c45b799a16d6920a767a797642f3b3b5a3fca.txt"
 	"items"
 	{
 		"0"
@@ -52731,7 +52731,7 @@ Taretin kontrolü bırakıldığında 3 saniyeliğine devre dışı kalır."
 			"item_type_name"	"Kalkanı"
 			"item_name"	"Dalgakıran"
 			"item_description"	"Alternatif Atış: Düşmanlarına doğru hücum et ve zayıflatmaları kaldır.
-Düşmanla temas ettiğinde yakın dövüş kritik vuruşu kazan."
+Düşmanla temas ettiğinde yakın dövüş mini kritik vuruşu kazan."
 			"proper_name"	"1"
 			"item_slot"	"secondary"
 			"model_player"	"models/workshop/weapons/c_models/c_wheel_shield/c_wheel_shield.mdl"

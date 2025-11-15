@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.9e8c45b799a16d6920a767a797642f3b3b5a3fca.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -11423,77 +11423,77 @@
 				"id": 382,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ocean Swirl"
+				"name": "Havsvirvel"
 			},
 			{
 				"system": "unusual_ocean_swirl_teamcolor_blue",
 				"id": 383,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ocean Swirl"
+				"name": "Havsvirvel"
 			},
 			{
 				"system": "unusual_ocean_swirl_green_parent",
 				"id": 384,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Toxic Swirl"
+				"name": "Giftvirvel"
 			},
 			{
 				"system": "unusual_candle_teamcolor_red",
 				"id": 385,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Candle Flame"
+				"name": "Ljuslåga"
 			},
 			{
 				"system": "unusual_candle_teamcolor_blue",
 				"id": 386,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Candle Flame"
+				"name": "Ljuslåga"
 			},
 			{
 				"system": "unusual_deadlyaroma_teamcolor_red",
 				"id": 387,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sizzling Aroma"
+				"name": "Rykande arom"
 			},
 			{
 				"system": "unusual_deadlyaroma_teamcolor_blue",
 				"id": 388,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sizzling Aroma"
+				"name": "Rykande arom"
 			},
 			{
 				"system": "unusual_deadlyaroma_green_parent",
 				"id": 389,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Toxic Aroma"
+				"name": "Giftig arom"
 			},
 			{
 				"system": "unusual_conductor_teamc_teamcolor_red",
 				"id": 390,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Current Conductor"
+				"name": "Strömledare"
 			},
 			{
 				"system": "unusual_conductor_teamc_teamcolor_blue",
 				"id": 391,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Current Conductor"
+				"name": "Strömledare"
 			},
 			{
 				"system": "unusual_sandy_parent",
 				"id": 392,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sandy"
+				"name": "Sandig"
 			},
 			{
 				"system": "weapon_unusual_hot",
@@ -12775,61 +12775,61 @@
 				"system": "utaunt_phantasam_green_parent",
 				"id": 3203,
 				"attach_to_rootbone": false,
-				"name": "Hazardous Gas"
+				"name": "Farlig gas"
 			},
 			{
 				"system": "utaunt_phantasam_grey_parent",
 				"id": 3204,
 				"attach_to_rootbone": false,
-				"name": "Phantasmal Fog"
+				"name": "Fantasmdimma"
 			},
 			{
 				"system": "utaunt_phantasam_purple_parent",
 				"id": 3205,
 				"attach_to_rootbone": false,
-				"name": "Haunted Mist"
+				"name": "Hemsökt dimma"
 			},
 			{
 				"system": "utaunt_multicurse_teamcolor_red",
 				"id": 3206,
 				"attach_to_rootbone": false,
-				"name": "Split Malice"
+				"name": "Tudelat toxin"
 			},
 			{
 				"system": "utaunt_multicurse_teamcolor_blue",
 				"id": 3207,
 				"attach_to_rootbone": false,
-				"name": "Split Malice"
+				"name": "Tudelat toxin"
 			},
 			{
 				"system": "utaunt_voidcrawlers_parent",
 				"id": 3208,
 				"attach_to_rootbone": false,
-				"name": "Void Crawlers"
+				"name": "Avgrundskryp"
 			},
 			{
 				"system": "utaunt_tarpit_dinos_parent",
 				"id": 3209,
 				"attach_to_rootbone": false,
-				"name": "Fossil Fueled"
+				"name": "Fossil energi"
 			},
 			{
 				"system": "utaunt_tarpit_people_parent",
 				"id": 3210,
 				"attach_to_rootbone": false,
-				"name": "Tar Pit"
+				"name": "Tjärgrop"
 			},
 			{
 				"system": "utaunt_morbed_teamcolor_red",
 				"id": 3211,
 				"attach_to_rootbone": false,
-				"name": "Morbidly Beast"
+				"name": "Morbid best"
 			},
 			{
 				"system": "utaunt_morbed_teamcolor_blue",
 				"id": 3212,
 				"attach_to_rootbone": false,
-				"name": "Morbidly Beast"
+				"name": "Morbid best"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",
@@ -14271,7 +14271,7 @@
 			},
 			{
 				"type": 1,
-				"type_name": "Überladdningar",
+				"type_name": "Über",
 				"level_data": "KillEaterRank"
 			},
 			{

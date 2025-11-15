@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.9e8c45b799a16d6920a767a797642f3b3b5a3fca.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -1565,7 +1565,7 @@
 			<defindex>45</defindex>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Обрез</item_type_name>
-			<item_name>Force-a-Nature</item_name>
+			<item_name>Неумолимая сила</item_name>
 			<item_description>Обойма этого оружия перезаряжается целиком.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
@@ -45408,7 +45408,7 @@ Gamescom 2011</item_description>
 			<defindex>1078</defindex>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Обрез</item_type_name>
-			<item_name>Festive Force-a-Nature</item_name>
+			<item_name>Праздничная Неумолимая сила</item_name>
 			<item_description>Обойма этого оружия перезаряжается целиком.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>primary</item_slot>

@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.9e8c45b799a16d6920a767a797642f3b3b5a3fca.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -46490,7 +46490,7 @@ Taretin kontrolü bırakıldığında 3 saniyeliğine devre dışı kalır.</ite
 			<item_type_name>Kalkanı</item_type_name>
 			<item_name>Dalgakıran</item_name>
 			<item_description>Alternatif Atış: Düşmanlarına doğru hücum et ve zayıflatmaları kaldır.
-Düşmanla temas ettiğinde yakın dövüş kritik vuruşu kazan.</item_description>
+Düşmanla temas ettiğinde yakın dövüş mini kritik vuruşu kazan.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_wheel_shield/c_wheel_shield.mdl</model_player>

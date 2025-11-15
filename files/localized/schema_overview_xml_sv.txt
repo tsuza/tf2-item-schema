@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.9e8c45b799a16d6920a767a797642f3b3b5a3fca.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -11383,77 +11383,77 @@ Dödande träffar på brinnande spelare ger en fartökning.</description_string>
 			<id>382</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Ocean Swirl</name>
+			<name>Havsvirvel</name>
 		</particle>
 		<particle>
 			<system>unusual_ocean_swirl_teamcolor_blue</system>
 			<id>383</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Ocean Swirl</name>
+			<name>Havsvirvel</name>
 		</particle>
 		<particle>
 			<system>unusual_ocean_swirl_green_parent</system>
 			<id>384</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Toxic Swirl</name>
+			<name>Giftvirvel</name>
 		</particle>
 		<particle>
 			<system>unusual_candle_teamcolor_red</system>
 			<id>385</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Candle Flame</name>
+			<name>Ljuslåga</name>
 		</particle>
 		<particle>
 			<system>unusual_candle_teamcolor_blue</system>
 			<id>386</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Candle Flame</name>
+			<name>Ljuslåga</name>
 		</particle>
 		<particle>
 			<system>unusual_deadlyaroma_teamcolor_red</system>
 			<id>387</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Sizzling Aroma</name>
+			<name>Rykande arom</name>
 		</particle>
 		<particle>
 			<system>unusual_deadlyaroma_teamcolor_blue</system>
 			<id>388</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Sizzling Aroma</name>
+			<name>Rykande arom</name>
 		</particle>
 		<particle>
 			<system>unusual_deadlyaroma_green_parent</system>
 			<id>389</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Toxic Aroma</name>
+			<name>Giftig arom</name>
 		</particle>
 		<particle>
 			<system>unusual_conductor_teamc_teamcolor_red</system>
 			<id>390</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Current Conductor</name>
+			<name>Strömledare</name>
 		</particle>
 		<particle>
 			<system>unusual_conductor_teamc_teamcolor_blue</system>
 			<id>391</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Current Conductor</name>
+			<name>Strömledare</name>
 		</particle>
 		<particle>
 			<system>unusual_sandy_parent</system>
 			<id>392</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Sandy</name>
+			<name>Sandig</name>
 		</particle>
 		<particle>
 			<system>weapon_unusual_hot</system>
@@ -12735,61 +12735,61 @@ Dödande träffar på brinnande spelare ger en fartökning.</description_string>
 			<system>utaunt_phantasam_green_parent</system>
 			<id>3203</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Hazardous Gas</name>
+			<name>Farlig gas</name>
 		</particle>
 		<particle>
 			<system>utaunt_phantasam_grey_parent</system>
 			<id>3204</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Phantasmal Fog</name>
+			<name>Fantasmdimma</name>
 		</particle>
 		<particle>
 			<system>utaunt_phantasam_purple_parent</system>
 			<id>3205</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Haunted Mist</name>
+			<name>Hemsökt dimma</name>
 		</particle>
 		<particle>
 			<system>utaunt_multicurse_teamcolor_red</system>
 			<id>3206</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Split Malice</name>
+			<name>Tudelat toxin</name>
 		</particle>
 		<particle>
 			<system>utaunt_multicurse_teamcolor_blue</system>
 			<id>3207</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Split Malice</name>
+			<name>Tudelat toxin</name>
 		</particle>
 		<particle>
 			<system>utaunt_voidcrawlers_parent</system>
 			<id>3208</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Void Crawlers</name>
+			<name>Avgrundskryp</name>
 		</particle>
 		<particle>
 			<system>utaunt_tarpit_dinos_parent</system>
 			<id>3209</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Fossil Fueled</name>
+			<name>Fossil energi</name>
 		</particle>
 		<particle>
 			<system>utaunt_tarpit_people_parent</system>
 			<id>3210</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Tar Pit</name>
+			<name>Tjärgrop</name>
 		</particle>
 		<particle>
 			<system>utaunt_morbed_teamcolor_red</system>
 			<id>3211</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Morbidly Beast</name>
+			<name>Morbid best</name>
 		</particle>
 		<particle>
 			<system>utaunt_morbed_teamcolor_blue</system>
 			<id>3212</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Morbidly Beast</name>
+			<name>Morbid best</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>
@@ -14216,7 +14216,7 @@ Dödande träffar på brinnande spelare ger en fartökning.</description_string>
 		</kill_eater_score_type>
 		<kill_eater_score_type>
 			<type>1</type>
-			<type_name>Überladdningar</type_name>
+			<type_name>Über</type_name>
 			<level_data>KillEaterRank</level_data>
 		</kill_eater_score_type>
 		<kill_eater_score_type>

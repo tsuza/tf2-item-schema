@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.9e8c45b799a16d6920a767a797642f3b3b5a3fca.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -12794,7 +12794,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"382"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ocean Swirl"
+			"name"	"Havsvirvel"
 		}
 		"365"
 		{
@@ -12802,7 +12802,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"383"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ocean Swirl"
+			"name"	"Havsvirvel"
 		}
 		"366"
 		{
@@ -12810,7 +12810,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"384"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Toxic Swirl"
+			"name"	"Giftvirvel"
 		}
 		"367"
 		{
@@ -12818,7 +12818,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"385"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Candle Flame"
+			"name"	"Ljuslåga"
 		}
 		"368"
 		{
@@ -12826,7 +12826,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"386"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Candle Flame"
+			"name"	"Ljuslåga"
 		}
 		"369"
 		{
@@ -12834,7 +12834,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"387"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sizzling Aroma"
+			"name"	"Rykande arom"
 		}
 		"370"
 		{
@@ -12842,7 +12842,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"388"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sizzling Aroma"
+			"name"	"Rykande arom"
 		}
 		"371"
 		{
@@ -12850,7 +12850,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"389"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Toxic Aroma"
+			"name"	"Giftig arom"
 		}
 		"372"
 		{
@@ -12858,7 +12858,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"390"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Current Conductor"
+			"name"	"Strömledare"
 		}
 		"373"
 		{
@@ -12866,7 +12866,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"391"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Current Conductor"
+			"name"	"Strömledare"
 		}
 		"374"
 		{
@@ -12874,7 +12874,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"392"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sandy"
+			"name"	"Sandig"
 		}
 		"375"
 		{
@@ -14369,70 +14369,70 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"system"	"utaunt_phantasam_green_parent"
 			"id"	"3203"
 			"attach_to_rootbone"	"0"
-			"name"	"Hazardous Gas"
+			"name"	"Farlig gas"
 		}
 		"588"
 		{
 			"system"	"utaunt_phantasam_grey_parent"
 			"id"	"3204"
 			"attach_to_rootbone"	"0"
-			"name"	"Phantasmal Fog"
+			"name"	"Fantasmdimma"
 		}
 		"589"
 		{
 			"system"	"utaunt_phantasam_purple_parent"
 			"id"	"3205"
 			"attach_to_rootbone"	"0"
-			"name"	"Haunted Mist"
+			"name"	"Hemsökt dimma"
 		}
 		"590"
 		{
 			"system"	"utaunt_multicurse_teamcolor_red"
 			"id"	"3206"
 			"attach_to_rootbone"	"0"
-			"name"	"Split Malice"
+			"name"	"Tudelat toxin"
 		}
 		"591"
 		{
 			"system"	"utaunt_multicurse_teamcolor_blue"
 			"id"	"3207"
 			"attach_to_rootbone"	"0"
-			"name"	"Split Malice"
+			"name"	"Tudelat toxin"
 		}
 		"592"
 		{
 			"system"	"utaunt_voidcrawlers_parent"
 			"id"	"3208"
 			"attach_to_rootbone"	"0"
-			"name"	"Void Crawlers"
+			"name"	"Avgrundskryp"
 		}
 		"593"
 		{
 			"system"	"utaunt_tarpit_dinos_parent"
 			"id"	"3209"
 			"attach_to_rootbone"	"0"
-			"name"	"Fossil Fueled"
+			"name"	"Fossil energi"
 		}
 		"594"
 		{
 			"system"	"utaunt_tarpit_people_parent"
 			"id"	"3210"
 			"attach_to_rootbone"	"0"
-			"name"	"Tar Pit"
+			"name"	"Tjärgrop"
 		}
 		"595"
 		{
 			"system"	"utaunt_morbed_teamcolor_red"
 			"id"	"3211"
 			"attach_to_rootbone"	"0"
-			"name"	"Morbidly Beast"
+			"name"	"Morbid best"
 		}
 		"596"
 		{
 			"system"	"utaunt_morbed_teamcolor_blue"
 			"id"	"3212"
 			"attach_to_rootbone"	"0"
-			"name"	"Morbidly Beast"
+			"name"	"Morbid best"
 		}
 		"597"
 		{
@@ -16158,7 +16158,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 		"1"
 		{
 			"type"	"1"
-			"type_name"	"Überladdningar"
+			"type_name"	"Über"
 			"level_data"	"KillEaterRank"
 		}
 		"2"

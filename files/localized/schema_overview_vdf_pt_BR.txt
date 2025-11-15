@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.9e8c45b799a16d6920a767a797642f3b3b5a3fca.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -12779,7 +12779,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"382"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ocean Swirl"
+			"name"	"Redemoinho"
 		}
 		"365"
 		{
@@ -12787,7 +12787,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"383"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ocean Swirl"
+			"name"	"Redemoinho"
 		}
 		"366"
 		{
@@ -12795,7 +12795,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"384"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Toxic Swirl"
+			"name"	"Venenoinho"
 		}
 		"367"
 		{
@@ -12803,7 +12803,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"385"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Candle Flame"
+			"name"	"Fogo de vela"
 		}
 		"368"
 		{
@@ -12811,7 +12811,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"386"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Candle Flame"
+			"name"	"Fogo de vela"
 		}
 		"369"
 		{
@@ -12819,7 +12819,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"387"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sizzling Aroma"
+			"name"	"Aroma ardente"
 		}
 		"370"
 		{
@@ -12827,7 +12827,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"388"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sizzling Aroma"
+			"name"	"Aroma ardente"
 		}
 		"371"
 		{
@@ -12835,7 +12835,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"389"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Toxic Aroma"
+			"name"	"Aroma tóxico"
 		}
 		"372"
 		{
@@ -12843,7 +12843,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"390"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Current Conductor"
+			"name"	"Condutor de corrente"
 		}
 		"373"
 		{
@@ -12851,7 +12851,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"391"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Current Conductor"
+			"name"	"Condutor de corrente"
 		}
 		"374"
 		{
@@ -12859,7 +12859,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"392"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sandy"
+			"name"	"Arenoso"
 		}
 		"375"
 		{
@@ -14354,70 +14354,70 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"system"	"utaunt_phantasam_green_parent"
 			"id"	"3203"
 			"attach_to_rootbone"	"0"
-			"name"	"Hazardous Gas"
+			"name"	"Gás nocivo"
 		}
 		"588"
 		{
 			"system"	"utaunt_phantasam_grey_parent"
 			"id"	"3204"
 			"attach_to_rootbone"	"0"
-			"name"	"Phantasmal Fog"
+			"name"	"Névoa fantasmagórica"
 		}
 		"589"
 		{
 			"system"	"utaunt_phantasam_purple_parent"
 			"id"	"3205"
 			"attach_to_rootbone"	"0"
-			"name"	"Haunted Mist"
+			"name"	"Neblina assombrada"
 		}
 		"590"
 		{
 			"system"	"utaunt_multicurse_teamcolor_red"
 			"id"	"3206"
 			"attach_to_rootbone"	"0"
-			"name"	"Split Malice"
+			"name"	"Malícia dividida"
 		}
 		"591"
 		{
 			"system"	"utaunt_multicurse_teamcolor_blue"
 			"id"	"3207"
 			"attach_to_rootbone"	"0"
-			"name"	"Split Malice"
+			"name"	"Malícia dividida"
 		}
 		"592"
 		{
 			"system"	"utaunt_voidcrawlers_parent"
 			"id"	"3208"
 			"attach_to_rootbone"	"0"
-			"name"	"Void Crawlers"
+			"name"	"Criaturas da escuridão"
 		}
 		"593"
 		{
 			"system"	"utaunt_tarpit_dinos_parent"
 			"id"	"3209"
 			"attach_to_rootbone"	"0"
-			"name"	"Fossil Fueled"
+			"name"	"Fossa de fósseis"
 		}
 		"594"
 		{
 			"system"	"utaunt_tarpit_people_parent"
 			"id"	"3210"
 			"attach_to_rootbone"	"0"
-			"name"	"Tar Pit"
+			"name"	"Poço de piche"
 		}
 		"595"
 		{
 			"system"	"utaunt_morbed_teamcolor_red"
 			"id"	"3211"
 			"attach_to_rootbone"	"0"
-			"name"	"Morbidly Beast"
+			"name"	"Miasma mórbido"
 		}
 		"596"
 		{
 			"system"	"utaunt_morbed_teamcolor_blue"
 			"id"	"3212"
 			"attach_to_rootbone"	"0"
-			"name"	"Morbidly Beast"
+			"name"	"Miasma mórbido"
 		}
 		"597"
 		{

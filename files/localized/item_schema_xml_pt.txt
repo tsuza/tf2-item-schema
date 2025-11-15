@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.9e8c45b799a16d6920a767a797642f3b3b5a3fca.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -47155,7 +47155,7 @@ Certifica-te de que o conteúdo dos teus bolsos é distribuído justamente com o
 			<item_description>Nome original inglês: THE TIDE TURNER
 
 Disparo alternativo: Executa um ataque de investida em direção aos teus inimigos e remove efeitos negativos.
-Podes executar um ataque crítico com a tua arma corpo a corpo após o impacto com um inimigo distante.</item_description>
+Podes executar um ataque mini-crítico com a tua arma corpo a corpo após o impacto com um inimigo distante.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_wheel_shield/c_wheel_shield.mdl</model_player>

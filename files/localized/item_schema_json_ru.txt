@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.0c757690998a8a7aee89f4f36fa6005207f142ad.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.9e8c45b799a16d6920a767a797642f3b3b5a3fca.txt",
 		"items": [
 			{
 				"name": "TF_WEAPON_BAT",
@@ -1618,7 +1618,7 @@
 				"defindex": 45,
 				"item_class": "tf_weapon_scattergun",
 				"item_type_name": "Обрез",
-				"item_name": "Force-a-Nature",
+				"item_name": "Неумолимая сила",
 				"item_description": "Обойма этого оружия перезаряжается целиком.",
 				"proper_name": true,
 				"item_slot": "primary",
@@ -46967,7 +46967,7 @@
 				"defindex": 1078,
 				"item_class": "tf_weapon_scattergun",
 				"item_type_name": "Обрез",
-				"item_name": "Festive Force-a-Nature",
+				"item_name": "Праздничная Неумолимая сила",
 				"item_description": "Обойма этого оружия перезаряжается целиком.",
 				"proper_name": false,
 				"item_slot": "primary",
