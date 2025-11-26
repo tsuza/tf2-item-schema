@@ -1268,7 +1268,7 @@
 				"name": "metal regen",
 				"defindex": 113,
 				"attribute_class": "add_metal_regen",
-				"description_string": "+%s1 szt. regenerowanego co 5 sekund metalu dla noszącego",
+				"description_string": "+%s1 jednostek regenerowanego co 5 sekund metalu dla noszącego",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -3039,7 +3039,7 @@
 				"name": "electrical airblast DISPLAY ONLY",
 				"defindex": 300,
 				"attribute_class": "electrical_airblast_DISPLAY_ONLY",
-				"description_string": "Atak alternatywny: wystrzeliwuje niszczącą pociski kulę energii zużywającą 65 szt. metalu",
+				"description_string": "Atak alternatywny: wystrzeliwuje niszczącą pociski kulę energii zużywającą 65 jednostek metalu",
 				"description_format": "value_is_additive_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -5956,7 +5956,7 @@
 				"name": "metal_pickup_decreased",
 				"defindex": 732,
 				"attribute_class": "mult_metal_pickup",
-				"description_string": "-%s1% metalu z podnoszonej amunicji i zasobników",
+				"description_string": "-%s1% metalu z podnoszonych paczek z amunicją i zasobników",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -12151,7 +12151,7 @@
 				"system": "utaunt_risingsprit_teamcolor_blue",
 				"id": 3099,
 				"attach_to_rootbone": false,
-				"name": "Rising Ritual"
+				"name": "rytuał wyniesienia"
 			},
 			{
 				"system": "utaunt_hands_teamcolor_red",
@@ -12163,7 +12163,7 @@
 				"system": "utaunt_hands_teamcolor_blue",
 				"id": 3101,
 				"attach_to_rootbone": false,
-				"name": "Bloody Grip"
+				"name": "krwawy chwyt"
 			},
 			{
 				"system": "utaunt_hands_green_parent",

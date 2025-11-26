@@ -38831,7 +38831,7 @@ Podpalenie redukuje leczenie mediguna i odporności tarcz.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Tutu wielkiej księżnej</item_name>
-			<item_description>Uczcij pamięć wielkiej księżnej Anastazji Nikołajewnej w tym posępnym, historycznym kostiumie. Ciesz się repliką tutu, które nosiła, sprawując władzę nad Rosją ze swego wysokiego na trzydzieści metrów żelkowego tronu.</item_description>
+			<item_description>Uczcij pamięć wielkiej księżnej Anastazji Nikołajewnej w tym posępnym, historycznym przebraniu. Ciesz się repliką tutu, które nosiła, sprawując władzę nad Rosją ze swego wysokiego na trzydzieści metrów żelkowego tronu.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/heavy_fairy_tutu.mdl</model_player>
@@ -38881,7 +38881,7 @@ Podpalenie redukuje leczenie mediguna i odporności tarcz.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Baśniowe skrzydła wielkiej księżnej</item_name>
-			<item_description>Uczcij pamięć wielkiej księżnej Anastazji Nikołajewnej w tym posępnym, historycznym kostiumie. Ciesz się repliką skrzydełek, które nosiła, sprawując władzę nad Rosją ze swego wysokiego na trzydzieści metrów żelkowego tronu.</item_description>
+			<item_description>Uczcij pamięć wielkiej księżnej Anastazji Nikołajewnej w tym posępnym, historycznym przebraniu. Ciesz się repliką skrzydełek, które nosiła, sprawując władzę nad Rosją ze swego wysokiego na trzydzieści metrów żelkowego tronu.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/heavy_fairy_wings.mdl</model_player>
@@ -38931,7 +38931,7 @@ Podpalenie redukuje leczenie mediguna i odporności tarcz.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Diadem wielkiej księżnej</item_name>
-			<item_description>Uczcij pamięć wielkiej księżnej Anastazji Nikołajewnej w tym posępnym, historycznym kostiumie. Ciesz się repliką diademu, który nosiła, sprawując władzę nad Rosją ze swego wysokiego na trzydzieści metrów żelkowego tronu.</item_description>
+			<item_description>Uczcij pamięć wielkiej księżnej Anastazji Nikołajewnej w tym posępnym, historycznym przebraniu. Ciesz się repliką diademu, który nosiła, sprawując władzę nad Rosją ze swego wysokiego na trzydzieści metrów żelkowego tronu.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/heavy_fairy_tiara.mdl</model_player>
@@ -45902,7 +45902,7 @@ Działka, które przestały być sterowane, będą wyłączone przez 3 sekundy.<
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hełm</item_type_name>
 			<item_name>Der Maschinensoldaten-Helm</item_name>
-			<item_description>Jak mówi powiedzenie, „Ci, którzy nie pamiętają alternatywnej przeszłości, są skazani na jej powtórzenie”. Skoro i tak musisz to znowu zrobić, dlaczego by nie ożywić sytuacji kostiumem złego robota?</item_description>
+			<item_description>Jak mówi powiedzenie, „Ci, którzy nie pamiętają alternatywnej przeszłości, są skazani na jej powtórzenie”. Skoro i tak musisz to znowu zrobić, dlaczego by nie ożywić sytuacji przebraniem złego robota?</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/heavy_wolf_helm.mdl</model_player>
@@ -45950,7 +45950,7 @@ Działka, które przestały być sterowane, będą wyłączone przez 3 sekundy.<
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Pancerz ozdobny</item_type_name>
 			<item_name>Die Regime-Panzerung</item_name>
-			<item_description>Jak mówi powiedzenie, „Ci, którzy nie pamiętają alternatywnej przeszłości, są skazani na jej powtórzenie”. Skoro i tak musisz to znowu zrobić, dlaczego by nie ożywić sytuacji kostiumem złego robota?</item_description>
+			<item_description>Jak mówi powiedzenie, „Ci, którzy nie pamiętają alternatywnej przeszłości, są skazani na jej powtórzenie”. Skoro i tak musisz to znowu zrobić, dlaczego by nie ożywić sytuacji przebraniem złego robota?</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/heavy_wolf_chest.mdl</model_player>

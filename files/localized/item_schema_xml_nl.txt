@@ -46890,9 +46890,9 @@ Ingezette parachutes vertragen je afdaling.</item_description>
 			<item_class>no_entity</item_class>
 			<item_type_name>Speciale bespotting</item_type_name>
 			<item_name>Bespotting: Squaredans</item_name>
-			<item_description>All Class Taunt
+			<item_description>Bespotting voor alle klassen
 
-This is a partner taunt.  Press the taunt key to toggle.</item_description>
+Dit is een partnerbespotting. Druk op de bespottingsknop om te wisselen.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -46945,9 +46945,9 @@ This is a partner taunt.  Press the taunt key to toggle.</item_description>
 			<item_class>no_entity</item_class>
 			<item_type_name>Speciale bespotting</item_type_name>
 			<item_name>Bespotting: Sublieme Salto</item_name>
-			<item_description>All Class Taunt
+			<item_description>Bespotting voor alle klassen
 
-This is a partner taunt.  Press the taunt key to toggle.</item_description>
+Dit is een partnerbespotting. Druk op de bespottingsknop om te wisselen.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -47082,10 +47082,10 @@ This is a partner taunt.  Press the taunt key to toggle.</item_description>
 			<item_class>no_entity</item_class>
 			<item_type_name>Speciale bespotting</item_type_name>
 			<item_name>Bespotting: Steen, papier, schaar</item_name>
-			<item_description>All Class Taunt
+			<item_description>Bespotting voor alle klassen
 
-This is a partner taunt.  Press the taunt key to toggle.
-Opposing teams will face off to the death.</item_description>
+Dit is een partnerbespotting. Druk op de bespottingsknop om te wisselen.
+Leden van verschillende teams zullen strijden tot de dood.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -47138,9 +47138,9 @@ Opposing teams will face off to the death.</item_description>
 			<item_class>no_entity</item_class>
 			<item_type_name>Speciale bespotting</item_type_name>
 			<item_name>Bespotting: Schedelbreker</item_name>
-			<item_description>All Class Taunt
+			<item_description>Bespotting voor alle klassen
 
-This is a partner taunt.  Press the taunt key to toggle.</item_description>
+Dit is een partnerbespotting. Druk op de bespottingsknop om te wisselen.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>

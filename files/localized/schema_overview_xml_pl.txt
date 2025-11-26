@@ -1286,7 +1286,7 @@ pomocniczej dla noszącego</description_string>
 			<name>metal regen</name>
 			<defindex>113</defindex>
 			<attribute_class>add_metal_regen</attribute_class>
-			<description_string>+%s1 szt. regenerowanego co 5 sekund metalu dla noszącego</description_string>
+			<description_string>+%s1 jednostek regenerowanego co 5 sekund metalu dla noszącego</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -3083,7 +3083,7 @@ oraz za każde zabójstwo ciosem w plecy</description_string>
 			<name>electrical airblast DISPLAY ONLY</name>
 			<defindex>300</defindex>
 			<attribute_class>electrical_airblast_DISPLAY_ONLY</attribute_class>
-			<description_string>Atak alternatywny: wystrzeliwuje niszczącą pociski kulę energii zużywającą 65 szt. metalu</description_string>
+			<description_string>Atak alternatywny: wystrzeliwuje niszczącą pociski kulę energii zużywającą 65 jednostek metalu</description_string>
 			<description_format>value_is_additive_percentage</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -6015,7 +6015,7 @@ Trafienia minikrytyczne przy ataku od przodu, gdy cel płonie</description_strin
 			<name>metal_pickup_decreased</name>
 			<defindex>732</defindex>
 			<attribute_class>mult_metal_pickup</attribute_class>
-			<description_string>-%s1% metalu z podnoszonej amunicji i zasobników</description_string>
+			<description_string>-%s1% metalu z podnoszonych paczek z amunicją i zasobników</description_string>
 			<description_format>value_is_inverted_percentage</description_format>
 			<effect_type>negative</effect_type>
 			<hidden>false</hidden>
@@ -12132,7 +12132,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości</description_string>
 			<system>utaunt_risingsprit_teamcolor_blue</system>
 			<id>3099</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Rising Ritual</name>
+			<name>rytuał wyniesienia</name>
 		</particle>
 		<particle>
 			<system>utaunt_hands_teamcolor_red</system>
@@ -12144,7 +12144,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości</description_string>
 			<system>utaunt_hands_teamcolor_blue</system>
 			<id>3101</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Bloody Grip</name>
+			<name>krwawy chwyt</name>
 		</particle>
 		<particle>
 			<system>utaunt_hands_green_parent</system>

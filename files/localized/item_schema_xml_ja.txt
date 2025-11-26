@@ -29580,8 +29580,8 @@ Alt-Fire：炎上中の敵や発射物を押しかえしたり、炎上中の味
 			<defindex>729</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>パッケージ</item_type_name>
-			<item_name>マン株式会社ストアパッケージ</item_name>
-			<item_description>このバッグには、Mann社 ストアからの無料アイテムが1つ入っています！バックパックから開けることができます！</item_description>
+			<item_name>Mann社ストアパッケージ</item_name>
+			<item_description>このバッグには、Mann社 ストアからの無料アイテムが1つ入っています！バックパックから開封できます！</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -31544,7 +31544,7 @@ Alt-Fire：炎上中の敵や発射物を押しかえしたり、炎上中の味
 			<item_class>tf_wearable</item_class>
 			<item_type_name>トレジャー</item_type_name>
 			<item_name>リカーロッカー</item_name>
-			<item_description>デモマンは財産を胸元に大切に隠しています。具体的には、胸元の反対側、背中にしっかりと固定しているのです。お金は入っていません。デモマンは賢くもゴールドに投資しており、利益は希少な樽熟成酒に費やします。だからゴールドは鍵をかけて保管して、その鍵は隠しているのです。</item_description>
+			<item_description>デモマンは財産を胸元に大切に隠しています。具体的には、胸元の反対側、背中にしっかりと固定しているのです。お金は入っていません。デモマンは賢くもゴールドに投資しており、利益は希少な樽熟成酒に費やします。だからゴールドはキーをかけて保管して、そのキーは隠しているのです。</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/demo_chest_back.mdl</model_player>
@@ -34883,8 +34883,8 @@ Alt-Fire：炎上中の敵や発射物を押しかえしたり、炎上中の味
 			<defindex>839</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>パッケージ</item_type_name>
-			<item_name>マン株式会社ストアパッケージ</item_name>
-			<item_description>このバッグには、Mann社 ストアからの無料アイテムが1つ入っています！バックパックから開けることができます！</item_description>
+			<item_name>Mann社ストアパッケージ</item_name>
+			<item_description>このバッグには、Mann社 ストアからの無料アイテムが1つ入っています！バックパックから開封できます！</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -48116,9 +48116,9 @@ TF2ムービー『Expiration Date』にインスパイアされました</item_d
 			<item_class>saxxy</item_class>
 			<item_type_name></item_type_name>
 			<item_name>パワーアップ：ヴァンパイア</item_name>
-			<item_description>与えたダメージがヘルスとして回復
-受けるダメージ減少
-最大ヘルス増加</item_description>
+			<item_description>与えたダメージがヘルスとして回復する
+受けるダメージが減少する
+最大ヘルスが増加する</item_description>
 			<proper_name>false</proper_name>
 			<model_player>null</model_player>
 			<item_quality>255</item_quality>

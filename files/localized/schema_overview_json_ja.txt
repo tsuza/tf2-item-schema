@@ -12933,7 +12933,7 @@
 					{
 						"level": 9,
 						"required_score": 350,
-						"name": "目を見張るほどの致死性"
+						"name": "目を見張るほど致死的"
 					},
 					{
 						"level": 10,
@@ -13185,7 +13185,7 @@
 					{
 						"level": 16,
 						"required_score": 5000,
-						"name": "全員平伏級"
+						"name": "サーバークリアリング"
 					},
 					{
 						"level": 17,
@@ -13276,7 +13276,7 @@
 					{
 						"level": 12,
 						"required_score": 99,
-						"name": "平凡極まりない"
+						"name": "ポジティブ・プラナー"
 					},
 					{
 						"level": 13,
@@ -13296,7 +13296,7 @@
 					{
 						"level": 16,
 						"required_score": 500,
-						"name": "全員平伏級"
+						"name": "サーバークリアリング"
 					},
 					{
 						"level": 17,
@@ -13407,7 +13407,7 @@
 					{
 						"level": 16,
 						"required_score": 1500,
-						"name": "全員平伏級"
+						"name": "サーバークリアリング"
 					},
 					{
 						"level": 17,
@@ -13629,7 +13629,7 @@
 					{
 						"level": 16,
 						"required_score": 90000,
-						"name": "全員平伏級"
+						"name": "サーバークリアリング"
 					},
 					{
 						"level": 17,
@@ -13740,7 +13740,7 @@
 					{
 						"level": 16,
 						"required_score": 900000,
-						"name": "全員平伏級"
+						"name": "サーバークリアリング"
 					},
 					{
 						"level": 17,
@@ -13776,7 +13776,7 @@
 					{
 						"level": 1,
 						"required_score": 30,
-						"name": "ボロボロの"
+						"name": "ボロボロ"
 					},
 					{
 						"level": 2,
@@ -13806,7 +13806,7 @@
 					{
 						"level": 7,
 						"required_score": 250,
-						"name": "小奇麗な"
+						"name": "こぎれいな"
 					},
 					{
 						"level": 8,
@@ -13851,7 +13851,7 @@
 					{
 						"level": 16,
 						"required_score": 5500,
-						"name": "壮大な"
+						"name": "エピック"
 					},
 					{
 						"level": 17,
@@ -13952,7 +13952,7 @@
 					{
 						"level": 14,
 						"required_score": 15,
-						"name": "絶対的羽毛 "
+						"name": "羽毛むしり "
 					},
 					{
 						"level": 15,
@@ -13977,7 +13977,7 @@
 					{
 						"level": 19,
 						"required_score": 20,
-						"name": "スペクワックラーー "
+						"name": "スペクワックラー "
 					},
 					{
 						"level": 20,
@@ -14201,7 +14201,7 @@
 					{
 						"level": 9,
 						"required_score": 35,
-						"name": "見事なほど堕ちた者"
+						"name": "目を見張るほど致死的"
 					},
 					{
 						"level": 10,
@@ -14236,7 +14236,7 @@
 					{
 						"level": 16,
 						"required_score": 500,
-						"name": "全員平伏級"
+						"name": "サーバークリアリング"
 					},
 					{
 						"level": 17,
@@ -14586,7 +14586,7 @@
 			},
 			{
 				"type": 82,
-				"type_name": "与えたダメージ",
+				"type_name": "与ダメージ",
 				"level_data": "KillEaterRank"
 			},
 			{
@@ -14596,7 +14596,7 @@
 			},
 			{
 				"type": 84,
-				"type_name": "Allied Healing Done",
+				"type_name": "味方回復量",
 				"level_data": "KillEaterRank"
 			},
 			{
@@ -14641,7 +14641,7 @@
 			},
 			{
 				"type": 93,
-				"type_name": "Not Crit nor MiniCrit Kills",
+				"type_name": "クリティカルでもミニクリティカルでもないキル数",
 				"level_data": "KillEaterRank"
 			},
 			{

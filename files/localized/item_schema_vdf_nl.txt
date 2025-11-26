@@ -53189,9 +53189,9 @@ Ingezette parachutes vertragen je afdaling."
 			"item_class"	"no_entity"
 			"item_type_name"	"Speciale bespotting"
 			"item_name"	"Bespotting: Squaredans"
-			"item_description"	"All Class Taunt
+			"item_description"	"Bespotting voor alle klassen
 
-This is a partner taunt.  Press the taunt key to toggle."
+Dit is een partnerbespotting. Druk op de bespottingsknop om te wisselen."
 			"proper_name"	"0"
 			"item_slot"	"taunt"
 			"model_player"	""
@@ -53251,9 +53251,9 @@ This is a partner taunt.  Press the taunt key to toggle."
 			"item_class"	"no_entity"
 			"item_type_name"	"Speciale bespotting"
 			"item_name"	"Bespotting: Sublieme Salto"
-			"item_description"	"All Class Taunt
+			"item_description"	"Bespotting voor alle klassen
 
-This is a partner taunt.  Press the taunt key to toggle."
+Dit is een partnerbespotting. Druk op de bespottingsknop om te wisselen."
 			"proper_name"	"0"
 			"item_slot"	"taunt"
 			"model_player"	""
@@ -53405,10 +53405,10 @@ This is a partner taunt.  Press the taunt key to toggle."
 			"item_class"	"no_entity"
 			"item_type_name"	"Speciale bespotting"
 			"item_name"	"Bespotting: Steen, papier, schaar"
-			"item_description"	"All Class Taunt
+			"item_description"	"Bespotting voor alle klassen
 
-This is a partner taunt.  Press the taunt key to toggle.
-Opposing teams will face off to the death."
+Dit is een partnerbespotting. Druk op de bespottingsknop om te wisselen.
+Leden van verschillende teams zullen strijden tot de dood."
 			"proper_name"	"0"
 			"item_slot"	"taunt"
 			"model_player"	""
@@ -53468,9 +53468,9 @@ Opposing teams will face off to the death."
 			"item_class"	"no_entity"
 			"item_type_name"	"Speciale bespotting"
 			"item_name"	"Bespotting: Schedelbreker"
-			"item_description"	"All Class Taunt
+			"item_description"	"Bespotting voor alle klassen
 
-This is a partner taunt.  Press the taunt key to toggle."
+Dit is een partnerbespotting. Druk op de bespottingsknop om te wisselen."
 			"proper_name"	"0"
 			"item_slot"	"taunt"
 			"model_player"	""

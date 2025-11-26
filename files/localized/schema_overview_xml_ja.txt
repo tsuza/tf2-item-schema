@@ -12888,7 +12888,7 @@
 				<level>
 					<level>9</level>
 					<required_score>350</required_score>
-					<name>目を見張るほどの致死性</name>
+					<name>目を見張るほど致死的</name>
 				</level>
 				<level>
 					<level>10</level>
@@ -13138,7 +13138,7 @@
 				<level>
 					<level>16</level>
 					<required_score>5000</required_score>
-					<name>全員平伏級</name>
+					<name>サーバークリアリング</name>
 				</level>
 				<level>
 					<level>17</level>
@@ -13228,7 +13228,7 @@
 				<level>
 					<level>12</level>
 					<required_score>99</required_score>
-					<name>平凡極まりない</name>
+					<name>ポジティブ・プラナー</name>
 				</level>
 				<level>
 					<level>13</level>
@@ -13248,7 +13248,7 @@
 				<level>
 					<level>16</level>
 					<required_score>500</required_score>
-					<name>全員平伏級</name>
+					<name>サーバークリアリング</name>
 				</level>
 				<level>
 					<level>17</level>
@@ -13358,7 +13358,7 @@
 				<level>
 					<level>16</level>
 					<required_score>1500</required_score>
-					<name>全員平伏級</name>
+					<name>サーバークリアリング</name>
 				</level>
 				<level>
 					<level>17</level>
@@ -13578,7 +13578,7 @@
 				<level>
 					<level>16</level>
 					<required_score>90000</required_score>
-					<name>全員平伏級</name>
+					<name>サーバークリアリング</name>
 				</level>
 				<level>
 					<level>17</level>
@@ -13688,7 +13688,7 @@
 				<level>
 					<level>16</level>
 					<required_score>900000</required_score>
-					<name>全員平伏級</name>
+					<name>サーバークリアリング</name>
 				</level>
 				<level>
 					<level>17</level>
@@ -13723,7 +13723,7 @@
 				<level>
 					<level>1</level>
 					<required_score>30</required_score>
-					<name>ボロボロの</name>
+					<name>ボロボロ</name>
 				</level>
 				<level>
 					<level>2</level>
@@ -13753,7 +13753,7 @@
 				<level>
 					<level>7</level>
 					<required_score>250</required_score>
-					<name>小奇麗な</name>
+					<name>こぎれいな</name>
 				</level>
 				<level>
 					<level>8</level>
@@ -13798,7 +13798,7 @@
 				<level>
 					<level>16</level>
 					<required_score>5500</required_score>
-					<name>壮大な</name>
+					<name>エピック</name>
 				</level>
 				<level>
 					<level>17</level>
@@ -13898,7 +13898,7 @@
 				<level>
 					<level>14</level>
 					<required_score>15</required_score>
-					<name>絶対的羽毛 </name>
+					<name>羽毛むしり </name>
 				</level>
 				<level>
 					<level>15</level>
@@ -13923,7 +13923,7 @@
 				<level>
 					<level>19</level>
 					<required_score>20</required_score>
-					<name>スペクワックラーー </name>
+					<name>スペクワックラー </name>
 				</level>
 				<level>
 					<level>20</level>
@@ -14143,7 +14143,7 @@
 				<level>
 					<level>9</level>
 					<required_score>35</required_score>
-					<name>見事なほど堕ちた者</name>
+					<name>目を見張るほど致死的</name>
 				</level>
 				<level>
 					<level>10</level>
@@ -14178,7 +14178,7 @@
 				<level>
 					<level>16</level>
 					<required_score>500</required_score>
-					<name>全員平伏級</name>
+					<name>サーバークリアリング</name>
 				</level>
 				<level>
 					<level>17</level>
@@ -14526,7 +14526,7 @@
 		</kill_eater_score_type>
 		<kill_eater_score_type>
 			<type>82</type>
-			<type_name>与えたダメージ</type_name>
+			<type_name>与ダメージ</type_name>
 			<level_data>KillEaterRank</level_data>
 		</kill_eater_score_type>
 		<kill_eater_score_type>
@@ -14536,7 +14536,7 @@
 		</kill_eater_score_type>
 		<kill_eater_score_type>
 			<type>84</type>
-			<type_name>Allied Healing Done</type_name>
+			<type_name>味方回復量</type_name>
 			<level_data>KillEaterRank</level_data>
 		</kill_eater_score_type>
 		<kill_eater_score_type>
@@ -14581,7 +14581,7 @@
 		</kill_eater_score_type>
 		<kill_eater_score_type>
 			<type>93</type>
-			<type_name>Not Crit nor MiniCrit Kills</type_name>
+			<type_name>クリティカルでもミニクリティカルでもないキル数</type_name>
 			<level_data>KillEaterRank</level_data>
 		</kill_eater_score_type>
 		<kill_eater_score_type>
