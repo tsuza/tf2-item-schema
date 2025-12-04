@@ -52430,6 +52430,16 @@
                 "mouse_pressed_sound": "ui/item_paper_pickup.wav",
                 "drop_sound": "ui/item_paper_pickup.wav"
             },
+            "1199": {
+                "name": "Item 1",
+                "first_sale_date": "2025/11/27",
+                "item_class": "no_entity"
+            },
+            "1200": {
+                "name": "Item 2",
+                "first_sale_date": "2025/11/27",
+                "item_class": "no_entity"
+            },
             "15000": {
                 "name": "concealedkiller_sniperrifle_nightowl",
                 "prefab": "paintkit_weapon_sniperrifle",
