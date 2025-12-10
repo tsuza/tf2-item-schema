@@ -13483,6 +13483,50 @@
 			}
 		}
 
+		"Winter2025Cosmetics_collection"
+		{
+			"name"				"Winter2025Cosmetics_collection"
+			"description"		"Winter2025Cosmetics_collection_desc"
+			"items"
+			{
+				"ancient"
+				{
+					"The Old Days Devotion"			"1"
+				}
+				"legendary"
+				{
+					"Blizzard Bonnet"				"1"
+					"Veteran's Visor"				"1"
+					"Willis' Warmer"				"1"
+					"Cardiologist's Cardigan"		"1"
+				}
+				"mythical"
+				{
+					"Scrooge McCrocket"				"1"
+					"Chill-Seeker"					"1"
+					"Festive Fleece"				"1"
+					"Commonwealth Commander"		"1"
+					"The Sole Providers"			"1"
+					"Flatline Flatcap"				"1"
+					"Alpine Hawk"					"1"
+					"Aristocravat"					"1"
+				}
+				"rare"
+				{
+					"Snow Merc"						"1"
+					"Lazer Gazers"					"1"
+					"Puncher's Polar Puffer"		"1"
+					"Air Head"						"1"
+					"Deserter's Duster"				"1"
+					"Epilogue Locks"				"1"
+					"Scrub Stompers"				"1"
+					"Alpine Apparel"				"1"
+					"Black Tie Affair"				"1"
+					"Sydney Shearling"				"1"
+				}
+			}
+		}
+
 	} 
 	"operations"
 	{
@@ -16176,6 +16220,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_destroy_sappers"		"1"
+				"can_be_festivized"		"1"
 			}
 			"base_item_name"	"The Neon Annihilator"
 			"item_logname"	"annihilator"
@@ -16232,6 +16277,13 @@
 			{
 				"sound_melee_hit"	"Neon_Sign.ImpactFlesh"
 				"sound_melee_hit_world"	"Neon_Sign.ImpactWorld"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop_partner/weapons/c_models/c_sd_neonsign/c_sd_neonsign_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
 			"drop_sound"		"ui/item_wood_pole_drop.wav"
@@ -16797,6 +16849,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_festivized"		"1"
 			}
 			"first_sale_date"	"2010/09/29"
 			"enabled"	"0"
@@ -16825,6 +16878,16 @@
 			}
 			"mouse_pressed_sound"	"ui/item_bottle_pickup.wav"
 			"drop_sound"		"ui/item_bottle_drop.wav"
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_bottle/c_bottle_festivizer.mdl"
+					}
+				}
+			}
 		}
 
  		"weapon_buff_banner"
@@ -17482,7 +17545,7 @@
 			{
 				"sound_single_shot"	"Weapon_Detonator.Fire"
 				"sound_special1"	"Weapon_Detonator.Detonate"
-				"sound_special2"	"Weapon_Detonator.DetonateWorld"
+				"sound_special3"	"Weapon_Detonator.DetonateWorld"
 
 				"animation_replacement"
 				{
@@ -18074,6 +18137,17 @@
 
 				"animation_replacement"
 				{
+					"ACT_VM_IDLE"						"ACT_ITEM2_VM_IDLE"
+					"ACT_VM_DRAW"						"ACT_ITEM2_VM_DRAW"
+					"ACT_VM_HOLSTER"					"ACT_ITEM2_VM_HOLSTER"
+					"ACT_VM_PULLBACK"					"ACT_ITEM2_VM_PULLBACK"
+					"ACT_VM_PRIMARYATTACK"				"ACT_ITEM2_VM_PRIMARYATTACK"
+					"ACT_VM_SECONDARYATTACK"			"ACT_ITEM2_VM_SECONDARYATTACK"
+					"ACT_VM_RELOAD"						"ACT_ITEM2_VM_RELOAD"
+					"ACT_VM_DRYFIRE"					"ACT_ITEM2_VM_DRYFIRE"
+					"ACT_VM_IDLE_TO_LOWERED"			"ACT_ITEM2_VM_IDLE_TO_LOWERED"
+					"ACT_VM_IDLE_LOWERED"				"ACT_ITEM2_VM_IDLE_LOWERED"
+					"ACT_VM_LOWERED_TO_IDLE"			"ACT_ITEM2_VM_LOWERED_TO_IDLE"
 					"ACT_PRIMARY_VM_INSPECT_START"		"ACT_ITEM2_VM_INSPECT_START"
 					"ACT_PRIMARY_VM_INSPECT_IDLE"		"ACT_ITEM2_VM_INSPECT_IDLE"
 					"ACT_PRIMARY_VM_INSPECT_END"		"ACT_ITEM2_VM_INSPECT_END"
@@ -19113,6 +19187,7 @@
 				"can_deal_mvm_penetration_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
 				"can_deal_posthumous_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"base_item_name"	"The Huo Long Heatmaker"
 			"show_in_armory"	"1"
@@ -19170,6 +19245,16 @@
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop_partner/weapons/c_models/c_canton/c_canton_festivizer.mdl"
+					}
+				}
+			}
 		}
 
 		"weapon_sniperrifle_alt1"
@@ -20933,6 +21018,11 @@
 					"attribute_class"	"hype_on_damage"
 					"value"	"1"
 				}
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
 			}
 			"visuals"
 			{
@@ -21935,6 +22025,10 @@
 			"xifier_class_remap"	"wrench"
 		}
 
+		"dec25_2_empty"
+		{
+		
+		}
 
 
 	}
@@ -22679,6 +22773,7 @@
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"blutsauger"
 			"item_iconname"	"blutsauger"
@@ -22720,6 +22815,13 @@
 						"skin_blu"	"3"
 						"selectable"	"0"
 						"image_inventory"	"backpack/weapons/c_models/c_leechgun/c_leechgun_gold"
+					}
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_leechgun/c_leechgun_festivizer.mdl"
 					}
 				}
 			}
@@ -22766,6 +22868,12 @@
 			"name"	"The Axtinguisher"
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"valve weapon_axtinguisher"
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
+			}
 			"static_attrs"
 			{
 				"min_viewmodel_offset"					"10 0 -9"				
@@ -22788,6 +22896,13 @@
 						"image_inventory"	"backpack/weapons/c_models/c_axtinguisher/c_axtinguisher_pyro_gold"
 					}
 				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_axtinguisher/c_axtinguisher_pyro_festivizer.mdl"
+					}
+				}
 			}
 			"xifier_class_remap"	"axtinguisher"
 		}
@@ -22796,6 +22911,25 @@
 			"name"	"The Flare Gun"
 			"prefab"	"valve weapon_flaregun"
 			"first_sale_date"	"2011/04/14"
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+				"can_deal_taunt_damage"		"1"
+				"can_be_festivized"		"1"
+			}
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_flaregun_pyro/c_flaregun_pyro_festivizer.mdl"
+					}
+				}
+			}
 		}
 		"40"
 		{
@@ -22817,6 +22951,7 @@
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
 				"is_flamethrower" "1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"backburner"
 			"item_iconname"	"backburner"
@@ -22851,6 +22986,13 @@
 					"0"
 					{
 						"model"	"models/weapons/c_models/c_flamethrower/c_flamethrower_pilotlight.mdl"
+					}
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_flamethrower/c_flamethrower_festivizer.mdl"
 					}
 				}
 			}
@@ -22971,6 +23113,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Gloves"
@@ -23025,6 +23168,13 @@
 					"ACT_MELEE_VM_INSPECT_START"	"ACT_MELEE_ALT1_VM_INSPECT_START"
 					"ACT_MELEE_VM_INSPECT_IDLE"		"ACT_MELEE_ALT1_VM_INSPECT_IDLE"
 					"ACT_MELEE_VM_INSPECT_END"		"ACT_MELEE_ALT1_VM_INSPECT_END"
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_boxing_gloves/c_boxing_gloves_festivizer.mdl"
+					}
 				}
 			}
 			"mouse_pressed_sound" 	"ui/item_boxing_gloves_pickup.wav"
@@ -23120,6 +23270,14 @@
 			"name"	"The Force-a-Nature"
 			"prefab"	"valve weapon_force_a_nature"
 			"first_sale_date"	"2010/09/29"
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
+			}
 			"visuals"
 			{
 				"styles"
@@ -23136,6 +23294,13 @@
 						"skin_blu"	"3"
 						"selectable"	"0"
 						"image_inventory"	"backpack/weapons/c_models/c_double_barrel_gold"
+					}
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_double_barrel_festivizer.mdl"
 					}
 				}
 			}
@@ -23483,6 +23648,27 @@
 			"name"	"The Huntsman"
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"valve weapon_huntsman"
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_headshot"				"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+				"can_deal_taunt_damage"		"1"
+				"can_be_festivized"		"1"
+			}
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_bow/c_bow_festivizer.mdl"
+					}
+				}
+			}
 			"xifier_class_remap"	"huntsman"
 		}
 		"57"
@@ -23692,6 +23878,15 @@
 			"name"	"The Ambassador"
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"valve weapon_ambassador"
+			"tags"
+			{
+				"can_deal_damage"		"1"
+				"can_headshot"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
+			}
 			"visuals"
 			{
 				"styles"
@@ -23708,6 +23903,13 @@
 						"skin_blu"	"3"
 						"selectable"	"0"
 						"image_inventory"	"backpack/weapons/c_models/c_ambassador/c_ambassador_gold"
+					}
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_ambassador/c_ambassador_festivizer.mdl"
 					}
 				}
 			}
@@ -24966,6 +25168,7 @@
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_RocketLauncher"
@@ -25016,6 +25219,16 @@
 					"value"	"1"
 				}
 			}
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_directhit/c_directhit_festivizer.mdl"
+					}
+				}
+			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
 		}
@@ -25037,6 +25250,7 @@
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_taunt_damage"		"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Pickaxe"
@@ -25089,6 +25303,13 @@
 				"sound_melee_miss"	"Weapon_PickAxe.Swing"
 				"sound_melee_hit"	"Weapon_PickAxe.HitFlesh"
 				"sound_burst"		"Weapon_PickAxe.SwingCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_pickaxe/c_pickaxe_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -25206,6 +25427,46 @@
 			"static_attrs"
 			{
 				"min_viewmodel_offset"		"10 0 -11"				
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_taunt_damage"		"1"
+				"can_be_festivized"		"1"
+			}
+			"visuals"
+			{
+				"sound_melee_miss"	"Weapon_Sword.Swing"
+				"sound_melee_hit"	"Weapon_Sword.HitFlesh"
+				"sound_melee_hit_world"	"Weapon_Sword.HitWorld"
+				"sound_burst"		"Weapon_Sword.SwingCrit"
+				"sound_special1"	"Sword.Hit"
+				"sound_special2"	"Sword.Idle"
+				"styles"
+				{
+					"0"
+					{
+						"skin_red" "0"
+						"skin_blu" "1"
+						"selectable"	"0"
+					}
+					"1"
+					{
+						"skin_red"	"2"
+						"skin_blu"	"3"
+						"selectable"	"0"
+						"image_inventory"	"backpack/weapons/c_models/c_claymore/c_claymore_gold"
+					}
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_claymore/c_claymore_festivizer.mdl"
+					}
+				}
 			}
 		}
 		"133"
@@ -25576,6 +25837,20 @@
 			"name"	"The Wrangler"
 			"prefab"	"valve weapon_wrangler"
 			"first_sale_date"	"2010/09/29"
+			"tags"
+			{
+				"can_be_festivized"		"1"
+			}
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_wrangler_festivizer.mdl"
+					}
+				}
+			}
 		}
 		"141"
 		{
@@ -26144,6 +26419,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_destroy_sappers"		"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"sledgehammer"
 			"item_iconname"	"sledgehammer"
@@ -26189,6 +26465,13 @@
 			"visuals"
 			{
 				"sound_melee_hit"	"Weapon_Machete.HitFlesh"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_sledgehammer/c_sledgehammer_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
@@ -26209,6 +26492,7 @@
 				"can_deal_damage"			"1"
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"paintrain"
 			"item_iconname"	"paintrain"
@@ -26261,6 +26545,13 @@
 					"ACT_MELEE_VM_INSPECT_IDLE"		"ACT_MELEE_ALT1_VM_INSPECT_IDLE"
 					"ACT_MELEE_VM_INSPECT_END"		"ACT_MELEE_ALT1_VM_INSPECT_END"
 				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_paintrain/c_paintrain_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
 			"drop_sound"		"ui/item_wood_pole_drop.wav"
@@ -26281,6 +26572,7 @@
 				"can_deal_damage"				"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_destroy_sappers"			"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Wrench"
@@ -26342,6 +26634,13 @@
 					"ACT_VM_DRAW"	"ACT_ITEM3_VM_DRAW"
 					"ACT_VM_HITCENTER"	"ACT_ITEM3_VM_HITCENTER"
 					"ACT_VM_SWINGHARD"	"ACT_ITEM3_VM_SWINGHARD"
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_spikewrench/c_spikewrench_festivizer.mdl"
+					}
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
@@ -27021,6 +27320,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"tribalkukri"
 			"item_iconname"	"tribalkukri"
@@ -27057,6 +27357,16 @@
 				{
 					"attribute_class"	"mult_dmg"
 					"value"	"0.5"
+				}
+			}
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_wood_machete/c_wood_machete_festivizer.mdl"
+					}
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_knife_small_pickup.wav"
@@ -27098,6 +27408,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"battleneedle"
 			"item_iconname"	"battleneedle"
@@ -27146,6 +27457,13 @@
 			{
 				"sound_taunt"	"Taunt.MedicViolinUber"
 				"sound_melee_hit"	"Weapon_UberSaw.HitFlesh"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_uberneedle/c_uberneedle_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -27665,6 +27983,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -27682,6 +28001,16 @@
 			"used_by_classes"
 			{
 				"scout"	"1"
+			}
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_bat/c_bat_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -28095,6 +28424,12 @@
 			"name"	"Upgradeable TF_WEAPON_BONESAW"
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"weapon_bonesaw"
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
+			}
 			"craft_class"	""
 			"craft_material_type"	"weapon"
 			"show_in_armory"	"1"
@@ -28102,6 +28437,16 @@
 			"item_quality"		"unique"
 			"min_ilevel"	"1"
 			"max_ilevel"	"1"
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_bonesaw/c_bonesaw_festivizer.mdl"
+					}
+				}
+			}
 		}
 		"199"
 		{
@@ -28943,6 +29288,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Revolver"
@@ -28992,6 +29338,13 @@
 			{
 				"sound_single_shot"	"Weapon_Letranger.Single"
 				"sound_burst"	"Weapon_Letranger.SingleCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_letranger/c_letranger_festivizer.mdl"
+					}
+				}
 			}
 		}
 		"225"
@@ -29007,6 +29360,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_taunt_damage"		"1"
+				"can_be_festivized"		"1"
 			}
 			"item_name"	"#TF_EternalReward"
 			"propername"	"0"
@@ -29018,6 +29372,16 @@
 			"static_attrs"
 			{
 				"min_viewmodel_offset"		"5 0 -4"
+			}
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_eternal_reward/c_eternal_reward_festivizer.mdl"
+					}
+				}
 			}
 		}
 		"226"
@@ -29217,6 +29581,7 @@
 				"can_deal_mvm_penetration_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
 				"can_extinguish"			"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"sydney_sleeper"
 			"item_iconname"	"sydney_sleeper"
@@ -29241,6 +29606,13 @@
 				}
 				"sound_single_shot"	"Weapon_SydneySleeper.Single"
 				"sound_burst"	"Weapon_SydneySleeper.SingleCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_sydney_sleeper/c_sydney_sleeper_festivizer.mdl"
+					}
+				}
 			}
 			"used_by_classes"
 			{
@@ -29343,6 +29715,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"bushwacka"
 			"item_iconname"	"bushwacka"
@@ -29391,6 +29764,16 @@
 				{
 					"attribute_class"	"mult_crit_chance"
 					"value"	"0"
+				}
+			}
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_croc_knife/c_croc_knife_festivizer.mdl"
+					}
 				}
 			}
 		}
@@ -29506,6 +29889,10 @@
 			{
 				"nameable"		"1"
 			}
+			"tags"
+			{
+				"can_be_festivized"		"1"
+			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_RocketLauncher"
 			"item_name"	"#TF_Weapon_RocketLauncher_Jump"
@@ -29563,6 +29950,13 @@
 			{
 				"sound_single_shot"	"Weapon_Rocket_Jumper.Single"
 				"sound_special1"		"Weapon_Rocket_Jumper.Explode"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_rocketjumper/c_rocketjumper_festivizer.mdl"
+					}
+				}
 			}
 		}
 		"239"
@@ -29570,6 +29964,10 @@
 			"name"	"Gloves of Running Urgently"
 			"prefab"	"valve weapon_gru"
 			"first_sale_date"	"2010/09/29"
+			"tags"
+			{
+				"can_be_festivized"		"1"
+			}
 			"visuals_red"
 			{
 				"use_visualsblock_as_base"	"visuals"
@@ -29578,6 +29976,13 @@
 				"sound_melee_hit"	"Weapon_BoxingGloves.HitFlesh"
 				"sound_melee_hit_world"	"Weapon_BoxingGloves.HitWorld"
 				"sound_burst"	"Weapon_BoxingGloves.MissCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_boxing_gloves/c_boxing_gloves_festivizer.mdl"
+					}
+				}
 			}
 			"visuals_blu"
 			{
@@ -29587,6 +29992,13 @@
 				"sound_melee_hit"	"Weapon_BoxingGloves.HitFlesh"
 				"sound_melee_hit_world"	"Weapon_BoxingGloves.HitWorld"
 				"sound_burst"	"Weapon_BoxingGloves.MissCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_boxing_gloves/c_boxing_gloves_festivizer.mdl"
+					}
+				}
 			}
 		}
 		"240"
@@ -30543,6 +30955,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"fryingpan"
 			"item_iconname"	"fryingpan"
@@ -30590,6 +31003,13 @@
 				"sound_melee_hit_world"	"FryingPan.HitWorld"
 				"sound_melee_miss"	"Weapon_Machete.Miss"
 				"sound_burst"		"Weapon_Machete.MissCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_frying_pan/c_frying_pan_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -30605,6 +31025,10 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#Tf_Weapon_Pipebomblauncher"
@@ -30675,6 +31099,13 @@
 			{
 				"sound_single_shot"	"Weapon_Sticky_Jumper.Single"
 				"sound_special1"		"Weapon_Sticky_Jumper.Explode"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_sticky_jumper/c_sticky_jumper_festivizer.mdl"
+					}
+				}
 			}
 		}
 		"266"
@@ -32230,6 +32661,7 @@
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"craft_class"	""
 			"craft_material_type"		""
@@ -32259,6 +32691,16 @@
 				{
 					"attribute_class"	"cannot_trade"
 					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_iron_curtain/c_iron_curtain_festivizer.mdl"
+					}
 				}
 			}
 		}
@@ -32494,6 +32936,7 @@
 				"can_deal_damage"		"1"
 				"can_deal_gib_damage"	"1"
 				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_StickBomb"
@@ -32538,6 +32981,16 @@
 				{
 					"attribute_class"	"mult_crit_chance"
 					"value"	"0"
+				}
+			}
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_caber/c_caber_festivizer.mdl"
+					}
 				}
 			}
 		}
@@ -32952,6 +33405,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Bat"
@@ -32979,14 +33433,6 @@
 			}
 			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
 			"drop_sound"		"ui/item_wood_pole_drop.wav"
-			"visuals_red"
-			{
-				"skin"	"0"
-			}
-			"visuals_blu"
-			{
-				"skin"	"1"
-			}
 			"attributes"
 			{
 				"drop health pack on kill"
@@ -32998,6 +33444,24 @@
 				{
 					"attribute_class"	"mult_dmgtaken_from_explosions"
 					"value"			"1.25"
+				}
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"skin_red" "0"
+						"skin_blu" "1"
+					}
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_candy_cane/c_candy_cane_festivizer.mdl"
+					}
 				}
 			}
 		}
@@ -33236,6 +33700,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Bat"
@@ -33280,6 +33745,13 @@
 			{
 				"sound_melee_hit"		"BostonBasher.Impact"
 				"sound_melee_hit_world"	"BostonBasher.HitWorld"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_boston_basher/c_boston_basher_festivizer.mdl"
+					}
+				}
 			}
 		}
 		"326"
@@ -33401,6 +33873,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Gloves"
@@ -33445,6 +33918,13 @@
 					"ACT_MELEE_VM_INSPECT_START"	"ACT_MELEE_ALT1_VM_INSPECT_START"
 					"ACT_MELEE_VM_INSPECT_IDLE"		"ACT_MELEE_ALT1_VM_INSPECT_IDLE"
 					"ACT_MELEE_VM_INSPECT_END"		"ACT_MELEE_ALT1_VM_INSPECT_END"
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_fists_of_steel/c_fists_of_steel_festivizer.mdl"
+					}
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
@@ -34102,6 +34582,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_RiftFireAxe"
@@ -34143,6 +34624,16 @@
 					"value"	"0.8"
 				}
 			}
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_rift_fire_axe/c_rift_fire_axe_festivizer.mdl"
+					}
+				}
+			}
 		}
 		"349"
 		{
@@ -34158,6 +34649,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_RiftFireMace"
@@ -34202,6 +34694,16 @@
 				{
 					"attribute_class"	"mult_dmgtaken_from_fire_active"
 					"value"			"0.75"
+				}
+			}
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_rift_fire_mace/c_rift_fire_mace_festivizer.mdl"
+					}
 				}
 			}
 		}
@@ -34325,6 +34827,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"warfan"
 			"item_iconname"	"warfan"
@@ -34369,6 +34872,16 @@
 					"value" "1"
 				}
 			}
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop_partner/weapons/c_models/c_shogun_warfan/c_shogun_warfan_festivizer.mdl"
+					}
+				}
+			}
 			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
 			"drop_sound"		"ui/item_wood_pole_drop.wav"
 		}
@@ -34385,6 +34898,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_taunt_damage"		"1"
+				"can_be_festivized"		"1"
 			}
 			"item_name"	"#TF_Kunai"
 			"item_description"	"#TF_Kunai_Desc"
@@ -34414,6 +34928,16 @@
 				{
 					"attribute_class"	"special_taunt"
 					"value" "1"
+				}
+			}
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop_partner/weapons/c_models/c_shogun_kunai/c_shogun_kunai_festivizer.mdl"
+					}
 				}
 			}
 		}
@@ -36377,6 +36901,7 @@
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"proto_syringe"
 			"item_iconname"	"proto_syringe"
@@ -36424,18 +36949,39 @@
 			{
 				"sound_single_shot"    "Weapon_Overdose.Single"
 				"sound_burst"    "Weapon_Overdose.SingleCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_proto_syringegun/c_proto_syringegun_festivizer.mdl"
+					}
+				}
 			}
 			"visuals_red"
 			{
 				"skin" "0"
 				"sound_single_shot"    "Weapon_Overdose.Single"
 				"sound_burst"    "Weapon_Overdose.SingleCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_proto_syringegun/c_proto_syringegun_festivizer.mdl"
+					}
+				}
 			}
 			"visuals_blu"
 			{
 				"skin" "1"
 				"sound_single_shot"    "Weapon_Overdose.Single"
 				"sound_burst"    "Weapon_Overdose.SingleCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_proto_syringegun/c_proto_syringegun_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
@@ -36456,6 +37002,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"anim_slot" "MELEE_ALLCLASS"
 			"item_logname"	"solemn_vow"
@@ -36499,6 +37046,13 @@
 			"visuals"
 			{
 				"sound_melee_hit"	"Weapon_Machete.HitFlesh"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_hippocrates_bust/c_hippocrates_bust_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -36523,6 +37077,7 @@
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_RocketLauncher"
@@ -36577,6 +37132,13 @@
 			{
 				"sound_single_shot"	"Weapon_Liberty_Launcher.Single"
 				"sound_burst"	"Weapon_Liberty_Launcher.SingleCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_liberty_launcher/c_liberty_launcher_festivizer.mdl"
+					}
+				}
 			}
 		}
 		"415"
@@ -36617,6 +37179,7 @@
 				"can_deal_damage"			"1"
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Shovel"
@@ -36658,6 +37221,16 @@
 				{
 					"attribute_class"	"mult_crit_chance"
 					"value"	"0"
+				}
+			}
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_market_gardener/c_market_gardener_festivizer.mdl"
+					}
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_shovel_pickup.wav"
@@ -36836,6 +37409,7 @@
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_taunt_damage"		"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Award"
@@ -36894,6 +37468,13 @@
 				"sound_melee_miss"	"Weapon_Machete.Miss"
 				"sound_melee_hit"	"Weapon_Machete.HitFlesh"
 				"sound_burst"		"Weapon_Machete.MissCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_saxxy/c_saxxy_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_medal_pickup.wav"
 			"drop_sound"		"ui/item_medal_pickup.wav"
@@ -37564,6 +38145,7 @@
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"cow_mangler"
 			"item_iconname"	"cow_mangler"
@@ -37602,6 +38184,13 @@
 				"sound_reload"		"Weapon_CowMangler.Reload"
 				"sound_special1"	"Weapon_CowMangler.Charging"
 				"sound_special2"	"Weapon_CowMangler.Idle"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_drg_cowmangler/c_drg_cowmangler_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
@@ -37624,6 +38213,7 @@
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_IndivisibleParticleSmasher"
@@ -37684,6 +38274,13 @@
 					"ACT_SECONDARY_VM_INSPECT_START"	"ACT_SECONDARY_ALT1_VM_INSPECT_START"
 					"ACT_SECONDARY_VM_INSPECT_IDLE"		"ACT_SECONDARY_ALT1_VM_INSPECT_IDLE"
 					"ACT_SECONDARY_VM_INSPECT_END"		"ACT_SECONDARY_ALT1_VM_INSPECT_END"
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_drg_righteousbison/c_drg_righteousbison_festivizer.mdl"
+					}
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
@@ -38123,6 +38720,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Sword"
@@ -38156,6 +38754,13 @@
 				"sound_burst"		"Weapon_Sword.SwingCrit"
 				"sound_special1"	"Sword.Hit"
 				"sound_special2"	"Sword.Idle"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_scout_sword/c_scout_sword_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_knife_large_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -38290,12 +38895,28 @@
 			"min_ilevel"	"10"
 			"max_ilevel"	"10"
 			"inspect_panel_dist" 	"70"
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
+			}
 			"static_attrs"
 			{
 				"min_viewmodel_offset"					"15 2 -12"				
 			}
 			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
 			"drop_sound"		"ui/item_wood_pole_drop.wav"
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_mailbox/c_mailbox_festivizer.mdl"
+					}
+				}
+			}
 		}
 
 
@@ -38352,6 +38973,7 @@
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Revolver"
@@ -38406,6 +39028,13 @@
 			{
 				"sound_single_shot"	"Weapon_Enforcer.Single"
 				"sound_burst"	"Weapon_Enforcer.SingleCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_snub_nose/c_snub_nose_festivizer.mdl"
+					}
+				}
 			}
 		}
 		"461"
@@ -38423,6 +39052,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"		"1"
 				"can_deal_taunt_damage"			"1"
+				"can_be_festivized"		"1"
 			}
 			"item_name"	"#TF_BigEarner"
 			"propername"	"1"
@@ -38456,6 +39086,16 @@
 				{
 					"attribute_class"	"speed_boost_on_kill"
 					"value"	"3"
+				}
+			}
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_switchblade/c_switchblade_festivizer.mdl"
+					}
 				}
 			}
 		}
@@ -38603,6 +39243,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_destroy_sappers"		"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"the_maul"
 			"item_iconname"	"the_maul"
@@ -38649,6 +39290,13 @@
 			"visuals"
 			{
 				"sound_melee_hit"	"Weapon_Machete.HitFlesh"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_rfa_hammer/c_rfa_hammer_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
@@ -38948,6 +39596,7 @@
 				"can_deal_damage"			"1"
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Sign"
@@ -38989,6 +39638,13 @@
 				"sound_melee_miss"	"Weapon_Machete.Miss"
 				"sound_melee_hit"	"Weapon_Machete.HitFlesh"
 				"sound_burst"		"Weapon_Machete.MissCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_picket/c_picket_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
 			"drop_sound"		"ui/item_wood_pole_drop.wav"
@@ -39219,6 +39875,7 @@
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_taunt_damage"		"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"nessieclub"
 			"item_iconname"	"nessieclub"
@@ -39244,6 +39901,13 @@
 				"sound_burst"		"Weapon_Sword.SwingCrit"
 				"sound_special1"	"Sword.Hit"
 				"sound_special2"	"Sword.Idle"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_golfclub/c_golfclub_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_knife_large_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -39670,6 +40334,7 @@
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"quake_rl"
 			"item_iconname"	"quake_rl"
@@ -39738,6 +40403,13 @@
 				"sound_deploy"			"Weapon_QuakeRPG.Draw"
 				"sound_reload"			"Weapon_QuakeRPG.Reload"
 				"sound_special1"		"Weapon_QuakeRPG.Explode"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop_partner/weapons/c_models/c_bet_rocketlauncher/c_bet_rocketlauncher_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
@@ -40270,6 +40942,7 @@
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Revolver"
@@ -40318,6 +40991,13 @@
 			{
 				"sound_single_shot"	"Weapon_Diamond_Back.Single"
 				"sound_burst"	"Weapon_Diamond_Back.SingleCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop_partner/weapons/c_models/c_dex_revolver/c_dex_revolver_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
@@ -40329,6 +41009,14 @@
 			"prefab"	"weapon_machina"
 			"item_name"	"#TF_DEX_Rifle"
 			"item_description"	"#TF_DEX_Rifle_Desc"
+			"tags"
+			{
+				"can_deal_damage"		"1"
+				"can_headshot"			"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
+			}
 			"visuals"
 			{
 				"sound_single_shot"	"Weapon_SniperRailgun_Large.Single"
@@ -40338,6 +41026,13 @@
 				"sound_special2"	"Weapon_SniperRailgun.NonScoped"
 				"sound_special3"	"Weapon_SniperRailgun.Single"
 				"muzzle_flash"		"dxhr_sniper_muzzleflash"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop_partner/weapons/c_models/c_dex_sniperrifle/c_dex_sniperrifle_festivizer.mdl"
+					}
+				}
 			}
 		}
 		"527"
@@ -40358,6 +41053,7 @@
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"item_type_name"	"#TF_Weapon_Shotgun"
 			"item_logname" "widowmaker"
@@ -40429,6 +41125,13 @@
 					"ACT_PRIMARY_VM_INSPECT_START"		"ACT_PRIMARY_ALT1_VM_INSPECT_START"
 					"ACT_PRIMARY_VM_INSPECT_IDLE"		"ACT_PRIMARY_ALT1_VM_INSPECT_IDLE"
 					"ACT_PRIMARY_VM_INSPECT_END"		"ACT_PRIMARY_ALT1_VM_INSPECT_END"
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop_partner/weapons/c_models/c_dex_shotgun/c_dex_shotgun_festivizer.mdl"
+					}
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
@@ -41653,6 +42356,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Severed_Arm"
@@ -41700,18 +42404,39 @@
 			{
 				"sound_melee_hit"	"Weapon_HolyMackerel.HitFlesh"
 				"sound_melee_hit_world"	"Weapon_HolyMackerel.HitWorld"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_unarmed_combat/c_unarmed_combat_festivizer.mdl"
+					}
+				}
 			}
 			"visuals_red"
 			{
 				"skin"  "0"
 				"sound_melee_hit"  "Weapon_HolyMackerel.HitFlesh"
 				"sound_melee_hit_world"  "Weapon_HolyMackerel.HitWorld"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_unarmed_combat/c_unarmed_combat_festivizer.mdl"
+					}
+				}
 			}
 			"visuals_blu"
 			{
 				"skin"  "1"
 				"sound_melee_hit"  "Weapon_HolyMackerel.HitFlesh"
 				"sound_melee_hit_world"  "Weapon_HolyMackerel.HitWorld"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_unarmed_combat/c_unarmed_combat_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_gooey_pickup.wav"
 			"drop_sound"		"ui/item_gooey_pickup.wav"
@@ -41732,6 +42457,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_taunt_damage"		"1"
+				"can_be_festivized"		"1"
 			}
 			"item_name"	"#TF_VoodooPin"
 			"propername"	"0"
@@ -41745,6 +42471,16 @@
 			"static_attrs"
 			{
 				"min_viewmodel_offset"		"10 0 -6"
+			}
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_voodoo_pin/c_voodoo_pin_festivizer.mdl"
+					}
+				}
 			}
 		}
 		"575"
@@ -42469,6 +43205,7 @@
 				"can_deal_gib_damage"	"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_taunt_damage"		"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Fists"
@@ -42524,6 +43261,13 @@
 					"ACT_MELEE_VM_INSPECT_START"	"ACT_MELEE_ALT1_VM_INSPECT_START"
 					"ACT_MELEE_VM_INSPECT_IDLE"		"ACT_MELEE_ALT1_VM_INSPECT_IDLE"
 					"ACT_MELEE_VM_INSPECT_END"		"ACT_MELEE_ALT1_VM_INSPECT_END"
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_sr3_punch/c_sr3_punch_festivizer.mdl"
+					}
 				}
 			}
 			"mouse_pressed_sound" "ui/item_boxing_gloves_pickup.wav"
@@ -42654,6 +43398,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_destroy_sappers"		"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Wrench"
@@ -42716,6 +43461,13 @@
 					{
 						"system"	"drg_wrenchmotron_idle"
 						"attachment" "electrode_0"
+					}
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_drg_wrenchmotron/c_drg_wrenchmotron_festivizer.mdl"
 					}
 				}
 			}
@@ -42873,6 +43625,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"thirddegree"
 			"item_iconname"	"thirddegree"
@@ -42915,6 +43668,13 @@
 			{
 				"sound_melee_hit"	"Weapon_3rd_degree.HitFlesh"
 				"sound_melee_hit_world"	"Weapon_3rd_degree.HitWorld"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_drg_thirddegree/c_drg_thirddegree_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -42938,6 +43698,7 @@
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
 				"is_flamethrower" "1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"phlogistinator"
 			"item_iconname"	"phlogistinator"
@@ -42975,6 +43736,13 @@
 					"ACT_PRIMARY_VM_INSPECT_START"		"ACT_PRIMARY_ALT1_VM_INSPECT_START"
 					"ACT_PRIMARY_VM_INSPECT_IDLE"		"ACT_PRIMARY_ALT1_VM_INSPECT_IDLE"
 					"ACT_PRIMARY_VM_INSPECT_END"		"ACT_PRIMARY_ALT1_VM_INSPECT_END"
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_drg_phlogistinator/c_drg_phlogistinator_festivizer.mdl"
+					}
 				}
 			}
 			"attributes"
@@ -43038,6 +43806,7 @@
 				"can_deal_long_distance_damage"	"1"
 				"can_deal_taunt_damage"		"1"
 				"can_extinguish"			"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"manmelter"
 			"item_iconname"	"manmelter"
@@ -43122,6 +43891,13 @@
 					"ACT_SECONDARY_VM_INSPECT_START"	"ACT_ITEM1_VM_INSPECT_START"
 					"ACT_SECONDARY_VM_INSPECT_IDLE"		"ACT_ITEM1_VM_INSPECT_IDLE"
 					"ACT_SECONDARY_VM_INSPECT_END"		"ACT_ITEM1_VM_INSPECT_END"
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_drg_manmelter/c_drg_manmelter_festivizer.mdl"
+					}
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
@@ -43554,6 +44330,7 @@
 				"can_deal_damage"			"1"
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Bottle"
@@ -43586,6 +44363,16 @@
 				{
 					"attribute_class"	"allowed_in_medieval_mode"
 					"value"	"1"
+				}
+			}
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_scotland_shard/c_scotland_shard_festivizer.mdl"
+					}
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_bottle_pickup.wav"
@@ -44572,6 +45359,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Knife"
@@ -44617,6 +45405,13 @@
 					"ACT_MELEE_VM_INSPECT_START"	"ACT_ITEM1_VM_INSPECT_START"
 					"ACT_MELEE_VM_INSPECT_IDLE"		"ACT_ITEM1_VM_INSPECT_IDLE"
 					"ACT_MELEE_VM_INSPECT_END"		"ACT_ITEM1_VM_INSPECT_END"
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_acr_hookblade/c_acr_hookblade_festivizer.mdl"
+					}
 				}
 			}
 			"attributes"
@@ -45063,6 +45858,7 @@
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Bat"
@@ -45113,6 +45909,13 @@
 				"sound_melee_hit"		"BallBuster.HitFlesh"
 				"sound_melee_hit_world"	"BallBuster.HitWorld"
 				"sound_special2"		"BallBuster.HitBall"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_xms_giftwrap/c_xms_giftwrap_festivizer.mdl"
+					}
+				}
 			}
 			"visuals_red"
 			{
@@ -45121,6 +45924,13 @@
 				"sound_melee_hit"		"BallBuster.HitFlesh"
 				"sound_melee_hit_world"	"BallBuster.HitWorld"
 				"sound_special2"		"BallBuster.HitBall"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_xms_giftwrap/c_xms_giftwrap_festivizer.mdl"
+					}
+				}
 			}
 			"visuals_blu"
 			{
@@ -45129,6 +45939,13 @@
 				"sound_melee_hit"		"BallBuster.HitFlesh"
 				"sound_melee_hit_world"	"BallBuster.HitWorld"
 				"sound_special2"		"BallBuster.HitBall"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_xms_giftwrap/c_xms_giftwrap_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_cardboard_pickup.wav"
 			"drop_sound"			"ui/item_cardboard_drop.wav"
@@ -46725,6 +47542,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_taunt_damage"		"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Knife"
@@ -46766,6 +47584,13 @@
 						"skin_red"	"2"
 						"skin_blu"	"3"
 						"name"	"#TF_BlackRose_Style_Black"
+					}
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_ava_roseknife/c_ava_roseknife_festivizer.mdl"
 					}
 				}
 			}
@@ -46859,6 +47684,7 @@
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_RocketLauncher"
@@ -46930,6 +47756,13 @@
 				"sound_single_shot"	"Weapon_Does_Dumpster.Single"
 				"sound_burst"		"Weapon_Does_Dumpster.SingleCrit"
 				"sound_reload"		"Weapon_DumpsterRocket.Reload"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_dumpster_device/c_dumpster_device_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"			"ui/item_heavy_gun_drop.wav"
@@ -47485,6 +48318,7 @@
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"pro_smg"
 			"item_iconname"	"pro_smg"
@@ -47540,6 +48374,13 @@
 			{
 				"sound_single_shot"	"Weapon_UrbanProfessional.Single"
 				"sound_burst"		"Weapon_UrbanProfessional.SingleCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_pro_smg/c_pro_smg_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
@@ -47562,6 +48403,7 @@
 				"can_headshot"				"1"
 				"can_deal_mvm_penetration_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"pro_rifle"
 			"item_iconname"	"pro_rifle"
@@ -47627,6 +48469,13 @@
 			{
 				"sound_single_shot"		"Weapon_ProSniperRifle.Single"
 				"sound_burst"			"Weapon_ProSniperRifle.SingleCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_pro_rifle/c_pro_rifle_festivizer.mdl"
+					}
+				}
 			}
 		}
 		"753"
@@ -48290,6 +49139,7 @@
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Scattergun"
@@ -48339,6 +49189,13 @@
 			}
 			"visuals"
 			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_pep_scattergun/c_pep_scattergun_festivizer.mdl"
+					}
+				}
 				"sound_single_shot"	"Weapon_Brawler_Blaster.Single"
 				"sound_burst"		"Weapon_Brawler_Blaster.SingleCrit"
 			}
@@ -48487,6 +49344,7 @@
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_taunt_damage"		"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Pickaxe"
@@ -48544,6 +49402,13 @@
 				"sound_melee_miss"	"Weapon_PickAxe.Swing"
 				"sound_melee_hit"	"Weapon_PickAxe.HitFlesh"
 				"sound_burst"		"Weapon_PickAxe.SwingCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_pickaxe/c_pickaxe_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -50377,6 +51242,14 @@
 			{
 				"can_craft_count"	"1"
 			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_headshot"				"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
+			}
 			"item_name"	"#TF_CSGO_AWP"
 			"item_description"	"#TF_CSGO_AWP_Desc"
 			"item_quality"	"unique"
@@ -50390,6 +51263,13 @@
 			{
 				"sound_single_shot"	"Weapon_AWP.Single"
 				"sound_burst"		"Weapon_AWP.SingleCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_csgo_awp/c_csgo_awp_festivizer.mdl"
+					}
+				}
 			}
 		}
 		"852"
@@ -51268,6 +52148,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Staff"
@@ -51308,6 +52189,13 @@
 				"sound_melee_miss"	"Weapon_Machete.Miss"
 				"sound_melee_hit"	"Weapon_Machete.HitFlesh"
 				"sound_burst"		"Weapon_Machete.MissCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop_partner/weapons/c_models/c_tw_eagle/c_tw_eagle_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
 			"drop_sound"		"ui/item_wood_pole_drop.wav"
@@ -53034,6 +53922,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"skullbat"
 			"item_iconname"	"skullbat"
@@ -53101,6 +53990,13 @@
 						"skin_blu"	"1"
 						"model_player"	"models/workshop/weapons/c_models/c_skullbat/c_skullbat_s3.mdl"
 						"name"		"#TF_BatOuttaHell_Style3"
+					}
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_skullbat/c_skullbat_festivizer.mdl"
 					}
 				}
 			}
@@ -55149,6 +56045,7 @@
 			"tags"
 			{
 				"can_heal_allies"		"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Medigun_Resist"
@@ -55248,6 +56145,13 @@
 				{
 					"medic_backpack"			"1"
 				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_medigun_defense/c_medigun_defense_festivizer.mdl"
+					}
+				}
 			}
 			"visuals_red"
 			{
@@ -55256,6 +56160,13 @@
 				{
 					"system"	"medicgun_beam_attrib_overheal_red"
 				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_medigun_defense/c_medigun_defense_festivizer.mdl"
+					}
+				}
 			}
 			"visuals_blu"
 			{
@@ -55263,6 +56174,13 @@
 				"custom_particlesystem"
 				{
 					"system"	"medicgun_beam_attrib_overheal_blue"
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_medigun_defense/c_medigun_defense_festivizer.mdl"
+					}
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
@@ -55657,6 +56575,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"ham_shank"
 			"item_iconname"	"ham_shank"
@@ -55696,6 +56615,13 @@
 				"sound_melee_hit_world"	"Weapon_HolyMackerel.HitWorld"
 				"sound_melee_miss"	"Weapon_Machete.Miss"
 				"sound_burst"		"Weapon_Machete.MissCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_ham/c_ham_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_gooey_pickup.wav"
 			"drop_sound"		"ui/item_gooey_pickup.wav"
@@ -57339,6 +58265,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"golden_fryingpan"
 			"item_iconname"	"golden_fryingpan"
@@ -57400,6 +58327,13 @@
 					{
 						"skin_red" "2"
 						"skin_blu" "3"
+					}
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_frying_pan/c_frying_pan_festivizer.mdl"
 					}
 				}
 			}
@@ -57938,6 +58872,17 @@
 			{
 				"can_craft_count"	"1"
 			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_headshot"				"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+				"can_deal_taunt_damage"		"1"
+				"can_be_festivized"		"1"
+			}
 			"static_attrs"
 			{
 				"min_viewmodel_offset"		"10 -4 -10"				
@@ -57947,6 +58892,16 @@
 			"image_inventory"	"backpack/workshop_partner/weapons/c_models/c_bow_thief/c_bow_thief"
 			"model_player"	"models/workshop_partner/weapons/c_models/c_bow_thief/c_bow_thief.mdl"
 			"inspect_panel_dist" 			"55"
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop_partner/weapons/c_models/c_bow_thief/c_bow_thief_festivizer.mdl"
+					}
+				}
+			}
 		}
 		"1093"
 		{
@@ -58100,6 +59055,7 @@
 				"can_deal_mvm_penetration_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
 				"can_deal_gib_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"the_classic"
 			"item_iconname"	"the_classic"
@@ -58122,6 +59078,13 @@
 				"show_player_bodygroup_name"	"bullets"
 				"sound_single_shot"	"Weapon_ClassicSniperRifle.Single"
 				"sound_burst"	"Weapon_ClassicSniperRifle.SingleCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_tfc_sniperrifle/c_tfc_sniperrifle_festivizer.mdl"
+					}
+				}
 			}
 			"used_by_classes"
 			{
@@ -58440,6 +59403,7 @@
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_logname"	"back_scatter"
@@ -58481,6 +59445,13 @@
 			}
 			"visuals"
 			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_scatterdrum/c_scatterdrum_festivizer.mdl"
+					}
+				}
 				"sound_single_shot"	"Weapon_Back_Scatter.Single"
 				"sound_burst"		"Weapon_Back_Scatter.SingleCrit"
 			}
@@ -59667,6 +60638,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"	"necro_smasher"
 			"item_iconname"	"necro_smasher"
@@ -59708,6 +60680,13 @@
 				"sound_melee_miss"	"Weapon_Machete.Miss"
 				"sound_melee_hit"	"Weapon_Machete.HitFlesh"
 				"sound_burst"		"Weapon_Machete.MissCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/weapons/c_models/c_carnival_mallet/c_carnival_mallet_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -59917,6 +60896,7 @@
 				"can_deal_damage"			"1"
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Sign"
@@ -59957,6 +60937,13 @@
 				"sound_melee_miss"	"Weapon_Machete.Miss"
 				"sound_melee_hit"	"Weapon_Machete.HitFlesh"
 				"sound_burst"		"Weapon_Machete.MissCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_crossing_guard/c_crossing_guard_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
 			"drop_sound"		"ui/item_wood_pole_drop.wav"
@@ -60187,6 +61174,7 @@
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
+				"can_be_festivized"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_PipebombLauncher"
@@ -60256,6 +61244,13 @@
 				"sound_single_shot"		"Weapon_AirBurster.Single"
 				"sound_burst"			"Weapon_AirBurster.SingleCrit"
 				"sound_special1"		"Weapon_AirBurster.Explode"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_kingmaker_sticky/c_kingmaker_sticky_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
@@ -62955,15 +63950,17 @@
 		}
 		"1199"
 		{
-			"name"	"Item 1"
+			"name"	"Festivizers for All Weapons"
 			"first_sale_date"	"2025/11/27"
 			"item_class"        "no_entity"
+			"item_name"	"#TF_dec25_festivizers"
 		}
 		"1200"
 		{
-			"name"	"Item 2"
+			"name"	"Smissmas Ornament Beach Ball Assets"
 			"first_sale_date"	"2025/11/27"
 			"item_class"        "no_entity"
+			"item_name"	"#TF_dec25_ornament"
 		}
 
 
@@ -73889,13 +74886,6 @@
 			"item_description"		"#TF_hw2013_wandering_soul_Desc"
 			"equip_region"		"disconnected_floating_item"
 			"propername"		"1"
-			"visuals"
-			{
-				"player_bodygroups"
-				{
-					"headphones"		"1"
-				}
-			}
 			"image_inventory"		"backpack/workshop/player/items/all_class/hw2013_wandering_soul/hw2013_wandering_soul"
 			"model_player_per_class"
 			{
@@ -80135,6 +81125,7 @@
 				"can_deal_posthumous_damage"		"1"
 				"can_deal_critical_damage"		"1"
 				"is_flamethrower"		"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"		"ai_flamethrower"
 			"item_iconname"		"ai_flamethrower"
@@ -80168,6 +81159,13 @@
 					"ACT_PRIMARY_VM_INSPECT_START"		"ACT_PRIMARY_ALT1_VM_INSPECT_START"
 					"ACT_PRIMARY_VM_INSPECT_IDLE"		"ACT_PRIMARY_ALT1_VM_INSPECT_IDLE"
 					"ACT_PRIMARY_VM_INSPECT_END"		"ACT_PRIMARY_ALT1_VM_INSPECT_END"
+				}
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop_partner/weapons/c_models/c_ai_flamethrower/c_ai_flamethrower_festivizer.mdl"
+					}
 				}
 			}
 			"mouse_pressed_sound"		"ui/item_heavy_gun_pickup.wav"
@@ -86356,9 +87354,29 @@
 			"propername"		"1"
 			"visuals"
 			{
-				"player_bodygroups"
+				"styles"
 				{
-					"grenades"		"1"
+					"0"
+					{
+						"name"		"#TF_style_bullets"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"additional_hidden_bodygroups"
+						{
+							"grenades"		"1"
+						}
+					}
+					"1"
+					{
+						"name"		"#TF_style_nobullets"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"additional_hidden_bodygroups"
+						{
+							"bullets"		"1"
+							"grenades"		"1"
+						}
+					}
 				}
 			}
 			"image_inventory"		"backpack/workshop/player/items/all_class/dec15_gift_bringer/dec15_gift_bringer"
@@ -86676,6 +87694,7 @@
 				"can_deal_damage"		"1"
 				"can_deal_critical_damage"		"1"
 				"can_be_equipped_by_soldier_or_demo"		"1"
+				"can_be_festivized"		"1"
 			}
 			"item_logname"		"prinny_machete"
 			"item_iconname"		"prinny_machete"
@@ -86717,6 +87736,13 @@
 				"sound_melee_miss"		"Weapon_Machete.Miss"
 				"sound_melee_hit"		"Weapon_Machete.HitFlesh"
 				"sound_burst"		"Weapon_Machete.MissCrit"
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop_partner/weapons/c_models/c_prinny_knife/c_prinny_knife_festivizer.mdl"
+					}
+				}
 			}
 			"mouse_pressed_sound"		"ui/item_knife_large_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -112190,6 +113216,7 @@
 			"item_name"		"#TF_sum25_team_cap"
 			"item_description"		"#TF_sum25_team_cap_Desc"
 			"equip_region"		"hat"
+			"drop_type"		"drop"
 			"visuals"
 			{
 				"player_bodygroups"
@@ -112664,6 +113691,7 @@
 			"prefab"		"no_craft hat marketable"
 			"item_name"		"#TF_sum25_short_fuse"
 			"item_description"		"#TF_sum25_short_fuse_Desc"
+			"drop_type"		"drop"
 			"equip_region"		"hat"
 			"image_inventory"		"backpack/workshop/player/items/demo/sum25_short_fuse/sum25_short_fuse"
 			"capabilities"
@@ -112931,6 +113959,8 @@
 					}
 				}
 			}
+			"mouse_pressed_sound"		"ui/item_helmet_pickup.wav"
+			"drop_sound"		"ui/item_helmet_drop.wav"
 		}
 		"31541"
 		{
@@ -113560,9 +114590,9 @@
 			"item_type_name"		"#TF_Wearable_Armor"
 			"equip_regions"
 			{
-				"hat"	"1"
-				"left_shoulder"	"1"
-				"right_shoulder"	"1"
+				"hat"		"1"
+				"left_shoulder"		"1"
+				"right_shoulder"		"1"
 			}
 			"visuals"
 			{
@@ -114028,8 +115058,8 @@
 			"item_type_name"		"#TF_Wearable_Hair"
 			"equip_regions"
 			{
-				"hat"	"1"
-				"glasses"	"1"
+				"hat"		"1"
+				"glasses"		"1"
 			}
 			"image_inventory"		"backpack/workshop/player/items/medic/hwn2025_professor_photon/hwn2025_professor_photon"
 			"capabilities"
@@ -114144,8 +115174,8 @@
 			"item_type_name"		"#TF_Wearable_Visor"
 			"equip_regions"
 			{
-				"hat" "1"
-				"face"	"1"
+				"hat"		"1"
+				"face"		"1"
 			}
 			"image_inventory"		"backpack/workshop/player/items/medic/hwn2025_viscer_visor/hwn2025_viscer_visor"
 			"capabilities"
@@ -114341,6 +115371,1027 @@
 				"engineer"		"1"
 			}
 			"holiday_restriction"		"halloween_or_fullmoon"
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31576"
+		{
+			"name"		"Taunt: Dead Mann's Drink"
+			"prefab"		"no_craft taunt dec25_2_empty"
+			"first_sale_date"		"2025/12/02"
+			"item_name"		"#TF_taunt_dead_manns_drink"
+			"item_description"		"#TF_taunt_dead_manns_drink_Desc"
+			"ad_text"		"#TF_taunt_dead_manns_drink_AdText"
+			"image_inventory"		"backpack/workshop/player/items/demo/taunt_dead_manns_drink/taunt_dead_manns_drink"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"used_by_classes"
+			{
+				"demoman"		"1"
+			}
+			"taunt"
+			{
+				"custom_taunt_scene_per_class"
+				{
+					"demoman"		"scenes/workshop/player/demoman/low/taunt_dead_manns_drink.vcd"
+				}
+				"custom_taunt_prop_per_class"
+				{
+					"demoman"		"models/workshop/player/items/demo/taunt_dead_manns_drink/taunt_dead_manns_drink.mdl"
+				}
+			}
+		}
+		"31577"
+		{
+			"name"		"Taunt: The Critical Fail"
+			"prefab"		"no_craft taunt dec25_2_empty"
+			"first_sale_date"		"2025/12/02"
+			"item_name"		"#TF_taunt_the_critical_fail"
+			"item_description"		"#TF_taunt_the_critical_fail_Desc"
+			"ad_text"		"#TF_taunt_the_critical_fail_AdText"
+			"image_inventory"		"backpack/workshop/player/items/all_class/taunt_the_critical_fail/taunt_the_critical_fail"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"		"1"
+				"soldier"		"1"
+				"demoman"		"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"pyro"		"1"
+				"spy"		"1"
+				"engineer"		"1"
+			}
+			"taunt"
+			{
+				"custom_taunt_scene_per_class"
+				{
+					"scout"		"scenes/workshop/player/scout/low/taunt_the_critical_fail.vcd"
+					"sniper"		"scenes/workshop/player/sniper/low/taunt_the_critical_fail.vcd"
+					"soldier"		"scenes/workshop/player/soldier/low/taunt_the_critical_fail.vcd"
+					"demoman"		"scenes/workshop/player/demoman/low/taunt_the_critical_fail.vcd"
+					"medic"		"scenes/workshop/player/medic/low/taunt_the_critical_fail.vcd"
+					"heavy"		"scenes/workshop/player/heavy/low/taunt_the_critical_fail.vcd"
+					"pyro"		"scenes/workshop/player/pyro/low/taunt_the_critical_fail.vcd"
+					"spy"		"scenes/workshop/player/spy/low/taunt_the_critical_fail.vcd"
+					"engineer"		"scenes/workshop/player/engineer/low/taunt_the_critical_fail.vcd"
+				}
+			}
+		}
+		"31578"
+		{
+			"name"		"Taunt: Chairholder"
+			"prefab"		"no_craft taunt dec25_2_empty"
+			"first_sale_date"		"2025/12/02"
+			"item_name"		"#TF_taunt_chairholder"
+			"item_description"		"#TF_taunt_chairholder_Desc"
+			"ad_text"		"#TF_taunt_chairholder_AdText"
+			"attributes"
+			{
+				"taunt is press and hold"
+				{
+					"attribute_class"		"enable_misc2_holdtaunt"
+					"value"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/scout/taunt_chairholder/taunt_chairholder"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"used_by_classes"
+			{
+				"scout"		"1"
+			}
+			"taunt"
+			{
+				"custom_taunt_scene_per_class"
+				{
+					"scout"		"scenes/workshop/player/scout/low/taunt_chairholder.vcd"
+				}
+				"custom_taunt_outro_scene_per_class"
+				{
+					"scout"		"scenes/workshop/player/scout/low/taunt_chairholder_outro.vcd"
+				}
+				"custom_taunt_prop_per_class"
+				{
+					"scout"		"models/workshop/player/items/scout/taunt_chairholder/taunt_chairholder.mdl"
+				}
+			}
+		}
+		"31579"
+		{
+			"name"		"Lazer Gazers"
+			"prefab"		"no_craft misc marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_lazer_gazers"
+			"item_description"		"#TF_dec25_lazer_gazers_Desc"
+			"item_type_name"		"#TF_Wearable_Lazers"
+			"equip_region"		"glasses"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"		"1"
+					"headphones"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/all_class/dec25_lazer_gazers/dec25_lazer_gazers"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player_per_class"
+			{
+				"basename"		"models/workshop/player/items/all_class/dec25_lazer_gazers/dec25_lazer_gazers_%s.mdl"
+			}
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"		"1"
+				"soldier"		"1"
+				"demoman"		"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"pyro"		"1"
+				"spy"		"1"
+				"engineer"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_nvg_pickup.wav"
+			"drop_sound"		"ui/item_helmet_drop.wav"
+		}
+		"31580"
+		{
+			"name"		"Snow Merc"
+			"prefab"		"no_craft misc marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_snow_merc"
+			"item_description"		"#TF_dec25_snow_merc_Desc"
+			"item_type_name"		"#TF_Wearable_Mascot"
+			"equip_region"		"right_shoulder"
+			"drop_type"		"drop"
+			"image_inventory"		"backpack/workshop/player/items/all_class/dec25_snow_merc/dec25_snow_merc"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player_per_class"
+			{
+				"basename"		"models/workshop/player/items/all_class/dec25_snow_merc/dec25_snow_merc_%s.mdl"
+			}
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"		"1"
+				"soldier"		"1"
+				"demoman"		"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"pyro"		"1"
+				"spy"		"1"
+				"engineer"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player_per_class"
+						{
+							"basename"		"models/workshop/player/items/all_class/dec25_snow_merc/dec25_snow_merc_%s.mdl"
+						}
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_snow_merc_style1"
+					}
+					"1"
+					{
+						"model_player_per_class"
+						{
+							"basename"		"models/workshop/player/items/all_class/dec25_snow_merc_style1/dec25_snow_merc_style1_%s.mdl"
+						}
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_snow_merc_style2"
+					}
+				}
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31581"
+		{
+			"name"		"The Old Days Devotion"
+			"prefab"		"no_craft hat marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_old_days"
+			"item_description"		"#TF_dec25_old_days_Desc"
+			"equip_region"		"hat"
+			"propername"		"1"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"		"1"
+					"headphones"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/all_class/dec25_old_days/dec25_old_days"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player_per_class"
+			{
+				"basename"		"models/workshop/player/items/all_class/dec25_old_days/dec25_old_days_%s.mdl"
+			}
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"		"1"
+				"soldier"		"1"
+				"demoman"		"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"pyro"		"1"
+				"spy"		"1"
+				"engineer"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player_per_class"
+						{
+							"basename"		"models/workshop/player/items/all_class/dec25_old_days/dec25_old_days_%s.mdl"
+						}
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_old_days_style1"
+					}
+					"1"
+					{
+						"model_player_per_class"
+						{
+							"basename"		"models/workshop/player/items/all_class/dec25_old_days_style1/dec25_old_days_style1_%s.mdl"
+						}
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_old_days_style2"
+					}
+					"2"
+					{
+						"model_player_per_class"
+						{
+							"basename"		"models/workshop/player/items/all_class/dec25_old_days_style2/dec25_old_days_style2_%s.mdl"
+						}
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_old_days_style3"
+					}
+				}
+			}
+		}
+		"31582"
+		{
+			"name"		"Alpine Hawk"
+			"prefab"		"no_craft hat marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_alpine_hawk"
+			"item_description"		"#TF_dec25_alpine_hawk_Desc"
+			"equip_region"		"hat"
+			"drop_type"		"drop"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/engineer/dec25_alpine_hawk/dec25_alpine_hawk"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/engineer/dec25_alpine_hawk/dec25_alpine_hawk.mdl"
+			"used_by_classes"
+			{
+				"engineer"		"1"
+			}
+		}
+		"31583"
+		{
+			"name"		"Alpine Apparel"
+			"prefab"		"no_craft misc marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_alpine_apparel"
+			"item_description"		"#TF_dec25_alpine_apparel_Desc"
+			"item_type_name"		"#TF_Wearable_Coat"
+			"equip_region"		"shirt"
+			"image_inventory"		"backpack/workshop/player/items/engineer/dec25_alpine_apparel/dec25_alpine_apparel"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/engineer/dec25_alpine_apparel/dec25_alpine_apparel.mdl"
+			"used_by_classes"
+			{
+				"engineer"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31584"
+		{
+			"name"		"Chill-Seeker"
+			"prefab"		"no_craft hat marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_chill_seeker"
+			"item_description"		"#TF_dec25_chill_seeker_Desc"
+			"equip_regions"
+			{
+				"hat"		"1"
+				"glasses"		"1"
+			}
+			"image_inventory"		"backpack/workshop/player/items/heavy/dec25_chill_seeker/dec25_chill_seeker"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/heavy/dec25_chill_seeker/dec25_chill_seeker.mdl"
+			"used_by_classes"
+			{
+				"heavy"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"		"models/workshop/player/items/heavy/dec25_chill_seeker/dec25_chill_seeker.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_chill_seeker_style1"
+					}
+					"1"
+					{
+						"model_player"		"models/workshop/player/items/heavy/dec25_chill_seeker_style1/dec25_chill_seeker_style1.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_chill_seeker_style2"
+					}
+				}
+			}
+		}
+		"31585"
+		{
+			"name"		"Puncher's Polar Puffer"
+			"prefab"		"no_craft misc marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_punchers_polar"
+			"item_description"		"#TF_dec25_punchers_polar_Desc"
+			"item_type_name"		"#TF_Wearable_Coat"
+			"equip_region"		"shirt"
+			"image_inventory"		"backpack/workshop/player/items/heavy/dec25_punchers_polar/dec25_punchers_polar"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/heavy/dec25_punchers_polar/dec25_punchers_polar.mdl"
+			"used_by_classes"
+			{
+				"heavy"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"		"models/workshop/player/items/heavy/dec25_punchers_polar/dec25_punchers_polar.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_punchers_polar_style1"
+					}
+					"1"
+					{
+						"model_player"		"models/workshop/player/items/heavy/dec25_punchers_polar_style1/dec25_punchers_polar_style1.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_punchers_polar_style2"
+					}
+					"2"
+					{
+						"model_player"		"models/workshop/player/items/heavy/dec25_punchers_polar/dec25_punchers_polar.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_punchers_polar_style3"
+						"additional_hidden_bodygroups"
+						{
+							"bullets"		"1"
+						}
+					}
+					"3"
+					{
+						"model_player"		"models/workshop/player/items/heavy/dec25_punchers_polar_style1/dec25_punchers_polar_style1.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_punchers_polar_style4"
+						"additional_hidden_bodygroups"
+						{
+							"bullets"		"1"
+						}
+					}
+				}
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31586"
+		{
+			"name"		"Commonwealth Commander"
+			"prefab"		"no_craft hat marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_commonwealth"
+			"item_description"		"#TF_dec25_commonwealth_Desc"
+			"item_type_name"		"#TF_Wearable_Helmet"
+			"equip_region"		"hat"
+			"drop_type"		"drop"
+			"image_inventory"		"backpack/workshop/player/items/pyro/dec25_commonwealth/dec25_commonwealth"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/pyro/dec25_commonwealth/dec25_commonwealth.mdl"
+			"used_by_classes"
+			{
+				"pyro"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_helmet_pickup.wav"
+			"drop_sound"		"ui/item_helmet_drop.wav"
+		}
+		"31587"
+		{
+			"name"		"Veteran's Visor"
+			"prefab"		"no_craft misc marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_veterans_visor"
+			"item_description"		"#TF_dec25_veterans_visor_Desc"
+			"item_type_name"		"#TF_Wearable_Mask"
+			"equip_region"		"pyro_head_replacement"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"head"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/pyro/dec25_veterans_visor/dec25_veterans_visor"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/pyro/dec25_veterans_visor/dec25_veterans_visor.mdl"
+			"used_by_classes"
+			{
+				"pyro"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_default_pickup.wav"
+			"drop_sound"		"ui/item_default_drop.wav"
+		}
+		"31588"
+		{
+			"name"		"Deserter's Duster"
+			"prefab"		"no_craft misc marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_deserters_duster"
+			"item_description"		"#TF_dec25_deserters_duster_Desc"
+			"item_type_name"		"#TF_Wearable_Armor"
+			"equip_region"		"shirt"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"grenades"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/pyro/dec25_deserters_duster/dec25_deserters_duster"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/pyro/dec25_deserters_duster/dec25_deserters_duster.mdl"
+			"used_by_classes"
+			{
+				"pyro"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31589"
+		{
+			"name"		"Blizzard Bonnet"
+			"prefab"		"no_craft hat marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_blizzard_bonnet"
+			"item_description"		"#TF_dec25_blizzard_bonnet_Desc"
+			"equip_region"		"hat"
+			"drop_type"		"drop"
+			"image_inventory"		"backpack/workshop/player/items/demo/dec25_blizzard_bonnet/dec25_blizzard_bonnet"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/demo/dec25_blizzard_bonnet/dec25_blizzard_bonnet.mdl"
+			"used_by_classes"
+			{
+				"demoman"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"		"models/workshop/player/items/demo/dec25_blizzard_bonnet/dec25_blizzard_bonnet.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_blizzard_bonnet_style1"
+					}
+					"1"
+					{
+						"model_player"		"models/workshop/player/items/demo/dec25_blizzard_bonnet_style1/dec25_blizzard_bonnet_style1.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_blizzard_bonnet_style2"
+					}
+					"2"
+					{
+						"model_player"		"models/workshop/player/items/demo/dec25_blizzard_bonnet_style2/dec25_blizzard_bonnet_style2.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_blizzard_bonnet_style3"
+					}
+				}
+			}
+		}
+		"31590"
+		{
+			"name"		"Festive Fleece"
+			"prefab"		"no_craft misc marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_festive_fleece"
+			"item_description"		"#TF_dec25_festive_fleece_Desc"
+			"item_type_name"		"#TF_Wearable_Sweater"
+			"equip_region"		"shirt"
+			"image_inventory"		"backpack/workshop/player/items/demo/dec25_festive_fleece/dec25_festive_fleece"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/demo/dec25_festive_fleece/dec25_festive_fleece.mdl"
+			"used_by_classes"
+			{
+				"demoman"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"		"models/workshop/player/items/demo/dec25_festive_fleece/dec25_festive_fleece.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_festive_fleece_style1"
+					}
+					"1"
+					{
+						"model_player"		"models/workshop/player/items/demo/dec25_festive_fleece_style1/dec25_festive_fleece_style1.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_festive_fleece_style2"
+					}
+					"2"
+					{
+						"model_player"		"models/workshop/player/items/demo/dec25_festive_fleece_style2/dec25_festive_fleece_style2.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_festive_fleece_style3"
+					}
+				}
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31591"
+		{
+			"name"		"Air Head"
+			"prefab"		"no_craft hat marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_air_head"
+			"item_description"		"#TF_dec25_air_head_Desc"
+			"equip_regions"
+			{
+				"hat"		"1"
+				"glasses"		"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/sniper/dec25_air_head/dec25_air_head"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/sniper/dec25_air_head/dec25_air_head.mdl"
+			"used_by_classes"
+			{
+				"sniper"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"		"models/workshop/player/items/sniper/dec25_air_head/dec25_air_head.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_air_head_style1"
+					}
+					"1"
+					{
+						"model_player"		"models/workshop/player/items/sniper/dec25_air_head_style1/dec25_air_head_style1.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_air_head_style2"
+					}
+				}
+			}
+		}
+		"31592"
+		{
+			"name"		"Sydney Shearling"
+			"prefab"		"no_craft misc marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_sydney_shearling"
+			"item_description"		"#TF_dec25_sydney_shearling_Desc"
+			"item_type_name"		"#TF_Wearable_Coat"
+			"equip_region"		"shirt"
+			"image_inventory"		"backpack/workshop/player/items/sniper/dec25_sydney_shearling/dec25_sydney_shearling"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player"		"models/workshop/player/items/sniper/dec25_sydney_shearling/dec25_sydney_shearling.mdl"
+			"used_by_classes"
+			{
+				"sniper"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31593"
+		{
+			"name"		"Epilogue Locks"
+			"prefab"		"no_craft hat marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_epilogue_locks"
+			"item_description"		"#TF_dec25_epilogue_locks_Desc"
+			"item_type_name"		"#TF_Wearable_Hair"
+			"equip_region"		"hat"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"		"1"
+					"headphones"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/scout/dec25_epilogue_locks/dec25_epilogue_locks"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/scout/dec25_epilogue_locks/dec25_epilogue_locks.mdl"
+			"used_by_classes"
+			{
+				"scout"		"1"
+			}
+		}
+		"31594"
+		{
+			"name"		"Willis' Warmer"
+			"prefab"		"no_craft misc marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_willis_warmer"
+			"item_description"		"#TF_dec25_willis_warmer_Desc"
+			"item_type_name"		"#TF_Wearable_Sweater"
+			"equip_region"		"shirt"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"dogtags"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/scout/dec25_willis_warmer/dec25_willis_warmer"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player"		"models/workshop/player/items/scout/dec25_willis_warmer/dec25_willis_warmer.mdl"
+			"used_by_classes"
+			{
+				"scout"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"		"models/workshop/player/items/scout/dec25_willis_warmer/dec25_willis_warmer.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_willis_warmer_style1"
+					}
+					"1"
+					{
+						"model_player"		"models/workshop/player/items/scout/dec25_willis_warmer_style1/dec25_willis_warmer_style1.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_willis_warmer_style2"
+					}
+				}
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31595"
+		{
+			"name"		"The Sole Providers"
+			"prefab"		"no_craft misc marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_sole_providers"
+			"item_description"		"#TF_dec25_sole_providers_Desc"
+			"item_type_name"		"#TF_Wearable_Pants"
+			"equip_region"		"pants"
+			"propername"		"1"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"shoes_socks"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/scout/dec25_sole_providers/dec25_sole_providers"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player"		"models/workshop/player/items/scout/dec25_sole_providers/dec25_sole_providers.mdl"
+			"used_by_classes"
+			{
+				"scout"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31596"
+		{
+			"name"		"Scrooge McCrocket"
+			"prefab"		"no_craft hat marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_scrooge"
+			"item_description"		"#TF_dec25_scrooge_Desc"
+			"equip_region"		"hat"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/soldier/dec25_scrooge/dec25_scrooge"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/soldier/dec25_scrooge/dec25_scrooge.mdl"
+			"used_by_classes"
+			{
+				"soldier"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"		"models/workshop/player/items/soldier/dec25_scrooge/dec25_scrooge.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_scrooge_style1"
+					}
+					"1"
+					{
+						"model_player"		"models/workshop/player/items/soldier/dec25_scrooge_style1/dec25_scrooge_style1.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_scrooge_style2"
+					}
+					"2"
+					{
+						"model_player"		"models/workshop/player/items/soldier/dec25_scrooge_style2/dec25_scrooge_style2.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_scrooge_style3"
+					}
+					"3"
+					{
+						"model_player"		"models/workshop/player/items/soldier/dec25_scrooge_style3/dec25_scrooge_style3.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_scrooge_style4"
+					}
+				}
+			}
+		}
+		"31597"
+		{
+			"name"		"Black Tie Affair"
+			"prefab"		"no_craft misc marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_black_tie"
+			"item_description"		"#TF_dec25_black_tie_Desc"
+			"item_type_name"		"#TF_Wearable_Suit"
+			"equip_region"		"spy_coat"
+			"image_inventory"		"backpack/workshop/player/items/spy/dec25_black_tie/dec25_black_tie"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/spy/dec25_black_tie/dec25_black_tie.mdl"
+			"used_by_classes"
+			{
+				"spy"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"		"models/workshop/player/items/spy/dec25_black_tie/dec25_black_tie.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_black_tie_style1"
+					}
+					"1"
+					{
+						"model_player"		"models/workshop/player/items/spy/dec25_black_tie_style1/dec25_black_tie_style1.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_black_tie_style2"
+					}
+				}
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31598"
+		{
+			"name"		"Aristocravat"
+			"prefab"		"no_craft misc marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_aristocravat"
+			"item_description"		"#TF_dec25_aristocravat_Desc"
+			"item_type_name"		"#TF_Wearable_Tie"
+			"equip_region"		"shirt"
+			"image_inventory"		"backpack/workshop/player/items/spy/dec25_aristocravat/dec25_aristocravat"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/spy/dec25_aristocravat/dec25_aristocravat.mdl"
+			"used_by_classes"
+			{
+				"spy"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"		"models/workshop/player/items/spy/dec25_aristocravat/dec25_aristocravat.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_aristocravat_style1"
+					}
+					"1"
+					{
+						"model_player"		"models/workshop/player/items/spy/dec25_aristocravat_style1/dec25_aristocravat_style1.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_aristocravat_style2"
+					}
+				}
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31599"
+		{
+			"name"		"Flatline Flatcap"
+			"prefab"		"no_craft hat marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_flatline_flatcap"
+			"item_description"		"#TF_dec25_flatline_flatcap_Desc"
+			"equip_region"		"hat"
+			"image_inventory"		"backpack/workshop/player/items/medic/dec25_flatline_flatcap/dec25_flatline_flatcap"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/medic/dec25_flatline_flatcap/dec25_flatline_flatcap.mdl"
+			"used_by_classes"
+			{
+				"medic"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"		"models/workshop/player/items/medic/dec25_flatline_flatcap/dec25_flatline_flatcap.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_flatline_flatcap_style1"
+					}
+					"1"
+					{
+						"model_player"		"models/workshop/player/items/medic/dec25_flatline_flatcap_style1/dec25_flatline_flatcap_style1.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec25_flatline_flatcap_style2"
+					}
+				}
+			}
+		}
+		"31600"
+		{
+			"name"		"Cardiologist's Cardigan"
+			"prefab"		"no_craft misc marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_cardiologists_cardigan"
+			"item_description"		"#TF_dec25_cardiologists_cardigan_Desc"
+			"item_type_name"		"#TF_Wearable_Sweater"
+			"equip_region"		"shirt"
+			"image_inventory"		"backpack/workshop/player/items/medic/dec25_cardiologists_cardigan/dec25_cardiologists_cardigan"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player"		"models/workshop/player/items/medic/dec25_cardiologists_cardigan/dec25_cardiologists_cardigan.mdl"
+			"used_by_classes"
+			{
+				"medic"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31601"
+		{
+			"name"		"Scrub Stompers"
+			"prefab"		"no_craft misc marketable dec25_2_empty"
+			"item_name"		"#TF_dec25_scrub_stompers"
+			"item_description"		"#TF_dec25_scrub_stompers_Desc"
+			"item_type_name"		"#TF_Wearable_Pants"
+			"equip_region"		"pants"
+			"image_inventory"		"backpack/workshop/player/items/medic/dec25_scrub_stompers/dec25_scrub_stompers"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/medic/dec25_scrub_stompers/dec25_scrub_stompers.mdl"
+			"used_by_classes"
+			{
+				"medic"		"1"
+			}
 			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
 			"drop_sound"		"ui/item_hat_drop.wav"
 		}
@@ -204668,6 +206719,92 @@
 				"basename"	"models/workshop/player/items/all_class/udl_staff_2/udl_staff_2_%s.mdl"
 			}
 		}
+		"18623"
+		{		
+			"name"				"TF2Maps Charitable Heart 2025"
+			"prefab"			"tournament_medal"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"item_type_name"	"#TF_Wearable_CommunityMedal"
+			"item_name"			"#TF2MapsCharitableHeart2025"
+			"item_description"	"#TF2MapsCharitableHeart2025_Desc"
+			"image_inventory"	"backpack/workshop/player/items/all_class/72hr_jamheart/72hr_jamheart"
+			"model_player_per_class"
+			{
+				"basename"		"models/workshop/player/items/all_class/72hr_jamheart/72hr_jamheart_%s.mdl"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player_per_class"
+						{
+							"basename"		"models/workshop/player/items/all_class/72hr_jamheart/72hr_jamheart_%s.mdl"
+						}
+						"name"		"#TF_TournamentMedal_72hr_jimijam_style0"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+					}
+					"1"
+					{
+						"model_player_per_class"
+						{
+							"basename"		"models/workshop/player/items/all_class/72hr_jamheart_2/72hr_jamheart_2_%s.mdl"
+						}
+						"name"		"#TF_TournamentMedal_72hr_jimijam_style1"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+					}
+				}
+			}
+		}
+		"18624"
+		{		
+			"name"				"TF2Maps 72hr TF2Jam Participant 2025"
+			"prefab"			"tournament_medal"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"item_type_name"	"#TF_Wearable_CommunityMedal"
+			"item_name"			"#TF_TournamentMedal_72hr_jimijam"
+			"item_description"	"#TF_TournamentMedal_2025"
+			"image_inventory"	"backpack/workshop/player/items/all_class/72hr_jimijam/72hr_jimijam"
+			"model_player_per_class"
+			{
+				"basename"		"models/workshop/player/items/all_class/72hr_jimijam/72hr_jimijam_%s.mdl"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player_per_class"
+						{
+							"basename"		"models/workshop/player/items/all_class/72hr_jimijam/72hr_jimijam_%s.mdl"
+						}
+						"name"		"#TF_TournamentMedal_72hr_jimijam_style0"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+					}
+					"1"
+					{
+						"model_player_per_class"
+						{
+							"basename"		"models/workshop/player/items/all_class/72hr_jimijam_2/72hr_jimijam_2_%s.mdl"
+						}
+						"name"		"#TF_TournamentMedal_72hr_jimijam_style1"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+					}
+				}
+			}
+		}
 
 
 
@@ -206482,6 +208619,73 @@
 			"ad_text"			"#TF_MapToken_Marshlands_AdText"
 			"image_inventory"	"backpack/player/items/all_class/stamp_marshlands"
 		}
+		"2560"
+		{
+			"name" "Map Token Nutcracker"
+			"first_sale_date"	"2025/11/29"
+			"prefab"		"map_token dec25_2_empty"
+			"item_name"		"#TF_MapToken_Nutcracker"
+			"item_description"	"#TF_MapToken_Nutcracker_Desc"
+			"map_name"		"#TF_Map_Nutcracker"
+			"ad_text"			"#TF_MapToken_Nutcracker_AdText"
+			"image_inventory"	"backpack/player/items/all_class/stamp_nutcracker"
+		}
+		"2561"
+		{
+			"name" "Map Token Gavle"
+			"first_sale_date"	"2025/11/29"
+			"prefab"		"map_token dec25_2_empty"
+			"item_name"		"#TF_MapToken_Gavle"
+			"item_description"	"#TF_MapToken_Gavle_Desc"
+			"map_name"		"#TF_Map_Gavle"
+			"ad_text"			"#TF_MapToken_Gavle_AdText"
+			"image_inventory"	"backpack/player/items/all_class/stamp_gavle"
+		}
+		"2562"
+		{
+			"name" "Map Token Sidewinder"
+			"first_sale_date"	"2025/11/29"
+			"prefab"		"map_token dec25_2_empty"
+			"item_name"		"#TF_MapToken_Sidewinder"
+			"item_description"	"#TF_MapToken_Sidewinder_Desc"
+			"map_name"		"#TF_Map_Sidewinder"
+			"ad_text"			"#TF_MapToken_Sidewinder_AdText"
+			"image_inventory"	"backpack/player/items/all_class/stamp_sidewinder"
+		}
+		"2563"
+		{
+			"name" "Map Token Abbey"
+			"first_sale_date"	"2025/11/29"
+			"prefab"		"map_token dec25_2_empty"
+			"item_name"		"#TF_MapToken_Abbey"
+			"item_description"	"#TF_MapToken_Abbey_Desc"
+			"map_name"		"#TF_Map_Abbey"
+			"ad_text"			"#TF_MapToken_Abbey_AdText"
+			"image_inventory"	"backpack/player/items/all_class/stamp_abbey"
+		}
+		"2564"
+		{
+			"name" "Map Token Winter Ridge"
+			"first_sale_date"	"2025/11/29"
+			"prefab"		"map_token dec25_2_empty"
+			"item_name"		"#TF_MapToken_WinterRidge"
+			"item_description"	"#TF_MapToken_WinterRidge_Desc"
+			"map_name"		"#TF_Map_WinterRidge"
+			"ad_text"			"#TF_MapToken_WinterRidge_AdText"
+			"image_inventory"	"backpack/player/items/all_class/stamp_winter_ridge"
+		}
+		"2565"
+		{
+			"name" "Map Token Matterhorn"
+			"first_sale_date"	"2025/11/29"
+			"prefab"		"map_token dec25_2_empty"
+			"item_name"		"#TF_MapToken_Matterhorn"
+			"item_description"	"#TF_MapToken_Matterhorn_Desc"
+			"map_name"		"#TF_Map_Matterhorn"
+			"ad_text"			"#TF_MapToken_Matterhorn_AdText"
+			"image_inventory"	"backpack/player/items/all_class/stamp_matterhorn"
+		}
+
 
 
 
@@ -215497,6 +217701,93 @@
 			"item_rarity"	"rare"
 			"image_inventory"	"backpack/player/items/crafting/halloween2021_case2025"
 		}
+		"5974"
+		{
+			"name"	"Self Gift - Stocking Stuffer 2025" 
+			"prefab" "randomgift"
+			"tool"
+			{
+				"usage"
+				{
+					"loot_list"	   	"stocking_stuffer_2017_root" 
+					"max_recipients"	"1"
+					"target_rule"	"only_self"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"	"1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"item_name"	"#TF_StockingStuffer_2025"
+			"item_description"	"#TF_StockingStuffer_Desc"
+			"image_inventory"	"backpack/crafting/winter2013_stocking_stuffer"
+			"min_ilevel"	"13"
+			"max_ilevel"	"13"
+		}
+		"5975"
+		{
+			"name"	"Winter 2025 Cosmetic Key" 
+			"first_sale_date"	"2025/12/04"
+			"prefab" "eventkey dec25_2_empty"
+			"item_name"			"#TF_Tool_Winter2025CosmeticKey"					
+			"item_description"	"#TF_Tool_Winter2025CosmeticKey_Desc"						
+			"ad_text"			"#TF_Tool_Winter2025CosmeticKey_AdText" 
+			"image_inventory"	"backpack/crafting/cosmetic_case_key_xmas2025"
+			"tool"
+			{
+				"type"	"decoder_ring"
+				"usage_capabilities"
+				{
+					"decodable"	"1"
+				}
+				"restriction"	"winter2025"
+			}
+		}
+		"5976" 
+		{
+			"name"	"Winter 2025 Cosmetic Case"
+			"first_sale_date"	"2025/12/04"
+			"prefab" "base_cosmetic_case dec25_2_empty"
+			"tool"
+			{
+				"restriction"	"winter2025"
+			}
+			"item_name"		"#TF_Winter2025CosmeticCase"
+			"item_description"	"#TF_Winter2025CosmeticCase_desc"
+			"ad_text"			"#TF_Winter2025CosmeticCase_AdText"
+			"image_inventory"	"backpack/player/items/crafting/cosmetic_case_ribbon_2025"
+			"model_player"		"models/player/items/crafting/cosmetic_case_ribbon.mdl"
+			"default_skin"		"14"
+			"static_attrs"
+			{
+				"set supply crate series"		"150"		
+				"hide crate series number"		"1"
+				"decoded by itemdefindex"		"5975"
+				"weapon_allow_inspect"			"1"
+				"is winter case"				"1"
+			}
+			"event_desc_footer"			"#Footer_Winter2025Cosmetics"
+			"collection_reference"		"Winter2025Cosmetics_collection"
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"skin" "14"
+					}
+				}
+			}
+		}
 
 		"5999"				
 		{
@@ -219985,6 +222276,114 @@
 			"item_description"	"#TF_StrangeFilter_CommunityMapMarshlands_Desc"
 			"ad_text"			"#TF_MapToken_Marshlands_AdText"
 		}
+		"6677"
+		{
+			"name"	"Strange Filter: Nutcracker (Community)"
+			"first_sale_date"	"2025/11/28"
+			"prefab"	"strange_part_restriction dec25_2_empty"
+			"tool"
+			{
+				"usage"
+				{
+					"restriction_type"	"map"
+					"restriction_value"	"pd_nutcracker"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_filter_nutcracker"
+			"item_name"	"#TF_StrangeFilter_CommunityMapNutcracker"
+			"item_description"	"#TF_StrangeFilter_CommunityMapNutcracker_Desc"
+			"ad_text"			"#TF_MapToken_Nutcracker_AdText"
+		}
+		"6678"
+		{
+			"name"	"Strange Filter: Gavle (Community)"
+			"first_sale_date"	"2025/11/28"
+			"prefab"	"strange_part_restriction dec25_2_empty"
+			"tool"
+			{
+				"usage"
+				{
+					"restriction_type"	"map"
+					"restriction_value"	"cppl_gavle"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_filter_gavle"
+			"item_name"	"#TF_StrangeFilter_CommunityMapGavle"
+			"item_description"	"#TF_StrangeFilter_CommunityMapGavle_Desc"
+			"ad_text"			"#TF_MapToken_Gavle_AdText"
+		}
+		"6679"
+		{
+			"name"	"Strange Filter: Sidewinder (Community)"
+			"first_sale_date"	"2025/11/28"
+			"prefab"	"strange_part_restriction dec25_2_empty"
+			"tool"
+			{
+				"usage"
+				{
+					"restriction_type"	"map"
+					"restriction_value"	"ctf_sidewinder"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_filter_sidewinder"
+			"item_name"	"#TF_StrangeFilter_CommunityMapSidewinder"
+			"item_description"	"#TF_StrangeFilter_CommunityMapSidewinder_Desc"
+			"ad_text"			"#TF_MapToken_Sidewinder_AdText"
+		}
+		"6680"
+		{
+			"name"	"Strange Filter: Abbey (Community)"
+			"first_sale_date"	"2025/11/28"
+			"prefab"	"strange_part_restriction dec25_2_empty"
+			"tool"
+			{
+				"usage"
+				{
+					"restriction_type"	"map"
+					"restriction_value"	"2koth_abbey"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_filter_abbey"
+			"item_name"	"#TF_StrangeFilter_CommunityMapAbbey"
+			"item_description"	"#TF_StrangeFilter_CommunityMapAbbey_Desc"
+			"ad_text"			"#TF_MapToken_Abbey_AdText"
+		}
+		"6681"
+		{
+			"name"	"Strange Filter: Winter Ridge (Community)"
+			"first_sale_date"	"2025/11/28"
+			"prefab"	"strange_part_restriction dec25_2_empty"
+			"tool"
+			{
+				"usage"
+				{
+					"restriction_type"	"map"
+					"restriction_value"	"koth_winter_ridge"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_filter_winter_ridge"
+			"item_name"	"#TF_StrangeFilter_CommunityMapWinterRidge"
+			"item_description"	"#TF_StrangeFilter_CommunityMapWinterRidge_Desc"
+			"ad_text"			"#TF_MapToken_WinterRidge_AdText"
+		}
+		"6682"
+		{
+			"name"	"Strange Filter: Matterhorn (Community)"
+			"first_sale_date"	"2025/11/28"
+			"prefab"	"strange_part_restriction dec25_2_empty"
+			"tool"
+			{
+				"usage"
+				{
+					"restriction_type"	"map"
+					"restriction_value"	"plr_matterhorn"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_filter_matterhorn"
+			"item_name"	"#TF_StrangeFilter_CommunityMapMatterhorn"
+			"item_description"	"#TF_StrangeFilter_CommunityMapMatterhorn_Desc"
+			"ad_text"			"#TF_MapToken_Matterhorn_AdText"
+		}
 
 		"8926"
 		{
@@ -220210,7 +222609,7 @@
 			"prefab"	"unusualifier_base"
 			"static_attrs"
 			{
-				"unusualifier_attribute_template_name"	"taunt_unusualifier_effects"
+				"unusualifier_attribute_template_name"		"taunt_unusualifier_smissmas2025_effects"
 			}
 		}
 
@@ -228203,6 +230602,197 @@
 				"Map Token Afterlife"			"1"
 				"Map Token Devilcross"			"1"
 				"Map Token Marshlands"			"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_MapTokens"
+			"item_description"	"#TF_Bundle_MapTokens_Desc"
+			"image_inventory"	"backpack/player/items/all_class/stamp_collection"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
+			"drop_sound"		"ui/item_paper_pickup.wav"
+		}
+		"2179"
+		{
+			"name" "Map Token Bundle 30"
+			"prefab"	"default_bundle_payment dec25_2_empty"
+			"first_sale_date"	"2025/12/01"
+			"item_class"	"bundle"
+			"capabilities"
+			{
+				"can_craft_if_purchased"	"1"
+			}
+			"bundle"
+			{
+				"Map Token Egypt"		"1"
+				"Map Token Coldfront"	"1"
+				"Map Token Fastlane"	"1"
+				"Map Token Turbine"		"1"
+				"Map Token Steel"		"1"
+				"Map Token Junction"	"1"
+				"Map Token Watchtower"	"1"
+				"Map Token Hoodoo"		"1"
+				"Map Token Offblast"	"1"
+				"Map Token Yukon"		"1"
+				"Map Token Harvest"		"1"
+				"Map Token Freight"		"1"
+				"Map Token Mountain Lab"		"1"
+				"Map Token Manor Event"			"1"
+				"Map Token Nightfall"			"1"
+				"Map Token Frontier"			"1"
+				"Map Token Lakeside"			"1"
+				"Map Token Gullywash"			"1"
+				"Map Token Kong King"			"1"
+				"Map Token Process"				"1"
+				"Map Token Standin"				"1"
+				"Map Token Snakewater"			"1"
+				"Map Token Snowplow"			"1"
+				"Map Token Borneo"				"1"
+				"Map Token Suijin"				"1"
+				"Map Token 2Fort Invasion"		"1"
+				"Map Token Probed"				"1"
+				"Map Token Watergate"			"1"
+				"Map Token Byre"				"1"
+				"Map Token Gorge Event"			"1"
+				"Map Token Sunshine Event"		"1"
+				"Map Token Moonshine Event"		"1"
+				"Map Token Millstone Event"		"1"
+				"Map Token Snowycoast"			"1"
+				"Map Token Vanguard"			"1"
+				"Map Token Landfall"			"1"
+				"Map Token Highpass"			"1"
+				"Map Token Sunshine"			"1"
+				"Map Token Metalworks"			"1"
+				"Map Token Swiftwater"			"1"
+				"Map Token Maple Ridge Event"	"1"
+				"Map Token Fifth Curve Event"	"1"
+				"Map Token Pit Of Death"		"1"
+				"Map Token Mossrock"			"1"
+				"Map Token Lazarus"				"1"
+				"Map Token Banana Bay"			"1"
+				"Map Token Enclosure"			"1"
+				"Map Token Brazil"				"1"
+				"Map Token Bagel Event"			"1"
+				"Map Token Rumble Event"		"1"
+				"Map Token Monster Bash"		"1"
+				"Map Token Slasher"				"1"
+				"Map Token Cursed Cove"			"1"
+				"Map Token Laughter"			"1"
+				"Map Token Precipice"			"1"
+				"Map Token Megalo"				"1"
+				"Map Token Hassle Castle"		"1"
+				"Map Token Bloodwater"			"1"
+				"Map Token Undergrove Event"	"1"
+				"Map Token Pier"				"1"
+				"Map Token SnowVille"			"1"
+				"Map Token Snowfall"			"1"
+				"Map Token Wutville"			"1"
+				"Map Token Farmageddon"			"1"
+				"Map Token Los Muertos"			"1"
+				"Map Token Erebus"				"1"
+				"Map Token Terror"				"1"
+				"Map Token Graveyard"			"1"
+				"Map Token Sinthetic"			"1"
+				"Map Token Polar"				"1"
+				"Map Token Bread Space"			"1"
+				"Map Token Chilly"				"1"
+				"Map Token Cascade"				"1"
+				"Map Token Altitude"			"1"
+				"Map Token Doublefrost"			"1"
+				"Map Token Soul Mill"			"1"
+				"Map Token Helltrain"			"1"
+				"Map Token Bonesaw"				"1"
+				"Map Token Crasher"				"1"
+				"Map Token Ghoulpit"			"1"
+				"Map Token Spookeyridge"		"1"
+				"Map Token Frostwatch"			"1"
+				"Map Token Frostcliff"			"1"
+				"Map Token Rumford"				"1"
+				"Map Token Frosty"				"1"
+				"Map Token Coal Pit"			"1"
+				"Map Token Sharkbay"			"1"
+				"Map Token Rotunda"				"1"
+				"Map Token Phoenix"				"1"
+				"Map Token Cashworks"			"1"
+				"Map Token Venice"				"1"
+				"Map Token Reckoner"			"1"
+				"Map Token Sulfur"				"1"
+				"Map Token Hardwood"			"1"
+				"Map Token Pelican Peak"		"1"
+				"Map Token Selbyen"				"1"
+				"Map Token VSH Tiny Rock"		"1"
+				"Map Token VSH Distillery"		"1"
+				"Map Token VSH Skirmish"		"1"
+				"Map Token VSH Nucleus"			"1"
+				"Map Token Perks"				"1"
+				"Map Token Slime"				"1"
+				"Map Token Lava Pit"			"1"
+				"Map Token Mannsylvania"		"1"
+				"Map Token Sandcastle"			"1"
+				"Map Token Spineyard"			"1"
+				"Map Token Corruption"			"1"
+				"Map Token Murky"				"1"
+				"Map Token Atoll"				"1"
+				"Map Token Woods"				"1"
+				"Map Token Sanitarium"			"1"
+				"Map Token Devastation"			"1"
+				"Map Token Snowtower"			"1"
+				"Map Token Krampus"				"1"
+				"Map Token Haarp"				"1"
+				"Map Token Brew"				"1"
+				"Map Token Hacksaw"				"1"
+				"Map Token Turbine Event"		"1"
+				"Map Token Carrier"				"1"
+				"Map Token Galleria"			"1"
+				"Map Token Emerge"				"1"
+				"Map Token Camber"				"1"
+				"Map Token Embargo"				"1"
+				"Map Token Odyssey"				"1"
+				"Map Token Megaton"				"1"
+				"Map Token Cachoeira"			"1"
+				"Map Token Overgrown"			"1"
+				"Map Token Hadal"				"1"
+				"Map Token Applejack"			"1"
+				"Map Token Atom Smash"			"1"
+				"Map Token Canaveral"			"1"
+				"Map Token Burghausen"			"1"
+				"Map Token Toxic"				"1"
+				"Map Token Darkmarsh"			"1"
+				"Map Token Freaky Fair"			"1"
+				"Map Token Dynamite"			"1"
+				"Map Token Circus"				"1"
+				"Map Token Outburst"			"1"
+				"Map Token Blazehattan"			"1"
+				"Map Token Overcast"			"1"
+				"Map Token Fortezza"			"1"
+				"Map Token Penguin Peak"		"1"
+				"Map Token Patagonia"			"1"
+				"Map Token Cutter"				"1"
+				"Map Token Maul"				"1"
+				"Map Token Citadel"				"1"
+				"Map Token Aquarius"			"1"
+				"Map Token Fulgur"				"1"
+				"Map Token Cargo"				"1"
+				"Map Token Conifer"				"1"
+				"Map Token Boardwalk"			"1"
+				"Map Token Blowout"				"1"
+				"Map Token Mannhole"			"1"
+				"Map Token Demolition"			"1"
+				"Map Token Pressure"			"1"
+				"Map Token Cowerhouse"			"1"
+				"Map Token Dusker"				"1"
+				"Map Token Afterlife"			"1"
+				"Map Token Devilcross"			"1"
+				"Map Token Marshlands"			"1"
+				"Map Token Nutcracker"			"1"
+				"Map Token Gavle"				"1"
+				"Map Token Sidewinder"			"1"
+				"Map Token Abbey"				"1"
+				"Map Token Winter Ridge"		"1"
+				"Map Token Matterhorn"			"1"
 			}
 			"item_type_name"	"#TF_StoreBundle"
 			"item_name"		"#TF_Bundle_MapTokens"
@@ -238611,6 +241201,41 @@
 			}
 		}
 
+		"unusual_hat_chance_smissmas2025_case"
+		{
+			"item_criteria_templates"
+			{
+				"unusual_hat_criteria"			"1"
+			}
+
+			"is_even_chance_attr"
+			{
+				"hat only unusual effect"			"393" 
+				"hat only unusual effect"			"394" 
+				"hat only unusual effect"			"395" 
+
+				"hat only unusual effect"			"396"
+				"hat only unusual effect"			"396"
+				"hat only unusual effect"			"396"
+
+				"hat only unusual effect"			"397" 
+				"hat only unusual effect"			"397" 
+				"hat only unusual effect"			"397" 
+				
+				"hat only unusual effect"			"399" 
+				"hat only unusual effect"			"399" 
+				"hat only unusual effect"			"401" 
+				
+				"hat only unusual effect"			"402" 
+				"hat only unusual effect"			"403" 
+				"hat only unusual effect"			"404" 
+
+				"hat only unusual effect"			"405"
+				"hat only unusual effect"			"405"
+				"hat only unusual effect"			"405"
+			}
+		}
+
 		"kill_eater_template"
 		{
 			"kill eater"
@@ -239569,6 +242194,35 @@
 			}
 		}
 
+		"taunt_unusualifier_smissmas2025_effects"
+		{
+			"item_criteria_templates"
+			{
+				"unusual_taunt_criteria"			"1"
+			}
+
+			"is_even_chance_attr"
+			{
+				"taunt only unusual effect"			"3213" 
+				"taunt only unusual effect"			"3213" 
+
+				"taunt only unusual effect"			"3215" 
+				"taunt only unusual effect"			"3216" 
+
+				"taunt only unusual effect"			"3217" 
+				"taunt only unusual effect"			"3218" 
+
+				"taunt only unusual effect"			"3219" 
+				"taunt only unusual effect"			"3221" 
+
+				"taunt only unusual effect"			"3222" 
+				"taunt only unusual effect"			"3222" 
+
+				"taunt only unusual effect"			"3223" 
+				"taunt only unusual effect"			"3223" 
+			}
+		}
+
 		"taunt_unusualifier_items"
 		{
 			"is_even_chance_attr"
@@ -239686,6 +242340,9 @@
 				"tool target item"		"31545"	
 				"tool target item"		"31546"	
 				"tool target item"		"31547"	
+				"tool target item"		"31576"	
+				"tool target item"		"31577"	
+				"tool target item"		"31578"	
 			}
 		}
 		
@@ -240322,7 +242979,7 @@
 		{
 			"attribute_templates"
 			{
-				"unusual_hat_chance_cosmetics_case"		"1"		
+				"unusual_hat_chance_smissmas2025_case"		"1"		
 				"check_unusual_quality"						"1"		
 			}
 		}
@@ -242692,41 +245349,16 @@
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"Invasion_collection_01_lootlist"
-			"lootlist_jobs"
-			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_invasion"		"1"		
-					"check_unusual_quality"				"1"		
-				}	
-			}
 		}
 		"invasion_case02_loot_list_97"
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"Invasion_collection_02_lootlist"
-			"lootlist_jobs"
-			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_invasion"		"1"		
-					"unusual_taunt_effects_series_1"	"1"
-					"check_unusual_quality"				"1"		
-				}	
-			}
 		}
 		"halloween2015_case01_loot_list_98"
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"halloween2015_collection_lootlist"
-			"lootlist_jobs"
-			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_halloween2015"	"1"		
-					"check_unusual_quality"				"1"		
-				}
-			}
 		}
 		"tough_break_case_collection_01_lootlist_99"
 		{
@@ -242790,14 +245422,6 @@
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"halloween2016_collection_lootlist"
-			"lootlist_jobs"
-			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_halloween2016_case"	"1"		
-					"check_unusual_quality"				"1"		
-				}
-			}
 			"lootlist_jobs"
 			{
 				"additional_drop"
@@ -243072,14 +245696,6 @@
 			"loot_list_collection"		"halloween2018_collection"
 			"lootlist_jobs"
 			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_halloween2018_case"	"1"		
-					"check_unusual_quality"				"1"		
-				}
-			}
-			"lootlist_jobs"
-			{
 				"additional_drop"
 				{
 					"loot_list"					"halloween_2018_bonus_items"
@@ -243122,14 +245738,6 @@
 			"loot_list_collection"		"halloween2019_collection"
 			"lootlist_jobs"
 			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_halloween2019_case"	"1"		
-					"check_unusual_quality"				"1"		
-				}
-			}
-			"lootlist_jobs"
-			{
 				"additional_drop"
 				{
 					"loot_list"					"halloween_2019_bonus_items"
@@ -243147,14 +245755,6 @@
 					"loot_list"					"festivizer_lootlist"
 				}
 			}
-			"lootlist_jobs"
-			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_smissmas2019_case"	"1"		
-					"check_unusual_quality"					"1"		
-				}
-			}
 		}
 		"winter2019_war_paint_loot_list_126"
 		{
@@ -243165,14 +245765,6 @@
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"Summer2020Cosmetics_collection"
-			"lootlist_jobs"
-			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_summer2020_case"		"1"		
-					"check_unusual_quality"						"1"		
-				}	
-			}
 		}
 		"halloween2020_bonus_items"
 		{
@@ -243187,14 +245779,6 @@
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"halloween2020_collection"
-			"lootlist_jobs"
-			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_halloween2020_case"	"1"		
-					"check_unusual_quality"				"1"		
-				}
-			}
 			"lootlist_jobs"
 			{
 				"additional_drop"
@@ -243219,14 +245803,6 @@
 					"loot_list"					"festivizer_lootlist"
 				}
 			}
-			"lootlist_jobs"
-			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_smissmas2020_case"	"1"		
-					"check_unusual_quality"					"1"		
-				}
-			}
 		}
 		"winter2020_war_paint_loot_list_131"
 		{
@@ -243237,14 +245813,6 @@
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"Summer2021Cosmetics_collection"
-			"lootlist_jobs"
-			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_summer2021_case"		"1"		
-					"check_unusual_quality"						"1"		
-				}	
-			}
 		}
 		"halloween2021_bonus_items"
 		{
@@ -243259,14 +245827,6 @@
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"halloween2021_collection"
-			"lootlist_jobs"
-			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_halloween2021_case"	"1"		
-					"check_unusual_quality"				"1"		
-				}
-			}
 			"lootlist_jobs"
 			{
 				"additional_drop"
@@ -243291,27 +245851,11 @@
 					"loot_list"					"festivizer_lootlist"
 				}
 			}
-			"lootlist_jobs"
-			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_smissmas2021_case"	"1"		
-					"check_unusual_quality"					"1"		
-				}
-			}
 		}
 		"summer2022_cosmetic_loot_list_136"
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"Summer2022Cosmetics_collection"
-			"lootlist_jobs"
-			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_summer2022_case"		"1"		
-					"check_unusual_quality"						"1"		
-				}	
-			}
 		}
 		"halloween2022_bonus_items"
 		{
@@ -243325,14 +245869,6 @@
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"halloween2022_collection"
-			"lootlist_jobs"
-			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_halloween2022_case"	"1"		
-					"check_unusual_quality"				"1"		
-				}
-			}
 			"lootlist_jobs"
 			{
 				"additional_drop"
@@ -243357,27 +245893,11 @@
 					"loot_list"					"festivizer_lootlist"
 				}
 			}
-			"lootlist_jobs"
-			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_smissmas2022_case"	"1"		
-					"check_unusual_quality"					"1"		
-				}
-			}
 		}
 		"summer2023_cosmetic_loot_list_140"
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"Summer2023Cosmetics_collection"
-			"lootlist_jobs"
-			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_summer2023_case"		"1"		
-					"check_unusual_quality"						"1"		
-				}	
-			}
 		}
 		"summer2023_war_paint_loot_list_141"
 		{
@@ -243397,14 +245917,6 @@
 			"loot_list_collection"		"halloween2023_collection"
 			"lootlist_jobs"
 			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_halloween2023_case"	"1"		
-					"check_unusual_quality"				"1"		
-				}
-			}
-			"lootlist_jobs"
-			{
 				"additional_drop"
 				{
 					"loot_list"				"halloween2023_bonus_items"
@@ -243422,40 +245934,16 @@
 					"loot_list"					"festivizer_lootlist"
 				}
 			}
-			"lootlist_jobs"
-			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_smissmas2023_case"	"1"		
-					"check_unusual_quality"					"1"		
-				}
-			}
 		}
 		"summer2024_cosmetic_loot_list_144"
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"Summer2024Cosmetics_collection"
-			"lootlist_jobs"
-			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_summer2024_case"		"1"		
-					"check_unusual_quality"						"1"		
-				}	
-			}
 		}
 		"halloween2024_cosmetic_loot_list_145"
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"halloween2024_collection"
-			"lootlist_jobs"
-			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_halloween2024_case"		"1"		
-					"check_unusual_quality"						"1"		
-				}
-			}
 		}
 		"halloween2024_war_paint_loot_list_146"
 		{
@@ -243473,27 +245961,11 @@
 					"loot_list"					"festivizer_lootlist"
 				}
 			}
-			"lootlist_jobs"
-			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_smissmas2024_case"	"1"		
-					"check_unusual_quality"					"1"		
-				}
-			}
 		}
 		"summer2025_cosmetic_loot_list_148"
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"Summer2025Cosmetics_collection"
-			"lootlist_jobs"
-			{
-				"attribute_templates"
-				{
-					"unusual_hat_chance_summer2025_case"		"1"		
-					"check_unusual_quality"						"1"		
-				}	
-			}
 		}
 		"halloween2025_bonus_items"
 		{
@@ -243513,13 +245985,17 @@
 					"loot_list"				"halloween2025_bonus_items"
 				}
 			}
+		}
+		"winter2025_cosmetic_loot_list_150"
+		{
+			"hide_lootlist"		"1"
+			"loot_list_collection"		"Winter2025Cosmetics_collection"
 			"lootlist_jobs"
 			{
-				"attribute_templates"
+				"additional_drop"
 				{
-					"unusual_hat_chance_halloween2025_case"		"1"		
-					"check_unusual_quality"						"1"		
-				}	
+					"loot_list"					"festivizer_lootlist"
+				}
 			}
 		}
 	}
@@ -243671,6 +246147,7 @@
 		"winter2024_cosmetic_loot_list_147"	"147"	
 		"summer2025_cosmetic_loot_list_148"	"148"	
 		"halloween2025_cosmetic_loot_list_149"	"149"	
+		"winter2025_cosmetic_loot_list_150"	"150"	
 		
 		"kill_eater_set_demo_a"						"-1"
 		"kill_eater_set_soldier_a"					"-2"
@@ -254814,6 +257291,85 @@
 				"attach_to_rootbone"	"1"
 				"attachment"		"unusual"
 			}
+
+			"393"
+			{
+				"system"			"unusual_ombre_parent_purple"
+				"attach_to_rootbone"	"1"
+				"attachment"		"unusual"
+			}
+			"394"
+			{
+				"system"			"unusual_ombre_parent_teal"
+				"attach_to_rootbone"	"1"
+				"attachment"		"unusual"
+			}
+			"395"
+			{
+				"system"			"unusual_ombre_parent_spectrum"
+				"attach_to_rootbone"	"1"
+				"attachment"		"unusual"
+			}
+			"396"
+			{
+				"system"			"unusual_calmsnowfall_parent"
+				"attach_to_rootbone"	"1"
+				"attachment"		"unusual"
+			}
+			"397"
+			{
+				"system"			"unusual_team_recognition_teamcolor_red"
+				"attach_to_rootbone"	"1"
+				"attachment"		"unusual"
+			}
+			"398"
+			{
+				"system"			"unusual_team_recognition_teamcolor_blue"
+				"attach_to_rootbone"	"1"
+				"attachment"		"unusual"
+			}
+			"399"
+			{
+				"system"			"unusual_classicfortress_teamcolor_red"
+				"attach_to_rootbone"	"1"
+				"attachment"		"unusual"
+			}
+			"400"
+			{
+				"system"			"unusual_classicfortress_teamcolor_blue"
+				"attach_to_rootbone"	"1"
+				"attachment"		"unusual"
+			}
+			"401"
+			{
+				"system"			"unusual_classicfortress_tflogo_parent"
+				"attach_to_rootbone"	"1"
+				"attachment"		"unusual"
+			}
+			"402"
+			{
+				"system"			"unusual_growing_flake_parent_white"
+				"attach_to_rootbone"	"1"
+				"attachment"		"unusual"
+			}
+			"403"
+			{
+				"system"			"unusual_growing_flake_parent_purple"
+				"attach_to_rootbone"	"1"
+				"attachment"		"unusual"
+			}
+			"404"
+			{
+				"system"			"unusual_growing_flake_parent_twilight"
+				"attach_to_rootbone"	"1"
+				"attachment"		"unusual"
+			}
+			"405"
+			{
+				"system"			"unusual_cryogenic_parent"
+				"attach_to_rootbone"	"1"
+				"attachment"		"unusual"
+			}
 		}
 		
 		"weapon_unusual_effects"
@@ -255798,6 +258354,51 @@
 			"3212"
 			{
 				"system"			"utaunt_morbed_teamcolor_blue"
+			}
+
+			"3213"
+			{
+				"system"			"utaunt_2fort_teamc_teamcolor_red"
+			}
+			"3214"
+			{
+				"system"			"utaunt_2fort_teamc_teamcolor_blue"
+			}
+			"3215"
+			{
+				"system"			"utaunt_burningdesire_green_parent"
+			}
+			"3216"
+			{
+				"system"			"utaunt_burningdesire_orange_parent"
+			}
+			"3217"
+			{
+				"system"			"utaunt_spacecoated_2colored_parent_pb"
+			}
+			"3218"
+			{
+				"system"			"utaunt_spacecoated_2colored_parent_pg"
+			}
+			"3219"
+			{
+				"system"			"utaunt_aurora25_teamcolor_red"
+			}
+			"3220"
+			{
+				"system"			"utaunt_aurora25_teamcolor_blue"
+			}
+			"3221"
+			{
+				"system"			"utaunt_aurora25_parent_purple"
+			}
+			"3222"
+			{
+				"system"			"utaunt_chillingmist_parent"
+			}
+			"3223"
+			{
+				"system"			"utaunt_80smalfunction_parent"
 			}
 		}
 	}
@@ -258475,16 +261076,44 @@
 	}
 	"featured"
 	{
-		"mm_type"			""
-		"localized_name"	""
-		"localized_desc"	""
-		"list_image"		""
-
+		"mm_type"		"special_events"
+		"localized_name"		"#Gametype_SmissmasFeatured"
+		"localized_desc"		"#Gametype_SmissmasFeatured_Desc"
+		"list_image"		"casual/gametype_smissmas"
+		"restrictions"
+		{
+			"holiday"		"christmas"
+		}
 		"maplist"
 		{
 			"1"
 			{
-				"name"		"cp_mercenarypark"
+				"name"		"pd_nutcracker"
+				"enabled"		"1"
+			}
+			"2"
+			{
+				"name"		"cppl_gavle"
+				"enabled"		"1"
+			}
+			"3"
+			{
+				"name"		"ctf_sidewinder"
+				"enabled"		"1"
+			}
+			"4"
+			{
+				"name"		"2koth_abbey"
+				"enabled"		"1"
+			}
+			"5"
+			{
+				"name"		"koth_winter_ridge"
+				"enabled"		"1"
+			}
+			"6"
+			{
+				"name"		"plr_matterhorn"
 				"enabled"		"1"
 			}
 		}
@@ -258878,6 +261507,16 @@
 			"13"
 			{
 				"name"		"pd_galleria"
+				"enabled"		"1"
+			}
+			"14"
+			{
+				"name"		"plr_cutter"
+				"enabled"		"1"
+			}
+			"15"
+			{
+				"name"		"vsh_maul"
 				"enabled"		"1"
 			}
 		}
@@ -262887,6 +265526,150 @@
 			"featured"
 			{
 				"weight"	"0.5"
+			}
+		}
+	}
+	"219"
+	{
+		"name"		"pd_nutcracker"
+		"localizedname"		"#TF_Map_Nutcracker"
+		"strangeprefixtoken"		"#TF_Map_Nutcracker_StrangePrefix"
+		"maptoken"		"Map Token Nutcracker"
+		"authors"		"#pd_nutcracker_authors"
+		"rolling_match_tags"
+		{
+			"christmas"	"1"
+			"featured"	"1"
+		}
+		"rolling_match_target_tags"
+		{
+			"christmas"
+			{
+				"weight"	"1"
+			}
+			"featured"
+			{
+				"weight"	"1000"
+			}
+		}
+	}
+	"220"
+	{
+		"name"		"cppl_gavle"
+		"localizedname"		"#TF_Map_Gavle"
+		"strangeprefixtoken"		"#TF_Map_Gavle_StrangePrefix"
+		"maptoken"		"Map Token Gavle"
+		"authors"		"#cppl_gavle_authors"
+		"rolling_match_tags"
+		{
+			"christmas"	"1"
+			"featured"	"1"
+		}
+		"rolling_match_target_tags"
+		{
+			"christmas"
+			{
+				"weight"	"1"
+			}
+			"featured"
+			{
+				"weight"	"1000"
+			}
+		}
+	}
+	"221"
+	{
+		"name"		"ctf_sidewinder"
+		"localizedname"		"#TF_Map_Sidewinder"
+		"strangeprefixtoken"		"#TF_Map_Sidewinder_StrangePrefix"
+		"maptoken"		"Map Token Sidewinder"
+		"authors"		"#ctf_sidewinder_authors"
+		"rolling_match_tags"
+		{
+			"christmas"	"1"
+			"featured"	"1"
+		}
+		"rolling_match_target_tags"
+		{
+			"christmas"
+			{
+				"weight"	"1"
+			}
+			"featured"
+			{
+				"weight"	"1000"
+			}
+		}
+	}
+	"222"
+	{
+		"name"		"2koth_abbey"
+		"localizedname"		"#TF_Map_Abbey"
+		"strangeprefixtoken"		"#TF_Map_Abbey_StrangePrefix"
+		"maptoken"		"Map Token Abbey"
+		"authors"		"#2koth_abbey_authors"
+		"rolling_match_tags"
+		{
+			"christmas"	"1"
+			"featured"	"1"
+		}
+		"rolling_match_target_tags"
+		{
+			"christmas"
+			{
+				"weight"	"1"
+			}
+			"featured"
+			{
+				"weight"	"1000"
+			}
+		}
+	}
+	"223"
+	{
+		"name"		"koth_winter_ridge"
+		"localizedname"		"#TF_Map_WinterRidge"
+		"strangeprefixtoken"		"#TF_Map_WinterRidge_StrangePrefix"
+		"maptoken"		"Map Token Winter Ridge"
+		"authors"		"#koth_winter_ridge_authors"
+		"rolling_match_tags"
+		{
+			"christmas"	"1"
+			"featured"	"1"
+		}
+		"rolling_match_target_tags"
+		{
+			"christmas"
+			{
+				"weight"	"1"
+			}
+			"featured"
+			{
+				"weight"	"1000"
+			}
+		}
+	}
+	"224"
+	{
+		"name"		"plr_matterhorn"
+		"localizedname"		"#TF_Map_Matterhorn"
+		"strangeprefixtoken"		"#TF_Map_Matterhorn_StrangePrefix"
+		"maptoken"		"Map Token Matterhorn"
+		"authors"		"#plr_matterhorn_authors"
+		"rolling_match_tags"
+		{
+			"christmas"	"1"
+			"featured"	"1"
+		}
+		"rolling_match_target_tags"
+		{
+			"christmas"
+			{
+				"weight"	"1"
+			}
+			"featured"
+			{
+				"weight"	"1000"
 			}
 		}
 	}

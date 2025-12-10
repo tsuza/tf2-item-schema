@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.d20617571953493812a1d1eb3bb67ccc0eb77264.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.19e8438475e8067150cd96f34935c045d4a0fcee.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -12876,13 +12876,117 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 		}
 		"375"
 		{
+			"system"	"unusual_ombre_parent_purple"
+			"id"	"393"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Chromatic Blaze"
+		}
+		"376"
+		{
+			"system"	"unusual_ombre_parent_teal"
+			"id"	"394"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Frostfire"
+		}
+		"377"
+		{
+			"system"	"unusual_ombre_parent_spectrum"
+			"id"	"395"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Spectrum Inferno"
+		}
+		"378"
+		{
+			"system"	"unusual_calmsnowfall_parent"
+			"id"	"396"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Calm Snowfall"
+		}
+		"379"
+		{
+			"system"	"unusual_team_recognition_teamcolor_red"
+			"id"	"397"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Team Recognition"
+		}
+		"380"
+		{
+			"system"	"unusual_team_recognition_teamcolor_blue"
+			"id"	"398"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Team Recognition"
+		}
+		"381"
+		{
+			"system"	"unusual_classicfortress_teamcolor_red"
+			"id"	"399"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Old Hire"
+		}
+		"382"
+		{
+			"system"	"unusual_classicfortress_teamcolor_blue"
+			"id"	"400"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Old Hire"
+		}
+		"383"
+		{
+			"system"	"unusual_classicfortress_tflogo_parent"
+			"id"	"401"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Analog Fortress"
+		}
+		"384"
+		{
+			"system"	"unusual_growing_flake_parent_white"
+			"id"	"402"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Winter Whiteout"
+		}
+		"385"
+		{
+			"system"	"unusual_growing_flake_parent_purple"
+			"id"	"403"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Midnight Frostfall"
+		}
+		"386"
+		{
+			"system"	"unusual_growing_flake_parent_twilight"
+			"id"	"404"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Twilight Snowfall"
+		}
+		"387"
+		{
+			"system"	"unusual_cryogenic_parent"
+			"id"	"405"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"Cryogenic"
+		}
+		"388"
+		{
 			"system"	"weapon_unusual_hot"
 			"id"	"701"
 			"attach_to_rootbone"	"0"
 			"attachment"	"unusual_0"
 			"name"	"Varm"
 		}
-		"376"
+		"389"
 		{
 			"system"	"weapon_unusual_isotope"
 			"id"	"702"
@@ -12890,7 +12994,7 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"attachment"	"unusual_0"
 			"name"	"Isotop"
 		}
-		"377"
+		"390"
 		{
 			"system"	"weapon_unusual_cool"
 			"id"	"703"
@@ -12898,7 +13002,7 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"attachment"	"unusual_0"
 			"name"	"Kølig"
 		}
-		"378"
+		"391"
 		{
 			"system"	"weapon_unusual_energyorb"
 			"id"	"704"
@@ -12906,1582 +13010,1659 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"attachment"	"unusual_0"
 			"name"	"Energikugle"
 		}
-		"379"
+		"392"
 		{
 			"system"	"killstreak_eyeglow_1_teamcolor_red"
 			"id"	"2001"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2001"
 		}
-		"380"
+		"393"
 		{
 			"system"	"killstreak_t1_lvl1"
 			"id"	"2002"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2002"
 		}
-		"381"
+		"394"
 		{
 			"system"	"killstreak_t2_lvl1"
 			"id"	"2003"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2003"
 		}
-		"382"
+		"395"
 		{
 			"system"	"killstreak_t3_lvl1"
 			"id"	"2004"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2004"
 		}
-		"383"
+		"396"
 		{
 			"system"	"killstreak_t4_lvl1"
 			"id"	"2005"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2005"
 		}
-		"384"
+		"397"
 		{
 			"system"	"killstreak_t5_lvl1"
 			"id"	"2006"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2006"
 		}
-		"385"
+		"398"
 		{
 			"system"	"killstreak_t6_lvl1"
 			"id"	"2007"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2007"
 		}
-		"386"
+		"399"
 		{
 			"system"	"killstreak_t7_lvl1"
 			"id"	"2008"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2008"
 		}
-		"387"
+		"400"
 		{
 			"system"	"utaunt_firework_teamcolor_red"
 			"id"	"3001"
 			"attach_to_rootbone"	"0"
 			"name"	"Blændende Præstation"
 		}
-		"388"
+		"401"
 		{
 			"system"	"utaunt_firework_teamcolor_blue"
 			"id"	"3002"
 			"attach_to_rootbone"	"0"
 			"name"	"Blændende Præstation"
 		}
-		"389"
+		"402"
 		{
 			"system"	"utaunt_beams_yellow"
 			"id"	"3003"
 			"attach_to_rootbone"	"0"
 			"name"	"Hellig Gral"
 		}
-		"390"
+		"403"
 		{
 			"system"	"utaunt_disco_party"
 			"id"	"3004"
 			"attach_to_rootbone"	"0"
 			"name"	"'72"
 		}
-		"391"
+		"404"
 		{
 			"system"	"utaunt_hearts_glow_parent"
 			"id"	"3005"
 			"attach_to_rootbone"	"0"
 			"name"	"Fornøjelsens Springvand"
 		}
-		"392"
+		"405"
 		{
 			"system"	"utaunt_meteor_parent"
 			"id"	"3006"
 			"attach_to_rootbone"	"0"
 			"name"	"Skrigende Tiger"
 		}
-		"393"
+		"406"
 		{
 			"system"	"utaunt_cash_confetti"
 			"id"	"3007"
 			"attach_to_rootbone"	"0"
 			"name"	"Betalt Efter Evne"
 		}
-		"394"
+		"407"
 		{
 			"system"	"utaunt_tornado_parent_black"
 			"id"	"3008"
 			"attach_to_rootbone"	"0"
 			"name"	"Midnatshvirvelvind"
 		}
-		"395"
+		"408"
 		{
 			"system"	"utaunt_tornado_parent_white"
 			"id"	"3009"
 			"attach_to_rootbone"	"0"
 			"name"	"Sølvcyklon"
 		}
-		"396"
+		"409"
 		{
 			"system"	"utaunt_lightning_parent"
 			"id"	"3010"
 			"attach_to_rootbone"	"0"
 			"name"	"Meganedslag"
 		}
-		"397"
+		"410"
 		{
 			"system"	"utaunt_souls_green_parent"
 			"id"	"3011"
 			"attach_to_rootbone"	"0"
 			"name"	"Hjemsøgt Spøgelse"
 		}
-		"398"
+		"411"
 		{
 			"system"	"utaunt_souls_purple_parent"
 			"id"	"3012"
 			"attach_to_rootbone"	"0"
 			"name"	"Spøgelsesagtige Spøgelser"
 		}
-		"399"
+		"412"
 		{
 			"system"	"utaunt_hellpit_parent"
 			"id"	"3013"
 			"attach_to_rootbone"	"0"
 			"name"	"Helvedsild"
 		}
-		"400"
+		"413"
 		{
 			"system"	"utaunt_hellswirl"
 			"id"	"3014"
 			"attach_to_rootbone"	"0"
 			"name"	"Spektralsk Hvirvel"
 		}
-		"401"
+		"414"
 		{
 			"system"	"utaunt_headless"
 			"id"	"3015"
 			"attach_to_rootbone"	"0"
 			"name"	"Infernalske Flammer"
 		}
-		"402"
+		"415"
 		{
 			"system"	"utaunt_merasmus"
 			"id"	"3016"
 			"attach_to_rootbone"	"0"
 			"name"	"Infernalsk Røg"
 		}
-		"403"
+		"416"
 		{
 			"system"	"utaunt_bubbles_glow_green_parent"
 			"id"	"3017"
 			"attach_to_rootbone"	"0"
 			"name"	"Jalousiens Syrebobler"
 		}
-		"404"
+		"417"
 		{
 			"system"	"utaunt_bubbles_glow_orange_parent"
 			"id"	"3018"
 			"attach_to_rootbone"	"0"
 			"name"	"Attraktive Brandbobler"
 		}
-		"405"
+		"418"
 		{
 			"system"	"utaunt_bubbles_glow_purple_parent"
 			"id"	"3019"
 			"attach_to_rootbone"	"0"
 			"name"	"Fortrydelsens Giftbobler"
 		}
-		"406"
+		"419"
 		{
 			"system"	"utaunt_firework_dragon_parent"
 			"id"	"3020"
 			"attach_to_rootbone"	"0"
 			"name"	"Rumsterende Raketter"
 		}
-		"407"
+		"420"
 		{
 			"system"	"utaunt_smoke_moon_parent"
 			"id"	"3021"
 			"attach_to_rootbone"	"0"
 			"name"	"Uhyggelig Nat"
 		}
-		"408"
+		"421"
 		{
 			"system"	"utaunt_smoke_moon_green_parent"
 			"id"	"3022"
 			"attach_to_rootbone"	"0"
 			"name"	"Ildevarslende Nat"
 		}
-		"409"
+		"422"
 		{
 			"system"	"utaunt_arcane_purple_parent"
 			"id"	"3023"
 			"attach_to_rootbone"	"0"
 			"name"	"Forhekset"
 		}
-		"410"
+		"423"
 		{
 			"system"	"utaunt_arcane_green_parent"
 			"id"	"3024"
 			"attach_to_rootbone"	"0"
 			"name"	"Forbandet"
 		}
-		"411"
+		"424"
 		{
 			"system"	"utaunt_arcane_yellow_parent"
 			"id"	"3025"
 			"attach_to_rootbone"	"0"
 			"name"	"Fortryllet"
 		}
-		"412"
+		"425"
 		{
 			"system"	"utaunt_electric_mist_parent"
 			"id"	"3026"
 			"attach_to_rootbone"	"0"
 			"name"	"Statisk Tåge"
 		}
-		"413"
+		"426"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WP"
 			"id"	"3027"
 			"attach_to_rootbone"	"0"
 			"name"	"Nervepirrende Nedslag"
 		}
-		"414"
+		"427"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WB"
 			"id"	"3028"
 			"attach_to_rootbone"	"0"
 			"name"	"Traumatisk Torden"
 		}
-		"415"
+		"428"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WY"
 			"id"	"3029"
 			"attach_to_rootbone"	"0"
 			"name"	"Jarate-chok"
 		}
-		"416"
+		"429"
 		{
 			"system"	"utaunt_portalswirl_purple_parent"
 			"id"	"3030"
 			"attach_to_rootbone"	"0"
 			"name"	"Underverdens Tomhed"
 		}
-		"417"
+		"430"
 		{
 			"system"	"utaunt_present_parent"
 			"id"	"3031"
 			"attach_to_rootbone"	"0"
 			"name"	"Godhjertet Godter"
 		}
-		"418"
+		"431"
 		{
 			"system"	"utaunt_snowring_icy_parent"
 			"id"	"3032"
 			"attach_to_rootbone"	"0"
 			"name"	"Vinterslør"
 		}
-		"419"
+		"432"
 		{
 			"system"	"utaunt_snowring_space_parent"
 			"id"	"3033"
 			"attach_to_rootbone"	"0"
 			"name"	"Arktisk Polarlys"
 		}
-		"420"
+		"433"
 		{
 			"system"	"utaunt_spirit_winter_parent"
 			"id"	"3034"
 			"attach_to_rootbone"	"0"
 			"name"	"Vinterånd"
 		}
-		"421"
+		"434"
 		{
 			"system"	"utaunt_spirit_festive_parent"
 			"id"	"3035"
 			"attach_to_rootbone"	"0"
 			"name"	"Festlig Ånd"
 		}
-		"422"
+		"435"
 		{
 			"system"	"utaunt_spirit_magical_parent"
 			"id"	"3036"
 			"attach_to_rootbone"	"0"
 			"name"	"Magisk Ånd"
 		}
-		"423"
+		"436"
 		{
 			"system"	"utaunt_astralbodies_greenorange_parent"
 			"id"	"3037"
 			"attach_to_rootbone"	"0"
 			"name"	"Spektral Eskorte"
 		}
-		"424"
+		"437"
 		{
 			"system"	"utaunt_astralbodies_tealpurple_parent"
 			"id"	"3038"
 			"attach_to_rootbone"	"0"
 			"name"	"Levende Stjernebilleder"
 		}
-		"425"
+		"438"
 		{
 			"system"	"utaunt_astralbodies_teamcolor_red"
 			"id"	"3039"
 			"attach_to_rootbone"	"0"
 			"name"	"Almægtig Assistance"
 		}
-		"426"
+		"439"
 		{
 			"system"	"utaunt_astralbodies_teamcolor_blue"
 			"id"	"3040"
 			"attach_to_rootbone"	"0"
 			"name"	"Almægtig Assistance"
 		}
-		"427"
+		"440"
 		{
 			"system"	"utaunt_glowyplayer_green_parent"
 			"id"	"3041"
 			"attach_to_rootbone"	"0"
 			"name"	"Smaragdskær"
 		}
-		"428"
+		"441"
 		{
 			"system"	"utaunt_glowyplayer_orange_parent"
 			"id"	"3042"
 			"attach_to_rootbone"	"0"
 			"name"	"Pyroforisk Personlighed"
 		}
-		"429"
+		"442"
 		{
 			"system"	"utaunt_glowyplayer_purple_parent"
 			"id"	"3043"
 			"attach_to_rootbone"	"0"
 			"name"	"Tryllebundet Tiltrækning"
 		}
-		"430"
+		"443"
 		{
 			"system"	"utaunt_electricity_parent"
 			"id"	"3044"
 			"attach_to_rootbone"	"0"
 			"name"	"Statisk Chok"
 		}
-		"431"
+		"444"
 		{
 			"system"	"utaunt_electricity_purple_parent"
 			"id"	"3045"
 			"attach_to_rootbone"	"0"
 			"name"	"Giftchok"
 		}
-		"432"
+		"445"
 		{
 			"system"	"utaunt_spider_green_parent"
 			"id"	"3046"
 			"attach_to_rootbone"	"0"
 			"name"	"Giftige Gysere"
 		}
-		"433"
+		"446"
 		{
 			"system"	"utaunt_spider_orange_parent"
 			"id"	"3047"
 			"attach_to_rootbone"	"0"
 			"name"	"Sporadiske Spindlere"
 		}
-		"434"
+		"447"
 		{
 			"system"	"utaunt_spider_purple_parent"
 			"id"	"3048"
 			"attach_to_rootbone"	"0"
 			"name"	"Kravlende Krybere"
 		}
-		"435"
+		"448"
 		{
 			"system"	"utaunt_tf2smissmas_tree_parent"
 			"id"	"3049"
 			"attach_to_rootbone"	"0"
 			"name"	"Stemningsfyldt Stjerne"
 		}
-		"436"
+		"449"
 		{
 			"system"	"utaunt_tf2smissmas_tree_parent_w"
 			"id"	"3050"
 			"attach_to_rootbone"	"0"
 			"name"	"Stivfrossen Stjerne"
 		}
-		"437"
+		"450"
 		{
 			"system"	"utaunt_spirits_blue_parent"
 			"id"	"3051"
 			"attach_to_rootbone"	"0"
 			"name"	"Apoteose"
 		}
-		"438"
+		"451"
 		{
 			"system"	"utaunt_spirits_purple_parent"
 			"id"	"3052"
 			"attach_to_rootbone"	"0"
 			"name"	"Himmelfart"
 		}
-		"439"
+		"452"
 		{
 			"system"	"utaunt_balloonicorn_reindeer_teamcolor_red"
 			"id"	"3053"
 			"attach_to_rootbone"	"0"
 			"name"	"Julemannens Rensdyr"
 		}
-		"440"
+		"453"
 		{
 			"system"	"utaunt_balloonicorn_reindeer_teamcolor_blue"
 			"id"	"3054"
 			"attach_to_rootbone"	"0"
 			"name"	"Julemannens Rensdyr"
 		}
-		"441"
+		"454"
 		{
 			"system"	"utaunt_twinkling_rgb_parent"
 			"id"	"3055"
 			"attach_to_rootbone"	"0"
 			"name"	"Glimtende Lys"
 		}
-		"442"
+		"455"
 		{
 			"system"	"utaunt_twinkling_goldsilver_parent"
 			"id"	"3056"
 			"attach_to_rootbone"	"0"
 			"name"	"Flimrende Lys"
 		}
-		"443"
+		"456"
 		{
 			"system"	"utaunt_chain_green_parent"
 			"id"	"3059"
 			"attach_to_rootbone"	"0"
 			"name"	"Hinsides Lænkning"
 		}
-		"444"
+		"457"
 		{
 			"system"	"utaunt_chain_purple_parent"
 			"id"	"3060"
 			"attach_to_rootbone"	"0"
 			"name"	"Forbandet Forbindelse"
 		}
-		"445"
+		"458"
 		{
 			"system"	"utaunt_tarotcard_teamcolor_red"
 			"id"	"3061"
 			"attach_to_rootbone"	"0"
 			"name"	"Cavalier de Carte"
 		}
-		"446"
+		"459"
 		{
 			"system"	"utaunt_tarotcard_teamcolor_blue"
 			"id"	"3062"
 			"attach_to_rootbone"	"0"
 			"name"	"Æterisk Kabale"
 		}
-		"447"
+		"460"
 		{
 			"system"	"utaunt_tarotcard_orange_parent"
 			"id"	"3063"
 			"attach_to_rootbone"	"0"
 			"name"	"Djævelsk Kortblanding"
 		}
-		"448"
+		"461"
 		{
 			"system"	"utaunt_tarotcard_purple_parent"
 			"id"	"3064"
 			"attach_to_rootbone"	"0"
 			"name"	"Magisk Kortblander"
 		}
-		"449"
+		"462"
 		{
 			"system"	"utaunt_elebound_green_parent"
 			"id"	"3065"
 			"attach_to_rootbone"	"0"
 			"name"	"Pulserende Energi"
 		}
-		"450"
+		"463"
 		{
 			"system"	"utaunt_elebound_purple_parent"
 			"id"	"3066"
 			"attach_to_rootbone"	"0"
 			"name"	"Tordende Lynild"
 		}
-		"451"
+		"464"
 		{
 			"system"	"utaunt_elebound_yellow_parent"
 			"id"	"3067"
 			"attach_to_rootbone"	"0"
 			"name"	"Stiktosset Strømleder"
 		}
-		"452"
+		"465"
 		{
 			"system"	"utaunt_wispy_parent_g"
 			"id"	"3068"
 			"attach_to_rootbone"	"0"
 			"name"	"Gyselige Glorier"
 		}
-		"453"
+		"466"
 		{
 			"system"	"utaunt_wispy_parent_p"
 			"id"	"3069"
 			"attach_to_rootbone"	"0"
 			"name"	"Nederdrægtige Nymfer"
 		}
-		"454"
+		"467"
 		{
 			"system"	"utaunt_auroraglow_green_parent"
 			"id"	"3070"
 			"attach_to_rootbone"	"0"
 			"name"	"Aurora Borealis"
 		}
-		"455"
+		"468"
 		{
 			"system"	"utaunt_auroraglow_orange_parent"
 			"id"	"3071"
 			"attach_to_rootbone"	"0"
 			"name"	"Aurora Australis"
 		}
-		"456"
+		"469"
 		{
 			"system"	"utaunt_auroraglow_purple_parent"
 			"id"	"3072"
 			"attach_to_rootbone"	"0"
 			"name"	"Aurora Polaris"
 		}
-		"457"
+		"470"
 		{
 			"system"	"utaunt_snowswirl_purple_parent"
 			"id"	"3073"
 			"attach_to_rootbone"	"0"
 			"name"	"Ametystvinde"
 		}
-		"458"
+		"471"
 		{
 			"system"	"utaunt_snowswirl_yellow_parent"
 			"id"	"3074"
 			"attach_to_rootbone"	"0"
 			"name"	"Jule Kuling"
 		}
-		"459"
+		"472"
 		{
 			"system"	"utaunt_snowswirl_teamcolor_red"
 			"id"	"3075"
 			"attach_to_rootbone"	"0"
 			"name"	"Hvirvlende Smissmas-vind"
 		}
-		"460"
+		"473"
 		{
 			"system"	"utaunt_snowswirl_teamcolor_blue"
 			"id"	"3076"
 			"attach_to_rootbone"	"0"
 			"name"	"Hvirvlende Smissmas-vind"
 		}
-		"461"
+		"474"
 		{
 			"system"	"utaunt_treespiral_green_parent"
 			"id"	"3077"
 			"attach_to_rootbone"	"0"
 			"name"	"Farverigt Fyrretræ"
 		}
-		"462"
+		"475"
 		{
 			"system"	"utaunt_treespiral_purple_parent"
 			"id"	"3078"
 			"attach_to_rootbone"	"0"
 			"name"	"Prægtigt Pynt"
 		}
-		"463"
+		"476"
 		{
 			"system"	"utaunt_treespiral_teamcolor_red"
 			"id"	"3079"
 			"attach_to_rootbone"	"0"
 			"name"	"Grangivelig Glæde"
 		}
-		"464"
+		"477"
 		{
 			"system"	"utaunt_treespiral_teamcolor_blue"
 			"id"	"3080"
 			"attach_to_rootbone"	"0"
 			"name"	"Grangivelig Glæde"
 		}
-		"465"
+		"478"
 		{
 			"system"	"utaunt_gifts_teamcolor_red"
 			"id"	"3081"
 			"attach_to_rootbone"	"0"
 			"name"	"Festlig Feber"
 		}
-		"466"
+		"479"
 		{
 			"system"	"utaunt_gifts_teamcolor_blue"
 			"id"	"3082"
 			"attach_to_rootbone"	"0"
 			"name"	"Festlig Feber"
 		}
-		"467"
+		"480"
 		{
 			"system"	"utaunt_glitter_parent_gold"
 			"id"	"3083"
 			"attach_to_rootbone"	"0"
 			"name"	"Gylden Glimmer"
 		}
-		"468"
+		"481"
 		{
 			"system"	"utaunt_glitter_parent_silver"
 			"id"	"3084"
 			"attach_to_rootbone"	"0"
 			"name"	"Rimfrost"
 		}
-		"469"
+		"482"
 		{
 			"system"	"utaunt_glitter_teamcolor_red"
 			"id"	"3085"
 			"attach_to_rootbone"	"0"
 			"name"	"Imponerende Iskrystaller"
 		}
-		"470"
+		"483"
 		{
 			"system"	"utaunt_glitter_teamcolor_blue"
 			"id"	"3086"
 			"attach_to_rootbone"	"0"
 			"name"	"Imponerende Iskrystaller"
 		}
-		"471"
+		"484"
 		{
 			"system"	"utaunt_ice_parent"
 			"id"	"3087"
 			"attach_to_rootbone"	"0"
 			"name"	"Sublim Snestorm"
 		}
-		"472"
+		"485"
 		{
 			"system"	"utaunt_marigoldritual_teamcolor_red"
 			"id"	"3088"
 			"attach_to_rootbone"	"0"
 			"name"	"Fløjlsblomst Fiesta"
 		}
-		"473"
+		"486"
 		{
 			"system"	"utaunt_marigoldritual_teamcolor_blue"
 			"id"	"3089"
 			"attach_to_rootbone"	"0"
 			"name"	"Fløjlsblomst Fiesta"
 		}
-		"474"
+		"487"
 		{
 			"system"	"utaunt_poison_parent_green"
 			"id"	"3090"
 			"attach_to_rootbone"	"0"
 			"name"	"Jorden er Giftig"
 		}
-		"475"
+		"488"
 		{
 			"system"	"utaunt_poison_parent_orange"
 			"id"	"3091"
 			"attach_to_rootbone"	"0"
 			"name"	"Hjemsøgt Bryg"
 		}
-		"476"
+		"489"
 		{
 			"system"	"utaunt_poison_parent_purple"
 			"id"	"3092"
 			"attach_to_rootbone"	"0"
 			"name"	"Mystisk Mikstur"
 		}
-		"477"
+		"490"
 		{
 			"system"	"utaunt_runeprison_green_parent"
 			"id"	"3093"
 			"attach_to_rootbone"	"0"
 			"name"	"Overnaturlig Oversættelse"
 		}
-		"478"
+		"491"
 		{
 			"system"	"utaunt_runeprison_yellow_parent"
 			"id"	"3094"
 			"attach_to_rootbone"	"0"
 			"name"	"Aurelians Segl"
 		}
-		"479"
+		"492"
 		{
 			"system"	"utaunt_runeprison_teamcolor_red"
 			"id"	"3095"
 			"attach_to_rootbone"	"0"
 			"name"	"Runerække"
 		}
-		"480"
+		"493"
 		{
 			"system"	"utaunt_runeprison_teamcolor_blue"
 			"id"	"3096"
 			"attach_to_rootbone"	"0"
 			"name"	"Runerække"
 		}
-		"481"
+		"494"
 		{
 			"system"	"utaunt_prismatichaze_parent"
 			"id"	"3097"
 			"attach_to_rootbone"	"0"
 			"name"	"Prismatisk Dis"
 		}
-		"482"
+		"495"
 		{
 			"system"	"utaunt_risingsprit_teamcolor_red"
 			"id"	"3098"
 			"attach_to_rootbone"	"0"
 			"name"	"Stigende Sakramenter"
 		}
-		"483"
+		"496"
 		{
 			"system"	"utaunt_risingsprit_teamcolor_blue"
 			"id"	"3099"
 			"attach_to_rootbone"	"0"
 			"name"	"Stigende Sakramenter"
 		}
-		"484"
+		"497"
 		{
 			"system"	"utaunt_hands_teamcolor_red"
 			"id"	"3100"
 			"attach_to_rootbone"	"0"
 			"name"	"Blodigt Greb"
 		}
-		"485"
+		"498"
 		{
 			"system"	"utaunt_hands_teamcolor_blue"
 			"id"	"3101"
 			"attach_to_rootbone"	"0"
 			"name"	"Blodigt Greb"
 		}
-		"486"
+		"499"
 		{
 			"system"	"utaunt_hands_green_parent"
 			"id"	"3102"
 			"attach_to_rootbone"	"0"
 			"name"	"Giftigt Greb"
 		}
-		"487"
+		"500"
 		{
 			"system"	"utaunt_hands_orange_parent"
 			"id"	"3103"
 			"attach_to_rootbone"	"0"
 			"name"	"Gulsotgreb"
 		}
-		"488"
+		"501"
 		{
 			"system"	"utaunt_hands_purple_parent"
 			"id"	"3104"
 			"attach_to_rootbone"	"0"
 			"name"	"Gravens Greb"
 		}
-		"489"
+		"502"
 		{
 			"system"	"utaunt_storm_parent_g"
 			"id"	"3105"
 			"attach_to_rootbone"	"0"
 			"name"	"Ophobet Magi"
 		}
-		"490"
+		"503"
 		{
 			"system"	"utaunt_storm_parent_k"
 			"id"	"3106"
 			"attach_to_rootbone"	"0"
 			"name"	"Tordnende Raseri"
 		}
-		"491"
+		"504"
 		{
 			"system"	"utaunt_storm_parent_o"
 			"id"	"3107"
 			"attach_to_rootbone"	"0"
 			"name"	"Indebrændt Ildhu"
 		}
-		"492"
+		"505"
 		{
 			"system"	"utaunt_festivelights_teamcolor_red"
 			"id"	"3108"
 			"attach_to_rootbone"	"0"
 			"name"	"Strålende Juleglans"
 		}
-		"493"
+		"506"
 		{
 			"system"	"utaunt_festivelights_teamcolor_blue"
 			"id"	"3109"
 			"attach_to_rootbone"	"0"
 			"name"	"Strålende Juleglans"
 		}
-		"494"
+		"507"
 		{
 			"system"	"utaunt_glow_spirit_parent_cr"
 			"id"	"3110"
 			"attach_to_rootbone"	"0"
 			"name"	"Hvirvelende Vinterånder"
 		}
-		"495"
+		"508"
 		{
 			"system"	"utaunt_glow_spirit_parent_og"
 			"id"	"3111"
 			"attach_to_rootbone"	"0"
 			"name"	"Efterårsånder"
 		}
-		"496"
+		"509"
 		{
 			"system"	"utaunt_glow_spirit_parent_pp"
 			"id"	"3112"
 			"attach_to_rootbone"	"0"
 			"name"	"Midnatsånder"
 		}
-		"497"
+		"510"
 		{
 			"system"	"utaunt_snowflakesaura_parent"
 			"id"	"3113"
 			"attach_to_rootbone"	"0"
 			"name"	"Stedvis Snefygning"
 		}
-		"498"
+		"511"
 		{
 			"system"	"utaunt_sun_sand_rays_parent"
 			"id"	"3114"
 			"attach_to_rootbone"	"0"
 			"name"	"Faktor 500"
 		}
-		"499"
+		"512"
 		{
 			"system"	"utaunt_undersea_teamcolor_red"
 			"id"	"3115"
 			"attach_to_rootbone"	"0"
 			"name"	"Dybhavsrave"
 		}
-		"500"
+		"513"
 		{
 			"system"	"utaunt_undersea_teamcolor_blue"
 			"id"	"3116"
 			"attach_to_rootbone"	"0"
 			"name"	"Dybhavsrave"
 		}
-		"501"
+		"514"
 		{
 			"system"	"utaunt_lavalamp_green_parent"
 			"id"	"3117"
 			"attach_to_rootbone"	"0"
 			"name"	"Levende Lavalampe"
 		}
-		"502"
+		"515"
 		{
 			"system"	"utaunt_lavalamp_purple_parent"
 			"id"	"3118"
 			"attach_to_rootbone"	"0"
 			"name"	"Vildt Vokslys"
 		}
-		"503"
+		"516"
 		{
 			"system"	"utaunt_lavalamp_yellow_parent"
 			"id"	"3119"
 			"attach_to_rootbone"	"0"
 			"name"	"Lysende Lunser"
 		}
-		"504"
+		"517"
 		{
 			"system"	"utaunt_fish_parent"
 			"id"	"3120"
 			"attach_to_rootbone"	"0"
 			"name"	"Fodringstid"
 		}
-		"505"
+		"518"
 		{
 			"system"	"utaunt_rainbow_teamcolor_red"
 			"id"	"3121"
 			"attach_to_rootbone"	"0"
 			"name"	"Pastelfarvet Præg"
 		}
-		"506"
+		"519"
 		{
 			"system"	"utaunt_rainbow_teamcolor_blue"
 			"id"	"3122"
 			"attach_to_rootbone"	"0"
 			"name"	"Pastelfarvet Præg"
 		}
-		"507"
+		"520"
 		{
 			"system"	"utaunt_wild_meadows_parent"
 			"id"	"3123"
 			"attach_to_rootbone"	"0"
 			"name"	"Blomstereng"
 		}
-		"508"
+		"521"
 		{
 			"system"	"utaunt_krakenmouth_green_parent"
 			"id"	"3124"
 			"attach_to_rootbone"	"0"
 			"name"	"Dybhavets Fortæring"
 		}
-		"509"
+		"522"
 		{
 			"system"	"utaunt_krakenmouth_purple_parent"
 			"id"	"3125"
 			"attach_to_rootbone"	"0"
 			"name"	"Underverdenens Rædsel"
 		}
-		"510"
+		"523"
 		{
 			"system"	"utaunt_leaftaunt_parent"
 			"id"	"3126"
 			"attach_to_rootbone"	"0"
 			"name"	"Falmende Skov"
 		}
-		"511"
+		"524"
 		{
 			"system"	"utaunt_graveparty_parent"
 			"id"	"3127"
 			"attach_to_rootbone"	"0"
 			"name"	"Gravfest"
 		}
-		"512"
+		"525"
 		{
 			"system"	"utaunt_spellsplash_parent"
 			"id"	"3128"
 			"attach_to_rootbone"	"0"
 			"name"	"Eliksireksplosion"
 		}
-		"513"
+		"526"
 		{
 			"system"	"utaunt_cremation_purple_parent"
 			"id"	"3129"
 			"attach_to_rootbone"	"0"
 			"name"	"Hjemsøgt Kremering"
 		}
-		"514"
+		"527"
 		{
 			"system"	"utaunt_cremation_black_parent"
 			"id"	"3130"
 			"attach_to_rootbone"	"0"
 			"name"	"Kremering"
 		}
-		"515"
+		"528"
 		{
 			"system"	"utaunt_snowfall_parent"
 			"id"	"3131"
 			"attach_to_rootbone"	"0"
 			"name"	"Snefald"
 		}
-		"516"
+		"529"
 		{
 			"system"	"utaunt_constellations_teamcolor_red"
 			"id"	"3132"
 			"attach_to_rootbone"	"0"
 			"name"	"Galaktisk Forbindelse"
 		}
-		"517"
+		"530"
 		{
 			"system"	"utaunt_constellations_teamcolor_blue"
 			"id"	"3133"
 			"attach_to_rootbone"	"0"
 			"name"	"Galaktisk Forbindelse"
 		}
-		"518"
+		"531"
 		{
 			"system"	"utaunt_constellations_purple_parent"
 			"id"	"3134"
 			"attach_to_rootbone"	"0"
 			"name"	"Sen Skumring"
 		}
-		"519"
+		"532"
 		{
 			"system"	"utaunt_constellations_pink_parent"
 			"id"	"3135"
 			"attach_to_rootbone"	"0"
 			"name"	"Særlig Skumring"
 		}
-		"520"
+		"533"
 		{
 			"system"	"utaunt_wispyworks_orangegreen_parent"
 			"id"	"3136"
 			"attach_to_rootbone"	"0"
 			"name"	"Uselvisk Fornemmelse"
 		}
-		"521"
+		"534"
 		{
 			"system"	"utaunt_wispyworks_purpleblue_parent"
 			"id"	"3137"
 			"attach_to_rootbone"	"0"
 			"name"	"Gnistgejst"
 		}
-		"522"
+		"535"
 		{
 			"system"	"utaunt_wispyworks_yellowpurple_parent"
 			"id"	"3138"
 			"attach_to_rootbone"	"0"
 			"name"	"Glamourøs Gejst"
 		}
-		"523"
+		"536"
 		{
 			"system"	"utaunt_innerblizzard_teamcolor_red"
 			"id"	"3139"
 			"attach_to_rootbone"	"0"
 			"name"	"Permafrosset Essens"
 		}
-		"524"
+		"537"
 		{
 			"system"	"utaunt_innerblizzard_teamcolor_blue"
 			"id"	"3140"
 			"attach_to_rootbone"	"0"
 			"name"	"Permafrosset Essens"
 		}
-		"525"
+		"538"
 		{
 			"system"	"utaunt_innerblizzard_purple_parent"
 			"id"	"3141"
 			"attach_to_rootbone"	"0"
 			"name"	"Arktisk Afkøling"
 		}
-		"526"
+		"539"
 		{
 			"system"	"utaunt_spotlight_parent"
 			"id"	"3142"
 			"attach_to_rootbone"	"0"
 			"name"	"Sejrsgejst"
 		}
-		"527"
+		"540"
 		{
 			"system"	"utaunt_pedalfly_teamcolor_red"
 			"id"	"3143"
 			"attach_to_rootbone"	"0"
 			"name"	"Kaotiske Kronblade"
 		}
-		"528"
+		"541"
 		{
 			"system"	"utaunt_pedalfly_teamcolor_blue"
 			"id"	"3144"
 			"attach_to_rootbone"	"0"
 			"name"	"Kaotiske Kronblade"
 		}
-		"529"
+		"542"
 		{
 			"system"	"utaunt_dragonfly_teamcolor_red"
 			"id"	"3145"
 			"attach_to_rootbone"	"0"
 			"name"	"Guldsmedens Kram"
 		}
-		"530"
+		"543"
 		{
 			"system"	"utaunt_dragonfly_teamcolor_blue"
 			"id"	"3146"
 			"attach_to_rootbone"	"0"
 			"name"	"Guldsmedens Kram"
 		}
-		"531"
+		"544"
 		{
 			"system"	"utaunt_dragonfly_green_parent"
 			"id"	"3147"
 			"attach_to_rootbone"	"0"
 			"name"	"Guldsmedens Natur"
 		}
-		"532"
+		"545"
 		{
 			"system"	"utaunt_dragonfly_purple_parent"
 			"id"	"3148"
 			"attach_to_rootbone"	"0"
 			"name"	"Guldsmedens Skær"
 		}
-		"533"
+		"546"
 		{
 			"system"	"utaunt_demigodery_teamcolor_red"
 			"id"	"3149"
 			"attach_to_rootbone"	"0"
 			"name"	"Lynstegt"
 		}
-		"534"
+		"547"
 		{
 			"system"	"utaunt_demigodery_teamcolor_blue"
 			"id"	"3150"
 			"attach_to_rootbone"	"0"
 			"name"	"Lynstegt"
 		}
-		"535"
+		"548"
 		{
 			"system"	"utaunt_signalflares_teamcolor_red"
 			"id"	"3151"
 			"attach_to_rootbone"	"0"
 			"name"	"Nødsignal"
 		}
-		"536"
+		"549"
 		{
 			"system"	"utaunt_signalflares_teamcolor_blue"
 			"id"	"3152"
 			"attach_to_rootbone"	"0"
 			"name"	"Nødsignal"
 		}
-		"537"
+		"550"
 		{
 			"system"	"utaunt_signalflares_green_parent"
 			"id"	"3153"
 			"attach_to_rootbone"	"0"
 			"name"	"Cariocas Kald"
 		}
-		"538"
+		"551"
 		{
 			"system"	"utaunt_celebrationtime_teamcolor_red"
 			"id"	"3154"
 			"attach_to_rootbone"	"0"
 			"name"	"Fin Fiesta"
 		}
-		"539"
+		"552"
 		{
 			"system"	"utaunt_celebrationtime_teamcolor_blue"
 			"id"	"3155"
 			"attach_to_rootbone"	"0"
 			"name"	"Fin Fiesta"
 		}
-		"540"
+		"553"
 		{
 			"system"	"utaunt_celebrationtime_yellow_parent"
 			"id"	"3156"
 			"attach_to_rootbone"	"0"
 			"name"	"Jubilæumsjubel"
 		}
-		"541"
+		"554"
 		{
 			"system"	"utaunt_god_lava_teamcolor_red"
 			"id"	"3157"
 			"attach_to_rootbone"	"0"
 			"name"	"Jordskælvende"
 		}
-		"542"
+		"555"
 		{
 			"system"	"utaunt_god_lava_teamcolor_blue"
 			"id"	"3158"
 			"attach_to_rootbone"	"0"
 			"name"	"Jordskælvende"
 		}
-		"543"
+		"556"
 		{
 			"system"	"utaunt_god_gold_parent"
 			"id"	"3159"
 			"attach_to_rootbone"	"0"
 			"name"	"Gudelignende"
 		}
-		"544"
+		"557"
 		{
 			"system"	"utaunt_aestheticlogo_teamcolor_red"
 			"id"	"3160"
 			"attach_to_rootbone"	"0"
 			"name"	"Hæderlig Holdning"
 		}
-		"545"
+		"558"
 		{
 			"system"	"utaunt_aestheticlogo_teamcolor_blue"
 			"id"	"3161"
 			"attach_to_rootbone"	"0"
 			"name"	"Hæderlig Holdning"
 		}
-		"546"
+		"559"
 		{
 			"system"	"utaunt_aestheticlogo_orange_parent"
 			"id"	"3162"
 			"attach_to_rootbone"	"0"
 			"name"	"Mindesmærke"
 		}
-		"547"
+		"560"
 		{
 			"system"	"utaunt_desert_wind_parent"
 			"id"	"3163"
 			"attach_to_rootbone"	"0"
 			"name"	"Ørkenvind"
 		}
-		"548"
+		"561"
 		{
 			"system"	"utaunt_desert_monsoon_parent"
 			"id"	"3164"
 			"attach_to_rootbone"	"0"
 			"name"	"Monsunsæson"
 		}
-		"549"
+		"562"
 		{
 			"system"	"utaunt_treasure_teamcolor_red"
 			"id"	"3165"
 			"attach_to_rootbone"	"0"
 			"name"	"Rundhåndet Rigdom"
 		}
-		"550"
+		"563"
 		{
 			"system"	"utaunt_treasure_teamcolor_blue"
 			"id"	"3166"
 			"attach_to_rootbone"	"0"
 			"name"	"Rundhåndet Rigdom"
 		}
-		"551"
+		"564"
 		{
 			"system"	"utaunt_hearttreasure_parent"
 			"id"	"3167"
 			"attach_to_rootbone"	"0"
 			"name"	"Uselvisk Elsker"
 		}
-		"552"
+		"565"
 		{
 			"system"	"utaunt_wiggletube_teamcolor_red"
 			"id"	"3168"
 			"attach_to_rootbone"	"0"
 			"name"	"Amatorisk"
 		}
-		"553"
+		"566"
 		{
 			"system"	"utaunt_wiggletube_teamcolor_blue"
 			"id"	"3169"
 			"attach_to_rootbone"	"0"
 			"name"	"Amatorisk"
 		}
-		"554"
+		"567"
 		{
 			"system"	"utaunt_wiggletube_coffee_parent"
 			"id"	"3170"
 			"attach_to_rootbone"	"0"
 			"name"	"Elektrum"
 		}
-		"555"
+		"568"
 		{
 			"system"	"utaunt_flowerrain_teamcolor_red"
 			"id"	"3171"
 			"attach_to_rootbone"	"0"
 			"name"	"Kirseoverbærende"
 		}
-		"556"
+		"569"
 		{
 			"system"	"utaunt_flowerrain_teamcolor_blue"
 			"id"	"3172"
 			"attach_to_rootbone"	"0"
 			"name"	"Kirseoverbærende"
 		}
-		"557"
+		"570"
 		{
 			"system"	"utaunt_flowerrain_purple_parent"
 			"id"	"3173"
 			"attach_to_rootbone"	"0"
 			"name"	"Voldelige Violer"
 		}
-		"558"
+		"571"
 		{
 			"system"	"utaunt_poweraura_teamcolor_red"
 			"id"	"3174"
 			"attach_to_rootbone"	"0"
 			"name"	"Strømspænding"
 		}
-		"559"
+		"572"
 		{
 			"system"	"utaunt_poweraura_teamcolor_blue"
 			"id"	"3175"
 			"attach_to_rootbone"	"0"
 			"name"	"Strømspænding"
 		}
-		"560"
+		"573"
 		{
 			"system"	"utaunt_poweraura_green_parent"
 			"id"	"3176"
 			"attach_to_rootbone"	"0"
 			"name"	"Jævnspænding"
 		}
-		"561"
+		"574"
 		{
 			"system"	"utaunt_poweraura_purple_parent"
 			"id"	"3177"
 			"attach_to_rootbone"	"0"
 			"name"	"Vekselspænding"
 		}
-		"562"
+		"575"
 		{
 			"system"	"utaunt_poweraura_yellow_parent"
 			"id"	"3178"
 			"attach_to_rootbone"	"0"
 			"name"	"Forstærkende Aura"
 		}
-		"563"
+		"576"
 		{
 			"system"	"utaunt_mysticfusion_parent"
 			"id"	"3179"
 			"attach_to_rootbone"	"0"
 			"name"	"Mystisk Fusion"
 		}
-		"564"
+		"577"
 		{
 			"system"	"utaunt_confetti_gy_parent"
 			"id"	"3180"
 			"attach_to_rootbone"	"0"
 			"name"	"Irriterende Konfetti"
 		}
-		"565"
+		"578"
 		{
 			"system"	"utaunt_confetti_pp_parent"
 			"id"	"3181"
 			"attach_to_rootbone"	"0"
 			"name"	"Kærlig Konfetti"
 		}
-		"566"
+		"579"
 		{
 			"system"	"utaunt_confetti_yp_parent"
 			"id"	"3182"
 			"attach_to_rootbone"	"0"
 			"name"	"Konfettifest"
 		}
-		"567"
+		"580"
 		{
 			"system"	"utaunt_heavyrain_parent"
 			"id"	"3183"
 			"attach_to_rootbone"	"0"
 			"name"	"Stormvejr"
 		}
-		"568"
+		"581"
 		{
 			"system"	"utaunt_field_parent"
 			"id"	"3184"
 			"attach_to_rootbone"	"0"
 			"name"	"Græskarudhulet"
 		}
-		"569"
+		"582"
 		{
 			"system"	"utaunt_whitesmissmas_parent"
 			"id"	"3185"
 			"attach_to_rootbone"	"0"
 			"name"	"Kuldeskærpet"
 		}
-		"570"
+		"583"
 		{
 			"system"	"utaunt_busysnow_teamcolor_red"
 			"id"	"3186"
 			"attach_to_rootbone"	"0"
 			"name"	"Holdbart Snedække"
 		}
-		"571"
+		"584"
 		{
 			"system"	"utaunt_busysnow_teamcolor_blue"
 			"id"	"3187"
 			"attach_to_rootbone"	"0"
 			"name"	"Holdbart Snedække"
 		}
-		"572"
+		"585"
 		{
 			"system"	"utaunt_busysnow_parent_p"
 			"id"	"3188"
 			"attach_to_rootbone"	"0"
 			"name"	"Snedigt Snedække"
 		}
-		"573"
+		"586"
 		{
 			"system"	"utaunt_busysnow_parent_g"
 			"id"	"3189"
 			"attach_to_rootbone"	"0"
 			"name"	"Særpræget Snedække"
 		}
-		"574"
+		"587"
 		{
 			"system"	"utaunt_roses_teamcolor_red"
 			"id"	"3190"
 			"attach_to_rootbone"	"0"
 			"name"	"Prisvindende"
 		}
-		"575"
+		"588"
 		{
 			"system"	"utaunt_roses_teamcolor_blue"
 			"id"	"3191"
 			"attach_to_rootbone"	"0"
 			"name"	"Prisvindende"
 		}
-		"576"
+		"589"
 		{
 			"system"	"utaunt_roses_gold_parent"
 			"id"	"3192"
 			"attach_to_rootbone"	"0"
 			"name"	"Teatertriumf"
 		}
-		"577"
+		"590"
 		{
 			"system"	"utaunt_tangledlights_parent"
 			"id"	"3193"
 			"attach_to_rootbone"	"0"
 			"name"	"Lede Lys"
 		}
-		"578"
+		"591"
 		{
 			"system"	"utaunt_seamine_teamcolor_red"
 			"id"	"3194"
 			"attach_to_rootbone"	"0"
 			"name"	"Farlige Farvande"
 		}
-		"579"
+		"592"
 		{
 			"system"	"utaunt_seamine_teamcolor_blue"
 			"id"	"3195"
 			"attach_to_rootbone"	"0"
 			"name"	"Farlige Farvande"
 		}
-		"580"
+		"593"
 		{
 			"system"	"utaunt_iconicoutline_teamcolor_red"
 			"id"	"3196"
 			"attach_to_rootbone"	"0"
 			"name"	"Ikonisk Omrids"
 		}
-		"581"
+		"594"
 		{
 			"system"	"utaunt_iconicoutline_teamcolor_blue"
 			"id"	"3197"
 			"attach_to_rootbone"	"0"
 			"name"	"Ikonisk Omrids"
 		}
-		"582"
+		"595"
 		{
 			"system"	"utaunt_iconicoutline_pink_parent"
 			"id"	"3198"
 			"attach_to_rootbone"	"0"
 			"name"	"Snedig Skikkelse"
 		}
-		"583"
+		"596"
 		{
 			"system"	"utaunt_oceanreef_parent"
 			"id"	"3199"
 			"attach_to_rootbone"	"0"
 			"name"	"Frodig Havbund"
 		}
-		"584"
+		"597"
 		{
 			"system"	"utaunt_signalinterference_parent"
 			"id"	"3200"
 			"attach_to_rootbone"	"0"
 			"name"	"Flimmer"
 		}
-		"585"
+		"598"
 		{
 			"system"	"utaunt_waterwave_parent"
 			"id"	"3201"
 			"attach_to_rootbone"	"0"
 			"name"	"Hedebølge"
 		}
-		"586"
+		"599"
 		{
 			"system"	"utaunt_sharkfin2_parent"
 			"id"	"3202"
 			"attach_to_rootbone"	"0"
 			"name"	"Hajangreb"
 		}
-		"587"
+		"600"
 		{
 			"system"	"utaunt_phantasam_green_parent"
 			"id"	"3203"
 			"attach_to_rootbone"	"0"
 			"name"	"Gasudslip"
 		}
-		"588"
+		"601"
 		{
 			"system"	"utaunt_phantasam_grey_parent"
 			"id"	"3204"
 			"attach_to_rootbone"	"0"
 			"name"	"Dødelig Dis"
 		}
-		"589"
+		"602"
 		{
 			"system"	"utaunt_phantasam_purple_parent"
 			"id"	"3205"
 			"attach_to_rootbone"	"0"
 			"name"	"Skrækkelig Sigtbarhed"
 		}
-		"590"
+		"603"
 		{
 			"system"	"utaunt_multicurse_teamcolor_red"
 			"id"	"3206"
 			"attach_to_rootbone"	"0"
 			"name"	"Ildfast Form"
 		}
-		"591"
+		"604"
 		{
 			"system"	"utaunt_multicurse_teamcolor_blue"
 			"id"	"3207"
 			"attach_to_rootbone"	"0"
 			"name"	"Ildfast Form"
 		}
-		"592"
+		"605"
 		{
 			"system"	"utaunt_voidcrawlers_parent"
 			"id"	"3208"
 			"attach_to_rootbone"	"0"
 			"name"	"Tomrumstrolde"
 		}
-		"593"
+		"606"
 		{
 			"system"	"utaunt_tarpit_dinos_parent"
 			"id"	"3209"
 			"attach_to_rootbone"	"0"
 			"name"	"Fossilt Fodslam"
 		}
-		"594"
+		"607"
 		{
 			"system"	"utaunt_tarpit_people_parent"
 			"id"	"3210"
 			"attach_to_rootbone"	"0"
 			"name"	"Olieret Underlag"
 		}
-		"595"
+		"608"
 		{
 			"system"	"utaunt_morbed_teamcolor_red"
 			"id"	"3211"
 			"attach_to_rootbone"	"0"
 			"name"	"Modbydeligt Bæst"
 		}
-		"596"
+		"609"
 		{
 			"system"	"utaunt_morbed_teamcolor_blue"
 			"id"	"3212"
 			"attach_to_rootbone"	"0"
 			"name"	"Modbydeligt Bæst"
 		}
-		"597"
+		"610"
+		{
+			"system"	"utaunt_2fort_teamc_teamcolor_red"
+			"id"	"3213"
+			"attach_to_rootbone"	"0"
+			"name"	"Snow Dome"
+		}
+		"611"
+		{
+			"system"	"utaunt_2fort_teamc_teamcolor_blue"
+			"id"	"3214"
+			"attach_to_rootbone"	"0"
+			"name"	"Snow Dome"
+		}
+		"612"
+		{
+			"system"	"utaunt_burningdesire_green_parent"
+			"id"	"3215"
+			"attach_to_rootbone"	"0"
+			"name"	"Scorching Sensation"
+		}
+		"613"
+		{
+			"system"	"utaunt_burningdesire_orange_parent"
+			"id"	"3216"
+			"attach_to_rootbone"	"0"
+			"name"	"Burning Sensation"
+		}
+		"614"
+		{
+			"system"	"utaunt_spacecoated_2colored_parent_pb"
+			"id"	"3217"
+			"attach_to_rootbone"	"0"
+			"name"	"Galactic Dust"
+		}
+		"615"
+		{
+			"system"	"utaunt_spacecoated_2colored_parent_pg"
+			"id"	"3218"
+			"attach_to_rootbone"	"0"
+			"name"	"Galactic Cloud"
+		}
+		"616"
+		{
+			"system"	"utaunt_aurora25_teamcolor_red"
+			"id"	"3219"
+			"attach_to_rootbone"	"0"
+			"name"	"Aurora Aura"
+		}
+		"617"
+		{
+			"system"	"utaunt_aurora25_teamcolor_blue"
+			"id"	"3220"
+			"attach_to_rootbone"	"0"
+			"name"	"Aurora Aura"
+		}
+		"618"
+		{
+			"system"	"utaunt_aurora25_parent_purple"
+			"id"	"3221"
+			"attach_to_rootbone"	"0"
+			"name"	"Northern Nights"
+		}
+		"619"
+		{
+			"system"	"utaunt_chillingmist_parent"
+			"id"	"3222"
+			"attach_to_rootbone"	"0"
+			"name"	"Chilling Mist"
+		}
+		"620"
+		{
+			"system"	"utaunt_80smalfunction_parent"
+			"id"	"3223"
+			"attach_to_rootbone"	"0"
+			"name"	"Circuit Break"
+		}
+		"621"
 		{
 			"system"	"killstreak_eyeglow_4_teamcolor_red"
 			"id"	"22001"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22001"
 		}
-		"598"
+		"622"
 		{
 			"system"	"killstreak_t1_lvl2"
 			"id"	"22002"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22002"
 		}
-		"599"
+		"623"
 		{
 			"system"	"killstreak_t2_lvl2"
 			"id"	"22003"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22003"
 		}
-		"600"
+		"624"
 		{
 			"system"	"killstreak_t3_lvl2"
 			"id"	"22004"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22004"
 		}
-		"601"
+		"625"
 		{
 			"system"	"killstreak_t4_lvl2"
 			"id"	"22005"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22005"
 		}
-		"602"
+		"626"
 		{
 			"system"	"killstreak_t5_lvl2"
 			"id"	"22006"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22006"
 		}
-		"603"
+		"627"
 		{
 			"system"	"killstreak_t6_lvl2"
 			"id"	"22007"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22007"
 		}
-		"604"
+		"628"
 		{
 			"system"	"killstreak_t7_lvl2"
 			"id"	"22008"

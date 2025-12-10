@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.d20617571953493812a1d1eb3bb67ccc0eb77264.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.19e8438475e8067150cd96f34935c045d4a0fcee.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -3163,8 +3163,8 @@ dar la fel de rotund în vârf.</item_description>
 			<image_inventory>backpack/player/items/spy/derby_hat</image_inventory>
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>100</max_ilevel>
-			<image_url>http://media.steampowered.com/apps/440/icons/derby_hat.e344b6808c7c752c7cac4dca37212875f841d76f.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/derby_hat_large.0ff739bf2d0a7e82e1c86af8792dcfe1a20faa77.png</image_url_large>
+			<image_url>http://media.steampowered.com/apps/440/icons/derby_hat.c57860e3ccc71713f9f52e352c1399c18dec7f57.png</image_url>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/derby_hat_large.74dd9feff55378ceb6dc39cbcc9e5419bdc1ff6f.png</image_url_large>
 			<drop_type>drop</drop_type>
 			<craft_class>hat</craft_class>
 			<craft_material_type>hat</craft_material_type>
@@ -11949,6 +11949,11 @@ Cine are nevoie de pâine?</item_description>
 				<can_killstreakify>true</can_killstreakify>
 				<can_consume>true</can_consume>
 			</capabilities>
+			<styles>
+				<style>
+					<name>TF_UnknownStyle</name>
+				</style>
+			</styles>
 			<used_by_classes>
 				<class>Scout</class>
 			</used_by_classes>
@@ -17394,6 +17399,11 @@ Această armă își reumple întregul încărcător deodată.</item_description
 				<attribute>
 					<name>hype on damage</name>
 					<class>hype_on_damage</class>
+					<value>1</value>
+				</attribute>
+				<attribute>
+					<name>disable fancy class select anim</name>
+					<class>disable_fancy_class_select_anim</class>
 					<value>1</value>
 				</attribute>
 			</attributes>

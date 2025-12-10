@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.d20617571953493812a1d1eb3bb67ccc0eb77264.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.19e8438475e8067150cd96f34935c045d4a0fcee.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -11455,6 +11455,97 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<name>Sandy</name>
 		</particle>
 		<particle>
+			<system>unusual_ombre_parent_purple</system>
+			<id>393</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Chromatic Blaze</name>
+		</particle>
+		<particle>
+			<system>unusual_ombre_parent_teal</system>
+			<id>394</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Frostfire</name>
+		</particle>
+		<particle>
+			<system>unusual_ombre_parent_spectrum</system>
+			<id>395</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Spectrum Inferno</name>
+		</particle>
+		<particle>
+			<system>unusual_calmsnowfall_parent</system>
+			<id>396</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Calm Snowfall</name>
+		</particle>
+		<particle>
+			<system>unusual_team_recognition_teamcolor_red</system>
+			<id>397</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Team Recognition</name>
+		</particle>
+		<particle>
+			<system>unusual_team_recognition_teamcolor_blue</system>
+			<id>398</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Team Recognition</name>
+		</particle>
+		<particle>
+			<system>unusual_classicfortress_teamcolor_red</system>
+			<id>399</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Old Hire</name>
+		</particle>
+		<particle>
+			<system>unusual_classicfortress_teamcolor_blue</system>
+			<id>400</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Old Hire</name>
+		</particle>
+		<particle>
+			<system>unusual_classicfortress_tflogo_parent</system>
+			<id>401</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Analog Fortress</name>
+		</particle>
+		<particle>
+			<system>unusual_growing_flake_parent_white</system>
+			<id>402</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Winter Whiteout</name>
+		</particle>
+		<particle>
+			<system>unusual_growing_flake_parent_purple</system>
+			<id>403</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Midnight Frostfall</name>
+		</particle>
+		<particle>
+			<system>unusual_growing_flake_parent_twilight</system>
+			<id>404</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Twilight Snowfall</name>
+		</particle>
+		<particle>
+			<system>unusual_cryogenic_parent</system>
+			<id>405</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Cryogenic</name>
+		</particle>
+		<particle>
 			<system>weapon_unusual_hot</system>
 			<id>701</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
@@ -12789,6 +12880,72 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>3212</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
 			<name>Morbidly Beast</name>
+		</particle>
+		<particle>
+			<system>utaunt_2fort_teamc_teamcolor_red</system>
+			<id>3213</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Snow Dome</name>
+		</particle>
+		<particle>
+			<system>utaunt_2fort_teamc_teamcolor_blue</system>
+			<id>3214</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Snow Dome</name>
+		</particle>
+		<particle>
+			<system>utaunt_burningdesire_green_parent</system>
+			<id>3215</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Scorching Sensation</name>
+		</particle>
+		<particle>
+			<system>utaunt_burningdesire_orange_parent</system>
+			<id>3216</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Burning Sensation</name>
+		</particle>
+		<particle>
+			<system>utaunt_spacecoated_2colored_parent_pb</system>
+			<id>3217</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Galactic Dust</name>
+		</particle>
+		<particle>
+			<system>utaunt_spacecoated_2colored_parent_pg</system>
+			<id>3218</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Galactic Cloud</name>
+		</particle>
+		<particle>
+			<system>utaunt_aurora25_teamcolor_red</system>
+			<id>3219</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Aurora Aura</name>
+		</particle>
+		<particle>
+			<system>utaunt_aurora25_teamcolor_blue</system>
+			<id>3220</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Aurora Aura</name>
+		</particle>
+		<particle>
+			<system>utaunt_aurora25_parent_purple</system>
+			<id>3221</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Northern Nights</name>
+		</particle>
+		<particle>
+			<system>utaunt_chillingmist_parent</system>
+			<id>3222</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Chilling Mist</name>
+		</particle>
+		<particle>
+			<system>utaunt_80smalfunction_parent</system>
+			<id>3223</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Circuit Break</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>

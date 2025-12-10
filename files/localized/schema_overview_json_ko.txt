@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.d20617571953493812a1d1eb3bb67ccc0eb77264.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.19e8438475e8067150cd96f34935c045d4a0fcee.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -11496,6 +11496,97 @@
 				"name": "모래 먼지"
 			},
 			{
+				"system": "unusual_ombre_parent_purple",
+				"id": 393,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Chromatic Blaze"
+			},
+			{
+				"system": "unusual_ombre_parent_teal",
+				"id": 394,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Frostfire"
+			},
+			{
+				"system": "unusual_ombre_parent_spectrum",
+				"id": 395,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Spectrum Inferno"
+			},
+			{
+				"system": "unusual_calmsnowfall_parent",
+				"id": 396,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Calm Snowfall"
+			},
+			{
+				"system": "unusual_team_recognition_teamcolor_red",
+				"id": 397,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Team Recognition"
+			},
+			{
+				"system": "unusual_team_recognition_teamcolor_blue",
+				"id": 398,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Team Recognition"
+			},
+			{
+				"system": "unusual_classicfortress_teamcolor_red",
+				"id": 399,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Old Hire"
+			},
+			{
+				"system": "unusual_classicfortress_teamcolor_blue",
+				"id": 400,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Old Hire"
+			},
+			{
+				"system": "unusual_classicfortress_tflogo_parent",
+				"id": 401,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Analog Fortress"
+			},
+			{
+				"system": "unusual_growing_flake_parent_white",
+				"id": 402,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Winter Whiteout"
+			},
+			{
+				"system": "unusual_growing_flake_parent_purple",
+				"id": 403,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Midnight Frostfall"
+			},
+			{
+				"system": "unusual_growing_flake_parent_twilight",
+				"id": 404,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Twilight Snowfall"
+			},
+			{
+				"system": "unusual_cryogenic_parent",
+				"id": 405,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Cryogenic"
+			},
+			{
 				"system": "weapon_unusual_hot",
 				"id": 701,
 				"attach_to_rootbone": false,
@@ -12830,6 +12921,72 @@
 				"id": 3212,
 				"attach_to_rootbone": false,
 				"name": "섬뜩한 야수"
+			},
+			{
+				"system": "utaunt_2fort_teamc_teamcolor_red",
+				"id": 3213,
+				"attach_to_rootbone": false,
+				"name": "Snow Dome"
+			},
+			{
+				"system": "utaunt_2fort_teamc_teamcolor_blue",
+				"id": 3214,
+				"attach_to_rootbone": false,
+				"name": "Snow Dome"
+			},
+			{
+				"system": "utaunt_burningdesire_green_parent",
+				"id": 3215,
+				"attach_to_rootbone": false,
+				"name": "Scorching Sensation"
+			},
+			{
+				"system": "utaunt_burningdesire_orange_parent",
+				"id": 3216,
+				"attach_to_rootbone": false,
+				"name": "Burning Sensation"
+			},
+			{
+				"system": "utaunt_spacecoated_2colored_parent_pb",
+				"id": 3217,
+				"attach_to_rootbone": false,
+				"name": "Galactic Dust"
+			},
+			{
+				"system": "utaunt_spacecoated_2colored_parent_pg",
+				"id": 3218,
+				"attach_to_rootbone": false,
+				"name": "Galactic Cloud"
+			},
+			{
+				"system": "utaunt_aurora25_teamcolor_red",
+				"id": 3219,
+				"attach_to_rootbone": false,
+				"name": "Aurora Aura"
+			},
+			{
+				"system": "utaunt_aurora25_teamcolor_blue",
+				"id": 3220,
+				"attach_to_rootbone": false,
+				"name": "Aurora Aura"
+			},
+			{
+				"system": "utaunt_aurora25_parent_purple",
+				"id": 3221,
+				"attach_to_rootbone": false,
+				"name": "Northern Nights"
+			},
+			{
+				"system": "utaunt_chillingmist_parent",
+				"id": 3222,
+				"attach_to_rootbone": false,
+				"name": "Chilling Mist"
+			},
+			{
+				"system": "utaunt_80smalfunction_parent",
+				"id": 3223,
+				"attach_to_rootbone": false,
+				"name": "Circuit Break"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",
