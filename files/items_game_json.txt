@@ -17451,8 +17451,7 @@
             "paintkit_weapon_wrench": {
                 "prefab": "paintkit_weapon weapon_wrench",
                 "xifier_class_remap": "wrench"
-            },
-            "dec25_2_empty": {}
+            }
         },
         "items": {
             "default": {
@@ -95513,7 +95512,7 @@
             },
             "31576": {
                 "name": "Taunt: Dead Mann's Drink",
-                "prefab": "no_craft taunt dec25_2_empty",
+                "prefab": "no_craft taunt",
                 "first_sale_date": "2025/12/02",
                 "item_name": "#TF_taunt_dead_manns_drink",
                 "item_description": "#TF_taunt_dead_manns_drink_Desc",
@@ -95536,7 +95535,7 @@
             },
             "31577": {
                 "name": "Taunt: The Critical Fail",
-                "prefab": "no_craft taunt dec25_2_empty",
+                "prefab": "no_craft taunt",
                 "first_sale_date": "2025/12/02",
                 "item_name": "#TF_taunt_the_critical_fail",
                 "item_description": "#TF_taunt_the_critical_fail_Desc",
@@ -95572,7 +95571,7 @@
             },
             "31578": {
                 "name": "Taunt: Chairholder",
-                "prefab": "no_craft taunt dec25_2_empty",
+                "prefab": "no_craft taunt",
                 "first_sale_date": "2025/12/02",
                 "item_name": "#TF_taunt_chairholder",
                 "item_description": "#TF_taunt_chairholder_Desc",
@@ -95604,7 +95603,7 @@
             },
             "31579": {
                 "name": "Lazer Gazers",
-                "prefab": "no_craft misc marketable dec25_2_empty",
+                "prefab": "no_craft misc marketable",
                 "item_name": "#TF_dec25_lazer_gazers",
                 "item_description": "#TF_dec25_lazer_gazers_Desc",
                 "item_type_name": "#TF_Wearable_Lazers",
@@ -95639,7 +95638,7 @@
             },
             "31580": {
                 "name": "Snow Merc",
-                "prefab": "no_craft misc marketable dec25_2_empty",
+                "prefab": "no_craft misc marketable",
                 "item_name": "#TF_dec25_snow_merc",
                 "item_description": "#TF_dec25_snow_merc_Desc",
                 "item_type_name": "#TF_Wearable_Mascot",
@@ -95688,7 +95687,7 @@
             },
             "31581": {
                 "name": "The Old Days Devotion",
-                "prefab": "no_craft hat marketable dec25_2_empty",
+                "prefab": "no_craft hat marketable",
                 "item_name": "#TF_dec25_old_days",
                 "item_description": "#TF_dec25_old_days_Desc",
                 "equip_region": "hat",
@@ -95747,7 +95746,7 @@
             },
             "31582": {
                 "name": "Alpine Hawk",
-                "prefab": "no_craft hat marketable dec25_2_empty",
+                "prefab": "no_craft hat marketable",
                 "item_name": "#TF_dec25_alpine_hawk",
                 "item_description": "#TF_dec25_alpine_hawk_Desc",
                 "equip_region": "hat",
@@ -95769,7 +95768,7 @@
             },
             "31583": {
                 "name": "Alpine Apparel",
-                "prefab": "no_craft misc marketable dec25_2_empty",
+                "prefab": "no_craft misc marketable",
                 "item_name": "#TF_dec25_alpine_apparel",
                 "item_description": "#TF_dec25_alpine_apparel_Desc",
                 "item_type_name": "#TF_Wearable_Coat",
@@ -95788,7 +95787,7 @@
             },
             "31584": {
                 "name": "Chill-Seeker",
-                "prefab": "no_craft hat marketable dec25_2_empty",
+                "prefab": "no_craft hat marketable",
                 "item_name": "#TF_dec25_chill_seeker",
                 "item_description": "#TF_dec25_chill_seeker_Desc",
                 "equip_regions": {
@@ -95823,7 +95822,7 @@
             },
             "31585": {
                 "name": "Puncher's Polar Puffer",
-                "prefab": "no_craft misc marketable dec25_2_empty",
+                "prefab": "no_craft misc marketable",
                 "item_name": "#TF_dec25_punchers_polar",
                 "item_description": "#TF_dec25_punchers_polar_Desc",
                 "item_type_name": "#TF_Wearable_Coat",
@@ -95876,7 +95875,7 @@
             },
             "31586": {
                 "name": "Commonwealth Commander",
-                "prefab": "no_craft hat marketable dec25_2_empty",
+                "prefab": "no_craft hat marketable",
                 "item_name": "#TF_dec25_commonwealth",
                 "item_description": "#TF_dec25_commonwealth_Desc",
                 "item_type_name": "#TF_Wearable_Helmet",
@@ -95896,7 +95895,7 @@
             },
             "31587": {
                 "name": "Veteran's Visor",
-                "prefab": "no_craft misc marketable dec25_2_empty",
+                "prefab": "no_craft misc marketable",
                 "item_name": "#TF_dec25_veterans_visor",
                 "item_description": "#TF_dec25_veterans_visor_Desc",
                 "item_type_name": "#TF_Wearable_Mask",
@@ -95920,7 +95919,7 @@
             },
             "31588": {
                 "name": "Deserter's Duster",
-                "prefab": "no_craft misc marketable dec25_2_empty",
+                "prefab": "no_craft misc marketable",
                 "item_name": "#TF_dec25_deserters_duster",
                 "item_description": "#TF_dec25_deserters_duster_Desc",
                 "item_type_name": "#TF_Wearable_Armor",
@@ -95944,7 +95943,7 @@
             },
             "31589": {
                 "name": "Blizzard Bonnet",
-                "prefab": "no_craft hat marketable dec25_2_empty",
+                "prefab": "no_craft hat marketable",
                 "item_name": "#TF_dec25_blizzard_bonnet",
                 "item_description": "#TF_dec25_blizzard_bonnet_Desc",
                 "equip_region": "hat",
@@ -95983,7 +95982,7 @@
             },
             "31590": {
                 "name": "Festive Fleece",
-                "prefab": "no_craft misc marketable dec25_2_empty",
+                "prefab": "no_craft misc marketable",
                 "item_name": "#TF_dec25_festive_fleece",
                 "item_description": "#TF_dec25_festive_fleece_Desc",
                 "item_type_name": "#TF_Wearable_Sweater",
@@ -96024,7 +96023,7 @@
             },
             "31591": {
                 "name": "Air Head",
-                "prefab": "no_craft hat marketable dec25_2_empty",
+                "prefab": "no_craft hat marketable",
                 "item_name": "#TF_dec25_air_head",
                 "item_description": "#TF_dec25_air_head_Desc",
                 "equip_regions": {
@@ -96062,7 +96061,7 @@
             },
             "31592": {
                 "name": "Sydney Shearling",
-                "prefab": "no_craft misc marketable dec25_2_empty",
+                "prefab": "no_craft misc marketable",
                 "item_name": "#TF_dec25_sydney_shearling",
                 "item_description": "#TF_dec25_sydney_shearling_Desc",
                 "item_type_name": "#TF_Wearable_Coat",
@@ -96080,7 +96079,7 @@
             },
             "31593": {
                 "name": "Epilogue Locks",
-                "prefab": "no_craft hat marketable dec25_2_empty",
+                "prefab": "no_craft hat marketable",
                 "item_name": "#TF_dec25_epilogue_locks",
                 "item_description": "#TF_dec25_epilogue_locks_Desc",
                 "item_type_name": "#TF_Wearable_Hair",
@@ -96103,7 +96102,7 @@
             },
             "31594": {
                 "name": "Willis' Warmer",
-                "prefab": "no_craft misc marketable dec25_2_empty",
+                "prefab": "no_craft misc marketable",
                 "item_name": "#TF_dec25_willis_warmer",
                 "item_description": "#TF_dec25_willis_warmer_Desc",
                 "item_type_name": "#TF_Wearable_Sweater",
@@ -96140,7 +96139,7 @@
             },
             "31595": {
                 "name": "The Sole Providers",
-                "prefab": "no_craft misc marketable dec25_2_empty",
+                "prefab": "no_craft misc marketable",
                 "item_name": "#TF_dec25_sole_providers",
                 "item_description": "#TF_dec25_sole_providers_Desc",
                 "item_type_name": "#TF_Wearable_Pants",
@@ -96164,7 +96163,7 @@
             },
             "31596": {
                 "name": "Scrooge McCrocket",
-                "prefab": "no_craft hat marketable dec25_2_empty",
+                "prefab": "no_craft hat marketable",
                 "item_name": "#TF_dec25_scrooge",
                 "item_description": "#TF_dec25_scrooge_Desc",
                 "equip_region": "hat",
@@ -96211,7 +96210,7 @@
             },
             "31597": {
                 "name": "Black Tie Affair",
-                "prefab": "no_craft misc marketable dec25_2_empty",
+                "prefab": "no_craft misc marketable",
                 "item_name": "#TF_dec25_black_tie",
                 "item_description": "#TF_dec25_black_tie_Desc",
                 "item_type_name": "#TF_Wearable_Suit",
@@ -96246,7 +96245,7 @@
             },
             "31598": {
                 "name": "Aristocravat",
-                "prefab": "no_craft misc marketable dec25_2_empty",
+                "prefab": "no_craft misc marketable",
                 "item_name": "#TF_dec25_aristocravat",
                 "item_description": "#TF_dec25_aristocravat_Desc",
                 "item_type_name": "#TF_Wearable_Tie",
@@ -96281,7 +96280,7 @@
             },
             "31599": {
                 "name": "Flatline Flatcap",
-                "prefab": "no_craft hat marketable dec25_2_empty",
+                "prefab": "no_craft hat marketable",
                 "item_name": "#TF_dec25_flatline_flatcap",
                 "item_description": "#TF_dec25_flatline_flatcap_Desc",
                 "equip_region": "hat",
@@ -96313,7 +96312,7 @@
             },
             "31600": {
                 "name": "Cardiologist's Cardigan",
-                "prefab": "no_craft misc marketable dec25_2_empty",
+                "prefab": "no_craft misc marketable",
                 "item_name": "#TF_dec25_cardiologists_cardigan",
                 "item_description": "#TF_dec25_cardiologists_cardigan_Desc",
                 "item_type_name": "#TF_Wearable_Sweater",
@@ -96331,7 +96330,7 @@
             },
             "31601": {
                 "name": "Scrub Stompers",
-                "prefab": "no_craft misc marketable dec25_2_empty",
+                "prefab": "no_craft misc marketable",
                 "item_name": "#TF_dec25_scrub_stompers",
                 "item_description": "#TF_dec25_scrub_stompers_Desc",
                 "item_type_name": "#TF_Wearable_Pants",
@@ -173608,7 +173607,7 @@
             "2560": {
                 "name": "Map Token Nutcracker",
                 "first_sale_date": "2025/11/29",
-                "prefab": "map_token dec25_2_empty",
+                "prefab": "map_token",
                 "item_name": "#TF_MapToken_Nutcracker",
                 "item_description": "#TF_MapToken_Nutcracker_Desc",
                 "map_name": "#TF_Map_Nutcracker",
@@ -173618,7 +173617,7 @@
             "2561": {
                 "name": "Map Token Gavle",
                 "first_sale_date": "2025/11/29",
-                "prefab": "map_token dec25_2_empty",
+                "prefab": "map_token",
                 "item_name": "#TF_MapToken_Gavle",
                 "item_description": "#TF_MapToken_Gavle_Desc",
                 "map_name": "#TF_Map_Gavle",
@@ -173628,7 +173627,7 @@
             "2562": {
                 "name": "Map Token Sidewinder",
                 "first_sale_date": "2025/11/29",
-                "prefab": "map_token dec25_2_empty",
+                "prefab": "map_token",
                 "item_name": "#TF_MapToken_Sidewinder",
                 "item_description": "#TF_MapToken_Sidewinder_Desc",
                 "map_name": "#TF_Map_Sidewinder",
@@ -173638,7 +173637,7 @@
             "2563": {
                 "name": "Map Token Abbey",
                 "first_sale_date": "2025/11/29",
-                "prefab": "map_token dec25_2_empty",
+                "prefab": "map_token",
                 "item_name": "#TF_MapToken_Abbey",
                 "item_description": "#TF_MapToken_Abbey_Desc",
                 "map_name": "#TF_Map_Abbey",
@@ -173648,7 +173647,7 @@
             "2564": {
                 "name": "Map Token Winter Ridge",
                 "first_sale_date": "2025/11/29",
-                "prefab": "map_token dec25_2_empty",
+                "prefab": "map_token",
                 "item_name": "#TF_MapToken_WinterRidge",
                 "item_description": "#TF_MapToken_WinterRidge_Desc",
                 "map_name": "#TF_Map_WinterRidge",
@@ -173658,7 +173657,7 @@
             "2565": {
                 "name": "Map Token Matterhorn",
                 "first_sale_date": "2025/11/29",
-                "prefab": "map_token dec25_2_empty",
+                "prefab": "map_token",
                 "item_name": "#TF_MapToken_Matterhorn",
                 "item_description": "#TF_MapToken_Matterhorn_Desc",
                 "map_name": "#TF_Map_Matterhorn",
@@ -181173,7 +181172,7 @@
             "5975": {
                 "name": "Winter 2025 Cosmetic Key",
                 "first_sale_date": "2025/12/04",
-                "prefab": "eventkey dec25_2_empty",
+                "prefab": "eventkey",
                 "item_name": "#TF_Tool_Winter2025CosmeticKey",
                 "item_description": "#TF_Tool_Winter2025CosmeticKey_Desc",
                 "ad_text": "#TF_Tool_Winter2025CosmeticKey_AdText",
@@ -181189,7 +181188,7 @@
             "5976": {
                 "name": "Winter 2025 Cosmetic Case",
                 "first_sale_date": "2025/12/04",
-                "prefab": "base_cosmetic_case dec25_2_empty",
+                "prefab": "base_cosmetic_case",
                 "tool": {
                     "restriction": "winter2025"
                 },
@@ -184847,7 +184846,7 @@
             "6677": {
                 "name": "Strange Filter: Nutcracker (Community)",
                 "first_sale_date": "2025/11/28",
-                "prefab": "strange_part_restriction dec25_2_empty",
+                "prefab": "strange_part_restriction",
                 "tool": {
                     "usage": {
                         "restriction_type": "map",
@@ -184862,7 +184861,7 @@
             "6678": {
                 "name": "Strange Filter: Gavle (Community)",
                 "first_sale_date": "2025/11/28",
-                "prefab": "strange_part_restriction dec25_2_empty",
+                "prefab": "strange_part_restriction",
                 "tool": {
                     "usage": {
                         "restriction_type": "map",
@@ -184877,7 +184876,7 @@
             "6679": {
                 "name": "Strange Filter: Sidewinder (Community)",
                 "first_sale_date": "2025/11/28",
-                "prefab": "strange_part_restriction dec25_2_empty",
+                "prefab": "strange_part_restriction",
                 "tool": {
                     "usage": {
                         "restriction_type": "map",
@@ -184892,7 +184891,7 @@
             "6680": {
                 "name": "Strange Filter: Abbey (Community)",
                 "first_sale_date": "2025/11/28",
-                "prefab": "strange_part_restriction dec25_2_empty",
+                "prefab": "strange_part_restriction",
                 "tool": {
                     "usage": {
                         "restriction_type": "map",
@@ -184907,7 +184906,7 @@
             "6681": {
                 "name": "Strange Filter: Winter Ridge (Community)",
                 "first_sale_date": "2025/11/28",
-                "prefab": "strange_part_restriction dec25_2_empty",
+                "prefab": "strange_part_restriction",
                 "tool": {
                     "usage": {
                         "restriction_type": "map",
@@ -184922,7 +184921,7 @@
             "6682": {
                 "name": "Strange Filter: Matterhorn (Community)",
                 "first_sale_date": "2025/11/28",
-                "prefab": "strange_part_restriction dec25_2_empty",
+                "prefab": "strange_part_restriction",
                 "tool": {
                     "usage": {
                         "restriction_type": "map",
@@ -192464,7 +192463,7 @@
             },
             "2179": {
                 "name": "Map Token Bundle 30",
-                "prefab": "default_bundle_payment dec25_2_empty",
+                "prefab": "default_bundle_payment",
                 "first_sale_date": "2025/12/01",
                 "item_class": "bundle",
                 "capabilities": {

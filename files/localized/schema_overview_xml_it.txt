@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.19e8438475e8067150cd96f34935c045d4a0fcee.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.dc29a91db97120797a696ac733f24619ef0f5afa.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -11144,7 +11144,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			<id>348</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Psycho-Delic</name>
+			<name>Psico-delico</name>
 		</particle>
 		<particle>
 			<system>unusual_butterfly_parent</system>
@@ -11403,14 +11403,14 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			<id>385</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Candle Flame</name>
+			<name>Fiamma di candela</name>
 		</particle>
 		<particle>
 			<system>unusual_candle_teamcolor_blue</system>
 			<id>386</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Candle Flame</name>
+			<name>Fiamma di candela</name>
 		</particle>
 		<particle>
 			<system>unusual_deadlyaroma_teamcolor_red</system>
@@ -12351,7 +12351,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			<system>utaunt_krakenmouth_green_parent</system>
 			<id>3124</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Deep-Sea Devourer</name>
+			<name>Divoratore delle profondità marine</name>
 		</particle>
 		<particle>
 			<system>utaunt_krakenmouth_purple_parent</system>
@@ -12855,7 +12855,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			<system>utaunt_voidcrawlers_parent</system>
 			<id>3208</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Void Crawlers</name>
+			<name>Creature del vuoto</name>
 		</particle>
 		<particle>
 			<system>utaunt_tarpit_dinos_parent</system>
@@ -12867,7 +12867,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			<system>utaunt_tarpit_people_parent</system>
 			<id>3210</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Tar Pit</name>
+			<name>Fossa di catrame</name>
 		</particle>
 		<particle>
 			<system>utaunt_morbed_teamcolor_red</system>

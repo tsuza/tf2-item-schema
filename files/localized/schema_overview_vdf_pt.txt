@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.19e8438475e8067150cd96f34935c045d4a0fcee.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.dc29a91db97120797a696ac733f24619ef0f5afa.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -12877,7 +12877,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"393"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Chromatic Blaze"
+			"name"	"Chama Cromática"
 		}
 		"376"
 		{
@@ -12885,7 +12885,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"394"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Frostfire"
+			"name"	"Fogo Frio"
 		}
 		"377"
 		{
@@ -12893,7 +12893,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"395"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spectrum Inferno"
+			"name"	"Infernal Espectral"
 		}
 		"378"
 		{
@@ -12901,7 +12901,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"396"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Calm Snowfall"
+			"name"	"Nevasca Calma"
 		}
 		"379"
 		{
@@ -12909,7 +12909,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"397"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Team Recognition"
+			"name"	"Reconhecimento da Equipa"
 		}
 		"380"
 		{
@@ -12917,7 +12917,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"398"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Team Recognition"
+			"name"	"Reconhecimento da Equipa"
 		}
 		"381"
 		{
@@ -12925,7 +12925,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"399"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Old Hire"
+			"name"	"Fortaleza Clássica"
 		}
 		"382"
 		{
@@ -12933,7 +12933,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"400"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Old Hire"
+			"name"	"Fortaleza Clássica"
 		}
 		"383"
 		{
@@ -12941,7 +12941,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"401"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Analog Fortress"
+			"name"	"Fortaleza Analógica"
 		}
 		"384"
 		{
@@ -12949,7 +12949,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"402"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Winter Whiteout"
+			"name"	"Nevasca Nebulosa"
 		}
 		"385"
 		{
@@ -12957,7 +12957,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"403"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Midnight Frostfall"
+			"name"	"Geada da Meia-Noite"
 		}
 		"386"
 		{
@@ -12965,7 +12965,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"404"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Twilight Snowfall"
+			"name"	"Cristalização do Crepúsculo"
 		}
 		"387"
 		{
@@ -12973,7 +12973,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"405"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Cryogenic"
+			"name"	"Criogénico"
 		}
 		"388"
 		{
@@ -14538,77 +14538,77 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"system"	"utaunt_2fort_teamc_teamcolor_red"
 			"id"	"3213"
 			"attach_to_rootbone"	"0"
-			"name"	"Snow Dome"
+			"name"	"Globo de Neve"
 		}
 		"611"
 		{
 			"system"	"utaunt_2fort_teamc_teamcolor_blue"
 			"id"	"3214"
 			"attach_to_rootbone"	"0"
-			"name"	"Snow Dome"
+			"name"	"Globo de Neve"
 		}
 		"612"
 		{
 			"system"	"utaunt_burningdesire_green_parent"
 			"id"	"3215"
 			"attach_to_rootbone"	"0"
-			"name"	"Scorching Sensation"
+			"name"	"Sensação Centelhante"
 		}
 		"613"
 		{
 			"system"	"utaunt_burningdesire_orange_parent"
 			"id"	"3216"
 			"attach_to_rootbone"	"0"
-			"name"	"Burning Sensation"
+			"name"	"Sensação Ardente"
 		}
 		"614"
 		{
 			"system"	"utaunt_spacecoated_2colored_parent_pb"
 			"id"	"3217"
 			"attach_to_rootbone"	"0"
-			"name"	"Galactic Dust"
+			"name"	"Poeira Galáctica"
 		}
 		"615"
 		{
 			"system"	"utaunt_spacecoated_2colored_parent_pg"
 			"id"	"3218"
 			"attach_to_rootbone"	"0"
-			"name"	"Galactic Cloud"
+			"name"	"Nuvem Galáctica"
 		}
 		"616"
 		{
 			"system"	"utaunt_aurora25_teamcolor_red"
 			"id"	"3219"
 			"attach_to_rootbone"	"0"
-			"name"	"Aurora Aura"
+			"name"	"Aura Auroral"
 		}
 		"617"
 		{
 			"system"	"utaunt_aurora25_teamcolor_blue"
 			"id"	"3220"
 			"attach_to_rootbone"	"0"
-			"name"	"Aurora Aura"
+			"name"	"Aura Auroral"
 		}
 		"618"
 		{
 			"system"	"utaunt_aurora25_parent_purple"
 			"id"	"3221"
 			"attach_to_rootbone"	"0"
-			"name"	"Northern Nights"
+			"name"	"Noites do Norte"
 		}
 		"619"
 		{
 			"system"	"utaunt_chillingmist_parent"
 			"id"	"3222"
 			"attach_to_rootbone"	"0"
-			"name"	"Chilling Mist"
+			"name"	"Neblina Gelada"
 		}
 		"620"
 		{
 			"system"	"utaunt_80smalfunction_parent"
 			"id"	"3223"
 			"attach_to_rootbone"	"0"
-			"name"	"Circuit Break"
+			"name"	"Longo-Circuito"
 		}
 		"621"
 		{

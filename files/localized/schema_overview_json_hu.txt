@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.19e8438475e8067150cd96f34935c045d4a0fcee.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.dc29a91db97120797a696ac733f24619ef0f5afa.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -11500,56 +11500,56 @@
 				"id": 393,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Chromatic Blaze"
+				"name": "Kromatikus láng"
 			},
 			{
 				"system": "unusual_ombre_parent_teal",
 				"id": 394,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Frostfire"
+				"name": "Fagytűz"
 			},
 			{
 				"system": "unusual_ombre_parent_spectrum",
 				"id": 395,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Spectrum Inferno"
+				"name": "Spektrális tűzvész"
 			},
 			{
 				"system": "unusual_calmsnowfall_parent",
 				"id": 396,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Calm Snowfall"
+				"name": "Nyugodt hóesés"
 			},
 			{
 				"system": "unusual_team_recognition_teamcolor_red",
 				"id": 397,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Team Recognition"
+				"name": "Csapatelismerés"
 			},
 			{
 				"system": "unusual_team_recognition_teamcolor_blue",
 				"id": 398,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Team Recognition"
+				"name": "Csapatelismerés"
 			},
 			{
 				"system": "unusual_classicfortress_teamcolor_red",
 				"id": 399,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Old Hire"
+				"name": "Öreg róka"
 			},
 			{
 				"system": "unusual_classicfortress_teamcolor_blue",
 				"id": 400,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Old Hire"
+				"name": "Öreg róka"
 			},
 			{
 				"system": "unusual_classicfortress_tflogo_parent",
@@ -11563,14 +11563,14 @@
 				"id": 402,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Winter Whiteout"
+				"name": "Téli fehérség"
 			},
 			{
 				"system": "unusual_growing_flake_parent_purple",
 				"id": 403,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Midnight Frostfall"
+				"name": "Éjféli fagy"
 			},
 			{
 				"system": "unusual_growing_flake_parent_twilight",
@@ -11584,7 +11584,7 @@
 				"id": 405,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Cryogenic"
+				"name": "Mélyhűtött"
 			},
 			{
 				"system": "weapon_unusual_hot",
@@ -12926,61 +12926,61 @@
 				"system": "utaunt_2fort_teamc_teamcolor_red",
 				"id": 3213,
 				"attach_to_rootbone": false,
-				"name": "Snow Dome"
+				"name": "Hógömb"
 			},
 			{
 				"system": "utaunt_2fort_teamc_teamcolor_blue",
 				"id": 3214,
 				"attach_to_rootbone": false,
-				"name": "Snow Dome"
+				"name": "Hógömb"
 			},
 			{
 				"system": "utaunt_burningdesire_green_parent",
 				"id": 3215,
 				"attach_to_rootbone": false,
-				"name": "Scorching Sensation"
+				"name": "Perzselő érzés"
 			},
 			{
 				"system": "utaunt_burningdesire_orange_parent",
 				"id": 3216,
 				"attach_to_rootbone": false,
-				"name": "Burning Sensation"
+				"name": "Égető érzés"
 			},
 			{
 				"system": "utaunt_spacecoated_2colored_parent_pb",
 				"id": 3217,
 				"attach_to_rootbone": false,
-				"name": "Galactic Dust"
+				"name": "Galaktikus por"
 			},
 			{
 				"system": "utaunt_spacecoated_2colored_parent_pg",
 				"id": 3218,
 				"attach_to_rootbone": false,
-				"name": "Galactic Cloud"
+				"name": "Galaktikus felhő"
 			},
 			{
 				"system": "utaunt_aurora25_teamcolor_red",
 				"id": 3219,
 				"attach_to_rootbone": false,
-				"name": "Aurora Aura"
+				"name": "Aurora aura"
 			},
 			{
 				"system": "utaunt_aurora25_teamcolor_blue",
 				"id": 3220,
 				"attach_to_rootbone": false,
-				"name": "Aurora Aura"
+				"name": "Aurora aura"
 			},
 			{
 				"system": "utaunt_aurora25_parent_purple",
 				"id": 3221,
 				"attach_to_rootbone": false,
-				"name": "Northern Nights"
+				"name": "Északi éj"
 			},
 			{
 				"system": "utaunt_chillingmist_parent",
 				"id": 3222,
 				"attach_to_rootbone": false,
-				"name": "Chilling Mist"
+				"name": "Dermesztő köd"
 			},
 			{
 				"system": "utaunt_80smalfunction_parent",

@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.19e8438475e8067150cd96f34935c045d4a0fcee.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.dc29a91db97120797a696ac733f24619ef0f5afa.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -3153,7 +3153,7 @@ Ayrıca çorba ısıtır.</item_description>
 			<defindex>108</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Şapka</item_type_name>
-			<item_name>Arkacının Melon Şapkası</item_name>
+			<item_name>Hain Şapkası</item_name>
 			<item_description>Başının biraz daha uzun ama tepesinin aynı
 yuvarlaklıkta olmasını istediğin zamanlar için.</item_description>
 			<proper_name>false</proper_name>
@@ -11378,7 +11378,7 @@ Bu silah aktif olmadığında otomatik olarak şarjörü değişir</item_descrip
 			<defindex>307</defindex>
 			<item_class>tf_weapon_stickbomb</item_class>
 			<item_type_name>Çubuk Bomba</item_type_name>
-			<item_name>Ullapool Oyun Sırığı</item_name>
+			<item_name>İskoç Bombası</item_name>
 			<item_description>Yüksek verimli İskoç surat dağıtıcı.
 Ayık bir kişi bunu fırlatırdı...
 
@@ -15835,7 +15835,7 @@ Düşmanla temas ettiğinde yakın dövüş kritik vuruşu kazan.</item_descript
 			<defindex>413</defindex>
 			<item_class>tf_weapon_bonesaw</item_class>
 			<item_type_name>Hipokrat Büstü</item_type_name>
-			<item_name>Heybetli Tepki</item_name>
+			<item_name>Kutsal Yemin</item_name>
 			<item_description>&apos;Zarar vermeyin.&apos;</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>

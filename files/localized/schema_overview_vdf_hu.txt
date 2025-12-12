@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.19e8438475e8067150cd96f34935c045d4a0fcee.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.dc29a91db97120797a696ac733f24619ef0f5afa.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -12882,7 +12882,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"393"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Chromatic Blaze"
+			"name"	"Kromatikus láng"
 		}
 		"376"
 		{
@@ -12890,7 +12890,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"394"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Frostfire"
+			"name"	"Fagytűz"
 		}
 		"377"
 		{
@@ -12898,7 +12898,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"395"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spectrum Inferno"
+			"name"	"Spektrális tűzvész"
 		}
 		"378"
 		{
@@ -12906,7 +12906,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"396"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Calm Snowfall"
+			"name"	"Nyugodt hóesés"
 		}
 		"379"
 		{
@@ -12914,7 +12914,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"397"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Team Recognition"
+			"name"	"Csapatelismerés"
 		}
 		"380"
 		{
@@ -12922,7 +12922,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"398"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Team Recognition"
+			"name"	"Csapatelismerés"
 		}
 		"381"
 		{
@@ -12930,7 +12930,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"399"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Old Hire"
+			"name"	"Öreg róka"
 		}
 		"382"
 		{
@@ -12938,7 +12938,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"400"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Old Hire"
+			"name"	"Öreg róka"
 		}
 		"383"
 		{
@@ -12954,7 +12954,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"402"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Winter Whiteout"
+			"name"	"Téli fehérség"
 		}
 		"385"
 		{
@@ -12962,7 +12962,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"403"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Midnight Frostfall"
+			"name"	"Éjféli fagy"
 		}
 		"386"
 		{
@@ -12978,7 +12978,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"405"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Cryogenic"
+			"name"	"Mélyhűtött"
 		}
 		"388"
 		{
@@ -14543,70 +14543,70 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"system"	"utaunt_2fort_teamc_teamcolor_red"
 			"id"	"3213"
 			"attach_to_rootbone"	"0"
-			"name"	"Snow Dome"
+			"name"	"Hógömb"
 		}
 		"611"
 		{
 			"system"	"utaunt_2fort_teamc_teamcolor_blue"
 			"id"	"3214"
 			"attach_to_rootbone"	"0"
-			"name"	"Snow Dome"
+			"name"	"Hógömb"
 		}
 		"612"
 		{
 			"system"	"utaunt_burningdesire_green_parent"
 			"id"	"3215"
 			"attach_to_rootbone"	"0"
-			"name"	"Scorching Sensation"
+			"name"	"Perzselő érzés"
 		}
 		"613"
 		{
 			"system"	"utaunt_burningdesire_orange_parent"
 			"id"	"3216"
 			"attach_to_rootbone"	"0"
-			"name"	"Burning Sensation"
+			"name"	"Égető érzés"
 		}
 		"614"
 		{
 			"system"	"utaunt_spacecoated_2colored_parent_pb"
 			"id"	"3217"
 			"attach_to_rootbone"	"0"
-			"name"	"Galactic Dust"
+			"name"	"Galaktikus por"
 		}
 		"615"
 		{
 			"system"	"utaunt_spacecoated_2colored_parent_pg"
 			"id"	"3218"
 			"attach_to_rootbone"	"0"
-			"name"	"Galactic Cloud"
+			"name"	"Galaktikus felhő"
 		}
 		"616"
 		{
 			"system"	"utaunt_aurora25_teamcolor_red"
 			"id"	"3219"
 			"attach_to_rootbone"	"0"
-			"name"	"Aurora Aura"
+			"name"	"Aurora aura"
 		}
 		"617"
 		{
 			"system"	"utaunt_aurora25_teamcolor_blue"
 			"id"	"3220"
 			"attach_to_rootbone"	"0"
-			"name"	"Aurora Aura"
+			"name"	"Aurora aura"
 		}
 		"618"
 		{
 			"system"	"utaunt_aurora25_parent_purple"
 			"id"	"3221"
 			"attach_to_rootbone"	"0"
-			"name"	"Northern Nights"
+			"name"	"Északi éj"
 		}
 		"619"
 		{
 			"system"	"utaunt_chillingmist_parent"
 			"id"	"3222"
 			"attach_to_rootbone"	"0"
-			"name"	"Chilling Mist"
+			"name"	"Dermesztő köd"
 		}
 		"620"
 		{

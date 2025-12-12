@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.19e8438475e8067150cd96f34935c045d4a0fcee.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.dc29a91db97120797a696ac733f24619ef0f5afa.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -27045,7 +27045,7 @@ A questo oggetto si possono applicare decalcomanie personalizzate.</item_descrip
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Pipa</item_type_name>
 			<item_name>Il Problema da Nove Pipate</item_name>
-			<item_description>In the time it takes you to read this description, I&apos;ve already übered a heavy, captured your base, solved a crime, and smoked three pipes.</item_description>
+			<item_description>Nel tempo che hai usato per leggere questa descrizione, io ho già übercaricato un Grosso, catturato la tua base, risolto un crimine, e fumato tre pipe.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/medic_smokingpipe.mdl</model_player>
@@ -47005,7 +47005,7 @@ Questa è una provocazione tra partner. Premi il tasto di provocazione per attiv
 			<defindex>1108</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>Provocazione speciale</item_type_name>
-			<item_name>Taunt: Buy a Life</item_name>
+			<item_name>Provocazione: Comprati una Vita</item_name>
 			<item_description>Provocazione della Spia</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
