@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.dc29a91db97120797a696ac733f24619ef0f5afa.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.3e355b9b4787f9de3b33eee5b954077590bbe741.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -12876,7 +12876,7 @@
 			"id"	"393"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Chromatic Blaze"
+			"name"	"크로매틱 블레이즈"
 		}
 		"376"
 		{
@@ -12884,7 +12884,7 @@
 			"id"	"394"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Frostfire"
+			"name"	"프로스트파이어"
 		}
 		"377"
 		{
@@ -12892,7 +12892,7 @@
 			"id"	"395"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spectrum Inferno"
+			"name"	"스펙트럼 인페르노"
 		}
 		"378"
 		{
@@ -12908,7 +12908,7 @@
 			"id"	"397"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Team Recognition"
+			"name"	"팀 인식"
 		}
 		"380"
 		{
@@ -12916,7 +12916,7 @@
 			"id"	"398"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Team Recognition"
+			"name"	"팀 인식"
 		}
 		"381"
 		{
@@ -12972,7 +12972,7 @@
 			"id"	"405"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Cryogenic"
+			"name"	"극저온"
 		}
 		"388"
 		{
@@ -14551,14 +14551,14 @@
 			"system"	"utaunt_burningdesire_green_parent"
 			"id"	"3215"
 			"attach_to_rootbone"	"0"
-			"name"	"Scorching Sensation"
+			"name"	"초록빛 열기"
 		}
 		"613"
 		{
 			"system"	"utaunt_burningdesire_orange_parent"
 			"id"	"3216"
 			"attach_to_rootbone"	"0"
-			"name"	"Burning Sensation"
+			"name"	"황금빛 열기"
 		}
 		"614"
 		{

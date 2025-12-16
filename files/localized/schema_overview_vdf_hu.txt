@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.dc29a91db97120797a696ac733f24619ef0f5afa.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.3e355b9b4787f9de3b33eee5b954077590bbe741.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -12970,7 +12970,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"404"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Twilight Snowfall"
+			"name"	"Alkonyi hóesés"
 		}
 		"387"
 		{
@@ -14613,7 +14613,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"system"	"utaunt_80smalfunction_parent"
 			"id"	"3223"
 			"attach_to_rootbone"	"0"
-			"name"	"Circuit Break"
+			"name"	"Áramkör-szakadás"
 		}
 		"621"
 		{

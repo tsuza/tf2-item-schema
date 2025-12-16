@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.dc29a91db97120797a696ac733f24619ef0f5afa.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.3e355b9b4787f9de3b33eee5b954077590bbe741.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -11537,7 +11537,7 @@ A halálos találat égő játékoson sebességbónuszt ad.</description_string>
 			<id>404</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Twilight Snowfall</name>
+			<name>Alkonyi hóesés</name>
 		</particle>
 		<particle>
 			<system>unusual_cryogenic_parent</system>
@@ -12946,7 +12946,7 @@ A halálos találat égő játékoson sebességbónuszt ad.</description_string>
 			<system>utaunt_80smalfunction_parent</system>
 			<id>3223</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Circuit Break</name>
+			<name>Áramkör-szakadás</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>

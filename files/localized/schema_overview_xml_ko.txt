@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.dc29a91db97120797a696ac733f24619ef0f5afa.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.3e355b9b4787f9de3b33eee5b954077590bbe741.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -11454,21 +11454,21 @@
 			<id>393</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Chromatic Blaze</name>
+			<name>크로매틱 블레이즈</name>
 		</particle>
 		<particle>
 			<system>unusual_ombre_parent_teal</system>
 			<id>394</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Frostfire</name>
+			<name>프로스트파이어</name>
 		</particle>
 		<particle>
 			<system>unusual_ombre_parent_spectrum</system>
 			<id>395</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Spectrum Inferno</name>
+			<name>스펙트럼 인페르노</name>
 		</particle>
 		<particle>
 			<system>unusual_calmsnowfall_parent</system>
@@ -11482,14 +11482,14 @@
 			<id>397</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Team Recognition</name>
+			<name>팀 인식</name>
 		</particle>
 		<particle>
 			<system>unusual_team_recognition_teamcolor_blue</system>
 			<id>398</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Team Recognition</name>
+			<name>팀 인식</name>
 		</particle>
 		<particle>
 			<system>unusual_classicfortress_teamcolor_red</system>
@@ -11538,7 +11538,7 @@
 			<id>405</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Cryogenic</name>
+			<name>극저온</name>
 		</particle>
 		<particle>
 			<system>weapon_unusual_hot</system>
@@ -12892,13 +12892,13 @@
 			<system>utaunt_burningdesire_green_parent</system>
 			<id>3215</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Scorching Sensation</name>
+			<name>초록빛 열기</name>
 		</particle>
 		<particle>
 			<system>utaunt_burningdesire_orange_parent</system>
 			<id>3216</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Burning Sensation</name>
+			<name>황금빛 열기</name>
 		</particle>
 		<particle>
 			<system>utaunt_spacecoated_2colored_parent_pb</system>

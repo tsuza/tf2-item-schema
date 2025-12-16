@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.dc29a91db97120797a696ac733f24619ef0f5afa.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.3e355b9b4787f9de3b33eee5b954077590bbe741.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -12867,7 +12867,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"393"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Chromatic Blaze"
+			"name"	"Chama cromática"
 		}
 		"376"
 		{
@@ -12963,7 +12963,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"405"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Cryogenic"
+			"name"	"Criogênico"
 		}
 		"388"
 		{
@@ -14542,14 +14542,14 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"system"	"utaunt_burningdesire_green_parent"
 			"id"	"3215"
 			"attach_to_rootbone"	"0"
-			"name"	"Scorching Sensation"
+			"name"	"Sensação de escaldão"
 		}
 		"613"
 		{
 			"system"	"utaunt_burningdesire_orange_parent"
 			"id"	"3216"
 			"attach_to_rootbone"	"0"
-			"name"	"Burning Sensation"
+			"name"	"Sensação de queimação"
 		}
 		"614"
 		{

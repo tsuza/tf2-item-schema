@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.dc29a91db97120797a696ac733f24619ef0f5afa.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.3e355b9b4787f9de3b33eee5b954077590bbe741.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -11456,21 +11456,21 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<id>393</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Chromatic Blaze</name>
+			<name>Kromaattinen kajo</name>
 		</particle>
 		<particle>
 			<system>unusual_ombre_parent_teal</system>
 			<id>394</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Frostfire</name>
+			<name>Hallan hehku</name>
 		</particle>
 		<particle>
 			<system>unusual_ombre_parent_spectrum</system>
 			<id>395</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Spectrum Inferno</name>
+			<name>Kirjava kajastus</name>
 		</particle>
 		<particle>
 			<system>unusual_calmsnowfall_parent</system>
@@ -11484,7 +11484,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<id>397</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Team Recognition</name>
+			<name>Tiimitunniste</name>
 		</particle>
 		<particle>
 			<system>unusual_team_recognition_teamcolor_blue</system>
@@ -11540,7 +11540,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<id>405</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Cryogenic</name>
+			<name>Kryogeeninen kylmennys</name>
 		</particle>
 		<particle>
 			<system>weapon_unusual_hot</system>
@@ -12894,13 +12894,13 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<system>utaunt_burningdesire_green_parent</system>
 			<id>3215</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Scorching Sensation</name>
+			<name>Paahtava polte</name>
 		</particle>
 		<particle>
 			<system>utaunt_burningdesire_orange_parent</system>
 			<id>3216</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Burning Sensation</name>
+			<name>Leimuava lieska</name>
 		</particle>
 		<particle>
 			<system>utaunt_spacecoated_2colored_parent_pb</system>

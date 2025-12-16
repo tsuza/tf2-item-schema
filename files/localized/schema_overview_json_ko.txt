@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.dc29a91db97120797a696ac733f24619ef0f5afa.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.3e355b9b4787f9de3b33eee5b954077590bbe741.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -11500,21 +11500,21 @@
 				"id": 393,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Chromatic Blaze"
+				"name": "크로매틱 블레이즈"
 			},
 			{
 				"system": "unusual_ombre_parent_teal",
 				"id": 394,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Frostfire"
+				"name": "프로스트파이어"
 			},
 			{
 				"system": "unusual_ombre_parent_spectrum",
 				"id": 395,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Spectrum Inferno"
+				"name": "스펙트럼 인페르노"
 			},
 			{
 				"system": "unusual_calmsnowfall_parent",
@@ -11528,14 +11528,14 @@
 				"id": 397,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Team Recognition"
+				"name": "팀 인식"
 			},
 			{
 				"system": "unusual_team_recognition_teamcolor_blue",
 				"id": 398,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Team Recognition"
+				"name": "팀 인식"
 			},
 			{
 				"system": "unusual_classicfortress_teamcolor_red",
@@ -11584,7 +11584,7 @@
 				"id": 405,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Cryogenic"
+				"name": "극저온"
 			},
 			{
 				"system": "weapon_unusual_hot",
@@ -12938,13 +12938,13 @@
 				"system": "utaunt_burningdesire_green_parent",
 				"id": 3215,
 				"attach_to_rootbone": false,
-				"name": "Scorching Sensation"
+				"name": "초록빛 열기"
 			},
 			{
 				"system": "utaunt_burningdesire_orange_parent",
 				"id": 3216,
 				"attach_to_rootbone": false,
-				"name": "Burning Sensation"
+				"name": "황금빛 열기"
 			},
 			{
 				"system": "utaunt_spacecoated_2colored_parent_pb",

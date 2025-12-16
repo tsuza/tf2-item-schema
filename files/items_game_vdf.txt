@@ -81160,7 +81160,7 @@
 				{
 					"0"
 					{
-						"model"	"models/workshop_partner/weapons/c_models/c_ai_flamethrower/c_ai_flamethrower_festivizer.mdl"
+						"model"		"models/workshop_partner/weapons/c_models/c_ai_flamethrower/c_ai_flamethrower_festivizer.mdl"
 					}
 				}
 			}
@@ -87736,7 +87736,7 @@
 				{
 					"0"
 					{
-						"model"	"models/workshop_partner/weapons/c_models/c_prinny_knife/c_prinny_knife_festivizer.mdl"
+						"model"		"models/workshop_partner/weapons/c_models/c_prinny_knife/c_prinny_knife_festivizer.mdl"
 					}
 				}
 			}
@@ -115787,7 +115787,7 @@
 					}
 					"2"
 					{
-						"model_player"		"models/workshop/player/items/heavy/dec25_punchers_polar/dec25_punchers_polar.mdl"
+						"model_player"		"models/workshop/player/items/heavy/dec25_punchers_polar_style2/dec25_punchers_polar_style2.mdl"
 						"skin_red"		"0"
 						"skin_blu"		"1"
 						"name"		"#TF_dec25_punchers_polar_style3"
@@ -115798,7 +115798,7 @@
 					}
 					"3"
 					{
-						"model_player"		"models/workshop/player/items/heavy/dec25_punchers_polar_style1/dec25_punchers_polar_style1.mdl"
+						"model_player"		"models/workshop/player/items/heavy/dec25_punchers_polar_style3/dec25_punchers_polar_style3.mdl"
 						"skin_red"		"0"
 						"skin_blu"		"1"
 						"name"		"#TF_dec25_punchers_polar_style4"
@@ -116190,6 +116190,14 @@
 			{
 				"soldier"		"1"
 			}
+			"attributes"
+			{
+				"attach particle effect static"
+				{
+					"attribute_class"		"set_attached_particle_static"
+					"value"		"28"
+				}
+			}
 			"visuals"
 			{
 				"styles"
@@ -116207,6 +116215,7 @@
 						"skin_red"		"0"
 						"skin_blu"		"1"
 						"name"		"#TF_dec25_scrooge_style2"
+						"use_smoke_particle_effect"		"0"
 					}
 					"2"
 					{

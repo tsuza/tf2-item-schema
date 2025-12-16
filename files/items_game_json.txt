@@ -95851,7 +95851,7 @@
                             "name": "#TF_dec25_punchers_polar_style2"
                         },
                         "2": {
-                            "model_player": "models/workshop/player/items/heavy/dec25_punchers_polar/dec25_punchers_polar.mdl",
+                            "model_player": "models/workshop/player/items/heavy/dec25_punchers_polar_style2/dec25_punchers_polar_style2.mdl",
                             "skin_red": "0",
                             "skin_blu": "1",
                             "name": "#TF_dec25_punchers_polar_style3",
@@ -95860,7 +95860,7 @@
                             }
                         },
                         "3": {
-                            "model_player": "models/workshop/player/items/heavy/dec25_punchers_polar_style1/dec25_punchers_polar_style1.mdl",
+                            "model_player": "models/workshop/player/items/heavy/dec25_punchers_polar_style3/dec25_punchers_polar_style3.mdl",
                             "skin_red": "0",
                             "skin_blu": "1",
                             "name": "#TF_dec25_punchers_polar_style4",
@@ -96182,7 +96182,8 @@
                             "model_player": "models/workshop/player/items/soldier/dec25_scrooge_style1/dec25_scrooge_style1.mdl",
                             "skin_red": "0",
                             "skin_blu": "1",
-                            "name": "#TF_dec25_scrooge_style2"
+                            "name": "#TF_dec25_scrooge_style2",
+                            "use_smoke_particle_effect": "0"
                         },
                         "2": {
                             "model_player": "models/workshop/player/items/soldier/dec25_scrooge_style2/dec25_scrooge_style2.mdl",
@@ -96206,6 +96207,12 @@
                 "model_player": "models/workshop/player/items/soldier/dec25_scrooge/dec25_scrooge.mdl",
                 "used_by_classes": {
                     "soldier": "1"
+                },
+                "attributes": {
+                    "attach particle effect static": {
+                        "attribute_class": "set_attached_particle_static",
+                        "value": "28"
+                    }
                 }
             },
             "31597": {
