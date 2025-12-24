@@ -53184,13 +53184,31 @@
                 "name": "Festivizers for All Weapons",
                 "first_sale_date": "2025/11/27",
                 "item_class": "no_entity",
-                "item_name": "#TF_dec25_festivizers"
+                "item_name": "#TF_dec25_festivizers",
+                "image_inventory": "backpack/workshop/smissmas_festivizers",
+                "image_inventory_size_w": "128",
+                "image_inventory_size_h": "82",
+                "attributes": {
+                    "cannot trade": {
+                        "attribute_class": "cannot_trade",
+                        "value": "1"
+                    }
+                }
             },
             "1200": {
                 "name": "Smissmas Ornament Beach Ball Assets",
                 "first_sale_date": "2025/11/27",
                 "item_class": "no_entity",
-                "item_name": "#TF_dec25_ornament"
+                "item_name": "#TF_dec25_ornament",
+                "image_inventory": "backpack/workshop/smissmas_ball",
+                "image_inventory_size_w": "128",
+                "image_inventory_size_h": "82",
+                "attributes": {
+                    "cannot trade": {
+                        "attribute_class": "cannot_trade",
+                        "value": "1"
+                    }
+                }
             },
             "15000": {
                 "name": "concealedkiller_sniperrifle_nightowl",

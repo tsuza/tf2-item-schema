@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.3e355b9b4787f9de3b33eee5b954077590bbe741.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.b540a8922bdfae3affb236a6598d3f5bc18c8f9d.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -12875,7 +12875,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"394"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Frostfire"
+			"name"	"Fogo frio"
 		}
 		"377"
 		{
@@ -12883,7 +12883,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"395"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spectrum Inferno"
+			"name"	"Inferno espectral"
 		}
 		"378"
 		{
@@ -12891,7 +12891,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"396"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Calm Snowfall"
+			"name"	"Neve tranquila"
 		}
 		"379"
 		{
@@ -12899,7 +12899,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"397"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Team Recognition"
+			"name"	"Reconhecimento da equipe"
 		}
 		"380"
 		{
@@ -12907,7 +12907,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"398"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Team Recognition"
+			"name"	"Reconhecimento da equipe"
 		}
 		"381"
 		{
@@ -12915,7 +12915,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"399"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Old Hire"
+			"name"	"Contratado clássico"
 		}
 		"382"
 		{
@@ -12923,7 +12923,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"400"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Old Hire"
+			"name"	"Contratado clássico"
 		}
 		"383"
 		{
@@ -12931,7 +12931,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"401"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Analog Fortress"
+			"name"	"Fortaleza analógica"
 		}
 		"384"
 		{
@@ -12939,7 +12939,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"402"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Winter Whiteout"
+			"name"	"Nevasca invernal"
 		}
 		"385"
 		{
@@ -12947,7 +12947,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"403"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Midnight Frostfall"
+			"name"	"Geada da meia-noite"
 		}
 		"386"
 		{
@@ -12955,7 +12955,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"404"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Twilight Snowfall"
+			"name"	"Neve do anoitecer"
 		}
 		"387"
 		{
@@ -14528,14 +14528,14 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"system"	"utaunt_2fort_teamc_teamcolor_red"
 			"id"	"3213"
 			"attach_to_rootbone"	"0"
-			"name"	"Snow Dome"
+			"name"	"Globo de neve"
 		}
 		"611"
 		{
 			"system"	"utaunt_2fort_teamc_teamcolor_blue"
 			"id"	"3214"
 			"attach_to_rootbone"	"0"
-			"name"	"Snow Dome"
+			"name"	"Globo de neve"
 		}
 		"612"
 		{
@@ -14556,49 +14556,49 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"system"	"utaunt_spacecoated_2colored_parent_pb"
 			"id"	"3217"
 			"attach_to_rootbone"	"0"
-			"name"	"Galactic Dust"
+			"name"	"Poeira galáctica"
 		}
 		"615"
 		{
 			"system"	"utaunt_spacecoated_2colored_parent_pg"
 			"id"	"3218"
 			"attach_to_rootbone"	"0"
-			"name"	"Galactic Cloud"
+			"name"	"Nuvem galáctica"
 		}
 		"616"
 		{
 			"system"	"utaunt_aurora25_teamcolor_red"
 			"id"	"3219"
 			"attach_to_rootbone"	"0"
-			"name"	"Aurora Aura"
+			"name"	"Aura de aurora"
 		}
 		"617"
 		{
 			"system"	"utaunt_aurora25_teamcolor_blue"
 			"id"	"3220"
 			"attach_to_rootbone"	"0"
-			"name"	"Aurora Aura"
+			"name"	"Aura de aurora"
 		}
 		"618"
 		{
 			"system"	"utaunt_aurora25_parent_purple"
 			"id"	"3221"
 			"attach_to_rootbone"	"0"
-			"name"	"Northern Nights"
+			"name"	"Noites do norte"
 		}
 		"619"
 		{
 			"system"	"utaunt_chillingmist_parent"
 			"id"	"3222"
 			"attach_to_rootbone"	"0"
-			"name"	"Chilling Mist"
+			"name"	"Névoa gelada"
 		}
 		"620"
 		{
 			"system"	"utaunt_80smalfunction_parent"
 			"id"	"3223"
 			"attach_to_rootbone"	"0"
-			"name"	"Circuit Break"
+			"name"	"Disjuntor"
 		}
 		"621"
 		{

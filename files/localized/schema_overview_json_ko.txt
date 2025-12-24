@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.3e355b9b4787f9de3b33eee5b954077590bbe741.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.b540a8922bdfae3affb236a6598d3f5bc18c8f9d.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -4293,7 +4293,7 @@
 				"name": "cleaver description",
 				"defindex": 435,
 				"attribute_class": "desc_cleaver_description",
-				"description_string": "적에게 이 식칼을 던져서 피를 흘리도록 하십시오! 멀리서 적을 맞추면 재충전 시간이 감소합니다.",
+				"description_string": "적에게 이 식칼을 던져서 피를 흘리도록 하세요! 멀리서 적을 맞추면 재충전 시간이 감소합니다.",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -4833,7 +4833,7 @@
 				"name": "generate rage on heal",
 				"defindex": 499,
 				"attribute_class": "generate_rage_on_heal",
-				"description_string": "아군을 치료하여 에너지를 충전합니다. 완전히 충전되면 특수 공격 단추를 눌러 전방에 투사체 차단막을 발동하십시오.",
+				"description_string": "아군을 치료하여 에너지를 충전합니다. 완전히 충전되면 특수 공격 단추를 눌러 전방에 투사체 차단막을 발동하세요.",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -11521,7 +11521,7 @@
 				"id": 396,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Calm Snowfall"
+				"name": "잔잔한 눈꽃 송이"
 			},
 			{
 				"system": "unusual_team_recognition_teamcolor_red",
@@ -11542,42 +11542,42 @@
 				"id": 399,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Old Hire"
+				"name": "오래된 직원"
 			},
 			{
 				"system": "unusual_classicfortress_teamcolor_blue",
 				"id": 400,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Old Hire"
+				"name": "오래된 직원"
 			},
 			{
 				"system": "unusual_classicfortress_tflogo_parent",
 				"id": 401,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Analog Fortress"
+				"name": "아날로그 포트리스"
 			},
 			{
 				"system": "unusual_growing_flake_parent_white",
 				"id": 402,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Winter Whiteout"
+				"name": "겨울 눈꽃"
 			},
 			{
 				"system": "unusual_growing_flake_parent_purple",
 				"id": 403,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Midnight Frostfall"
+				"name": "한밤중의 눈서리"
 			},
 			{
 				"system": "unusual_growing_flake_parent_twilight",
 				"id": 404,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Twilight Snowfall"
+				"name": "황혼의 눈꽃 송이"
 			},
 			{
 				"system": "unusual_cryogenic_parent",
@@ -12926,13 +12926,13 @@
 				"system": "utaunt_2fort_teamc_teamcolor_red",
 				"id": 3213,
 				"attach_to_rootbone": false,
-				"name": "Snow Dome"
+				"name": "스노돔"
 			},
 			{
 				"system": "utaunt_2fort_teamc_teamcolor_blue",
 				"id": 3214,
 				"attach_to_rootbone": false,
-				"name": "Snow Dome"
+				"name": "스노돔"
 			},
 			{
 				"system": "utaunt_burningdesire_green_parent",
@@ -12950,43 +12950,43 @@
 				"system": "utaunt_spacecoated_2colored_parent_pb",
 				"id": 3217,
 				"attach_to_rootbone": false,
-				"name": "Galactic Dust"
+				"name": "은하 먼지"
 			},
 			{
 				"system": "utaunt_spacecoated_2colored_parent_pg",
 				"id": 3218,
 				"attach_to_rootbone": false,
-				"name": "Galactic Cloud"
+				"name": "은하 성운"
 			},
 			{
 				"system": "utaunt_aurora25_teamcolor_red",
 				"id": 3219,
 				"attach_to_rootbone": false,
-				"name": "Aurora Aura"
+				"name": "오로라 오라"
 			},
 			{
 				"system": "utaunt_aurora25_teamcolor_blue",
 				"id": 3220,
 				"attach_to_rootbone": false,
-				"name": "Aurora Aura"
+				"name": "오로라 오라"
 			},
 			{
 				"system": "utaunt_aurora25_parent_purple",
 				"id": 3221,
 				"attach_to_rootbone": false,
-				"name": "Northern Nights"
+				"name": "북녘의 밤"
 			},
 			{
 				"system": "utaunt_chillingmist_parent",
 				"id": 3222,
 				"attach_to_rootbone": false,
-				"name": "Chilling Mist"
+				"name": "차가운 안개"
 			},
 			{
 				"system": "utaunt_80smalfunction_parent",
 				"id": 3223,
 				"attach_to_rootbone": false,
-				"name": "Circuit Break"
+				"name": "회로 차단"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",

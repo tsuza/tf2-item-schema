@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.3e355b9b4787f9de3b33eee5b954077590bbe741.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.b540a8922bdfae3affb236a6598d3f5bc18c8f9d.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -12883,7 +12883,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"393"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Chromatic Blaze"
+			"name"	"Flamme chromatique"
 		}
 		"376"
 		{
@@ -12891,7 +12891,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"394"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Frostfire"
+			"name"	"Flamme boréale"
 		}
 		"377"
 		{
@@ -12899,7 +12899,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"395"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spectrum Inferno"
+			"name"	"Brasier prismatique"
 		}
 		"378"
 		{
@@ -12907,7 +12907,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"396"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Calm Snowfall"
+			"name"	"Neige calme"
 		}
 		"379"
 		{
@@ -12915,7 +12915,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"397"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Team Recognition"
+			"name"	"Marque d'équipe"
 		}
 		"380"
 		{
@@ -12923,7 +12923,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"398"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Team Recognition"
+			"name"	"Marque d'équipe"
 		}
 		"381"
 		{
@@ -12931,7 +12931,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"399"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Old Hire"
+			"name"	"Vieux de la vieille"
 		}
 		"382"
 		{
@@ -12939,7 +12939,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"400"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Old Hire"
+			"name"	"Vieux de la vieille"
 		}
 		"383"
 		{
@@ -12947,7 +12947,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"401"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Analog Fortress"
+			"name"	"TF analogique"
 		}
 		"384"
 		{
@@ -12955,7 +12955,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"402"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Winter Whiteout"
+			"name"	"Manteau de neige"
 		}
 		"385"
 		{
@@ -12963,7 +12963,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"403"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Midnight Frostfall"
+			"name"	"Gelée de minuit"
 		}
 		"386"
 		{
@@ -12971,7 +12971,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"404"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Twilight Snowfall"
+			"name"	"Neige crépusculaire"
 		}
 		"387"
 		{
@@ -12979,7 +12979,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"405"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Cryogenic"
+			"name"	"Cryogel"
 		}
 		"388"
 		{
@@ -14544,77 +14544,77 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"system"	"utaunt_2fort_teamc_teamcolor_red"
 			"id"	"3213"
 			"attach_to_rootbone"	"0"
-			"name"	"Snow Dome"
+			"name"	"Dôme à neige"
 		}
 		"611"
 		{
 			"system"	"utaunt_2fort_teamc_teamcolor_blue"
 			"id"	"3214"
 			"attach_to_rootbone"	"0"
-			"name"	"Snow Dome"
+			"name"	"Dôme à neige"
 		}
 		"612"
 		{
 			"system"	"utaunt_burningdesire_green_parent"
 			"id"	"3215"
 			"attach_to_rootbone"	"0"
-			"name"	"Scorching Sensation"
+			"name"	"Frisson incandescent"
 		}
 		"613"
 		{
 			"system"	"utaunt_burningdesire_orange_parent"
 			"id"	"3216"
 			"attach_to_rootbone"	"0"
-			"name"	"Burning Sensation"
+			"name"	"Ardeur incendiaire"
 		}
 		"614"
 		{
 			"system"	"utaunt_spacecoated_2colored_parent_pb"
 			"id"	"3217"
 			"attach_to_rootbone"	"0"
-			"name"	"Galactic Dust"
+			"name"	"Poussière galactique"
 		}
 		"615"
 		{
 			"system"	"utaunt_spacecoated_2colored_parent_pg"
 			"id"	"3218"
 			"attach_to_rootbone"	"0"
-			"name"	"Galactic Cloud"
+			"name"	"Nuage galactique"
 		}
 		"616"
 		{
 			"system"	"utaunt_aurora25_teamcolor_red"
 			"id"	"3219"
 			"attach_to_rootbone"	"0"
-			"name"	"Aurora Aura"
+			"name"	"Aura boréale"
 		}
 		"617"
 		{
 			"system"	"utaunt_aurora25_teamcolor_blue"
 			"id"	"3220"
 			"attach_to_rootbone"	"0"
-			"name"	"Aurora Aura"
+			"name"	"Aura boréale"
 		}
 		"618"
 		{
 			"system"	"utaunt_aurora25_parent_purple"
 			"id"	"3221"
 			"attach_to_rootbone"	"0"
-			"name"	"Northern Nights"
+			"name"	"Nuits nordiques"
 		}
 		"619"
 		{
 			"system"	"utaunt_chillingmist_parent"
 			"id"	"3222"
 			"attach_to_rootbone"	"0"
-			"name"	"Chilling Mist"
+			"name"	"Brume glaciale"
 		}
 		"620"
 		{
 			"system"	"utaunt_80smalfunction_parent"
 			"id"	"3223"
 			"attach_to_rootbone"	"0"
-			"name"	"Circuit Break"
+			"name"	"Court-circuit"
 		}
 		"621"
 		{

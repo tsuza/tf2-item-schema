@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.3e355b9b4787f9de3b33eee5b954077590bbe741.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.b540a8922bdfae3affb236a6598d3f5bc18c8f9d.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -2678,7 +2678,7 @@
 			<item_class>tf_wearable</item_class>
 			<item_type_name>모자</item_type_name>
 			<item_name>내수성 냄비</item_name>
-			<item_description>총알과 파편에서 두개골을 보호하십시오.
+			<item_description>총알과 파편에서 두개골을 보호하세요.
 국도 데울 수 있습니다.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -3058,7 +3058,7 @@
 			<item_class>tf_wearable</item_class>
 			<item_type_name>머리 보호구</item_type_name>
 			<item_name>봉크 헬멧</item_name>
-			<item_description>방사능 음료 한 잔으로는 성이 차지 않을 때, 써보십시오.</item_description>
+			<item_description>방사능 음료 한 잔으로는 성이 차지 않을 때, 써보세요.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/bonk_helmet.mdl</model_player>
@@ -4350,7 +4350,7 @@
 			<item_class>tf_wearable</item_class>
 			<item_type_name>모자</item_type_name>
 			<item_name>우뚝 솟은 모자 기둥</item_name>
-			<item_description>아하하! 당신은 가난한 아일랜드 사람만큼이나 건방지군요. 나의 위풍당당한 모자 탑을 더럽힐 생각은 마십시오.</item_description>
+			<item_description>아하하! 당신은 가난한 아일랜드 사람만큼이나 건방지군요. 나의 위풍당당한 모자 탑을 더럽힐 생각은 마세요.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/hat_first_nr.mdl</model_player>
@@ -4797,7 +4797,7 @@
 			<item_class>tf_wearable</item_class>
 			<item_type_name>가면</item_type_name>
 			<item_name>내과의사의 수술용 마스크</item_name>
-			<item_description>청소하십시오.... 점점 엉망이 되어가고 있습니다.</item_description>
+			<item_description>청소하세요.... 점점 엉망이 되어가고 있습니다.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/medic/medic_mask/medic_mask.mdl</model_player>
@@ -4988,7 +4988,7 @@
 			<item_class>tf_wearable</item_class>
 			<item_type_name>가면</item_type_name>
 			<item_name>용접용 안면 보호구</item_name>
-			<item_description>자외선이 아무 해도 입히지 못하고 눈알에서 튕겨져 나갈 테니, 태양 따위는 불꽃 광선으로 무시해버리십시오.</item_description>
+			<item_description>자외선이 아무 해도 입히지 못하고 눈알에서 튕겨져 나갈 테니, 태양 따위는 불꽃 광선으로 무시해버리세요.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/weldingmask.mdl</model_player>
@@ -5627,7 +5627,7 @@
 			<item_class>tf_wearable</item_class>
 			<item_type_name>휘장</item_type_name>
 			<item_name>반백의 참전 용사</item_name>
-			<item_description>가슴에 자랑스럽게 착용하십시오. 적을 처치할 때마다 상대방은 자신이 수많은 희생자 중 하나임을 알게 될 것입니다.</item_description>
+			<item_description>가슴에 자랑스럽게 착용하세요. 적을 처치할 때마다 상대방은 자신이 수많은 희생자 중 하나임을 알게 될 것입니다.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/id_badge.mdl</model_player>
@@ -6216,7 +6216,7 @@
 			<item_class>tf_wearable</item_class>
 			<item_type_name>모자</item_type_name>
 			<item_name>안전과 평화</item_name>
-			<item_description>주변에서 총소리와 비명이 정신없이 들려 올 땐, 가속도 벡터 구간에서의 신체 회전 운동에 가해지는 총 외부 회전력을 계산하기가 어렵습니다. &apos;안전과 평화&apos;가 자아내는 고요함 속에서 더욱 뛰어나면서도 안전한 기계를 제작하십시오!</item_description>
+			<item_description>주변에서 총소리와 비명이 정신없이 들려 올 땐, 가속도 벡터 구간에서의 신체 회전 운동에 가해지는 총 외부 회전력을 계산하기가 어렵습니다. &apos;안전과 평화&apos;가 자아내는 고요함 속에서 더욱 뛰어나면서도 안전한 기계를 제작하세요!</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/engy_earphones.mdl</model_player>
@@ -6265,7 +6265,7 @@
 			<item_type_name>모자</item_type_name>
 			<item_name>술고래 해적의 삼각모자</item_name>
 			<item_description>세 개의 날카로운 모서리가 하나의 날카로운 모자를 만듭니다.
-눈 튀어나오지 않게 조심하십시오.</item_description>
+눈 튀어나오지 않게 조심하세요.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/demo_tricorne.mdl</model_player>
@@ -11901,10 +11901,10 @@ http://wiki.teamfortress.com/</item_description>
 					<name>기본</name>
 				</style>
 				<style>
-					<name>전체 채색</name>
+					<name>단일 색상</name>
 				</style>
 				<style>
-					<name>최신형 채색</name>
+					<name>무늬 색상</name>
 				</style>
 			</styles>
 			<used_by_classes>
@@ -12544,8 +12544,8 @@ http://wiki.teamfortress.com/</item_description>
 			<image_inventory>backpack/workshop/weapons/c_models/c_fists_of_steel/c_fists_of_steel</image_inventory>
 			<min_ilevel>10</min_ilevel>
 			<max_ilevel>10</max_ilevel>
-			<image_url>http://media.steampowered.com/apps/440/icons/c_fists_of_steel.98d8a1c2efc78f3f63c3e6b90c32448c32df5d61.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/c_fists_of_steel_large.f74457582244ea5c7f07299229d1aaf0f9a986d0.png</image_url_large>
+			<image_url>http://media.steampowered.com/apps/440/icons/c_fists_of_steel.09644dbfadc8712ab8e84c31ca3aa9d5074b2480.png</image_url>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/c_fists_of_steel_large.6045ce422974c73f16b96ffdb9ed2ed998907e00.png</image_url_large>
 			<craft_class>weapon</craft_class>
 			<craft_material_type>weapon</craft_material_type>
 			<capabilities>
@@ -13095,7 +13095,7 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>안경</item_type_name>
 			<item_name>전문가의 조언</item_name>
-			<item_description>당신의 선생님께 통찰력을 선사하십시오. 클립과 고무 밴드가 포함되어 있습니다.</item_description>
+			<item_description>당신의 선생님께 통찰력을 선사하세요. 클립과 고무 밴드가 포함되어 있습니다.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/professor_speks.mdl</model_player>
@@ -16830,7 +16830,7 @@ http://wiki.teamfortress.com/</item_description>
 			<item_type_name>특별한 도발</item_type_name>
 			<item_name>도발: 감독의 시야</item_name>
 			<item_description>모든 병과 도발
-이 아이템을 도발 칸에 장착하십시오. 활성화해서 피해자들에게 그들의 비참한 죽음을 모든 사람과 공유하기 위해 리플레이를 만들고 있다는 것을 알리십시오.</item_description>
+이 아이템을 도발 칸에 장착하세요. 활성화해서 피해자들에게 그들의 비참한 죽음을 모든 사람과 공유하기 위해 리플레이를 만들고 있다는 것을 알리세요.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -18421,7 +18421,7 @@ http://wiki.teamfortress.com/</item_description>
 			<item_type_name>특별한 도발</item_type_name>
 			<item_name>도발: 메딕을 만나다</item_name>
 			<item_description>메딕 도발
-천사의 합창, 신성한 빛줄기, 그리고 비둘기 떼와 함께 영웅적인 포즈를 취하며 배은망덕한 놈들에게 메딕의 기술이 얼마나 귀중한지 일깨워 주십시오.</item_description>
+천사의 합창, 신성한 빛줄기, 그리고 비둘기 떼와 함께 영웅적인 포즈를 취하며 배은망덕한 놈들에게 메딕의 기술이 얼마나 귀중한지 일깨워 주세요.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -23223,7 +23223,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>모자</item_type_name>
 			<item_name>모노큘러스!</item_name>
-			<item_description>귀신들리고 잃어버린 눈을 기반으로 제작된 이 섬뜩한 가면으로 데모맨 어린 시절의 가장 큰 상처를 기리십시오.</item_description>
+			<item_description>귀신들리고 잃어버린 눈을 기반으로 제작된 이 섬뜩한 가면으로 데모맨 어린 시절의 가장 큰 상처를 기리세요.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/haunted_eyeball_hat_Scout.mdl</model_player>
@@ -23265,7 +23265,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>가면</item_type_name>
 			<item_name>시일 가면</item_name>
-			<item_description>이 귀여운 가면으로 지겨웠던 근접전을 환경 범죄로 바꾸어보십시오</item_description>
+			<item_description>이 귀여운 가면으로 지겨웠던 근접전을 환경 범죄로 바꾸어보세요</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/seal_mask_Scout.mdl</model_player>
@@ -23513,7 +23513,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_weapon_fists</item_class>
 			<item_type_name>주먹</item_type_name>
 			<item_name>아포코 주먹</item_name>
-			<item_description>여러분의 손가락 하나하나를 종말의 기수 4명으로 바꿔보십시오! 장갑 한 짝마다 종말의 기수가 19명도 더 되는 겁니다! 지금까지 우리가 만든 한 손으로 휘두를 수 있는 가장 파격적인 종말입니다!</item_description>
+			<item_description>여러분의 손가락 하나하나를 종말의 기수 4명으로 바꿔보세요! 장갑 한 짝마다 종말의 기수가 19명도 더 되는 겁니다! 지금까지 우리가 만든 한 손으로 휘두를 수 있는 가장 파격적인 종말입니다!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_sr3_punch/c_sr3_punch.mdl</model_player>
@@ -24270,7 +24270,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>머리칼</item_type_name>
 			<item_name>외인부대</item_name>
-			<item_description>이 두건을 상대하려고 사람을 이렇게나 많이 보냈으니, 관을 넉넉히 준비하는 것을 잊지 마십시오.</item_description>
+			<item_description>이 두건을 상대하려고 사람을 이렇게나 많이 보냈으니, 관을 넉넉히 준비하는 것을 잊지 마세요.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/heavy/fwk_heavy_bandanahair/fwk_heavy_bandanahair.mdl</model_player>
@@ -24621,7 +24621,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>부츠</item_type_name>
 			<item_name>밀주업자</item_name>
-			<item_description>친구들을 놀라게 해주십시오! 여성분들에게 감동을 선사하십시오! 평생 절뚝거리며 걷는겁니다! 정말 끔찍하지 않나요?</item_description>
+			<item_description>친구들을 놀라게 해주세요! 여성분들에게 감동을 선사하세요! 평생 절뚝거리며 걷는겁니다! 정말 끔찍하지 않나요?</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/player/items/demo/pegleg/pegleg.mdl</model_player>
@@ -24775,7 +24775,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>모자</item_type_name>
 			<item_name>능숙한 항해사</item_name>
-			<item_description>실제로 배를 조정하는 막중한 책임을 지거나 배를 유지하기 위한 지속적이고 엄청난 양의 정비 작업을 하지 않으면서도 선장으로서의 존경을 받아보십시오!</item_description>
+			<item_description>실제로 배를 조정하는 막중한 책임을 지거나 배를 유지하기 위한 지속적이고 엄청난 양의 정비 작업을 하지 않으면서도 선장으로서의 존경을 받아보세요!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain_Scout.mdl</model_player>
@@ -26015,7 +26015,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>후드</item_type_name>
 			<item_name>늠름한 암살자</item_name>
-			<item_description>여러분이 은밀한 위장 작전을 펼칠 때, 한번의 변장으론 충분치 않습니다! 스키 마스크 위에 후드를 쓰시고, 그 다음 수건으로 주위를 감싸십시오. 이제 여러분이 돋보이지 않는다는 걸 이 세상에 대담히 알리고 다니십시오!</item_description>
+			<item_description>여러분이 은밀한 위장 작전을 펼칠 때, 한번의 변장으론 충분치 않습니다! 스키 마스크 위에 후드를 쓰시고, 그 다음 수건으로 주위를 감싸세요. 이제 여러분이 돋보이지 않는다는 걸 이 세상에 대담히 알리고 다니세요!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/acr_assassins_cowl.mdl</model_player>
@@ -26932,7 +26932,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>휘장</item_type_name>
 			<item_name>기부 정신</item_name>
-			<item_description>더 많은 선물을 주면, 더 큰 심장을 갖게 될 것이다! 기부자들이 &apos;스미스마스 정신&apos;이라 부르고, 의사들이 비대성 심근증이라 부르는 병을 얻으십시오.</item_description>
+			<item_description>더 많은 선물을 주면, 더 큰 심장을 갖게 될 것이다! 기부자들이 &apos;스미스마스 정신&apos;이라 부르고, 의사들이 비대성 심근증이라 부르는 병을 얻으세요.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/xms_allclass_giftbadge.mdl</model_player>
@@ -26982,7 +26982,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_weapon_fists</item_class>
 			<item_type_name>주먹</item_type_name>
 			<item_name>휴일빵</item_name>
-			<item_description>웃음을 선사하는 격투용 벙어리 장갑을 끼고 전우들의 활력소가 되십시오.</item_description>
+			<item_description>웃음을 선사하는 격투용 벙어리 장갑을 끼고 전우들의 활력소가 되세요.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_xms_gloves/c_xms_gloves.mdl</model_player>
@@ -27622,7 +27622,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>모자</item_type_name>
 			<item_name>갈색 폭격수</item_name>
-			<item_description>캐나다의 탄생일을, 그게 언제 일어났던 간에 이 기념용 캐나다 수상의 예모로 기념하십시오!</item_description>
+			<item_description>캐나다의 탄생일을, 그게 언제 일어났던 간에 이 기념용 캐나다 수상의 예모로 기념하세요!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/xms_furcap_Scout.mdl</model_player>
@@ -28785,7 +28785,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>머리 보호구</item_type_name>
 			<item_name>볼가 종족</item_name>
-			<item_description>얼굴에 있는 빈 구멍을 보호하고 적들에게 거부할 수 없는 표적을 제공하십시오.  입이나, 코, 비어있지 않은 얼굴의 구멍처럼 중요하지 않아 노출된 부위 말이죠.</item_description>
+			<item_description>얼굴에 있는 빈 구멍을 보호하고 적들에게 거부할 수 없는 표적을 제공하세요.  입이나, 코, 비어있지 않은 얼굴의 구멍처럼 중요하지 않아 노출된 부위 말이죠.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/all_reckoning_bolgan_demo.mdl</model_player>
@@ -28929,7 +28929,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>신비한 등잔</item_type_name>
 			<item_name>알라딘의 개인적 저장품</item_name>
-			<item_description>원래 시리아의 한 찌질이 꼬맹이가 가지고 있던 아라비아풍의 소원 보증물은 액화 용기로 가득차 있습니다. 그저 문지르고, 유동적인 마인드를 가지고, 부으세요. 주의: 문지르는동안 잡생각을 하지 마십시오. 취하지 못할지도 모릅니다.</item_description>
+			<item_description>원래 시리아의 한 찌질이 꼬맹이가 가지고 있던 아라비아풍의 소원 보증물은 액화 용기로 가득차 있습니다. 그저 문지르고, 유동적인 마인드를 가지고, 부으세요. 주의: 문지르는동안 잡생각을 하지 마세요. 취하지 못할지도 모릅니다.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/djinn_lamp.mdl</model_player>
@@ -29028,7 +29028,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>모자</item_type_name>
 			<item_name>결투자</item_name>
-			<item_description>어제 그 누구보다 더 많이 결투에서 승리하신 것을 축하드립니다! 내일 다른 사람의 손에 넘어가기 전에 이 모자를 자랑스럽게 쓰고 다니십시오!</item_description>
+			<item_description>어제 그 누구보다 더 많이 결투에서 승리하신 것을 축하드립니다! 내일 다른 사람의 손에 넘어가기 전에 이 모자를 자랑스럽게 쓰고 다니세요!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/dueler_Scout.mdl</model_player>
@@ -29078,7 +29078,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>모자</item_type_name>
 			<item_name>선물 나라에서 온 기부천사</item_name>
-			<item_description>어제 그 누구보다 더 많은 선물을 나눠주신 것을 축하드립니다! 내일 다른 사람의 손에 넘어가기 전에 이 모자를 자랑스럽게 쓰고 다니십시오!</item_description>
+			<item_description>어제 그 누구보다 더 많은 선물을 나눠주신 것을 축하드립니다! 내일 다른 사람의 손에 넘어가기 전에 이 모자를 자랑스럽게 쓰고 다니세요!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/generous_Scout.mdl</model_player>
@@ -29128,7 +29128,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>모자</item_type_name>
 			<item_name>우표수집가</item_name>
-			<item_description>어제 다른 사람들 보다 더 많이 맵 후원 우표를 사서 맵 제작 커뮤니티를 후원하신 것을 축하합니다! 내일 다른 사람의 손에 넘어가기 전에 이 모자를 자랑스럽게 쓰고 다니십시오!</item_description>
+			<item_description>어제 다른 사람들 보다 더 많이 맵 후원 우표를 사서 맵 제작 커뮤니티를 후원하신 것을 축하합니다! 내일 다른 사람의 손에 넘어가기 전에 이 모자를 자랑스럽게 쓰고 다니세요!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/stamper_Scout.mdl</model_player>
@@ -29378,7 +29378,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>머리 보호구</item_type_name>
 			<item_name>정복자</item_name>
-			<item_description>16세기 프랑스인 코스튬 플레이어의 진짜 무덤에서 파낸 이 진품 정복자의 투구로 스페인 역사를 되살려 보십시오!</item_description>
+			<item_description>16세기 프랑스인 코스튬 플레이어의 진짜 무덤에서 파낸 이 진품 정복자의 투구로 스페인 역사를 되살려 보세요!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/morion.mdl</model_player>
@@ -29425,7 +29425,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>셔츠</item_type_name>
 			<item_name>수재왕</item_name>
-			<item_description>이 고풍스러운 교복을 입고 독서(할 수 있는 척) 하십시오! 여러분의 상상 속에 있는 아이비리그 출신의 간지남(간이 부어서 지랄하는 남자)가 되는 겁니다!</item_description>
+			<item_description>이 고풍스러운 교복을 입고 독서(할 수 있는 척) 하세요! 여러분의 상상 속에 있는 아이비리그 출신의 간지남(간이 부어서 지랄하는 남자)가 되는 겁니다!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/scout_prep_shirt.mdl</model_player>
@@ -30766,7 +30766,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>바지</item_type_name>
 			<item_name>텍사스 반쪽 바지</item_name>
-			<item_description>이건... 텍사스 스타일의 바지입니다! 이 &apos;영 좋지 못한 곳&apos;이 없는 레깅스는 바지를 이미 입고 있는 경우에만 완벽합니다. 주의: 덧바지로만 사용하십시오. 절대로 바지로 이것만 입지 마십시오!</item_description>
+			<item_description>이건... 텍사스 스타일의 바지입니다! 이 &apos;영 좋지 못한 곳&apos;이 없는 레깅스는 바지를 이미 입고 있는 경우에만 완벽합니다. 주의: 덧바지로만 사용하세요. 절대로 바지로 이것만 입지 마세요!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/engineer_chaps.mdl</model_player>
@@ -30914,7 +30914,7 @@ Gamescom 2011</item_description>
 			<item_class>craft_item</item_class>
 			<item_type_name>이용권</item_type_name>
 			<item_name>분대 물품 지원권</item_name>
-			<item_description>Mann 대 기계의 Mann Co.답게 모드를 시작할 때 이 지원권을 제공하십시오. 본인을 비롯한 모든 아군들은 임무를 완수한 후 추가 아이템을 획득합니다.</item_description>
+			<item_description>Mann 대 기계의 Mann Co.답게 모드를 시작할 때 이 지원권을 제공하세요. 본인을 비롯한 모든 아군들은 임무를 완수한 후 추가 아이템을 획득합니다.</item_description>
 			<proper_name>false</proper_name>
 			<model_player>null</model_player>
 			<item_quality>6</item_quality>
@@ -31059,7 +31059,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>가면</item_type_name>
 			<item_name>세눈박이</item_name>
-			<item_description>당신이 더 잘 볼 수 있게 되었다고 적들을 속이십시오! 여기에는 속임수가 있는데, 정작 당신은 아무것도 보이지 않습니다!</item_description>
+			<item_description>당신이 더 잘 볼 수 있게 되었다고 적들을 속이세요! 여기에는 속임수가 있는데, 정작 당신은 아무것도 보이지 않습니다!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/smnc_pyro.mdl</model_player>
@@ -32490,7 +32490,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>머리칼</item_type_name>
 			<item_name>공허의 수도승 머리</item_name>
-			<item_description>공허의 수도승 머리를 통해 반쯤의 가식으로도 엘프족의 우아함과 신비로움을 뽐내 보십시오. 또 구매하실 경우 계집애같은 외모도 함께 드리지만, 당신은 이미 지니고 있지 않나요? 이 잘생긴 악마같은 놈아.</item_description>
+			<item_description>공허의 수도승 머리를 통해 반쯤의 가식으로도 엘프족의 우아함과 신비로움을 뽐내 보세요. 또 구매하실 경우 계집애같은 외모도 함께 드리지만, 당신은 이미 지니고 있지 않나요? 이 잘생긴 악마같은 놈아.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/scout/hero_academy_scout/hero_academy_scout.mdl</model_player>
@@ -32586,7 +32586,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>팩</item_type_name>
 			<item_name>샌드비치 상자에 뭐가 있지?</item_name>
-			<item_description>내용물을 보려면 샌드비치 상자를 열어보십시오.</item_description>
+			<item_description>내용물을 보려면 샌드비치 상자를 열어보세요.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -32618,7 +32618,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>팩</item_type_name>
 			<item_name>동행 큐브 상자에 뭐가 있지?</item_name>
-			<item_description>내용물을 보려면 동행 큐브 상자를 열어보십시오.</item_description>
+			<item_description>내용물을 보려면 동행 큐브 상자를 열어보세요.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -33661,7 +33661,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>문신</item_type_name>
 			<item_name>용병의 용문신</item_name>
-			<item_description>완전히 불법인 범죄 음모에 실제론 전혀 참여하지 않으면서 그들의 멋진 문신을 새겨 중국 갱단에게 누가 우두머리인지 보여주십시오! 주의: 실제로는 중국 범죄 조직 갱단 소속인, 그 누구에게도 이 새로운 문신을 보여주어서는 안됩니다.</item_description>
+			<item_description>완전히 불법인 범죄 음모에 실제론 전혀 참여하지 않으면서 그들의 멋진 문신을 새겨 중국 갱단에게 누가 우두머리인지 보여주세요! 주의: 실제로는 중국 범죄 조직 갱단 소속인, 그 누구에게도 이 새로운 문신을 보여주어서는 안됩니다.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/sd_tattoos/sd_tattoos_scout.mdl</model_player>
@@ -33767,7 +33767,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>머리 보호구</item_type_name>
 			<item_name>인간 포탄</item_name>
-			<item_description>아무 무모한 도전자를 붙잡고 대포에서 발사되기 전에 머리에 뭘 달고 있는지 물어보십시오. 답은 한가지일 겁니다. 머리의 외상으로 인한 흐리멍덩하고 초점이 안맞는 시선말이죠. 네, 이 멋진 충돌 헬멧만 있었다면 겪지 않았을 그 머리의 외상 말입니다!</item_description>
+			<item_description>아무 무모한 도전자를 붙잡고 대포에서 발사되기 전에 머리에 뭘 달고 있는지 물어보세요. 답은 한가지일 겁니다. 머리의 외상으로 인한 흐리멍덩하고 초점이 안맞는 시선말이죠. 네, 이 멋진 충돌 헬멧만 있었다면 겪지 않았을 그 머리의 외상 말입니다!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/sd_helm/sd_helm_scout.mdl</model_player>
@@ -34740,7 +34740,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>문신</item_type_name>
 			<item_name>용병의 용문신</item_name>
-			<item_description>완전히 불법인 범죄 음모에 실제론 전혀 참여하지 않으면서 그들의 멋진 문신을 새겨 중국 갱단에게 누가 우두머리인지 보여주십시오! 주의: 실제로는 중국 범죄 조직 갱단 소속인, 그 누구에게도 이 새로운 문신을 보여주어서는 안됩니다.</item_description>
+			<item_description>완전히 불법인 범죄 음모에 실제론 전혀 참여하지 않으면서 그들의 멋진 문신을 새겨 중국 갱단에게 누가 우두머리인지 보여주세요! 주의: 실제로는 중국 범죄 조직 갱단 소속인, 그 누구에게도 이 새로운 문신을 보여주어서는 안됩니다.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/sd_tattoos/sd_tattoos_scout.mdl</model_player>
@@ -34846,7 +34846,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>머리 보호구</item_type_name>
 			<item_name>인간 포탄</item_name>
-			<item_description>아무 무모한 도전자를 붙잡고 대포에서 발사되기 전에 머리에 뭘 달고 있는지 물어보십시오. 답은 한가지일 겁니다. 머리의 외상으로 인한 흐리멍덩하고 초점이 안맞는 시선말이죠. 네, 이 멋진 충돌 헬멧만 있었다면 겪지 않았을 그 머리의 외상 말입니다!</item_description>
+			<item_description>아무 무모한 도전자를 붙잡고 대포에서 발사되기 전에 머리에 뭘 달고 있는지 물어보세요. 답은 한가지일 겁니다. 머리의 외상으로 인한 흐리멍덩하고 초점이 안맞는 시선말이죠. 네, 이 멋진 충돌 헬멧만 있었다면 겪지 않았을 그 머리의 외상 말입니다!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/sd_helm/sd_helm_scout.mdl</model_player>
@@ -35084,7 +35084,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>배낭</item_type_name>
 			<item_name>메딕의 기계 장치 가방</item_name>
-			<item_description>로봇 군단과 싸울 때 가장 좋은 것 중 하나는 바로 부서진 로봇 부품을 전부 모아다가 재미있는 새 장신구로 쓸 수 있다는 겁니다. 이 메딕의 기계 장치 가방을 보십시오! 정말 멋진 제품이 아닙니까? 로봇에겐 영혼이 없으니 참 다행입니다. 안 그랬다면 우리가 자기네 몸을 가져다가 장신구로 쓰고 있는 것에 대해 엄청 화를 낼테니까요.</item_description>
+			<item_description>로봇 군단과 싸울 때 가장 좋은 것 중 하나는 바로 부서진 로봇 부품을 전부 모아다가 재미있는 새 장신구로 쓸 수 있다는 겁니다. 이 메딕의 기계 장치 가방을 보세요! 정말 멋진 제품이 아닙니까? 로봇에겐 영혼이 없으니 참 다행입니다. 안 그랬다면 우리가 자기네 몸을 가져다가 장신구로 쓰고 있는 것에 대해 엄청 화를 낼테니까요.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/mvm_loot/medic/robo_backpack.mdl</model_player>
@@ -35233,7 +35233,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>모자</item_type_name>
 			<item_name>로봇 런닝 맨</item_name>
-			<item_description>여러분은 이 로봇 모자가 스카웃을 굼뜨게 만들거라 생각하시겠죠. 하지만 스카웃은 여전히 빠릅니다! 이게 다 스카웃이 마셔대는 우유 덕분이죠. 설마 이 모자가 우유를 팔려는 얄팍한 상술로 보이는 것은 아니겠죠? 이거 말고도 놀랄만한 일이 더 있습니다! 오늘 밤 잠들 때까지 한번 기다려보십시오! 오오 쩐다!</item_description>
+			<item_description>여러분은 이 로봇 모자가 스카웃을 굼뜨게 만들거라 생각하시겠죠. 하지만 스카웃은 여전히 빠릅니다! 이게 다 스카웃이 마셔대는 우유 덕분이죠. 설마 이 모자가 우유를 팔려는 얄팍한 상술로 보이는 것은 아니겠죠? 이거 말고도 놀랄만한 일이 더 있습니다! 오늘 밤 잠들 때까지 한번 기다려보세요! 오오 쩐다!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/mvm_loot/scout/robo_cap.mdl</model_player>
@@ -35898,7 +35898,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>휘장</item_type_name>
 			<item_name>변치않는 우정의 동행큐브 증표</item_name>
-			<item_description>여러분은 노련한 우정의 병사입니다. 피땀 흘리며 수없이 많은 이불성을 지었고, 수백 번의 힘겨운 베개 전투에 참전하였습니다. 이 영원한 우정의 증표로 형제가 된다는 것이 어떤 것인지 주변 사람들에게 상기시키십시오!</item_description>
+			<item_description>여러분은 노련한 우정의 병사입니다. 피땀 흘리며 수없이 많은 이불성을 지었고, 수백 번의 힘겨운 베개 전투에 참전하였습니다. 이 영원한 우정의 증표로 형제가 된다는 것이 어떤 것인지 주변 사람들에게 상기시키세요!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/3a_cube.mdl</model_player>
@@ -36410,7 +36410,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>가면</item_type_name>
 			<item_name>사무라이 가면</item_name>
-			<item_description>사무라이의 흥미진진한 세계를 탐험하십시오! 화난듯이 빨리 말하십시오! 수염을 길러 보십시오! 어쩌면 다른 사무라이를 죽이고 나중에 사과하면 그 사무라이의 아내랑 사귈 수 있을겁니다! 가능성은 무한합니다!</item_description>
+			<item_description>사무라이의 흥미진진한 세계를 탐험하세요! 화난듯이 빨리 말하세요! 수염을 길러 보세요! 어쩌면 다른 사무라이를 죽이고 나중에 사과하면 그 사무라이의 아내랑 사귈 수 있을겁니다! 가능성은 무한합니다!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/Scout/tw_shogun/tw_shogun_Scout.mdl</model_player>
@@ -38340,7 +38340,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>모자</item_type_name>
 			<item_name>할망구의 뾰족모자</item_name>
-			<item_description>지난 100년 동안 오직 여자들만이 마녀로서의 특권(물약 제조, 사마귀에 걸리기, 화형당하기)을 온전히 누릴 수 있었으며, 남자들은 그저 방관자에 불과했습니다. 하지만 이제 그런 일은 더이상 없습니다! 이 할망구의 뾰족모자로 그 저주받은 성적 장벽을 깨부수십시오!</item_description>
+			<item_description>지난 100년 동안 오직 여자들만이 마녀로서의 특권(물약 제조, 사마귀에 걸리기, 화형당하기)을 온전히 누릴 수 있었으며, 남자들은 그저 방관자에 불과했습니다. 하지만 이제 그런 일은 더이상 없습니다! 이 할망구의 뾰족모자로 그 저주받은 성적 장벽을 깨부수세요!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/all_class/witchhat/witchhat_Scout.mdl</model_player>
@@ -38430,7 +38430,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>뼈다귀</item_type_name>
 			<item_name>해골띠</item_name>
-			<item_description>치명적인 수류탄을 장비하고 있는 것처럼 해서 친구들이 겁먹게 하십시오. 그 수류탄이 사실 무해한 해골인 것을 드러내 그들의 안도감을 만끽하십시오.</item_description>
+			<item_description>치명적인 수류탄을 장비하고 있는 것처럼 해서 친구들이 겁먹게 하세요. 그 수류탄이 사실 무해한 해골인 것을 드러내 그들의 안도감을 만끽하세요.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/Scout_grenade_skulls.mdl</model_player>
@@ -38537,7 +38537,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>신발</item_type_name>
 			<item_name>으스스한 신발</item_name>
-			<item_description>지옥에서 직수입하였습니다! 666 치수! 지옥 바깥에선, 5 하고도 반 치수입니다. 남성용으로 말입니다! 작디 작은 녀석의 발로 고통이 가득한 공포를 경험하십시오!</item_description>
+			<item_description>지옥에서 직수입하였습니다! 666 치수! 지옥 바깥에선, 5 하고도 반 치수입니다. 남성용으로 말입니다! 작디 작은 녀석의 발로 고통이 가득한 공포를 경험하세요!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/scout/scout_halloweenshoes/scout_halloweenshoes.mdl</model_player>
@@ -38585,7 +38585,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>의복</item_type_name>
 			<item_name>으스스한 소매</item_name>
-			<item_description>글렌 댄지그가 이 물건의 존재를 알아채고 모조리 사기 전에 어서 이걸 구매하십시오! 진지하게 말하는 건데, 여러분은 이 으스스한 소매들이 재고로 남아있거나, 아니면 글렌 댄지그가 존재하는 세상, 그 둘 중 하나에서만 존재할 수 있습니다. 서두르세요! 그가 지금 &apos;으스스한 소매&apos;를 인터넷에서 찾고 있어요!</item_description>
+			<item_description>글렌 댄지그가 이 물건의 존재를 알아채고 모조리 사기 전에 어서 이걸 구매하세요! 진지하게 말하는 건데, 여러분은 이 으스스한 소매들이 재고로 남아있거나, 아니면 글렌 댄지그가 존재하는 세상, 그 둘 중 하나에서만 존재할 수 있습니다. 서두르세요! 그가 지금 &apos;으스스한 소매&apos;를 인터넷에서 찾고 있어요!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/all_class/halloweenjacket/halloweenjacket_Scout.mdl</model_player>
@@ -38685,7 +38685,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>풍선</item_type_name>
 			<item_name>까꿍 풍선</item_name>
-			<item_description>이 (무서우면서도) 쾌활한 풍선은 진짜 유령의 얼굴을 부풀려서 만들었습니다. 저 건방진 유령권 운동가들이 이 소식을 듣고 판매를 중단시키기 전에 지금 당장 주문하십시오!</item_description>
+			<item_description>이 (무서우면서도) 쾌활한 풍선은 진짜 유령의 얼굴을 부풀려서 만들었습니다. 저 건방진 유령권 운동가들이 이 소식을 듣고 판매를 중단시키기 전에 지금 당장 주문하세요!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/hwn_pet_balloon.mdl</model_player>
@@ -38782,7 +38782,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>유령</item_type_name>
 			<item_name>정체불명의 우주원숭이</item_name>
-			<item_description>Mann Co. 사상 처음으로 실패한 우주원숭이 탐사의 유령이 여러분의 어께에 맴돌게 하십시오! Mann Co.에서 주최한 다른 실패한 우주원숭이 탐사와는 다르게, 바나나 투척기 작전은 우주선이 사용되지 않았다는 점에서 특별합니다!</item_description>
+			<item_description>Mann Co. 사상 처음으로 실패한 우주원숭이 탐사의 유령이 여러분의 어께에 맴돌게 하세요! Mann Co.에서 주최한 다른 실패한 우주원숭이 탐사와는 다르게, 바나나 투척기 작전은 우주선이 사용되지 않았다는 점에서 특별합니다!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/hwn_ghost_pj.mdl</model_player>
@@ -39323,7 +39323,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>모자</item_type_name>
 			<item_name>귀신같은 오페라 모자</item_name>
-			<item_description>오페라 모자를 쓰고 있는 플레이어를 제압하고, 귀신같은 오페라 모자를 수집한 뒤, 핼러윈 업데이트와 연관된 모자의 왕좌에 오르십시오.</item_description>
+			<item_description>오페라 모자를 쓰고 있는 플레이어를 제압하고, 귀신같은 오페라 모자를 수집한 뒤, 핼러윈 업데이트와 연관된 모자의 왕좌에 오르세요.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/ghostly_gibus_Scout.mdl</model_player>
@@ -39824,7 +39824,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>가면</item_type_name>
 			<item_name>&apos;코&apos;카인</item_name>
-			<item_description>호흡 장치를 치장하여 사람들이 당신이 환상의 세계에서 사는 망상에 빠진 미치광이라고 생각하도록 속이십시오!</item_description>
+			<item_description>호흡 장치를 치장하여 사람들이 당신이 환상의 세계에서 사는 망상에 빠진 미치광이라고 생각하도록 속이세요!</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/pyro/pyro_rocks/pyro_rocks_mask.mdl</model_player>
@@ -41316,7 +41316,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>장갑</item_type_name>
 			<item_name>손가락 노출 장비</item_name>
-			<item_description>색을 입힐 수 있는, 가죽이나 스웨드로 구성된 손가락 없는 장갑으로 손은 따듯하게, 손가락은 얼어붙게 하십시오.</item_description>
+			<item_description>색을 입힐 수 있는, 가죽이나 스웨드로 구성된 손가락 없는 장갑으로 손은 따듯하게, 손가락은 얼어붙게 하세요.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/scout/scout_gloves_leather_open/scout_gloves_leather_open.mdl</model_player>
@@ -41589,7 +41589,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>모자</item_type_name>
 			<item_name>곡예 비행사</item_name>
-			<item_description>이 유능한 비행사 모자와 멋진 영화 배우 콧수염으로 미국인들이 가장 좋아하는 머리장식과 얼굴, 머리카락을 지닌 비행사이자 영화배우이며 발톱과 병수도 수집가인 사람의 흉내를 내보십시오.</item_description>
+			<item_description>이 유능한 비행사 모자와 멋진 영화 배우 콧수염으로 미국인들이 가장 좋아하는 머리장식과 얼굴, 머리카락을 지닌 비행사이자 영화배우이며 발톱과 병수도 수집가인 사람의 흉내를 내보세요.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/engineer_barnstormer_s01.mdl</model_player>
@@ -42966,7 +42966,7 @@ Gamescom 2011</item_description>
 			<item_class>saxxy</item_class>
 			<item_type_name>돼지고기 가공품</item_type_name>
 			<item_name>햄 찌르개</item_name>
-			<item_description>이 유용한 물건은 교도소에서 꼭 필요합니다. 칫솔이나 햄 같은 평범한 교도소 물건들을 가져다가 뾰족하게 갈아버린 뒤 배급소에서 햄과 칫솔을 다시 타려고 줄을 선 놈들을 찌를 때 사용하십시오.</item_description>
+			<item_description>이 유용한 물건은 교도소에서 꼭 필요합니다. 칫솔이나 햄 같은 평범한 교도소 물건들을 가져다가 뾰족하게 갈아버린 뒤 배급소에서 햄과 칫솔을 다시 타려고 줄을 선 놈들을 찌를 때 사용하세요.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_ham/c_ham.mdl</model_player>
@@ -43068,7 +43068,7 @@ Gamescom 2011</item_description>
 			<item_type_name>특별한 도발</item_type_name>
 			<item_name>도발: 파쇄 경보</item_name>
 			<item_description>모든 병과 도발
-어둠의 존재(잉베이 말름스틴)의 불경한 힘을 다루고, 격렬한 리프와 용암처럼 뜨거운 프레이즈, 감정을 무너뜨리는 발라드로 적들을 짓밟으십시오!</item_description>
+어둠의 존재(잉베이 말름스틴)의 불경한 힘을 다루고, 격렬한 리프와 용암처럼 뜨거운 프레이즈, 감정을 무너뜨리는 발라드로 적들을 짓밟으세요!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -43166,7 +43166,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>모자</item_type_name>
 			<item_name>악마의 목소리</item_name>
-			<item_description>이 민중의 목소리 집단의 무정부주의자 가면으로 적들에게 자신이 진정한 악마이거나 시위자로 보이도록 하십시오. 그들이 어떻게 생각하든 상관없이 당신이 슈퍼마켓 문 앞에서 서명을 요구할 때 피하려 들 것입니다.</item_description>
+			<item_description>이 민중의 목소리 집단의 무정부주의자 가면으로 적들에게 자신이 진정한 악마이거나 시위자로 보이도록 하세요. 그들이 어떻게 생각하든 상관없이 당신이 슈퍼마켓 문 앞에서 서명을 요구할 때 피하려 들 것입니다.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/bio_voxhood.mdl</model_player>
@@ -43418,7 +43418,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>모자</item_type_name>
 			<item_name>시드니 보터 모자</item_name>
-			<item_description>이 모자를 땅에 내던져 분노를 표현하거나, 하늘로 던져 기쁨을 표현하세요! 이 모자로 시간 여행을 떠나 이모티콘이 등장하기 전 여러분의 증조부, 증조모님들이 어떻게 감정을 표현했는지 알아보십시오!</item_description>
+			<item_description>이 모자를 땅에 내던져 분노를 표현하거나, 하늘로 던져 기쁨을 표현하세요! 이 모자로 시간 여행을 떠나 이모티콘이 등장하기 전 여러분의 증조부, 증조모님들이 어떻게 감정을 표현했는지 알아보세요!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/bio_sniper_boater.mdl</model_player>
@@ -43746,7 +43746,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>모자</item_type_name>
 			<item_name>블러드하운드</item_name>
-			<item_description>레이먼드 챈들러의 소설을 읽으면서 여자를 잘 꼬시고 거칠게 말하는 사립 탐정의 희열을 간접적으로 체험해 보십시오. 그 후 그걸 전부 다 잊어버리고 만화에 나오는 이 신기하게 생긴 개가 쓰는 모자를 써보십시오.</item_description>
+			<item_description>레이먼드 챈들러의 소설을 읽으면서 여자를 잘 꼬시고 거칠게 말하는 사립 탐정의 희열을 간접적으로 체험해 보세요. 그 후 그걸 전부 다 잊어버리고 만화에 나오는 이 신기하게 생긴 개가 쓰는 모자를 써보세요.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/pn2_samhat_Scout.mdl</model_player>
@@ -43794,7 +43794,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>가면</item_type_name>
 			<item_name>말쑥한 변장</item_name>
-			<item_description>잘생긴 남자로 변장해서 빼어난 외모로 비밀스러운 특혜를 누리십시오. 고소득 직업! 뜨거운 만남! 올리브 가든 레스토랑에서 공짜 막대빵 먹기! 단, 최대한 많이 먹어 두십시오. 결국 이 가면은 썩어 문드러지고, 여러분을 예전보다 더 못생기게 할 테니까요.</item_description>
+			<item_description>잘생긴 남자로 변장해서 빼어난 외모로 비밀스러운 특혜를 누리세요. 고소득 직업! 뜨거운 만남! 올리브 가든 레스토랑에서 공짜 막대빵 먹기! 단, 최대한 많이 먹어 두세요. 결국 이 가면은 썩어 문드러지고, 여러분을 예전보다 더 못생기게 할 테니까요.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/pn2_mask.mdl</model_player>
@@ -43841,7 +43841,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>모자</item_type_name>
 			<item_name>네크로노미관</item_name>
-			<item_description>다른 일란성 쌍둥이처럼, 당신은 당신 형재자매 목에 난 혹에서 태어나 사악한 머리가 되었고, 마침내 당신 쌍둥이 형재자매를 똑같이 복제된 당신 몸 그 자체에다 쳐넣었죠. 이제 당신은 누가 누구인지 알 수 없게 되었습니다! 이 감정용 악마의 해골바가지를 쓰고 한 번 추리해 보십시오.</item_description>
+			<item_description>다른 일란성 쌍둥이처럼, 당신은 당신 형재자매 목에 난 혹에서 태어나 사악한 머리가 되었고, 마침내 당신 쌍둥이 형재자매를 똑같이 복제된 당신 몸 그 자체에다 쳐넣었죠. 이제 당신은 누가 누구인지 알 수 없게 되었습니다! 이 감정용 악마의 해골바가지를 쓰고 한 번 추리해 보세요.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/pn2_evilash.mdl</model_player>
@@ -43990,7 +43990,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>모자</item_type_name>
 			<item_name>음모자</item_name>
-			<item_description>아무것도 모르는 멍청이처럼 은박지로 머리를 감싸서 정부의 비밀로부터 자신을 지키려고 하지 마세요! 변신할 수 있는 우리의 파충류 군주들의 사적인 대화를 도청해 보십시오. 내년 월드 시리즈 경기의 우승자가 누군지 알아보세요! 51 구역에 진짜로 무슨 일이 일어나고 있는지 파악하세요! 빅풋이 만취하여 한밤중에 대통령에게 한 전화도 엿들어보세요!</item_description>
+			<item_description>아무것도 모르는 멍청이처럼 은박지로 머리를 감싸서 정부의 비밀로부터 자신을 지키려고 하지 마세요! 변신할 수 있는 우리의 파충류 군주들의 사적인 대화를 도청해 보세요. 내년 월드 시리즈 경기의 우승자가 누군지 알아보세요! 51 구역에 진짜로 무슨 일이 일어나고 있는지 파악하세요! 빅풋이 만취하여 한밤중에 대통령에게 한 전화도 엿들어보세요!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/all_class_reddit_Scout_hat.mdl</model_player>
@@ -44050,7 +44050,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>모자</item_type_name>
 			<item_name>공개 전파 접근기</item_name>
-			<item_description>이 부러진 안테나가 달린 모자는 약 6m 반경에 방송되는 모든 신호를 완벽하게 잡아냅니다. 주변의 초보 무선기사들이 내보내는 인기가요부터 무전기의 송신이나 어린이들이 낡아빠진 전선으로 연결한 수프 깡통에서 나오는 소리를 들어 보십시오.</item_description>
+			<item_description>이 부러진 안테나가 달린 모자는 약 6m 반경에 방송되는 모든 신호를 완벽하게 잡아냅니다. 주변의 초보 무선기사들이 내보내는 인기가요부터 무전기의 송신이나 어린이들이 낡아빠진 전선으로 연결한 수프 깡통에서 나오는 소리를 들어 보세요.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/all_class_reddit_alt_Scout_hat.mdl</model_player>
@@ -44192,7 +44192,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>머리 보호구</item_type_name>
 			<item_name>날씨의 지배자</item_name>
-			<item_description>사람들은 당신이 헬멧에 솜으로 된 구름과 번개를 붙이면 날씨를 조절할 수 있는 힘을 얻게 된다고 했을 때, 당신이 미쳤다고 놀렸습니다. 자 이제 그 놈들에게 보여주십시오! 모든 걸 다 말입니다! 무하하하하하하하!!! (이 헬멧은 날씨를 조절할 수 있는 힘을 주지 않습니다.)</item_description>
+			<item_description>사람들은 당신이 헬멧에 솜으로 된 구름과 번개를 붙이면 날씨를 조절할 수 있는 힘을 얻게 된다고 했을 때, 당신이 미쳤다고 놀렸습니다. 자 이제 그 놈들에게 보여주세요! 모든 걸 다 말입니다! 무하하하하하하하!!! (이 헬멧은 날씨를 조절할 수 있는 힘을 주지 않습니다.)</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/medic/as_medic_cloud_hat/as_medic_cloud_hat.mdl</model_player>
@@ -44240,7 +44240,7 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>모자</item_type_name>
 			<item_name>세균 차단기</item_name>
-			<item_description>인간의 얼굴은 자연의 쓰레기통입니다. (화장용) 침, (엔진 수리용) 윤활유, (먹을 수 있는) 씹다 만 고기 조각, (왕을 위해 검식한) 독 같은 것들이 보통 볼 수 있는 (여러분의) 얼굴에 뒤범벅되어있죠. 이 세균 차단기로 조금이나마 더러움을 줄여보십시오.</item_description>
+			<item_description>인간의 얼굴은 자연의 쓰레기통입니다. (화장용) 침, (엔진 수리용) 윤활유, (먹을 수 있는) 씹다 만 고기 조각, (왕을 위해 검식한) 독 같은 것들이 보통 볼 수 있는 (여러분의) 얼굴에 뒤범벅되어있죠. 이 세균 차단기로 조금이나마 더러움을 줄여보세요.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/scout/as_scout_cleansuit_hood/as_scout_cleansuit_hood.mdl</model_player>
@@ -47101,7 +47101,7 @@ Gamescom 2011</item_description>
 			<item_description>모든 병과 도발
 
 본 아이템은 짝 도발입니다. 도발 키로 사용 및 해제할 수 있습니다.
-상대 팀과 목숨을 건 대결을 펼치십시오.</item_description>
+상대 팀과 목숨을 건 대결을 펼치세요.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -47815,8 +47815,8 @@ TF2 동영상 &apos;Expiration Date&apos;에서 영감을 받아 제작되었습
 			<item_class>tf_wearable</item_class>
 			<item_type_name>일지</item_type_name>
 			<item_name>오리 일지</item_name>
-			<item_description>액션 칸에 장비하여 오리 획득량을 늘리십시오.
-오리 토큰을 써서 오리력을 늘리십시오.
+			<item_description>액션 칸에 장비하여 오리 획득량을 늘리세요.
+오리 토큰을 써서 오리력을 늘리세요.
 단계가 높을수록 오리를 더 많이 얻을 수 있습니다.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>

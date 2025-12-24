@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.3e355b9b4787f9de3b33eee5b954077590bbe741.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.b540a8922bdfae3affb236a6598d3f5bc18c8f9d.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -12881,7 +12881,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"393"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Chromatic Blaze"
+			"name"	"Resplandor cromático"
 		}
 		"376"
 		{
@@ -12889,7 +12889,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"394"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Frostfire"
+			"name"	"Fuego helado"
 		}
 		"377"
 		{
@@ -12897,7 +12897,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"395"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spectrum Inferno"
+			"name"	"Infierno espectral"
 		}
 		"378"
 		{
@@ -12905,7 +12905,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"396"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Calm Snowfall"
+			"name"	"Nevada tranquila"
 		}
 		"379"
 		{
@@ -12913,7 +12913,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"397"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Team Recognition"
+			"name"	"Orgullo de equipo"
 		}
 		"380"
 		{
@@ -12921,7 +12921,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"398"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Team Recognition"
+			"name"	"Orgullo de equipo"
 		}
 		"381"
 		{
@@ -12929,7 +12929,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"399"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Old Hire"
+			"name"	"Contrato antiguo"
 		}
 		"382"
 		{
@@ -12937,7 +12937,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"400"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Old Hire"
+			"name"	"Contrato antiguo"
 		}
 		"383"
 		{
@@ -12945,7 +12945,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"401"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Analog Fortress"
+			"name"	"TF analógico"
 		}
 		"384"
 		{
@@ -12953,7 +12953,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"402"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Winter Whiteout"
+			"name"	"Nevada intensa"
 		}
 		"385"
 		{
@@ -12961,7 +12961,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"403"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Midnight Frostfall"
+			"name"	"Escarcha de medianoche"
 		}
 		"386"
 		{
@@ -12969,7 +12969,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"404"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Twilight Snowfall"
+			"name"	"Nevada crepuscular"
 		}
 		"387"
 		{
@@ -12977,7 +12977,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"405"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Cryogenic"
+			"name"	"Criogénico"
 		}
 		"388"
 		{
@@ -14542,77 +14542,77 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"system"	"utaunt_2fort_teamc_teamcolor_red"
 			"id"	"3213"
 			"attach_to_rootbone"	"0"
-			"name"	"Snow Dome"
+			"name"	"Globo de nieve"
 		}
 		"611"
 		{
 			"system"	"utaunt_2fort_teamc_teamcolor_blue"
 			"id"	"3214"
 			"attach_to_rootbone"	"0"
-			"name"	"Snow Dome"
+			"name"	"Globo de nieve"
 		}
 		"612"
 		{
 			"system"	"utaunt_burningdesire_green_parent"
 			"id"	"3215"
 			"attach_to_rootbone"	"0"
-			"name"	"Scorching Sensation"
+			"name"	"Sensación sofocante"
 		}
 		"613"
 		{
 			"system"	"utaunt_burningdesire_orange_parent"
 			"id"	"3216"
 			"attach_to_rootbone"	"0"
-			"name"	"Burning Sensation"
+			"name"	"Sensación abrasadora"
 		}
 		"614"
 		{
 			"system"	"utaunt_spacecoated_2colored_parent_pb"
 			"id"	"3217"
 			"attach_to_rootbone"	"0"
-			"name"	"Galactic Dust"
+			"name"	"Polvo galáctico"
 		}
 		"615"
 		{
 			"system"	"utaunt_spacecoated_2colored_parent_pg"
 			"id"	"3218"
 			"attach_to_rootbone"	"0"
-			"name"	"Galactic Cloud"
+			"name"	"Nube galáctica"
 		}
 		"616"
 		{
 			"system"	"utaunt_aurora25_teamcolor_red"
 			"id"	"3219"
 			"attach_to_rootbone"	"0"
-			"name"	"Aurora Aura"
+			"name"	"Aura boreal"
 		}
 		"617"
 		{
 			"system"	"utaunt_aurora25_teamcolor_blue"
 			"id"	"3220"
 			"attach_to_rootbone"	"0"
-			"name"	"Aurora Aura"
+			"name"	"Aura boreal"
 		}
 		"618"
 		{
 			"system"	"utaunt_aurora25_parent_purple"
 			"id"	"3221"
 			"attach_to_rootbone"	"0"
-			"name"	"Northern Nights"
+			"name"	"Noches nórdicas"
 		}
 		"619"
 		{
 			"system"	"utaunt_chillingmist_parent"
 			"id"	"3222"
 			"attach_to_rootbone"	"0"
-			"name"	"Chilling Mist"
+			"name"	"Niebla escalofriante"
 		}
 		"620"
 		{
 			"system"	"utaunt_80smalfunction_parent"
 			"id"	"3223"
 			"attach_to_rootbone"	"0"
-			"name"	"Circuit Break"
+			"name"	"Cortocircuito"
 		}
 		"621"
 		{

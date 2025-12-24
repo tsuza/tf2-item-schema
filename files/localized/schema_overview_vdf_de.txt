@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.3e355b9b4787f9de3b33eee5b954077590bbe741.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.b540a8922bdfae3affb236a6598d3f5bc18c8f9d.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -12882,7 +12882,7 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"id"	"393"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Chromatic Blaze"
+			"name"	"Chromatische Flamme"
 		}
 		"376"
 		{
@@ -12890,7 +12890,7 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"id"	"394"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Frostfire"
+			"name"	"Frostfeuer"
 		}
 		"377"
 		{
@@ -12898,7 +12898,7 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"id"	"395"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spectrum Inferno"
+			"name"	"Spektrales Inferno"
 		}
 		"378"
 		{
@@ -12906,7 +12906,7 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"id"	"396"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Calm Snowfall"
+			"name"	"Leise rieselnder Schnee"
 		}
 		"379"
 		{
@@ -12914,7 +12914,7 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"id"	"397"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Team Recognition"
+			"name"	"Team-Kennung"
 		}
 		"380"
 		{
@@ -12922,7 +12922,7 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"id"	"398"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Team Recognition"
+			"name"	"Team-Kennung"
 		}
 		"381"
 		{
@@ -12930,7 +12930,7 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"id"	"399"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Old Hire"
+			"name"	"Altgedient"
 		}
 		"382"
 		{
@@ -12938,7 +12938,7 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"id"	"400"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Old Hire"
+			"name"	"Altgedient"
 		}
 		"383"
 		{
@@ -12954,7 +12954,7 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"id"	"402"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Winter Whiteout"
+			"name"	"Winterliches Eisfieber"
 		}
 		"385"
 		{
@@ -12962,7 +12962,7 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"id"	"403"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Midnight Frostfall"
+			"name"	"Kälteeinbruch um Mitternacht"
 		}
 		"386"
 		{
@@ -12970,7 +12970,7 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"id"	"404"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Twilight Snowfall"
+			"name"	"Schnee bei Dämmerung"
 		}
 		"387"
 		{
@@ -12978,7 +12978,7 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"id"	"405"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Cryogenic"
+			"name"	"Tieftemperatur"
 		}
 		"388"
 		{
@@ -14543,77 +14543,77 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"system"	"utaunt_2fort_teamc_teamcolor_red"
 			"id"	"3213"
 			"attach_to_rootbone"	"0"
-			"name"	"Snow Dome"
+			"name"	"Schneekugel"
 		}
 		"611"
 		{
 			"system"	"utaunt_2fort_teamc_teamcolor_blue"
 			"id"	"3214"
 			"attach_to_rootbone"	"0"
-			"name"	"Snow Dome"
+			"name"	"Schneekugel"
 		}
 		"612"
 		{
 			"system"	"utaunt_burningdesire_green_parent"
 			"id"	"3215"
 			"attach_to_rootbone"	"0"
-			"name"	"Scorching Sensation"
+			"name"	"Sengender Sinneseindruck"
 		}
 		"613"
 		{
 			"system"	"utaunt_burningdesire_orange_parent"
 			"id"	"3216"
 			"attach_to_rootbone"	"0"
-			"name"	"Burning Sensation"
+			"name"	"Brennender Sinneseindruck"
 		}
 		"614"
 		{
 			"system"	"utaunt_spacecoated_2colored_parent_pb"
 			"id"	"3217"
 			"attach_to_rootbone"	"0"
-			"name"	"Galactic Dust"
+			"name"	"Galaktischer Staub"
 		}
 		"615"
 		{
 			"system"	"utaunt_spacecoated_2colored_parent_pg"
 			"id"	"3218"
 			"attach_to_rootbone"	"0"
-			"name"	"Galactic Cloud"
+			"name"	"Galaktische Wolke"
 		}
 		"616"
 		{
 			"system"	"utaunt_aurora25_teamcolor_red"
 			"id"	"3219"
 			"attach_to_rootbone"	"0"
-			"name"	"Aurora Aura"
+			"name"	"Aurora-Aura"
 		}
 		"617"
 		{
 			"system"	"utaunt_aurora25_teamcolor_blue"
 			"id"	"3220"
 			"attach_to_rootbone"	"0"
-			"name"	"Aurora Aura"
+			"name"	"Aurora-Aura"
 		}
 		"618"
 		{
 			"system"	"utaunt_aurora25_parent_purple"
 			"id"	"3221"
 			"attach_to_rootbone"	"0"
-			"name"	"Northern Nights"
+			"name"	"Nördliche Nächte"
 		}
 		"619"
 		{
 			"system"	"utaunt_chillingmist_parent"
 			"id"	"3222"
 			"attach_to_rootbone"	"0"
-			"name"	"Chilling Mist"
+			"name"	"Klirrender Nebel"
 		}
 		"620"
 		{
 			"system"	"utaunt_80smalfunction_parent"
 			"id"	"3223"
 			"attach_to_rootbone"	"0"
-			"name"	"Circuit Break"
+			"name"	"Kurzschluss"
 		}
 		"621"
 		{

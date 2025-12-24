@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.3e355b9b4787f9de3b33eee5b954077590bbe741.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.b540a8922bdfae3affb236a6598d3f5bc18c8f9d.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -11521,7 +11521,7 @@
 				"id": 396,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Calm Snowfall"
+				"name": "Спокойный снегопад"
 			},
 			{
 				"system": "unusual_team_recognition_teamcolor_red",
@@ -11542,42 +11542,42 @@
 				"id": 399,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Old Hire"
+				"name": "Бывалый наёмник"
 			},
 			{
 				"system": "unusual_classicfortress_teamcolor_blue",
 				"id": 400,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Old Hire"
+				"name": "Бывалый наёмник"
 			},
 			{
 				"system": "unusual_classicfortress_tflogo_parent",
 				"id": 401,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Analog Fortress"
+				"name": "Аналоговый логотип"
 			},
 			{
 				"system": "unusual_growing_flake_parent_white",
 				"id": 402,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Winter Whiteout"
+				"name": "Морозная мгла"
 			},
 			{
 				"system": "unusual_growing_flake_parent_purple",
 				"id": 403,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Midnight Frostfall"
+				"name": "Полуночный мороз"
 			},
 			{
 				"system": "unusual_growing_flake_parent_twilight",
 				"id": 404,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Twilight Snowfall"
+				"name": "Сумеречная метель"
 			},
 			{
 				"system": "unusual_cryogenic_parent",
@@ -12926,13 +12926,13 @@
 				"system": "utaunt_2fort_teamc_teamcolor_red",
 				"id": 3213,
 				"attach_to_rootbone": false,
-				"name": "Snow Dome"
+				"name": "Снежный купол"
 			},
 			{
 				"system": "utaunt_2fort_teamc_teamcolor_blue",
 				"id": 3214,
 				"attach_to_rootbone": false,
-				"name": "Snow Dome"
+				"name": "Снежный купол"
 			},
 			{
 				"system": "utaunt_burningdesire_green_parent",
@@ -12950,43 +12950,43 @@
 				"system": "utaunt_spacecoated_2colored_parent_pb",
 				"id": 3217,
 				"attach_to_rootbone": false,
-				"name": "Galactic Dust"
+				"name": "Галактическая пыль"
 			},
 			{
 				"system": "utaunt_spacecoated_2colored_parent_pg",
 				"id": 3218,
 				"attach_to_rootbone": false,
-				"name": "Galactic Cloud"
+				"name": "Галактическое облако"
 			},
 			{
 				"system": "utaunt_aurora25_teamcolor_red",
 				"id": 3219,
 				"attach_to_rootbone": false,
-				"name": "Aurora Aura"
+				"name": "Аура авроры"
 			},
 			{
 				"system": "utaunt_aurora25_teamcolor_blue",
 				"id": 3220,
 				"attach_to_rootbone": false,
-				"name": "Aurora Aura"
+				"name": "Аура авроры"
 			},
 			{
 				"system": "utaunt_aurora25_parent_purple",
 				"id": 3221,
 				"attach_to_rootbone": false,
-				"name": "Northern Nights"
+				"name": "Сумрачное сияние"
 			},
 			{
 				"system": "utaunt_chillingmist_parent",
 				"id": 3222,
 				"attach_to_rootbone": false,
-				"name": "Chilling Mist"
+				"name": "Леденящий туман"
 			},
 			{
 				"system": "utaunt_80smalfunction_parent",
 				"id": 3223,
 				"attach_to_rootbone": false,
-				"name": "Circuit Break"
+				"name": "Разрыв цепи"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",

@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.3e355b9b4787f9de3b33eee5b954077590bbe741.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.b540a8922bdfae3affb236a6598d3f5bc18c8f9d.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -11506,7 +11506,7 @@
 			<id>396</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Calm Snowfall</name>
+			<name>Спокойный снегопад</name>
 		</particle>
 		<particle>
 			<system>unusual_team_recognition_teamcolor_red</system>
@@ -11527,42 +11527,42 @@
 			<id>399</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Old Hire</name>
+			<name>Бывалый наёмник</name>
 		</particle>
 		<particle>
 			<system>unusual_classicfortress_teamcolor_blue</system>
 			<id>400</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Old Hire</name>
+			<name>Бывалый наёмник</name>
 		</particle>
 		<particle>
 			<system>unusual_classicfortress_tflogo_parent</system>
 			<id>401</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Analog Fortress</name>
+			<name>Аналоговый логотип</name>
 		</particle>
 		<particle>
 			<system>unusual_growing_flake_parent_white</system>
 			<id>402</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Winter Whiteout</name>
+			<name>Морозная мгла</name>
 		</particle>
 		<particle>
 			<system>unusual_growing_flake_parent_purple</system>
 			<id>403</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Midnight Frostfall</name>
+			<name>Полуночный мороз</name>
 		</particle>
 		<particle>
 			<system>unusual_growing_flake_parent_twilight</system>
 			<id>404</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Twilight Snowfall</name>
+			<name>Сумеречная метель</name>
 		</particle>
 		<particle>
 			<system>unusual_cryogenic_parent</system>
@@ -12911,13 +12911,13 @@
 			<system>utaunt_2fort_teamc_teamcolor_red</system>
 			<id>3213</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Snow Dome</name>
+			<name>Снежный купол</name>
 		</particle>
 		<particle>
 			<system>utaunt_2fort_teamc_teamcolor_blue</system>
 			<id>3214</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Snow Dome</name>
+			<name>Снежный купол</name>
 		</particle>
 		<particle>
 			<system>utaunt_burningdesire_green_parent</system>
@@ -12935,43 +12935,43 @@
 			<system>utaunt_spacecoated_2colored_parent_pb</system>
 			<id>3217</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Galactic Dust</name>
+			<name>Галактическая пыль</name>
 		</particle>
 		<particle>
 			<system>utaunt_spacecoated_2colored_parent_pg</system>
 			<id>3218</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Galactic Cloud</name>
+			<name>Галактическое облако</name>
 		</particle>
 		<particle>
 			<system>utaunt_aurora25_teamcolor_red</system>
 			<id>3219</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Aurora Aura</name>
+			<name>Аура авроры</name>
 		</particle>
 		<particle>
 			<system>utaunt_aurora25_teamcolor_blue</system>
 			<id>3220</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Aurora Aura</name>
+			<name>Аура авроры</name>
 		</particle>
 		<particle>
 			<system>utaunt_aurora25_parent_purple</system>
 			<id>3221</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Northern Nights</name>
+			<name>Сумрачное сияние</name>
 		</particle>
 		<particle>
 			<system>utaunt_chillingmist_parent</system>
 			<id>3222</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Chilling Mist</name>
+			<name>Леденящий туман</name>
 		</particle>
 		<particle>
 			<system>utaunt_80smalfunction_parent</system>
 			<id>3223</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Circuit Break</name>
+			<name>Разрыв цепи</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>

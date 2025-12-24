@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.3e355b9b4787f9de3b33eee5b954077590bbe741.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.b540a8922bdfae3affb236a6598d3f5bc18c8f9d.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -4320,7 +4320,7 @@
 			<name>cleaver description</name>
 			<defindex>435</defindex>
 			<attribute_class>desc_cleaver_description</attribute_class>
-			<description_string>적에게 이 식칼을 던져서 피를 흘리도록 하십시오! 멀리서 적을 맞추면 재충전 시간이 감소합니다.</description_string>
+			<description_string>적에게 이 식칼을 던져서 피를 흘리도록 하세요! 멀리서 적을 맞추면 재충전 시간이 감소합니다.</description_string>
 			<description_format>value_is_percentage</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -4862,7 +4862,7 @@
 			<name>generate rage on heal</name>
 			<defindex>499</defindex>
 			<attribute_class>generate_rage_on_heal</attribute_class>
-			<description_string>아군을 치료하여 에너지를 충전합니다. 완전히 충전되면 특수 공격 단추를 눌러 전방에 투사체 차단막을 발동하십시오.</description_string>
+			<description_string>아군을 치료하여 에너지를 충전합니다. 완전히 충전되면 특수 공격 단추를 눌러 전방에 투사체 차단막을 발동하세요.</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -11475,7 +11475,7 @@
 			<id>396</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Calm Snowfall</name>
+			<name>잔잔한 눈꽃 송이</name>
 		</particle>
 		<particle>
 			<system>unusual_team_recognition_teamcolor_red</system>
@@ -11496,42 +11496,42 @@
 			<id>399</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Old Hire</name>
+			<name>오래된 직원</name>
 		</particle>
 		<particle>
 			<system>unusual_classicfortress_teamcolor_blue</system>
 			<id>400</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Old Hire</name>
+			<name>오래된 직원</name>
 		</particle>
 		<particle>
 			<system>unusual_classicfortress_tflogo_parent</system>
 			<id>401</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Analog Fortress</name>
+			<name>아날로그 포트리스</name>
 		</particle>
 		<particle>
 			<system>unusual_growing_flake_parent_white</system>
 			<id>402</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Winter Whiteout</name>
+			<name>겨울 눈꽃</name>
 		</particle>
 		<particle>
 			<system>unusual_growing_flake_parent_purple</system>
 			<id>403</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Midnight Frostfall</name>
+			<name>한밤중의 눈서리</name>
 		</particle>
 		<particle>
 			<system>unusual_growing_flake_parent_twilight</system>
 			<id>404</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Twilight Snowfall</name>
+			<name>황혼의 눈꽃 송이</name>
 		</particle>
 		<particle>
 			<system>unusual_cryogenic_parent</system>
@@ -12880,13 +12880,13 @@
 			<system>utaunt_2fort_teamc_teamcolor_red</system>
 			<id>3213</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Snow Dome</name>
+			<name>스노돔</name>
 		</particle>
 		<particle>
 			<system>utaunt_2fort_teamc_teamcolor_blue</system>
 			<id>3214</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Snow Dome</name>
+			<name>스노돔</name>
 		</particle>
 		<particle>
 			<system>utaunt_burningdesire_green_parent</system>
@@ -12904,43 +12904,43 @@
 			<system>utaunt_spacecoated_2colored_parent_pb</system>
 			<id>3217</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Galactic Dust</name>
+			<name>은하 먼지</name>
 		</particle>
 		<particle>
 			<system>utaunt_spacecoated_2colored_parent_pg</system>
 			<id>3218</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Galactic Cloud</name>
+			<name>은하 성운</name>
 		</particle>
 		<particle>
 			<system>utaunt_aurora25_teamcolor_red</system>
 			<id>3219</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Aurora Aura</name>
+			<name>오로라 오라</name>
 		</particle>
 		<particle>
 			<system>utaunt_aurora25_teamcolor_blue</system>
 			<id>3220</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Aurora Aura</name>
+			<name>오로라 오라</name>
 		</particle>
 		<particle>
 			<system>utaunt_aurora25_parent_purple</system>
 			<id>3221</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Northern Nights</name>
+			<name>북녘의 밤</name>
 		</particle>
 		<particle>
 			<system>utaunt_chillingmist_parent</system>
 			<id>3222</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Chilling Mist</name>
+			<name>차가운 안개</name>
 		</particle>
 		<particle>
 			<system>utaunt_80smalfunction_parent</system>
 			<id>3223</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Circuit Break</name>
+			<name>회로 차단</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>

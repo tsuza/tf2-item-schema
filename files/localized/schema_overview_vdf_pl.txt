@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.3e355b9b4787f9de3b33eee5b954077590bbe741.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.b540a8922bdfae3affb236a6598d3f5bc18c8f9d.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -12903,7 +12903,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"393"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Chromatic Blaze"
+			"name"	"chromatyczny płomień"
 		}
 		"376"
 		{
@@ -12911,7 +12911,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"394"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Frostfire"
+			"name"	"lodowy płomień"
 		}
 		"377"
 		{
@@ -12919,7 +12919,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"395"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spectrum Inferno"
+			"name"	"piekielne spektrum"
 		}
 		"378"
 		{
@@ -12927,7 +12927,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"396"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Calm Snowfall"
+			"name"	"prószący śnieg"
 		}
 		"379"
 		{
@@ -12935,7 +12935,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"397"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Team Recognition"
+			"name"	"przedstawienie drużyny"
 		}
 		"380"
 		{
@@ -12943,7 +12943,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"398"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Team Recognition"
+			"name"	"przedstawienie drużyny"
 		}
 		"381"
 		{
@@ -12951,7 +12951,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"399"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Old Hire"
+			"name"	"stary wyjadacz"
 		}
 		"382"
 		{
@@ -12959,7 +12959,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"400"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Old Hire"
+			"name"	"stary wyjadacz"
 		}
 		"383"
 		{
@@ -12967,7 +12967,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"401"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Analog Fortress"
+			"name"	"analogowa forteca"
 		}
 		"384"
 		{
@@ -12975,7 +12975,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"402"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Winter Whiteout"
+			"name"	"zimowa biel"
 		}
 		"385"
 		{
@@ -12983,7 +12983,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"403"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Midnight Frostfall"
+			"name"	"północny przymrozek"
 		}
 		"386"
 		{
@@ -12991,7 +12991,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"404"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Twilight Snowfall"
+			"name"	"śnieżek o zmierzchu"
 		}
 		"387"
 		{
@@ -12999,7 +12999,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"405"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Cryogenic"
+			"name"	"kriogenika"
 		}
 		"388"
 		{
@@ -14564,77 +14564,77 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"system"	"utaunt_2fort_teamc_teamcolor_red"
 			"id"	"3213"
 			"attach_to_rootbone"	"0"
-			"name"	"Snow Dome"
+			"name"	"śnieżna kula"
 		}
 		"611"
 		{
 			"system"	"utaunt_2fort_teamc_teamcolor_blue"
 			"id"	"3214"
 			"attach_to_rootbone"	"0"
-			"name"	"Snow Dome"
+			"name"	"śnieżna kula"
 		}
 		"612"
 		{
 			"system"	"utaunt_burningdesire_green_parent"
 			"id"	"3215"
 			"attach_to_rootbone"	"0"
-			"name"	"Scorching Sensation"
+			"name"	"uczucie pieczenia"
 		}
 		"613"
 		{
 			"system"	"utaunt_burningdesire_orange_parent"
 			"id"	"3216"
 			"attach_to_rootbone"	"0"
-			"name"	"Burning Sensation"
+			"name"	"uczucie palenia"
 		}
 		"614"
 		{
 			"system"	"utaunt_spacecoated_2colored_parent_pb"
 			"id"	"3217"
 			"attach_to_rootbone"	"0"
-			"name"	"Galactic Dust"
+			"name"	"galaktyczny pył"
 		}
 		"615"
 		{
 			"system"	"utaunt_spacecoated_2colored_parent_pg"
 			"id"	"3218"
 			"attach_to_rootbone"	"0"
-			"name"	"Galactic Cloud"
+			"name"	"obłok międzygwiezdny"
 		}
 		"616"
 		{
 			"system"	"utaunt_aurora25_teamcolor_red"
 			"id"	"3219"
 			"attach_to_rootbone"	"0"
-			"name"	"Aurora Aura"
+			"name"	"zorzowy koloryt"
 		}
 		"617"
 		{
 			"system"	"utaunt_aurora25_teamcolor_blue"
 			"id"	"3220"
 			"attach_to_rootbone"	"0"
-			"name"	"Aurora Aura"
+			"name"	"zorzowy koloryt"
 		}
 		"618"
 		{
 			"system"	"utaunt_aurora25_parent_purple"
 			"id"	"3221"
 			"attach_to_rootbone"	"0"
-			"name"	"Northern Nights"
+			"name"	"północne noce"
 		}
 		"619"
 		{
 			"system"	"utaunt_chillingmist_parent"
 			"id"	"3222"
 			"attach_to_rootbone"	"0"
-			"name"	"Chilling Mist"
+			"name"	"chłodna mgiełka"
 		}
 		"620"
 		{
 			"system"	"utaunt_80smalfunction_parent"
 			"id"	"3223"
 			"attach_to_rootbone"	"0"
-			"name"	"Circuit Break"
+			"name"	"przerwa w obwodzie"
 		}
 		"621"
 		{

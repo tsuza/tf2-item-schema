@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.3e355b9b4787f9de3b33eee5b954077590bbe741.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.b540a8922bdfae3affb236a6598d3f5bc18c8f9d.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -11459,91 +11459,91 @@ Matar a objetivos en llamas da un subidón de velocidad.</description_string>
 			<id>393</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Chromatic Blaze</name>
+			<name>Resplandor cromático</name>
 		</particle>
 		<particle>
 			<system>unusual_ombre_parent_teal</system>
 			<id>394</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Frostfire</name>
+			<name>Fuego helado</name>
 		</particle>
 		<particle>
 			<system>unusual_ombre_parent_spectrum</system>
 			<id>395</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Spectrum Inferno</name>
+			<name>Infierno espectral</name>
 		</particle>
 		<particle>
 			<system>unusual_calmsnowfall_parent</system>
 			<id>396</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Calm Snowfall</name>
+			<name>Nevada tranquila</name>
 		</particle>
 		<particle>
 			<system>unusual_team_recognition_teamcolor_red</system>
 			<id>397</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Team Recognition</name>
+			<name>Orgullo de equipo</name>
 		</particle>
 		<particle>
 			<system>unusual_team_recognition_teamcolor_blue</system>
 			<id>398</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Team Recognition</name>
+			<name>Orgullo de equipo</name>
 		</particle>
 		<particle>
 			<system>unusual_classicfortress_teamcolor_red</system>
 			<id>399</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Old Hire</name>
+			<name>Contrato antiguo</name>
 		</particle>
 		<particle>
 			<system>unusual_classicfortress_teamcolor_blue</system>
 			<id>400</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Old Hire</name>
+			<name>Contrato antiguo</name>
 		</particle>
 		<particle>
 			<system>unusual_classicfortress_tflogo_parent</system>
 			<id>401</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Analog Fortress</name>
+			<name>TF analógico</name>
 		</particle>
 		<particle>
 			<system>unusual_growing_flake_parent_white</system>
 			<id>402</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Winter Whiteout</name>
+			<name>Nevada intensa</name>
 		</particle>
 		<particle>
 			<system>unusual_growing_flake_parent_purple</system>
 			<id>403</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Midnight Frostfall</name>
+			<name>Escarcha de medianoche</name>
 		</particle>
 		<particle>
 			<system>unusual_growing_flake_parent_twilight</system>
 			<id>404</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Twilight Snowfall</name>
+			<name>Nevada crepuscular</name>
 		</particle>
 		<particle>
 			<system>unusual_cryogenic_parent</system>
 			<id>405</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Cryogenic</name>
+			<name>Criogénico</name>
 		</particle>
 		<particle>
 			<system>weapon_unusual_hot</system>
@@ -12885,67 +12885,67 @@ Matar a objetivos en llamas da un subidón de velocidad.</description_string>
 			<system>utaunt_2fort_teamc_teamcolor_red</system>
 			<id>3213</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Snow Dome</name>
+			<name>Globo de nieve</name>
 		</particle>
 		<particle>
 			<system>utaunt_2fort_teamc_teamcolor_blue</system>
 			<id>3214</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Snow Dome</name>
+			<name>Globo de nieve</name>
 		</particle>
 		<particle>
 			<system>utaunt_burningdesire_green_parent</system>
 			<id>3215</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Scorching Sensation</name>
+			<name>Sensación sofocante</name>
 		</particle>
 		<particle>
 			<system>utaunt_burningdesire_orange_parent</system>
 			<id>3216</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Burning Sensation</name>
+			<name>Sensación abrasadora</name>
 		</particle>
 		<particle>
 			<system>utaunt_spacecoated_2colored_parent_pb</system>
 			<id>3217</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Galactic Dust</name>
+			<name>Polvo galáctico</name>
 		</particle>
 		<particle>
 			<system>utaunt_spacecoated_2colored_parent_pg</system>
 			<id>3218</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Galactic Cloud</name>
+			<name>Nube galáctica</name>
 		</particle>
 		<particle>
 			<system>utaunt_aurora25_teamcolor_red</system>
 			<id>3219</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Aurora Aura</name>
+			<name>Aura boreal</name>
 		</particle>
 		<particle>
 			<system>utaunt_aurora25_teamcolor_blue</system>
 			<id>3220</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Aurora Aura</name>
+			<name>Aura boreal</name>
 		</particle>
 		<particle>
 			<system>utaunt_aurora25_parent_purple</system>
 			<id>3221</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Northern Nights</name>
+			<name>Noches nórdicas</name>
 		</particle>
 		<particle>
 			<system>utaunt_chillingmist_parent</system>
 			<id>3222</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Chilling Mist</name>
+			<name>Niebla escalofriante</name>
 		</particle>
 		<particle>
 			<system>utaunt_80smalfunction_parent</system>
 			<id>3223</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Circuit Break</name>
+			<name>Cortocircuito</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>
