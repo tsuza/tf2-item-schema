@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.b540a8922bdfae3affb236a6598d3f5bc18c8f9d.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.736e6731430407515bf3f3cd176f5ab6f0d68aea.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -620,7 +620,7 @@
 				"name": "set cloak is movement based",
 				"defindex": 48,
 				"attribute_class": "set_weapon_mode",
-				"description_string": "Verhullingstype: Bewegingsgevoelig.\nAlt-vuur: Word onzichtbaar. Je kunt niet aanvallen terwijl je onzichtbaar bent. Als je tegen vijanden aanloopt zul je voor alle vijanden een klein beetje zichtbaar zijn.\nVerhulling vermindert op basis van bewegingssnelheid.",
+				"description_string": "Cloak Type: Motion Sensitive.\nAlt-Fire: Turn invisible.  Cannot attack while invisible.  Bumping in to enemies will make you slightly visible to enemies.\nCloak drain rate based on movement speed.",
 				"description_format": "value_is_additive",
 				"effect_type": "neutral",
 				"hidden": false,
@@ -7104,7 +7104,7 @@
 				"name": "health drain medic",
 				"defindex": 881,
 				"attribute_class": "add_health_regen",
-				"description_string": "%s1 health regenerated per second on wearer",
+				"description_string": "De gezondheid van de drager herstelt met %s1 per seconde",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -9827,14 +9827,14 @@
 				"id": 153,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Smoldering Spirits"
+				"name": "Smeulende Zielen"
 			},
 			{
 				"system": "unusual_playflies_purple_parent",
 				"id": 154,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Wandering Wisps"
+				"name": "Dolende Dwaallichten"
 			},
 			{
 				"system": "unusual_kaleido_scope_parent",
@@ -9855,7 +9855,7 @@
 				"id": 157,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Laugh-O-Lantern"
+				"name": "Kakelende Kalebas"
 			},
 			{
 				"system": "unusual_face_parent_P",
@@ -9869,14 +9869,14 @@
 				"id": 159,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Pyroland Nightmare"
+				"name": "Pyroland-nachtmerrie"
 			},
 			{
 				"system": "unusual_gargoyle",
 				"id": 160,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Gravelly Ghoul"
+				"name": "Grindachtige Griezel"
 			},
 			{
 				"system": "unusual_gargoyle2",
@@ -9918,28 +9918,28 @@
 				"id": 166,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Special Snowfall"
+				"name": "Speciale Sneeuwval"
 			},
 			{
 				"system": "unusual_swirlybeams_goldpurple_parent",
 				"id": 167,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Divine Desire"
+				"name": "Goddelijk Verlangen"
 			},
 			{
 				"system": "unusual_swirlybeams_pinkblue_parent",
 				"id": 168,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Distant Dream"
+				"name": "Verre Droom"
 			},
 			{
 				"system": "unusual_icetornado_blue_parent",
 				"id": 169,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Violent Wintertide"
+				"name": "Winterwervel"
 			},
 			{
 				"system": "unusual_icetornado_purple_parent",
@@ -9981,7 +9981,7 @@
 				"id": 175,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Mirthful Mistletoe"
+				"name": "Montere Maretak"
 			},
 			{
 				"system": "unusual_mistletoe_teamcolor_blue",
@@ -10051,28 +10051,28 @@
 				"id": 185,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Perennial Petals"
+				"name": "Blijvende Bloembladeren"
 			},
 			{
 				"system": "unusual_bloomhead_orangepurple_parent",
 				"id": 186,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flavorsome Sunset"
+				"name": "Zalige Zonsondergang"
 			},
 			{
 				"system": "unusual_bloomhead_pinkgreen_parent",
 				"id": 187,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Raspberry Bloom"
+				"name": "Frambozengloed"
 			},
 			{
 				"system": "unusual_magicalorb_parent",
 				"id": 188,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Iridescence"
+				"name": "Regenboogkleurig"
 			},
 			{
 				"system": "unusual_demonhorns_green_parent",
@@ -10086,7 +10086,7 @@
 				"id": 190,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Devilish Diablo"
+				"name": "Duivelse Diablo"
 			},
 			{
 				"system": "unusual_demonhorns_purple_parent",
@@ -10100,28 +10100,28 @@
 				"id": 192,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Shrieking Shades"
+				"name": "Schril Schreeuwende Schaduwen"
 			},
 			{
 				"system": "unusual_souls_teamcolor_red",
 				"id": 193,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Restless Wraiths"
+				"name": "Huilende Hoofden"
 			},
 			{
 				"system": "unusual_souls_teamcolor_blue",
 				"id": 194,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Restless Wraiths"
+				"name": "Huilende Hoofden"
 			},
 			{
 				"system": "unusual_phantomcrown_green_parent",
 				"id": 195,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Infernal Wraith"
+				"name": "Helse Verschijning"
 			},
 			{
 				"system": "unusual_phantomcrown_purple_parent",
@@ -10135,7 +10135,7 @@
 				"id": 197,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ancient Specter"
+				"name": "Eeuwenoude Schim"
 			},
 			{
 				"system": "unusual_lurking_eyes_parent_g",
@@ -10149,7 +10149,7 @@
 				"id": 199,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Eyes of Molten"
+				"name": "Smeltende Ogen"
 			},
 			{
 				"system": "unusual_lurking_eyes_parent_p",
@@ -10170,21 +10170,21 @@
 				"id": 202,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Frantic Spooker"
+				"name": "Dol Spook"
 			},
 			{
 				"system": "unusual_wacky_spooky_ghost_parent_o",
 				"id": 203,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Frightened Poltergeist"
+				"name": "Geschrokken Klopgeest"
 			},
 			{
 				"system": "unusual_wacky_spooky_ghost_parent_p",
 				"id": 204,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Energetic Haunter"
+				"name": "Energieke Rondspoker"
 			},
 			{
 				"system": "unusual_smissmas_tree_parent",
@@ -10198,21 +10198,21 @@
 				"id": 206,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Hospitable Festivity"
+				"name": "Gastvrije Feestelijkheid"
 			},
 			{
 				"system": "unusual_tree3_teamcolor_red",
 				"id": 207,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Condescending Embrace"
+				"name": "Neerbuigende Omhelzing"
 			},
 			{
 				"system": "unusual_tree3_teamcolor_blue",
 				"id": 208,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Condescending Embrace"
+				"name": "Neerbuigende Omhelzing"
 			},
 			{
 				"system": "unusual_sparkletree_gold_parent",
@@ -10233,28 +10233,28 @@
 				"id": 211,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Prismatic Pine"
+				"name": "Disco-den"
 			},
 			{
 				"system": "unusual_fairylights_green_parent",
 				"id": 212,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Spiraling Lights"
+				"name": "Kronkelende Lichtjes"
 			},
 			{
 				"system": "unusual_fairylights_purple_parent",
 				"id": 213,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Twisting Lights"
+				"name": "Wentelende Lichtjes"
 			},
 			{
 				"system": "unusual_spire_star_parent",
 				"id": 214,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Stardust Pathway"
+				"name": "Pad van Sterrenstof"
 			},
 			{
 				"system": "unusual_spire_snowball_parent",
@@ -10282,7 +10282,7 @@
 				"id": 218,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Polar Forecast"
+				"name": "IJzige Weersvoorspelling"
 			},
 			{
 				"system": "unusual_antlers_gold_parent",
@@ -10296,21 +10296,21 @@
 				"id": 220,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Holiday Horns"
+				"name": "Feestdagengewei"
 			},
 			{
 				"system": "unusual_antlers_teamcolor_red",
 				"id": 221,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ardent Antlers"
+				"name": "Vurig Gewei"
 			},
 			{
 				"system": "unusual_antlers_teamcolor_blue",
 				"id": 222,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ardent Antlers"
+				"name": "Vurig Gewei"
 			},
 			{
 				"system": "unusual_festive_lights_lights1_parent",
@@ -10331,21 +10331,21 @@
 				"id": 225,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Crustacean Sensation"
+				"name": "Schaaldiersensatie"
 			},
 			{
 				"system": "unusual_sprinkles_teamcolor_red",
 				"id": 226,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Frosted Decadence"
+				"name": "Geglaceerde Decadentie"
 			},
 			{
 				"system": "unusual_sprinkles_teamcolor_blue",
 				"id": 227,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Frosted Decadence"
+				"name": "Geglaceerde Decadentie"
 			},
 			{
 				"system": "unusual_sprinkles_rainbow_parent",
@@ -10373,56 +10373,56 @@
 				"id": 231,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flourishing Passion"
+				"name": "Bloeiende Passie"
 			},
 			{
 				"system": "unusual_firework_blue_red_parent",
 				"id": 232,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Dazzling Fireworks"
+				"name": "Verblindend Vuurwerk"
 			},
 			{
 				"system": "unusual_firework_green_yellow_parent",
 				"id": 233,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Blazing Fireworks"
+				"name": "Vlammend Vuurwerk"
 			},
 			{
 				"system": "unusual_firework_orange_yellow_parent",
 				"id": 234,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Shimmering Fireworks"
+				"name": "Flikkerend Vuurwerk"
 			},
 			{
 				"system": "unusual_firework_pgb_parent",
 				"id": 235,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Twinkling Fireworks"
+				"name": "Fonkelend Vuurwerk"
 			},
 			{
 				"system": "unusual_firework_purple_yellow_parent",
 				"id": 236,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sparkling Fireworks"
+				"name": "Sprankelend Vuurwerk"
 			},
 			{
 				"system": "unusual_firework_rainbow_parent",
 				"id": 237,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Glowing Fireworks"
+				"name": "Gloeiend Vuurwerk"
 			},
 			{
 				"system": "unusual_firework_wgb_parent",
 				"id": 238,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Glimmering Fireworks"
+				"name": "Glinsterend Vuurwerk"
 			},
 			{
 				"system": "unusual_lanterns_teamcolor_red",
@@ -10457,7 +10457,7 @@
 				"id": 243,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Cold Cosmos"
+				"name": "Koude Kosmos"
 			},
 			{
 				"system": "unusual_helix_parent",
@@ -10471,28 +10471,28 @@
 				"id": 245,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Startrance"
+				"name": "Sterrentrance"
 			},
 			{
 				"system": "unusual_stardust_teamcolor_blue",
 				"id": 246,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Startrance"
+				"name": "Sterrentrance"
 			},
 			{
 				"system": "unusual_stardust_green_parent",
 				"id": 247,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Starlush"
+				"name": "Sterrenweelde"
 			},
 			{
 				"system": "unusual_stardust_orange_parent",
 				"id": 248,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Starfire"
+				"name": "Sterrenvuur"
 			},
 			{
 				"system": "unusual_stardust_white_parent",
@@ -10506,14 +10506,14 @@
 				"id": 250,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Contagious Eruption"
+				"name": "Besmettelijke Uitbarsting"
 			},
 			{
 				"system": "unusual_erupt_daydream_parent",
 				"id": 251,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Daydream Eruption"
+				"name": "Dagdromende Uitbarsting"
 			},
 			{
 				"system": "unusual_erupt_volcan_parent",
@@ -10527,28 +10527,28 @@
 				"id": 253,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Divine Sunlight"
+				"name": "Goddelijk Zonlicht"
 			},
 			{
 				"system": "unusual_audio_soundwave_green_parent",
 				"id": 254,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Audiophile"
+				"name": "Audiofiel"
 			},
 			{
 				"system": "unusual_audio_soundwave_orange_parent",
 				"id": 255,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Soundwave"
+				"name": "Geluidsgolf"
 			},
 			{
 				"system": "unusual_audio_soundwave_purple_parent",
 				"id": 256,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Synesthesia"
+				"name": "Synesthesie"
 			},
 			{
 				"system": "unusual_kraken_green_parent",
@@ -10562,7 +10562,7 @@
 				"id": 258,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Eerie Kraken"
+				"name": "Griezelige Kraken"
 			},
 			{
 				"system": "unusual_ghostaxe_parent_green",
@@ -10611,7 +10611,7 @@
 				"id": 265,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Moth Plague"
+				"name": "Mottenplaag"
 			},
 			{
 				"system": "unusual_eyeboss_parent",
@@ -10625,28 +10625,28 @@
 				"id": 267,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Haunted Wick"
+				"name": "Behekste Kousjes"
 			},
 			{
 				"system": "unusual_ghostly_flame_teamcolor_blue",
 				"id": 268,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Haunted Wick"
+				"name": "Behekste Kousjes"
 			},
 			{
 				"system": "unusual_ghostly_flame_parent_orange",
 				"id": 269,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Wicked Wick"
+				"name": "Slechte Kousjes"
 			},
 			{
 				"system": "unusual_ghostly_flame_parent_purple",
 				"id": 270,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Spectral Wick"
+				"name": "Spookachtige Kousjes"
 			},
 			{
 				"system": "unusual_sheetmusic_gold_parent",
@@ -10702,7 +10702,7 @@
 				"id": 278,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Starlight Haze"
+				"name": "Sterrenlichtnevel"
 			},
 			{
 				"system": "unusual_hardcarry_teamcolor_red",
@@ -10723,28 +10723,28 @@
 				"id": 281,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Jellyfish Field"
+				"name": "Kwallenveld"
 			},
 			{
 				"system": "unusual_jellyfish_teamcolor_blue",
 				"id": 282,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Jellyfish Field"
+				"name": "Kwallenveld"
 			},
 			{
 				"system": "unusual_jellyfish_green_parent",
 				"id": 283,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Jellyfish Hunter"
+				"name": "Kwallenjager"
 			},
 			{
 				"system": "unusual_jellyfish_purple_parent",
 				"id": 284,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Jellyfish Jam"
+				"name": "Kwallenjam"
 			},
 			{
 				"system": "unusual_shootingstar_green_parent",
@@ -10772,7 +10772,7 @@
 				"id": 288,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sakura Smoke Bomb"
+				"name": "Sakura-rookbom"
 			},
 			{
 				"system": "unusual_australian_riches",
@@ -10835,7 +10835,7 @@
 				"id": 297,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Hellspawned Horns"
+				"name": "Helse Hoorns"
 			},
 			{
 				"system": "unusual_devilish_teamcolor_blue",
@@ -10849,28 +10849,28 @@
 				"id": 299,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Demonic Impaler"
+				"name": "Demonische Spietser"
 			},
 			{
 				"system": "unusual_devilish_purple_parent",
 				"id": 300,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Revenant's Rack"
+				"name": "Gehoornde Geest"
 			},
 			{
 				"system": "unusual_sixthsense_teamcolor_red",
 				"id": 301,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sixth Sense"
+				"name": "Zesde Zintuig"
 			},
 			{
 				"system": "unusual_sixthsense_teamcolor_blue",
 				"id": 302,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sixth Sense"
+				"name": "Zesde Zintuig"
 			},
 			{
 				"system": "unusual_sixthsense_pink_parent",
@@ -10891,14 +10891,14 @@
 				"id": 305,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Arachne's Web"
+				"name": "Arachnes Web"
 			},
 			{
 				"system": "unusual_deepsmoke_parent_g",
 				"id": 306,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Acidic Climate"
+				"name": "Zuur Klimaat"
 			},
 			{
 				"system": "unusual_deepsmoke_parent_p",
@@ -10940,14 +10940,14 @@
 				"id": 312,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Radiant Rivalry"
+				"name": "Roemrijke Rivaliteit"
 			},
 			{
 				"system": "unusual_aestheticsigns_teamcolor_blue",
 				"id": 313,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Radiant Rivalry"
+				"name": "Roemrijke Rivaliteit"
 			},
 			{
 				"system": "unusual_aestheticsigns_mannco_parent",
@@ -10961,14 +10961,14 @@
 				"id": 315,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Frosty Flavours"
+				"name": "Steenkoude Smaken"
 			},
 			{
 				"system": "unusual_frosty_flavours_teamcolor_blue",
 				"id": 316,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Frosty Flavours"
+				"name": "Steenkoude Smaken"
 			},
 			{
 				"system": "unusual_frosty_mint_glow_parent",
@@ -11024,14 +11024,14 @@
 				"id": 324,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fairy Lights"
+				"name": "Feeënlichtjes"
 			},
 			{
 				"system": "unusual_firefly_green_parent",
 				"id": 325,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Natural Lights"
+				"name": "Natuurlijke Lichtjes"
 			},
 			{
 				"system": "unusual_corrodedknight_teamcolor_red",
@@ -11367,56 +11367,56 @@
 				"id": 374,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Blades of Betrayal"
+				"name": "Dolken van Verraad"
 			},
 			{
 				"system": "unusual_excalibur_teamcolor_blue",
 				"id": 375,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Blades of Betrayal"
+				"name": "Dolken van Verraad"
 			},
 			{
 				"system": "unusual_excalibur_parent_purple",
 				"id": 376,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Death's Daggers"
+				"name": "Messen van Magere Hein"
 			},
 			{
 				"system": "unusual_uber_teamcolor_red",
 				"id": 377,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fully Charged"
+				"name": "Volledig Opgeladen"
 			},
 			{
 				"system": "unusual_uber_teamcolor_blue",
 				"id": 378,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fully Charged"
+				"name": "Volledig Opgeladen"
 			},
 			{
 				"system": "unusual_uber_gold_parent",
 				"id": 379,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Overcharged"
+				"name": "Overbelast"
 			},
 			{
 				"system": "unusual_orbitingbullet_parent",
 				"id": 380,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Piercing Headache"
+				"name": "Knallende Koppijn"
 			},
 			{
 				"system": "unusual_typhoon_parent",
 				"id": 381,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Decimating Wind"
+				"name": "Verwoestende Wind"
 			},
 			{
 				"system": "unusual_ocean_swirl_teamcolor_red",
@@ -11858,7 +11858,7 @@
 				"system": "utaunt_snowring_space_parent",
 				"id": 3033,
 				"attach_to_rootbone": false,
-				"name": "Arctic Aurora"
+				"name": "Poollicht"
 			},
 			{
 				"system": "utaunt_spirit_winter_parent",
@@ -11888,13 +11888,13 @@
 				"system": "utaunt_astralbodies_tealpurple_parent",
 				"id": 3038,
 				"attach_to_rootbone": false,
-				"name": "Astral Presence"
+				"name": "Onstoffelijke Aanwezigheid"
 			},
 			{
 				"system": "utaunt_astralbodies_teamcolor_red",
 				"id": 3039,
 				"attach_to_rootbone": false,
-				"name": "Arcane Assistance"
+				"name": "Geheimzinnige Assistentie"
 			},
 			{
 				"system": "utaunt_astralbodies_teamcolor_blue",
@@ -11906,7 +11906,7 @@
 				"system": "utaunt_glowyplayer_green_parent",
 				"id": 3041,
 				"attach_to_rootbone": false,
-				"name": "Emerald Allurement"
+				"name": "Smaragdgroene Sensatie"
 			},
 			{
 				"system": "utaunt_glowyplayer_orange_parent",
@@ -11918,7 +11918,7 @@
 				"system": "utaunt_glowyplayer_purple_parent",
 				"id": 3043,
 				"attach_to_rootbone": false,
-				"name": "Spellbound Aspect"
+				"name": "Betoverende Aanblik"
 			},
 			{
 				"system": "utaunt_electricity_parent",
@@ -11930,13 +11930,13 @@
 				"system": "utaunt_electricity_purple_parent",
 				"id": 3045,
 				"attach_to_rootbone": false,
-				"name": "Veno Shock"
+				"name": "Giftige Schok"
 			},
 			{
 				"system": "utaunt_spider_green_parent",
 				"id": 3046,
 				"attach_to_rootbone": false,
-				"name": "Toxic Terrors"
+				"name": "Giftig Gevaar"
 			},
 			{
 				"system": "utaunt_spider_orange_parent",
@@ -11960,7 +11960,7 @@
 				"system": "utaunt_tf2smissmas_tree_parent_w",
 				"id": 3050,
 				"attach_to_rootbone": false,
-				"name": "Frosted Star"
+				"name": "Bevroren Ster"
 			},
 			{
 				"system": "utaunt_spirits_blue_parent",
@@ -11990,7 +11990,7 @@
 				"system": "utaunt_twinkling_rgb_parent",
 				"id": 3055,
 				"attach_to_rootbone": false,
-				"name": "Twinkling Lights"
+				"name": "Fonkelende Lichten"
 			},
 			{
 				"system": "utaunt_twinkling_goldsilver_parent",
@@ -12008,7 +12008,7 @@
 				"system": "utaunt_chain_purple_parent",
 				"id": 3060,
 				"attach_to_rootbone": false,
-				"name": "Cursed Confinement"
+				"name": "Vervloekte Vrijheidsberoving"
 			},
 			{
 				"system": "utaunt_tarotcard_teamcolor_red",
@@ -12032,19 +12032,19 @@
 				"system": "utaunt_tarotcard_purple_parent",
 				"id": 3064,
 				"attach_to_rootbone": false,
-				"name": "Magic Shuffle"
+				"name": "Magisch Schudden"
 			},
 			{
 				"system": "utaunt_elebound_green_parent",
 				"id": 3065,
 				"attach_to_rootbone": false,
-				"name": "Vigorous Pulse"
+				"name": "Levendige Schok"
 			},
 			{
 				"system": "utaunt_elebound_purple_parent",
 				"id": 3066,
 				"attach_to_rootbone": false,
-				"name": "Thundering Spirit"
+				"name": "Donderende Geest"
 			},
 			{
 				"system": "utaunt_elebound_yellow_parent",
@@ -12056,13 +12056,13 @@
 				"system": "utaunt_wispy_parent_g",
 				"id": 3068,
 				"attach_to_rootbone": false,
-				"name": "Wispy Halos"
+				"name": "Flarden Halo's"
 			},
 			{
 				"system": "utaunt_wispy_parent_p",
 				"id": 3069,
 				"attach_to_rootbone": false,
-				"name": "Nether Wisps"
+				"name": "Helse Pluim"
 			},
 			{
 				"system": "utaunt_auroraglow_green_parent",
@@ -12092,19 +12092,19 @@
 				"system": "utaunt_snowswirl_yellow_parent",
 				"id": 3074,
 				"attach_to_rootbone": false,
-				"name": "Golden Gusts"
+				"name": "Gouden Windstoten"
 			},
 			{
 				"system": "utaunt_snowswirl_teamcolor_red",
 				"id": 3075,
 				"attach_to_rootbone": false,
-				"name": "Smissmas Swirls"
+				"name": "Smissmas-werveling"
 			},
 			{
 				"system": "utaunt_snowswirl_teamcolor_blue",
 				"id": 3076,
 				"attach_to_rootbone": false,
-				"name": "Smissmas Swirls"
+				"name": "Smissmas-werveling"
 			},
 			{
 				"system": "utaunt_treespiral_green_parent",
@@ -12152,19 +12152,19 @@
 				"system": "utaunt_glitter_parent_silver",
 				"id": 3084,
 				"attach_to_rootbone": false,
-				"name": "Frosty Silver"
+				"name": "Vrieskoud Zilver"
 			},
 			{
 				"system": "utaunt_glitter_teamcolor_red",
 				"id": 3085,
 				"attach_to_rootbone": false,
-				"name": "Glamorous Dazzle"
+				"name": "Glamoureuze Verblinding"
 			},
 			{
 				"system": "utaunt_glitter_teamcolor_blue",
 				"id": 3086,
 				"attach_to_rootbone": false,
-				"name": "Glamorous Dazzle"
+				"name": "Glamoureuze Verblinding"
 			},
 			{
 				"system": "utaunt_ice_parent",
@@ -12182,7 +12182,7 @@
 				"system": "utaunt_marigoldritual_teamcolor_blue",
 				"id": 3089,
 				"attach_to_rootbone": false,
-				"name": "Marigold Ritual"
+				"name": "Goudsbloemenritueel"
 			},
 			{
 				"system": "utaunt_poison_parent_green",
@@ -12194,25 +12194,25 @@
 				"system": "utaunt_poison_parent_orange",
 				"id": 3091,
 				"attach_to_rootbone": false,
-				"name": "Blazed Brew"
+				"name": "Gebrand Brouwsel"
 			},
 			{
 				"system": "utaunt_poison_parent_purple",
 				"id": 3092,
 				"attach_to_rootbone": false,
-				"name": "Mysterious Mixture"
+				"name": "Mysterieus Mengsel"
 			},
 			{
 				"system": "utaunt_runeprison_green_parent",
 				"id": 3093,
 				"attach_to_rootbone": false,
-				"name": "Linguistic Deviation"
+				"name": "Linguïstieke Afwijking"
 			},
 			{
 				"system": "utaunt_runeprison_yellow_parent",
 				"id": 3094,
 				"attach_to_rootbone": false,
-				"name": "Aurelian Seal"
+				"name": "Gouden Zegel"
 			},
 			{
 				"system": "utaunt_runeprison_teamcolor_red",
@@ -12230,55 +12230,55 @@
 				"system": "utaunt_prismatichaze_parent",
 				"id": 3097,
 				"attach_to_rootbone": false,
-				"name": "Prismatic Haze"
+				"name": "Prismatische Nevel"
 			},
 			{
 				"system": "utaunt_risingsprit_teamcolor_red",
 				"id": 3098,
 				"attach_to_rootbone": false,
-				"name": "Rising Ritual"
+				"name": "Rijzend Ritueel"
 			},
 			{
 				"system": "utaunt_risingsprit_teamcolor_blue",
 				"id": 3099,
 				"attach_to_rootbone": false,
-				"name": "Rising Ritual"
+				"name": "Rijzend Ritueel"
 			},
 			{
 				"system": "utaunt_hands_teamcolor_red",
 				"id": 3100,
 				"attach_to_rootbone": false,
-				"name": "Bloody Grip"
+				"name": "Bloedige Greep"
 			},
 			{
 				"system": "utaunt_hands_teamcolor_blue",
 				"id": 3101,
 				"attach_to_rootbone": false,
-				"name": "Bloody Grip"
+				"name": "Bloedige Greep"
 			},
 			{
 				"system": "utaunt_hands_green_parent",
 				"id": 3102,
 				"attach_to_rootbone": false,
-				"name": "Toxic Grip"
+				"name": "Giftige Greep"
 			},
 			{
 				"system": "utaunt_hands_orange_parent",
 				"id": 3103,
 				"attach_to_rootbone": false,
-				"name": "Infernal Grip"
+				"name": "Helse Greep"
 			},
 			{
 				"system": "utaunt_hands_purple_parent",
 				"id": 3104,
 				"attach_to_rootbone": false,
-				"name": "Death Grip"
+				"name": "Doodsgreep"
 			},
 			{
 				"system": "utaunt_storm_parent_g",
 				"id": 3105,
 				"attach_to_rootbone": false,
-				"name": "Charged Arcane"
+				"name": "Geladen Geheim"
 			},
 			{
 				"system": "utaunt_storm_parent_k",
@@ -12290,19 +12290,19 @@
 				"system": "utaunt_storm_parent_o",
 				"id": 3107,
 				"attach_to_rootbone": false,
-				"name": "Convulsive Fiery"
+				"name": "Stuiptrekkende Vurigheid"
 			},
 			{
 				"system": "utaunt_festivelights_teamcolor_red",
 				"id": 3108,
 				"attach_to_rootbone": false,
-				"name": "Festivized Formation"
+				"name": "Verfeestelijkte Verschijning"
 			},
 			{
 				"system": "utaunt_festivelights_teamcolor_blue",
 				"id": 3109,
 				"attach_to_rootbone": false,
-				"name": "Festivized Formation"
+				"name": "Verfeestelijkte Verschijning"
 			},
 			{
 				"system": "utaunt_glow_spirit_parent_cr",
@@ -12326,13 +12326,13 @@
 				"system": "utaunt_snowflakesaura_parent",
 				"id": 3113,
 				"attach_to_rootbone": false,
-				"name": "Boundless Blizzard"
+				"name": "Grenzeloze Sneeuwstorm"
 			},
 			{
 				"system": "utaunt_sun_sand_rays_parent",
 				"id": 3114,
 				"attach_to_rootbone": false,
-				"name": "Solar Scorched"
+				"name": "Zongeschroeid"
 			},
 			{
 				"system": "utaunt_undersea_teamcolor_red",
@@ -12350,19 +12350,19 @@
 				"system": "utaunt_lavalamp_green_parent",
 				"id": 3117,
 				"attach_to_rootbone": false,
-				"name": "Blooming Beacon"
+				"name": "Bloeiend Baken"
 			},
 			{
 				"system": "utaunt_lavalamp_purple_parent",
 				"id": 3118,
 				"attach_to_rootbone": false,
-				"name": "Beaming Beacon"
+				"name": "Stralend Baken"
 			},
 			{
 				"system": "utaunt_lavalamp_yellow_parent",
 				"id": 3119,
 				"attach_to_rootbone": false,
-				"name": "Blazing Beacon"
+				"name": "Brandend Baken"
 			},
 			{
 				"system": "utaunt_fish_parent",
@@ -12398,13 +12398,13 @@
 				"system": "utaunt_krakenmouth_purple_parent",
 				"id": 3125,
 				"attach_to_rootbone": false,
-				"name": "Eldritch Horror"
+				"name": "Griezelig Gat"
 			},
 			{
 				"system": "utaunt_leaftaunt_parent",
 				"id": 3126,
 				"attach_to_rootbone": false,
-				"name": "Autumn Leaves"
+				"name": "Herfstbladeren"
 			},
 			{
 				"system": "utaunt_graveparty_parent",
@@ -12416,19 +12416,19 @@
 				"system": "utaunt_spellsplash_parent",
 				"id": 3128,
 				"attach_to_rootbone": false,
-				"name": "Potion Explosion"
+				"name": "Barstende Brouwsels"
 			},
 			{
 				"system": "utaunt_cremation_purple_parent",
 				"id": 3129,
 				"attach_to_rootbone": false,
-				"name": "Haunted Cremation"
+				"name": "Behekste Crematie"
 			},
 			{
 				"system": "utaunt_cremation_black_parent",
 				"id": 3130,
 				"attach_to_rootbone": false,
-				"name": "Cremation"
+				"name": "Crematie"
 			},
 			{
 				"system": "utaunt_snowfall_parent",
@@ -12440,25 +12440,25 @@
 				"system": "utaunt_constellations_teamcolor_red",
 				"id": 3132,
 				"attach_to_rootbone": false,
-				"name": "Galactic Connection"
+				"name": "Cosmische Connectie"
 			},
 			{
 				"system": "utaunt_constellations_teamcolor_blue",
 				"id": 3133,
 				"attach_to_rootbone": false,
-				"name": "Galactic Connection"
+				"name": "Cosmische Connectie"
 			},
 			{
 				"system": "utaunt_constellations_purple_parent",
 				"id": 3134,
 				"attach_to_rootbone": false,
-				"name": "Dark Twilight"
+				"name": "Duistere Schemering"
 			},
 			{
 				"system": "utaunt_constellations_pink_parent",
 				"id": 3135,
 				"attach_to_rootbone": false,
-				"name": "Eldritch Rift"
+				"name": "Griezelige Gloed"
 			},
 			{
 				"system": "utaunt_wispyworks_orangegreen_parent",
@@ -12470,7 +12470,7 @@
 				"system": "utaunt_wispyworks_purpleblue_parent",
 				"id": 3137,
 				"attach_to_rootbone": false,
-				"name": "Distant Desire"
+				"name": "Verafgelegen Verlangen"
 			},
 			{
 				"system": "utaunt_wispyworks_yellowpurple_parent",
@@ -12494,7 +12494,7 @@
 				"system": "utaunt_innerblizzard_purple_parent",
 				"id": 3141,
 				"attach_to_rootbone": false,
-				"name": "Arctic Delight"
+				"name": "Poolpret"
 			},
 			{
 				"system": "utaunt_spotlight_parent",
@@ -12506,13 +12506,13 @@
 				"system": "utaunt_pedalfly_teamcolor_red",
 				"id": 3143,
 				"attach_to_rootbone": false,
-				"name": "Petal Prance"
+				"name": "Blije Blaadjes"
 			},
 			{
 				"system": "utaunt_pedalfly_teamcolor_blue",
 				"id": 3144,
 				"attach_to_rootbone": false,
-				"name": "Petal Prance"
+				"name": "Blije Blaadjes"
 			},
 			{
 				"system": "utaunt_dragonfly_teamcolor_red",
@@ -12818,7 +12818,7 @@
 				"system": "utaunt_seamine_teamcolor_blue",
 				"id": 3195,
 				"attach_to_rootbone": false,
-				"name": "Seamine"
+				"name": "Zeemijn"
 			},
 			{
 				"system": "utaunt_iconicoutline_teamcolor_red",
@@ -12836,31 +12836,31 @@
 				"system": "utaunt_iconicoutline_pink_parent",
 				"id": 3198,
 				"attach_to_rootbone": false,
-				"name": "Subtle Silhouette"
+				"name": "Subtiel Silhouet"
 			},
 			{
 				"system": "utaunt_oceanreef_parent",
 				"id": 3199,
 				"attach_to_rootbone": false,
-				"name": "Ocean Reef"
+				"name": "Oceaanbodem"
 			},
 			{
 				"system": "utaunt_signalinterference_parent",
 				"id": 3200,
 				"attach_to_rootbone": false,
-				"name": "Lost Signal"
+				"name": "Verbroken Verbinding"
 			},
 			{
 				"system": "utaunt_waterwave_parent",
 				"id": 3201,
 				"attach_to_rootbone": false,
-				"name": "Summer Wave"
+				"name": "Zomerse Golven"
 			},
 			{
 				"system": "utaunt_sharkfin2_parent",
 				"id": 3202,
 				"attach_to_rootbone": false,
-				"name": "Shark Attack"
+				"name": "Haaienaanval"
 			},
 			{
 				"system": "utaunt_phantasam_green_parent",

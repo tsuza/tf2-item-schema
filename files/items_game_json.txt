@@ -185139,7 +185139,7 @@
                 "name": "Taunt Unusualifier",
                 "prefab": "unusualifier_base",
                 "static_attrs": {
-                    "unusualifier_attribute_template_name": "taunt_unusualifier_smissmas2025_effects"
+                    "unusualifier_attribute_template_name": "taunt_unusualifier_effects"
                 }
             },
             "2000": {
@@ -201816,7 +201816,7 @@
             },
             "cosmetic_case_unusual_hat_chance": {
                 "attribute_templates": {
-                    "unusual_hat_chance_smissmas2025_case": "1",
+                    "unusual_hat_chance_cosmetics_case": "1",
                     "check_unusual_quality": "1"
                 }
             },
@@ -203778,15 +203778,34 @@
             },
             "invasion_case01_loot_list_96": {
                 "hide_lootlist": "1",
-                "loot_list_collection": "Invasion_collection_01_lootlist"
+                "loot_list_collection": "Invasion_collection_01_lootlist",
+                "lootlist_jobs": {
+                    "attribute_templates": {
+                        "unusual_hat_chance_invasion": "1",
+                        "check_unusual_quality": "1"
+                    }
+                }
             },
             "invasion_case02_loot_list_97": {
                 "hide_lootlist": "1",
-                "loot_list_collection": "Invasion_collection_02_lootlist"
+                "loot_list_collection": "Invasion_collection_02_lootlist",
+                "lootlist_jobs": {
+                    "attribute_templates": {
+                        "unusual_hat_chance_invasion": "1",
+                        "unusual_taunt_effects_series_1": "1",
+                        "check_unusual_quality": "1"
+                    }
+                }
             },
             "halloween2015_case01_loot_list_98": {
                 "hide_lootlist": "1",
-                "loot_list_collection": "halloween2015_collection_lootlist"
+                "loot_list_collection": "halloween2015_collection_lootlist",
+                "lootlist_jobs": {
+                    "attribute_templates": {
+                        "unusual_hat_chance_halloween2015": "1",
+                        "check_unusual_quality": "1"
+                    }
+                }
             },
             "tough_break_case_collection_01_lootlist_99": {
                 "hide_lootlist": "1",
@@ -203841,6 +203860,10 @@
                 "hide_lootlist": "1",
                 "loot_list_collection": "halloween2016_collection_lootlist",
                 "lootlist_jobs": {
+                    "attribute_templates": {
+                        "unusual_hat_chance_halloween2016_case": "1",
+                        "check_unusual_quality": "1"
+                    },
                     "additional_drop": {
                         "loot_list": "halloween_2016_bonus_items"
                     }
@@ -204058,6 +204081,10 @@
                 "hide_lootlist": "1",
                 "loot_list_collection": "halloween2018_collection",
                 "lootlist_jobs": {
+                    "attribute_templates": {
+                        "unusual_hat_chance_halloween2018_case": "1",
+                        "check_unusual_quality": "1"
+                    },
                     "additional_drop": {
                         "loot_list": "halloween_2018_bonus_items"
                     }
@@ -204091,6 +204118,10 @@
                 "hide_lootlist": "1",
                 "loot_list_collection": "halloween2019_collection",
                 "lootlist_jobs": {
+                    "attribute_templates": {
+                        "unusual_hat_chance_halloween2019_case": "1",
+                        "check_unusual_quality": "1"
+                    },
                     "additional_drop": {
                         "loot_list": "halloween_2019_bonus_items"
                     }
@@ -204102,6 +204133,10 @@
                 "lootlist_jobs": {
                     "additional_drop": {
                         "loot_list": "festivizer_lootlist"
+                    },
+                    "attribute_templates": {
+                        "unusual_hat_chance_smissmas2019_case": "1",
+                        "check_unusual_quality": "1"
                     }
                 }
             },
@@ -204111,7 +204146,13 @@
             },
             "summer2020_cosmetic_loot_list_127": {
                 "hide_lootlist": "1",
-                "loot_list_collection": "Summer2020Cosmetics_collection"
+                "loot_list_collection": "Summer2020Cosmetics_collection",
+                "lootlist_jobs": {
+                    "attribute_templates": {
+                        "unusual_hat_chance_summer2020_case": "1",
+                        "check_unusual_quality": "1"
+                    }
+                }
             },
             "halloween2020_bonus_items": {
                 "War Blunder": "1",
@@ -204125,6 +204166,10 @@
                 "hide_lootlist": "1",
                 "loot_list_collection": "halloween2020_collection",
                 "lootlist_jobs": {
+                    "attribute_templates": {
+                        "unusual_hat_chance_halloween2020_case": "1",
+                        "check_unusual_quality": "1"
+                    },
                     "additional_drop": {
                         "loot_list": "halloween2020_bonus_items"
                     }
@@ -204140,6 +204185,10 @@
                 "lootlist_jobs": {
                     "additional_drop": {
                         "loot_list": "festivizer_lootlist"
+                    },
+                    "attribute_templates": {
+                        "unusual_hat_chance_smissmas2020_case": "1",
+                        "check_unusual_quality": "1"
                     }
                 }
             },
@@ -204149,7 +204198,13 @@
             },
             "summer2021_cosmetic_loot_list_132": {
                 "hide_lootlist": "1",
-                "loot_list_collection": "Summer2021Cosmetics_collection"
+                "loot_list_collection": "Summer2021Cosmetics_collection",
+                "lootlist_jobs": {
+                    "attribute_templates": {
+                        "unusual_hat_chance_summer2021_case": "1",
+                        "check_unusual_quality": "1"
+                    }
+                }
             },
             "halloween2021_bonus_items": {
                 "Poopy Doe": "1",
@@ -204163,6 +204218,10 @@
                 "hide_lootlist": "1",
                 "loot_list_collection": "halloween2021_collection",
                 "lootlist_jobs": {
+                    "attribute_templates": {
+                        "unusual_hat_chance_halloween2021_case": "1",
+                        "check_unusual_quality": "1"
+                    },
                     "additional_drop": {
                         "loot_list": "halloween2021_bonus_items"
                     }
@@ -204178,12 +204237,22 @@
                 "lootlist_jobs": {
                     "additional_drop": {
                         "loot_list": "festivizer_lootlist"
+                    },
+                    "attribute_templates": {
+                        "unusual_hat_chance_smissmas2021_case": "1",
+                        "check_unusual_quality": "1"
                     }
                 }
             },
             "summer2022_cosmetic_loot_list_136": {
                 "hide_lootlist": "1",
-                "loot_list_collection": "Summer2022Cosmetics_collection"
+                "loot_list_collection": "Summer2022Cosmetics_collection",
+                "lootlist_jobs": {
+                    "attribute_templates": {
+                        "unusual_hat_chance_summer2022_case": "1",
+                        "check_unusual_quality": "1"
+                    }
+                }
             },
             "halloween2022_bonus_items": {
                 "Misha's Maw": "1",
@@ -204196,6 +204265,10 @@
                 "hide_lootlist": "1",
                 "loot_list_collection": "halloween2022_collection",
                 "lootlist_jobs": {
+                    "attribute_templates": {
+                        "unusual_hat_chance_halloween2022_case": "1",
+                        "check_unusual_quality": "1"
+                    },
                     "additional_drop": {
                         "loot_list": "halloween2022_bonus_items"
                     }
@@ -204211,12 +204284,22 @@
                 "lootlist_jobs": {
                     "additional_drop": {
                         "loot_list": "festivizer_lootlist"
+                    },
+                    "attribute_templates": {
+                        "unusual_hat_chance_smissmas2022_case": "1",
+                        "check_unusual_quality": "1"
                     }
                 }
             },
             "summer2023_cosmetic_loot_list_140": {
                 "hide_lootlist": "1",
-                "loot_list_collection": "Summer2023Cosmetics_collection"
+                "loot_list_collection": "Summer2023Cosmetics_collection",
+                "lootlist_jobs": {
+                    "attribute_templates": {
+                        "unusual_hat_chance_summer2023_case": "1",
+                        "check_unusual_quality": "1"
+                    }
+                }
             },
             "summer2023_war_paint_loot_list_141": {
                 "hide_lootlist": "1",
@@ -204232,6 +204315,10 @@
                 "hide_lootlist": "1",
                 "loot_list_collection": "halloween2023_collection",
                 "lootlist_jobs": {
+                    "attribute_templates": {
+                        "unusual_hat_chance_halloween2023_case": "1",
+                        "check_unusual_quality": "1"
+                    },
                     "additional_drop": {
                         "loot_list": "halloween2023_bonus_items"
                     }
@@ -204243,16 +204330,32 @@
                 "lootlist_jobs": {
                     "additional_drop": {
                         "loot_list": "festivizer_lootlist"
+                    },
+                    "attribute_templates": {
+                        "unusual_hat_chance_smissmas2023_case": "1",
+                        "check_unusual_quality": "1"
                     }
                 }
             },
             "summer2024_cosmetic_loot_list_144": {
                 "hide_lootlist": "1",
-                "loot_list_collection": "Summer2024Cosmetics_collection"
+                "loot_list_collection": "Summer2024Cosmetics_collection",
+                "lootlist_jobs": {
+                    "attribute_templates": {
+                        "unusual_hat_chance_summer2024_case": "1",
+                        "check_unusual_quality": "1"
+                    }
+                }
             },
             "halloween2024_cosmetic_loot_list_145": {
                 "hide_lootlist": "1",
-                "loot_list_collection": "halloween2024_collection"
+                "loot_list_collection": "halloween2024_collection",
+                "lootlist_jobs": {
+                    "attribute_templates": {
+                        "unusual_hat_chance_halloween2024_case": "1",
+                        "check_unusual_quality": "1"
+                    }
+                }
             },
             "halloween2024_war_paint_loot_list_146": {
                 "hide_lootlist": "1",
@@ -204264,12 +204367,22 @@
                 "lootlist_jobs": {
                     "additional_drop": {
                         "loot_list": "festivizer_lootlist"
+                    },
+                    "attribute_templates": {
+                        "unusual_hat_chance_smissmas2024_case": "1",
+                        "check_unusual_quality": "1"
                     }
                 }
             },
             "summer2025_cosmetic_loot_list_148": {
                 "hide_lootlist": "1",
-                "loot_list_collection": "Summer2025Cosmetics_collection"
+                "loot_list_collection": "Summer2025Cosmetics_collection",
+                "lootlist_jobs": {
+                    "attribute_templates": {
+                        "unusual_hat_chance_summer2025_case": "1",
+                        "check_unusual_quality": "1"
+                    }
+                }
             },
             "halloween2025_bonus_items": {
                 "Pyromantic Plumage": "1",
@@ -204283,6 +204396,10 @@
                 "lootlist_jobs": {
                     "additional_drop": {
                         "loot_list": "halloween2025_bonus_items"
+                    },
+                    "attribute_templates": {
+                        "unusual_hat_chance_halloween2025_case": "1",
+                        "check_unusual_quality": "1"
                     }
                 }
             },
@@ -204292,6 +204409,10 @@
                 "lootlist_jobs": {
                     "additional_drop": {
                         "loot_list": "festivizer_lootlist"
+                    },
+                    "attribute_templates": {
+                        "unusual_hat_chance_smissmas2025_case": "1",
+                        "check_unusual_quality": "1"
                     }
                 }
             }
@@ -214508,6 +214629,10 @@
                     "22": {
                         "name": "cp_conifer",
                         "enabled": "1"
+                    },
+                    "23": {
+                        "name": "cppl_gavle",
+                        "enabled": "1"
                     }
                 }
             },
@@ -214563,6 +214688,10 @@
                     },
                     "12": {
                         "name": "ctf_pressure",
+                        "enabled": "1"
+                    },
+                    "13": {
+                        "name": "ctf_sidewinder",
                         "enabled": "1"
                     }
                 }
@@ -214747,6 +214876,14 @@
                     },
                     "23": {
                         "name": "koth_demolition",
+                        "enabled": "1"
+                    },
+                    "24": {
+                        "name": "2koth_abbey",
+                        "enabled": "1"
+                    },
+                    "25": {
+                        "name": "koth_winter_ridge",
                         "enabled": "1"
                     }
                 }
@@ -215000,36 +215137,13 @@
                 }
             },
             "featured": {
-                "mm_type": "special_events",
-                "localized_name": "#Gametype_SmissmasFeatured",
-                "localized_desc": "#Gametype_SmissmasFeatured_Desc",
-                "list_image": "casual/gametype_smissmas",
-                "restrictions": {
-                    "holiday": "christmas"
-                },
+                "mm_type": "",
+                "localized_name": "",
+                "localized_desc": "",
+                "list_image": "",
                 "maplist": {
                     "1": {
-                        "name": "pd_nutcracker",
-                        "enabled": "1"
-                    },
-                    "2": {
-                        "name": "cppl_gavle",
-                        "enabled": "1"
-                    },
-                    "3": {
-                        "name": "ctf_sidewinder",
-                        "enabled": "1"
-                    },
-                    "4": {
-                        "name": "2koth_abbey",
-                        "enabled": "1"
-                    },
-                    "5": {
-                        "name": "koth_winter_ridge",
-                        "enabled": "1"
-                    },
-                    "6": {
-                        "name": "plr_matterhorn",
+                        "name": "cp_mercenarypark",
                         "enabled": "1"
                     }
                 }
@@ -215352,6 +215466,14 @@
                     },
                     "15": {
                         "name": "vsh_maul",
+                        "enabled": "1"
+                    },
+                    "16": {
+                        "name": "pd_nutcracker",
+                        "enabled": "1"
+                    },
+                    "17": {
+                        "name": "plr_matterhorn",
                         "enabled": "1"
                     }
                 }
@@ -218560,15 +218682,14 @@
                 "maptoken": "Map Token Nutcracker",
                 "authors": "#pd_nutcracker_authors",
                 "rolling_match_tags": {
-                    "christmas": "1",
-                    "featured": "1"
+                    "christmas": "1"
                 },
                 "rolling_match_target_tags": {
                     "christmas": {
                         "weight": "1"
                     },
                     "featured": {
-                        "weight": "1000"
+                        "weight": "0.5"
                     }
                 }
             },
@@ -218579,16 +218700,10 @@
                 "maptoken": "Map Token Gavle",
                 "authors": "#cppl_gavle_authors",
                 "rolling_match_tags": {
-                    "christmas": "1",
-                    "featured": "1"
+                    "attack_defend": "1"
                 },
                 "rolling_match_target_tags": {
-                    "christmas": {
-                        "weight": "1"
-                    },
-                    "featured": {
-                        "weight": "1000"
-                    }
+                    "attack_defend": "1"
                 }
             },
             "221": {
@@ -218598,16 +218713,10 @@
                 "maptoken": "Map Token Sidewinder",
                 "authors": "#ctf_sidewinder_authors",
                 "rolling_match_tags": {
-                    "christmas": "1",
-                    "featured": "1"
+                    "ctf": "1"
                 },
                 "rolling_match_target_tags": {
-                    "christmas": {
-                        "weight": "1"
-                    },
-                    "featured": {
-                        "weight": "1000"
-                    }
+                    "ctf": "1"
                 }
             },
             "222": {
@@ -218617,16 +218726,10 @@
                 "maptoken": "Map Token Abbey",
                 "authors": "#2koth_abbey_authors",
                 "rolling_match_tags": {
-                    "christmas": "1",
-                    "featured": "1"
+                    "koth": "1"
                 },
                 "rolling_match_target_tags": {
-                    "christmas": {
-                        "weight": "1"
-                    },
-                    "featured": {
-                        "weight": "1000"
-                    }
+                    "koth": "1"
                 }
             },
             "223": {
@@ -218636,16 +218739,10 @@
                 "maptoken": "Map Token Winter Ridge",
                 "authors": "#koth_winter_ridge_authors",
                 "rolling_match_tags": {
-                    "christmas": "1",
-                    "featured": "1"
+                    "koth": "1"
                 },
                 "rolling_match_target_tags": {
-                    "christmas": {
-                        "weight": "1"
-                    },
-                    "featured": {
-                        "weight": "1000"
-                    }
+                    "koth": "1"
                 }
             },
             "224": {
@@ -218655,15 +218752,14 @@
                 "maptoken": "Map Token Matterhorn",
                 "authors": "#plr_matterhorn_authors",
                 "rolling_match_tags": {
-                    "christmas": "1",
-                    "featured": "1"
+                    "christmas": "1"
                 },
                 "rolling_match_target_tags": {
                     "christmas": {
                         "weight": "1"
                     },
                     "featured": {
-                        "weight": "1000"
+                        "weight": "0.5"
                     }
                 }
             }

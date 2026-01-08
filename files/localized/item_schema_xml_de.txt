@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.b540a8922bdfae3affb236a6598d3f5bc18c8f9d.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.736e6731430407515bf3f3cd176f5ab6f0d68aea.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -8625,7 +8625,7 @@ Diese Waffe verursacht KEINEN Schaden.</item_description>
 			<defindex>239</defindex>
 			<item_class>tf_weapon_fists</item_class>
 			<item_type_name>Boxhandschuhe</item_type_name>
-			<item_name>Die Handschuhe der schnellen Flucht</item_name>
+			<item_name>Die Handschuhe der flinken Ausflucht</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_boxing_gloves/c_boxing_gloves.mdl</model_player>
@@ -11379,7 +11379,7 @@ Diese Waffe lädt automatisch nach, wenn nicht aktiv</item_description>
 			<defindex>307</defindex>
 			<item_class>tf_weapon_stickbomb</item_class>
 			<item_type_name>Stielhandgranate</item_type_name>
-			<item_name>Ullapool Caber</item_name>
+			<item_name>Der Ullapool’sche Stiel</item_name>
 			<item_description>Hocheffiziente schottische Gesichtsentfernung.
 Eine nüchterne Person würde sie werfen …
 

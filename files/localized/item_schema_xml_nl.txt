@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.b540a8922bdfae3affb236a6598d3f5bc18c8f9d.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.736e6731430407515bf3f3cd176f5ab6f0d68aea.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -1028,7 +1028,7 @@ Alt-vuur: Laat een luchtstoot los die vijanden en projectielen wegduwt en brande
 			<item_class>tf_weapon_invis</item_class>
 			<item_type_name>Onzichtbaarheidshorloge</item_type_name>
 			<item_name>Onzichtbaarheidshorloge</item_name>
-			<item_description>Alt-vuur: Word onzichtbaar. Je kunt niet aanvallen terwijl je onzichtbaar bent. Als je tegen vijanden aanloopt zul je voor alle vijanden een klein beetje zichtbaar zijn.</item_description>
+			<item_description>Alt-Fire: Turn invisible.  Cannot attack while invisible.  Bumping in to enemies will make you slightly visible to enemies</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>pda2</item_slot>
 			<model_player>models/weapons/v_models/v_watch_spy.mdl</model_player>
@@ -1178,7 +1178,7 @@ Alt-vuur: Laat een luchtstoot los die vijanden en projectielen wegduwt en brande
 			<defindex>37</defindex>
 			<item_class>tf_weapon_bonesaw</item_class>
 			<item_type_name>Bottenzaag</item_type_name>
-			<item_name>Übersaw</item_name>
+			<item_name>Überzaag</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_ubersaw/c_ubersaw.mdl</model_player>
@@ -3653,9 +3653,9 @@ Hij is zijn hoofd kwijt.</item_description>
 			<defindex>122</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>CheatDetector</item_type_name>
-			<item_name>Er is gesignaleerd dat met jouw account het distributiesysteem voor items is omzeild. We hebben de items die illegaal zijn verkregen, verwijderd.
+			<item_name>Your account has been flagged for circumventing the item distribution system. We have removed the items that were illegally obtained.
 
-Bij verdere overtredingen verlies je al je items.</item_name>
+Future violations will result in the loss of all your items.</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player></model_player>
@@ -3699,9 +3699,9 @@ Bij verdere overtredingen verlies je al je items.</item_name>
 			<defindex>123</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>CheatDetector</item_type_name>
-			<item_name>Er is gesignaleerd dat met jouw account het distributiesysteem voor items is omzeild. We hebben alle items uit je voorraad verwijderd.
+			<item_name>Your account has been flagged for circumventing the item distribution system. We have removed all items in your inventory.
 
-Bij verdere overtredingen wordt je account mogelijk geblokkeerd.</item_name>
+Future violations may result in your account being disabled.</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player></model_player>
@@ -7511,7 +7511,7 @@ Alt-vuur: Laat een luchtstoot los die vijanden en projectielen wegduwt en brande
 			<item_class>tf_weapon_invis</item_class>
 			<item_type_name>Onzichtbaarheidshorloge</item_type_name>
 			<item_name>Onzichtbaarheidshorloge</item_name>
-			<item_description>Alt-vuur: Word onzichtbaar. Je kunt niet aanvallen terwijl je onzichtbaar bent. Als je tegen vijanden aanloopt zul je voor alle vijanden een klein beetje zichtbaar zijn.</item_description>
+			<item_description>Alt-Fire: Turn invisible.  Cannot attack while invisible.  Bumping in to enemies will make you slightly visible to enemies</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>pda2</item_slot>
 			<model_player>models/weapons/v_models/v_watch_spy.mdl</model_player>
@@ -8125,7 +8125,7 @@ Kan gebruikt worden om vuur te doven.</item_description>
 			<defindex>226</defindex>
 			<item_class>tf_weapon_buff_item</item_class>
 			<item_type_name>Strijdsbanier</item_type_name>
-			<item_name>Back-up van het Bataljon</item_name>
+			<item_name>Battalion&apos;s Backup</item_name>
 			<item_description>Biedt een verdedigende boost die teamgenoten
 in de buurt tegen voltreffers beschermt
 , inkomende sentry-schade met 50% en
@@ -9554,7 +9554,7 @@ https://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Badge</item_type_name>
 			<item_name>Polycount-speld</item_name>
-			<item_description>Toegekend aan deelnemers van de Polycount wedstrijd.</item_description>
+			<item_description>Uitgereikt aan deelnemers van de Polycount-wedstrijd.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/polypack_badge.mdl</model_player>
@@ -11001,7 +11001,7 @@ diegenen die zich in de Ooglander bevinden.</item_description>
 			<item_class>tf_weapon_invis</item_class>
 			<item_type_name>Onzichtbaarheidshorloge</item_type_name>
 			<item_name>Het Enthousiastelingenuurwerk</item_name>
-			<item_description>Alt-vuur: Word onzichtbaar. Je kunt niet aanvallen terwijl je onzichtbaar bent. Als je tegen vijanden aanloopt zul je voor alle vijanden een klein beetje zichtbaar zijn.</item_description>
+			<item_description>Alt-Fire: Turn invisible.  Cannot attack while invisible.  Bumping in to enemies will make you slightly visible to enemies</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>pda2</item_slot>
 			<model_player>models/weapons/v_models/v_ttg_watch_spy.mdl</model_player>
@@ -21495,7 +21495,7 @@ Gamescom 2011</item_description>
 			<defindex>547</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
-			<item_name>B-Ankh!</item_name>
+			<item_name>B-ankh!</item_name>
 			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -23413,7 +23413,7 @@ Gamescom 2011</item_description>
 			<defindex>585</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Masker</item_type_name>
-			<item_name>Koude Oorlog-Luchador</item_name>
+			<item_name>Cold War Luchador</item_name>
 			<item_description>Het meest angstaanjagende Sovjet/Latino-partnerschap sinds de Cubacrisis.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -23462,7 +23462,7 @@ Gamescom 2011</item_description>
 			<defindex>586</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Badge</item_type_name>
-			<item_name>Symbool van de Saint</item_name>
+			<item_name>Mark of the Saint</item_name>
 			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -23506,7 +23506,7 @@ Gamescom 2011</item_description>
 			<defindex>587</defindex>
 			<item_class>tf_weapon_fists</item_class>
 			<item_type_name>Vuisten</item_type_name>
-			<item_name>Apoco-Vuisten</item_name>
+			<item_name>Apoco-Fists</item_name>
 			<item_description>Maak elk van je vingers één van de vier ruiters van de Apocalyps! Dat zijn meer dan negentien ruiters van de Apocalyps per handschoen! Dat is het meeste Apocalyps dat we ooit aan een hand vast hebben durven maken!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
@@ -26614,7 +26614,7 @@ Zelfgekozen decals kunnen op dit voorwerp gebruikt worden.</item_description>
 			<defindex>649</defindex>
 			<item_class>tf_weapon_knife</item_class>
 			<item_type_name>Mes</item_type_name>
-			<item_name>Spy-Cicle</item_name>
+			<item_name>De Spy-spegel</item_name>
 			<item_description>Het is het perfecte cadeau voor de man die alles heeft: een ijspegel in de rug. Zelfs rijke mensen kunnen dat niet in winkels kopen.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
@@ -30759,7 +30759,7 @@ Hier gaan koppen rollen.</item_description>
 			<defindex>755</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Broek</item_type_name>
-			<item_name>Texaanse Half-Broek</item_name>
+			<item_name>Texas Half-Pants</item_name>
 			<item_description>Het is een broek... maar dan in Texas-stijl! Deze kruisloze leren leggings zijn perfect voor als je al een broek hebt. Denk eraan: alleen te gebruiken als aanvullende broek. Gebruik het alsjeblieft niet als primaire broek.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -30858,8 +30858,8 @@ Hier gaan koppen rollen.</item_description>
 			<defindex>757</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kleding</item_type_name>
-			<item_name>Trainingshanddoek</item_name>
-			<item_description>Zorg ervoor dat je nooit de handdoek in de ring gooit, zelfs per ongeluk, door &apos;m lekker dichtbij je te houden, zodat ie niet als een angsthaas weg kan rennen om zich over te geven wanneer je niet oplet.</item_description>
+			<item_name>Toss-Proof Towel</item_name>
+			<item_description>Make sure you never throw in the towel, even accidentally, by keeping it nice and close, where it can&apos;t run off and surrender like a coward when you&apos;re not looking.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/heavy_boxingtowel.mdl</model_player>
@@ -32388,7 +32388,7 @@ Hier gaan koppen rollen.</item_description>
 			<defindex>786</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Helm</item_type_name>
-			<item_name>De Grenadier-helm</item_name>
+			<item_name>Grenadier Helm</item_name>
 			<item_description>Argghhh! Je bent boos! En je bent klein! En je moet deze feiten uitdrukken door middel van een enkel accessoire! Draag de Grenadier-helm en stuur je vijanden richting het niveau van de Dwergenhel die jij geschikt voor ze vindt.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -35935,7 +35935,7 @@ Alt-vuur: Laat een luchtstoot los die vijanden en projectielen wegduwt en brande
 			<defindex>865</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Badge</item_type_name>
-			<item_name>Triple A-badge</item_name>
+			<item_name>Triple A Badge</item_name>
 			<item_description>De letter &quot;a&quot; is een geweldige letter. We houden er zo veel van, dat we &apos;m op een badge hebben geplaatst. En we dachten dat deze gozer met een gasmasker er gaaf uitzag, dus we hebben hem er ook op geplaatst. We gaan op ons gevoel af; het heeft tot nu toe goede resultaten. Ons gevoel zegt ons dat het volgende voorwerp dat we maken... een of andere hoed zal zijn. We hebben hier een heel goed gevoel over.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -42418,7 +42418,7 @@ Alt-vuur: Deel een Sandvich met een vriend (Middelgrote medikit)</item_descripti
 			<defindex>1003</defindex>
 			<item_class>tf_weapon_bonesaw</item_class>
 			<item_type_name>Bottenzaag</item_type_name>
-			<item_name>Festive Übersaw</item_name>
+			<item_name>Feestelijke Überzaag</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_ubersaw/c_ubersaw_xmas.mdl</model_player>
@@ -45132,7 +45132,7 @@ Rust het uit om spreuken op te pakken en af te vuren.</item_description>
 			<defindex>1073</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kap</item_type_name>
-			<item_name>Smissmas&apos;s Gevechtskap</item_name>
+			<item_name>War on Smissmas Battle Hood</item_name>
 			<item_description>Verkregen door het ontwerpen van de Steam-feestdagenuitverkoop 2013-badge.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -46623,7 +46623,7 @@ Als je een vijand op lange afstand raakt deel je een mini-meleevoltreffer uit.</
 			<defindex>1101</defindex>
 			<item_class>tf_weapon_parachute</item_class>
 			<item_type_name>Parachute</item_type_name>
-			<item_name>De basejumper</item_name>
+			<item_name>B.A.S.E. Jumper</item_name>
 			<item_description>Druk op de &apos;SPRING&apos;-toets in de lucht om het in te zetten.
 Ingezette parachutes vertragen je afdaling.</item_description>
 			<proper_name>true</proper_name>

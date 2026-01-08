@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.b540a8922bdfae3affb236a6598d3f5bc18c8f9d.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.736e6731430407515bf3f3cd176f5ab6f0d68aea.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -623,9 +623,9 @@ en krijg tijdelijke onzichtbaarheid, snelheid en schadeweerstand.</description_s
 			<name>set cloak is movement based</name>
 			<defindex>48</defindex>
 			<attribute_class>set_weapon_mode</attribute_class>
-			<description_string>Verhullingstype: Bewegingsgevoelig.
-Alt-vuur: Word onzichtbaar. Je kunt niet aanvallen terwijl je onzichtbaar bent. Als je tegen vijanden aanloopt zul je voor alle vijanden een klein beetje zichtbaar zijn.
-Verhulling vermindert op basis van bewegingssnelheid.</description_string>
+			<description_string>Cloak Type: Motion Sensitive.
+Alt-Fire: Turn invisible.  Cannot attack while invisible.  Bumping in to enemies will make you slightly visible to enemies.
+Cloak drain rate based on movement speed.</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>neutral</effect_type>
 			<hidden>false</hidden>
@@ -7141,7 +7141,7 @@ wordt langzamer tevoorschijn gehaald en weggestopt</description_string>
 			<name>health drain medic</name>
 			<defindex>881</defindex>
 			<attribute_class>add_health_regen</attribute_class>
-			<description_string>%s1 health regenerated per second on wearer</description_string>
+			<description_string>De gezondheid van de drager herstelt met %s1 per seconde</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>negative</effect_type>
 			<hidden>false</hidden>
@@ -9786,14 +9786,14 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>153</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Smoldering Spirits</name>
+			<name>Smeulende Zielen</name>
 		</particle>
 		<particle>
 			<system>unusual_playflies_purple_parent</system>
 			<id>154</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Wandering Wisps</name>
+			<name>Dolende Dwaallichten</name>
 		</particle>
 		<particle>
 			<system>unusual_kaleido_scope_parent</system>
@@ -9814,7 +9814,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>157</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Laugh-O-Lantern</name>
+			<name>Kakelende Kalebas</name>
 		</particle>
 		<particle>
 			<system>unusual_face_parent_P</system>
@@ -9828,14 +9828,14 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>159</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Pyroland Nightmare</name>
+			<name>Pyroland-nachtmerrie</name>
 		</particle>
 		<particle>
 			<system>unusual_gargoyle</system>
 			<id>160</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Gravelly Ghoul</name>
+			<name>Grindachtige Griezel</name>
 		</particle>
 		<particle>
 			<system>unusual_gargoyle2</system>
@@ -9877,28 +9877,28 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>166</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Special Snowfall</name>
+			<name>Speciale Sneeuwval</name>
 		</particle>
 		<particle>
 			<system>unusual_swirlybeams_goldpurple_parent</system>
 			<id>167</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Divine Desire</name>
+			<name>Goddelijk Verlangen</name>
 		</particle>
 		<particle>
 			<system>unusual_swirlybeams_pinkblue_parent</system>
 			<id>168</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Distant Dream</name>
+			<name>Verre Droom</name>
 		</particle>
 		<particle>
 			<system>unusual_icetornado_blue_parent</system>
 			<id>169</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Violent Wintertide</name>
+			<name>Winterwervel</name>
 		</particle>
 		<particle>
 			<system>unusual_icetornado_purple_parent</system>
@@ -9940,7 +9940,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>175</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Mirthful Mistletoe</name>
+			<name>Montere Maretak</name>
 		</particle>
 		<particle>
 			<system>unusual_mistletoe_teamcolor_blue</system>
@@ -10010,28 +10010,28 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>185</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Perennial Petals</name>
+			<name>Blijvende Bloembladeren</name>
 		</particle>
 		<particle>
 			<system>unusual_bloomhead_orangepurple_parent</system>
 			<id>186</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Flavorsome Sunset</name>
+			<name>Zalige Zonsondergang</name>
 		</particle>
 		<particle>
 			<system>unusual_bloomhead_pinkgreen_parent</system>
 			<id>187</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Raspberry Bloom</name>
+			<name>Frambozengloed</name>
 		</particle>
 		<particle>
 			<system>unusual_magicalorb_parent</system>
 			<id>188</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Iridescence</name>
+			<name>Regenboogkleurig</name>
 		</particle>
 		<particle>
 			<system>unusual_demonhorns_green_parent</system>
@@ -10045,7 +10045,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>190</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Devilish Diablo</name>
+			<name>Duivelse Diablo</name>
 		</particle>
 		<particle>
 			<system>unusual_demonhorns_purple_parent</system>
@@ -10059,28 +10059,28 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>192</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Shrieking Shades</name>
+			<name>Schril Schreeuwende Schaduwen</name>
 		</particle>
 		<particle>
 			<system>unusual_souls_teamcolor_red</system>
 			<id>193</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Restless Wraiths</name>
+			<name>Huilende Hoofden</name>
 		</particle>
 		<particle>
 			<system>unusual_souls_teamcolor_blue</system>
 			<id>194</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Restless Wraiths</name>
+			<name>Huilende Hoofden</name>
 		</particle>
 		<particle>
 			<system>unusual_phantomcrown_green_parent</system>
 			<id>195</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Infernal Wraith</name>
+			<name>Helse Verschijning</name>
 		</particle>
 		<particle>
 			<system>unusual_phantomcrown_purple_parent</system>
@@ -10094,7 +10094,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>197</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Ancient Specter</name>
+			<name>Eeuwenoude Schim</name>
 		</particle>
 		<particle>
 			<system>unusual_lurking_eyes_parent_g</system>
@@ -10108,7 +10108,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>199</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Eyes of Molten</name>
+			<name>Smeltende Ogen</name>
 		</particle>
 		<particle>
 			<system>unusual_lurking_eyes_parent_p</system>
@@ -10129,21 +10129,21 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>202</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Frantic Spooker</name>
+			<name>Dol Spook</name>
 		</particle>
 		<particle>
 			<system>unusual_wacky_spooky_ghost_parent_o</system>
 			<id>203</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Frightened Poltergeist</name>
+			<name>Geschrokken Klopgeest</name>
 		</particle>
 		<particle>
 			<system>unusual_wacky_spooky_ghost_parent_p</system>
 			<id>204</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Energetic Haunter</name>
+			<name>Energieke Rondspoker</name>
 		</particle>
 		<particle>
 			<system>unusual_smissmas_tree_parent</system>
@@ -10157,21 +10157,21 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>206</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Hospitable Festivity</name>
+			<name>Gastvrije Feestelijkheid</name>
 		</particle>
 		<particle>
 			<system>unusual_tree3_teamcolor_red</system>
 			<id>207</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Condescending Embrace</name>
+			<name>Neerbuigende Omhelzing</name>
 		</particle>
 		<particle>
 			<system>unusual_tree3_teamcolor_blue</system>
 			<id>208</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Condescending Embrace</name>
+			<name>Neerbuigende Omhelzing</name>
 		</particle>
 		<particle>
 			<system>unusual_sparkletree_gold_parent</system>
@@ -10192,28 +10192,28 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>211</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Prismatic Pine</name>
+			<name>Disco-den</name>
 		</particle>
 		<particle>
 			<system>unusual_fairylights_green_parent</system>
 			<id>212</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Spiraling Lights</name>
+			<name>Kronkelende Lichtjes</name>
 		</particle>
 		<particle>
 			<system>unusual_fairylights_purple_parent</system>
 			<id>213</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Twisting Lights</name>
+			<name>Wentelende Lichtjes</name>
 		</particle>
 		<particle>
 			<system>unusual_spire_star_parent</system>
 			<id>214</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Stardust Pathway</name>
+			<name>Pad van Sterrenstof</name>
 		</particle>
 		<particle>
 			<system>unusual_spire_snowball_parent</system>
@@ -10241,7 +10241,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>218</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Polar Forecast</name>
+			<name>IJzige Weersvoorspelling</name>
 		</particle>
 		<particle>
 			<system>unusual_antlers_gold_parent</system>
@@ -10255,21 +10255,21 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>220</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Holiday Horns</name>
+			<name>Feestdagengewei</name>
 		</particle>
 		<particle>
 			<system>unusual_antlers_teamcolor_red</system>
 			<id>221</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Ardent Antlers</name>
+			<name>Vurig Gewei</name>
 		</particle>
 		<particle>
 			<system>unusual_antlers_teamcolor_blue</system>
 			<id>222</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Ardent Antlers</name>
+			<name>Vurig Gewei</name>
 		</particle>
 		<particle>
 			<system>unusual_festive_lights_lights1_parent</system>
@@ -10290,21 +10290,21 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>225</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Crustacean Sensation</name>
+			<name>Schaaldiersensatie</name>
 		</particle>
 		<particle>
 			<system>unusual_sprinkles_teamcolor_red</system>
 			<id>226</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Frosted Decadence</name>
+			<name>Geglaceerde Decadentie</name>
 		</particle>
 		<particle>
 			<system>unusual_sprinkles_teamcolor_blue</system>
 			<id>227</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Frosted Decadence</name>
+			<name>Geglaceerde Decadentie</name>
 		</particle>
 		<particle>
 			<system>unusual_sprinkles_rainbow_parent</system>
@@ -10332,56 +10332,56 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>231</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Flourishing Passion</name>
+			<name>Bloeiende Passie</name>
 		</particle>
 		<particle>
 			<system>unusual_firework_blue_red_parent</system>
 			<id>232</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Dazzling Fireworks</name>
+			<name>Verblindend Vuurwerk</name>
 		</particle>
 		<particle>
 			<system>unusual_firework_green_yellow_parent</system>
 			<id>233</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Blazing Fireworks</name>
+			<name>Vlammend Vuurwerk</name>
 		</particle>
 		<particle>
 			<system>unusual_firework_orange_yellow_parent</system>
 			<id>234</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Shimmering Fireworks</name>
+			<name>Flikkerend Vuurwerk</name>
 		</particle>
 		<particle>
 			<system>unusual_firework_pgb_parent</system>
 			<id>235</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Twinkling Fireworks</name>
+			<name>Fonkelend Vuurwerk</name>
 		</particle>
 		<particle>
 			<system>unusual_firework_purple_yellow_parent</system>
 			<id>236</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Sparkling Fireworks</name>
+			<name>Sprankelend Vuurwerk</name>
 		</particle>
 		<particle>
 			<system>unusual_firework_rainbow_parent</system>
 			<id>237</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Glowing Fireworks</name>
+			<name>Gloeiend Vuurwerk</name>
 		</particle>
 		<particle>
 			<system>unusual_firework_wgb_parent</system>
 			<id>238</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Glimmering Fireworks</name>
+			<name>Glinsterend Vuurwerk</name>
 		</particle>
 		<particle>
 			<system>unusual_lanterns_teamcolor_red</system>
@@ -10416,7 +10416,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>243</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Cold Cosmos</name>
+			<name>Koude Kosmos</name>
 		</particle>
 		<particle>
 			<system>unusual_helix_parent</system>
@@ -10430,28 +10430,28 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>245</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Startrance</name>
+			<name>Sterrentrance</name>
 		</particle>
 		<particle>
 			<system>unusual_stardust_teamcolor_blue</system>
 			<id>246</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Startrance</name>
+			<name>Sterrentrance</name>
 		</particle>
 		<particle>
 			<system>unusual_stardust_green_parent</system>
 			<id>247</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Starlush</name>
+			<name>Sterrenweelde</name>
 		</particle>
 		<particle>
 			<system>unusual_stardust_orange_parent</system>
 			<id>248</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Starfire</name>
+			<name>Sterrenvuur</name>
 		</particle>
 		<particle>
 			<system>unusual_stardust_white_parent</system>
@@ -10465,14 +10465,14 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>250</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Contagious Eruption</name>
+			<name>Besmettelijke Uitbarsting</name>
 		</particle>
 		<particle>
 			<system>unusual_erupt_daydream_parent</system>
 			<id>251</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Daydream Eruption</name>
+			<name>Dagdromende Uitbarsting</name>
 		</particle>
 		<particle>
 			<system>unusual_erupt_volcan_parent</system>
@@ -10486,28 +10486,28 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>253</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Divine Sunlight</name>
+			<name>Goddelijk Zonlicht</name>
 		</particle>
 		<particle>
 			<system>unusual_audio_soundwave_green_parent</system>
 			<id>254</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Audiophile</name>
+			<name>Audiofiel</name>
 		</particle>
 		<particle>
 			<system>unusual_audio_soundwave_orange_parent</system>
 			<id>255</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Soundwave</name>
+			<name>Geluidsgolf</name>
 		</particle>
 		<particle>
 			<system>unusual_audio_soundwave_purple_parent</system>
 			<id>256</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Synesthesia</name>
+			<name>Synesthesie</name>
 		</particle>
 		<particle>
 			<system>unusual_kraken_green_parent</system>
@@ -10521,7 +10521,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>258</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Eerie Kraken</name>
+			<name>Griezelige Kraken</name>
 		</particle>
 		<particle>
 			<system>unusual_ghostaxe_parent_green</system>
@@ -10570,7 +10570,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>265</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Moth Plague</name>
+			<name>Mottenplaag</name>
 		</particle>
 		<particle>
 			<system>unusual_eyeboss_parent</system>
@@ -10584,28 +10584,28 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>267</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Haunted Wick</name>
+			<name>Behekste Kousjes</name>
 		</particle>
 		<particle>
 			<system>unusual_ghostly_flame_teamcolor_blue</system>
 			<id>268</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Haunted Wick</name>
+			<name>Behekste Kousjes</name>
 		</particle>
 		<particle>
 			<system>unusual_ghostly_flame_parent_orange</system>
 			<id>269</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Wicked Wick</name>
+			<name>Slechte Kousjes</name>
 		</particle>
 		<particle>
 			<system>unusual_ghostly_flame_parent_purple</system>
 			<id>270</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Spectral Wick</name>
+			<name>Spookachtige Kousjes</name>
 		</particle>
 		<particle>
 			<system>unusual_sheetmusic_gold_parent</system>
@@ -10661,7 +10661,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>278</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Starlight Haze</name>
+			<name>Sterrenlichtnevel</name>
 		</particle>
 		<particle>
 			<system>unusual_hardcarry_teamcolor_red</system>
@@ -10682,28 +10682,28 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>281</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Jellyfish Field</name>
+			<name>Kwallenveld</name>
 		</particle>
 		<particle>
 			<system>unusual_jellyfish_teamcolor_blue</system>
 			<id>282</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Jellyfish Field</name>
+			<name>Kwallenveld</name>
 		</particle>
 		<particle>
 			<system>unusual_jellyfish_green_parent</system>
 			<id>283</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Jellyfish Hunter</name>
+			<name>Kwallenjager</name>
 		</particle>
 		<particle>
 			<system>unusual_jellyfish_purple_parent</system>
 			<id>284</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Jellyfish Jam</name>
+			<name>Kwallenjam</name>
 		</particle>
 		<particle>
 			<system>unusual_shootingstar_green_parent</system>
@@ -10731,7 +10731,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>288</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Sakura Smoke Bomb</name>
+			<name>Sakura-rookbom</name>
 		</particle>
 		<particle>
 			<system>unusual_australian_riches</system>
@@ -10794,7 +10794,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>297</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Hellspawned Horns</name>
+			<name>Helse Hoorns</name>
 		</particle>
 		<particle>
 			<system>unusual_devilish_teamcolor_blue</system>
@@ -10808,28 +10808,28 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>299</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Demonic Impaler</name>
+			<name>Demonische Spietser</name>
 		</particle>
 		<particle>
 			<system>unusual_devilish_purple_parent</system>
 			<id>300</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Revenant&apos;s Rack</name>
+			<name>Gehoornde Geest</name>
 		</particle>
 		<particle>
 			<system>unusual_sixthsense_teamcolor_red</system>
 			<id>301</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Sixth Sense</name>
+			<name>Zesde Zintuig</name>
 		</particle>
 		<particle>
 			<system>unusual_sixthsense_teamcolor_blue</system>
 			<id>302</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Sixth Sense</name>
+			<name>Zesde Zintuig</name>
 		</particle>
 		<particle>
 			<system>unusual_sixthsense_pink_parent</system>
@@ -10850,14 +10850,14 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>305</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Arachne&apos;s Web</name>
+			<name>Arachnes Web</name>
 		</particle>
 		<particle>
 			<system>unusual_deepsmoke_parent_g</system>
 			<id>306</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Acidic Climate</name>
+			<name>Zuur Klimaat</name>
 		</particle>
 		<particle>
 			<system>unusual_deepsmoke_parent_p</system>
@@ -10899,14 +10899,14 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>312</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Radiant Rivalry</name>
+			<name>Roemrijke Rivaliteit</name>
 		</particle>
 		<particle>
 			<system>unusual_aestheticsigns_teamcolor_blue</system>
 			<id>313</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Radiant Rivalry</name>
+			<name>Roemrijke Rivaliteit</name>
 		</particle>
 		<particle>
 			<system>unusual_aestheticsigns_mannco_parent</system>
@@ -10920,14 +10920,14 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>315</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Frosty Flavours</name>
+			<name>Steenkoude Smaken</name>
 		</particle>
 		<particle>
 			<system>unusual_frosty_flavours_teamcolor_blue</system>
 			<id>316</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Frosty Flavours</name>
+			<name>Steenkoude Smaken</name>
 		</particle>
 		<particle>
 			<system>unusual_frosty_mint_glow_parent</system>
@@ -10983,14 +10983,14 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>324</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Fairy Lights</name>
+			<name>Feeënlichtjes</name>
 		</particle>
 		<particle>
 			<system>unusual_firefly_green_parent</system>
 			<id>325</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Natural Lights</name>
+			<name>Natuurlijke Lichtjes</name>
 		</particle>
 		<particle>
 			<system>unusual_corrodedknight_teamcolor_red</system>
@@ -11326,56 +11326,56 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>374</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Blades of Betrayal</name>
+			<name>Dolken van Verraad</name>
 		</particle>
 		<particle>
 			<system>unusual_excalibur_teamcolor_blue</system>
 			<id>375</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Blades of Betrayal</name>
+			<name>Dolken van Verraad</name>
 		</particle>
 		<particle>
 			<system>unusual_excalibur_parent_purple</system>
 			<id>376</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Death&apos;s Daggers</name>
+			<name>Messen van Magere Hein</name>
 		</particle>
 		<particle>
 			<system>unusual_uber_teamcolor_red</system>
 			<id>377</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Fully Charged</name>
+			<name>Volledig Opgeladen</name>
 		</particle>
 		<particle>
 			<system>unusual_uber_teamcolor_blue</system>
 			<id>378</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Fully Charged</name>
+			<name>Volledig Opgeladen</name>
 		</particle>
 		<particle>
 			<system>unusual_uber_gold_parent</system>
 			<id>379</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Overcharged</name>
+			<name>Overbelast</name>
 		</particle>
 		<particle>
 			<system>unusual_orbitingbullet_parent</system>
 			<id>380</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Piercing Headache</name>
+			<name>Knallende Koppijn</name>
 		</particle>
 		<particle>
 			<system>unusual_typhoon_parent</system>
 			<id>381</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Decimating Wind</name>
+			<name>Verwoestende Wind</name>
 		</particle>
 		<particle>
 			<system>unusual_ocean_swirl_teamcolor_red</system>
@@ -11817,7 +11817,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_snowring_space_parent</system>
 			<id>3033</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Arctic Aurora</name>
+			<name>Poollicht</name>
 		</particle>
 		<particle>
 			<system>utaunt_spirit_winter_parent</system>
@@ -11847,13 +11847,13 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_astralbodies_tealpurple_parent</system>
 			<id>3038</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Astral Presence</name>
+			<name>Onstoffelijke Aanwezigheid</name>
 		</particle>
 		<particle>
 			<system>utaunt_astralbodies_teamcolor_red</system>
 			<id>3039</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Arcane Assistance</name>
+			<name>Geheimzinnige Assistentie</name>
 		</particle>
 		<particle>
 			<system>utaunt_astralbodies_teamcolor_blue</system>
@@ -11865,7 +11865,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_glowyplayer_green_parent</system>
 			<id>3041</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Emerald Allurement</name>
+			<name>Smaragdgroene Sensatie</name>
 		</particle>
 		<particle>
 			<system>utaunt_glowyplayer_orange_parent</system>
@@ -11877,7 +11877,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_glowyplayer_purple_parent</system>
 			<id>3043</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Spellbound Aspect</name>
+			<name>Betoverende Aanblik</name>
 		</particle>
 		<particle>
 			<system>utaunt_electricity_parent</system>
@@ -11889,13 +11889,13 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_electricity_purple_parent</system>
 			<id>3045</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Veno Shock</name>
+			<name>Giftige Schok</name>
 		</particle>
 		<particle>
 			<system>utaunt_spider_green_parent</system>
 			<id>3046</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Toxic Terrors</name>
+			<name>Giftig Gevaar</name>
 		</particle>
 		<particle>
 			<system>utaunt_spider_orange_parent</system>
@@ -11919,7 +11919,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_tf2smissmas_tree_parent_w</system>
 			<id>3050</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Frosted Star</name>
+			<name>Bevroren Ster</name>
 		</particle>
 		<particle>
 			<system>utaunt_spirits_blue_parent</system>
@@ -11949,7 +11949,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_twinkling_rgb_parent</system>
 			<id>3055</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Twinkling Lights</name>
+			<name>Fonkelende Lichten</name>
 		</particle>
 		<particle>
 			<system>utaunt_twinkling_goldsilver_parent</system>
@@ -11967,7 +11967,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_chain_purple_parent</system>
 			<id>3060</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Cursed Confinement</name>
+			<name>Vervloekte Vrijheidsberoving</name>
 		</particle>
 		<particle>
 			<system>utaunt_tarotcard_teamcolor_red</system>
@@ -11991,19 +11991,19 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_tarotcard_purple_parent</system>
 			<id>3064</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Magic Shuffle</name>
+			<name>Magisch Schudden</name>
 		</particle>
 		<particle>
 			<system>utaunt_elebound_green_parent</system>
 			<id>3065</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Vigorous Pulse</name>
+			<name>Levendige Schok</name>
 		</particle>
 		<particle>
 			<system>utaunt_elebound_purple_parent</system>
 			<id>3066</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Thundering Spirit</name>
+			<name>Donderende Geest</name>
 		</particle>
 		<particle>
 			<system>utaunt_elebound_yellow_parent</system>
@@ -12015,13 +12015,13 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_wispy_parent_g</system>
 			<id>3068</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Wispy Halos</name>
+			<name>Flarden Halo&apos;s</name>
 		</particle>
 		<particle>
 			<system>utaunt_wispy_parent_p</system>
 			<id>3069</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Nether Wisps</name>
+			<name>Helse Pluim</name>
 		</particle>
 		<particle>
 			<system>utaunt_auroraglow_green_parent</system>
@@ -12051,19 +12051,19 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_snowswirl_yellow_parent</system>
 			<id>3074</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Golden Gusts</name>
+			<name>Gouden Windstoten</name>
 		</particle>
 		<particle>
 			<system>utaunt_snowswirl_teamcolor_red</system>
 			<id>3075</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Smissmas Swirls</name>
+			<name>Smissmas-werveling</name>
 		</particle>
 		<particle>
 			<system>utaunt_snowswirl_teamcolor_blue</system>
 			<id>3076</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Smissmas Swirls</name>
+			<name>Smissmas-werveling</name>
 		</particle>
 		<particle>
 			<system>utaunt_treespiral_green_parent</system>
@@ -12111,19 +12111,19 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_glitter_parent_silver</system>
 			<id>3084</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Frosty Silver</name>
+			<name>Vrieskoud Zilver</name>
 		</particle>
 		<particle>
 			<system>utaunt_glitter_teamcolor_red</system>
 			<id>3085</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Glamorous Dazzle</name>
+			<name>Glamoureuze Verblinding</name>
 		</particle>
 		<particle>
 			<system>utaunt_glitter_teamcolor_blue</system>
 			<id>3086</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Glamorous Dazzle</name>
+			<name>Glamoureuze Verblinding</name>
 		</particle>
 		<particle>
 			<system>utaunt_ice_parent</system>
@@ -12141,7 +12141,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_marigoldritual_teamcolor_blue</system>
 			<id>3089</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Marigold Ritual</name>
+			<name>Goudsbloemenritueel</name>
 		</particle>
 		<particle>
 			<system>utaunt_poison_parent_green</system>
@@ -12153,25 +12153,25 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_poison_parent_orange</system>
 			<id>3091</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Blazed Brew</name>
+			<name>Gebrand Brouwsel</name>
 		</particle>
 		<particle>
 			<system>utaunt_poison_parent_purple</system>
 			<id>3092</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Mysterious Mixture</name>
+			<name>Mysterieus Mengsel</name>
 		</particle>
 		<particle>
 			<system>utaunt_runeprison_green_parent</system>
 			<id>3093</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Linguistic Deviation</name>
+			<name>Linguïstieke Afwijking</name>
 		</particle>
 		<particle>
 			<system>utaunt_runeprison_yellow_parent</system>
 			<id>3094</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Aurelian Seal</name>
+			<name>Gouden Zegel</name>
 		</particle>
 		<particle>
 			<system>utaunt_runeprison_teamcolor_red</system>
@@ -12189,55 +12189,55 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_prismatichaze_parent</system>
 			<id>3097</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Prismatic Haze</name>
+			<name>Prismatische Nevel</name>
 		</particle>
 		<particle>
 			<system>utaunt_risingsprit_teamcolor_red</system>
 			<id>3098</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Rising Ritual</name>
+			<name>Rijzend Ritueel</name>
 		</particle>
 		<particle>
 			<system>utaunt_risingsprit_teamcolor_blue</system>
 			<id>3099</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Rising Ritual</name>
+			<name>Rijzend Ritueel</name>
 		</particle>
 		<particle>
 			<system>utaunt_hands_teamcolor_red</system>
 			<id>3100</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Bloody Grip</name>
+			<name>Bloedige Greep</name>
 		</particle>
 		<particle>
 			<system>utaunt_hands_teamcolor_blue</system>
 			<id>3101</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Bloody Grip</name>
+			<name>Bloedige Greep</name>
 		</particle>
 		<particle>
 			<system>utaunt_hands_green_parent</system>
 			<id>3102</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Toxic Grip</name>
+			<name>Giftige Greep</name>
 		</particle>
 		<particle>
 			<system>utaunt_hands_orange_parent</system>
 			<id>3103</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Infernal Grip</name>
+			<name>Helse Greep</name>
 		</particle>
 		<particle>
 			<system>utaunt_hands_purple_parent</system>
 			<id>3104</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Death Grip</name>
+			<name>Doodsgreep</name>
 		</particle>
 		<particle>
 			<system>utaunt_storm_parent_g</system>
 			<id>3105</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Charged Arcane</name>
+			<name>Geladen Geheim</name>
 		</particle>
 		<particle>
 			<system>utaunt_storm_parent_k</system>
@@ -12249,19 +12249,19 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_storm_parent_o</system>
 			<id>3107</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Convulsive Fiery</name>
+			<name>Stuiptrekkende Vurigheid</name>
 		</particle>
 		<particle>
 			<system>utaunt_festivelights_teamcolor_red</system>
 			<id>3108</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Festivized Formation</name>
+			<name>Verfeestelijkte Verschijning</name>
 		</particle>
 		<particle>
 			<system>utaunt_festivelights_teamcolor_blue</system>
 			<id>3109</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Festivized Formation</name>
+			<name>Verfeestelijkte Verschijning</name>
 		</particle>
 		<particle>
 			<system>utaunt_glow_spirit_parent_cr</system>
@@ -12285,13 +12285,13 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_snowflakesaura_parent</system>
 			<id>3113</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Boundless Blizzard</name>
+			<name>Grenzeloze Sneeuwstorm</name>
 		</particle>
 		<particle>
 			<system>utaunt_sun_sand_rays_parent</system>
 			<id>3114</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Solar Scorched</name>
+			<name>Zongeschroeid</name>
 		</particle>
 		<particle>
 			<system>utaunt_undersea_teamcolor_red</system>
@@ -12309,19 +12309,19 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_lavalamp_green_parent</system>
 			<id>3117</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Blooming Beacon</name>
+			<name>Bloeiend Baken</name>
 		</particle>
 		<particle>
 			<system>utaunt_lavalamp_purple_parent</system>
 			<id>3118</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Beaming Beacon</name>
+			<name>Stralend Baken</name>
 		</particle>
 		<particle>
 			<system>utaunt_lavalamp_yellow_parent</system>
 			<id>3119</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Blazing Beacon</name>
+			<name>Brandend Baken</name>
 		</particle>
 		<particle>
 			<system>utaunt_fish_parent</system>
@@ -12357,13 +12357,13 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_krakenmouth_purple_parent</system>
 			<id>3125</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Eldritch Horror</name>
+			<name>Griezelig Gat</name>
 		</particle>
 		<particle>
 			<system>utaunt_leaftaunt_parent</system>
 			<id>3126</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Autumn Leaves</name>
+			<name>Herfstbladeren</name>
 		</particle>
 		<particle>
 			<system>utaunt_graveparty_parent</system>
@@ -12375,19 +12375,19 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_spellsplash_parent</system>
 			<id>3128</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Potion Explosion</name>
+			<name>Barstende Brouwsels</name>
 		</particle>
 		<particle>
 			<system>utaunt_cremation_purple_parent</system>
 			<id>3129</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Haunted Cremation</name>
+			<name>Behekste Crematie</name>
 		</particle>
 		<particle>
 			<system>utaunt_cremation_black_parent</system>
 			<id>3130</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Cremation</name>
+			<name>Crematie</name>
 		</particle>
 		<particle>
 			<system>utaunt_snowfall_parent</system>
@@ -12399,25 +12399,25 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_constellations_teamcolor_red</system>
 			<id>3132</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Galactic Connection</name>
+			<name>Cosmische Connectie</name>
 		</particle>
 		<particle>
 			<system>utaunt_constellations_teamcolor_blue</system>
 			<id>3133</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Galactic Connection</name>
+			<name>Cosmische Connectie</name>
 		</particle>
 		<particle>
 			<system>utaunt_constellations_purple_parent</system>
 			<id>3134</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Dark Twilight</name>
+			<name>Duistere Schemering</name>
 		</particle>
 		<particle>
 			<system>utaunt_constellations_pink_parent</system>
 			<id>3135</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Eldritch Rift</name>
+			<name>Griezelige Gloed</name>
 		</particle>
 		<particle>
 			<system>utaunt_wispyworks_orangegreen_parent</system>
@@ -12429,7 +12429,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_wispyworks_purpleblue_parent</system>
 			<id>3137</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Distant Desire</name>
+			<name>Verafgelegen Verlangen</name>
 		</particle>
 		<particle>
 			<system>utaunt_wispyworks_yellowpurple_parent</system>
@@ -12453,7 +12453,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_innerblizzard_purple_parent</system>
 			<id>3141</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Arctic Delight</name>
+			<name>Poolpret</name>
 		</particle>
 		<particle>
 			<system>utaunt_spotlight_parent</system>
@@ -12465,13 +12465,13 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_pedalfly_teamcolor_red</system>
 			<id>3143</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Petal Prance</name>
+			<name>Blije Blaadjes</name>
 		</particle>
 		<particle>
 			<system>utaunt_pedalfly_teamcolor_blue</system>
 			<id>3144</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Petal Prance</name>
+			<name>Blije Blaadjes</name>
 		</particle>
 		<particle>
 			<system>utaunt_dragonfly_teamcolor_red</system>
@@ -12777,7 +12777,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_seamine_teamcolor_blue</system>
 			<id>3195</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Seamine</name>
+			<name>Zeemijn</name>
 		</particle>
 		<particle>
 			<system>utaunt_iconicoutline_teamcolor_red</system>
@@ -12795,31 +12795,31 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_iconicoutline_pink_parent</system>
 			<id>3198</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Subtle Silhouette</name>
+			<name>Subtiel Silhouet</name>
 		</particle>
 		<particle>
 			<system>utaunt_oceanreef_parent</system>
 			<id>3199</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Ocean Reef</name>
+			<name>Oceaanbodem</name>
 		</particle>
 		<particle>
 			<system>utaunt_signalinterference_parent</system>
 			<id>3200</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Lost Signal</name>
+			<name>Verbroken Verbinding</name>
 		</particle>
 		<particle>
 			<system>utaunt_waterwave_parent</system>
 			<id>3201</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Summer Wave</name>
+			<name>Zomerse Golven</name>
 		</particle>
 		<particle>
 			<system>utaunt_sharkfin2_parent</system>
 			<id>3202</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Shark Attack</name>
+			<name>Haaienaanval</name>
 		</particle>
 		<particle>
 			<system>utaunt_phantasam_green_parent</system>
