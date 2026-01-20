@@ -544,7 +544,7 @@ Po otrzymaniu obrażeń pozostawia fałszywe zwłoki i tymczasowo gwarantuje nie
 			<name>zoom speed mod disabled</name>
 			<defindex>40</defindex>
 			<attribute_class>unimplemented_mod_zoom_speed_disabled</attribute_class>
-			<description_string>Korzystanie z lunety nie ogranicza prędkości ruchu</description_string>
+			<description_string>Korzystanie z lunety nie ogranicza szybkości ruchu</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -685,7 +685,7 @@ Wyczerpuje się w oparciu o szybkość poruszania się.</description_string>
 			<name>move speed penalty</name>
 			<defindex>54</defindex>
 			<attribute_class>mult_player_movespeed</attribute_class>
-			<description_string>-%s1% prędkości ruchu dla noszącego</description_string>
+			<description_string>-%s1% szybkości ruchu dla noszącego</description_string>
 			<description_format>value_is_inverted_percentage</description_format>
 			<effect_type>negative</effect_type>
 			<hidden>false</hidden>
@@ -902,7 +902,7 @@ od nabojów dla noszącego</description_string>
 			<name>aiming movespeed increased</name>
 			<defindex>75</defindex>
 			<attribute_class>mult_player_aiming_movespeed</attribute_class>
-			<description_string>+%s1% prędkości ruchu, gdy broń jest w gotowości</description_string>
+			<description_string>+%s1% szybkości ruchu, gdy broń jest w gotowości</description_string>
 			<description_format>value_is_percentage</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -1186,7 +1186,7 @@ pomocniczej dla noszącego</description_string>
 			<name>Projectile speed increased</name>
 			<defindex>103</defindex>
 			<attribute_class>mult_projectile_speed</attribute_class>
-			<description_string>+%s1% prędkości pocisku</description_string>
+			<description_string>+%s1% szybkości pocisku</description_string>
 			<description_format>value_is_percentage</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -1196,7 +1196,7 @@ pomocniczej dla noszącego</description_string>
 			<name>Projectile speed decreased</name>
 			<defindex>104</defindex>
 			<attribute_class>mult_projectile_speed</attribute_class>
-			<description_string>%s1% prędkości pocisku</description_string>
+			<description_string>%s1% szybkości pocisku</description_string>
 			<description_format>value_is_percentage</description_format>
 			<effect_type>negative</effect_type>
 			<hidden>false</hidden>
@@ -1226,7 +1226,7 @@ pomocniczej dla noszącego</description_string>
 			<name>move speed bonus</name>
 			<defindex>107</defindex>
 			<attribute_class>mult_player_movespeed</attribute_class>
-			<description_string>+%s1% prędkości ruchu dla noszącego</description_string>
+			<description_string>+%s1% szybkości ruchu dla noszącego</description_string>
 			<description_format>value_is_percentage</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -1982,7 +1982,7 @@ Zew natury: trafienie w głowę podczas przybliżenia zawsze zadaje obrażenia m
 			<name>aiming movespeed decreased</name>
 			<defindex>183</defindex>
 			<attribute_class>mult_player_aiming_movespeed</attribute_class>
-			<description_string>%s1% prędkości ruchu, gdy broń jest w gotowości</description_string>
+			<description_string>%s1% szybkości ruchu, gdy broń jest w gotowości</description_string>
 			<description_format>value_is_percentage</description_format>
 			<effect_type>negative</effect_type>
 			<hidden>false</hidden>
@@ -3816,7 +3816,7 @@ Niewrażliwość na obrażenia podczas drwiny z „Mmmph”</description_string>
 			<name>sniper aiming movespeed decreased</name>
 			<defindex>378</defindex>
 			<attribute_class>mult_player_aiming_movespeed</attribute_class>
-			<description_string>%s1% prędkości ruchu podczas celowania</description_string>
+			<description_string>%s1% szybkości ruchu podczas celowania</description_string>
 			<description_format>value_is_percentage</description_format>
 			<effect_type>negative</effect_type>
 			<hidden>false</hidden>
@@ -4797,7 +4797,7 @@ Podczas leczenia zapewnia tobie i twojemu celowi stałe 10% odporności na wybra
 			<name>SET BONUS: move speed set bonus</name>
 			<defindex>489</defindex>
 			<attribute_class>mult_player_movespeed</attribute_class>
-			<description_string>+%s1% prędkości ruchu dla noszącego</description_string>
+			<description_string>+%s1% szybkości ruchu dla noszącego</description_string>
 			<description_format>value_is_percentage</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -6394,7 +6394,7 @@ oraz jest wyciągana i chowana dłużej.</description_string>
 			<name>move speed bonus shield required</name>
 			<defindex>788</defindex>
 			<attribute_class>mult_player_movespeed_shieldrequired</attribute_class>
-			<description_string>+%s1% prędkości ruchu dla noszącego (wymaga tarczy)</description_string>
+			<description_string>+%s1% szybkości ruchu dla noszącego (wymaga tarczy)</description_string>
 			<description_format>value_is_percentage</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -6916,7 +6916,7 @@ oraz jest wyciągana i chowana dłużej.</description_string>
 			<name>mult_player_movespeed_active</name>
 			<defindex>851</defindex>
 			<attribute_class>mult_player_movespeed_active</attribute_class>
-			<description_string>+%s1% prędkości ruchu dla noszącego</description_string>
+			<description_string>+%s1% szybkości ruchu dla noszącego</description_string>
 			<description_format>value_is_percentage</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -7058,7 +7058,7 @@ oraz jest wyciągana i chowana dłużej.</description_string>
 			<name>falling_impact_radius_pushback</name>
 			<defindex>870</defindex>
 			<attribute_class>falling_impact_radius_pushback</attribute_class>
-			<description_string>Odpychanie wrogów przy lądowaniu (siła i zasięg zależą od prędkości)</description_string>
+			<description_string>Odpychanie wrogów przy lądowaniu (siła i zasięg zależą od szybkości)</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -7195,7 +7195,7 @@ od nabojów dla noszącego</description_string>
 			<name>CARD: move speed bonus</name>
 			<defindex>1002</defindex>
 			<attribute_class>mult_player_movespeed</attribute_class>
-			<description_string>+%s1% prędkości ruchu dla noszącego</description_string>
+			<description_string>+%s1% szybkości ruchu dla noszącego</description_string>
 			<description_format>value_is_percentage</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>

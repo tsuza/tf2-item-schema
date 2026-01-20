@@ -26578,7 +26578,7 @@ Własne naklejki mogą zostać użyte na tym przedmiocie.</item_description>
 			<item_class>tf_weapon_bat_giftwrap</item_class>
 			<item_type_name>Kij</item_type_name>
 			<item_name>Pakujący zabójca</item_name>
-			<item_description>Te cudne ozdoby choinkowe są tak prześlicznie wykonane, że twoi wrogowie z pewnością będą chcieli przyjrzeć się im z bliska. Bądź więc uczynny i pomóż im w tym, wybijając te kruche szklane bombki prosto w ich oczy z prędkością 150 km na godzinę.</item_description>
+			<item_description>Te cudne ozdoby choinkowe są tak prześlicznie wykonane, że twoi wrogowie z pewnością będą chcieli przyjrzeć się im z bliska. Bądź więc uczynny i pomóż im w tym, wybijając te kruche szklane bombki prosto w ich oczy z szybkością 150 km na godzinę.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_xms_giftwrap/c_xms_giftwrap.mdl</model_player>
@@ -31279,7 +31279,7 @@ Potoczą się głowy.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Nakrycie głowy</item_type_name>
 			<item_name>Ekspres Cross-Comm</item_name>
-			<item_description>Ten wszechstronny bitewny okular odbiera sygnały przesyłane z prędkością światła z satelity. Może cię to zmusić do zmniejszenia prędkości, by mogły nadążyć.</item_description>
+			<item_description>Ten wszechstronny bitewny okular odbiera sygnały przesyłane z prędkością światła z satelity. Może cię to zmusić do zmniejszenia szybkości, by mogły nadążyć.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/grfs_scout.mdl</model_player>
