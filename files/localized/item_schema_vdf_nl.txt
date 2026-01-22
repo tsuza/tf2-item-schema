@@ -39615,7 +39615,7 @@ Alt-vuur: Laat een luchtstoot los die vijanden en projectielen wegduwt en brande
 			"defindex"	"840"
 			"item_class"	"tf_wearable"
 			"item_type_name"	"Hoed"
-			"item_name"	"U-Clank-A"
+			"item_name"	"De Oe-klank-a"
 			"item_description"	"Rooster deze stalen oesjanka in het vuur en draag hem op je hoofd voor warmte gedurende de hele dag. Denk er wel aan om een indrukwekkend klinkend verhaal te verzinnen over waarom je al die derdegraads brandwonden hebt."
 			"proper_name"	"1"
 			"item_slot"	"misc"
