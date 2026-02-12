@@ -17191,6 +17191,223 @@
                 "drop_sound": "ui/item_metal_weapon_drop.wav",
                 "particle_suffix": "wrench"
             },
+            "ttg_pokervisor": {
+                "prefab": "base_hat",
+                "enabled": "1",
+                "hidden": "0",
+                "item_class": "tf_wearable",
+                "capabilities": {
+                    "nameable": "1",
+                    "paintable": "1"
+                },
+                "loadondemand": "1",
+                "show_in_armory": "1",
+                "item_type_name": "#TF_Wearable_Hat",
+                "item_name": "#TF_TTG_PokerVisor",
+                "item_description": "#TF_TTG_PokerVisor_Desc",
+                "item_slot": "head",
+                "equip_region": "hat",
+                "item_quality": "unique",
+                "min_ilevel": "50",
+                "max_ilevel": "50",
+                "image_inventory": "backpack/player/items/heavy/ttg_visor",
+                "image_inventory_size_w": "128",
+                "image_inventory_size_h": "82",
+                "model_player": "models/player/items/heavy/ttg_visor.mdl",
+                "drop_type": "drop",
+                "used_by_classes": {
+                    "heavy": "1"
+                },
+                "static_attrs": {
+                    "limited quantity item": "1"
+                },
+                "mouse_pressed_sound": "ui/item_hat_pickup.wav",
+                "drop_sound": "ui/item_hat_drop.wav"
+            },
+            "ttg_maxgun": {
+                "enabled": "0",
+                "item_class": "tf_weapon_pistol",
+                "prefab": "weapon_pistol",
+                "capabilities": {
+                    "nameable": "1"
+                },
+                "tags": {
+                    "can_deal_damage": "1",
+                    "can_deal_critical_damage": "1",
+                    "can_deal_long_distance_damage": "1"
+                },
+                "show_in_armory": "0",
+                "item_type_name": "#TF_Weapon_Pistol",
+                "item_name": "#TF_TTG_MaxGun",
+                "item_description": "#TF_TTG_MaxGun_Desc",
+                "item_slot": "secondary",
+                "item_logname": "maxgun",
+                "item_iconname": "maxgun",
+                "image_inventory": "backpack/workshop/weapons/c_models/c_ttg_max_gun/c_ttg_max_gun",
+                "image_inventory_size_w": "128",
+                "image_inventory_size_h": "82",
+                "model_player": "models/workshop/weapons/c_models/c_ttg_max_gun/c_ttg_max_gun.mdl",
+                "attach_to_hands": "1",
+                "item_quality": "unique",
+                "craft_class": "",
+                "craft_material_type": "",
+                "min_ilevel": "5",
+                "max_ilevel": "5",
+                "used_by_classes": {
+                    "scout": "1",
+                    "engineer": "1"
+                },
+                "mouse_pressed_sound": "ui/item_light_gun_pickup.wav",
+                "drop_sound": "ui/item_light_gun_drop.wav",
+                "xifier_class_remap": "TTG Max Pistol"
+            },
+            "ttg_glasses": {
+                "prefab": "base_misc",
+                "loadondemand": "1",
+                "enabled": "1",
+                "item_class": "tf_wearable",
+                "capabilities": {
+                    "nameable": "1",
+                    "paintable": "1"
+                },
+                "show_in_armory": "1",
+                "item_type_name": "#TF_Wearable_Glasses",
+                "item_name": "#TF_TTG_Glasses",
+                "item_description": "#TF_TTG_Glasses_Desc",
+                "item_slot": "misc",
+                "equip_region": "glasses",
+                "image_inventory": "backpack/player/items/demo/ttg_glasses",
+                "image_inventory_size_w": "128",
+                "image_inventory_size_h": "82",
+                "item_quality": "unique",
+                "min_ilevel": "20",
+                "max_ilevel": "20",
+                "model_player": "models/player/items/demo/ttg_glasses.mdl",
+                "drop_type": "drop",
+                "used_by_classes": {
+                    "demoman": "1"
+                },
+                "mouse_pressed_sound": "ui/item_hat_pickup.wav",
+                "drop_sound": "ui/item_hat_drop.wav"
+            },
+            "ttg_badge": {
+                "prefab": "base_misc",
+                "loadondemand": "1",
+                "enabled": "1",
+                "item_class": "tf_wearable",
+                "capabilities": {
+                    "nameable": "1"
+                },
+                "show_in_armory": "1",
+                "item_type_name": "#TF_Wearable_Badge",
+                "item_name": "#TF_TTG_Badge",
+                "item_description": "#TF_TTG_Badge_Desc",
+                "item_slot": "misc",
+                "equip_region": "medal",
+                "image_inventory": "backpack/player/items/all_class/ttg_badge",
+                "image_inventory_size_w": "128",
+                "image_inventory_size_h": "82",
+                "item_quality": "unique",
+                "min_ilevel": "20",
+                "max_ilevel": "20",
+                "model_player": "models/player/items/all_class/ttg_badge.mdl",
+                "drop_type": "none",
+                "used_by_classes": {
+                    "scout": "1",
+                    "sniper": "1",
+                    "soldier": "1",
+                    "demoman": "1",
+                    "medic": "1",
+                    "heavy": "1",
+                    "spy": "1",
+                    "engineer": "1",
+                    "pyro": "1"
+                },
+                "mouse_pressed_sound": "ui/item_hat_pickup.wav",
+                "drop_sound": "ui/item_hat_drop.wav"
+            },
+            "ttg_watch": {
+                "enabled": "1",
+                "item_class": "tf_weapon_invis",
+                "prefab": "weapon_invis",
+                "capabilities": {
+                    "nameable": "1"
+                },
+                "show_in_armory": "1",
+                "item_type_name": "#TF_Weapon_Watch",
+                "item_name": "#TF_TTG_Watch",
+                "item_slot": "pda2",
+                "anim_slot": "FORCE_NOT_USED",
+                "item_quality": "unique",
+                "min_ilevel": "5",
+                "max_ilevel": "5",
+                "craft_class": "",
+                "craft_material_type": "",
+                "image_inventory": "backpack/weapons/c_models/c_ttg_watch/c_ttg_watch",
+                "image_inventory_size_w": "128",
+                "image_inventory_size_h": "82",
+                "model_player": "models/weapons/v_models/v_ttg_watch_spy.mdl",
+                "used_by_classes": {
+                    "spy": "1"
+                },
+                "mouse_pressed_sound": "ui/item_watch_pickup.wav",
+                "drop_sound": "ui/item_watch_drop.wav",
+                "attributes": {
+                    "cannot trade": {
+                        "attribute_class": "cannot_trade",
+                        "value": "1"
+                    }
+                }
+            },
+            "iron_curtain": {
+                "enabled": "1",
+                "item_class": "tf_weapon_minigun",
+                "prefab": "weapon_minigun",
+                "capabilities": {
+                    "nameable": "1"
+                },
+                "tags": {
+                    "can_deal_damage": "1",
+                    "can_deal_critical_damage": "1",
+                    "can_deal_mvm_penetration_damage": "1",
+                    "can_deal_long_distance_damage": "1",
+                    "can_be_festivized": "1"
+                },
+                "craft_class": "",
+                "craft_material_type": "",
+                "show_in_armory": "1",
+                "item_type_name": "#TF_Weapon_Minigun",
+                "item_name": "#TF_Iron_Curtain",
+                "item_slot": "primary",
+                "item_logname": "iron_curtain",
+                "item_iconname": "iron_curtain",
+                "image_inventory": "backpack/workshop/weapons/c_models/c_iron_curtain/c_iron_curtain",
+                "image_inventory_size_w": "128",
+                "image_inventory_size_h": "82",
+                "model_player": "models/workshop/weapons/c_models/c_iron_curtain/c_iron_curtain.mdl",
+                "attach_to_hands": "1",
+                "item_quality": "unique",
+                "min_ilevel": "5",
+                "max_ilevel": "5",
+                "used_by_classes": {
+                    "heavy": "1"
+                },
+                "mouse_pressed_sound": "ui/item_heavy_gun_pickup.wav",
+                "drop_sound": "ui/item_heavy_gun_drop.wav",
+                "attributes": {
+                    "cannot trade": {
+                        "attribute_class": "cannot_trade",
+                        "value": "1"
+                    }
+                },
+                "visuals": {
+                    "attached_models_festive": {
+                        "0": {
+                            "model": "models/workshop/weapons/c_models/c_iron_curtain/c_iron_curtain_festivizer.mdl"
+                        }
+                    }
+                }
+            },
             "paintkit_base": {
                 "static_attrs": {
                     "weapon_uses_stattrak_module": "models/weapons/c_models/stattrack.mdl",
@@ -26401,223 +26618,29 @@
             },
             "292": {
                 "name": "Poker Visor",
-                "prefab": "base_hat",
-                "first_sale_date": "2010/11/05",
-                "hidden": "0",
-                "item_class": "tf_wearable",
-                "capabilities": {
-                    "nameable": "1",
-                    "paintable": "1"
-                },
-                "loadondemand": "1",
-                "show_in_armory": "1",
-                "item_type_name": "#TF_Wearable_Hat",
-                "item_name": "#TF_TTG_PokerVisor",
-                "item_description": "#TF_TTG_PokerVisor_Desc",
-                "item_slot": "head",
-                "equip_region": "hat",
-                "item_quality": "unique",
-                "min_ilevel": "50",
-                "max_ilevel": "50",
-                "image_inventory": "backpack/player/items/heavy/ttg_visor",
-                "image_inventory_size_w": "128",
-                "image_inventory_size_h": "82",
-                "model_player": "models/player/items/heavy/ttg_visor.mdl",
-                "drop_type": "drop",
-                "used_by_classes": {
-                    "heavy": "1"
-                },
-                "static_attrs": {
-                    "limited quantity item": "1"
-                },
-                "mouse_pressed_sound": "ui/item_hat_pickup.wav",
-                "drop_sound": "ui/item_hat_drop.wav"
+                "prefab": "ttg_pokervisor"
             },
             "294": {
                 "name": "TTG Max Pistol - Poker Night",
-                "item_class": "tf_weapon_pistol",
-                "prefab": "weapon_pistol",
-                "capabilities": {
-                    "nameable": "1"
-                },
-                "tags": {
-                    "can_deal_damage": "1",
-                    "can_deal_critical_damage": "1",
-                    "can_deal_long_distance_damage": "1"
-                },
-                "show_in_armory": "0",
-                "item_type_name": "#TF_Weapon_Pistol",
-                "item_name": "#TF_TTG_MaxGun",
-                "item_description": "#TF_TTG_MaxGun_Desc",
-                "item_slot": "secondary",
-                "item_logname": "maxgun",
-                "item_iconname": "maxgun",
-                "image_inventory": "backpack/workshop/weapons/c_models/c_ttg_max_gun/c_ttg_max_gun",
-                "image_inventory_size_w": "128",
-                "image_inventory_size_h": "82",
-                "model_player": "models/workshop/weapons/c_models/c_ttg_max_gun/c_ttg_max_gun.mdl",
-                "attach_to_hands": "1",
-                "item_quality": "unique",
-                "craft_class": "",
-                "craft_material_type": "",
-                "propername": "1",
-                "min_ilevel": "5",
-                "max_ilevel": "5",
-                "used_by_classes": {
-                    "scout": "1",
-                    "engineer": "1"
-                },
-                "mouse_pressed_sound": "ui/item_light_gun_pickup.wav",
-                "drop_sound": "ui/item_light_gun_drop.wav",
-                "xifier_class_remap": "TTG Max Pistol"
+                "prefab": "ttg_maxgun",
+                "propername": "1"
             },
             "295": {
                 "name": "TTG Glasses",
-                "prefab": "base_misc",
-                "loadondemand": "1",
-                "item_class": "tf_wearable",
-                "capabilities": {
-                    "nameable": "1",
-                    "paintable": "1"
-                },
-                "show_in_armory": "1",
-                "item_type_name": "#TF_Wearable_Glasses",
-                "item_name": "#TF_TTG_Glasses",
-                "item_description": "#TF_TTG_Glasses_Desc",
-                "item_slot": "misc",
-                "equip_region": "glasses",
-                "image_inventory": "backpack/player/items/demo/ttg_glasses",
-                "image_inventory_size_w": "128",
-                "image_inventory_size_h": "82",
-                "item_quality": "unique",
-                "min_ilevel": "20",
-                "max_ilevel": "20",
-                "model_player": "models/player/items/demo/ttg_glasses.mdl",
-                "drop_type": "drop",
-                "used_by_classes": {
-                    "demoman": "1"
-                },
-                "mouse_pressed_sound": "ui/item_hat_pickup.wav",
-                "drop_sound": "ui/item_hat_drop.wav"
+                "prefab": "ttg_glasses"
             },
             "296": {
                 "name": "TTG Badge",
-                "prefab": "base_misc",
-                "loadondemand": "1",
-                "item_class": "tf_wearable",
-                "capabilities": {
-                    "nameable": "1"
-                },
-                "show_in_armory": "1",
-                "item_type_name": "#TF_Wearable_Badge",
-                "item_name": "#TF_TTG_Badge",
-                "item_description": "#TF_TTG_Badge_Desc",
-                "item_slot": "misc",
-                "equip_region": "medal",
-                "image_inventory": "backpack/player/items/all_class/ttg_badge",
-                "image_inventory_size_w": "128",
-                "image_inventory_size_h": "82",
-                "item_quality": "unique",
-                "min_ilevel": "20",
-                "max_ilevel": "20",
-                "model_player": "models/player/items/all_class/ttg_badge.mdl",
-                "drop_type": "none",
-                "used_by_classes": {
-                    "scout": "1",
-                    "sniper": "1",
-                    "soldier": "1",
-                    "demoman": "1",
-                    "medic": "1",
-                    "heavy": "1",
-                    "spy": "1",
-                    "engineer": "1",
-                    "pyro": "1"
-                },
-                "mouse_pressed_sound": "ui/item_hat_pickup.wav",
-                "drop_sound": "ui/item_hat_drop.wav"
+                "prefab": "ttg_badge"
             },
             "297": {
                 "name": "TTG Watch",
-                "item_class": "tf_weapon_invis",
-                "prefab": "weapon_invis",
-                "capabilities": {
-                    "nameable": "1"
-                },
-                "show_in_armory": "1",
-                "item_type_name": "#TF_Weapon_Watch",
-                "item_name": "#TF_TTG_Watch",
-                "item_slot": "pda2",
-                "anim_slot": "FORCE_NOT_USED",
-                "item_quality": "unique",
-                "propername": "1",
-                "min_ilevel": "5",
-                "max_ilevel": "5",
-                "craft_class": "",
-                "craft_material_type": "",
-                "image_inventory": "backpack/weapons/c_models/c_ttg_watch/c_ttg_watch",
-                "image_inventory_size_w": "128",
-                "image_inventory_size_h": "82",
-                "model_player": "models/weapons/v_models/v_ttg_watch_spy.mdl",
-                "used_by_classes": {
-                    "spy": "1"
-                },
-                "mouse_pressed_sound": "ui/item_watch_pickup.wav",
-                "drop_sound": "ui/item_watch_drop.wav",
-                "attributes": {
-                    "cannot trade": {
-                        "attribute_class": "cannot_trade",
-                        "value": "1"
-                    }
-                }
+                "prefab": "ttg_watch",
+                "propername": "1"
             },
             "298": {
                 "name": "Iron Curtain",
-                "item_class": "tf_weapon_minigun",
-                "prefab": "weapon_minigun",
-                "capabilities": {
-                    "nameable": "1"
-                },
-                "tags": {
-                    "can_deal_damage": "1",
-                    "can_deal_critical_damage": "1",
-                    "can_deal_mvm_penetration_damage": "1",
-                    "can_deal_long_distance_damage": "1",
-                    "can_be_festivized": "1"
-                },
-                "craft_class": "",
-                "craft_material_type": "",
-                "show_in_armory": "1",
-                "item_type_name": "#TF_Weapon_Minigun",
-                "item_name": "#TF_Iron_Curtain",
-                "item_slot": "primary",
-                "item_logname": "iron_curtain",
-                "item_iconname": "iron_curtain",
-                "image_inventory": "backpack/workshop/weapons/c_models/c_iron_curtain/c_iron_curtain",
-                "image_inventory_size_w": "128",
-                "image_inventory_size_h": "82",
-                "model_player": "models/workshop/weapons/c_models/c_iron_curtain/c_iron_curtain.mdl",
-                "attach_to_hands": "1",
-                "item_quality": "unique",
-                "min_ilevel": "5",
-                "max_ilevel": "5",
-                "used_by_classes": {
-                    "heavy": "1"
-                },
-                "mouse_pressed_sound": "ui/item_heavy_gun_pickup.wav",
-                "drop_sound": "ui/item_heavy_gun_drop.wav",
-                "attributes": {
-                    "cannot trade": {
-                        "attribute_class": "cannot_trade",
-                        "value": "1"
-                    }
-                },
-                "visuals": {
-                    "attached_models_festive": {
-                        "0": {
-                            "model": "models/workshop/weapons/c_models/c_iron_curtain/c_iron_curtain_festivizer.mdl"
-                        }
-                    }
-                }
+                "prefab": "iron_curtain"
             },
             "299": {
                 "name": "Portal 2 Pin",
@@ -53209,6 +53232,36 @@
                         "value": "1"
                     }
                 }
+            },
+            "1201": {
+                "name": "Poker Visor 2026",
+                "prefab": "ttg_pokervisor",
+                "item_name": "Reissued Dealer's Visor"
+            },
+            "1202": {
+                "name": "TTG Max Pistol - Poker Night 2026",
+                "prefab": "ttg_maxgun",
+                "item_name": "Reissued Lugermorph"
+            },
+            "1203": {
+                "name": "TTG Glasses 2026",
+                "prefab": "ttg_glasses",
+                "item_name": "Reissued Dangeresque, Too?"
+            },
+            "1204": {
+                "name": "TTG Badge 2026",
+                "prefab": "ttg_badge",
+                "item_name": "Reissued License to Maim"
+            },
+            "1205": {
+                "name": "TTG Watch 2026",
+                "prefab": "ttg_watch",
+                "item_name": "Reissued Enthusiast's Timepiece"
+            },
+            "1206": {
+                "name": "Iron Curtain 2026",
+                "prefab": "iron_curtain",
+                "item_name": "Reissued Iron Curtain"
             },
             "15000": {
                 "name": "concealedkiller_sniperrifle_nightowl",
@@ -210364,21 +210417,21 @@
             "ach_14": {
                 "SourceAppID": "3897800",
                 "Items": {
-                    "294": "1",
-                    "296": "1"
+                    "1202": "1",
+                    "1204": "1"
                 }
             },
             "ach_15": {
                 "SourceAppID": "3897800",
-                "DefIndex": "295"
+                "DefIndex": "1203"
             },
             "ach_16": {
                 "SourceAppID": "3897800",
-                "DefIndex": "298"
+                "DefIndex": "1206"
             },
             "ach_17": {
                 "SourceAppID": "3897800",
-                "DefIndex": "297"
+                "DefIndex": "1205"
             }
         },
         "attribute_controlled_attached_particles": {

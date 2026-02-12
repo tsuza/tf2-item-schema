@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.736e6731430407515bf3f3cd176f5ab6f0d68aea.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.e3d3db301f5b7a4d5de53cad527c61c70a05e853.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -1787,7 +1787,7 @@ Peut être utilisé pour éteindre le feu</description_string>
 			<name>charged airblast</name>
 			<defindex>165</defindex>
 			<attribute_class>set_charged_airblast</attribute_class>
-			<description_string>Possibilité de charger le souffle du Pyro afin de repousser plus loin les ennemis</description_string>
+			<description_string>Possibilité de charger le tir d&apos;air comprimé du Pyro afin de repousser plus loin les ennemis</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>neutral</effect_type>
 			<hidden>false</hidden>
@@ -1837,7 +1837,7 @@ Peut être utilisé pour éteindre le feu</description_string>
 			<name>airblast cost increased</name>
 			<defindex>170</defindex>
 			<attribute_class>mult_airblast_cost</attribute_class>
-			<description_string>Augmentation du coût du souffle de +%s1%</description_string>
+			<description_string>Augmentation du cout du tir d&apos;air comprimé : +%s1%</description_string>
 			<description_format>value_is_percentage</description_format>
 			<effect_type>negative</effect_type>
 			<hidden>false</hidden>
@@ -1847,7 +1847,7 @@ Peut être utilisé pour éteindre le feu</description_string>
 			<name>airblast cost decreased</name>
 			<defindex>171</defindex>
 			<attribute_class>mult_airblast_cost</attribute_class>
-			<description_string>Réduction du coût du souffle de %s1%</description_string>
+			<description_string>Réduction du cout du tir d&apos;air comprimé : %s1%</description_string>
 			<description_format>value_is_percentage</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -2646,7 +2646,7 @@ Les attaques au corps-à-corps infligent des mini-crits lorsque vous êtes en l&
 			<name>airblast pushback scale</name>
 			<defindex>255</defindex>
 			<attribute_class>airblast_pushback_scale</attribute_class>
-			<description_string>Puissance effet de souffle +%s1%</description_string>
+			<description_string>Puissance du tir d&apos;air comprimé : +%s1%</description_string>
 			<description_format>value_is_percentage</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -5145,7 +5145,7 @@ Lors des soins, procure à vous et votre cible une résistance constante de 10% 
 			<name>damage force increase text</name>
 			<defindex>536</defindex>
 			<attribute_class>damage_force_reduction</attribute_class>
-			<description_string>Augmentation des contre-coups subis suite aux dégâts et au souffle</description_string>
+			<description_string>Augmentation des contrecoups subis suite aux dégâts et aux tirs d&apos;air comprimé</description_string>
 			<description_format>value_is_percentage</description_format>
 			<effect_type>negative</effect_type>
 			<hidden>false</hidden>
@@ -6591,7 +6591,7 @@ déploie et se range plus lentement</description_string>
 			<name>spunup_push_force_immunity</name>
 			<defindex>813</defindex>
 			<attribute_class>spunup_push_force_immunity</attribute_class>
-			<description_string>Insensible aux contre-coups subis suite aux dégâts et au souffle lorsque déployé</description_string>
+			<description_string>Insensible aux contrecoups subis suite aux dégâts et aux tirs d&apos;air comprimé lorsque déployé</description_string>
 			<description_format>value_is_percentage</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -7796,7 +7796,7 @@ déploie et se range plus lentement</description_string>
 
 Tir principal : lance un projectile à grande vitesse enflammant brièvement les ennemis.
 
-Tir secondaire : libère un souffle d&apos;air repoussant les ennemis et les projectiles, et éteignant les coéquipiers enflammés.</description_string>
+Tir secondaire : libère un tir d&apos;air comprimé repoussant les ennemis et les projectiles, et éteignant les coéquipiers enflammés.</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>neutral</effect_type>
 			<hidden>false</hidden>
@@ -8806,7 +8806,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse.</de
 		</item_set>
 		<item_set>
 			<item_set>soldier_dumpster_diver</item_set>
-			<name>Le fouilleur de benne à ordure</name>
+			<name>Le Fouilleur de bennes à ordure</name>
 			<items>
 				<item>The Beggar&apos;s Bazooka</item>
 				<item>The Helmet Without a Home</item>

@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.736e6731430407515bf3f3cd176f5ab6f0d68aea.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.e3d3db301f5b7a4d5de53cad527c61c70a05e853.txt"
 	"items"
 	{
 		"0"
@@ -30664,7 +30664,7 @@ Tähän esineeseen voi asettaa räätälöidyn tarran."
 			"item_class"	"tf_wearable"
 			"item_type_name"	"piippu"
 			"item_name"	"Ysipiippuinen ongelma"
-			"item_description"	"In the time it takes you to read this description, I've already übered a heavy, captured your base, solved a crime, and smoked three pipes."
+			"item_description"	"Sillä aikaa kun olet lukenut tämän kuvauksen, olen jo ehtinyt ylilataamaan Heavyn, valtaamaan tukikohtanne, ratkaisemaan rikoksen ja polttamaan kolme piipullista."
 			"proper_name"	"1"
 			"item_slot"	"misc"
 			"model_player"	"models/player/items/medic/medic_smokingpipe.mdl"

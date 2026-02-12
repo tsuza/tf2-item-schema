@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.736e6731430407515bf3f3cd176f5ab6f0d68aea.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.e3d3db301f5b7a4d5de53cad527c61c70a05e853.txt"
 	"items"
 	{
 		"0"
@@ -782,8 +782,8 @@
 			"item_class"	"tf_weapon_flamethrower"
 			"item_type_name"	"Lance-flammes"
 			"item_name"	"Lance-flammes"
-			"item_description"	"Les brûlures réduisent les soins du Medi Gun et résistent aux effets de bouclier.
-Tir secondaire : provoque un souffle d'air puissant repoussant les ennemis et projectiles, et éteignant les coéquipiers enflammés."
+			"item_description"	"La postcombustion réduit les soins et la résistance du bouclier accordés par le Medigun.
+Tir secondaire : tir d'air comprimé puissant pouvant repousser adversaires et projectiles ou éteindre les membres de l'équipe en feu."
 			"proper_name"	"0"
 			"item_slot"	"primary"
 			"model_player"	"models/weapons/c_models/c_flamethrower/c_flamethrower.mdl"
@@ -8327,8 +8327,8 @@ Si vous voyez ce que je veux dire."
 			"item_class"	"tf_weapon_flamethrower"
 			"item_type_name"	"Lance-flammes"
 			"item_name"	"Lance-flammes"
-			"item_description"	"Les brûlures réduisent les soins du Medi Gun et résistent aux effets de bouclier.
-Tir secondaire : provoque un souffle d'air puissant repoussant les ennemis et projectiles, et éteignant les coéquipiers enflammés."
+			"item_description"	"La postcombustion réduit les soins et la résistance du bouclier accordés par le Medigun.
+Tir secondaire : tir d'air comprimé puissant pouvant repousser adversaires et projectiles ou éteindre les membres de l'équipe en feu."
 			"proper_name"	"0"
 			"item_slot"	"primary"
 			"model_player"	"models/weapons/c_models/c_flamethrower/c_flamethrower.mdl"
@@ -30773,8 +30773,8 @@ Des décalcomanies personnalisées peuvent être appliquées à cet objet."
 			"item_class"	"tf_weapon_flamethrower"
 			"item_type_name"	"Lance-flammes"
 			"item_name"	"Lance-flammes festif"
-			"item_description"	"Les brûlures réduisent les soins du Medi Gun et résistent aux effets de bouclier.
-Tir secondaire : provoque un souffle d'air puissant repoussant les ennemis et projectiles, et éteignant les coéquipiers enflammés."
+			"item_description"	"La postcombustion réduit les soins et la résistance du bouclier accordés par le Medigun.
+Tir secondaire : tir d'air comprimé puissant pouvant repousser adversaires et projectiles ou éteindre les membres de l'équipe en feu."
 			"proper_name"	"0"
 			"item_slot"	"primary"
 			"model_player"	"models/weapons/c_models/c_flamethrower/c_flamethrower.mdl"
@@ -37284,8 +37284,8 @@ Les têtes vont tomber."
 			"item_class"	"tf_weapon_flamethrower"
 			"item_type_name"	"Lance-flammes"
 			"item_name"	"Lance-flammes d'argent tueur de robots Mk.I"
-			"item_description"	"Les brûlures réduisent les soins du Medi Gun et résistent aux effets de bouclier.
-Tir secondaire : provoque un souffle d'air puissant repoussant les ennemis et projectiles, et éteignant les coéquipiers enflammés."
+			"item_description"	"La postcombustion réduit les soins et la résistance du bouclier accordés par le Medigun.
+Tir secondaire : tir d'air comprimé puissant pouvant repousser adversaires et projectiles ou éteindre les membres de l'équipe en feu."
 			"proper_name"	"0"
 			"item_slot"	"primary"
 			"model_player"	"models/weapons/c_models/c_flamethrower/c_flamethrower.mdl"
@@ -37694,8 +37694,8 @@ Tir secondaire : provoque un souffle d'air puissant repoussant les ennemis et pr
 			"item_class"	"tf_weapon_flamethrower"
 			"item_type_name"	"Lance-flammes"
 			"item_name"	"Lance-flammes d'or tueur de robots Mk.I"
-			"item_description"	"Les brûlures réduisent les soins du Medi Gun et résistent aux effets de bouclier.
-Tir secondaire : provoque un souffle d'air puissant repoussant les ennemis et projectiles, et éteignant les coéquipiers enflammés."
+			"item_description"	"La postcombustion réduit les soins et la résistance du bouclier accordés par le Medigun.
+Tir secondaire : tir d'air comprimé puissant pouvant repousser adversaires et projectiles ou éteindre les membres de l'équipe en feu."
 			"proper_name"	"0"
 			"item_slot"	"primary"
 			"model_player"	"models/weapons/c_models/c_flamethrower/c_flamethrower.mdl"
@@ -41589,9 +41589,9 @@ Tir secondaire : provoque un souffle d'air puissant repoussant les ennemis et pr
 			"name"	"The Freedom Staff"
 			"defindex"	"880"
 			"item_class"	"saxxy"
-			"item_type_name"	"Bâton"
-			"item_name"	"Le bâton de la liberté"
-			"item_description"	"Depuis que l'Amérique fut fondée il y a plus de dix mille ans, le noble aigle a été son symbole de liberté. Montrez aux gens combien vous aimez la liberté en les frappant de façon insensée avec un aigle doré sur un bâton, tout comme Kofi Annan."
+			"item_type_name"	"Sceptre"
+			"item_name"	"Le sceptre de la liberté"
+			"item_description"	"Depuis la création de l'Amérique il y a plus de dix-mille ans, le noble pygargue à tête blanche est son emblème de liberté. Montrez votre attachement à la liberté en frappant vos adversaires avec un sceptre surmonté d'un aigle doré, à l'instar de Kofi Annan."
 			"proper_name"	"1"
 			"item_slot"	"melee"
 			"model_player"	"models/workshop_partner/weapons/c_models/c_tw_eagle/c_tw_eagle.mdl"
@@ -41910,8 +41910,8 @@ Tir secondaire : provoque un souffle d'air puissant repoussant les ennemis et pr
 			"item_class"	"tf_weapon_flamethrower"
 			"item_type_name"	"Lance-flammes"
 			"item_name"	"Lance-flammes rouillé tueur de robots Mk.I"
-			"item_description"	"Les brûlures réduisent les soins du Medi Gun et résistent aux effets de bouclier.
-Tir secondaire : provoque un souffle d'air puissant repoussant les ennemis et projectiles, et éteignant les coéquipiers enflammés."
+			"item_description"	"La postcombustion réduit les soins et la résistance du bouclier accordés par le Medigun.
+Tir secondaire : tir d'air comprimé puissant pouvant repousser adversaires et projectiles ou éteindre les membres de l'équipe en feu."
 			"proper_name"	"0"
 			"item_slot"	"primary"
 			"model_player"	"models/weapons/c_models/c_flamethrower/c_flamethrower.mdl"
@@ -42320,8 +42320,8 @@ Tir secondaire : provoque un souffle d'air puissant repoussant les ennemis et pr
 			"item_class"	"tf_weapon_flamethrower"
 			"item_type_name"	"Lance-flammes"
 			"item_name"	"Lance-flammes sanglant tueur de robots Mk.I"
-			"item_description"	"Les brûlures réduisent les soins du Medi Gun et résistent aux effets de bouclier.
-Tir secondaire : provoque un souffle d'air puissant repoussant les ennemis et projectiles, et éteignant les coéquipiers enflammés."
+			"item_description"	"La postcombustion réduit les soins et la résistance du bouclier accordés par le Medigun.
+Tir secondaire : tir d'air comprimé puissant pouvant repousser adversaires et projectiles ou éteindre les membres de l'équipe en feu."
 			"proper_name"	"0"
 			"item_slot"	"primary"
 			"model_player"	"models/weapons/c_models/c_flamethrower/c_flamethrower.mdl"
@@ -42730,8 +42730,8 @@ Tir secondaire : provoque un souffle d'air puissant repoussant les ennemis et pr
 			"item_class"	"tf_weapon_flamethrower"
 			"item_type_name"	"Lance-flammes"
 			"item_name"	"Lance-flammes de carbone tueur de robots Mk.I"
-			"item_description"	"Les brûlures réduisent les soins du Medi Gun et résistent aux effets de bouclier.
-Tir secondaire : provoque un souffle d'air puissant repoussant les ennemis et projectiles, et éteignant les coéquipiers enflammés."
+			"item_description"	"La postcombustion réduit les soins et la résistance du bouclier accordés par le Medigun.
+Tir secondaire : tir d'air comprimé puissant pouvant repousser adversaires et projectiles ou éteindre les membres de l'équipe en feu."
 			"proper_name"	"0"
 			"item_slot"	"primary"
 			"model_player"	"models/weapons/c_models/c_flamethrower/c_flamethrower.mdl"
@@ -43140,8 +43140,8 @@ Tir secondaire : provoque un souffle d'air puissant repoussant les ennemis et pr
 			"item_class"	"tf_weapon_flamethrower"
 			"item_type_name"	"Lance-flammes"
 			"item_name"	"Lance-flammes de diamant tueur de robots Mk.I"
-			"item_description"	"Les brûlures réduisent les soins du Medi Gun et résistent aux effets de bouclier.
-Tir secondaire : provoque un souffle d'air puissant repoussant les ennemis et projectiles, et éteignant les coéquipiers enflammés."
+			"item_description"	"La postcombustion réduit les soins et la résistance du bouclier accordés par le Medigun.
+Tir secondaire : tir d'air comprimé puissant pouvant repousser adversaires et projectiles ou éteindre les membres de l'équipe en feu."
 			"proper_name"	"0"
 			"item_slot"	"primary"
 			"model_player"	"models/weapons/c_models/c_flamethrower/c_flamethrower.mdl"
@@ -45791,8 +45791,8 @@ Tir secondaire : provoque un souffle d'air puissant repoussant les ennemis et pr
 			"item_class"	"tf_weapon_flamethrower"
 			"item_type_name"	"Lance-flammes"
 			"item_name"	"Lance-flammes d'argent tueur de robots Mk.II"
-			"item_description"	"Les brûlures réduisent les soins du Medi Gun et résistent aux effets de bouclier.
-Tir secondaire : provoque un souffle d'air puissant repoussant les ennemis et projectiles, et éteignant les coéquipiers enflammés."
+			"item_description"	"La postcombustion réduit les soins et la résistance du bouclier accordés par le Medigun.
+Tir secondaire : tir d'air comprimé puissant pouvant repousser adversaires et projectiles ou éteindre les membres de l'équipe en feu."
 			"proper_name"	"0"
 			"item_slot"	"primary"
 			"model_player"	"models/weapons/c_models/c_flamethrower/c_flamethrower.mdl"
@@ -46201,8 +46201,8 @@ Tir secondaire : provoque un souffle d'air puissant repoussant les ennemis et pr
 			"item_class"	"tf_weapon_flamethrower"
 			"item_type_name"	"Lance-flammes"
 			"item_name"	"Lance-flammes d'or tueur de robots Mk.II"
-			"item_description"	"Les brûlures réduisent les soins du Medi Gun et résistent aux effets de bouclier.
-Tir secondaire : provoque un souffle d'air puissant repoussant les ennemis et projectiles, et éteignant les coéquipiers enflammés."
+			"item_description"	"La postcombustion réduit les soins et la résistance du bouclier accordés par le Medigun.
+Tir secondaire : tir d'air comprimé puissant pouvant repousser adversaires et projectiles ou éteindre les membres de l'équipe en feu."
 			"proper_name"	"0"
 			"item_slot"	"primary"
 			"model_player"	"models/weapons/c_models/c_flamethrower/c_flamethrower.mdl"
