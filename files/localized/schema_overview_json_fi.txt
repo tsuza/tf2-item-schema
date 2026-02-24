@@ -11185,7 +11185,7 @@
 				"id": 348,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Psycho-Delic"
+				"name": "Psykodeelinen"
 			},
 			{
 				"system": "unusual_butterfly_parent",
@@ -11444,7 +11444,7 @@
 				"id": 385,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Kynttilän liekki"
+				"name": "Candle Flame"
 			},
 			{
 				"system": "unusual_candle_teamcolor_blue",
@@ -11479,14 +11479,14 @@
 				"id": 390,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Current Conductor"
+				"name": "Salamana paikalla"
 			},
 			{
 				"system": "unusual_conductor_teamc_teamcolor_blue",
 				"id": 391,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Current Conductor"
+				"name": "Salamana paikalla"
 			},
 			{
 				"system": "unusual_sandy_parent",
@@ -11570,7 +11570,7 @@
 				"id": 403,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Midnight Frostfall"
+				"name": "Keskiyön kuura"
 			},
 			{
 				"system": "unusual_growing_flake_parent_twilight",
@@ -12392,7 +12392,7 @@
 				"system": "utaunt_krakenmouth_green_parent",
 				"id": 3124,
 				"attach_to_rootbone": false,
-				"name": "Deep-Sea Devourer"
+				"name": "Syvänmeren syömäri"
 			},
 			{
 				"system": "utaunt_krakenmouth_purple_parent",
@@ -12866,37 +12866,37 @@
 				"system": "utaunt_phantasam_green_parent",
 				"id": 3203,
 				"attach_to_rootbone": false,
-				"name": "Hazardous Gas"
+				"name": "Myrkkykaasu"
 			},
 			{
 				"system": "utaunt_phantasam_grey_parent",
 				"id": 3204,
 				"attach_to_rootbone": false,
-				"name": "Phantasmal Fog"
+				"name": "Unettomien usva"
 			},
 			{
 				"system": "utaunt_phantasam_purple_parent",
 				"id": 3205,
 				"attach_to_rootbone": false,
-				"name": "Haunted Mist"
+				"name": "Surmattujen sumu"
 			},
 			{
 				"system": "utaunt_multicurse_teamcolor_red",
 				"id": 3206,
 				"attach_to_rootbone": false,
-				"name": "Split Malice"
+				"name": "Liekinlyömä"
 			},
 			{
 				"system": "utaunt_multicurse_teamcolor_blue",
 				"id": 3207,
 				"attach_to_rootbone": false,
-				"name": "Split Malice"
+				"name": "Liekinlyömä"
 			},
 			{
 				"system": "utaunt_voidcrawlers_parent",
 				"id": 3208,
 				"attach_to_rootbone": false,
-				"name": "Void Crawlers"
+				"name": "Konttaavat kummajaiset"
 			},
 			{
 				"system": "utaunt_tarpit_dinos_parent",
@@ -13246,7 +13246,7 @@
 					{
 						"level": 18,
 						"required_score": 250,
-						"name": "The Über-Altruist's"
+						"name": "Uber-altruistin"
 					},
 					{
 						"level": 19,

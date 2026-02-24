@@ -1028,7 +1028,7 @@ Alt-vuur: Laat een luchtstoot los die vijanden en projectielen wegduwt en brande
 			<item_class>tf_weapon_invis</item_class>
 			<item_type_name>Onzichtbaarheidshorloge</item_type_name>
 			<item_name>Onzichtbaarheidshorloge</item_name>
-			<item_description>Alt-Fire: Turn invisible.  Cannot attack while invisible.  Bumping in to enemies will make you slightly visible to enemies</item_description>
+			<item_description>Alt-vuur: Word onzichtbaar. Je kunt niet aanvallen terwijl je onzichtbaar bent. Als je tegen vijanden aan loopt, word je een klein beetje zichtbaar.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>pda2</item_slot>
 			<model_player>models/weapons/v_models/v_watch_spy.mdl</model_player>
@@ -1563,7 +1563,7 @@ Alt-vuur: Deel een Sandvich met een vriend (Middelgrote medikit)</item_descripti
 			<defindex>45</defindex>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Scattergun</item_type_name>
-			<item_name>Force-a-Nature</item_name>
+			<item_name>De Kracht-der-Natuur</item_name>
 			<item_description>Dit wapen herlaadt het volledige magazijn in een keer</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
@@ -7511,7 +7511,7 @@ Alt-vuur: Laat een luchtstoot los die vijanden en projectielen wegduwt en brande
 			<item_class>tf_weapon_invis</item_class>
 			<item_type_name>Onzichtbaarheidshorloge</item_type_name>
 			<item_name>Onzichtbaarheidshorloge</item_name>
-			<item_description>Alt-Fire: Turn invisible.  Cannot attack while invisible.  Bumping in to enemies will make you slightly visible to enemies</item_description>
+			<item_description>Alt-vuur: Word onzichtbaar. Je kunt niet aanvallen terwijl je onzichtbaar bent. Als je tegen vijanden aan loopt, word je een klein beetje zichtbaar.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>pda2</item_slot>
 			<model_player>models/weapons/v_models/v_watch_spy.mdl</model_player>
@@ -11001,7 +11001,7 @@ diegenen die zich in de Ooglander bevinden.</item_description>
 			<item_class>tf_weapon_invis</item_class>
 			<item_type_name>Onzichtbaarheidshorloge</item_type_name>
 			<item_name>Het Enthousiastelingenuurwerk</item_name>
-			<item_description>Alt-Fire: Turn invisible.  Cannot attack while invisible.  Bumping in to enemies will make you slightly visible to enemies</item_description>
+			<item_description>Alt-vuur: Word onzichtbaar. Je kunt niet aanvallen terwijl je onzichtbaar bent. Als je tegen vijanden aan loopt, word je een klein beetje zichtbaar.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>pda2</item_slot>
 			<model_player>models/weapons/v_models/v_ttg_watch_spy.mdl</model_player>
@@ -45403,7 +45403,7 @@ Rust het uit om spreuken op te pakken en af te vuren.</item_description>
 			<defindex>1078</defindex>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Scattergun</item_type_name>
-			<item_name>Festive Force-a-Nature</item_name>
+			<item_name>Feestelijke Kracht-der-Natuur</item_name>
 			<item_description>Dit wapen herlaadt het volledige magazijn in een keer</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>primary</item_slot>
@@ -46623,7 +46623,7 @@ Als je een vijand op lange afstand raakt deel je een mini-meleevoltreffer uit.</
 			<defindex>1101</defindex>
 			<item_class>tf_weapon_parachute</item_class>
 			<item_type_name>Parachute</item_type_name>
-			<item_name>B.A.S.E. Jumper</item_name>
+			<item_name>De Basejumper</item_name>
 			<item_description>Druk op de &apos;SPRING&apos;-toets in de lucht om het in te zetten.
 Ingezette parachutes vertragen je afdaling.</item_description>
 			<proper_name>true</proper_name>

@@ -11141,7 +11141,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<id>348</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Psycho-Delic</name>
+			<name>Psykodeelinen</name>
 		</particle>
 		<particle>
 			<system>unusual_butterfly_parent</system>
@@ -11400,7 +11400,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<id>385</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Kynttilän liekki</name>
+			<name>Candle Flame</name>
 		</particle>
 		<particle>
 			<system>unusual_candle_teamcolor_blue</system>
@@ -11435,14 +11435,14 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<id>390</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Current Conductor</name>
+			<name>Salamana paikalla</name>
 		</particle>
 		<particle>
 			<system>unusual_conductor_teamc_teamcolor_blue</system>
 			<id>391</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Current Conductor</name>
+			<name>Salamana paikalla</name>
 		</particle>
 		<particle>
 			<system>unusual_sandy_parent</system>
@@ -11526,7 +11526,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<id>403</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Midnight Frostfall</name>
+			<name>Keskiyön kuura</name>
 		</particle>
 		<particle>
 			<system>unusual_growing_flake_parent_twilight</system>
@@ -12348,7 +12348,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<system>utaunt_krakenmouth_green_parent</system>
 			<id>3124</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Deep-Sea Devourer</name>
+			<name>Syvänmeren syömäri</name>
 		</particle>
 		<particle>
 			<system>utaunt_krakenmouth_purple_parent</system>
@@ -12822,37 +12822,37 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<system>utaunt_phantasam_green_parent</system>
 			<id>3203</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Hazardous Gas</name>
+			<name>Myrkkykaasu</name>
 		</particle>
 		<particle>
 			<system>utaunt_phantasam_grey_parent</system>
 			<id>3204</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Phantasmal Fog</name>
+			<name>Unettomien usva</name>
 		</particle>
 		<particle>
 			<system>utaunt_phantasam_purple_parent</system>
 			<id>3205</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Haunted Mist</name>
+			<name>Surmattujen sumu</name>
 		</particle>
 		<particle>
 			<system>utaunt_multicurse_teamcolor_red</system>
 			<id>3206</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Split Malice</name>
+			<name>Liekinlyömä</name>
 		</particle>
 		<particle>
 			<system>utaunt_multicurse_teamcolor_blue</system>
 			<id>3207</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Split Malice</name>
+			<name>Liekinlyömä</name>
 		</particle>
 		<particle>
 			<system>utaunt_voidcrawlers_parent</system>
 			<id>3208</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Void Crawlers</name>
+			<name>Konttaavat kummajaiset</name>
 		</particle>
 		<particle>
 			<system>utaunt_tarpit_dinos_parent</system>
@@ -13200,7 +13200,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 				<level>
 					<level>18</level>
 					<required_score>250</required_score>
-					<name>The Über-Altruist&apos;s</name>
+					<name>Uber-altruistin</name>
 				</level>
 				<level>
 					<level>19</level>

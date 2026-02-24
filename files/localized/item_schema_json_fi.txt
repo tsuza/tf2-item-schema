@@ -48631,7 +48631,7 @@
 				"defindex": 1108,
 				"item_class": "no_entity",
 				"item_type_name": "Erikoispilkka",
-				"item_name": "Taunt: Buy a Life",
+				"item_name": "Pilkka: Käteiskerska",
 				"item_description": "Spyn pilkka",
 				"proper_name": false,
 				"item_slot": "taunt",

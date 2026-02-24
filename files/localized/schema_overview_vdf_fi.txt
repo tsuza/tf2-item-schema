@@ -12518,7 +12518,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän."
 			"id"	"348"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Psycho-Delic"
+			"name"	"Psykodeelinen"
 		}
 		"331"
 		{
@@ -12814,7 +12814,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän."
 			"id"	"385"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Kynttilän liekki"
+			"name"	"Candle Flame"
 		}
 		"368"
 		{
@@ -12854,7 +12854,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän."
 			"id"	"390"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Current Conductor"
+			"name"	"Salamana paikalla"
 		}
 		"373"
 		{
@@ -12862,7 +12862,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän."
 			"id"	"391"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Current Conductor"
+			"name"	"Salamana paikalla"
 		}
 		"374"
 		{
@@ -12958,7 +12958,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän."
 			"id"	"403"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Midnight Frostfall"
+			"name"	"Keskiyön kuura"
 		}
 		"386"
 		{
@@ -13916,7 +13916,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän."
 			"system"	"utaunt_krakenmouth_green_parent"
 			"id"	"3124"
 			"attach_to_rootbone"	"0"
-			"name"	"Deep-Sea Devourer"
+			"name"	"Syvänmeren syömäri"
 		}
 		"522"
 		{
@@ -14469,42 +14469,42 @@ Palavien pelaajien tappamisesta saa nopeuslisän."
 			"system"	"utaunt_phantasam_green_parent"
 			"id"	"3203"
 			"attach_to_rootbone"	"0"
-			"name"	"Hazardous Gas"
+			"name"	"Myrkkykaasu"
 		}
 		"601"
 		{
 			"system"	"utaunt_phantasam_grey_parent"
 			"id"	"3204"
 			"attach_to_rootbone"	"0"
-			"name"	"Phantasmal Fog"
+			"name"	"Unettomien usva"
 		}
 		"602"
 		{
 			"system"	"utaunt_phantasam_purple_parent"
 			"id"	"3205"
 			"attach_to_rootbone"	"0"
-			"name"	"Haunted Mist"
+			"name"	"Surmattujen sumu"
 		}
 		"603"
 		{
 			"system"	"utaunt_multicurse_teamcolor_red"
 			"id"	"3206"
 			"attach_to_rootbone"	"0"
-			"name"	"Split Malice"
+			"name"	"Liekinlyömä"
 		}
 		"604"
 		{
 			"system"	"utaunt_multicurse_teamcolor_blue"
 			"id"	"3207"
 			"attach_to_rootbone"	"0"
-			"name"	"Split Malice"
+			"name"	"Liekinlyömä"
 		}
 		"605"
 		{
 			"system"	"utaunt_voidcrawlers_parent"
 			"id"	"3208"
 			"attach_to_rootbone"	"0"
-			"name"	"Void Crawlers"
+			"name"	"Konttaavat kummajaiset"
 		}
 		"606"
 		{
@@ -14920,7 +14920,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän."
 				{
 					"level"	"18"
 					"required_score"	"250"
-					"name"	"The Über-Altruist's"
+					"name"	"Uber-altruistin"
 				}
 				"19"
 				{

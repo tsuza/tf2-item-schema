@@ -47007,7 +47007,7 @@ Tämä on kaveripilkka. Kytke pilkka painamalla toimintopaikan näppäintä.</it
 			<defindex>1108</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>Erikoispilkka</item_type_name>
-			<item_name>Taunt: Buy a Life</item_name>
+			<item_name>Pilkka: Käteiskerska</item_name>
 			<item_description>Spyn pilkka</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
