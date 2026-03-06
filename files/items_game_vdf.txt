@@ -21899,6 +21899,7 @@
 					}
 				}
 			}
+			"xifier_class_remap"	"Iron Curtain"
 		}
 
 		"paintkit_base"
@@ -241671,6 +241672,8 @@
 				"tool target item" "30665" 
 				"tool target item" "30666" 
 				"tool target item" "30667" 
+
+
 			}
 		}
 		

@@ -17406,7 +17406,8 @@
                             "model": "models/workshop/weapons/c_models/c_iron_curtain/c_iron_curtain_festivizer.mdl"
                         }
                     }
-                }
+                },
+                "xifier_class_remap": "Iron Curtain"
             },
             "paintkit_base": {
                 "static_attrs": {
