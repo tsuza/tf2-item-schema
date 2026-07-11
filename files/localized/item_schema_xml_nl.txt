@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1d62f5c09ba2e14f6d4a4abc24dd8bb5921aa4b0.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -7551,7 +7551,6 @@ Alt-vuur: Laat een luchtstoot los die vijanden en projectielen wegduwt en brande
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoed</item_type_name>
 			<item_name>De Bediende</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/attendant.mdl</model_player>
@@ -7736,7 +7735,6 @@ als alliteratie met een &apos;ARR!&apos;</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoed</item_type_name>
 			<item_name>De Melkboer</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/milkhat.mdl</model_player>
@@ -7963,7 +7961,6 @@ Kan gebruikt worden om vuur te doven.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoed</item_type_name>
 			<item_name>Bekende Fez</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/fez.mdl</model_player>
@@ -8125,7 +8122,7 @@ Kan gebruikt worden om vuur te doven.</item_description>
 			<defindex>226</defindex>
 			<item_class>tf_weapon_buff_item</item_class>
 			<item_type_name>Strijdsbanier</item_type_name>
-			<item_name>Battalion&apos;s Backup</item_name>
+			<item_name>De Back-up van het Bataljon</item_name>
 			<item_description>Biedt een verdedigende boost die teamgenoten
 in de buurt tegen voltreffers beschermt
 , inkomende sentry-schade met 50% en
@@ -8186,7 +8183,6 @@ Woede neemt toe door uitgedeelde schade.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoed</item_type_name>
 			<item_name>Grenadiers Softcap</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/grenadier_softcap.mdl</model_player>
@@ -8292,7 +8288,6 @@ Woede neemt toe door uitgedeelde schade.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoed</item_type_name>
 			<item_name>Ouwe Knarsetand</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/snaggletooth.mdl</model_player>
@@ -8670,7 +8665,6 @@ Dit wapen brengt GEEN schade toe.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Helm</item_type_name>
 			<item_name>Lumbricuspet</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/worms_gear.mdl</model_player>
@@ -8937,7 +8931,6 @@ Verhoog het level door meer duels te winnen!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoeden</item_type_name>
 			<item_name>Boksers Beschermer</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/pugilist_protector.mdl</model_player>
@@ -9129,7 +9122,6 @@ Verhoog het level door meer duels te winnen!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoed</item_type_name>
 			<item_name>Opperhoofds Uitdaging</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/chief_rocketeer.mdl</model_player>
@@ -9226,7 +9218,6 @@ Victoriaanse soldaatkledij.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoed</item_type_name>
 			<item_name>Dokters Hippe Hoed</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/all_class/dappertopper/dappertopper_Scout.mdl</model_player>
@@ -9507,7 +9498,6 @@ https://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoed</item_type_name>
 			<item_name>Mann Co.-pet</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/Scout_cap.mdl</model_player>
@@ -10704,8 +10694,8 @@ diegenen die zich in de Ooglander bevinden.</item_description>
 			<image_inventory>backpack/player/items/all_class/voodoojuju_hat</image_inventory>
 			<min_ilevel>31</min_ilevel>
 			<max_ilevel>31</max_ilevel>
-			<image_url>http://media.steampowered.com/apps/440/icons/voodoojuju_hat.8cf9dc510eaf5d6cbfd4fc210ff3ee0aa906db9b.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/voodoojuju_hat_large.be40609e0ed4017c2c9013b19376cf75afe8831a.png</image_url_large>
+			<image_url>http://media.steampowered.com/apps/440/icons/voodoojuju_hat.fb64e44ddc108918d00e26452168652450b905b6.png</image_url>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/voodoojuju_hat_large.7013b3669f9c3226d1a2111fef588a313b330822.png</image_url_large>
 			<drop_type>drop</drop_type>
 			<craft_class></craft_class>
 			<craft_material_type></craft_material_type>
@@ -10835,7 +10825,7 @@ diegenen die zich in de Ooglander bevinden.</item_description>
 			<defindex>292</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoed</item_type_name>
-			<item_name>Delers Klep</item_name>
+			<item_name>Zonneklep van de Deler</item_name>
 			<item_description>Probeer Sasha niet te overbluffen.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -11171,7 +11161,6 @@ diegenen die zich in de Ooglander bevinden.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Helm</item_type_name>
 			<item_name>Berlijner Ridderhelm</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/berliners_bucket_helm.mdl</model_player>
@@ -11499,7 +11488,6 @@ De eerste treffer veroorzaakt een ontploffing</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoed</item_type_name>
 			<item_name>Het Grote Opperhoofd</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/heavy_big_chief.mdl</model_player>
@@ -12666,6 +12654,11 @@ Wie heeft er nou brood nodig?</item_description>
 					<class>kill_eater_kill_type</class>
 					<value>64</value>
 				</attribute>
+				<attribute>
+					<name>attach particle effect static</name>
+					<class>set_attached_particle_static</class>
+					<value>406</value>
+				</attribute>
 			</attributes>
 		</item>
 		<item>
@@ -12723,6 +12716,11 @@ Wie heeft er nou brood nodig?</item_description>
 					<name>counts as assister is some kind of pet this update is going to be awesome</name>
 					<class>counts_as_assister</class>
 					<value>1</value>
+				</attribute>
+				<attribute>
+					<name>attach particle effect static</name>
+					<class>set_attached_particle_static</class>
+					<value>406</value>
 				</attribute>
 			</attributes>
 		</item>
@@ -13232,7 +13230,6 @@ Wie heeft er nou brood nodig?</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoed</item_type_name>
 			<item_name>De Superfan</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/mnc_mascot_hat.mdl</model_player>
@@ -13280,7 +13277,6 @@ Wie heeft er nou brood nodig?</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kleding</item_type_name>
 			<item_name>De Essentiële Accessoires</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/mnc_mascot_outfit.mdl</model_player>
@@ -13814,7 +13810,6 @@ Valt flauw, mist de strijd</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Bandana</item_type_name>
 			<item_name>Heroïsche Hachimaki</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/homefront_blindfold.mdl</model_player>
@@ -15499,8 +15494,8 @@ en het andere op de rest.</item_description>
 			<item_class>tf_wearable_demoshield</item_class>
 			<item_type_name>Schild</item_type_name>
 			<item_name>Het Schitterende Scherm</item_name>
-			<item_description>Alt-vuur: Storm op je vijanden af en verwijder debuffs.
-Als je een vijand op lange afstand raakt deel je een meleevoltreffer uit.</item_description>
+			<item_description>Alt-Fire: Charge toward your enemies and remove debuffs.
+Gain a critical melee strike after impacting an enemy at distance.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_persian_shield/c_persian_shield.mdl</model_player>
@@ -16865,7 +16860,6 @@ Equip this item in a Taunt Slot. Activate to tell your victims you are making a 
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoeden</item_type_name>
 			<item_name>Lord Cockswains Merghelm</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/drg_pith_hat.mdl</model_player>
@@ -16915,7 +16909,6 @@ Equip this item in a Taunt Slot. Activate to tell your victims you are making a 
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Gezichtshaar</item_type_name>
 			<item_name>Lord Cockswains Nepbakkebaarden en Pijp</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/drg_hair_beard.mdl</model_player>
@@ -17014,7 +17007,6 @@ Equip this item in a Taunt Slot. Activate to tell your victims you are making a 
 			<item_class>tf_weapon_raygun</item_class>
 			<item_type_name>Ondeelbare deeltjesbreker</item_type_name>
 			<item_name>De Rechtvaardige Bizon</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_drg_righteousbison/c_drg_righteousbison.mdl</model_player>
@@ -20368,7 +20360,6 @@ OH GOD HET ZIT AAN Z&apos;N HOOFD VASTGESCHROEFD!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoed</item_type_name>
 			<item_name>De Nanobalaclava</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/spy/dex_belltower/dex_belltower.mdl</model_player>
@@ -20417,7 +20408,6 @@ OH GOD HET ZIT AAN Z&apos;N HOOFD VASTGESCHROEFD!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Bril</item_type_name>
 			<item_name>Deusbril</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/dex_glasses/dex_glasses_Scout.mdl</model_player>
@@ -20462,7 +20452,6 @@ OH GOD HET ZIT AAN Z&apos;N HOOFD VASTGESCHROEFD!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoed</item_type_name>
 			<item_name>De Bedrijfsman</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/Scout/dex_hat_Scout/dex_hat_Scout.mdl</model_player>
@@ -20507,7 +20496,6 @@ OH GOD HET ZIT AAN Z&apos;N HOOFD VASTGESCHROEFD!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Cosmetische augmentatie</item_type_name>
 			<item_name>De Zuiverheidsvuist</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/heavy/dex_sarifarm/dex_sarifarm.mdl</model_player>
@@ -20555,7 +20543,6 @@ OH GOD HET ZIT AAN Z&apos;N HOOFD VASTGESCHROEFD!</item_description>
 			<item_class>tf_weapon_revolver</item_class>
 			<item_type_name>Revolver</item_type_name>
 			<item_name>De Diamantrug</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_revolver/c_dex_revolver.mdl</model_player>
@@ -20606,7 +20593,6 @@ OH GOD HET ZIT AAN Z&apos;N HOOFD VASTGESCHROEFD!</item_description>
 			<item_class>tf_weapon_sniperrifle</item_class>
 			<item_type_name>Snipergeweer</item_type_name>
 			<item_name>De Machina</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_sniperrifle/c_dex_sniperrifle.mdl</model_player>
@@ -20667,7 +20653,6 @@ OH GOD HET ZIT AAN Z&apos;N HOOFD VASTGESCHROEFD!</item_description>
 			<item_class>tf_weapon_shotgun_primary</item_class>
 			<item_type_name>Shotgun</item_type_name>
 			<item_name>De Weduwemaker</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_shotgun/c_dex_shotgun.mdl</model_player>
@@ -20733,7 +20718,6 @@ OH GOD HET ZIT AAN Z&apos;N HOOFD VASTGESCHROEFD!</item_description>
 			<item_class>tf_weapon_mechanical_arm</item_class>
 			<item_type_name>Robotarm</item_type_name>
 			<item_name>De Kortsluiter</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_arm/c_dex_arm.mdl</model_player>
@@ -21003,7 +20987,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoed</item_type_name>
 			<item_name>Feesthoedje</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/bdayhat_Scout.mdl</model_player>
@@ -21096,7 +21079,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoed</item_type_name>
 			<item_name>El Jefe</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/rebel_cap.mdl</model_player>
@@ -21284,7 +21266,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>Het Haar van de Hond</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_hat.mdl</model_player>
@@ -21337,7 +21318,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>De Schotse Snauw</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_misc1.mdl</model_player>
@@ -21390,7 +21370,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>De Gepekelde Poten</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_misc2.mdl</model_player>
@@ -21443,7 +21422,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>De Verpakkingsstrijder</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_hat.mdl</model_player>
@@ -21496,7 +21474,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>B-ankh!</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_misc1.mdl</model_player>
@@ -21549,7 +21526,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>De Futankhamun</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_misc2.mdl</model_player>
@@ -21602,7 +21578,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>De Brandende Bul</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_hat.mdl</model_player>
@@ -21655,7 +21630,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>De Gevallen Engel</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_misc1.mdl</model_player>
@@ -21708,7 +21682,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>Satanische Staart</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_misc2.mdl</model_player>
@@ -21761,7 +21734,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>De Einstein</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_hat.mdl</model_player>
@@ -21814,7 +21786,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>Dr. Kijkersnor</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_misc1.mdl</model_player>
@@ -21867,7 +21838,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>De Smaragdenjarate</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_misc2.mdl</model_player>
@@ -21920,7 +21890,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>De Idiotendoos</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_hat.mdl</model_player>
@@ -21973,7 +21942,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>De Stalen Pijpen</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_misc1.mdl</model_player>
@@ -22026,7 +21994,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>Het Veterbudget</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_misc2.mdl</model_player>
@@ -22079,7 +22046,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>De Under Cover</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_hat.mdl</model_player>
@@ -22132,7 +22098,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>Griffins Kijker</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_misc1.mdl</model_player>
@@ -22185,7 +22150,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>De Ontastbare Ascot</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_misc2.mdl</model_player>
@@ -22238,7 +22202,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>De Blikopener</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_hat.mdl</model_player>
@@ -22291,7 +22254,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>Het Sovjet-stikwerk</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_misc1.mdl</model_player>
@@ -22344,7 +22306,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>De Stalen Neuzenstampers</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_misc2.mdl</model_player>
@@ -22397,7 +22358,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>De Heilige Jager</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_hat.mdl</model_player>
@@ -22450,7 +22410,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>Zilveren Kogels</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_misc1.mdl</model_player>
@@ -22503,7 +22462,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>Knoflookflankstaak</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_misc2.mdl</model_player>
@@ -22556,7 +22514,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>De Zoemdoder</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_hat.mdl</model_player>
@@ -22609,7 +22566,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>De Grensvlieger</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_misc1.mdl</model_player>
@@ -22662,7 +22618,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostuumonderdeel</item_type_name>
 			<item_name>De Legende van Bugfoot</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_misc2.mdl</model_player>
@@ -22715,7 +22670,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Masker</item_type_name>
 			<item_name>De Laatste Adem</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/pyro/pyro_halloween_gasmask/pyro_halloween_gasmask.mdl</model_player>
@@ -23463,7 +23417,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Badge</item_type_name>
 			<item_name>Mark of the Saint</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/sr3_badge.mdl</model_player>
@@ -26098,7 +26051,6 @@ Zelfgekozen decals kunnen op dit voorwerp gebruikt worden.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Shirt</item_type_name>
 			<item_name>Dr. Whoa</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/bowtie.mdl</model_player>
@@ -26244,7 +26196,6 @@ Zelfgekozen decals kunnen op dit voorwerp gebruikt worden.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Rugzak</item_type_name>
 			<item_name>De Knusse Kampeerder</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/player/items/sniper/xms_sniper_commandobackpack/xms_sniper_commandobackpack.mdl</model_player>
@@ -28652,7 +28603,6 @@ Alt-vuur: Laat een luchtstoot los die vijanden en projectielen wegduwt en brande
 			<item_class>craft_item</item_class>
 			<item_type_name>Ring</item_type_name>
 			<item_name>Iets speciaals voor een speciaal iemand</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<model_player>null</model_player>
 			<item_quality>6</item_quality>
@@ -29172,7 +29122,6 @@ Alt-vuur: Laat een luchtstoot los die vijanden en projectielen wegduwt en brande
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Func_Medal</item_type_name>
 			<item_name>De Mappersmedaille</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/mapper_medal.mdl</model_player>
@@ -29633,7 +29582,6 @@ Alt-vuur: Laat een luchtstoot los die vijanden en projectielen wegduwt en brande
 			<item_class>tf_weapon_rocketlauncher</item_class>
 			<item_type_name>Raketwerper</item_type_name>
 			<item_name>Bedelaars Bazooka</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_dumpster_device/c_dumpster_device.mdl</model_player>
@@ -30522,7 +30470,6 @@ Alt-vuur: Laat een luchtstoot los die vijanden en projectielen wegduwt en brande
 			<item_class>tf_weapon_charged_smg</item_class>
 			<item_type_name>Machinepistool</item_type_name>
 			<item_name>Het Schoonmakersschiettuig</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pro_smg/c_pro_smg.mdl</model_player>
@@ -31620,7 +31567,6 @@ Hier gaan koppen rollen.</item_description>
 			<item_class>tf_weapon_pep_brawler_blaster</item_class>
 			<item_type_name>Scattergun</item_type_name>
 			<item_name>Kinderbakkesknaller</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pep_scattergun/c_pep_scattergun.mdl</model_player>
@@ -31682,7 +31628,6 @@ Hier gaan koppen rollen.</item_description>
 			<item_class>tf_weapon_handgun_scout_secondary</item_class>
 			<item_type_name>Pistool</item_type_name>
 			<item_name>Mooiboys Zakpistool</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pep_pistol/c_pep_pistol.mdl</model_player>
@@ -41888,7 +41833,6 @@ Alt-vuur: Laat een luchtstoot los die vijanden en projectielen wegduwt en brande
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoed</item_type_name>
 			<item_name>Mann Co. Online-pet</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/Scout_cap_online.mdl</model_player>
@@ -44960,7 +44904,7 @@ Dit is een aardig ogend spreukenboek vol met pagina&apos;s die je hebt verzameld
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>100</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete.57f64ae848a23c8232a2f7dcd89bd6c298a47597.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete_large.da01f0b58f4b411288c36739f48bd322126cf6dd.png</image_url_large>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete_large.091cca0d87df8b95374f898da7b80f5b67f3b088.png</image_url_large>
 			<capabilities>
 				<nameable>true</nameable>
 				<can_gift_wrap>true</can_gift_wrap>
@@ -45973,6 +45917,17 @@ Sentry&apos;s zijn 3 seconden nadat ze niet meer bestuurd worden uitgeschakeld.<
 				<can_killstreakify>true</can_killstreakify>
 				<can_consume>true</can_consume>
 			</capabilities>
+			<styles>
+				<style>
+					<name>Kogels</name>
+				</style>
+				<style>
+					<name>Geen kogels</name>
+					<additional_hidden_bodygroups>
+						<bullets>1</bullets>
+					</additional_hidden_bodygroups>
+				</style>
+			</styles>
 			<used_by_classes>
 				<class>Heavy</class>
 			</used_by_classes>
@@ -46139,7 +46094,6 @@ Sentry&apos;s zijn 3 seconden nadat ze niet meer bestuurd worden uitgeschakeld.<
 			<item_class>tf_weapon_compound_bow</item_class>
 			<item_type_name>Boog</item_type_name>
 			<item_name>De Verstevigde Compound</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_bow_thief/c_bow_thief.mdl</model_player>
@@ -46195,7 +46149,6 @@ Sentry&apos;s zijn 3 seconden nadat ze niet meer bestuurd worden uitgeschakeld.<
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Helm</item_type_name>
 			<item_name>De Vergulde Verdediger</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/soldier/thief_soldier_helmet/thief_soldier_helmet.mdl</model_player>
@@ -46243,7 +46196,6 @@ Sentry&apos;s zijn 3 seconden nadat ze niet meer bestuurd worden uitgeschakeld.<
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Cape</item_type_name>
 			<item_name>De Misdadige Mantel</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/sniper/thief_sniper_cape/thief_sniper_cape.mdl</model_player>
@@ -46291,7 +46243,6 @@ Sentry&apos;s zijn 3 seconden nadat ze niet meer bestuurd worden uitgeschakeld.<
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kap</item_type_name>
 			<item_name>Doodkapje</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/sniper/thief_sniper_hood/thief_sniper_hood.mdl</model_player>
@@ -46339,7 +46290,6 @@ Sentry&apos;s zijn 3 seconden nadat ze niet meer bestuurd worden uitgeschakeld.<
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Badge</item_type_name>
 			<item_name>De Badge van de Baron</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/thief_badge/thief_badge_demo.mdl</model_player>
@@ -46437,7 +46387,6 @@ Sentry&apos;s zijn 3 seconden nadat ze niet meer bestuurd worden uitgeschakeld.<
 			<item_class>tf_weapon_sniperrifle_classic</item_class>
 			<item_type_name>Snipergeweer</item_type_name>
 			<item_name>De Klassieker</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/weapons/c_models/c_tfc_sniperrifle/c_tfc_sniperrifle.mdl</model_player>
@@ -46720,7 +46669,6 @@ Ingezette parachutes vertragen je afdaling.</item_description>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Scattergun</item_type_name>
 			<item_name>De Rugbeuker</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_scatterdrum/c_scatterdrum.mdl</model_player>
@@ -47665,7 +47613,6 @@ Geïnspireerd door de TF2-film &apos;Expiration Date&apos;</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Bril</item_type_name>
 			<item_name>Torende Pilaar van Zomerse Zonnebrillen</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/summer_deal_Scout.mdl</model_player>
@@ -47715,7 +47662,6 @@ Geïnspireerd door de TF2-film &apos;Expiration Date&apos;</item_description>
 			<item_class>saxxy</item_class>
 			<item_type_name>Hamer</item_type_name>
 			<item_name>Necropletter</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_carnival_mallet/c_carnival_mallet.mdl</model_player>
@@ -47910,7 +47856,6 @@ Hogere levels geven meer eendenvondsten.</item_description>
 			<item_class>saxxy</item_class>
 			<item_type_name>Bord</item_type_name>
 			<item_name>De Verkeersbrigadier</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_crossing_guard/c_crossing_guard.mdl</model_player>

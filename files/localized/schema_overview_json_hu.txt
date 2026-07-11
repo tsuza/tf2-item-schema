@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.1d62f5c09ba2e14f6d4a4abc24dd8bb5921aa4b0.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -11587,6 +11587,75 @@
 				"name": "Mélyhűtött"
 			},
 			{
+				"system": "coin_spin",
+				"id": 406,
+				"attach_to_rootbone": true,
+				"name": "Attrib_Particle406"
+			},
+			{
+				"system": "unusual_aurora_purple_parent",
+				"id": 407,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Elmosódott fények"
+			},
+			{
+				"system": "unusual_aurora_teal_parent",
+				"id": 408,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Északi éjszakák"
+			},
+			{
+				"system": "unusual_aurora_green_parent",
+				"id": 409,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Napperzselte"
+			},
+			{
+				"system": "unusual_vinethorn_teamcolor_red",
+				"id": 410,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Virágözön"
+			},
+			{
+				"system": "unusual_vinethorn_teamcolor_blue",
+				"id": 411,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Virágözön"
+			},
+			{
+				"system": "unusual_spaceorbit_parent",
+				"id": 412,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Csillagpálya"
+			},
+			{
+				"system": "unusual_butterfly_teamcolor_red",
+				"id": 413,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Boldog pillangók"
+			},
+			{
+				"system": "unusual_butterfly_teamcolor_blue",
+				"id": 414,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Boldog pillangók"
+			},
+			{
+				"system": "unusual_butterfly_parent_purple",
+				"id": 415,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Leheletfinom szárnyak"
+			},
+			{
 				"system": "weapon_unusual_hot",
 				"id": 701,
 				"attach_to_rootbone": false,
@@ -12987,6 +13056,42 @@
 				"id": 3223,
 				"attach_to_rootbone": false,
 				"name": "Áramkör-szakadás"
+			},
+			{
+				"system": "utaunt_wheatfield_parent",
+				"id": 3224,
+				"attach_to_rootbone": false,
+				"name": "Búzamező"
+			},
+			{
+				"system": "utaunt_luminousdrift_teamcolor_red",
+				"id": 3225,
+				"attach_to_rootbone": false,
+				"name": "Fénylő sodrás"
+			},
+			{
+				"system": "utaunt_luminousdrift_teamcolor_blue",
+				"id": 3226,
+				"attach_to_rootbone": false,
+				"name": "Fénylő sodrás"
+			},
+			{
+				"system": "utaunt_luminousdrift_purple_parent",
+				"id": 3227,
+				"attach_to_rootbone": false,
+				"name": "Fénylő váltás"
+			},
+			{
+				"system": "utaunt_dualspotlights_parent",
+				"id": 3228,
+				"attach_to_rootbone": false,
+				"name": "Reflektorfények"
+			},
+			{
+				"system": "utaunt_underwater_parent",
+				"id": 3229,
+				"attach_to_rootbone": false,
+				"name": "Mélymerülés"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",

@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1d62f5c09ba2e14f6d4a4abc24dd8bb5921aa4b0.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -1508,7 +1508,7 @@ Alt-Fire：炎上中の敵や発射物を押しかえしたり、炎上中の味
 			<defindex>44</defindex>
 			<item_class>tf_weapon_bat_wood</item_class>
 			<item_type_name>バット</item_type_name>
-			<item_name>Sandman</item_name>
+			<item_name>サンドマン</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_wooden_bat/c_wooden_bat.mdl</model_player>
@@ -7551,7 +7551,6 @@ Alt-Fire：炎上中の敵や発射物を押しかえしたり、炎上中の味
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>Attendant</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/attendant.mdl</model_player>
@@ -7736,7 +7735,6 @@ Alt-Fire：炎上中の敵や発射物を押しかえしたり、炎上中の味
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>Milkman</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/milkhat.mdl</model_player>
@@ -7963,7 +7961,6 @@ Mann社 のやる気満々の
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>Familiar Fez</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/fez.mdl</model_player>
@@ -8010,7 +8007,7 @@ Mann社 のやる気満々の
 			<defindex>224</defindex>
 			<item_class>tf_weapon_revolver</item_class>
 			<item_type_name>リボルバー</item_type_name>
-			<item_name>L&apos;Etranger</item_name>
+			<item_name>L&apos;Étranger</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_letranger/c_letranger.mdl</model_player>
@@ -8185,7 +8182,6 @@ Mann社 のやる気満々の
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>Grenadier&apos;s Softcap</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/grenadier_softcap.mdl</model_player>
@@ -8232,7 +8228,7 @@ Mann社 のやる気満々の
 			<defindex>228</defindex>
 			<item_class>tf_weapon_rocketlauncher</item_class>
 			<item_type_name>ロケットランチャー</item_type_name>
-			<item_name>Black Box</item_name>
+			<item_name>ブラック・ボックス</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_blackbox/c_blackbox.mdl</model_player>
@@ -8291,7 +8287,6 @@ Mann社 のやる気満々の
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>Ol&apos; Snaggletooth</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/snaggletooth.mdl</model_player>
@@ -8562,7 +8557,7 @@ Mann社 のやる気満々の
 			<defindex>237</defindex>
 			<item_class>tf_weapon_rocketlauncher</item_class>
 			<item_type_name>ロケットランチャー</item_type_name>
-			<item_name>Rocket Jumper</item_name>
+			<item_name>ロケットジャンパー</item_name>
 			<item_description>ロケットジャンプの技とパターンを学ぶための
 練習用の特殊なロケットランチャー。
 この武器のダメージは0。</item_description>
@@ -8669,7 +8664,6 @@ Mann社 のやる気満々の
 			<item_class>tf_wearable</item_class>
 			<item_type_name>ヘルメット</item_type_name>
 			<item_name>ワームのヘルメット</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/worms_gear.mdl</model_player>
@@ -8935,7 +8929,6 @@ Mann社 のやる気満々の
 			<item_class>tf_wearable</item_class>
 			<item_type_name>ヘッドギア</item_type_name>
 			<item_name>ボクサーのプロテクター</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/pugilist_protector.mdl</model_player>
@@ -9127,7 +9120,6 @@ Mann社 のやる気満々の
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>チーフタンチャレンジ</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/chief_rocketeer.mdl</model_player>
@@ -9224,7 +9216,6 @@ Mann社 のやる気満々の
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>ドクターのダッパートッパー</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/all_class/dappertopper/dappertopper_Scout.mdl</model_player>
@@ -9505,7 +9496,6 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>Mann社 Cap</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/Scout_cap.mdl</model_player>
@@ -10702,8 +10692,8 @@ http://wiki.teamfortress.com/</item_description>
 			<image_inventory>backpack/player/items/all_class/voodoojuju_hat</image_inventory>
 			<min_ilevel>31</min_ilevel>
 			<max_ilevel>31</max_ilevel>
-			<image_url>http://media.steampowered.com/apps/440/icons/voodoojuju_hat.8cf9dc510eaf5d6cbfd4fc210ff3ee0aa906db9b.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/voodoojuju_hat_large.be40609e0ed4017c2c9013b19376cf75afe8831a.png</image_url_large>
+			<image_url>http://media.steampowered.com/apps/440/icons/voodoojuju_hat.fb64e44ddc108918d00e26452168652450b905b6.png</image_url>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/voodoojuju_hat_large.7013b3669f9c3226d1a2111fef588a313b330822.png</image_url_large>
 			<drop_type>drop</drop_type>
 			<craft_class></craft_class>
 			<craft_material_type></craft_material_type>
@@ -11169,7 +11159,6 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>ヘルメット</item_type_name>
 			<item_name>Berliner&apos;s Bucket Helm</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/berliners_bucket_helm.mdl</model_player>
@@ -11497,7 +11486,6 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>ビッグチーフ</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/heavy_big_chief.mdl</model_player>
@@ -12665,6 +12653,11 @@ http://wiki.teamfortress.com/</item_description>
 					<class>kill_eater_kill_type</class>
 					<value>64</value>
 				</attribute>
+				<attribute>
+					<name>attach particle effect static</name>
+					<class>set_attached_particle_static</class>
+					<value>406</value>
+				</attribute>
 			</attributes>
 		</item>
 		<item>
@@ -12722,6 +12715,11 @@ http://wiki.teamfortress.com/</item_description>
 					<name>counts as assister is some kind of pet this update is going to be awesome</name>
 					<class>counts_as_assister</class>
 					<value>1</value>
+				</attribute>
+				<attribute>
+					<name>attach particle effect static</name>
+					<class>set_attached_particle_static</class>
+					<value>406</value>
 				</attribute>
 			</attributes>
 		</item>
@@ -13231,7 +13229,6 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>スーパーファン</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/mnc_mascot_hat.mdl</model_player>
@@ -13279,7 +13276,6 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>衣装</item_type_name>
 			<item_name>エッセンシャルアクセサリー</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/mnc_mascot_outfit.mdl</model_player>
@@ -13813,7 +13809,6 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>バンダナ</item_type_name>
 			<item_name>ヒーローの鉢巻</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/homefront_blindfold.mdl</model_player>
@@ -15434,7 +15429,7 @@ http://wiki.teamfortress.com/</item_description>
 			<defindex>405</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>ブーツ</item_type_name>
-			<item_name>Ali Baba&apos;s Wee Booties</item_name>
+			<item_name>アリ・ババの小っちゃなブーツ</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/player/items/demo/demo_booties/demo_booties.mdl</model_player>
@@ -15497,8 +15492,8 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable_demoshield</item_class>
 			<item_type_name>盾</item_type_name>
 			<item_name>スプレンディッド・スクリーン</item_name>
-			<item_description>オルトファイア：敵に突進してデバフを解除する。
-敵に当たるとクリティカル近接攻撃を得る。</item_description>
+			<item_description>オルトファイア：敵に突進し、デバフを解除する
+離れた位置から敵に衝突すると近接攻撃がクリティカルになる。</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_persian_shield/c_persian_shield.mdl</model_player>
@@ -16863,7 +16858,6 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>ヘッドギア</item_type_name>
 			<item_name>ロード・コックスウェインのピスヘルメット</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/drg_pith_hat.mdl</model_player>
@@ -16913,7 +16907,6 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>フェイシャルヘア</item_type_name>
 			<item_name>ロード・コックスウェインのノベルティ・マトンチョップとパイプ</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/drg_hair_beard.mdl</model_player>
@@ -17012,7 +17005,6 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_weapon_raygun</item_class>
 			<item_type_name>インディヴィデュアル粒子粉砕砲</item_type_name>
 			<item_name>ライチャス・バイソン</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_drg_righteousbison/c_drg_righteousbison.mdl</model_player>
@@ -20366,7 +20358,6 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>ナノバラクラバ</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/spy/dex_belltower/dex_belltower.mdl</model_player>
@@ -20415,7 +20406,6 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>眼鏡</item_type_name>
 			<item_name>デウススペック</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/dex_glasses/dex_glasses_Scout.mdl</model_player>
@@ -20460,7 +20450,6 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>カンパニーマン</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/Scout/dex_hat_Scout/dex_hat_Scout.mdl</model_player>
@@ -20505,7 +20494,6 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>上辺だけの強化</item_type_name>
 			<item_name>ピュリティ・フィスト</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/heavy/dex_sarifarm/dex_sarifarm.mdl</model_player>
@@ -20553,7 +20541,6 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_weapon_revolver</item_class>
 			<item_type_name>リボルバー</item_type_name>
 			<item_name>ダイヤモンドバック</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_revolver/c_dex_revolver.mdl</model_player>
@@ -20604,7 +20591,6 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_weapon_sniperrifle</item_class>
 			<item_type_name>スナイパーライフル</item_type_name>
 			<item_name>マキナ</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_sniperrifle/c_dex_sniperrifle.mdl</model_player>
@@ -20665,7 +20651,6 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_weapon_shotgun_primary</item_class>
 			<item_type_name>ショットガン</item_type_name>
 			<item_name>ウィドウメーカー</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_shotgun/c_dex_shotgun.mdl</model_player>
@@ -20731,7 +20716,6 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_weapon_mechanical_arm</item_class>
 			<item_type_name>ロボットアーム</item_type_name>
 			<item_name>ショート・サーキット</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_arm/c_dex_arm.mdl</model_player>
@@ -21001,7 +20985,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>パーティー帽子</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/bdayhat_Scout.mdl</model_player>
@@ -21094,7 +21077,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>El Jefe</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/rebel_cap.mdl</model_player>
@@ -21282,7 +21264,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>ヘア・オブ・ザ・ドッグ</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_hat.mdl</model_player>
@@ -21335,7 +21316,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>スコティッシュスナール</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_misc1.mdl</model_player>
@@ -21388,7 +21368,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>ピクルスポー</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_misc2.mdl</model_player>
@@ -21441,7 +21420,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>ラップバトラー</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_hat.mdl</model_player>
@@ -21494,7 +21472,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>B-アンカー！</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_misc1.mdl</model_player>
@@ -21547,7 +21524,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>フタンカーメン</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_misc2.mdl</model_player>
@@ -21600,7 +21576,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>Blazing Bull</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_hat.mdl</model_player>
@@ -21653,7 +21628,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>Fallen Angel</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_misc1.mdl</model_player>
@@ -21706,7 +21680,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>Tail From the Crypt</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_misc2.mdl</model_player>
@@ -21759,7 +21732,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>アインシュタイン</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_hat.mdl</model_player>
@@ -21811,8 +21783,7 @@ Gamescom 2011</item_description>
 			<defindex>553</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
-			<item_name>Dr. Gogglestache</item_name>
-			<item_description></item_description>
+			<item_name>ゴーグルスタッシュ博士</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_misc1.mdl</model_player>
@@ -21865,7 +21836,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>エメラルドジャラテ</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_misc2.mdl</model_player>
@@ -21918,7 +21888,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>イディオットボックス</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_hat.mdl</model_player>
@@ -21971,7 +21940,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>スチールパイプ</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_misc1.mdl</model_player>
@@ -22024,7 +21992,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>シューストリングバジェット</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_misc2.mdl</model_player>
@@ -22077,7 +22044,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>アンダーカバー</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_hat.mdl</model_player>
@@ -22130,7 +22096,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>グリフィンズゴッグ</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_misc1.mdl</model_player>
@@ -22183,7 +22148,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>インタンジブルアスコット</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_misc2.mdl</model_player>
@@ -22236,7 +22200,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>カンオープナー</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_hat.mdl</model_player>
@@ -22289,7 +22252,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>ソビエトスティッチアップ</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_misc1.mdl</model_player>
@@ -22342,7 +22304,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>スチールトゥストンパー</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_misc2.mdl</model_player>
@@ -22395,7 +22356,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>ホーリーハンター</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_hat.mdl</model_player>
@@ -22448,7 +22408,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>シルバーブレット</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_misc1.mdl</model_player>
@@ -22501,7 +22460,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>ガーリックフランクステーク</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_misc2.mdl</model_player>
@@ -22554,7 +22512,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>バズキラー</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_hat.mdl</model_player>
@@ -22607,7 +22564,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>フロンティアフライボーイ</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_misc1.mdl</model_player>
@@ -22660,7 +22616,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>コスチュームピース</item_type_name>
 			<item_name>レジェンド・オブ・バグフット</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_misc2.mdl</model_player>
@@ -22713,7 +22668,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>仮面</item_type_name>
 			<item_name>Last Breath</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/pyro/pyro_halloween_gasmask/pyro_halloween_gasmask.mdl</model_player>
@@ -23461,7 +23415,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>バッジ</item_type_name>
 			<item_name>マーク・オブ・ザ・セイント</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/sr3_badge.mdl</model_player>
@@ -26096,7 +26049,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>シャツ</item_type_name>
 			<item_name>Dr. Whoa</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/bowtie.mdl</model_player>
@@ -26242,7 +26194,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>バックパック</item_type_name>
 			<item_name>コージー・キャンパー</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/player/items/sniper/xms_sniper_commandobackpack/xms_sniper_commandobackpack.mdl</model_player>
@@ -28649,7 +28600,6 @@ Alt-Fire：炎上中の敵や発射物を押しかえしたり、炎上中の味
 			<item_class>craft_item</item_class>
 			<item_type_name>指輪</item_type_name>
 			<item_name>特別な人のための特別な何か</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<model_player>null</model_player>
 			<item_quality>6</item_quality>
@@ -29169,7 +29119,6 @@ Alt-Fire：炎上中の敵や発射物を押しかえしたり、炎上中の味
 			<item_class>tf_wearable</item_class>
 			<item_type_name>ファンクションメダル</item_type_name>
 			<item_name>マップ制作者のメダル</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/mapper_medal.mdl</model_player>
@@ -29630,7 +29579,6 @@ Alt-Fire：炎上中の敵や発射物を押しかえしたり、炎上中の味
 			<item_class>tf_weapon_rocketlauncher</item_class>
 			<item_type_name>ロケットランチャー</item_type_name>
 			<item_name>ベガーのバズーカ</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_dumpster_device/c_dumpster_device.mdl</model_player>
@@ -30519,7 +30467,6 @@ Alt-Fire：炎上中の敵や発射物を押しかえしたり、炎上中の味
 			<item_class>tf_weapon_charged_smg</item_class>
 			<item_type_name>SMG</item_type_name>
 			<item_name>クリーナーズ・カービン</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pro_smg/c_pro_smg.mdl</model_player>
@@ -31617,7 +31564,6 @@ Alt-Fire：炎上中の敵や発射物を押しかえしたり、炎上中の味
 			<item_class>tf_weapon_pep_brawler_blaster</item_class>
 			<item_type_name>散弾銃</item_type_name>
 			<item_name>ベビーフェイス・ブラスター</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pep_scattergun/c_pep_scattergun.mdl</model_player>
@@ -31679,7 +31625,6 @@ Alt-Fire：炎上中の敵や発射物を押しかえしたり、炎上中の味
 			<item_class>tf_weapon_handgun_scout_secondary</item_class>
 			<item_type_name>ピストル</item_type_name>
 			<item_name>プリティ・ボーイズ・ポケット・ピストル</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pep_pistol/c_pep_pistol.mdl</model_player>
@@ -41886,7 +41831,6 @@ Alt-Fire：炎上中の敵や発射物を押しかえしたり、炎上中の味
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>Mann社オンラインキャップ</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/Scout_cap_online.mdl</model_player>
@@ -44969,7 +44913,7 @@ FaceBagHole社の天才たちのおかげで、もうどちらかを選ぶ必要
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>100</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete.57f64ae848a23c8232a2f7dcd89bd6c298a47597.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete_large.da01f0b58f4b411288c36739f48bd322126cf6dd.png</image_url_large>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete_large.091cca0d87df8b95374f898da7b80f5b67f3b088.png</image_url_large>
 			<capabilities>
 				<nameable>true</nameable>
 				<can_gift_wrap>true</can_gift_wrap>
@@ -45985,6 +45929,17 @@ FaceBagHole社の天才たちのおかげで、もうどちらかを選ぶ必要
 				<can_killstreakify>true</can_killstreakify>
 				<can_consume>true</can_consume>
 			</capabilities>
+			<styles>
+				<style>
+					<name>弾丸</name>
+				</style>
+				<style>
+					<name>弾丸なし</name>
+					<additional_hidden_bodygroups>
+						<bullets>1</bullets>
+					</additional_hidden_bodygroups>
+				</style>
+			</styles>
 			<used_by_classes>
 				<class>Heavy</class>
 			</used_by_classes>
@@ -46153,7 +46108,6 @@ FaceBagHole社の天才たちのおかげで、もうどちらかを選ぶ必要
 			<item_class>tf_weapon_compound_bow</item_class>
 			<item_type_name>ボウ</item_type_name>
 			<item_name>強化コンパウンド</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_bow_thief/c_bow_thief.mdl</model_player>
@@ -46209,7 +46163,6 @@ FaceBagHole社の天才たちのおかげで、もうどちらかを選ぶ必要
 			<item_class>tf_wearable</item_class>
 			<item_type_name>ヘルメット</item_type_name>
 			<item_name>ギルデッド・ガード</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/soldier/thief_soldier_helmet/thief_soldier_helmet.mdl</model_player>
@@ -46257,7 +46210,6 @@ FaceBagHole社の天才たちのおかげで、もうどちらかを選ぶ必要
 			<item_class>tf_wearable</item_class>
 			<item_type_name>ケープ</item_type_name>
 			<item_name>クリミナル・クローク</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/sniper/thief_sniper_cape/thief_sniper_cape.mdl</model_player>
@@ -46305,7 +46257,6 @@ FaceBagHole社の天才たちのおかげで、もうどちらかを選ぶ必要
 			<item_class>tf_wearable</item_class>
 			<item_type_name>フード</item_type_name>
 			<item_name>ドレッド・ハイディング・フード</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/sniper/thief_sniper_hood/thief_sniper_hood.mdl</model_player>
@@ -46353,7 +46304,6 @@ FaceBagHole社の天才たちのおかげで、もうどちらかを選ぶ必要
 			<item_class>tf_wearable</item_class>
 			<item_type_name>バッジ</item_type_name>
 			<item_name>バロニアルバッジ</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/thief_badge/thief_badge_demo.mdl</model_player>
@@ -46451,7 +46401,6 @@ FaceBagHole社の天才たちのおかげで、もうどちらかを選ぶ必要
 			<item_class>tf_weapon_sniperrifle_classic</item_class>
 			<item_type_name>スナイパーライフル</item_type_name>
 			<item_name>クラシック</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/weapons/c_models/c_tfc_sniperrifle/c_tfc_sniperrifle.mdl</model_player>
@@ -46734,7 +46683,6 @@ FaceBagHole社の天才たちのおかげで、もうどちらかを選ぶ必要
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>散弾銃</item_type_name>
 			<item_name>バックスキャッター</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_scatterdrum/c_scatterdrum.mdl</model_player>
@@ -47680,7 +47628,6 @@ TF2ムービー『Expiration Date』にインスパイアされました</item_d
 			<item_class>tf_wearable</item_class>
 			<item_type_name>眼鏡</item_type_name>
 			<item_name>サングラスの巨大な柱</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/summer_deal_Scout.mdl</model_player>
@@ -47730,7 +47677,6 @@ TF2ムービー『Expiration Date』にインスパイアされました</item_d
 			<item_class>saxxy</item_class>
 			<item_type_name>ハンマー</item_type_name>
 			<item_name>ネクロスマッシャー</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_carnival_mallet/c_carnival_mallet.mdl</model_player>
@@ -47925,7 +47871,6 @@ TF2ムービー『Expiration Date』にインスパイアされました</item_d
 			<item_class>saxxy</item_class>
 			<item_type_name>サイン</item_type_name>
 			<item_name>クロッシングガード</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_crossing_guard/c_crossing_guard.mdl</model_player>

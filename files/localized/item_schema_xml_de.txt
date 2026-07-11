@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1d62f5c09ba2e14f6d4a4abc24dd8bb5921aa4b0.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -1884,7 +1884,7 @@ Ihr Feind wird es spitze finden.</item_description>
 			<defindex>51</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
-			<item_name>Propellermützchen</item_name>
+			<item_name>Pyro-Propellermützchen</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/pyro_hat.mdl</model_player>
@@ -7551,7 +7551,6 @@ Alt.-Feuer: Gibt einen Luftstoß ab, der Gegner und Projektile wegstößt sowie 
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
 			<item_name>Der Tankwart</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/attendant.mdl</model_player>
@@ -7736,7 +7735,6 @@ ein besseres &apos;ARR!&apos; hat.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
 			<item_name>Der Milchmann</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/milkhat.mdl</model_player>
@@ -7963,7 +7961,6 @@ Kann zum Löschen von Feuer benutzt werden.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
 			<item_name>Fescher Fes</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/fez.mdl</model_player>
@@ -8010,7 +8007,7 @@ Kann zum Löschen von Feuer benutzt werden.</item_description>
 			<defindex>224</defindex>
 			<item_class>tf_weapon_revolver</item_class>
 			<item_type_name>Revolver</item_type_name>
-			<item_name>L&apos;Etranger</item_name>
+			<item_name>L&apos;Étranger</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_letranger/c_letranger.mdl</model_player>
@@ -8186,7 +8183,6 @@ Durch verursachten Schaden erhöht sich die Wut.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
 			<item_name>Feldmütze des Grenadiers</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/grenadier_softcap.mdl</model_player>
@@ -8292,7 +8288,6 @@ Durch verursachten Schaden erhöht sich die Wut.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
 			<item_name>Alter Schiefzahn</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/snaggletooth.mdl</model_player>
@@ -8670,7 +8665,6 @@ Diese Waffe verursacht KEINEN Schaden.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Helm</item_type_name>
 			<item_name>Lumbricus-Helm</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/worms_gear.mdl</model_player>
@@ -8937,7 +8931,6 @@ Erhöhen Sie seinen Rang, indem Sie mehr Duelle gewinnen!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kopfbedeckung</item_type_name>
 			<item_name>Pugilist&apos;s Protector</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/pugilist_protector.mdl</model_player>
@@ -9129,7 +9122,6 @@ Erhöhen Sie seinen Rang, indem Sie mehr Duelle gewinnen!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
 			<item_name>Des Häuptlings Kampfansage</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/chief_rocketeer.mdl</model_player>
@@ -9226,7 +9218,6 @@ viktorianischer Militärmode.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
 			<item_name>Dr. Seuss&apos; Zylinder</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/all_class/dappertopper/dappertopper_Scout.mdl</model_player>
@@ -9507,7 +9498,6 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
 			<item_name>Mann Co. Kappe</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/Scout_cap.mdl</model_player>
@@ -10704,8 +10694,8 @@ die im Eyelander hausen.</item_description>
 			<image_inventory>backpack/player/items/all_class/voodoojuju_hat</image_inventory>
 			<min_ilevel>31</min_ilevel>
 			<max_ilevel>31</max_ilevel>
-			<image_url>http://media.steampowered.com/apps/440/icons/voodoojuju_hat.8cf9dc510eaf5d6cbfd4fc210ff3ee0aa906db9b.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/voodoojuju_hat_large.be40609e0ed4017c2c9013b19376cf75afe8831a.png</image_url_large>
+			<image_url>http://media.steampowered.com/apps/440/icons/voodoojuju_hat.fb64e44ddc108918d00e26452168652450b905b6.png</image_url>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/voodoojuju_hat_large.7013b3669f9c3226d1a2111fef588a313b330822.png</image_url_large>
 			<drop_type>drop</drop_type>
 			<craft_class></craft_class>
 			<craft_material_type></craft_material_type>
@@ -10835,7 +10825,7 @@ die im Eyelander hausen.</item_description>
 			<defindex>292</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
-			<item_name>Kartendealer Visier</item_name>
+			<item_name>Kartengeber-Schildmütze</item_name>
 			<item_description>Versuchen Sie nicht, Sasha zu bluffen.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -11171,7 +11161,6 @@ die im Eyelander hausen.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Helm</item_type_name>
 			<item_name>Berliner Kübelhelm</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/berliners_bucket_helm.mdl</model_player>
@@ -11499,7 +11488,6 @@ Der erste Treffer verursacht eine Explosion</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
 			<item_name>Der große Häuptling</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/heavy_big_chief.mdl</model_player>
@@ -12666,6 +12654,11 @@ Wer braucht schon Brot?</item_description>
 					<class>kill_eater_kill_type</class>
 					<value>64</value>
 				</attribute>
+				<attribute>
+					<name>attach particle effect static</name>
+					<class>set_attached_particle_static</class>
+					<value>406</value>
+				</attribute>
 			</attributes>
 		</item>
 		<item>
@@ -12723,6 +12716,11 @@ Wer braucht schon Brot?</item_description>
 					<name>counts as assister is some kind of pet this update is going to be awesome</name>
 					<class>counts_as_assister</class>
 					<value>1</value>
+				</attribute>
+				<attribute>
+					<name>attach particle effect static</name>
+					<class>set_attached_particle_static</class>
+					<value>406</value>
 				</attribute>
 			</attributes>
 		</item>
@@ -13232,7 +13230,6 @@ Wer braucht schon Brot?</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
 			<item_name>Der Superfan</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/mnc_mascot_hat.mdl</model_player>
@@ -13280,7 +13277,6 @@ Wer braucht schon Brot?</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Bekleidung</item_type_name>
 			<item_name>Die essentiellen Accessoires</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/mnc_mascot_outfit.mdl</model_player>
@@ -13814,7 +13810,6 @@ Fällt in Ohnmacht, verpasst Krieg</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kopftuch</item_type_name>
 			<item_name>Heldenhaftes Stirnband</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/homefront_blindfold.mdl</model_player>
@@ -15499,8 +15494,8 @@ und das zweite auf alles andere.</item_description>
 			<item_class>tf_wearable_demoshield</item_class>
 			<item_type_name>Schild</item_type_name>
 			<item_name>Die stattliche Schutzwand</item_name>
-			<item_description>Alt.-Feuer: Führen Sie Sturmangriffe durch und entfernen Sie Debuffs.
-Erhalten Sie einen kritischen Nahkampftreffer, nachdem Sie einen Gegner gerammt haben.</item_description>
+			<item_description>Alt-Fire: Charge toward your enemies and remove debuffs.
+Gain a critical melee strike after impacting an enemy at distance.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_persian_shield/c_persian_shield.mdl</model_player>
@@ -16865,7 +16860,6 @@ Rüsten Sie diesen Gegenstand in Ihrem Verspottungsslot aus. Aktivieren Sie ihn,
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kopfbedeckung</item_type_name>
 			<item_name>Lord Cockswains Tropenhelm</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/drg_pith_hat.mdl</model_player>
@@ -16915,7 +16909,6 @@ Rüsten Sie diesen Gegenstand in Ihrem Verspottungsslot aus. Aktivieren Sie ihn,
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Gesichtsbehaarung</item_type_name>
 			<item_name>Lord Cockswains neuartige Koteletten und Pfeife</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/drg_hair_beard.mdl</model_player>
@@ -17014,7 +17007,6 @@ Rüsten Sie diesen Gegenstand in Ihrem Verspottungsslot aus. Aktivieren Sie ihn,
 			<item_class>tf_weapon_raygun</item_class>
 			<item_type_name>Unteilbarer Teilchenzerschmetterer</item_type_name>
 			<item_name>Der rechtschaffene Bison</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_drg_righteousbison/c_drg_righteousbison.mdl</model_player>
@@ -20368,7 +20360,6 @@ OH GOTT, ES IST AN SEINEM KOPF VERSCHRAUBT!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
 			<item_name>Die Nano-Sturmhaube</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/spy/dex_belltower/dex_belltower.mdl</model_player>
@@ -20417,7 +20408,6 @@ OH GOTT, ES IST AN SEINEM KOPF VERSCHRAUBT!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Brille</item_type_name>
 			<item_name>Deus Specs</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/dex_glasses/dex_glasses_Scout.mdl</model_player>
@@ -20462,7 +20452,6 @@ OH GOTT, ES IST AN SEINEM KOPF VERSCHRAUBT!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
 			<item_name>Der Unternehmer</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/Scout/dex_hat_Scout/dex_hat_Scout.mdl</model_player>
@@ -20507,7 +20496,6 @@ OH GOTT, ES IST AN SEINEM KOPF VERSCHRAUBT!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kosmetische Verbesserung</item_type_name>
 			<item_name>Die Purity-Faust</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/heavy/dex_sarifarm/dex_sarifarm.mdl</model_player>
@@ -20555,7 +20543,6 @@ OH GOTT, ES IST AN SEINEM KOPF VERSCHRAUBT!</item_description>
 			<item_class>tf_weapon_revolver</item_class>
 			<item_type_name>Revolver</item_type_name>
 			<item_name>Der Diamondback</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_revolver/c_dex_revolver.mdl</model_player>
@@ -20606,7 +20593,6 @@ OH GOTT, ES IST AN SEINEM KOPF VERSCHRAUBT!</item_description>
 			<item_class>tf_weapon_sniperrifle</item_class>
 			<item_type_name>Scharfschützengewehr</item_type_name>
 			<item_name>Die Machina</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_sniperrifle/c_dex_sniperrifle.mdl</model_player>
@@ -20667,7 +20653,6 @@ OH GOTT, ES IST AN SEINEM KOPF VERSCHRAUBT!</item_description>
 			<item_class>tf_weapon_shotgun_primary</item_class>
 			<item_type_name>Schrotflinte</item_type_name>
 			<item_name>Der Witwenmacher</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_shotgun/c_dex_shotgun.mdl</model_player>
@@ -20733,7 +20718,6 @@ OH GOTT, ES IST AN SEINEM KOPF VERSCHRAUBT!</item_description>
 			<item_class>tf_weapon_mechanical_arm</item_class>
 			<item_type_name>Roboterarm</item_type_name>
 			<item_name>Der Kurzschluss</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_arm/c_dex_arm.mdl</model_player>
@@ -21003,7 +20987,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
 			<item_name>Partyhut</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/bdayhat_Scout.mdl</model_player>
@@ -21096,7 +21079,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
 			<item_name>El Jefe</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/rebel_cap.mdl</model_player>
@@ -21284,7 +21266,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Das Haar des Hundes</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_hat.mdl</model_player>
@@ -21337,7 +21318,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Das schottische Knurren</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_misc1.mdl</model_player>
@@ -21390,7 +21370,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Die besoffenen Pfoten</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_misc2.mdl</model_player>
@@ -21443,7 +21422,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Der Binden-Kämpfer</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_hat.mdl</model_player>
@@ -21496,7 +21474,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>B-Ankh!</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_misc1.mdl</model_player>
@@ -21549,7 +21526,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Der Fußankhamun</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_misc2.mdl</model_player>
@@ -21602,7 +21578,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Der brennende Bulle</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_hat.mdl</model_player>
@@ -21655,7 +21630,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Der gefallene Engel</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_misc1.mdl</model_player>
@@ -21708,7 +21682,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Schweif aus der Hölle</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_misc2.mdl</model_player>
@@ -21761,7 +21734,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Der Einstein</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_hat.mdl</model_player>
@@ -21814,7 +21786,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Dr. Brillenbart</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_misc1.mdl</model_player>
@@ -21867,7 +21838,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Die Smaragdgrüne Urinprobe</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_misc2.mdl</model_player>
@@ -21920,7 +21890,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Der Idioten-Kasten</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_hat.mdl</model_player>
@@ -21973,7 +21942,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Die Stahlrohre</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_misc1.mdl</model_player>
@@ -22026,7 +21994,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Das Minimalbudget</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_misc2.mdl</model_player>
@@ -22079,7 +22046,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Der verdeckte Ermittler</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_hat.mdl</model_player>
@@ -22132,7 +22098,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Griffins Brille</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_misc1.mdl</model_player>
@@ -22185,7 +22150,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Das ungreifbare Halstuch</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_misc2.mdl</model_player>
@@ -22238,7 +22202,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Der Dosenöffner</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_hat.mdl</model_player>
@@ -22291,7 +22254,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Die sowjetische Naht</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_misc1.mdl</model_player>
@@ -22344,7 +22306,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Die Stahl-Stampfer</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_misc2.mdl</model_player>
@@ -22397,7 +22358,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Der heilige Häscher</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_hat.mdl</model_player>
@@ -22450,7 +22410,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Silberkugeln</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_misc1.mdl</model_player>
@@ -22503,7 +22462,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Knoblauch und Pflock</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_misc2.mdl</model_player>
@@ -22556,7 +22514,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Der summende Killer</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_hat.mdl</model_player>
@@ -22609,7 +22566,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Der Grenzflieger</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_misc1.mdl</model_player>
@@ -22662,7 +22618,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostümteil</item_type_name>
 			<item_name>Die Legende von Bugfoot</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_misc2.mdl</model_player>
@@ -22715,7 +22670,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Maske</item_type_name>
 			<item_name>Der letzte Atemzug</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/pyro/pyro_halloween_gasmask/pyro_halloween_gasmask.mdl</model_player>
@@ -23463,7 +23417,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Abzeichen</item_type_name>
 			<item_name>Die Marke des Heiligen</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/sr3_badge.mdl</model_player>
@@ -26098,7 +26051,6 @@ Eigene Aufkleber können an diesen Gegenstand angebracht werden.</item_descripti
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hemd</item_type_name>
 			<item_name>Dr. Whoa</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/bowtie.mdl</model_player>
@@ -26244,7 +26196,6 @@ Eigene Aufkleber können an diesen Gegenstand angebracht werden.</item_descripti
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Rucksack</item_type_name>
 			<item_name>Der gemütliche Camper</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/player/items/sniper/xms_sniper_commandobackpack/xms_sniper_commandobackpack.mdl</model_player>
@@ -28651,7 +28602,6 @@ Alt.-Feuer: Gibt einen Luftstoß ab, der Gegner und Projektile wegstößt sowie 
 			<item_class>craft_item</item_class>
 			<item_type_name>Ring</item_type_name>
 			<item_name>Etwas Besonderes für jemand Besonderen</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<model_player>null</model_player>
 			<item_quality>6</item_quality>
@@ -29171,7 +29121,6 @@ Alt.-Feuer: Gibt einen Luftstoß ab, der Gegner und Projektile wegstößt sowie 
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Func_Medal</item_type_name>
 			<item_name>Die Medaille des Kartenerstellers</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/mapper_medal.mdl</model_player>
@@ -29632,7 +29581,6 @@ Alt.-Feuer: Gibt einen Luftstoß ab, der Gegner und Projektile wegstößt sowie 
 			<item_class>tf_weapon_rocketlauncher</item_class>
 			<item_type_name>Raketenwerfer</item_type_name>
 			<item_name>Die Bettler-Bazooka</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_dumpster_device/c_dumpster_device.mdl</model_player>
@@ -30521,7 +30469,6 @@ Alt.-Feuer: Gibt einen Luftstoß ab, der Gegner und Projektile wegstößt sowie 
 			<item_class>tf_weapon_charged_smg</item_class>
 			<item_type_name>SMG</item_type_name>
 			<item_name>Der Cleaner-Karabiner</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pro_smg/c_pro_smg.mdl</model_player>
@@ -31619,7 +31566,6 @@ Es werden Köpfe rollen.</item_description>
 			<item_class>tf_weapon_pep_brawler_blaster</item_class>
 			<item_type_name>Scattergun</item_type_name>
 			<item_name>Babyfaces Ballermann</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pep_scattergun/c_pep_scattergun.mdl</model_player>
@@ -31681,7 +31627,6 @@ Es werden Köpfe rollen.</item_description>
 			<item_class>tf_weapon_handgun_scout_secondary</item_class>
 			<item_type_name>Pistole</item_type_name>
 			<item_name>Pretty Boys Taschenpistole</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pep_pistol/c_pep_pistol.mdl</model_player>
@@ -41887,7 +41832,6 @@ Alt.-Feuer: Gibt einen Luftstoß ab, der Gegner und Projektile wegstößt sowie 
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hut</item_type_name>
 			<item_name>Mann Co. Online-Kappe</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/Scout_cap_online.mdl</model_player>
@@ -44959,7 +44903,7 @@ Dies ist ein ansehnliches Zauberbuch, gefüllt mit Seiten, die Sie gesammelt hab
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>100</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete.57f64ae848a23c8232a2f7dcd89bd6c298a47597.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete_large.da01f0b58f4b411288c36739f48bd322126cf6dd.png</image_url_large>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete_large.091cca0d87df8b95374f898da7b80f5b67f3b088.png</image_url_large>
 			<capabilities>
 				<nameable>true</nameable>
 				<can_gift_wrap>true</can_gift_wrap>
@@ -45972,6 +45916,17 @@ Sentrys werden für 3 Sekunden deaktiviert, sobald man sie nicht mehr steuert.</
 				<can_killstreakify>true</can_killstreakify>
 				<can_consume>true</can_consume>
 			</capabilities>
+			<styles>
+				<style>
+					<name>Patronengurt</name>
+				</style>
+				<style>
+					<name>Kein Patronengurt</name>
+					<additional_hidden_bodygroups>
+						<bullets>1</bullets>
+					</additional_hidden_bodygroups>
+				</style>
+			</styles>
 			<used_by_classes>
 				<class>Heavy</class>
 			</used_by_classes>
@@ -46138,7 +46093,6 @@ Sentrys werden für 3 Sekunden deaktiviert, sobald man sie nicht mehr steuert.</
 			<item_class>tf_weapon_compound_bow</item_class>
 			<item_type_name>Bogen</item_type_name>
 			<item_name>Der verstärkte Verbundbogen</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_bow_thief/c_bow_thief.mdl</model_player>
@@ -46194,7 +46148,6 @@ Sentrys werden für 3 Sekunden deaktiviert, sobald man sie nicht mehr steuert.</
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Helm</item_type_name>
 			<item_name>Die stolze Stadtwache</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/soldier/thief_soldier_helmet/thief_soldier_helmet.mdl</model_player>
@@ -46242,7 +46195,6 @@ Sentrys werden für 3 Sekunden deaktiviert, sobald man sie nicht mehr steuert.</
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Umhang</item_type_name>
 			<item_name>Die kriminelle Kutte</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/sniper/thief_sniper_cape/thief_sniper_cape.mdl</model_player>
@@ -46290,7 +46242,6 @@ Sentrys werden für 3 Sekunden deaktiviert, sobald man sie nicht mehr steuert.</
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kapuze</item_type_name>
 			<item_name>Das Todkäppchen</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/sniper/thief_sniper_hood/thief_sniper_hood.mdl</model_player>
@@ -46338,7 +46289,6 @@ Sentrys werden für 3 Sekunden deaktiviert, sobald man sie nicht mehr steuert.</
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Abzeichen</item_type_name>
 			<item_name>Der Brustorden des Barons</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/thief_badge/thief_badge_demo.mdl</model_player>
@@ -46436,7 +46386,6 @@ Sentrys werden für 3 Sekunden deaktiviert, sobald man sie nicht mehr steuert.</
 			<item_class>tf_weapon_sniperrifle_classic</item_class>
 			<item_type_name>Scharfschützengewehr</item_type_name>
 			<item_name>Der Klassiker</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/weapons/c_models/c_tfc_sniperrifle/c_tfc_sniperrifle.mdl</model_player>
@@ -46719,7 +46668,6 @@ Geöffnete Fallschirme verlangsamen Ihren Fall.</item_description>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Scattergun</item_type_name>
 			<item_name>Der Rückenfetzer</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_scatterdrum/c_scatterdrum.mdl</model_player>
@@ -47666,7 +47614,6 @@ Inspiriert vom TF2-Film „Expiration Date“</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Brille</item_type_name>
 			<item_name>Hochragende Säule von Sommer-Sonnenbrillen</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/summer_deal_Scout.mdl</model_player>
@@ -47716,7 +47663,6 @@ Inspiriert vom TF2-Film „Expiration Date“</item_description>
 			<item_class>saxxy</item_class>
 			<item_type_name>Hammer</item_type_name>
 			<item_name>Totenklopfer</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_carnival_mallet/c_carnival_mallet.mdl</model_player>
@@ -47911,7 +47857,6 @@ Höhere Level vermehren Entenfunde.</item_description>
 			<item_class>saxxy</item_class>
 			<item_type_name>Schild</item_type_name>
 			<item_name>Der Verkehrshelfer</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_crossing_guard/c_crossing_guard.mdl</model_player>

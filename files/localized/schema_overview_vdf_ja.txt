@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.1d62f5c09ba2e14f6d4a4abc24dd8bb5921aa4b0.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -12978,13 +12978,92 @@
 		}
 		"388"
 		{
+			"system"	"coin_spin"
+			"id"	"406"
+			"attach_to_rootbone"	"1"
+			"name"	"Attrib_Particle406"
+		}
+		"389"
+		{
+			"system"	"unusual_aurora_purple_parent"
+			"id"	"407"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"アンブラルライト"
+		}
+		"390"
+		{
+			"system"	"unusual_aurora_teal_parent"
+			"id"	"408"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"ノーザンナイト"
+		}
+		"391"
+		{
+			"system"	"unusual_aurora_green_parent"
+			"id"	"409"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"ソーラーシング"
+		}
+		"392"
+		{
+			"system"	"unusual_vinethorn_teamcolor_red"
+			"id"	"410"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"花の生育"
+		}
+		"393"
+		{
+			"system"	"unusual_vinethorn_teamcolor_blue"
+			"id"	"411"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"花の生育"
+		}
+		"394"
+		{
+			"system"	"unusual_spaceorbit_parent"
+			"id"	"412"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"ステラ・オービット"
+		}
+		"395"
+		{
+			"system"	"unusual_butterfly_teamcolor_red"
+			"id"	"413"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"幸福の蝶"
+		}
+		"396"
+		{
+			"system"	"unusual_butterfly_teamcolor_blue"
+			"id"	"414"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"幸福の蝶"
+		}
+		"397"
+		{
+			"system"	"unusual_butterfly_parent_purple"
+			"id"	"415"
+			"attach_to_rootbone"	"1"
+			"attachment"	"unusual"
+			"name"	"儚き羽"
+		}
+		"398"
+		{
 			"system"	"weapon_unusual_hot"
 			"id"	"701"
 			"attach_to_rootbone"	"0"
 			"attachment"	"unusual_0"
 			"name"	"ホット"
 		}
-		"389"
+		"399"
 		{
 			"system"	"weapon_unusual_isotope"
 			"id"	"702"
@@ -12992,7 +13071,7 @@
 			"attachment"	"unusual_0"
 			"name"	"アイソトープ"
 		}
-		"390"
+		"400"
 		{
 			"system"	"weapon_unusual_cool"
 			"id"	"703"
@@ -13000,7 +13079,7 @@
 			"attachment"	"unusual_0"
 			"name"	"クール"
 		}
-		"391"
+		"401"
 		{
 			"system"	"weapon_unusual_energyorb"
 			"id"	"704"
@@ -13008,1659 +13087,1701 @@
 			"attachment"	"unusual_0"
 			"name"	"エネルギーオーブ"
 		}
-		"392"
+		"402"
 		{
 			"system"	"killstreak_eyeglow_1_teamcolor_red"
 			"id"	"2001"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2001"
 		}
-		"393"
+		"403"
 		{
 			"system"	"killstreak_t1_lvl1"
 			"id"	"2002"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2002"
 		}
-		"394"
+		"404"
 		{
 			"system"	"killstreak_t2_lvl1"
 			"id"	"2003"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2003"
 		}
-		"395"
+		"405"
 		{
 			"system"	"killstreak_t3_lvl1"
 			"id"	"2004"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2004"
 		}
-		"396"
+		"406"
 		{
 			"system"	"killstreak_t4_lvl1"
 			"id"	"2005"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2005"
 		}
-		"397"
+		"407"
 		{
 			"system"	"killstreak_t5_lvl1"
 			"id"	"2006"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2006"
 		}
-		"398"
+		"408"
 		{
 			"system"	"killstreak_t6_lvl1"
 			"id"	"2007"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2007"
 		}
-		"399"
+		"409"
 		{
 			"system"	"killstreak_t7_lvl1"
 			"id"	"2008"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle2008"
 		}
-		"400"
+		"410"
 		{
 			"system"	"utaunt_firework_teamcolor_red"
 			"id"	"3001"
 			"attach_to_rootbone"	"0"
 			"name"	"ショーストッパー"
 		}
-		"401"
+		"411"
 		{
 			"system"	"utaunt_firework_teamcolor_blue"
 			"id"	"3002"
 			"attach_to_rootbone"	"0"
 			"name"	"ショーストッパー"
 		}
-		"402"
+		"412"
 		{
 			"system"	"utaunt_beams_yellow"
 			"id"	"3003"
 			"attach_to_rootbone"	"0"
 			"name"	"ホーリー・グレイル"
 		}
-		"403"
+		"413"
 		{
 			"system"	"utaunt_disco_party"
 			"id"	"3004"
 			"attach_to_rootbone"	"0"
 			"name"	"'72"
 		}
-		"404"
+		"414"
 		{
 			"system"	"utaunt_hearts_glow_parent"
 			"id"	"3005"
 			"attach_to_rootbone"	"0"
 			"name"	"ファウンテンオブディライト"
 		}
-		"405"
+		"415"
 		{
 			"system"	"utaunt_meteor_parent"
 			"id"	"3006"
 			"attach_to_rootbone"	"0"
 			"name"	"スクリーミング・タイガー"
 		}
-		"406"
+		"416"
 		{
 			"system"	"utaunt_cash_confetti"
 			"id"	"3007"
 			"attach_to_rootbone"	"0"
 			"name"	"スキル・ガットン・ガインズ"
 		}
-		"407"
+		"417"
 		{
 			"system"	"utaunt_tornado_parent_black"
 			"id"	"3008"
 			"attach_to_rootbone"	"0"
 			"name"	"ミッドナイト・ワールウィンド"
 		}
-		"408"
+		"418"
 		{
 			"system"	"utaunt_tornado_parent_white"
 			"id"	"3009"
 			"attach_to_rootbone"	"0"
 			"name"	"シルバーサイクロン"
 		}
-		"409"
+		"419"
 		{
 			"system"	"utaunt_lightning_parent"
 			"id"	"3010"
 			"attach_to_rootbone"	"0"
 			"name"	"メガストライク"
 		}
-		"410"
+		"420"
 		{
 			"system"	"utaunt_souls_green_parent"
 			"id"	"3011"
 			"attach_to_rootbone"	"0"
 			"name"	"ホーンテッド・ファンタズム"
 		}
-		"411"
+		"421"
 		{
 			"system"	"utaunt_souls_purple_parent"
 			"id"	"3012"
 			"attach_to_rootbone"	"0"
 			"name"	"恐ろしい幽霊"
 		}
-		"412"
+		"422"
 		{
 			"system"	"utaunt_hellpit_parent"
 			"id"	"3013"
 			"attach_to_rootbone"	"0"
 			"name"	"ヘルリッシュ・インフェルノ"
 		}
-		"413"
+		"423"
 		{
 			"system"	"utaunt_hellswirl"
 			"id"	"3014"
 			"attach_to_rootbone"	"0"
 			"name"	"スペクトラルスワール"
 		}
-		"414"
+		"424"
 		{
 			"system"	"utaunt_headless"
 			"id"	"3015"
 			"attach_to_rootbone"	"0"
 			"name"	"インファーナル・フレイム"
 		}
-		"415"
+		"425"
 		{
 			"system"	"utaunt_merasmus"
 			"id"	"3016"
 			"attach_to_rootbone"	"0"
 			"name"	"内燃性スモーク"
 		}
-		"416"
+		"426"
 		{
 			"system"	"utaunt_bubbles_glow_green_parent"
 			"id"	"3017"
 			"attach_to_rootbone"	"0"
 			"name"	"アシディック・バブルズ・オブ・エンビー"
 		}
-		"417"
+		"427"
 		{
 			"system"	"utaunt_bubbles_glow_orange_parent"
 			"id"	"3018"
 			"attach_to_rootbone"	"0"
 			"name"	"燃え上がる魅惑の泡"
 		}
-		"418"
+		"428"
 		{
 			"system"	"utaunt_bubbles_glow_purple_parent"
 			"id"	"3019"
 			"attach_to_rootbone"	"0"
 			"name"	"ポイズン・バブルズ・オブ・リグレット"
 		}
-		"419"
+		"429"
 		{
 			"system"	"utaunt_firework_dragon_parent"
 			"id"	"3020"
 			"attach_to_rootbone"	"0"
 			"name"	"ロアリング・ロケッツ"
 		}
-		"420"
+		"430"
 		{
 			"system"	"utaunt_smoke_moon_parent"
 			"id"	"3021"
 			"attach_to_rootbone"	"0"
 			"name"	"不気味な夜"
 		}
-		"421"
+		"431"
 		{
 			"system"	"utaunt_smoke_moon_green_parent"
 			"id"	"3022"
 			"attach_to_rootbone"	"0"
 			"name"	"不吉な夜"
 		}
-		"422"
+		"432"
 		{
 			"system"	"utaunt_arcane_purple_parent"
 			"id"	"3023"
 			"attach_to_rootbone"	"0"
 			"name"	"魔法にかけられて"
 		}
-		"423"
+		"433"
 		{
 			"system"	"utaunt_arcane_green_parent"
 			"id"	"3024"
 			"attach_to_rootbone"	"0"
 			"name"	"呪われた"
 		}
-		"424"
+		"434"
 		{
 			"system"	"utaunt_arcane_yellow_parent"
 			"id"	"3025"
 			"attach_to_rootbone"	"0"
 			"name"	"エンチャント済み"
 		}
-		"425"
+		"435"
 		{
 			"system"	"utaunt_electric_mist_parent"
 			"id"	"3026"
 			"attach_to_rootbone"	"0"
 			"name"	"スタティックミスト"
 		}
-		"426"
+		"436"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WP"
 			"id"	"3027"
 			"attach_to_rootbone"	"0"
 			"name"	"不気味なライトニング"
 		}
-		"427"
+		"437"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WB"
 			"id"	"3028"
 			"attach_to_rootbone"	"0"
 			"name"	"テリファイング・サンダー"
 		}
-		"428"
+		"438"
 		{
 			"system"	"utaunt_electricity_cloud_parent_WY"
 			"id"	"3029"
 			"attach_to_rootbone"	"0"
 			"name"	"ジャラテ・ショック"
 		}
-		"429"
+		"439"
 		{
 			"system"	"utaunt_portalswirl_purple_parent"
 			"id"	"3030"
 			"attach_to_rootbone"	"0"
 			"name"	"ネザーボイド"
 		}
-		"430"
+		"440"
 		{
 			"system"	"utaunt_present_parent"
 			"id"	"3031"
 			"attach_to_rootbone"	"0"
 			"name"	"心優しいお菓子たち"
 		}
-		"431"
+		"441"
 		{
 			"system"	"utaunt_snowring_icy_parent"
 			"id"	"3032"
 			"attach_to_rootbone"	"0"
 			"name"	"ウィンターウィップ"
 		}
-		"432"
+		"442"
 		{
 			"system"	"utaunt_snowring_space_parent"
 			"id"	"3033"
 			"attach_to_rootbone"	"0"
 			"name"	"アークティック・オーロラ"
 		}
-		"433"
+		"443"
 		{
 			"system"	"utaunt_spirit_winter_parent"
 			"id"	"3034"
 			"attach_to_rootbone"	"0"
 			"name"	"冬のスピリット"
 		}
-		"434"
+		"444"
 		{
 			"system"	"utaunt_spirit_festive_parent"
 			"id"	"3035"
 			"attach_to_rootbone"	"0"
 			"name"	"お祝いの精神"
 		}
-		"435"
+		"445"
 		{
 			"system"	"utaunt_spirit_magical_parent"
 			"id"	"3036"
 			"attach_to_rootbone"	"0"
 			"name"	"マジカルスピリット"
 		}
-		"436"
+		"446"
 		{
 			"system"	"utaunt_astralbodies_greenorange_parent"
 			"id"	"3037"
 			"attach_to_rootbone"	"0"
 			"name"	"スペクトルエスコート"
 		}
-		"437"
+		"447"
 		{
 			"system"	"utaunt_astralbodies_tealpurple_parent"
 			"id"	"3038"
 			"attach_to_rootbone"	"0"
 			"name"	"アストラルプレゼンス"
 		}
-		"438"
+		"448"
 		{
 			"system"	"utaunt_astralbodies_teamcolor_red"
 			"id"	"3039"
 			"attach_to_rootbone"	"0"
 			"name"	"アーケインアシスタンス"
 		}
-		"439"
+		"449"
 		{
 			"system"	"utaunt_astralbodies_teamcolor_blue"
 			"id"	"3040"
 			"attach_to_rootbone"	"0"
 			"name"	"アーケインアシスタンス"
 		}
-		"440"
+		"450"
 		{
 			"system"	"utaunt_glowyplayer_green_parent"
 			"id"	"3041"
 			"attach_to_rootbone"	"0"
 			"name"	"エメラルドアリューメント"
 		}
-		"441"
+		"451"
 		{
 			"system"	"utaunt_glowyplayer_orange_parent"
 			"id"	"3042"
 			"attach_to_rootbone"	"0"
 			"name"	"ピロフォリック・パーソナリティ"
 		}
-		"442"
+		"452"
 		{
 			"system"	"utaunt_glowyplayer_purple_parent"
 			"id"	"3043"
 			"attach_to_rootbone"	"0"
 			"name"	"スペルバウンド・アスペクト"
 		}
-		"443"
+		"453"
 		{
 			"system"	"utaunt_electricity_parent"
 			"id"	"3044"
 			"attach_to_rootbone"	"0"
 			"name"	"スタティックショック"
 		}
-		"444"
+		"454"
 		{
 			"system"	"utaunt_electricity_purple_parent"
 			"id"	"3045"
 			"attach_to_rootbone"	"0"
 			"name"	"ヴェノ・ショック"
 		}
-		"445"
+		"455"
 		{
 			"system"	"utaunt_spider_green_parent"
 			"id"	"3046"
 			"attach_to_rootbone"	"0"
 			"name"	"トキシック・テラーズ"
 		}
-		"446"
+		"456"
 		{
 			"system"	"utaunt_spider_orange_parent"
 			"id"	"3047"
 			"attach_to_rootbone"	"0"
 			"name"	"アラクニドアサルト"
 		}
-		"447"
+		"457"
 		{
 			"system"	"utaunt_spider_purple_parent"
 			"id"	"3048"
 			"attach_to_rootbone"	"0"
 			"name"	"クリーピークローリー"
 		}
-		"448"
+		"458"
 		{
 			"system"	"utaunt_tf2smissmas_tree_parent"
 			"id"	"3049"
 			"attach_to_rootbone"	"0"
 			"name"	"デライトフル・スター"
 		}
-		"449"
+		"459"
 		{
 			"system"	"utaunt_tf2smissmas_tree_parent_w"
 			"id"	"3050"
 			"attach_to_rootbone"	"0"
 			"name"	"フロステッドスター"
 		}
-		"450"
+		"460"
 		{
 			"system"	"utaunt_spirits_blue_parent"
 			"id"	"3051"
 			"attach_to_rootbone"	"0"
 			"name"	"神格化"
 		}
-		"451"
+		"461"
 		{
 			"system"	"utaunt_spirits_purple_parent"
 			"id"	"3052"
 			"attach_to_rootbone"	"0"
 			"name"	"アセンション"
 		}
-		"452"
+		"462"
 		{
 			"system"	"utaunt_balloonicorn_reindeer_teamcolor_red"
 			"id"	"3053"
 			"attach_to_rootbone"	"0"
 			"name"	"レインドゥニコーン・ランチャー"
 		}
-		"453"
+		"463"
 		{
 			"system"	"utaunt_balloonicorn_reindeer_teamcolor_blue"
 			"id"	"3054"
 			"attach_to_rootbone"	"0"
 			"name"	"レインドゥニコーン・ランチャー"
 		}
-		"454"
+		"464"
 		{
 			"system"	"utaunt_twinkling_rgb_parent"
 			"id"	"3055"
 			"attach_to_rootbone"	"0"
 			"name"	"きらめくライト"
 		}
-		"455"
+		"465"
 		{
 			"system"	"utaunt_twinkling_goldsilver_parent"
 			"id"	"3056"
 			"attach_to_rootbone"	"0"
 			"name"	"ゆらめくライト"
 		}
-		"456"
+		"466"
 		{
 			"system"	"utaunt_chain_green_parent"
 			"id"	"3059"
 			"attach_to_rootbone"	"0"
 			"name"	"スペクトラルシャックル"
 		}
-		"457"
+		"467"
 		{
 			"system"	"utaunt_chain_purple_parent"
 			"id"	"3060"
 			"attach_to_rootbone"	"0"
 			"name"	"呪われた監禁"
 		}
-		"458"
+		"468"
 		{
 			"system"	"utaunt_tarotcard_teamcolor_red"
 			"id"	"3061"
 			"attach_to_rootbone"	"0"
 			"name"	"キャバリエ・ド・カルト"
 		}
-		"459"
+		"469"
 		{
 			"system"	"utaunt_tarotcard_teamcolor_blue"
 			"id"	"3062"
 			"attach_to_rootbone"	"0"
 			"name"	"キャバリエ・ド・カルト"
 		}
-		"460"
+		"470"
 		{
 			"system"	"utaunt_tarotcard_orange_parent"
 			"id"	"3063"
 			"attach_to_rootbone"	"0"
 			"name"	"ホロー・フローリッシュ"
 		}
-		"461"
+		"471"
 		{
 			"system"	"utaunt_tarotcard_purple_parent"
 			"id"	"3064"
 			"attach_to_rootbone"	"0"
 			"name"	"マジックシャッフル"
 		}
-		"462"
+		"472"
 		{
 			"system"	"utaunt_elebound_green_parent"
 			"id"	"3065"
 			"attach_to_rootbone"	"0"
 			"name"	"ビゴラス・パルス"
 		}
-		"463"
+		"473"
 		{
 			"system"	"utaunt_elebound_purple_parent"
 			"id"	"3066"
 			"attach_to_rootbone"	"0"
 			"name"	"サンダリングスピリット"
 		}
-		"464"
+		"474"
 		{
 			"system"	"utaunt_elebound_yellow_parent"
 			"id"	"3067"
 			"attach_to_rootbone"	"0"
 			"name"	"ガルバニック・ディファイアンス"
 		}
-		"465"
+		"475"
 		{
 			"system"	"utaunt_wispy_parent_g"
 			"id"	"3068"
 			"attach_to_rootbone"	"0"
 			"name"	"ウィスピーヘイローズ"
 		}
-		"466"
+		"476"
 		{
 			"system"	"utaunt_wispy_parent_p"
 			"id"	"3069"
 			"attach_to_rootbone"	"0"
 			"name"	"ネザー・ウィスプ"
 		}
-		"467"
+		"477"
 		{
 			"system"	"utaunt_auroraglow_green_parent"
 			"id"	"3070"
 			"attach_to_rootbone"	"0"
 			"name"	"オーロラボレアリス"
 		}
-		"468"
+		"478"
 		{
 			"system"	"utaunt_auroraglow_orange_parent"
 			"id"	"3071"
 			"attach_to_rootbone"	"0"
 			"name"	"オーロラ・オーストラリス"
 		}
-		"469"
+		"479"
 		{
 			"system"	"utaunt_auroraglow_purple_parent"
 			"id"	"3072"
 			"attach_to_rootbone"	"0"
 			"name"	"オーロラ・ポラリス"
 		}
-		"470"
+		"480"
 		{
 			"system"	"utaunt_snowswirl_purple_parent"
 			"id"	"3073"
 			"attach_to_rootbone"	"0"
 			"name"	"アメジストウィンズ"
 		}
-		"471"
+		"481"
 		{
 			"system"	"utaunt_snowswirl_yellow_parent"
 			"id"	"3074"
 			"attach_to_rootbone"	"0"
 			"name"	"ゴールデン・ガスト"
 		}
-		"472"
+		"482"
 		{
 			"system"	"utaunt_snowswirl_teamcolor_red"
 			"id"	"3075"
 			"attach_to_rootbone"	"0"
 			"name"	"スミスマス・スワール"
 		}
-		"473"
+		"483"
 		{
 			"system"	"utaunt_snowswirl_teamcolor_blue"
 			"id"	"3076"
 			"attach_to_rootbone"	"0"
 			"name"	"スミスマス・スワール"
 		}
-		"474"
+		"484"
 		{
 			"system"	"utaunt_treespiral_green_parent"
 			"id"	"3077"
 			"attach_to_rootbone"	"0"
 			"name"	"ミンティ・サイプレス"
 		}
-		"475"
+		"485"
 		{
 			"system"	"utaunt_treespiral_purple_parent"
 			"id"	"3078"
 			"attach_to_rootbone"	"0"
 			"name"	"プリスティンパイン"
 		}
-		"476"
+		"486"
 		{
 			"system"	"utaunt_treespiral_teamcolor_red"
 			"id"	"3079"
 			"attach_to_rootbone"	"0"
 			"name"	"スパークリースプルース"
 		}
-		"477"
+		"487"
 		{
 			"system"	"utaunt_treespiral_teamcolor_blue"
 			"id"	"3080"
 			"attach_to_rootbone"	"0"
 			"name"	"スパークリースプルース"
 		}
-		"478"
+		"488"
 		{
 			"system"	"utaunt_gifts_teamcolor_red"
 			"id"	"3081"
 			"attach_to_rootbone"	"0"
 			"name"	"フェスティブフィーバー"
 		}
-		"479"
+		"489"
 		{
 			"system"	"utaunt_gifts_teamcolor_blue"
 			"id"	"3082"
 			"attach_to_rootbone"	"0"
 			"name"	"フェスティブフィーバー"
 		}
-		"480"
+		"490"
 		{
 			"system"	"utaunt_glitter_parent_gold"
 			"id"	"3083"
 			"attach_to_rootbone"	"0"
 			"name"	"ゴールデングリマー"
 		}
-		"481"
+		"491"
 		{
 			"system"	"utaunt_glitter_parent_silver"
 			"id"	"3084"
 			"attach_to_rootbone"	"0"
 			"name"	"フロスティシルバー"
 		}
-		"482"
+		"492"
 		{
 			"system"	"utaunt_glitter_teamcolor_red"
 			"id"	"3085"
 			"attach_to_rootbone"	"0"
 			"name"	"グラマラスダズル"
 		}
-		"483"
+		"493"
 		{
 			"system"	"utaunt_glitter_teamcolor_blue"
 			"id"	"3086"
 			"attach_to_rootbone"	"0"
 			"name"	"グラマラスダズル"
 		}
-		"484"
+		"494"
 		{
 			"system"	"utaunt_ice_parent"
 			"id"	"3087"
 			"attach_to_rootbone"	"0"
 			"name"	"サブライム・スノーストーム"
 		}
-		"485"
+		"495"
 		{
 			"system"	"utaunt_marigoldritual_teamcolor_red"
 			"id"	"3088"
 			"attach_to_rootbone"	"0"
 			"name"	"マリーゴールドの儀式"
 		}
-		"486"
+		"496"
 		{
 			"system"	"utaunt_marigoldritual_teamcolor_blue"
 			"id"	"3089"
 			"attach_to_rootbone"	"0"
 			"name"	"マリーゴールドの儀式"
 		}
-		"487"
+		"497"
 		{
 			"system"	"utaunt_poison_parent_green"
 			"id"	"3090"
 			"attach_to_rootbone"	"0"
 			"name"	"プンジェントポイズン"
 		}
-		"488"
+		"498"
 		{
 			"system"	"utaunt_poison_parent_orange"
 			"id"	"3091"
 			"attach_to_rootbone"	"0"
 			"name"	"ブレイズドブリュー"
 		}
-		"489"
+		"499"
 		{
 			"system"	"utaunt_poison_parent_purple"
 			"id"	"3092"
 			"attach_to_rootbone"	"0"
 			"name"	"ミステリアスミクスチュアー"
 		}
-		"490"
+		"500"
 		{
 			"system"	"utaunt_runeprison_green_parent"
 			"id"	"3093"
 			"attach_to_rootbone"	"0"
 			"name"	"リンギスティック・ディビエイション"
 		}
-		"491"
+		"501"
 		{
 			"system"	"utaunt_runeprison_yellow_parent"
 			"id"	"3094"
 			"attach_to_rootbone"	"0"
 			"name"	"オーレリアン・シール"
 		}
-		"492"
+		"502"
 		{
 			"system"	"utaunt_runeprison_teamcolor_red"
 			"id"	"3095"
 			"attach_to_rootbone"	"0"
 			"name"	"ルーニック・インプリズメント"
 		}
-		"493"
+		"503"
 		{
 			"system"	"utaunt_runeprison_teamcolor_blue"
 			"id"	"3096"
 			"attach_to_rootbone"	"0"
 			"name"	"ルーニック・インプリズメント"
 		}
-		"494"
+		"504"
 		{
 			"system"	"utaunt_prismatichaze_parent"
 			"id"	"3097"
 			"attach_to_rootbone"	"0"
 			"name"	"プリズマティック・ヘイズ"
 		}
-		"495"
+		"505"
 		{
 			"system"	"utaunt_risingsprit_teamcolor_red"
 			"id"	"3098"
 			"attach_to_rootbone"	"0"
 			"name"	"ライジング・リチュアル"
 		}
-		"496"
+		"506"
 		{
 			"system"	"utaunt_risingsprit_teamcolor_blue"
 			"id"	"3099"
 			"attach_to_rootbone"	"0"
 			"name"	"ライジング・リチュアル"
 		}
-		"497"
+		"507"
 		{
 			"system"	"utaunt_hands_teamcolor_red"
 			"id"	"3100"
 			"attach_to_rootbone"	"0"
 			"name"	"ブラッディグリップ"
 		}
-		"498"
+		"508"
 		{
 			"system"	"utaunt_hands_teamcolor_blue"
 			"id"	"3101"
 			"attach_to_rootbone"	"0"
 			"name"	"ブラッディグリップ"
 		}
-		"499"
+		"509"
 		{
 			"system"	"utaunt_hands_green_parent"
 			"id"	"3102"
 			"attach_to_rootbone"	"0"
 			"name"	"トキシックグリップ"
 		}
-		"500"
+		"510"
 		{
 			"system"	"utaunt_hands_orange_parent"
 			"id"	"3103"
 			"attach_to_rootbone"	"0"
 			"name"	"インファーナルグリップ"
 		}
-		"501"
+		"511"
 		{
 			"system"	"utaunt_hands_purple_parent"
 			"id"	"3104"
 			"attach_to_rootbone"	"0"
 			"name"	"デス・グリップ"
 		}
-		"502"
+		"512"
 		{
 			"system"	"utaunt_storm_parent_g"
 			"id"	"3105"
 			"attach_to_rootbone"	"0"
 			"name"	"チャージド・アーケイン"
 		}
-		"503"
+		"513"
 		{
 			"system"	"utaunt_storm_parent_k"
 			"id"	"3106"
 			"attach_to_rootbone"	"0"
 			"name"	"サンダーラス・レイジ"
 		}
-		"504"
+		"514"
 		{
 			"system"	"utaunt_storm_parent_o"
 			"id"	"3107"
 			"attach_to_rootbone"	"0"
 			"name"	"コンボルシブ・ファイアリー"
 		}
-		"505"
+		"515"
 		{
 			"system"	"utaunt_festivelights_teamcolor_red"
 			"id"	"3108"
 			"attach_to_rootbone"	"0"
 			"name"	"フェスティブ仕様フォーメーション"
 		}
-		"506"
+		"516"
 		{
 			"system"	"utaunt_festivelights_teamcolor_blue"
 			"id"	"3109"
 			"attach_to_rootbone"	"0"
 			"name"	"フェスティブ仕様フォーメーション"
 		}
-		"507"
+		"517"
 		{
 			"system"	"utaunt_glow_spirit_parent_cr"
 			"id"	"3110"
 			"attach_to_rootbone"	"0"
 			"name"	"トワリングスピリッツ"
 		}
-		"508"
+		"518"
 		{
 			"system"	"utaunt_glow_spirit_parent_og"
 			"id"	"3111"
 			"attach_to_rootbone"	"0"
 			"name"	"スカッシュ・アンド・ツイスト"
 		}
-		"509"
+		"519"
 		{
 			"system"	"utaunt_glow_spirit_parent_pp"
 			"id"	"3112"
 			"attach_to_rootbone"	"0"
 			"name"	"ミッドナイトスパークラーズ"
 		}
-		"510"
+		"520"
 		{
 			"system"	"utaunt_snowflakesaura_parent"
 			"id"	"3113"
 			"attach_to_rootbone"	"0"
 			"name"	"バウンドレス・ブリザード"
 		}
-		"511"
+		"521"
 		{
 			"system"	"utaunt_sun_sand_rays_parent"
 			"id"	"3114"
 			"attach_to_rootbone"	"0"
 			"name"	"ソーラースコーチ"
 		}
-		"512"
+		"522"
 		{
 			"system"	"utaunt_undersea_teamcolor_red"
 			"id"	"3115"
 			"attach_to_rootbone"	"0"
 			"name"	"ディープシーレイブ"
 		}
-		"513"
+		"523"
 		{
 			"system"	"utaunt_undersea_teamcolor_blue"
 			"id"	"3116"
 			"attach_to_rootbone"	"0"
 			"name"	"ディープシーレイブ"
 		}
-		"514"
+		"524"
 		{
 			"system"	"utaunt_lavalamp_green_parent"
 			"id"	"3117"
 			"attach_to_rootbone"	"0"
 			"name"	"ブルーミングビーコン"
 		}
-		"515"
+		"525"
 		{
 			"system"	"utaunt_lavalamp_purple_parent"
 			"id"	"3118"
 			"attach_to_rootbone"	"0"
 			"name"	"ビーミングビーコン"
 		}
-		"516"
+		"526"
 		{
 			"system"	"utaunt_lavalamp_yellow_parent"
 			"id"	"3119"
 			"attach_to_rootbone"	"0"
 			"name"	"ブレイジングビーコン"
 		}
-		"517"
+		"527"
 		{
 			"system"	"utaunt_fish_parent"
 			"id"	"3120"
 			"attach_to_rootbone"	"0"
 			"name"	"フロッピンフレンジー"
 		}
-		"518"
+		"528"
 		{
 			"system"	"utaunt_rainbow_teamcolor_red"
 			"id"	"3121"
 			"attach_to_rootbone"	"0"
 			"name"	"パステルトランス"
 		}
-		"519"
+		"529"
 		{
 			"system"	"utaunt_rainbow_teamcolor_blue"
 			"id"	"3122"
 			"attach_to_rootbone"	"0"
 			"name"	"パステルトランス"
 		}
-		"520"
+		"530"
 		{
 			"system"	"utaunt_wild_meadows_parent"
 			"id"	"3123"
 			"attach_to_rootbone"	"0"
 			"name"	"ワイルドフラワーメドウズ"
 		}
-		"521"
+		"531"
 		{
 			"system"	"utaunt_krakenmouth_green_parent"
 			"id"	"3124"
 			"attach_to_rootbone"	"0"
 			"name"	"ディープシーデバウラー"
 		}
-		"522"
+		"532"
 		{
 			"system"	"utaunt_krakenmouth_purple_parent"
 			"id"	"3125"
 			"attach_to_rootbone"	"0"
 			"name"	"エルドリッチホラー"
 		}
-		"523"
+		"533"
 		{
 			"system"	"utaunt_leaftaunt_parent"
 			"id"	"3126"
 			"attach_to_rootbone"	"0"
 			"name"	"オータムリーフ"
 		}
-		"524"
+		"534"
 		{
 			"system"	"utaunt_graveparty_parent"
 			"id"	"3127"
 			"attach_to_rootbone"	"0"
 			"name"	"デッドマンズ・パーティー"
 		}
-		"525"
+		"535"
 		{
 			"system"	"utaunt_spellsplash_parent"
 			"id"	"3128"
 			"attach_to_rootbone"	"0"
 			"name"	"ポーションエクスプロージョン"
 		}
-		"526"
+		"536"
 		{
 			"system"	"utaunt_cremation_purple_parent"
 			"id"	"3129"
 			"attach_to_rootbone"	"0"
 			"name"	"ホーンテッド・クリメーション"
 		}
-		"527"
+		"537"
 		{
 			"system"	"utaunt_cremation_black_parent"
 			"id"	"3130"
 			"attach_to_rootbone"	"0"
 			"name"	"火葬場"
 		}
-		"528"
+		"538"
 		{
 			"system"	"utaunt_snowfall_parent"
 			"id"	"3131"
 			"attach_to_rootbone"	"0"
 			"name"	"降雪"
 		}
-		"529"
+		"539"
 		{
 			"system"	"utaunt_constellations_teamcolor_red"
 			"id"	"3132"
 			"attach_to_rootbone"	"0"
 			"name"	"ギャラクティック・コネクション"
 		}
-		"530"
+		"540"
 		{
 			"system"	"utaunt_constellations_teamcolor_blue"
 			"id"	"3133"
 			"attach_to_rootbone"	"0"
 			"name"	"ギャラクティック・コネクション"
 		}
-		"531"
+		"541"
 		{
 			"system"	"utaunt_constellations_purple_parent"
 			"id"	"3134"
 			"attach_to_rootbone"	"0"
 			"name"	"ダーク・トワイライト"
 		}
-		"532"
+		"542"
 		{
 			"system"	"utaunt_constellations_pink_parent"
 			"id"	"3135"
 			"attach_to_rootbone"	"0"
 			"name"	"エルドリッチリフト"
 		}
-		"533"
+		"543"
 		{
 			"system"	"utaunt_wispyworks_orangegreen_parent"
 			"id"	"3136"
 			"attach_to_rootbone"	"0"
 			"name"	"セルフレスセンセーション"
 		}
-		"534"
+		"544"
 		{
 			"system"	"utaunt_wispyworks_purpleblue_parent"
 			"id"	"3137"
 			"attach_to_rootbone"	"0"
 			"name"	"ディスタントデザイア"
 		}
-		"535"
+		"545"
 		{
 			"system"	"utaunt_wispyworks_yellowpurple_parent"
 			"id"	"3138"
 			"attach_to_rootbone"	"0"
 			"name"	"グラマラスグランス"
 		}
-		"536"
+		"546"
 		{
 			"system"	"utaunt_innerblizzard_teamcolor_red"
 			"id"	"3139"
 			"attach_to_rootbone"	"0"
 			"name"	"パーマフロストエッセンス"
 		}
-		"537"
+		"547"
 		{
 			"system"	"utaunt_innerblizzard_teamcolor_blue"
 			"id"	"3140"
 			"attach_to_rootbone"	"0"
 			"name"	"パーマフロストエッセンス"
 		}
-		"538"
+		"548"
 		{
 			"system"	"utaunt_innerblizzard_purple_parent"
 			"id"	"3141"
 			"attach_to_rootbone"	"0"
 			"name"	"アークティック・ディライト"
 		}
-		"539"
+		"549"
 		{
 			"system"	"utaunt_spotlight_parent"
 			"id"	"3142"
 			"attach_to_rootbone"	"0"
 			"name"	"ウィニングスピリット"
 		}
-		"540"
+		"550"
 		{
 			"system"	"utaunt_pedalfly_teamcolor_red"
 			"id"	"3143"
 			"attach_to_rootbone"	"0"
 			"name"	"花びらの舞い"
 		}
-		"541"
+		"551"
 		{
 			"system"	"utaunt_pedalfly_teamcolor_blue"
 			"id"	"3144"
 			"attach_to_rootbone"	"0"
 			"name"	"花びらの舞い"
 		}
-		"542"
+		"552"
 		{
 			"system"	"utaunt_dragonfly_teamcolor_red"
 			"id"	"3145"
 			"attach_to_rootbone"	"0"
 			"name"	"トンボの抱擁"
 		}
-		"543"
+		"553"
 		{
 			"system"	"utaunt_dragonfly_teamcolor_blue"
 			"id"	"3146"
 			"attach_to_rootbone"	"0"
 			"name"	"トンボの抱擁"
 		}
-		"544"
+		"554"
 		{
 			"system"	"utaunt_dragonfly_green_parent"
 			"id"	"3147"
 			"attach_to_rootbone"	"0"
 			"name"	"ドラゴンフライズ・ネイチャー"
 		}
-		"545"
+		"555"
 		{
 			"system"	"utaunt_dragonfly_purple_parent"
 			"id"	"3148"
 			"attach_to_rootbone"	"0"
 			"name"	"ドラゴンフライズ・ルーセント"
 		}
-		"546"
+		"556"
 		{
 			"system"	"utaunt_demigodery_teamcolor_red"
 			"id"	"3149"
 			"attach_to_rootbone"	"0"
 			"name"	"感電死"
 		}
-		"547"
+		"557"
 		{
 			"system"	"utaunt_demigodery_teamcolor_blue"
 			"id"	"3150"
 			"attach_to_rootbone"	"0"
 			"name"	"感電死"
 		}
-		"548"
+		"558"
 		{
 			"system"	"utaunt_signalflares_teamcolor_red"
 			"id"	"3151"
 			"attach_to_rootbone"	"0"
 			"name"	"シグナル妨害"
 		}
-		"549"
+		"559"
 		{
 			"system"	"utaunt_signalflares_teamcolor_blue"
 			"id"	"3152"
 			"attach_to_rootbone"	"0"
 			"name"	"シグナル妨害"
 		}
-		"550"
+		"560"
 		{
 			"system"	"utaunt_signalflares_green_parent"
 			"id"	"3153"
 			"attach_to_rootbone"	"0"
 			"name"	"カリオカズ・コール"
 		}
-		"551"
+		"561"
 		{
 			"system"	"utaunt_celebrationtime_teamcolor_red"
 			"id"	"3154"
 			"attach_to_rootbone"	"0"
 			"name"	"フィエスタロワイヤル"
 		}
-		"552"
+		"562"
 		{
 			"system"	"utaunt_celebrationtime_teamcolor_blue"
 			"id"	"3155"
 			"attach_to_rootbone"	"0"
 			"name"	"フィエスタロワイヤル"
 		}
-		"553"
+		"563"
 		{
 			"system"	"utaunt_celebrationtime_yellow_parent"
 			"id"	"3156"
 			"attach_to_rootbone"	"0"
 			"name"	"グランドジュビリー"
 		}
-		"554"
+		"564"
 		{
 			"system"	"utaunt_god_lava_teamcolor_red"
 			"id"	"3157"
 			"attach_to_rootbone"	"0"
 			"name"	"エレメンタル"
 		}
-		"555"
+		"565"
 		{
 			"system"	"utaunt_god_lava_teamcolor_blue"
 			"id"	"3158"
 			"attach_to_rootbone"	"0"
 			"name"	"エレメンタル"
 		}
-		"556"
+		"566"
 		{
 			"system"	"utaunt_god_gold_parent"
 			"id"	"3159"
 			"attach_to_rootbone"	"0"
 			"name"	"ゴッドライク"
 		}
-		"557"
+		"567"
 		{
 			"system"	"utaunt_aestheticlogo_teamcolor_red"
 			"id"	"3160"
 			"attach_to_rootbone"	"0"
 			"name"	"チームワーク・ヴァロランス"
 		}
-		"558"
+		"568"
 		{
 			"system"	"utaunt_aestheticlogo_teamcolor_blue"
 			"id"	"3161"
 			"attach_to_rootbone"	"0"
 			"name"	"チームワーク・ヴァロランス"
 		}
-		"559"
+		"569"
 		{
 			"system"	"utaunt_aestheticlogo_orange_parent"
 			"id"	"3162"
 			"attach_to_rootbone"	"0"
 			"name"	"レガシーロゴ"
 		}
-		"560"
+		"570"
 		{
 			"system"	"utaunt_desert_wind_parent"
 			"id"	"3163"
 			"attach_to_rootbone"	"0"
 			"name"	"デザートウィンド"
 		}
-		"561"
+		"571"
 		{
 			"system"	"utaunt_desert_monsoon_parent"
 			"id"	"3164"
 			"attach_to_rootbone"	"0"
 			"name"	"モンスーンシーズン"
 		}
-		"562"
+		"572"
 		{
 			"system"	"utaunt_treasure_teamcolor_red"
 			"id"	"3165"
 			"attach_to_rootbone"	"0"
 			"name"	"バウンティフル・リッチズ"
 		}
-		"563"
+		"573"
 		{
 			"system"	"utaunt_treasure_teamcolor_blue"
 			"id"	"3166"
 			"attach_to_rootbone"	"0"
 			"name"	"バウンティフル・リッチズ"
 		}
-		"564"
+		"574"
 		{
 			"system"	"utaunt_hearttreasure_parent"
 			"id"	"3167"
 			"attach_to_rootbone"	"0"
 			"name"	"贅沢な恋人"
 		}
-		"565"
+		"575"
 		{
 			"system"	"utaunt_wiggletube_teamcolor_red"
 			"id"	"3168"
 			"attach_to_rootbone"	"0"
 			"name"	"アマトリー"
 		}
-		"566"
+		"576"
 		{
 			"system"	"utaunt_wiggletube_teamcolor_blue"
 			"id"	"3169"
 			"attach_to_rootbone"	"0"
 			"name"	"アマトリー"
 		}
-		"567"
+		"577"
 		{
 			"system"	"utaunt_wiggletube_coffee_parent"
 			"id"	"3170"
 			"attach_to_rootbone"	"0"
 			"name"	"エレクトラム"
 		}
-		"568"
+		"578"
 		{
 			"system"	"utaunt_flowerrain_teamcolor_red"
 			"id"	"3171"
 			"attach_to_rootbone"	"0"
 			"name"	"サクラ・ブレッシング"
 		}
-		"569"
+		"579"
 		{
 			"system"	"utaunt_flowerrain_teamcolor_blue"
 			"id"	"3172"
 			"attach_to_rootbone"	"0"
 			"name"	"サクラ・ブレッシング"
 		}
-		"570"
+		"580"
 		{
 			"system"	"utaunt_flowerrain_purple_parent"
 			"id"	"3173"
 			"attach_to_rootbone"	"0"
 			"name"	"バイオレンス・スミレ"
 		}
-		"571"
+		"581"
 		{
 			"system"	"utaunt_poweraura_teamcolor_red"
 			"id"	"3174"
 			"attach_to_rootbone"	"0"
 			"name"	"パワープレッシャー"
 		}
-		"572"
+		"582"
 		{
 			"system"	"utaunt_poweraura_teamcolor_blue"
 			"id"	"3175"
 			"attach_to_rootbone"	"0"
 			"name"	"パワープレッシャー"
 		}
-		"573"
+		"583"
 		{
 			"system"	"utaunt_poweraura_green_parent"
 			"id"	"3176"
 			"attach_to_rootbone"	"0"
 			"name"	"マグニファイング・モメンタム"
 		}
-		"574"
+		"584"
 		{
 			"system"	"utaunt_poweraura_purple_parent"
 			"id"	"3177"
 			"attach_to_rootbone"	"0"
 			"name"	"チャージングカタリスト"
 		}
-		"575"
+		"585"
 		{
 			"system"	"utaunt_poweraura_yellow_parent"
 			"id"	"3178"
 			"attach_to_rootbone"	"0"
 			"name"	"アンプリファイング・オーラ"
 		}
-		"576"
+		"586"
 		{
 			"system"	"utaunt_mysticfusion_parent"
 			"id"	"3179"
 			"attach_to_rootbone"	"0"
 			"name"	"ミスティックフュージョン"
 		}
-		"577"
+		"587"
 		{
 			"system"	"utaunt_confetti_gy_parent"
 			"id"	"3180"
 			"attach_to_rootbone"	"0"
 			"name"	"不愉快な紙吹雪"
 		}
-		"578"
+		"588"
 		{
 			"system"	"utaunt_confetti_pp_parent"
 			"id"	"3181"
 			"attach_to_rootbone"	"0"
 			"name"	"愛らしい紙吹雪"
 		}
-		"579"
+		"589"
 		{
 			"system"	"utaunt_confetti_yp_parent"
 			"id"	"3182"
 			"attach_to_rootbone"	"0"
 			"name"	"紙吹雪セレブレーション"
 		}
-		"580"
+		"590"
 		{
 			"system"	"utaunt_heavyrain_parent"
 			"id"	"3183"
 			"attach_to_rootbone"	"0"
 			"name"	"ヘヴィ・レイン"
 		}
-		"581"
+		"591"
 		{
 			"system"	"utaunt_field_parent"
 			"id"	"3184"
 			"attach_to_rootbone"	"0"
 			"name"	"カボチャのパッチ"
 		}
-		"582"
+		"592"
 		{
 			"system"	"utaunt_whitesmissmas_parent"
 			"id"	"3185"
 			"attach_to_rootbone"	"0"
 			"name"	"スノーウィーデイ"
 		}
-		"583"
+		"593"
 		{
 			"system"	"utaunt_busysnow_teamcolor_red"
 			"id"	"3186"
 			"attach_to_rootbone"	"0"
 			"name"	"スノーウィースピリット"
 		}
-		"584"
+		"594"
 		{
 			"system"	"utaunt_busysnow_teamcolor_blue"
 			"id"	"3187"
 			"attach_to_rootbone"	"0"
 			"name"	"スノーウィースピリット"
 		}
-		"585"
+		"595"
 		{
 			"system"	"utaunt_busysnow_parent_p"
 			"id"	"3188"
 			"attach_to_rootbone"	"0"
 			"name"	"ラベンダーセンセーション"
 		}
-		"586"
+		"596"
 		{
 			"system"	"utaunt_busysnow_parent_g"
 			"id"	"3189"
 			"attach_to_rootbone"	"0"
 			"name"	"緑豊かな現象"
 		}
-		"587"
+		"597"
 		{
 			"system"	"utaunt_roses_teamcolor_red"
 			"id"	"3190"
 			"attach_to_rootbone"	"0"
 			"name"	"アワード受賞"
 		}
-		"588"
+		"598"
 		{
 			"system"	"utaunt_roses_teamcolor_blue"
 			"id"	"3191"
 			"attach_to_rootbone"	"0"
 			"name"	"アワード受賞"
 		}
-		"589"
+		"599"
 		{
 			"system"	"utaunt_roses_gold_parent"
 			"id"	"3192"
 			"attach_to_rootbone"	"0"
 			"name"	"オペラ・トライアンフ"
 		}
-		"590"
+		"600"
 		{
 			"system"	"utaunt_tangledlights_parent"
 			"id"	"3193"
 			"attach_to_rootbone"	"0"
 			"name"	"タングルドライト"
 		}
-		"591"
+		"601"
 		{
 			"system"	"utaunt_seamine_teamcolor_red"
 			"id"	"3194"
 			"attach_to_rootbone"	"0"
 			"name"	"シーマイン"
 		}
-		"592"
+		"602"
 		{
 			"system"	"utaunt_seamine_teamcolor_blue"
 			"id"	"3195"
 			"attach_to_rootbone"	"0"
 			"name"	"シーマイン"
 		}
-		"593"
+		"603"
 		{
 			"system"	"utaunt_iconicoutline_teamcolor_red"
 			"id"	"3196"
 			"attach_to_rootbone"	"0"
 			"name"	"アイコニックアウトライン"
 		}
-		"594"
+		"604"
 		{
 			"system"	"utaunt_iconicoutline_teamcolor_blue"
 			"id"	"3197"
 			"attach_to_rootbone"	"0"
 			"name"	"アイコニックアウトライン"
 		}
-		"595"
+		"605"
 		{
 			"system"	"utaunt_iconicoutline_pink_parent"
 			"id"	"3198"
 			"attach_to_rootbone"	"0"
 			"name"	"サブル・シルエット"
 		}
-		"596"
+		"606"
 		{
 			"system"	"utaunt_oceanreef_parent"
 			"id"	"3199"
 			"attach_to_rootbone"	"0"
 			"name"	"オーシャン・リーフ"
 		}
-		"597"
+		"607"
 		{
 			"system"	"utaunt_signalinterference_parent"
 			"id"	"3200"
 			"attach_to_rootbone"	"0"
 			"name"	"ロストシグナル"
 		}
-		"598"
+		"608"
 		{
 			"system"	"utaunt_waterwave_parent"
 			"id"	"3201"
 			"attach_to_rootbone"	"0"
 			"name"	"サマーウェーブ"
 		}
-		"599"
+		"609"
 		{
 			"system"	"utaunt_sharkfin2_parent"
 			"id"	"3202"
 			"attach_to_rootbone"	"0"
 			"name"	"シャークアタック"
 		}
-		"600"
+		"610"
 		{
 			"system"	"utaunt_phantasam_green_parent"
 			"id"	"3203"
 			"attach_to_rootbone"	"0"
 			"name"	"ハザーダスガス"
 		}
-		"601"
+		"611"
 		{
 			"system"	"utaunt_phantasam_grey_parent"
 			"id"	"3204"
 			"attach_to_rootbone"	"0"
 			"name"	"ファンタズマルフォグ"
 		}
-		"602"
+		"612"
 		{
 			"system"	"utaunt_phantasam_purple_parent"
 			"id"	"3205"
 			"attach_to_rootbone"	"0"
 			"name"	"ホーンテッドミスト"
 		}
-		"603"
+		"613"
 		{
 			"system"	"utaunt_multicurse_teamcolor_red"
 			"id"	"3206"
 			"attach_to_rootbone"	"0"
 			"name"	"スプリットマリス"
 		}
-		"604"
+		"614"
 		{
 			"system"	"utaunt_multicurse_teamcolor_blue"
 			"id"	"3207"
 			"attach_to_rootbone"	"0"
 			"name"	"スプリットマリス"
 		}
-		"605"
+		"615"
 		{
 			"system"	"utaunt_voidcrawlers_parent"
 			"id"	"3208"
 			"attach_to_rootbone"	"0"
 			"name"	"ヴォイドクローラー"
 		}
-		"606"
+		"616"
 		{
 			"system"	"utaunt_tarpit_dinos_parent"
 			"id"	"3209"
 			"attach_to_rootbone"	"0"
 			"name"	"フォッシルフューエルド"
 		}
-		"607"
+		"617"
 		{
 			"system"	"utaunt_tarpit_people_parent"
 			"id"	"3210"
 			"attach_to_rootbone"	"0"
 			"name"	"タールピット"
 		}
-		"608"
+		"618"
 		{
 			"system"	"utaunt_morbed_teamcolor_red"
 			"id"	"3211"
 			"attach_to_rootbone"	"0"
 			"name"	"モービドリービースト"
 		}
-		"609"
+		"619"
 		{
 			"system"	"utaunt_morbed_teamcolor_blue"
 			"id"	"3212"
 			"attach_to_rootbone"	"0"
 			"name"	"モービドリービースト"
 		}
-		"610"
+		"620"
 		{
 			"system"	"utaunt_2fort_teamc_teamcolor_red"
 			"id"	"3213"
 			"attach_to_rootbone"	"0"
 			"name"	"スノードーム"
 		}
-		"611"
+		"621"
 		{
 			"system"	"utaunt_2fort_teamc_teamcolor_blue"
 			"id"	"3214"
 			"attach_to_rootbone"	"0"
 			"name"	"スノードーム"
 		}
-		"612"
+		"622"
 		{
 			"system"	"utaunt_burningdesire_green_parent"
 			"id"	"3215"
 			"attach_to_rootbone"	"0"
 			"name"	"スコーチング・センセーション"
 		}
-		"613"
+		"623"
 		{
 			"system"	"utaunt_burningdesire_orange_parent"
 			"id"	"3216"
 			"attach_to_rootbone"	"0"
 			"name"	"バーニング・センセーション"
 		}
-		"614"
+		"624"
 		{
 			"system"	"utaunt_spacecoated_2colored_parent_pb"
 			"id"	"3217"
 			"attach_to_rootbone"	"0"
 			"name"	"ギャラクティック・ダスト"
 		}
-		"615"
+		"625"
 		{
 			"system"	"utaunt_spacecoated_2colored_parent_pg"
 			"id"	"3218"
 			"attach_to_rootbone"	"0"
 			"name"	"ギャラクティック・クラウド"
 		}
-		"616"
+		"626"
 		{
 			"system"	"utaunt_aurora25_teamcolor_red"
 			"id"	"3219"
 			"attach_to_rootbone"	"0"
 			"name"	"オーロラ・オーラ"
 		}
-		"617"
+		"627"
 		{
 			"system"	"utaunt_aurora25_teamcolor_blue"
 			"id"	"3220"
 			"attach_to_rootbone"	"0"
 			"name"	"オーロラ・オーラ"
 		}
-		"618"
+		"628"
 		{
 			"system"	"utaunt_aurora25_parent_purple"
 			"id"	"3221"
 			"attach_to_rootbone"	"0"
 			"name"	"ノーザンナイト"
 		}
-		"619"
+		"629"
 		{
 			"system"	"utaunt_chillingmist_parent"
 			"id"	"3222"
 			"attach_to_rootbone"	"0"
 			"name"	"チリングミスト"
 		}
-		"620"
+		"630"
 		{
 			"system"	"utaunt_80smalfunction_parent"
 			"id"	"3223"
 			"attach_to_rootbone"	"0"
 			"name"	"サーキットブレーク"
 		}
-		"621"
+		"631"
+		{
+			"system"	"utaunt_wheatfield_parent"
+			"id"	"3224"
+			"attach_to_rootbone"	"0"
+			"name"	"小麦畑"
+		}
+		"632"
+		{
+			"system"	"utaunt_luminousdrift_teamcolor_red"
+			"id"	"3225"
+			"attach_to_rootbone"	"0"
+			"name"	"ルミナスドリフト"
+		}
+		"633"
+		{
+			"system"	"utaunt_luminousdrift_teamcolor_blue"
+			"id"	"3226"
+			"attach_to_rootbone"	"0"
+			"name"	"ルミナスドリフト"
+		}
+		"634"
+		{
+			"system"	"utaunt_luminousdrift_purple_parent"
+			"id"	"3227"
+			"attach_to_rootbone"	"0"
+			"name"	"ルミナスシフト"
+		}
+		"635"
+		{
+			"system"	"utaunt_dualspotlights_parent"
+			"id"	"3228"
+			"attach_to_rootbone"	"0"
+			"name"	"ショータイム・スポットライト"
+		}
+		"636"
+		{
+			"system"	"utaunt_underwater_parent"
+			"id"	"3229"
+			"attach_to_rootbone"	"0"
+			"name"	"ディープダイブ"
+		}
+		"637"
 		{
 			"system"	"killstreak_eyeglow_4_teamcolor_red"
 			"id"	"22001"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22001"
 		}
-		"622"
+		"638"
 		{
 			"system"	"killstreak_t1_lvl2"
 			"id"	"22002"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22002"
 		}
-		"623"
+		"639"
 		{
 			"system"	"killstreak_t2_lvl2"
 			"id"	"22003"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22003"
 		}
-		"624"
+		"640"
 		{
 			"system"	"killstreak_t3_lvl2"
 			"id"	"22004"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22004"
 		}
-		"625"
+		"641"
 		{
 			"system"	"killstreak_t4_lvl2"
 			"id"	"22005"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22005"
 		}
-		"626"
+		"642"
 		{
 			"system"	"killstreak_t5_lvl2"
 			"id"	"22006"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22006"
 		}
-		"627"
+		"643"
 		{
 			"system"	"killstreak_t6_lvl2"
 			"id"	"22007"
 			"attach_to_rootbone"	"0"
 			"name"	"Attrib_Particle22007"
 		}
-		"628"
+		"644"
 		{
 			"system"	"killstreak_t7_lvl2"
 			"id"	"22008"

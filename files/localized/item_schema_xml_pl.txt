@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1d62f5c09ba2e14f6d4a4abc24dd8bb5921aa4b0.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -7552,7 +7552,6 @@ Nie można atakować, będąc niewidzialnym. Po wpadnięciu na wroga twoja sylwe
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Nakrycie głowy</item_type_name>
 			<item_name>Pomocnik</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/attendant.mdl</model_player>
@@ -7737,7 +7736,6 @@ niż konsonans z „RRR!”</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Nakrycie głowy</item_type_name>
 			<item_name>Mleczarz</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/milkhat.mdl</model_player>
@@ -7964,7 +7962,6 @@ Może być użyte do gaszenia płomieni.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Nakrycie głowy</item_type_name>
 			<item_name>Znajomy fez</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/fez.mdl</model_player>
@@ -8188,7 +8185,6 @@ Furia zwiększa się w miarę zadawanych obrażeń.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Nakrycie głowy</item_type_name>
 			<item_name>Patrolówka grenadiera</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/grenadier_softcap.mdl</model_player>
@@ -8294,7 +8290,6 @@ Furia zwiększa się w miarę zadawanych obrażeń.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Nakrycie głowy</item_type_name>
 			<item_name>Głowa Forfitera</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/snaggletooth.mdl</model_player>
@@ -8671,7 +8666,6 @@ Ta broń zadaje ZERO obrażeń.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hełm</item_type_name>
 			<item_name>Robaczy zestaw</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/worms_gear.mdl</model_player>
@@ -8939,7 +8933,6 @@ Zwiększ jej poziom, wygrywając więcej pojedynków!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Nakrycie głowy</item_type_name>
 			<item_name>Ochraniacz pięściarza</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/pugilist_protector.mdl</model_player>
@@ -9131,7 +9124,6 @@ Zwiększ jej poziom, wygrywając więcej pojedynków!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Nakrycie głowy</item_type_name>
 			<item_name>Zew wodza</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/chief_rocketeer.mdl</model_player>
@@ -9228,7 +9220,6 @@ wiktoriańskiej mody militarnej.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Nakrycie głowy</item_type_name>
 			<item_name>Pasiasty kapelusz Prota</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/all_class/dappertopper/dappertopper_Scout.mdl</model_player>
@@ -9510,7 +9501,6 @@ https://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Nakrycie głowy</item_type_name>
 			<item_name>Czapka Mann Co.</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/Scout_cap.mdl</model_player>
@@ -10384,7 +10374,7 @@ do tych, które tkwią w Wyszczerbcu.</item_description>
 			<defindex>280</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Rozkręcacz imprez</item_type_name>
-			<item_name>Terkotka - czarny kot</item_name>
+			<item_name>Terkotka – czarny kot</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -10422,7 +10412,7 @@ do tych, które tkwią w Wyszczerbcu.</item_description>
 			<defindex>281</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Rozkręcacz imprez</item_type_name>
-			<item_name>Terkotka - gremlin</item_name>
+			<item_name>Terkotka – gremlin</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -10460,7 +10450,7 @@ do tych, które tkwią w Wyszczerbcu.</item_description>
 			<defindex>282</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Rozkręcacz imprez</item_type_name>
-			<item_name>Terkotka - wilkołak</item_name>
+			<item_name>Terkotka – wilkołak</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -10498,7 +10488,7 @@ do tych, które tkwią w Wyszczerbcu.</item_description>
 			<defindex>283</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Rozkręcacz imprez</item_type_name>
-			<item_name>Terkotka - wiedźma</item_name>
+			<item_name>Terkotka – wiedźma</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -10536,7 +10526,7 @@ do tych, które tkwią w Wyszczerbcu.</item_description>
 			<defindex>284</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Rozkręcacz imprez</item_type_name>
-			<item_name>Terkotka - banshee</item_name>
+			<item_name>Terkotka – banshee</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -10574,7 +10564,7 @@ do tych, które tkwią w Wyszczerbcu.</item_description>
 			<defindex>286</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Rozkręcacz imprez</item_type_name>
-			<item_name>Terkotka - szaleńczy śmiech</item_name>
+			<item_name>Terkotka – szaleńczy śmiech</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -10661,7 +10651,7 @@ do tych, które tkwią w Wyszczerbcu.</item_description>
 			<defindex>288</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Rozkręcacz imprez</item_type_name>
-			<item_name>Terkotka - sztyletowanie</item_name>
+			<item_name>Terkotka – sztyletowanie</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -10708,8 +10698,8 @@ do tych, które tkwią w Wyszczerbcu.</item_description>
 			<image_inventory>backpack/player/items/all_class/voodoojuju_hat</image_inventory>
 			<min_ilevel>31</min_ilevel>
 			<max_ilevel>31</max_ilevel>
-			<image_url>http://media.steampowered.com/apps/440/icons/voodoojuju_hat.8cf9dc510eaf5d6cbfd4fc210ff3ee0aa906db9b.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/voodoojuju_hat_large.be40609e0ed4017c2c9013b19376cf75afe8831a.png</image_url_large>
+			<image_url>http://media.steampowered.com/apps/440/icons/voodoojuju_hat.fb64e44ddc108918d00e26452168652450b905b6.png</image_url>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/voodoojuju_hat_large.7013b3669f9c3226d1a2111fef588a313b330822.png</image_url_large>
 			<drop_type>drop</drop_type>
 			<craft_class></craft_class>
 			<craft_material_type></craft_material_type>
@@ -11176,7 +11166,6 @@ Nie można atakować, będąc niewidzialnym. Po wpadnięciu na wroga twoja sylwe
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hełm</item_type_name>
 			<item_name>Hełm garnczkowy Berlińczyka</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/berliners_bucket_helm.mdl</model_player>
@@ -11504,7 +11493,6 @@ Pierwsze trafienie powoduje eksplozję.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Nakrycie głowy</item_type_name>
 			<item_name>Wielki wódz</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/heavy_big_chief.mdl</model_player>
@@ -12673,6 +12661,11 @@ z „Wielkiego Polowania na Skarby Steam”.</item_description>
 					<class>kill_eater_kill_type</class>
 					<value>64</value>
 				</attribute>
+				<attribute>
+					<name>attach particle effect static</name>
+					<class>set_attached_particle_static</class>
+					<value>406</value>
+				</attribute>
 			</attributes>
 		</item>
 		<item>
@@ -12732,6 +12725,11 @@ Uwaga na głowonożną kłódkę.</item_description>
 					<name>counts as assister is some kind of pet this update is going to be awesome</name>
 					<class>counts_as_assister</class>
 					<value>1</value>
+				</attribute>
+				<attribute>
+					<name>attach particle effect static</name>
+					<class>set_attached_particle_static</class>
+					<value>406</value>
 				</attribute>
 			</attributes>
 		</item>
@@ -13241,7 +13239,6 @@ Uwaga na głowonożną kłódkę.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Nakrycie głowy</item_type_name>
 			<item_name>Superkibic</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/mnc_mascot_hat.mdl</model_player>
@@ -13289,7 +13286,6 @@ Uwaga na głowonożną kłódkę.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Ubranie</item_type_name>
 			<item_name>Niezbędne akcesoria</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/mnc_mascot_outfit.mdl</model_player>
@@ -13823,7 +13819,6 @@ Wojnę przegapił</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Bandana</item_type_name>
 			<item_name>Hachimaki bohatera</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/homefront_blindfold.mdl</model_player>
@@ -13919,7 +13914,7 @@ Straszliwa maska</item_description>
 			<defindex>362</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Rozkręcacz imprez</item_type_name>
-			<item_name>Terkotka - dzwon</item_name>
+			<item_name>Terkotka – dzwon</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -14011,7 +14006,7 @@ Medyk jest damą</item_description>
 			<defindex>364</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Rozkręcacz imprez</item_type_name>
-			<item_name>Terkotka - gong</item_name>
+			<item_name>Terkotka – gong</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -14054,7 +14049,7 @@ Medyk jest damą</item_description>
 			<defindex>365</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Rozkręcacz imprez</item_type_name>
-			<item_name>Terkotka - koto</item_name>
+			<item_name>Terkotka – koto</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -15511,8 +15506,8 @@ wszystkich w jednym kawałku.</item_description>
 			<item_class>tf_wearable_demoshield</item_class>
 			<item_type_name>Tarcza</item_type_name>
 			<item_name>Prześwietny puklerz</item_name>
-			<item_description>Atak alternatywny: szarża w stronę wroga i usunięcie efektów negatywnych
-Zapewnia obrażenia krytyczne bronią do walki wręcz po zderzeniu z wrogiem na dalekim dystansie.</item_description>
+			<item_description>Alt-Fire: Charge toward your enemies and remove debuffs.
+Gain a critical melee strike after impacting an enemy at distance.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_persian_shield/c_persian_shield.mdl</model_player>
@@ -16878,7 +16873,6 @@ Przekaż swoim ofiarom, że tworzysz powtórkę ich żałosnych poczynań i podz
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Nakrycie głowy</item_type_name>
 			<item_name>Hełm korkowy lorda Cockswaina</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/drg_pith_hat.mdl</model_player>
@@ -16928,7 +16922,6 @@ Przekaż swoim ofiarom, że tworzysz powtórkę ich żałosnych poczynań i podz
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Zarost</item_type_name>
 			<item_name>Nietuzinkowe bokobrody i fajka lorda Cockswaina</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/drg_hair_beard.mdl</model_player>
@@ -17027,7 +17020,6 @@ Przekaż swoim ofiarom, że tworzysz powtórkę ich żałosnych poczynań i podz
 			<item_class>tf_weapon_raygun</item_class>
 			<item_type_name>Zderzacz niepodzielnych cząsteczek</item_type_name>
 			<item_name>Prawy bizon</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_drg_righteousbison/c_drg_righteousbison.mdl</model_player>
@@ -19159,7 +19151,7 @@ O BOŻE TO JEST PRZYŚRUBOWANE DO JEGO GŁOWY!</item_description>
 			<defindex>493</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Rozkręcacz imprez</item_type_name>
-			<item_name>Terkotka - fajerwerki</item_name>
+			<item_name>Terkotka – fajerwerki</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -20384,7 +20376,6 @@ O BOŻE TO JEST PRZYŚRUBOWANE DO JEGO GŁOWY!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Nakrycie głowy</item_type_name>
 			<item_name>Nanokominiarka</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/spy/dex_belltower/dex_belltower.mdl</model_player>
@@ -20433,7 +20424,6 @@ O BOŻE TO JEST PRZYŚRUBOWANE DO JEGO GŁOWY!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Okulary</item_type_name>
 			<item_name>Deus SPECS</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/dex_glasses/dex_glasses_Scout.mdl</model_player>
@@ -20478,7 +20468,6 @@ O BOŻE TO JEST PRZYŚRUBOWANE DO JEGO GŁOWY!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Nakrycie głowy</item_type_name>
 			<item_name>Człowiek korporacji</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/Scout/dex_hat_Scout/dex_hat_Scout.mdl</model_player>
@@ -20523,7 +20512,6 @@ O BOŻE TO JEST PRZYŚRUBOWANE DO JEGO GŁOWY!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Ozdobne usprawnienie</item_type_name>
 			<item_name>Żelazna pięść czystości i siły</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/heavy/dex_sarifarm/dex_sarifarm.mdl</model_player>
@@ -20571,7 +20559,6 @@ O BOŻE TO JEST PRZYŚRUBOWANE DO JEGO GŁOWY!</item_description>
 			<item_class>tf_weapon_revolver</item_class>
 			<item_type_name>Rewolwer</item_type_name>
 			<item_name>Grzechotnik</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_revolver/c_dex_revolver.mdl</model_player>
@@ -20622,7 +20609,6 @@ O BOŻE TO JEST PRZYŚRUBOWANE DO JEGO GŁOWY!</item_description>
 			<item_class>tf_weapon_sniperrifle</item_class>
 			<item_type_name>Karabin snajperski</item_type_name>
 			<item_name>Machina</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_sniperrifle/c_dex_sniperrifle.mdl</model_player>
@@ -20683,7 +20669,6 @@ O BOŻE TO JEST PRZYŚRUBOWANE DO JEGO GŁOWY!</item_description>
 			<item_class>tf_weapon_shotgun_primary</item_class>
 			<item_type_name>Strzelba</item_type_name>
 			<item_name>Likwidator</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_shotgun/c_dex_shotgun.mdl</model_player>
@@ -20749,7 +20734,6 @@ O BOŻE TO JEST PRZYŚRUBOWANE DO JEGO GŁOWY!</item_description>
 			<item_class>tf_weapon_mechanical_arm</item_class>
 			<item_type_name>Robotyczne ramię</item_type_name>
 			<item_name>Krótkie spięcie</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_arm/c_dex_arm.mdl</model_player>
@@ -20969,7 +20953,7 @@ Gamescom 2011</item_description>
 			<defindex>536</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Rozkręcacz imprez</item_type_name>
-			<item_name>Terkotka - urodziny TF</item_name>
+			<item_name>Terkotka – urodziny TF</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -21019,7 +21003,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Nakrycie głowy</item_type_name>
 			<item_name>Czapka urodzinowa</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/bdayhat_Scout.mdl</model_player>
@@ -21112,7 +21095,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Nakrycie głowy</item_type_name>
 			<item_name>El Jefe</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/rebel_cap.mdl</model_player>
@@ -21261,7 +21243,7 @@ Gamescom 2011</item_description>
 			<defindex>542</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Rozkręcacz imprez</item_type_name>
-			<item_name>Terkotka - wuwuzela</item_name>
+			<item_name>Terkotka – wuwuzela</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -21300,7 +21282,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Psa urok</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_hat.mdl</model_player>
@@ -21353,7 +21334,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Szkockie ujadanie</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_misc1.mdl</model_player>
@@ -21406,7 +21386,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Spreparowane łapy</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_misc2.mdl</model_player>
@@ -21459,7 +21438,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Bojowa nawijka</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_hat.mdl</model_player>
@@ -21512,7 +21490,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>B-ankh!</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_misc1.mdl</model_player>
@@ -21565,7 +21542,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Stopanchamon</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_misc2.mdl</model_player>
@@ -21618,7 +21594,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Ognisty byk</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_hat.mdl</model_player>
@@ -21671,7 +21646,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Upadły anioł</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_misc1.mdl</model_player>
@@ -21724,7 +21698,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Czorci chwost</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_misc2.mdl</model_player>
@@ -21777,7 +21750,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Einstein</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_hat.mdl</model_player>
@@ -21830,7 +21802,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Dr Goglowąs</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_misc1.mdl</model_player>
@@ -21883,7 +21854,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Szmaragdowe sikwondo</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_misc2.mdl</model_player>
@@ -21936,7 +21906,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Pudło idioty</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_hat.mdl</model_player>
@@ -21989,7 +21958,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Stalowe rury</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_misc1.mdl</model_player>
@@ -22042,7 +22010,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Papierowy budżet</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_misc2.mdl</model_player>
@@ -22095,7 +22062,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Pod przykrywką</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_hat.mdl</model_player>
@@ -22148,7 +22114,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Gogle Griffina</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_misc1.mdl</model_player>
@@ -22201,7 +22166,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Nieuchwytna apaszka</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_misc2.mdl</model_player>
@@ -22254,7 +22218,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Otwieracz do puszek</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_hat.mdl</model_player>
@@ -22307,7 +22270,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Sowieckie szwy</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_misc1.mdl</model_player>
@@ -22360,7 +22322,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Wzmocnione wgniatacze</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_misc2.mdl</model_player>
@@ -22413,7 +22374,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Święty łowca</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_hat.mdl</model_player>
@@ -22466,7 +22426,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Srebrne kule</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_misc1.mdl</model_player>
@@ -22519,7 +22478,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Parafernalia łowcy</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_misc2.mdl</model_player>
@@ -22572,7 +22530,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Bolimuszka kleparka</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_hat.mdl</model_player>
@@ -22625,7 +22582,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Pluskwiak z pogranicza</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_misc1.mdl</model_player>
@@ -22678,7 +22634,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Część przebrania</item_type_name>
 			<item_name>Chitynowe chodaki</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_misc2.mdl</model_player>
@@ -22731,7 +22686,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Maska</item_type_name>
 			<item_name>Ostatnie tchnienie</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/pyro/pyro_halloween_gasmask/pyro_halloween_gasmask.mdl</model_player>
@@ -23479,7 +23433,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Odznaka</item_type_name>
 			<item_name>Znak Świętych</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/sr3_badge.mdl</model_player>
@@ -26114,7 +26067,6 @@ Własne naklejki mogą zostać użyte na tym przedmiocie.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Koszula</item_type_name>
 			<item_name>Dr Whoa</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/bowtie.mdl</model_player>
@@ -26260,7 +26212,6 @@ Własne naklejki mogą zostać użyte na tym przedmiocie.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Plecak</item_type_name>
 			<item_name>Wygodnicki wczasowicz</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/player/items/sniper/xms_sniper_commandobackpack/xms_sniper_commandobackpack.mdl</model_player>
@@ -27684,7 +27635,7 @@ Podpalenie redukuje leczenie mediguna i odporności tarcz.</item_description>
 			<defindex>673</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Rozkręcacz imprez</item_type_name>
-			<item_name>Terkotka - święta Bożego Narodzenia</item_name>
+			<item_name>Terkotka – święta Bożego Narodzenia</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
@@ -28667,7 +28618,6 @@ Podpalenie redukuje leczenie mediguna i odporności tarcz.</item_description>
 			<item_class>craft_item</item_class>
 			<item_type_name>Pierścień</item_type_name>
 			<item_name>Coś specjalnego dla kogoś specjalnego</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<model_player>null</model_player>
 			<item_quality>6</item_quality>
@@ -29187,7 +29137,6 @@ Podpalenie redukuje leczenie mediguna i odporności tarcz.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Func_Medal</item_type_name>
 			<item_name>Medalion twórcy map</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/mapper_medal.mdl</model_player>
@@ -29648,7 +29597,6 @@ Podpalenie redukuje leczenie mediguna i odporności tarcz.</item_description>
 			<item_class>tf_weapon_rocketlauncher</item_class>
 			<item_type_name>Wyrzutnia rakiet</item_type_name>
 			<item_name>Bazooka biedaka</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_dumpster_device/c_dumpster_device.mdl</model_player>
@@ -30537,7 +30485,6 @@ Podpalenie redukuje leczenie mediguna i odporności tarcz.</item_description>
 			<item_class>tf_weapon_charged_smg</item_class>
 			<item_type_name>PM</item_type_name>
 			<item_name>Spluwa sprzątacza</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pro_smg/c_pro_smg.mdl</model_player>
@@ -31635,7 +31582,6 @@ Potoczą się głowy.</item_description>
 			<item_class>tf_weapon_pep_brawler_blaster</item_class>
 			<item_type_name>Dubeltówka</item_type_name>
 			<item_name>Browning Baby Face&apos;a</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pep_scattergun/c_pep_scattergun.mdl</model_player>
@@ -31697,7 +31643,6 @@ Potoczą się głowy.</item_description>
 			<item_class>tf_weapon_handgun_scout_secondary</item_class>
 			<item_type_name>Pistolet</item_type_name>
 			<item_name>Poręczny pistolet Pretty Boya</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pep_pistol/c_pep_pistol.mdl</model_player>
@@ -41903,7 +41848,6 @@ Podpalenie redukuje leczenie mediguna i odporności tarcz.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Nakrycie głowy</item_type_name>
 			<item_name>Czapka Mann Co. Online</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/Scout_cap_online.mdl</model_player>
@@ -44977,7 +44921,7 @@ Jest to zacnie wyglądająca księga zaklęć, pełna zebranych przez ciebie str
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>100</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete.57f64ae848a23c8232a2f7dcd89bd6c298a47597.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete_large.da01f0b58f4b411288c36739f48bd322126cf6dd.png</image_url_large>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete_large.091cca0d87df8b95374f898da7b80f5b67f3b088.png</image_url_large>
 			<capabilities>
 				<nameable>true</nameable>
 				<can_gift_wrap>true</can_gift_wrap>
@@ -45986,6 +45930,17 @@ Działka, które przestały być sterowane, będą wyłączone przez 3 sekundy.<
 				<can_killstreakify>true</can_killstreakify>
 				<can_consume>true</can_consume>
 			</capabilities>
+			<styles>
+				<style>
+					<name>Z amunicją</name>
+				</style>
+				<style>
+					<name>Bez amunicji</name>
+					<additional_hidden_bodygroups>
+						<bullets>1</bullets>
+					</additional_hidden_bodygroups>
+				</style>
+			</styles>
 			<used_by_classes>
 				<class>Heavy</class>
 			</used_by_classes>
@@ -46152,7 +46107,6 @@ Działka, które przestały być sterowane, będą wyłączone przez 3 sekundy.<
 			<item_class>tf_weapon_compound_bow</item_class>
 			<item_type_name>Łuk</item_type_name>
 			<item_name>Bojowy łuk bloczkowy</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_bow_thief/c_bow_thief.mdl</model_player>
@@ -46208,7 +46162,6 @@ Działka, które przestały być sterowane, będą wyłączone przez 3 sekundy.<
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hełm</item_type_name>
 			<item_name>Złocona osłona</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/soldier/thief_soldier_helmet/thief_soldier_helmet.mdl</model_player>
@@ -46256,7 +46209,6 @@ Działka, które przestały być sterowane, będą wyłączone przez 3 sekundy.<
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Płaszcz</item_type_name>
 			<item_name>Przestępcze ponczo</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/sniper/thief_sniper_cape/thief_sniper_cape.mdl</model_player>
@@ -46304,7 +46256,6 @@ Działka, które przestały być sterowane, będą wyłączone przez 3 sekundy.<
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kaptur</item_type_name>
 			<item_name>Złowieszczy kapturek</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/sniper/thief_sniper_hood/thief_sniper_hood.mdl</model_player>
@@ -46352,7 +46303,6 @@ Działka, które przestały być sterowane, będą wyłączone przez 3 sekundy.<
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Odznaka</item_type_name>
 			<item_name>Odznaka barona</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/thief_badge/thief_badge_demo.mdl</model_player>
@@ -46450,7 +46400,6 @@ Działka, które przestały być sterowane, będą wyłączone przez 3 sekundy.<
 			<item_class>tf_weapon_sniperrifle_classic</item_class>
 			<item_type_name>Karabin snajperski</item_type_name>
 			<item_name>Klasyk</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/weapons/c_models/c_tfc_sniperrifle/c_tfc_sniperrifle.mdl</model_player>
@@ -46733,7 +46682,6 @@ Otwarty spadochron spowalnia twój spadek.</item_description>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Dubeltówka</item_type_name>
 			<item_name>Dupeltówka</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_scatterdrum/c_scatterdrum.mdl</model_player>
@@ -47670,7 +47618,6 @@ Zainspirowane filmem TF2 „Data przydatności”.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Okulary</item_type_name>
 			<item_name>Niebotyczny słup australijskich awiatorów</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/summer_deal_Scout.mdl</model_player>
@@ -47720,7 +47667,6 @@ Zainspirowane filmem TF2 „Data przydatności”.</item_description>
 			<item_class>saxxy</item_class>
 			<item_type_name>Młot</item_type_name>
 			<item_name>Nekrozgniatacz</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_carnival_mallet/c_carnival_mallet.mdl</model_player>
@@ -47915,7 +47861,6 @@ Wyższe poziomy zapewniają większą szansę znalezienia kaczek.</item_descript
 			<item_class>saxxy</item_class>
 			<item_type_name>Znak</item_type_name>
 			<item_name>Zawiadowca</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_crossing_guard/c_crossing_guard.mdl</model_player>

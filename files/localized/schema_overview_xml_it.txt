@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1d62f5c09ba2e14f6d4a4abc24dd8bb5921aa4b0.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -11546,6 +11546,75 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			<name>Criogenico</name>
 		</particle>
 		<particle>
+			<system>coin_spin</system>
+			<id>406</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<name>Attrib_Particle406</name>
+		</particle>
+		<particle>
+			<system>unusual_aurora_purple_parent</system>
+			<id>407</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Umbral Lights</name>
+		</particle>
+		<particle>
+			<system>unusual_aurora_teal_parent</system>
+			<id>408</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Northern Nights</name>
+		</particle>
+		<particle>
+			<system>unusual_aurora_green_parent</system>
+			<id>409</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Solar Singed</name>
+		</particle>
+		<particle>
+			<system>unusual_vinethorn_teamcolor_red</system>
+			<id>410</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Floral Growth</name>
+		</particle>
+		<particle>
+			<system>unusual_vinethorn_teamcolor_blue</system>
+			<id>411</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Floral Growth</name>
+		</particle>
+		<particle>
+			<system>unusual_spaceorbit_parent</system>
+			<id>412</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Stellar Orbit</name>
+		</particle>
+		<particle>
+			<system>unusual_butterfly_teamcolor_red</system>
+			<id>413</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Blissful Butterflies</name>
+		</particle>
+		<particle>
+			<system>unusual_butterfly_teamcolor_blue</system>
+			<id>414</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Blissful Butterflies</name>
+		</particle>
+		<particle>
+			<system>unusual_butterfly_parent_purple</system>
+			<id>415</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Wispful Wings</name>
+		</particle>
+		<particle>
 			<system>weapon_unusual_hot</system>
 			<id>701</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
@@ -12861,7 +12930,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			<system>utaunt_tarpit_dinos_parent</system>
 			<id>3209</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Fossil Fueled</name>
+			<name>Combustibile Fossile</name>
 		</particle>
 		<particle>
 			<system>utaunt_tarpit_people_parent</system>
@@ -12873,13 +12942,13 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			<system>utaunt_morbed_teamcolor_red</system>
 			<id>3211</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Morbidly Beast</name>
+			<name>Bestia Morbosa</name>
 		</particle>
 		<particle>
 			<system>utaunt_morbed_teamcolor_blue</system>
 			<id>3212</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Morbidly Beast</name>
+			<name>Bestia Morbosa</name>
 		</particle>
 		<particle>
 			<system>utaunt_2fort_teamc_teamcolor_red</system>
@@ -12946,6 +13015,42 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			<id>3223</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
 			<name>Interruzione del circuito</name>
+		</particle>
+		<particle>
+			<system>utaunt_wheatfield_parent</system>
+			<id>3224</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Wheat Field</name>
+		</particle>
+		<particle>
+			<system>utaunt_luminousdrift_teamcolor_red</system>
+			<id>3225</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Luminous Drift</name>
+		</particle>
+		<particle>
+			<system>utaunt_luminousdrift_teamcolor_blue</system>
+			<id>3226</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Luminous Drift</name>
+		</particle>
+		<particle>
+			<system>utaunt_luminousdrift_purple_parent</system>
+			<id>3227</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Luminous Shift</name>
+		</particle>
+		<particle>
+			<system>utaunt_dualspotlights_parent</system>
+			<id>3228</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Showtime Spotlights</name>
+		</particle>
+		<particle>
+			<system>utaunt_underwater_parent</system>
+			<id>3229</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Deep Dive</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>

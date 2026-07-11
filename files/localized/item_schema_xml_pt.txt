@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1d62f5c09ba2e14f6d4a4abc24dd8bb5921aa4b0.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -7642,7 +7642,6 @@ Disparo alternativo: Dispara uma descarga de ar que empurra inimigos para trás,
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
 			<item_name>O Assistente</item_name>
-			<item_description>Nome original inglês: THE ATTENDANT</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/attendant.mdl</model_player>
@@ -7826,7 +7825,6 @@ Disparo alternativo: Dispara uma descarga de ar que empurra inimigos para trás,
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
 			<item_name>O Leiteiro</item_name>
-			<item_description>Nome original inglês: THE MILKMAN</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/milkhat.mdl</model_player>
@@ -8051,7 +8049,6 @@ Este item também é útil para apagar as chamas de companheiros de equipa que e
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
 			<item_name>Fez Familiar</item_name>
-			<item_description>Nome original inglês: FAMILIAR FEZ</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/fez.mdl</model_player>
@@ -8098,7 +8095,7 @@ Este item também é útil para apagar as chamas de companheiros de equipa que e
 			<defindex>224</defindex>
 			<item_class>tf_weapon_revolver</item_class>
 			<item_type_name>Revólver</item_type_name>
-			<item_name>L&apos;Etranger</item_name>
+			<item_name>L&apos;Étranger</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_letranger/c_letranger.mdl</model_player>
@@ -8271,7 +8268,6 @@ A raiva aumenta com a quantidade de dano causado.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
 			<item_name>Boné do Granadeiro</item_name>
-			<item_description>Nome original inglês: GRENADIER&apos;S SOFTCAP</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/grenadier_softcap.mdl</model_player>
@@ -8377,7 +8373,6 @@ A raiva aumenta com a quantidade de dano causado.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
 			<item_name>O Velho Dentuças</item_name>
-			<item_description>Nome original inglês: OL&apos; SNAGGLETOOTH</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/snaggletooth.mdl</model_player>
@@ -8752,7 +8747,6 @@ ESTA ARMA NÃO CAUSA DANO.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Capacete</item_type_name>
 			<item_name>Capacete Lombrigueiro</item_name>
-			<item_description>Nome original inglês: LUMBRICUS LID</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/worms_gear.mdl</model_player>
@@ -9019,7 +9013,6 @@ Aumenta o seu nível vencendo mais duelos!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
 			<item_name>Protetor de Pugilista</item_name>
-			<item_description>Nome original inglês: PUGILIST&apos;S PROTECTOR</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/pugilist_protector.mdl</model_player>
@@ -9217,7 +9210,6 @@ Morte vinda dos céus!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
 			<item_name>Chefe Índio Desafiador</item_name>
-			<item_description>Nome original inglês: CHIEFTAIN&apos;S CHALLENGE</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/chief_rocketeer.mdl</model_player>
@@ -9315,7 +9307,6 @@ A grande conquista da moda militar Vitoriana.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
 			<item_name>Cartola Catita do Doutor</item_name>
-			<item_description>Nome original inglês: DR&apos;S DAPPER TOPPER</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/all_class/dappertopper/dappertopper_Scout.mdl</model_player>
@@ -9603,7 +9594,6 @@ https://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
 			<item_name>Boné Mann Co.</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/Scout_cap.mdl</model_player>
@@ -10801,8 +10791,8 @@ Exprime o teu ódio eterno pelos vivos.</item_description>
 			<image_inventory>backpack/player/items/all_class/voodoojuju_hat</image_inventory>
 			<min_ilevel>31</min_ilevel>
 			<max_ilevel>31</max_ilevel>
-			<image_url>http://media.steampowered.com/apps/440/icons/voodoojuju_hat.8cf9dc510eaf5d6cbfd4fc210ff3ee0aa906db9b.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/voodoojuju_hat_large.be40609e0ed4017c2c9013b19376cf75afe8831a.png</image_url_large>
+			<image_url>http://media.steampowered.com/apps/440/icons/voodoojuju_hat.fb64e44ddc108918d00e26452168652450b905b6.png</image_url>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/voodoojuju_hat_large.7013b3669f9c3226d1a2111fef588a313b330822.png</image_url_large>
 			<drop_type>drop</drop_type>
 			<craft_class></craft_class>
 			<craft_material_type></craft_material_type>
@@ -11274,7 +11264,6 @@ E matar, e partir, e esmagar, e morder. Mas principalmente mutilar.</item_descri
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Capacete</item_type_name>
 			<item_name>Capacete de Berlim</item_name>
-			<item_description>Nome original inglês: BERLINER&apos;S BUCKET HELM</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/berliners_bucket_helm.mdl</model_player>
@@ -11603,7 +11592,6 @@ Acertar num inimigo com isto pela primeira vez causará uma explosão.</item_des
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
 			<item_name>O Grande Chefe</item_name>
-			<item_description>Nome original inglês: THE BIG CHIEF</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/heavy_big_chief.mdl</model_player>
@@ -12774,6 +12762,11 @@ Ganho ao completar 15 objetivos na &apos;Grande Caça ao Tesouro Steam&apos;.</i
 					<class>kill_eater_kill_type</class>
 					<value>64</value>
 				</attribute>
+				<attribute>
+					<name>attach particle effect static</name>
+					<class>set_attached_particle_static</class>
+					<value>406</value>
+				</attribute>
 			</attributes>
 		</item>
 		<item>
@@ -12833,6 +12826,11 @@ Ganho ao completar 28 objetivos na &apos;Grande Caça ao Tesouro Steam&apos;. Cu
 					<name>counts as assister is some kind of pet this update is going to be awesome</name>
 					<class>counts_as_assister</class>
 					<value>1</value>
+				</attribute>
+				<attribute>
+					<name>attach particle effect static</name>
+					<class>set_attached_particle_static</class>
+					<value>406</value>
 				</attribute>
 			</attributes>
 		</item>
@@ -13346,7 +13344,6 @@ Feito a partir do único recurso natural da Austrália.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
 			<item_name>O Super Adepto</item_name>
-			<item_description>Nome original inglês: THE SUPERFAN</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/mnc_mascot_hat.mdl</model_player>
@@ -13394,7 +13391,6 @@ Feito a partir do único recurso natural da Austrália.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Roupa</item_type_name>
 			<item_name>Os Acessórios Essenciais</item_name>
-			<item_description>Nome original inglês: THE ESSENTIAL ACCESSORIES</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/mnc_mascot_outfit.mdl</model_player>
@@ -13932,7 +13928,6 @@ Porém, desmaia</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Bandana</item_type_name>
 			<item_name>Hachimaki de Herói</item_name>
-			<item_description>Nome original inglês: HERO&apos;S HACHIMAKI</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/homefront_blindfold.mdl</model_player>
@@ -15659,7 +15654,7 @@ Saiam das m&apos;nhas terras!</item_description>
 			<item_class>tf_wearable_demoshield</item_class>
 			<item_type_name>Escudo</item_type_name>
 			<item_name>Barreira Esplêndida</item_name>
-			<item_description>Disparo alternativo: Executa um ataque de investida em direção aos teus inimigos e remove efeitos negativos.
+			<item_description>Disparo alternativo: executa um ataque de investida em direção aos teus inimigos e remove efeitos negativos.
 Podes executar um ataque crítico com a tua arma corpo a corpo após o impacto com um inimigo distante.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
@@ -17037,7 +17032,6 @@ Equipa este item num Compartimento de Provocação. Ativa-o para mostrares às t
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
 			<item_name>Chapéu de Safari do Lord Cockswain</item_name>
-			<item_description>Nome original inglês: LORD COCKSWAIN&apos;S PITH HELMET</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/drg_pith_hat.mdl</model_player>
@@ -17087,7 +17081,6 @@ Equipa este item num Compartimento de Provocação. Ativa-o para mostrares às t
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Pelos Faciais</item_type_name>
 			<item_name>Suíças e Cachimbo do Lord Cockswain</item_name>
-			<item_description>Nome original inglês: LORD COCKSWAIN&apos;S NOVELTY MUTTON CHOPS AND PIPE</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/drg_hair_beard.mdl</model_player>
@@ -17186,7 +17179,6 @@ Equipa este item num Compartimento de Provocação. Ativa-o para mostrares às t
 			<item_class>tf_weapon_raygun</item_class>
 			<item_type_name>Esmagador de Partículas Indivisíveis</item_type_name>
 			<item_name>Righteous Bison</item_name>
-			<item_description> </item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_drg_righteousbison/c_drg_righteousbison.mdl</model_player>
@@ -20568,7 +20560,6 @@ Um elmo criado para provocar o medo. Porém, os dragões nos quais este elmo foi
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
 			<item_name>A Nanobalaclava</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/spy/dex_belltower/dex_belltower.mdl</model_player>
@@ -20617,7 +20608,6 @@ Um elmo criado para provocar o medo. Porém, os dragões nos quais este elmo foi
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Óculos</item_type_name>
 			<item_name>Deus Specs</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/dex_glasses/dex_glasses_Scout.mdl</model_player>
@@ -20662,7 +20652,6 @@ Um elmo criado para provocar o medo. Porém, os dragões nos quais este elmo foi
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
 			<item_name>O Homem da Empresa</item_name>
-			<item_description>Nome original inglês: THE COMPANY MAN</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/Scout/dex_hat_Scout/dex_hat_Scout.mdl</model_player>
@@ -20707,7 +20696,6 @@ Um elmo criado para provocar o medo. Porém, os dragões nos quais este elmo foi
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Prótese Decorativa</item_type_name>
 			<item_name>Purity Fist</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/heavy/dex_sarifarm/dex_sarifarm.mdl</model_player>
@@ -20755,7 +20743,6 @@ Um elmo criado para provocar o medo. Porém, os dragões nos quais este elmo foi
 			<item_class>tf_weapon_revolver</item_class>
 			<item_type_name>Revólver</item_type_name>
 			<item_name>Diamondback</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_revolver/c_dex_revolver.mdl</model_player>
@@ -20806,7 +20793,6 @@ Um elmo criado para provocar o medo. Porém, os dragões nos quais este elmo foi
 			<item_class>tf_weapon_sniperrifle</item_class>
 			<item_type_name>Espingarda Sniper</item_type_name>
 			<item_name>Machina</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_sniperrifle/c_dex_sniperrifle.mdl</model_player>
@@ -20867,7 +20853,6 @@ Um elmo criado para provocar o medo. Porém, os dragões nos quais este elmo foi
 			<item_class>tf_weapon_shotgun_primary</item_class>
 			<item_type_name>Caçadeira</item_type_name>
 			<item_name>Widowmaker</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_shotgun/c_dex_shotgun.mdl</model_player>
@@ -20933,7 +20918,6 @@ Um elmo criado para provocar o medo. Porém, os dragões nos quais este elmo foi
 			<item_class>tf_weapon_mechanical_arm</item_class>
 			<item_type_name>Braço Robótico</item_type_name>
 			<item_name>Curto-Circuito</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_arm/c_dex_arm.mdl</model_player>
@@ -21203,7 +21187,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
 			<item_name>Chapéu de Festa</item_name>
-			<item_description>Nome original inglês: PARTY HAT</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/bdayhat_Scout.mdl</model_player>
@@ -21298,7 +21281,6 @@ Para os que fazem as notícias (e os mortos) de última hora.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
 			<item_name>El Jefe</item_name>
-			<item_description> </item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/rebel_cap.mdl</model_player>
@@ -21490,7 +21472,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>O Pelo do Cão</item_name>
-			<item_description>Nome original inglês: THE HAIR OF THE DOG</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_hat.mdl</model_player>
@@ -21543,7 +21524,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>O Rosnador Escocês</item_name>
-			<item_description>Nome original inglês: THE SCOTTISH SNARL</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_misc1.mdl</model_player>
@@ -21596,7 +21576,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>As Patas em Conserva</item_name>
-			<item_description>Nome original inglês: THE PICKLED PAWS</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_misc2.mdl</model_player>
@@ -21649,7 +21628,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>O Combatente Enfaixado</item_name>
-			<item_description>Nome original inglês: THE WRAP BATTLER</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_hat.mdl</model_player>
@@ -21702,7 +21680,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>B-Ankh!</item_name>
-			<item_description> </item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_misc1.mdl</model_player>
@@ -21755,7 +21732,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>O Pétancámon</item_name>
-			<item_description>Nome original inglês: THE FUTANKHAMUN</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_misc2.mdl</model_player>
@@ -21808,7 +21784,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>O Touro Flamejante</item_name>
-			<item_description>Nome original inglês: THE BLAZING BULL</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_hat.mdl</model_player>
@@ -21861,7 +21836,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>O Anjo Caído</item_name>
-			<item_description>Nome original inglês: THE FALLEN ANGEL</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_misc1.mdl</model_player>
@@ -21914,7 +21888,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>Cauda da Cripta</item_name>
-			<item_description>Nome original inglês: TAIL FROM THE CRYPT</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_misc2.mdl</model_player>
@@ -21967,7 +21940,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>O Einstein</item_name>
-			<item_description> </item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_hat.mdl</model_player>
@@ -22020,7 +21992,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>Dr. Bigodóculos</item_name>
-			<item_description>Nome original inglês: DR. GOGGLESTACHE</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_misc1.mdl</model_player>
@@ -22073,7 +22044,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>O Jaraté de Esmeralda</item_name>
-			<item_description>Nome original inglês: THE EMERALD JARATE</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_misc2.mdl</model_player>
@@ -22126,7 +22096,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>A Caixa Idiota</item_name>
-			<item_description>Nome original inglês: THE IDIOT BOX</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_hat.mdl</model_player>
@@ -22179,7 +22148,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>Os Canos de Aço</item_name>
-			<item_description>Nome original inglês: THE STEEL PIPES</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_misc1.mdl</model_player>
@@ -22232,7 +22200,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>O Orçamento A-pé-rtado</item_name>
-			<item_description>Nome original inglês: THE SHOESTRING BUDGET</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_misc2.mdl</model_player>
@@ -22285,7 +22252,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>O Infiltrado</item_name>
-			<item_description>Nome original inglês: THE UNDER COVER</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_hat.mdl</model_player>
@@ -22338,7 +22304,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>Grandes Óculos do Griffin</item_name>
-			<item_description>Nome original inglês: GRIFFIN&apos;S GOG</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_misc1.mdl</model_player>
@@ -22391,7 +22356,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>O Lenço Intangível</item_name>
-			<item_description>Nome original inglês: THE INTANGIBLE ASCOT</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_misc2.mdl</model_player>
@@ -22444,7 +22408,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>O Abre-Latas</item_name>
-			<item_description>Nome original inglês: THE CAN OPENER</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_hat.mdl</model_player>
@@ -22497,7 +22460,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>A Costura Soviética</item_name>
-			<item_description>Nome original inglês: THE SOVIET STITCH-UP</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_misc1.mdl</model_player>
@@ -22550,7 +22512,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>As Botas de Dedos de Aço</item_name>
-			<item_description>Nome original inglês: THE STEEL-TOED STOMPERS</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_misc2.mdl</model_player>
@@ -22603,7 +22564,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>O Caçador Sagrado</item_name>
-			<item_description>Nome original inglês: THE HOLY HUNTER</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_hat.mdl</model_player>
@@ -22656,7 +22616,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>Balas de Prata</item_name>
-			<item_description>Nome original inglês: SILVER BULLETS</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_misc1.mdl</model_player>
@@ -22709,7 +22668,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>Estaca e Alho</item_name>
-			<item_description>Nome original inglês: GARLIC FLANK STAKE</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_misc2.mdl</model_player>
@@ -22762,7 +22720,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>O Zumbido Assassino</item_name>
-			<item_description>Nome original inglês: THE BUZZ KILLER</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_hat.mdl</model_player>
@@ -22815,7 +22772,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>A Mosca da Fronteira</item_name>
-			<item_description>Nome original inglês: THE FRONTIER FLYBOY</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_misc1.mdl</model_player>
@@ -22868,7 +22824,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Parte de Fato</item_type_name>
 			<item_name>A Lenda do Abominável Homem das Patas</item_name>
-			<item_description>Nome original inglês: THE LEGEND OF BUGFOOT</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_misc2.mdl</model_player>
@@ -22921,7 +22876,6 @@ Mostra a tua lealdade com um laço de cores claras à volta do teu pescoço.</it
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Máscara</item_type_name>
 			<item_name>O Último Fôlego</item_name>
-			<item_description>Nome original inglês: THE LAST BREATH</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/pyro/pyro_halloween_gasmask/pyro_halloween_gasmask.mdl</model_player>
@@ -23679,7 +23633,6 @@ A mais aterrorizante parceria Soviética/Latina desde a Crise dos Mísseis de Cu
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Crachá</item_type_name>
 			<item_name>O Símbolo dos Saints</item_name>
-			<item_description>Nome original inglês: THE MARK OF THE SAINT</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/sr3_badge.mdl</model_player>
@@ -26386,7 +26339,6 @@ Esta lâmina mortífera do século XV a sair da manga dá um novo significado à
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Camisola</item_type_name>
 			<item_name>Dr. Whoa</item_name>
-			<item_description> </item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/bowtie.mdl</model_player>
@@ -26534,7 +26486,6 @@ Tais como as granadas do Soldier, estas bolas de vidro brilhantes são puramente
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Mochila</item_type_name>
 			<item_name>O Campista Confortável</item_name>
-			<item_description> </item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/player/items/sniper/xms_sniper_commandobackpack/xms_sniper_commandobackpack.mdl</model_player>
@@ -28965,7 +28916,6 @@ Celebra o aniversário do Canadá, seja lá quando for, graças a este chapéu c
 			<item_class>craft_item</item_class>
 			<item_type_name>Anel</item_type_name>
 			<item_name>Algo Especial Para Alguém Especial</item_name>
-			<item_description> </item_description>
 			<proper_name>false</proper_name>
 			<model_player>null</model_player>
 			<item_quality>6</item_quality>
@@ -29497,7 +29447,6 @@ Digam a verdade, rapazes. Nem dá para notar, pois não?</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Func_Medal</item_type_name>
 			<item_name>O Medalhão do Criador de Mapas</item_name>
-			<item_description> </item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/mapper_medal.mdl</model_player>
@@ -29966,7 +29915,6 @@ Usa este bilhete ao iniciares o Mann vs. Máquina para jogares o modo Mann Up nu
 			<item_class>tf_weapon_rocketlauncher</item_class>
 			<item_type_name>Lança-Rockets</item_type_name>
 			<item_name>Bazuca do Vagabundo</item_name>
-			<item_description> </item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_dumpster_device/c_dumpster_device.mdl</model_player>
@@ -30867,7 +30815,6 @@ Quando eras criança, tudo o que tu querias era tocar bongos. Mas depois cresces
 			<item_class>tf_weapon_charged_smg</item_class>
 			<item_type_name>Submetralhadora</item_type_name>
 			<item_name>Carabina do &apos;Cleaner&apos;</item_name>
-			<item_description> </item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pro_smg/c_pro_smg.mdl</model_player>
@@ -31999,7 +31946,6 @@ O Demo guarda o seu tesouro perto de si, amarrado às costas. Tu não vais encon
 			<item_class>tf_weapon_pep_brawler_blaster</item_class>
 			<item_type_name>Caçadeira Compacta</item_type_name>
 			<item_name>Bacamarte do &apos;Baby Face&apos;</item_name>
-			<item_description> </item_description>
 			<proper_name>false</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pep_scattergun/c_pep_scattergun.mdl</model_player>
@@ -32061,7 +32007,6 @@ O Demo guarda o seu tesouro perto de si, amarrado às costas. Tu não vais encon
 			<item_class>tf_weapon_handgun_scout_secondary</item_class>
 			<item_type_name>Pistola</item_type_name>
 			<item_name>Pistola Portátil do &apos;Pretty Boy&apos;</item_name>
-			<item_description> </item_description>
 			<proper_name>false</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pep_pistol/c_pep_pistol.mdl</model_player>
@@ -38681,7 +38626,7 @@ Disparo alternativo: Dispara uma descarga de ar que empurra inimigos para trás,
 			<item_name>Senhor Piáfarta</item_name>
 			<item_description>Nome original inglês: SIR HOOTSALOT
 
-Se os mochos são tão espertos, porque é que este te deixou que o colasses ao teu ombro? Pensando bem, nenhum de vocês os dois parece ser lá muito inteligente.</item_description>
+Se os mochos são assim tão espertos, porque é que este te deixou que o colasses ao teu ombro? Pensando bem, nenhum de vocês os dois parece ser lá muito inteligente.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/sniper_owl.mdl</model_player>
@@ -42480,7 +42425,6 @@ Dá aos teus oponentes o dom da hesitação nesta época festiva quando eles par
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapéu</item_type_name>
 			<item_name>Boné Mann Co. Online</item_name>
-			<item_description> </item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/Scout_cap_online.mdl</model_player>
@@ -45601,7 +45545,7 @@ Isto é um belo livro de feitiços, repleto de páginas que colecionaste. Magia 
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>100</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete.57f64ae848a23c8232a2f7dcd89bd6c298a47597.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete_large.da01f0b58f4b411288c36739f48bd322126cf6dd.png</image_url_large>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete_large.091cca0d87df8b95374f898da7b80f5b67f3b088.png</image_url_large>
 			<capabilities>
 				<nameable>true</nameable>
 				<can_gift_wrap>true</can_gift_wrap>
@@ -46627,6 +46571,17 @@ Como dizia o outro, &quot;Aqueles que não recordam o passado alternativo, estã
 				<can_killstreakify>true</can_killstreakify>
 				<can_consume>true</can_consume>
 			</capabilities>
+			<styles>
+				<style>
+					<name>Com balas</name>
+				</style>
+				<style>
+					<name>Sem balas</name>
+					<additional_hidden_bodygroups>
+						<bullets>1</bullets>
+					</additional_hidden_bodygroups>
+				</style>
+			</styles>
 			<used_by_classes>
 				<class>Heavy</class>
 			</used_by_classes>
@@ -46797,7 +46752,6 @@ Estadista. Cientista. Inventor. Finge que és tudo isso e muito mais com esta m�
 			<item_class>tf_weapon_compound_bow</item_class>
 			<item_type_name>Arco</item_type_name>
 			<item_name>Arco Composto Fortificado</item_name>
-			<item_description>Nome na versão inglesa: THE FORTIFIED COMPOUND</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_bow_thief/c_bow_thief.mdl</model_player>
@@ -46853,7 +46807,6 @@ Estadista. Cientista. Inventor. Finge que és tudo isso e muito mais com esta m�
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Capacete</item_type_name>
 			<item_name>A Guarda Gloriosa</item_name>
-			<item_description>Nome na versão inglesa: THE GILDED GUARD</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/soldier/thief_soldier_helmet/thief_soldier_helmet.mdl</model_player>
@@ -46901,7 +46854,6 @@ Estadista. Cientista. Inventor. Finge que és tudo isso e muito mais com esta m�
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Capa</item_type_name>
 			<item_name>Capa Criminosa</item_name>
-			<item_description>Nome na versão inglesa: THE CRIMINAL CLOAK</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/sniper/thief_sniper_cape/thief_sniper_cape.mdl</model_player>
@@ -46949,7 +46901,6 @@ Estadista. Cientista. Inventor. Finge que és tudo isso e muito mais com esta m�
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Capuz</item_type_name>
 			<item_name>O Capuchinho Assassino</item_name>
-			<item_description>Nome na versão inglesa: THE DREAD HIDING HOOD</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/sniper/thief_sniper_hood/thief_sniper_hood.mdl</model_player>
@@ -46997,7 +46948,6 @@ Estadista. Cientista. Inventor. Finge que és tudo isso e muito mais com esta m�
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Crachá</item_type_name>
 			<item_name>Brasão Baronial</item_name>
-			<item_description>Nome na versão inglesa: THE BARONIAL BADGE</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/thief_badge/thief_badge_demo.mdl</model_player>
@@ -47097,7 +47047,6 @@ Certifica-te de que o conteúdo dos teus bolsos é distribuído justamente com o
 			<item_class>tf_weapon_sniperrifle_classic</item_class>
 			<item_type_name>Espingarda Sniper</item_type_name>
 			<item_name>A Clássica</item_name>
-			<item_description>Nome na versão inglesa: THE CLASSIC</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/weapons/c_models/c_tfc_sniperrifle/c_tfc_sniperrifle.mdl</model_player>
@@ -47386,7 +47335,6 @@ Inspirado pelo filme do TF2 &apos;Expiration Date&apos;</item_description>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Caçadeira Compacta</item_type_name>
 			<item_name>A Esfrangalha-Costas</item_name>
-			<item_description>Nome na versão inglesa: THE BACK SCATTER</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_scatterdrum/c_scatterdrum.mdl</model_player>
@@ -48364,7 +48312,6 @@ Inspirado pelo filme do TF2 &apos;Expiration Date&apos;</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Óculos</item_type_name>
 			<item_name>Pilha Enorme de Óculos de Sol</item_name>
-			<item_description>Nome na versão inglesa: TOWERING PILLAR OF SUMMER SHADES</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/summer_deal_Scout.mdl</model_player>
@@ -48414,7 +48361,6 @@ Inspirado pelo filme do TF2 &apos;Expiration Date&apos;</item_description>
 			<item_class>saxxy</item_class>
 			<item_type_name>Martelo</item_type_name>
 			<item_name>Necrosmagador</item_name>
-			<item_description>Nome original na versão inglesa: NECRO SMASHER</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_carnival_mallet/c_carnival_mallet.mdl</model_player>
@@ -48610,7 +48556,6 @@ Mais potência significa uma maior chance de encontrar patos.</item_description>
 			<item_class>saxxy</item_class>
 			<item_type_name>Letreiro</item_type_name>
 			<item_name>Semáforo Ferroviário</item_name>
-			<item_description>Nome original na versão inglesa: CROSSING GUARD</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_crossing_guard/c_crossing_guard.mdl</model_player>

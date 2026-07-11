@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1d62f5c09ba2e14f6d4a4abc24dd8bb5921aa4b0.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -11542,6 +11542,75 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			<name>Criogénico</name>
 		</particle>
 		<particle>
+			<system>coin_spin</system>
+			<id>406</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<name>Attrib_Particle406</name>
+		</particle>
+		<particle>
+			<system>unusual_aurora_purple_parent</system>
+			<id>407</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Luzes Umbrais</name>
+		</particle>
+		<particle>
+			<system>unusual_aurora_teal_parent</system>
+			<id>408</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Noites a Norte</name>
+		</particle>
+		<particle>
+			<system>unusual_aurora_green_parent</system>
+			<id>409</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Sinais Solares</name>
+		</particle>
+		<particle>
+			<system>unusual_vinethorn_teamcolor_red</system>
+			<id>410</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Brotação Floral</name>
+		</particle>
+		<particle>
+			<system>unusual_vinethorn_teamcolor_blue</system>
+			<id>411</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Brotação Floral</name>
+		</particle>
+		<particle>
+			<system>unusual_spaceorbit_parent</system>
+			<id>412</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Órbita Estelar</name>
+		</particle>
+		<particle>
+			<system>unusual_butterfly_teamcolor_red</system>
+			<id>413</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Borboletas Belíssimas</name>
+		</particle>
+		<particle>
+			<system>unusual_butterfly_teamcolor_blue</system>
+			<id>414</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Borboletas Belíssimas</name>
+		</particle>
+		<particle>
+			<system>unusual_butterfly_parent_purple</system>
+			<id>415</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Asas da Alvorada</name>
+		</particle>
+		<particle>
 			<system>weapon_unusual_hot</system>
 			<id>701</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
@@ -12942,6 +13011,42 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			<id>3223</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
 			<name>Longo-Circuito</name>
+		</particle>
+		<particle>
+			<system>utaunt_wheatfield_parent</system>
+			<id>3224</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Campo de Trigo</name>
+		</particle>
+		<particle>
+			<system>utaunt_luminousdrift_teamcolor_red</system>
+			<id>3225</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Deriva Luminosa</name>
+		</particle>
+		<particle>
+			<system>utaunt_luminousdrift_teamcolor_blue</system>
+			<id>3226</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Deriva Luminosa</name>
+		</particle>
+		<particle>
+			<system>utaunt_luminousdrift_purple_parent</system>
+			<id>3227</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Divagação Luminosa</name>
+		</particle>
+		<particle>
+			<system>utaunt_dualspotlights_parent</system>
+			<id>3228</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Ribalta Resplandecente</name>
+		</particle>
+		<particle>
+			<system>utaunt_underwater_parent</system>
+			<id>3229</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Mergulho no Mar</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>

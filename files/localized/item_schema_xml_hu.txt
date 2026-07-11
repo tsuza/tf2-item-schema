@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1d62f5c09ba2e14f6d4a4abc24dd8bb5921aa4b0.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -7551,7 +7551,6 @@ Alternatív tűz: léglöket kibocsátása, ami ellöki az ellenségeket és a l
 			<item_class>tf_wearable</item_class>
 			<item_type_name>sapka</item_type_name>
 			<item_name>A Benzinkutas</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/attendant.mdl</model_player>
@@ -7736,7 +7735,6 @@ a különösen kiváló alliteráció.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>sapka</item_type_name>
 			<item_name>A Tejesember</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/milkhat.mdl</model_player>
@@ -7963,7 +7961,6 @@ Tűzoltáshoz is jól jön.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>sapka</item_type_name>
 			<item_name>Feltűnő Fez</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/fez.mdl</model_player>
@@ -8010,7 +8007,7 @@ Tűzoltáshoz is jól jön.</item_description>
 			<defindex>224</defindex>
 			<item_class>tf_weapon_revolver</item_class>
 			<item_type_name>revolver</item_type_name>
-			<item_name>L&apos;Etranger</item_name>
+			<item_name>L&apos;Étranger</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_letranger/c_letranger.mdl</model_player>
@@ -8186,7 +8183,6 @@ A düh az okozott sebzéstől nő.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>sapka</item_type_name>
 			<item_name>Gránátos Terepsapkája</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/grenadier_softcap.mdl</model_player>
@@ -8292,7 +8288,6 @@ A düh az okozott sebzéstől nő.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>sapka</item_type_name>
 			<item_name>Vén Csorbafog</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/snaggletooth.mdl</model_player>
@@ -8670,7 +8665,6 @@ Ennek a fegyvernek NULLA a sebzése.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>sisak</item_type_name>
 			<item_name>Földigiliszták Fejvédője</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/worms_gear.mdl</model_player>
@@ -8937,7 +8931,6 @@ Növeld a szintjét párbajok megnyerésével!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>fejfedő</item_type_name>
 			<item_name>Az Ökölvívó Arcvédője</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/pugilist_protector.mdl</model_player>
@@ -9129,7 +9122,6 @@ Növeld a szintjét párbajok megnyerésével!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>sapka</item_type_name>
 			<item_name>A Törzsfő Erőpróbája</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/chief_rocketeer.mdl</model_player>
@@ -9226,7 +9218,6 @@ legkiemelkedőbb eredménye.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>sapka</item_type_name>
 			<item_name>A Doktor Sraffos Sipkája</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/all_class/dappertopper/dappertopper_Scout.mdl</model_player>
@@ -9507,7 +9498,6 @@ https://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>sapka</item_type_name>
 			<item_name>Mann Co. Sapka</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/Scout_cap.mdl</model_player>
@@ -10705,8 +10695,8 @@ sötét lelkek átka ül rajta.</item_description>
 			<image_inventory>backpack/player/items/all_class/voodoojuju_hat</image_inventory>
 			<min_ilevel>31</min_ilevel>
 			<max_ilevel>31</max_ilevel>
-			<image_url>http://media.steampowered.com/apps/440/icons/voodoojuju_hat.8cf9dc510eaf5d6cbfd4fc210ff3ee0aa906db9b.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/voodoojuju_hat_large.be40609e0ed4017c2c9013b19376cf75afe8831a.png</image_url_large>
+			<image_url>http://media.steampowered.com/apps/440/icons/voodoojuju_hat.fb64e44ddc108918d00e26452168652450b905b6.png</image_url>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/voodoojuju_hat_large.7013b3669f9c3226d1a2111fef588a313b330822.png</image_url_large>
 			<drop_type>drop</drop_type>
 			<craft_class></craft_class>
 			<craft_material_type></craft_material_type>
@@ -11172,7 +11162,6 @@ sötét lelkek átka ül rajta.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>sisak</item_type_name>
 			<item_name>Berlini Bádogsisak</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/berliners_bucket_helm.mdl</model_player>
@@ -11500,7 +11489,6 @@ Az első találat robbanást okoz</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>sapka</item_type_name>
 			<item_name>A Nagyfőnök</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/heavy_big_chief.mdl</model_player>
@@ -12667,6 +12655,11 @@ Kinek kell kenyér?</item_description>
 					<class>kill_eater_kill_type</class>
 					<value>64</value>
 				</attribute>
+				<attribute>
+					<name>attach particle effect static</name>
+					<class>set_attached_particle_static</class>
+					<value>406</value>
+				</attribute>
 			</attributes>
 		</item>
 		<item>
@@ -12724,6 +12717,11 @@ Kinek kell kenyér?</item_description>
 					<name>counts as assister is some kind of pet this update is going to be awesome</name>
 					<class>counts_as_assister</class>
 					<value>1</value>
+				</attribute>
+				<attribute>
+					<name>attach particle effect static</name>
+					<class>set_attached_particle_static</class>
+					<value>406</value>
 				</attribute>
 			</attributes>
 		</item>
@@ -13233,7 +13231,6 @@ Kinek kell kenyér?</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>sapka</item_type_name>
 			<item_name>A Szuperrajongó</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/mnc_mascot_hat.mdl</model_player>
@@ -13281,7 +13278,6 @@ Kinek kell kenyér?</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>ruházat</item_type_name>
 			<item_name>A Nélkülözhetetlen Kiegészítők</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/mnc_mascot_outfit.mdl</model_player>
@@ -13815,7 +13811,6 @@ Díszes sisakban kidől
 			<item_class>tf_wearable</item_class>
 			<item_type_name>kendő</item_type_name>
 			<item_name>Hősi Hachimaki</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/homefront_blindfold.mdl</model_player>
@@ -15501,7 +15496,7 @@ a másikat meg minden máson.</item_description>
 			<item_type_name>pajzs</item_type_name>
 			<item_name>A Pompás Pajzs</item_name>
 			<item_description>Alternatív tűz: Rohamot indítasz az ellenségeid felé, és eltávolítod a gyengítéseidet.
-Kritikus közelharci sebzést nyersz, miután belecsapódsz egy ellenségbe.</item_description>
+Kritikus közelharci sebzést nyersz, miután távolról belecsapódsz egy ellenségbe.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_persian_shield/c_persian_shield.mdl</model_player>
@@ -16866,7 +16861,6 @@ Vedd fel ezt a tárgyat egy beszólás-helyre. Aktiválva add áldozataid tudtá
 			<item_class>tf_wearable</item_class>
 			<item_type_name>fejfedő</item_type_name>
 			<item_name>Lord Cockswain Trópusi Sisakja</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/drg_pith_hat.mdl</model_player>
@@ -16916,7 +16910,6 @@ Vedd fel ezt a tárgyat egy beszólás-helyre. Aktiválva add áldozataid tudtá
 			<item_class>tf_wearable</item_class>
 			<item_type_name>arcszőrzet</item_type_name>
 			<item_name>Lord Cockswain Pofaszakálla és Pipája</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/drg_hair_beard.mdl</model_player>
@@ -17015,7 +17008,6 @@ Vedd fel ezt a tárgyat egy beszólás-helyre. Aktiválva add áldozataid tudtá
 			<item_class>tf_weapon_raygun</item_class>
 			<item_type_name>oszthatatlanrészecske-hasító</item_type_name>
 			<item_name>Az Igaz Bölény</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_drg_righteousbison/c_drg_righteousbison.mdl</model_player>
@@ -20369,7 +20361,6 @@ a sebességed és az életerőd.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>sapka</item_type_name>
 			<item_name>A Nanosímaszk</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/spy/dex_belltower/dex_belltower.mdl</model_player>
@@ -20418,7 +20409,6 @@ a sebességed és az életerőd.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>szemüveg</item_type_name>
 			<item_name>Deus Napszemüveg</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/dex_glasses/dex_glasses_Scout.mdl</model_player>
@@ -20463,7 +20453,6 @@ a sebességed és az életerőd.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>sapka</item_type_name>
 			<item_name>A Cég Embere</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/Scout/dex_hat_Scout/dex_hat_Scout.mdl</model_player>
@@ -20508,7 +20497,6 @@ a sebességed és az életerőd.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>díszítő műtestrész</item_type_name>
 			<item_name>A Tisztogató Ököl</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/heavy/dex_sarifarm/dex_sarifarm.mdl</model_player>
@@ -20556,7 +20544,6 @@ a sebességed és az életerőd.</item_description>
 			<item_class>tf_weapon_revolver</item_class>
 			<item_type_name>revolver</item_type_name>
 			<item_name>A Diamondback</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_revolver/c_dex_revolver.mdl</model_player>
@@ -20607,7 +20594,6 @@ a sebességed és az életerőd.</item_description>
 			<item_class>tf_weapon_sniperrifle</item_class>
 			<item_type_name>mesterlövész puska</item_type_name>
 			<item_name>A Machina</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_sniperrifle/c_dex_sniperrifle.mdl</model_player>
@@ -20668,7 +20654,6 @@ a sebességed és az életerőd.</item_description>
 			<item_class>tf_weapon_shotgun_primary</item_class>
 			<item_type_name>sörétes puska</item_type_name>
 			<item_name>A Widowmaker</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_shotgun/c_dex_shotgun.mdl</model_player>
@@ -20734,7 +20719,6 @@ a sebességed és az életerőd.</item_description>
 			<item_class>tf_weapon_mechanical_arm</item_class>
 			<item_type_name>robotkar</item_type_name>
 			<item_name>A Rövidzárlat</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_arm/c_dex_arm.mdl</model_player>
@@ -21004,7 +20988,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>sapka</item_type_name>
 			<item_name>Születésnapos Süveg</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/bdayhat_Scout.mdl</model_player>
@@ -21097,7 +21080,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>sapka</item_type_name>
 			<item_name>El Jefe</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/rebel_cap.mdl</model_player>
@@ -21285,7 +21267,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>A Kutyaharapás Szőre</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_hat.mdl</model_player>
@@ -21338,7 +21319,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>A Skót Vicsor</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_misc1.mdl</model_player>
@@ -21391,7 +21371,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>A Mámoros Mancsok</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_misc2.mdl</model_player>
@@ -21444,7 +21423,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>A Becsavart Ütős</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_hat.mdl</model_player>
@@ -21497,7 +21475,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>B-ankh!</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_misc1.mdl</model_player>
@@ -21550,7 +21527,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>A Futámhamon</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_misc2.mdl</model_player>
@@ -21603,7 +21579,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>A Belevaló Bika</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_hat.mdl</model_player>
@@ -21656,7 +21631,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>A Bukott Angyal</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_misc1.mdl</model_player>
@@ -21709,7 +21683,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>Ördögfarok</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_misc2.mdl</model_player>
@@ -21762,7 +21735,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>Az Einstein</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_hat.mdl</model_player>
@@ -21815,7 +21787,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>Dr. Bajuszem</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_misc1.mdl</model_player>
@@ -21868,7 +21839,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>A Smaragd Vizelharc</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_misc2.mdl</model_player>
@@ -21921,7 +21891,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>A Kockafej</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_hat.mdl</model_player>
@@ -21974,7 +21943,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>Az Acélcsövek</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_misc1.mdl</model_player>
@@ -22027,7 +21995,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>A Spórolós Surranó</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_misc2.mdl</model_player>
@@ -22080,7 +22047,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>A Teljes Inkognitó</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_hat.mdl</model_player>
@@ -22133,7 +22099,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>Griffin Gukkere</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_misc1.mdl</model_player>
@@ -22186,7 +22151,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>A Megfoghatatlan Kabala</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_misc2.mdl</model_player>
@@ -22239,7 +22203,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>A Konzervnyitó</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_hat.mdl</model_player>
@@ -22292,7 +22255,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>A Vörös Varratok</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_misc1.mdl</model_player>
@@ -22345,7 +22307,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>Az Acélorrú Agyon-taposók</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_misc2.mdl</model_player>
@@ -22398,7 +22359,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>A Szent Vadász</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_hat.mdl</model_player>
@@ -22451,7 +22411,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>Ezüstgolyók</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_misc1.mdl</model_player>
@@ -22504,7 +22463,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>Fokhagyma, fakaró</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_misc2.mdl</model_player>
@@ -22557,7 +22515,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>A Légy-ölő</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_hat.mdl</model_player>
@@ -22610,7 +22567,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>A Telepes Légy</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_misc1.mdl</model_player>
@@ -22663,7 +22619,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelmezdarab</item_type_name>
 			<item_name>A Légylábú Legendája</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_misc2.mdl</model_player>
@@ -22716,7 +22671,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>álarc</item_type_name>
 			<item_name>Az Utolsó Lélegzet</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/pyro/pyro_halloween_gasmask/pyro_halloween_gasmask.mdl</model_player>
@@ -23464,7 +23418,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelvény</item_type_name>
 			<item_name>A Saint Jelképe</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/sr3_badge.mdl</model_player>
@@ -26100,7 +26053,6 @@ Egyéni matricák használhatóak ezen a tárgyon.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>ing</item_type_name>
 			<item_name>Dr. Hú</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/bowtie.mdl</model_player>
@@ -26246,7 +26198,6 @@ Egyéni matricák használhatóak ezen a tárgyon.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>hátizsák</item_type_name>
 			<item_name>A Kényelmes Kempingező</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/player/items/sniper/xms_sniper_commandobackpack/xms_sniper_commandobackpack.mdl</model_player>
@@ -28653,7 +28604,6 @@ Alternatív tűz: léglöket kibocsátása, ami ellöki az ellenségeket és a l
 			<item_class>craft_item</item_class>
 			<item_type_name>gyűrű</item_type_name>
 			<item_name>Valami Különleges, Valaki Különlegesnek</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<model_player>null</model_player>
 			<item_quality>6</item_quality>
@@ -29173,7 +29123,6 @@ Alternatív tűz: léglöket kibocsátása, ami ellöki az ellenségeket és a l
 			<item_class>tf_wearable</item_class>
 			<item_type_name>func_medal</item_type_name>
 			<item_name>A Pályakészítők Emlékérme</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/mapper_medal.mdl</model_player>
@@ -29634,7 +29583,6 @@ Alternatív tűz: léglöket kibocsátása, ami ellöki az ellenségeket és a l
 			<item_class>tf_weapon_rocketlauncher</item_class>
 			<item_type_name>rakétavető</item_type_name>
 			<item_name>A Kacatvető</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_dumpster_device/c_dumpster_device.mdl</model_player>
@@ -30523,7 +30471,6 @@ Alternatív tűz: léglöket kibocsátása, ami ellöki az ellenségeket és a l
 			<item_class>tf_weapon_charged_smg</item_class>
 			<item_type_name>géppisztoly</item_type_name>
 			<item_name>A Karbantartó Karabély</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pro_smg/c_pro_smg.mdl</model_player>
@@ -31621,7 +31568,6 @@ Fejek fognak hullani.</item_description>
 			<item_class>tf_weapon_pep_brawler_blaster</item_class>
 			<item_type_name>repeszpuska</item_type_name>
 			<item_name>Babaarc Beütője</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pep_scattergun/c_pep_scattergun.mdl</model_player>
@@ -31683,7 +31629,6 @@ Fejek fognak hullani.</item_description>
 			<item_class>tf_weapon_handgun_scout_secondary</item_class>
 			<item_type_name>pisztoly</item_type_name>
 			<item_name>Szépfiús Zsebpisztoly</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pep_pistol/c_pep_pistol.mdl</model_player>
@@ -41889,7 +41834,6 @@ Alternatív tűz: léglöket kibocsátása, ami ellöki az ellenségeket és a l
 			<item_class>tf_wearable</item_class>
 			<item_type_name>sapka</item_type_name>
 			<item_name>Mann Co. Online Sapka</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/Scout_cap_online.mdl</model_player>
@@ -44961,7 +44905,7 @@ Ez egy igen csinos varázsigekönyv, telis-tele általad összegyűjtött oldala
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>100</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete.57f64ae848a23c8232a2f7dcd89bd6c298a47597.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete_large.da01f0b58f4b411288c36739f48bd322126cf6dd.png</image_url_large>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete_large.091cca0d87df8b95374f898da7b80f5b67f3b088.png</image_url_large>
 			<capabilities>
 				<nameable>true</nameable>
 				<can_gift_wrap>true</can_gift_wrap>
@@ -45974,6 +45918,17 @@ Az idomítás megszüntetése után az őrtorony 3 másodpercre kikapcsol.</item
 				<can_killstreakify>true</can_killstreakify>
 				<can_consume>true</can_consume>
 			</capabilities>
+			<styles>
+				<style>
+					<name>Tölténnyel</name>
+				</style>
+				<style>
+					<name>Töltény nélkül</name>
+					<additional_hidden_bodygroups>
+						<bullets>1</bullets>
+					</additional_hidden_bodygroups>
+				</style>
+			</styles>
 			<used_by_classes>
 				<class>Heavy</class>
 			</used_by_classes>
@@ -46140,7 +46095,6 @@ Az idomítás megszüntetése után az őrtorony 3 másodpercre kikapcsol.</item
 			<item_class>tf_weapon_compound_bow</item_class>
 			<item_type_name>íj</item_type_name>
 			<item_name>A Felcsigázó</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_bow_thief/c_bow_thief.mdl</model_player>
@@ -46196,7 +46150,6 @@ Az idomítás megszüntetése után az őrtorony 3 másodpercre kikapcsol.</item
 			<item_class>tf_wearable</item_class>
 			<item_type_name>sisak</item_type_name>
 			<item_name>A Veretes Védelmező</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/soldier/thief_soldier_helmet/thief_soldier_helmet.mdl</model_player>
@@ -46244,7 +46197,6 @@ Az idomítás megszüntetése után az őrtorony 3 másodpercre kikapcsol.</item
 			<item_class>tf_wearable</item_class>
 			<item_type_name>köpeny</item_type_name>
 			<item_name>A Kriminális Köpeny</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/sniper/thief_sniper_cape/thief_sniper_cape.mdl</model_player>
@@ -46292,7 +46244,6 @@ Az idomítás megszüntetése után az őrtorony 3 másodpercre kikapcsol.</item
 			<item_class>tf_wearable</item_class>
 			<item_type_name>kapucni</item_type_name>
 			<item_name>A Rettentő Rejtőcsuklya</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/sniper/thief_sniper_hood/thief_sniper_hood.mdl</model_player>
@@ -46340,7 +46291,6 @@ Az idomítás megszüntetése után az őrtorony 3 másodpercre kikapcsol.</item
 			<item_class>tf_wearable</item_class>
 			<item_type_name>jelvény</item_type_name>
 			<item_name>A Főúri Jelvény</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/thief_badge/thief_badge_demo.mdl</model_player>
@@ -46438,7 +46388,6 @@ Az idomítás megszüntetése után az őrtorony 3 másodpercre kikapcsol.</item
 			<item_class>tf_weapon_sniperrifle_classic</item_class>
 			<item_type_name>mesterlövész puska</item_type_name>
 			<item_name>A Klasszikus</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/weapons/c_models/c_tfc_sniperrifle/c_tfc_sniperrifle.mdl</model_player>
@@ -46721,7 +46670,6 @@ A kinyitott ejtőernyők lassítják az esést.</item_description>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>repeszpuska</item_type_name>
 			<item_name>A Hátrepesztő</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_scatterdrum/c_scatterdrum.mdl</model_player>
@@ -47667,7 +47615,6 @@ Az „Expiration Date” c. TF2 film ihlette.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>szemüveg</item_type_name>
 			<item_name>Nyári Napszemüveg-hegyek</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/summer_deal_Scout.mdl</model_player>
@@ -47717,7 +47664,6 @@ Az „Expiration Date” c. TF2 film ihlette.</item_description>
 			<item_class>saxxy</item_class>
 			<item_type_name>Kalapács</item_type_name>
 			<item_name>Hullaalázó</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_carnival_mallet/c_carnival_mallet.mdl</model_player>
@@ -47912,7 +47858,6 @@ Magasabb szinteken több kacsa esik.</item_description>
 			<item_class>saxxy</item_class>
 			<item_type_name>tábla</item_type_name>
 			<item_name>A Bakter</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_crossing_guard/c_crossing_guard.mdl</model_player>

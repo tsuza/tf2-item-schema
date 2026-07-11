@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.1d62f5c09ba2e14f6d4a4abc24dd8bb5921aa4b0.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -2919,7 +2919,7 @@
 				"name": "energy weapon no deflect",
 				"defindex": 285,
 				"attribute_class": "energy_weapon_no_deflect",
-				"description_string": "Ammuksia ei voi kimmottaa",
+				"description_string": "Ammuksia ei voi saada kimpoamaan",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -11332,7 +11332,7 @@
 				"id": 369,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Revontulet"
+				"name": "Revontulitaivas"
 			},
 			{
 				"system": "unusual_bokehsparkle_parent",
@@ -11423,35 +11423,35 @@
 				"id": 382,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ocean Swirl"
+				"name": "Meripyörre"
 			},
 			{
 				"system": "unusual_ocean_swirl_teamcolor_blue",
 				"id": 383,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ocean Swirl"
+				"name": "Meripyörre"
 			},
 			{
 				"system": "unusual_ocean_swirl_green_parent",
 				"id": 384,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Toxic Swirl"
+				"name": "Myrkkypyörre"
 			},
 			{
 				"system": "unusual_candle_teamcolor_red",
 				"id": 385,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Candle Flame"
+				"name": "Kynttilän kajo"
 			},
 			{
 				"system": "unusual_candle_teamcolor_blue",
 				"id": 386,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Candle Flame"
+				"name": "Kynttilän kajo"
 			},
 			{
 				"system": "unusual_deadlyaroma_teamcolor_red",
@@ -11521,7 +11521,7 @@
 				"id": 396,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Calm Snowfall"
+				"name": "Levollinen lumentulo"
 			},
 			{
 				"system": "unusual_team_recognition_teamcolor_red",
@@ -11542,28 +11542,28 @@
 				"id": 399,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Old Hire"
+				"name": "Vanha tuttu"
 			},
 			{
 				"system": "unusual_classicfortress_teamcolor_blue",
 				"id": 400,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Old Hire"
+				"name": "Vanha tuttu"
 			},
 			{
 				"system": "unusual_classicfortress_tflogo_parent",
 				"id": 401,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Analog Fortress"
+				"name": "Muinaislinnoitus"
 			},
 			{
 				"system": "unusual_growing_flake_parent_white",
 				"id": 402,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Winter Whiteout"
+				"name": "Talventulo"
 			},
 			{
 				"system": "unusual_growing_flake_parent_purple",
@@ -11577,7 +11577,7 @@
 				"id": 404,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Twilight Snowfall"
+				"name": "Ehtoon tuisku"
 			},
 			{
 				"system": "unusual_cryogenic_parent",
@@ -11585,6 +11585,75 @@
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
 				"name": "Kryogeeninen kylmennys"
+			},
+			{
+				"system": "coin_spin",
+				"id": 406,
+				"attach_to_rootbone": true,
+				"name": "Attrib_Particle406"
+			},
+			{
+				"system": "unusual_aurora_purple_parent",
+				"id": 407,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Pimeyden tango"
+			},
+			{
+				"system": "unusual_aurora_teal_parent",
+				"id": 408,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Pohjolan yö"
+			},
+			{
+				"system": "unusual_aurora_green_parent",
+				"id": 409,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Aurinkotuulet"
+			},
+			{
+				"system": "unusual_vinethorn_teamcolor_red",
+				"id": 410,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Floral Growth"
+			},
+			{
+				"system": "unusual_vinethorn_teamcolor_blue",
+				"id": 411,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Floral Growth"
+			},
+			{
+				"system": "unusual_spaceorbit_parent",
+				"id": 412,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Stellar Orbit"
+			},
+			{
+				"system": "unusual_butterfly_teamcolor_red",
+				"id": 413,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Lepattavat lentelijät"
+			},
+			{
+				"system": "unusual_butterfly_teamcolor_blue",
+				"id": 414,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Lepattavat lentelijät"
+			},
+			{
+				"system": "unusual_butterfly_parent_purple",
+				"id": 415,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Suhisevat siivet"
 			},
 			{
 				"system": "weapon_unusual_hot",
@@ -12068,7 +12137,7 @@
 				"system": "utaunt_auroraglow_green_parent",
 				"id": 3070,
 				"attach_to_rootbone": false,
-				"name": "Revontulet"
+				"name": "Pohjantulet"
 			},
 			{
 				"system": "utaunt_auroraglow_orange_parent",
@@ -12902,25 +12971,25 @@
 				"system": "utaunt_tarpit_dinos_parent",
 				"id": 3209,
 				"attach_to_rootbone": false,
-				"name": "Fossil Fueled"
+				"name": "Luinen löpö"
 			},
 			{
 				"system": "utaunt_tarpit_people_parent",
 				"id": 3210,
 				"attach_to_rootbone": false,
-				"name": "Tar Pit"
+				"name": "Tervapata"
 			},
 			{
 				"system": "utaunt_morbed_teamcolor_red",
 				"id": 3211,
 				"attach_to_rootbone": false,
-				"name": "Morbidly Beast"
+				"name": "Pönäkkä peto"
 			},
 			{
 				"system": "utaunt_morbed_teamcolor_blue",
 				"id": 3212,
 				"attach_to_rootbone": false,
-				"name": "Morbidly Beast"
+				"name": "Pönäkkä peto"
 			},
 			{
 				"system": "utaunt_2fort_teamc_teamcolor_red",
@@ -12932,7 +13001,7 @@
 				"system": "utaunt_2fort_teamc_teamcolor_blue",
 				"id": 3214,
 				"attach_to_rootbone": false,
-				"name": "Snow Dome"
+				"name": "Pyrykupoli"
 			},
 			{
 				"system": "utaunt_burningdesire_green_parent",
@@ -12950,43 +13019,79 @@
 				"system": "utaunt_spacecoated_2colored_parent_pb",
 				"id": 3217,
 				"attach_to_rootbone": false,
-				"name": "Galactic Dust"
+				"name": "Galaksipöly"
 			},
 			{
 				"system": "utaunt_spacecoated_2colored_parent_pg",
 				"id": 3218,
 				"attach_to_rootbone": false,
-				"name": "Galactic Cloud"
+				"name": "Galaksin kajo"
 			},
 			{
 				"system": "utaunt_aurora25_teamcolor_red",
 				"id": 3219,
 				"attach_to_rootbone": false,
-				"name": "Aurora Aura"
+				"name": "Taivaan tulet"
 			},
 			{
 				"system": "utaunt_aurora25_teamcolor_blue",
 				"id": 3220,
 				"attach_to_rootbone": false,
-				"name": "Aurora Aura"
+				"name": "Taivaan tulet"
 			},
 			{
 				"system": "utaunt_aurora25_parent_purple",
 				"id": 3221,
 				"attach_to_rootbone": false,
-				"name": "Northern Nights"
+				"name": "Pohjolan yö"
 			},
 			{
 				"system": "utaunt_chillingmist_parent",
 				"id": 3222,
 				"attach_to_rootbone": false,
-				"name": "Chilling Mist"
+				"name": "Hyinen utu"
 			},
 			{
 				"system": "utaunt_80smalfunction_parent",
 				"id": 3223,
 				"attach_to_rootbone": false,
-				"name": "Circuit Break"
+				"name": "Kipinänpoikanen"
+			},
+			{
+				"system": "utaunt_wheatfield_parent",
+				"id": 3224,
+				"attach_to_rootbone": false,
+				"name": "Wheat Field"
+			},
+			{
+				"system": "utaunt_luminousdrift_teamcolor_red",
+				"id": 3225,
+				"attach_to_rootbone": false,
+				"name": "Luminous Drift"
+			},
+			{
+				"system": "utaunt_luminousdrift_teamcolor_blue",
+				"id": 3226,
+				"attach_to_rootbone": false,
+				"name": "Luminous Drift"
+			},
+			{
+				"system": "utaunt_luminousdrift_purple_parent",
+				"id": 3227,
+				"attach_to_rootbone": false,
+				"name": "Luminous Shift"
+			},
+			{
+				"system": "utaunt_dualspotlights_parent",
+				"id": 3228,
+				"attach_to_rootbone": false,
+				"name": "Showtime Spotlights"
+			},
+			{
+				"system": "utaunt_underwater_parent",
+				"id": 3229,
+				"attach_to_rootbone": false,
+				"name": "Deep Dive"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",
@@ -14428,7 +14533,7 @@
 			},
 			{
 				"type": 1,
-				"type_name": "Übers",
+				"type_name": "Ylilatausta",
 				"level_data": "KillEaterRank"
 			},
 			{
@@ -14523,7 +14628,7 @@
 			},
 			{
 				"type": 20,
-				"type_name": "Ammuksia kimmotettu",
+				"type_name": "Kimpoamaan saadut ammukset",
 				"level_data": "KillEaterRank"
 			},
 			{

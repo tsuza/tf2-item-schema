@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1d62f5c09ba2e14f6d4a4abc24dd8bb5921aa4b0.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -7550,7 +7550,6 @@ Alternatif Atış: Düşmanlara cisimler püskürten ve yanan takım arkadaşlar
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Şapka</item_type_name>
 			<item_name>Görevli</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/attendant.mdl</model_player>
@@ -7735,7 +7734,6 @@ gibi bir aliterasyon yok!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Şapka</item_type_name>
 			<item_name>Sütçü</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/milkhat.mdl</model_player>
@@ -7962,7 +7960,6 @@ Ayrıca yangın söndürme için kullanışlı.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Şapka</item_type_name>
 			<item_name>Tanıdık Fes</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/fez.mdl</model_player>
@@ -8009,7 +8006,7 @@ Ayrıca yangın söndürme için kullanışlı.</item_description>
 			<defindex>224</defindex>
 			<item_class>tf_weapon_revolver</item_class>
 			<item_type_name>Altıpatlar</item_type_name>
-			<item_name>Yabancı</item_name>
+			<item_name>L&apos;Étranger</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_letranger/c_letranger.mdl</model_player>
@@ -8185,7 +8182,6 @@ ve taretlerden alınan hasarı %50,
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Şapka</item_type_name>
 			<item_name>Bombacının Kepi</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/grenadier_softcap.mdl</model_player>
@@ -8291,7 +8287,6 @@ ve taretlerden alınan hasarı %50,
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Şapka</item_type_name>
 			<item_name>Büyük ve Çürük Diş</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/snaggletooth.mdl</model_player>
@@ -8669,7 +8664,6 @@ Bu silah SIFIR hasar veriyor.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Miğfer</item_type_name>
 			<item_name>Solucan Kaşları</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/worms_gear.mdl</model_player>
@@ -8937,7 +8931,6 @@ Düelloları kazanarak rozetinin seviyesini yükseltebilirsin!</item_description
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Şapka</item_type_name>
 			<item_name>Boksörün Kaskı</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/pugilist_protector.mdl</model_player>
@@ -9129,7 +9122,6 @@ Düelloları kazanarak rozetinin seviyesini yükseltebilirsin!</item_description
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Şapka</item_type_name>
 			<item_name>Reisin Düellosu</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/chief_rocketeer.mdl</model_player>
@@ -9226,7 +9218,6 @@ modasının büyük başarısı.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Şapka</item_type_name>
 			<item_name>Doktorun Şık Şapkası</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/all_class/dappertopper/dappertopper_Scout.mdl</model_player>
@@ -9507,7 +9498,6 @@ https://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Şapka</item_type_name>
 			<item_name>Mann Co. Kepi</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/Scout_cap.mdl</model_player>
@@ -10704,8 +10694,8 @@ karanlık ruhlar tarafından lanetlenmiş.</item_description>
 			<image_inventory>backpack/player/items/all_class/voodoojuju_hat</image_inventory>
 			<min_ilevel>31</min_ilevel>
 			<max_ilevel>31</max_ilevel>
-			<image_url>http://media.steampowered.com/apps/440/icons/voodoojuju_hat.8cf9dc510eaf5d6cbfd4fc210ff3ee0aa906db9b.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/voodoojuju_hat_large.be40609e0ed4017c2c9013b19376cf75afe8831a.png</image_url_large>
+			<image_url>http://media.steampowered.com/apps/440/icons/voodoojuju_hat.fb64e44ddc108918d00e26452168652450b905b6.png</image_url>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/voodoojuju_hat_large.7013b3669f9c3226d1a2111fef588a313b330822.png</image_url_large>
 			<drop_type>drop</drop_type>
 			<craft_class></craft_class>
 			<craft_material_type></craft_material_type>
@@ -11171,7 +11161,6 @@ karanlık ruhlar tarafından lanetlenmiş.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Miğfer</item_type_name>
 			<item_name>Berlinli&apos;nin Kova Kaskı</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/berliners_bucket_helm.mdl</model_player>
@@ -11498,7 +11487,6 @@ Ayık bir kişi bunu fırlatırdı...
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Şapka</item_type_name>
 			<item_name>Büyük Şef</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/heavy_big_chief.mdl</model_player>
@@ -12665,6 +12653,11 @@ Kimin ekmeğe ihtiyacı var ki?</item_description>
 					<class>kill_eater_kill_type</class>
 					<value>64</value>
 				</attribute>
+				<attribute>
+					<name>attach particle effect static</name>
+					<class>set_attached_particle_static</class>
+					<value>406</value>
+				</attribute>
 			</attributes>
 		</item>
 		<item>
@@ -12722,6 +12715,11 @@ Kimin ekmeğe ihtiyacı var ki?</item_description>
 					<name>counts as assister is some kind of pet this update is going to be awesome</name>
 					<class>counts_as_assister</class>
 					<value>1</value>
+				</attribute>
+				<attribute>
+					<name>attach particle effect static</name>
+					<class>set_attached_particle_static</class>
+					<value>406</value>
 				</attribute>
 			</attributes>
 		</item>
@@ -13231,7 +13229,6 @@ Kimin ekmeğe ihtiyacı var ki?</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Şapka</item_type_name>
 			<item_name>Fanatik Taraftar</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/mnc_mascot_hat.mdl</model_player>
@@ -13279,7 +13276,6 @@ Kimin ekmeğe ihtiyacı var ki?</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kıyafet</item_type_name>
 			<item_name>Gerekli Aksesuarlar</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/mnc_mascot_outfit.mdl</model_player>
@@ -13813,7 +13809,6 @@ Sızar ve savaşı kaçırır</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Bandana</item_type_name>
 			<item_name>Kahramanın Göz Bandı</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/homefront_blindfold.mdl</model_player>
@@ -15498,8 +15493,8 @@ diğeri geri kalan her şeye bakar.</item_description>
 			<item_class>tf_wearable_demoshield</item_class>
 			<item_type_name>Kalkanı</item_type_name>
 			<item_name>Görkemli Kalkan</item_name>
-			<item_description>Alternatif Atış: Düşmanlarına doğru hücum et ve zayıflatmaları kaldır.
-Düşmanla temas ettiğinde yakın dövüş kritik vuruşu kazan.</item_description>
+			<item_description>Alt-Fire: Charge toward your enemies and remove debuffs.
+Gain a critical melee strike after impacting an enemy at distance.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_persian_shield/c_persian_shield.mdl</model_player>
@@ -16864,7 +16859,6 @@ Kurbanlarına, acıklı sonlarını videoya çektiğini ve herkesle paylaşacağ
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Şapka</item_type_name>
 			<item_name>Lord Cockswain&apos;in Safari Şapkası</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/drg_pith_hat.mdl</model_player>
@@ -16914,7 +16908,6 @@ Kurbanlarına, acıklı sonlarını videoya çektiğini ve herkesle paylaşacağ
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Sakal</item_type_name>
 			<item_name>Lord Cockswain&apos;in Takma Favorileri ve Piposu</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/drg_hair_beard.mdl</model_player>
@@ -17013,7 +17006,6 @@ Kurbanlarına, acıklı sonlarını videoya çektiğini ve herkesle paylaşacağ
 			<item_class>tf_weapon_raygun</item_class>
 			<item_type_name>Bölünemez Parçacık Parçalayıcı</item_type_name>
 			<item_name>Dürüst Bizon</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_drg_righteousbison/c_drg_righteousbison.mdl</model_player>
@@ -20367,7 +20359,6 @@ AMAN TANRIM KAFASINA VİDALANMIŞ!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Şapka</item_type_name>
 			<item_name>Nanobaşlık</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/spy/dex_belltower/dex_belltower.mdl</model_player>
@@ -20416,7 +20407,6 @@ AMAN TANRIM KAFASINA VİDALANMIŞ!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Gözlük</item_type_name>
 			<item_name>Deus Gözlüğü</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/dex_glasses/dex_glasses_Scout.mdl</model_player>
@@ -20461,7 +20451,6 @@ AMAN TANRIM KAFASINA VİDALANMIŞ!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Şapka</item_type_name>
 			<item_name>İş Adamı</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/Scout/dex_hat_Scout/dex_hat_Scout.mdl</model_player>
@@ -20506,7 +20495,6 @@ AMAN TANRIM KAFASINA VİDALANMIŞ!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Süs Elektroniği</item_type_name>
 			<item_name>Saf Yumruk</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/heavy/dex_sarifarm/dex_sarifarm.mdl</model_player>
@@ -20554,7 +20542,6 @@ AMAN TANRIM KAFASINA VİDALANMIŞ!</item_description>
 			<item_class>tf_weapon_revolver</item_class>
 			<item_type_name>Altıpatlar</item_type_name>
 			<item_name>Diamondback</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_revolver/c_dex_revolver.mdl</model_player>
@@ -20605,7 +20592,6 @@ AMAN TANRIM KAFASINA VİDALANMIŞ!</item_description>
 			<item_class>tf_weapon_sniperrifle</item_class>
 			<item_type_name>Tüfek</item_type_name>
 			<item_name>Makine</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_sniperrifle/c_dex_sniperrifle.mdl</model_player>
@@ -20666,7 +20652,6 @@ AMAN TANRIM KAFASINA VİDALANMIŞ!</item_description>
 			<item_class>tf_weapon_shotgun_primary</item_class>
 			<item_type_name>Av Tüfeği</item_type_name>
 			<item_name>Kriz Tetikleyici</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_shotgun/c_dex_shotgun.mdl</model_player>
@@ -20732,7 +20717,6 @@ AMAN TANRIM KAFASINA VİDALANMIŞ!</item_description>
 			<item_class>tf_weapon_mechanical_arm</item_class>
 			<item_type_name>Robot Kol</item_type_name>
 			<item_name>Kısa Devre</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_arm/c_dex_arm.mdl</model_player>
@@ -21002,7 +20986,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Şapka</item_type_name>
 			<item_name>Parti Şapkası</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/bdayhat_Scout.mdl</model_player>
@@ -21095,7 +21078,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Şapka</item_type_name>
 			<item_name>Reis</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/rebel_cap.mdl</model_player>
@@ -21283,7 +21265,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Kurt Yelesi</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_hat.mdl</model_player>
@@ -21336,7 +21317,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>İskoç Hırıltısı</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_misc1.mdl</model_player>
@@ -21389,7 +21369,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Sarhoş Pençeler</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_misc2.mdl</model_player>
@@ -21442,7 +21421,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Ucuz Sargı</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_hat.mdl</model_player>
@@ -21495,7 +21473,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>B-Ankh!</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_misc1.mdl</model_player>
@@ -21548,7 +21525,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Futankamon</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_misc2.mdl</model_player>
@@ -21601,7 +21577,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Alevli Boğa</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_hat.mdl</model_player>
@@ -21654,7 +21629,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Sürülmüş Melek</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_misc1.mdl</model_player>
@@ -21707,7 +21681,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Mahzenden bir Kuyruk</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_misc2.mdl</model_player>
@@ -21760,7 +21733,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Einstein</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_hat.mdl</model_player>
@@ -21813,7 +21785,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Dr. Gözlüklübıyık</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_misc1.mdl</model_player>
@@ -21866,7 +21837,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Zümrüt Kavate</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_misc2.mdl</model_player>
@@ -21919,7 +21889,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Aptal Kutusu</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_hat.mdl</model_player>
@@ -21972,7 +21941,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Çelik Borular</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_misc1.mdl</model_player>
@@ -22025,7 +21993,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Pabuç Bütçesi</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_misc2.mdl</model_player>
@@ -22078,7 +22045,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Gizli Surat</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_hat.mdl</model_player>
@@ -22131,7 +22097,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Griffin&apos;in Gözlüğü</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_misc1.mdl</model_player>
@@ -22184,7 +22149,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Dokunulmaz Atkı</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_misc2.mdl</model_player>
@@ -22237,7 +22201,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Konserve Açacağo</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_hat.mdl</model_player>
@@ -22290,7 +22253,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Sovyet Dikişi</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_misc1.mdl</model_player>
@@ -22343,7 +22305,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Çelik Parmaklı Eziciler</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_misc2.mdl</model_player>
@@ -22396,7 +22357,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Kutsal Avcı</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_hat.mdl</model_player>
@@ -22449,7 +22409,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Gümüş Kurşunlar</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_misc1.mdl</model_player>
@@ -22502,7 +22461,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Sarımsaklı Kazıklar</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_misc2.mdl</model_player>
@@ -22555,7 +22513,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Vızıltılı Katil</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_hat.mdl</model_player>
@@ -22608,7 +22565,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Cephenin Yılmaz Sinekoğlanı</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_misc1.mdl</model_player>
@@ -22661,7 +22617,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kostüm Parçası</item_type_name>
 			<item_name>Böcekayak Efsanesi</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_misc2.mdl</model_player>
@@ -22714,7 +22669,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Maske</item_type_name>
 			<item_name>Son Nefes</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/pyro/pyro_halloween_gasmask/pyro_halloween_gasmask.mdl</model_player>
@@ -23462,7 +23416,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Rozet</item_type_name>
 			<item_name>Azizin İşareti</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/sr3_badge.mdl</model_player>
@@ -26097,7 +26050,6 @@ Bu eşyaya özel çıkartmalar uygulanabilir.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Gömlek</item_type_name>
 			<item_name>Dr. Oha</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/bowtie.mdl</model_player>
@@ -26243,7 +26195,6 @@ Bu eşyaya özel çıkartmalar uygulanabilir.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Çanta</item_type_name>
 			<item_name>Miskin Kampçı</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/player/items/sniper/xms_sniper_commandobackpack/xms_sniper_commandobackpack.mdl</model_player>
@@ -28650,7 +28601,6 @@ Alternatif Atış: Düşmanlara cisimler püskürten ve yanan takım arkadaşlar
 			<item_class>craft_item</item_class>
 			<item_type_name>Yüzük</item_type_name>
 			<item_name>Özel Birisi İçin Çok Özel Bir Şey</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<model_player>null</model_player>
 			<item_quality>6</item_quality>
@@ -29170,7 +29120,6 @@ Alternatif Atış: Düşmanlara cisimler püskürten ve yanan takım arkadaşlar
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Func_Medal</item_type_name>
 			<item_name>Harita Yapımcısının Madalyonu</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/mapper_medal.mdl</model_player>
@@ -29631,7 +29580,6 @@ Alternatif Atış: Düşmanlara cisimler püskürten ve yanan takım arkadaşlar
 			<item_class>tf_weapon_rocketlauncher</item_class>
 			<item_type_name>Roketatar</item_type_name>
 			<item_name>Keratanın Roketatarı</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_dumpster_device/c_dumpster_device.mdl</model_player>
@@ -30520,7 +30468,6 @@ Alternatif Atış: Düşmanlara cisimler püskürten ve yanan takım arkadaşlar
 			<item_class>tf_weapon_charged_smg</item_class>
 			<item_type_name>SMG</item_type_name>
 			<item_name>Temizleyicinin Kısa Tüfeği</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pro_smg/c_pro_smg.mdl</model_player>
@@ -31618,7 +31565,6 @@ Kafalar kopacak.</item_description>
 			<item_class>tf_weapon_pep_brawler_blaster</item_class>
 			<item_type_name>Çifte</item_type_name>
 			<item_name>Bebek Yüzlünün Ateşleyicisi</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pep_scattergun/c_pep_scattergun.mdl</model_player>
@@ -31680,7 +31626,6 @@ Kafalar kopacak.</item_description>
 			<item_class>tf_weapon_handgun_scout_secondary</item_class>
 			<item_type_name>Tabanca</item_type_name>
 			<item_name>Tatlı Oğlanın Cep Tabancası</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pep_pistol/c_pep_pistol.mdl</model_player>
@@ -41886,7 +41831,6 @@ Alternatif Atış: Düşmanlara cisimler püskürten ve yanan takım arkadaşlar
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Şapka</item_type_name>
 			<item_name>Mann Co. Online Kepi</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/Scout_cap_online.mdl</model_player>
@@ -44958,7 +44902,7 @@ Bu büyü kitabı iyi görünüyor, sayfalarını tamamlamışsın. Ancak yine d
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>100</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete.57f64ae848a23c8232a2f7dcd89bd6c298a47597.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete_large.da01f0b58f4b411288c36739f48bd322126cf6dd.png</image_url_large>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete_large.091cca0d87df8b95374f898da7b80f5b67f3b088.png</image_url_large>
 			<capabilities>
 				<nameable>true</nameable>
 				<can_gift_wrap>true</can_gift_wrap>
@@ -45970,6 +45914,17 @@ Taretin kontrolü bırakıldığında 3 saniyeliğine devre dışı kalır.</ite
 				<can_killstreakify>true</can_killstreakify>
 				<can_consume>true</can_consume>
 			</capabilities>
+			<styles>
+				<style>
+					<name>Mermili</name>
+				</style>
+				<style>
+					<name>Mermisiz</name>
+					<additional_hidden_bodygroups>
+						<bullets>1</bullets>
+					</additional_hidden_bodygroups>
+				</style>
+			</styles>
 			<used_by_classes>
 				<class>Heavy</class>
 			</used_by_classes>
@@ -46136,7 +46091,6 @@ Taretin kontrolü bırakıldığında 3 saniyeliğine devre dışı kalır.</ite
 			<item_class>tf_weapon_compound_bow</item_class>
 			<item_type_name>Yay</item_type_name>
 			<item_name>Güçlendirilmiş Yay</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_bow_thief/c_bow_thief.mdl</model_player>
@@ -46192,7 +46146,6 @@ Taretin kontrolü bırakıldığında 3 saniyeliğine devre dışı kalır.</ite
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Miğfer</item_type_name>
 			<item_name>Gösterişli Koruma</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/soldier/thief_soldier_helmet/thief_soldier_helmet.mdl</model_player>
@@ -46240,7 +46193,6 @@ Taretin kontrolü bırakıldığında 3 saniyeliğine devre dışı kalır.</ite
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Pelerin</item_type_name>
 			<item_name>Suçlu Pelerini</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/sniper/thief_sniper_cape/thief_sniper_cape.mdl</model_player>
@@ -46288,7 +46240,6 @@ Taretin kontrolü bırakıldığında 3 saniyeliğine devre dışı kalır.</ite
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Başlık</item_type_name>
 			<item_name>Ürkütücü Başlık</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/sniper/thief_sniper_hood/thief_sniper_hood.mdl</model_player>
@@ -46336,7 +46287,6 @@ Taretin kontrolü bırakıldığında 3 saniyeliğine devre dışı kalır.</ite
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Rozet</item_type_name>
 			<item_name>Baronluk Rozeti</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/thief_badge/thief_badge_demo.mdl</model_player>
@@ -46434,7 +46384,6 @@ Taretin kontrolü bırakıldığında 3 saniyeliğine devre dışı kalır.</ite
 			<item_class>tf_weapon_sniperrifle_classic</item_class>
 			<item_type_name>Tüfek</item_type_name>
 			<item_name>Klasik</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/weapons/c_models/c_tfc_sniperrifle/c_tfc_sniperrifle.mdl</model_player>
@@ -46717,7 +46666,6 @@ Açık Paraşüt alçalma hızınızı yavaşlatır.</item_description>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Çifte</item_type_name>
 			<item_name>Geri Saçan</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_scatterdrum/c_scatterdrum.mdl</model_player>
@@ -47663,7 +47611,6 @@ Yürüme tuşlarını kullanarak Conga yaparken kendinize yön verebilirsiniz</i
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Gözlük</item_type_name>
 			<item_name>Yaz Gözlüklerinin Yüce Sütunu</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/summer_deal_Scout.mdl</model_player>
@@ -47713,7 +47660,6 @@ Yürüme tuşlarını kullanarak Conga yaparken kendinize yön verebilirsiniz</i
 			<item_class>saxxy</item_class>
 			<item_type_name>Çekiç</item_type_name>
 			<item_name>Nekro Ezici</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_carnival_mallet/c_carnival_mallet.mdl</model_player>
@@ -47908,7 +47854,6 @@ Daha yüksek seviyeler daha fazla ördek düşürür.</item_description>
 			<item_class>saxxy</item_class>
 			<item_type_name>Sembol</item_type_name>
 			<item_name>Geçit Koruyucusu</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_crossing_guard/c_crossing_guard.mdl</model_player>

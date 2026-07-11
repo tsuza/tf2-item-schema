@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1d62f5c09ba2e14f6d4a4abc24dd8bb5921aa4b0.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -7551,7 +7551,6 @@ Disparo secundario: lanza una ráfaga de aire comprimido que empuja a los enemig
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Sombrero</item_type_name>
 			<item_name>El Dependiente</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/attendant.mdl</model_player>
@@ -7736,7 +7735,6 @@ que una aliteración con &apos;¡ARR!&apos;</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Sombrero</item_type_name>
 			<item_name>El Lechero</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/milkhat.mdl</model_player>
@@ -7963,7 +7961,6 @@ Puede usarse para apagar el fuego.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Sombrero</item_type_name>
 			<item_name>Fez Familiar</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/fez.mdl</model_player>
@@ -8010,7 +8007,7 @@ Puede usarse para apagar el fuego.</item_description>
 			<defindex>224</defindex>
 			<item_class>tf_weapon_revolver</item_class>
 			<item_type_name>Revólver</item_type_name>
-			<item_name>El Extranjero</item_name>
+			<item_name>L&apos;Étranger</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_letranger/c_letranger.mdl</model_player>
@@ -8186,7 +8183,6 @@ La furia aumenta con el daño infligido.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Sombrero</item_type_name>
 			<item_name>Gorro de Granadero</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/grenadier_softcap.mdl</model_player>
@@ -8292,7 +8288,6 @@ La furia aumenta con el daño infligido.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Sombrero</item_type_name>
 			<item_name>El Viejo Dentudo</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/snaggletooth.mdl</model_player>
@@ -8668,7 +8663,6 @@ a un máximo de 23 jugadores más del servidor!</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Casco</item_type_name>
 			<item_name>Yelmo Lumbrícido</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/worms_gear.mdl</model_player>
@@ -8933,7 +8927,6 @@ Gana duelos para subir su nivel.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Tocado</item_type_name>
 			<item_name>Protector del Pugilista</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/pugilist_protector.mdl</model_player>
@@ -9125,7 +9118,6 @@ Gana duelos para subir su nivel.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Sombrero</item_type_name>
 			<item_name>Desafío del Caudillo</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/chief_rocketeer.mdl</model_player>
@@ -9222,7 +9214,6 @@ victoriana.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Sombrero</item_type_name>
 			<item_name>El Colofón del Dr. Dapper</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/all_class/dappertopper/dappertopper_Scout.mdl</model_player>
@@ -9503,7 +9494,6 @@ https://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Sombrero</item_type_name>
 			<item_name>Gorra de Mann Co.</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/Scout_cap.mdl</model_player>
@@ -10700,8 +10690,8 @@ a aquellos que habitan la Intuertal.</item_description>
 			<image_inventory>backpack/player/items/all_class/voodoojuju_hat</image_inventory>
 			<min_ilevel>31</min_ilevel>
 			<max_ilevel>31</max_ilevel>
-			<image_url>http://media.steampowered.com/apps/440/icons/voodoojuju_hat.8cf9dc510eaf5d6cbfd4fc210ff3ee0aa906db9b.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/voodoojuju_hat_large.be40609e0ed4017c2c9013b19376cf75afe8831a.png</image_url_large>
+			<image_url>http://media.steampowered.com/apps/440/icons/voodoojuju_hat.fb64e44ddc108918d00e26452168652450b905b6.png</image_url>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/voodoojuju_hat_large.7013b3669f9c3226d1a2111fef588a313b330822.png</image_url_large>
 			<drop_type>drop</drop_type>
 			<craft_class></craft_class>
 			<craft_material_type></craft_material_type>
@@ -11167,7 +11157,6 @@ a aquellos que habitan la Intuertal.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Casco</item_type_name>
 			<item_name>Casco de Caballero Berlinés</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/berliners_bucket_helm.mdl</model_player>
@@ -11495,7 +11484,6 @@ El primer impacto provocará una explosión</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Sombrero</item_type_name>
 			<item_name>El Gran Jefe</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/heavy_big_chief.mdl</model_player>
@@ -12662,6 +12650,11 @@ Disparo secundario: compartir con un amigo (botiquín mediano)
 					<class>kill_eater_kill_type</class>
 					<value>64</value>
 				</attribute>
+				<attribute>
+					<name>attach particle effect static</name>
+					<class>set_attached_particle_static</class>
+					<value>406</value>
+				</attribute>
 			</attributes>
 		</item>
 		<item>
@@ -12719,6 +12712,11 @@ Disparo secundario: compartir con un amigo (botiquín mediano)
 					<name>counts as assister is some kind of pet this update is going to be awesome</name>
 					<class>counts_as_assister</class>
 					<value>1</value>
+				</attribute>
+				<attribute>
+					<name>attach particle effect static</name>
+					<class>set_attached_particle_static</class>
+					<value>406</value>
 				</attribute>
 			</attributes>
 		</item>
@@ -13228,7 +13226,6 @@ Disparo secundario: compartir con un amigo (botiquín mediano)
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Sombrero</item_type_name>
 			<item_name>El Superfan</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/mnc_mascot_hat.mdl</model_player>
@@ -13276,7 +13273,6 @@ Disparo secundario: compartir con un amigo (botiquín mediano)
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorios</item_type_name>
 			<item_name>Los Accesorios Imprescindibles</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/mnc_mascot_outfit.mdl</model_player>
@@ -13810,7 +13806,6 @@ Se queda sopa</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Bandana</item_type_name>
 			<item_name>Hachimaki del Héroe</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/homefront_blindfold.mdl</model_player>
@@ -15495,8 +15490,8 @@ el otro en todo lo demás.</item_description>
 			<item_class>tf_wearable_demoshield</item_class>
 			<item_type_name>Escudo</item_type_name>
 			<item_name>El Escudo Espléndido</item_name>
-			<item_description>Disparo secundario: Carga contra los enemigos y elimina efectos negativos.
-Consigue un golpe crítico cuerpo a cuerpo tras impactar con un enemigo.</item_description>
+			<item_description>Alt-Fire: Charge toward your enemies and remove debuffs.
+Gain a critical melee strike after impacting an enemy at distance.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_persian_shield/c_persian_shield.mdl</model_player>
@@ -16860,7 +16855,6 @@ Equipa este artículo en un espacio de burla. Actívalo para mostrar a tus víct
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Tocado</item_type_name>
 			<item_name>Salacot de Lord Cockswain</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/drg_pith_hat.mdl</model_player>
@@ -16910,7 +16904,6 @@ Equipa este artículo en un espacio de burla. Actívalo para mostrar a tus víct
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Vello Facial</item_type_name>
 			<item_name>Las Revolucionarias Patillas y Pipa de Lord Cockswain</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/drg_hair_beard.mdl</model_player>
@@ -17009,7 +17002,6 @@ Equipa este artículo en un espacio de burla. Actívalo para mostrar a tus víct
 			<item_class>tf_weapon_raygun</item_class>
 			<item_type_name>Machacador de Partículas Indivisibles</item_type_name>
 			<item_name>El Bisonte Justiciero</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_drg_righteousbison/c_drg_righteousbison.mdl</model_player>
@@ -20363,7 +20355,6 @@ con cada decapitación.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Sombrero</item_type_name>
 			<item_name>El Nanopasamontañas</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/spy/dex_belltower/dex_belltower.mdl</model_player>
@@ -20412,7 +20403,6 @@ con cada decapitación.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Gafas</item_type_name>
 			<item_name>Lentes Deus</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/dex_glasses/dex_glasses_Scout.mdl</model_player>
@@ -20457,7 +20447,6 @@ con cada decapitación.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Sombrero</item_type_name>
 			<item_name>El Empresario</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/Scout/dex_hat_Scout/dex_hat_Scout.mdl</model_player>
@@ -20502,7 +20491,6 @@ con cada decapitación.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Aumento Decorativo</item_type_name>
 			<item_name>El Porrazo Primordial</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/heavy/dex_sarifarm/dex_sarifarm.mdl</model_player>
@@ -20550,7 +20538,6 @@ con cada decapitación.</item_description>
 			<item_class>tf_weapon_revolver</item_class>
 			<item_type_name>Revólver</item_type_name>
 			<item_name>El Diamondback</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_revolver/c_dex_revolver.mdl</model_player>
@@ -20601,7 +20588,6 @@ con cada decapitación.</item_description>
 			<item_class>tf_weapon_sniperrifle</item_class>
 			<item_type_name>Rifle de Francotirador</item_type_name>
 			<item_name>La Machina</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_sniperrifle/c_dex_sniperrifle.mdl</model_player>
@@ -20662,7 +20648,6 @@ con cada decapitación.</item_description>
 			<item_class>tf_weapon_shotgun_primary</item_class>
 			<item_type_name>Escopeta</item_type_name>
 			<item_name>La Enviudadora</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_shotgun/c_dex_shotgun.mdl</model_player>
@@ -20728,7 +20713,6 @@ con cada decapitación.</item_description>
 			<item_class>tf_weapon_mechanical_arm</item_class>
 			<item_type_name>Brazo Robótico</item_type_name>
 			<item_name>El Cortocircuitador</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_arm/c_dex_arm.mdl</model_player>
@@ -20998,7 +20982,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Sombrero</item_type_name>
 			<item_name>Cono Fiestero</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/bdayhat_Scout.mdl</model_player>
@@ -21091,7 +21074,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Sombrero</item_type_name>
 			<item_name>El Jefe</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/rebel_cap.mdl</model_player>
@@ -21279,7 +21261,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>La Melena de la Bestia</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_hat.mdl</model_player>
@@ -21332,7 +21313,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>El Alarido Escocés</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_misc1.mdl</model_player>
@@ -21385,7 +21365,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>Las Garras Desgarradoras</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_misc2.mdl</model_player>
@@ -21438,7 +21417,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>Vendas de Combate</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_hat.mdl</model_player>
@@ -21491,7 +21469,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>¡B-anj!</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_misc1.mdl</model_player>
@@ -21544,7 +21521,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>El Pietankamón</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_misc2.mdl</model_player>
@@ -21597,7 +21573,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>El Toro Ardiente</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_hat.mdl</model_player>
@@ -21650,7 +21625,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>El Ángel Caído</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_misc1.mdl</model_player>
@@ -21703,7 +21677,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>Cola del Averno</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_misc2.mdl</model_player>
@@ -21756,7 +21729,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>El Einstein</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_hat.mdl</model_player>
@@ -21809,7 +21781,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>Dr. Gafastacho</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_misc1.mdl</model_player>
@@ -21862,7 +21833,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>El Fraskungfú Esmeralda</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_misc2.mdl</model_player>
@@ -21915,7 +21885,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>La Caja Tonta</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_hat.mdl</model_player>
@@ -21968,7 +21937,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>Los Tubos de Acero</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_misc1.mdl</model_player>
@@ -22021,7 +21989,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>El Calzado Económico</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_misc2.mdl</model_player>
@@ -22074,7 +22041,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>La Tapadera</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_hat.mdl</model_player>
@@ -22127,7 +22093,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>Gafas de Griffin</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_misc1.mdl</model_player>
@@ -22180,7 +22145,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>El Pañuelo Intangible</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_misc2.mdl</model_player>
@@ -22233,7 +22197,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>El Abrelatas</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_hat.mdl</model_player>
@@ -22286,7 +22249,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>El Remiendo Ruso</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_misc1.mdl</model_player>
@@ -22339,7 +22301,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>Las Apisonadoras con Puntera de Acero</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_misc2.mdl</model_player>
@@ -22392,7 +22353,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>El Cazador Sagrado</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_hat.mdl</model_player>
@@ -22445,7 +22405,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>Balas de Plata</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_misc1.mdl</model_player>
@@ -22498,7 +22457,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>Estaca y Ajos</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_misc2.mdl</model_player>
@@ -22551,7 +22509,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>La Mosca Humana</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_hat.mdl</model_player>
@@ -22604,7 +22561,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>El Díptero de la Frontera</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_misc1.mdl</model_player>
@@ -22657,7 +22613,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Accesorio de Disfraz</item_type_name>
 			<item_name>La Leyenda de Bugfoot</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_misc2.mdl</model_player>
@@ -22710,7 +22665,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Máscara</item_type_name>
 			<item_name>El Último Aliento</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/pyro/pyro_halloween_gasmask/pyro_halloween_gasmask.mdl</model_player>
@@ -23458,7 +23412,6 @@ Gamescom 2011</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Insignia</item_type_name>
 			<item_name>La Marca del Santo</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/sr3_badge.mdl</model_player>
@@ -26093,7 +26046,6 @@ Se pueden aplicar adhesivos personalizados a este artículo.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Camisa</item_type_name>
 			<item_name>Dr. Whoa</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/bowtie.mdl</model_player>
@@ -26239,7 +26191,6 @@ Se pueden aplicar adhesivos personalizados a este artículo.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Mochila</item_type_name>
 			<item_name>Campista Comodón</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/player/items/sniper/xms_sniper_commandobackpack/xms_sniper_commandobackpack.mdl</model_player>
@@ -28646,7 +28597,6 @@ Disparo secundario: lanza una ráfaga de aire comprimido que empuja a los enemig
 			<item_class>craft_item</item_class>
 			<item_type_name>Anillo</item_type_name>
 			<item_name>Algo Especial Para Alguien Especial</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<model_player>null</model_player>
 			<item_quality>6</item_quality>
@@ -29166,7 +29116,6 @@ Disparo secundario: lanza una ráfaga de aire comprimido que empuja a los enemig
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Func_Medal</item_type_name>
 			<item_name>El Medallón del Mapper</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/mapper_medal.mdl</model_player>
@@ -29627,7 +29576,6 @@ Disparo secundario: lanza una ráfaga de aire comprimido que empuja a los enemig
 			<item_class>tf_weapon_rocketlauncher</item_class>
 			<item_type_name>Lanzacohetes</item_type_name>
 			<item_name>Bazuca del Mendigo</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_dumpster_device/c_dumpster_device.mdl</model_player>
@@ -30516,7 +30464,6 @@ Disparo secundario: lanza una ráfaga de aire comprimido que empuja a los enemig
 			<item_class>tf_weapon_charged_smg</item_class>
 			<item_type_name>Metralleta</item_type_name>
 			<item_name>La Carabina del Limpiador</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pro_smg/c_pro_smg.mdl</model_player>
@@ -31614,7 +31561,6 @@ Rodarán cabezas.</item_description>
 			<item_class>tf_weapon_pep_brawler_blaster</item_class>
 			<item_type_name>Recortada</item_type_name>
 			<item_name>Devastadora del Imberbe</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pep_scattergun/c_pep_scattergun.mdl</model_player>
@@ -31676,7 +31622,6 @@ Rodarán cabezas.</item_description>
 			<item_class>tf_weapon_handgun_scout_secondary</item_class>
 			<item_type_name>Pistola</item_type_name>
 			<item_name>Pistola de Bolsillo del Guaperas</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pep_pistol/c_pep_pistol.mdl</model_player>
@@ -41882,7 +41827,6 @@ Disparo secundario: lanza una ráfaga de aire comprimido que empuja a los enemig
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Sombrero</item_type_name>
 			<item_name>Gorra de Mann Co. Online</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/Scout_cap_online.mdl</model_player>
@@ -44953,7 +44897,7 @@ Disparo secundario: comparte un Focata con un amigo (botiquín mediano)</item_de
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>100</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete.57f64ae848a23c8232a2f7dcd89bd6c298a47597.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete_large.da01f0b58f4b411288c36739f48bd322126cf6dd.png</image_url_large>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete_large.091cca0d87df8b95374f898da7b80f5b67f3b088.png</image_url_large>
 			<capabilities>
 				<nameable>true</nameable>
 				<can_gift_wrap>true</can_gift_wrap>
@@ -45967,6 +45911,17 @@ Las armas centinelas estarán inactivas durante 3 segundos tras la desactivació
 				<can_killstreakify>true</can_killstreakify>
 				<can_consume>true</can_consume>
 			</capabilities>
+			<styles>
+				<style>
+					<name>Con balas</name>
+				</style>
+				<style>
+					<name>Sin balas</name>
+					<additional_hidden_bodygroups>
+						<bullets>1</bullets>
+					</additional_hidden_bodygroups>
+				</style>
+			</styles>
 			<used_by_classes>
 				<class>Heavy</class>
 			</used_by_classes>
@@ -46133,7 +46088,6 @@ Las armas centinelas estarán inactivas durante 3 segundos tras la desactivació
 			<item_class>tf_weapon_compound_bow</item_class>
 			<item_type_name>Arco</item_type_name>
 			<item_name>El Compuesto Fortificado</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_bow_thief/c_bow_thief.mdl</model_player>
@@ -46189,7 +46143,6 @@ Las armas centinelas estarán inactivas durante 3 segundos tras la desactivació
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Casco</item_type_name>
 			<item_name>La Guardia Dorada</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/soldier/thief_soldier_helmet/thief_soldier_helmet.mdl</model_player>
@@ -46237,7 +46190,6 @@ Las armas centinelas estarán inactivas durante 3 segundos tras la desactivació
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Capa</item_type_name>
 			<item_name>La Capa del Criminal</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/sniper/thief_sniper_cape/thief_sniper_cape.mdl</model_player>
@@ -46285,7 +46237,6 @@ Las armas centinelas estarán inactivas durante 3 segundos tras la desactivació
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Capucha</item_type_name>
 			<item_name>Caperucita Negra</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/sniper/thief_sniper_hood/thief_sniper_hood.mdl</model_player>
@@ -46333,7 +46284,6 @@ Las armas centinelas estarán inactivas durante 3 segundos tras la desactivació
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Insignia</item_type_name>
 			<item_name>La Insignia Señorial</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/thief_badge/thief_badge_demo.mdl</model_player>
@@ -46431,7 +46381,6 @@ Las armas centinelas estarán inactivas durante 3 segundos tras la desactivació
 			<item_class>tf_weapon_sniperrifle_classic</item_class>
 			<item_type_name>Rifle de Francotirador</item_type_name>
 			<item_name>El Clásico</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/weapons/c_models/c_tfc_sniperrifle/c_tfc_sniperrifle.mdl</model_player>
@@ -46714,7 +46663,6 @@ El paracaídas desplegado ralentizará tu descenso.</item_description>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>Recortada</item_type_name>
 			<item_name>La Retroescopeta</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_scatterdrum/c_scatterdrum.mdl</model_player>
@@ -47661,7 +47609,6 @@ Inspirado en el corto de TF2 &apos;Fecha de caducidad&apos;.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Gafas</item_type_name>
 			<item_name>Altísimo Montón de Gafas de Sol</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/summer_deal_Scout.mdl</model_player>
@@ -47711,7 +47658,6 @@ Inspirado en el corto de TF2 &apos;Fecha de caducidad&apos;.</item_description>
 			<item_class>saxxy</item_class>
 			<item_type_name>Martillo</item_type_name>
 			<item_name>El Necromachacador</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_carnival_mallet/c_carnival_mallet.mdl</model_player>
@@ -47906,7 +47852,6 @@ Un mayor nivel significa mayor posibilidad de encontrar patos.</item_description
 			<item_class>saxxy</item_class>
 			<item_type_name>Señal</item_type_name>
 			<item_name>El Tortazo a Nivel</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_crossing_guard/c_crossing_guard.mdl</model_player>

@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1d62f5c09ba2e14f6d4a4abc24dd8bb5921aa4b0.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -2940,7 +2940,7 @@ ja lamauttaa rakennukset 4 sekunniksi</description_string>
 			<name>energy weapon no deflect</name>
 			<defindex>285</defindex>
 			<attribute_class>energy_weapon_no_deflect</attribute_class>
-			<description_string>Ammuksia ei voi kimmottaa</description_string>
+			<description_string>Ammuksia ei voi saada kimpoamaan</description_string>
 			<description_format>value_is_additive</description_format>
 			<effect_type>positive</effect_type>
 			<hidden>false</hidden>
@@ -11288,7 +11288,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<id>369</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Revontulet</name>
+			<name>Revontulitaivas</name>
 		</particle>
 		<particle>
 			<system>unusual_bokehsparkle_parent</system>
@@ -11379,35 +11379,35 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<id>382</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Ocean Swirl</name>
+			<name>Meripyörre</name>
 		</particle>
 		<particle>
 			<system>unusual_ocean_swirl_teamcolor_blue</system>
 			<id>383</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Ocean Swirl</name>
+			<name>Meripyörre</name>
 		</particle>
 		<particle>
 			<system>unusual_ocean_swirl_green_parent</system>
 			<id>384</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Toxic Swirl</name>
+			<name>Myrkkypyörre</name>
 		</particle>
 		<particle>
 			<system>unusual_candle_teamcolor_red</system>
 			<id>385</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Candle Flame</name>
+			<name>Kynttilän kajo</name>
 		</particle>
 		<particle>
 			<system>unusual_candle_teamcolor_blue</system>
 			<id>386</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Candle Flame</name>
+			<name>Kynttilän kajo</name>
 		</particle>
 		<particle>
 			<system>unusual_deadlyaroma_teamcolor_red</system>
@@ -11477,7 +11477,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<id>396</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Calm Snowfall</name>
+			<name>Levollinen lumentulo</name>
 		</particle>
 		<particle>
 			<system>unusual_team_recognition_teamcolor_red</system>
@@ -11498,28 +11498,28 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<id>399</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Old Hire</name>
+			<name>Vanha tuttu</name>
 		</particle>
 		<particle>
 			<system>unusual_classicfortress_teamcolor_blue</system>
 			<id>400</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Old Hire</name>
+			<name>Vanha tuttu</name>
 		</particle>
 		<particle>
 			<system>unusual_classicfortress_tflogo_parent</system>
 			<id>401</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Analog Fortress</name>
+			<name>Muinaislinnoitus</name>
 		</particle>
 		<particle>
 			<system>unusual_growing_flake_parent_white</system>
 			<id>402</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Winter Whiteout</name>
+			<name>Talventulo</name>
 		</particle>
 		<particle>
 			<system>unusual_growing_flake_parent_purple</system>
@@ -11533,7 +11533,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<id>404</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Twilight Snowfall</name>
+			<name>Ehtoon tuisku</name>
 		</particle>
 		<particle>
 			<system>unusual_cryogenic_parent</system>
@@ -11541,6 +11541,75 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
 			<name>Kryogeeninen kylmennys</name>
+		</particle>
+		<particle>
+			<system>coin_spin</system>
+			<id>406</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<name>Attrib_Particle406</name>
+		</particle>
+		<particle>
+			<system>unusual_aurora_purple_parent</system>
+			<id>407</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Pimeyden tango</name>
+		</particle>
+		<particle>
+			<system>unusual_aurora_teal_parent</system>
+			<id>408</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Pohjolan yö</name>
+		</particle>
+		<particle>
+			<system>unusual_aurora_green_parent</system>
+			<id>409</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Aurinkotuulet</name>
+		</particle>
+		<particle>
+			<system>unusual_vinethorn_teamcolor_red</system>
+			<id>410</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Floral Growth</name>
+		</particle>
+		<particle>
+			<system>unusual_vinethorn_teamcolor_blue</system>
+			<id>411</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Floral Growth</name>
+		</particle>
+		<particle>
+			<system>unusual_spaceorbit_parent</system>
+			<id>412</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Stellar Orbit</name>
+		</particle>
+		<particle>
+			<system>unusual_butterfly_teamcolor_red</system>
+			<id>413</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Lepattavat lentelijät</name>
+		</particle>
+		<particle>
+			<system>unusual_butterfly_teamcolor_blue</system>
+			<id>414</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Lepattavat lentelijät</name>
+		</particle>
+		<particle>
+			<system>unusual_butterfly_parent_purple</system>
+			<id>415</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Suhisevat siivet</name>
 		</particle>
 		<particle>
 			<system>weapon_unusual_hot</system>
@@ -12024,7 +12093,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<system>utaunt_auroraglow_green_parent</system>
 			<id>3070</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Revontulet</name>
+			<name>Pohjantulet</name>
 		</particle>
 		<particle>
 			<system>utaunt_auroraglow_orange_parent</system>
@@ -12858,25 +12927,25 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<system>utaunt_tarpit_dinos_parent</system>
 			<id>3209</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Fossil Fueled</name>
+			<name>Luinen löpö</name>
 		</particle>
 		<particle>
 			<system>utaunt_tarpit_people_parent</system>
 			<id>3210</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Tar Pit</name>
+			<name>Tervapata</name>
 		</particle>
 		<particle>
 			<system>utaunt_morbed_teamcolor_red</system>
 			<id>3211</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Morbidly Beast</name>
+			<name>Pönäkkä peto</name>
 		</particle>
 		<particle>
 			<system>utaunt_morbed_teamcolor_blue</system>
 			<id>3212</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Morbidly Beast</name>
+			<name>Pönäkkä peto</name>
 		</particle>
 		<particle>
 			<system>utaunt_2fort_teamc_teamcolor_red</system>
@@ -12888,7 +12957,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<system>utaunt_2fort_teamc_teamcolor_blue</system>
 			<id>3214</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Snow Dome</name>
+			<name>Pyrykupoli</name>
 		</particle>
 		<particle>
 			<system>utaunt_burningdesire_green_parent</system>
@@ -12906,43 +12975,79 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<system>utaunt_spacecoated_2colored_parent_pb</system>
 			<id>3217</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Galactic Dust</name>
+			<name>Galaksipöly</name>
 		</particle>
 		<particle>
 			<system>utaunt_spacecoated_2colored_parent_pg</system>
 			<id>3218</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Galactic Cloud</name>
+			<name>Galaksin kajo</name>
 		</particle>
 		<particle>
 			<system>utaunt_aurora25_teamcolor_red</system>
 			<id>3219</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Aurora Aura</name>
+			<name>Taivaan tulet</name>
 		</particle>
 		<particle>
 			<system>utaunt_aurora25_teamcolor_blue</system>
 			<id>3220</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Aurora Aura</name>
+			<name>Taivaan tulet</name>
 		</particle>
 		<particle>
 			<system>utaunt_aurora25_parent_purple</system>
 			<id>3221</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Northern Nights</name>
+			<name>Pohjolan yö</name>
 		</particle>
 		<particle>
 			<system>utaunt_chillingmist_parent</system>
 			<id>3222</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Chilling Mist</name>
+			<name>Hyinen utu</name>
 		</particle>
 		<particle>
 			<system>utaunt_80smalfunction_parent</system>
 			<id>3223</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Circuit Break</name>
+			<name>Kipinänpoikanen</name>
+		</particle>
+		<particle>
+			<system>utaunt_wheatfield_parent</system>
+			<id>3224</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Wheat Field</name>
+		</particle>
+		<particle>
+			<system>utaunt_luminousdrift_teamcolor_red</system>
+			<id>3225</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Luminous Drift</name>
+		</particle>
+		<particle>
+			<system>utaunt_luminousdrift_teamcolor_blue</system>
+			<id>3226</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Luminous Drift</name>
+		</particle>
+		<particle>
+			<system>utaunt_luminousdrift_purple_parent</system>
+			<id>3227</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Luminous Shift</name>
+		</particle>
+		<particle>
+			<system>utaunt_dualspotlights_parent</system>
+			<id>3228</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Showtime Spotlights</name>
+		</particle>
+		<particle>
+			<system>utaunt_underwater_parent</system>
+			<id>3229</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Deep Dive</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>
@@ -14368,7 +14473,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 		</kill_eater_score_type>
 		<kill_eater_score_type>
 			<type>1</type>
-			<type_name>Übers</type_name>
+			<type_name>Ylilatausta</type_name>
 			<level_data>KillEaterRank</level_data>
 		</kill_eater_score_type>
 		<kill_eater_score_type>
@@ -14463,7 +14568,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 		</kill_eater_score_type>
 		<kill_eater_score_type>
 			<type>20</type>
-			<type_name>Ammuksia kimmotettu</type_name>
+			<type_name>Kimpoamaan saadut ammukset</type_name>
 			<level_data>KillEaterRank</level_data>
 		</kill_eater_score_type>
 		<kill_eater_score_type>

@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.1d62f5c09ba2e14f6d4a4abc24dd8bb5921aa4b0.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -7551,7 +7551,6 @@
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>服务员之帽</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/attendant.mdl</model_player>
@@ -7736,7 +7735,6 @@
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>牛奶商</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/milkhat.mdl</model_player>
@@ -7963,7 +7961,6 @@
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>眼熟的非斯帽</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/fez.mdl</model_player>
@@ -8187,7 +8184,6 @@
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>投弹兵的软帽</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/grenadier_softcap.mdl</model_player>
@@ -8293,7 +8289,6 @@
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>老鳄鱼龅牙</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/snaggletooth.mdl</model_player>
@@ -8670,7 +8665,6 @@
 			<item_class>tf_wearable</item_class>
 			<item_type_name>头盔</item_type_name>
 			<item_name>百战天虫战盔</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/worms_gear.mdl</model_player>
@@ -8936,7 +8930,6 @@
 			<item_class>tf_wearable</item_class>
 			<item_type_name>头饰</item_type_name>
 			<item_name>拳击手头套</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/pugilist_protector.mdl</model_player>
@@ -9128,7 +9121,6 @@
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>印第安酋长帽</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/chief_rocketeer.mdl</model_player>
@@ -9225,7 +9217,6 @@
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>博士妙妙帽</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/all_class/dappertopper/dappertopper_Scout.mdl</model_player>
@@ -9506,7 +9497,6 @@ https://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>曼恩公司宣传帽</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/Scout_cap.mdl</model_player>
@@ -10702,8 +10692,8 @@ https://wiki.teamfortress.com/</item_description>
 			<image_inventory>backpack/player/items/all_class/voodoojuju_hat</image_inventory>
 			<min_ilevel>31</min_ilevel>
 			<max_ilevel>31</max_ilevel>
-			<image_url>http://media.steampowered.com/apps/440/icons/voodoojuju_hat.8cf9dc510eaf5d6cbfd4fc210ff3ee0aa906db9b.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/voodoojuju_hat_large.be40609e0ed4017c2c9013b19376cf75afe8831a.png</image_url_large>
+			<image_url>http://media.steampowered.com/apps/440/icons/voodoojuju_hat.fb64e44ddc108918d00e26452168652450b905b6.png</image_url>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/voodoojuju_hat_large.7013b3669f9c3226d1a2111fef588a313b330822.png</image_url_large>
 			<drop_type>drop</drop_type>
 			<craft_class></craft_class>
 			<craft_material_type></craft_material_type>
@@ -11169,7 +11159,6 @@ https://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>头盔</item_type_name>
 			<item_name>柏林的桶式头盔</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/berliners_bucket_helm.mdl</model_player>
@@ -11497,7 +11486,6 @@ https://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>大酋长</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/heavy_big_chief.mdl</model_player>
@@ -12665,6 +12653,11 @@ https://wiki.teamfortress.com/</item_description>
 					<class>kill_eater_kill_type</class>
 					<value>64</value>
 				</attribute>
+				<attribute>
+					<name>attach particle effect static</name>
+					<class>set_attached_particle_static</class>
+					<value>406</value>
+				</attribute>
 			</attributes>
 		</item>
 		<item>
@@ -12722,6 +12715,11 @@ https://wiki.teamfortress.com/</item_description>
 					<name>counts as assister is some kind of pet this update is going to be awesome</name>
 					<class>counts_as_assister</class>
 					<value>1</value>
+				</attribute>
+				<attribute>
+					<name>attach particle effect static</name>
+					<class>set_attached_particle_static</class>
+					<value>406</value>
 				</attribute>
 			</attributes>
 		</item>
@@ -13231,7 +13229,6 @@ https://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>超级粉丝的太阳帽</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/mnc_mascot_hat.mdl</model_player>
@@ -13279,7 +13276,6 @@ https://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>必不可少的运动装备</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/mnc_mascot_outfit.mdl</model_player>
@@ -13813,7 +13809,6 @@ https://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>花色丝质大手帕</item_type_name>
 			<item_name>英雄的头带</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/homefront_blindfold.mdl</model_player>
@@ -15499,7 +15494,7 @@ https://wiki.teamfortress.com/</item_description>
 			<item_type_name>防护盾</item_type_name>
 			<item_name>辉煌护盾</item_name>
 			<item_description>辅助能力：移除负面效果，向敌人发起冲锋。
-冲锋撞击敌人时，获得一次近战武器爆击。</item_description>
+远距离冲锋撞击敌人时，获得一次近战武器爆击。</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_persian_shield/c_persian_shield.mdl</model_player>
@@ -16864,7 +16859,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>头饰</item_type_name>
 			<item_name>考克斯文公爵的神气头盔</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/drg_pith_hat.mdl</model_player>
@@ -16914,7 +16908,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>胡子</item_type_name>
 			<item_name>考克斯文公爵的新奇羊毛面具和烟斗</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/drg_hair_beard.mdl</model_player>
@@ -17013,7 +17006,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_weapon_raygun</item_class>
 			<item_type_name>微粒撞击器</item_type_name>
 			<item_name>正义野牛</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_drg_righteousbison/c_drg_righteousbison.mdl</model_player>
@@ -20367,7 +20359,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>纳米科技面罩</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/spy/dex_belltower/dex_belltower.mdl</model_player>
@@ -20416,7 +20407,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>眼镜</item_type_name>
 			<item_name>骇客墨镜</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/dex_glasses/dex_glasses_Scout.mdl</model_player>
@@ -20461,7 +20451,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>萨里夫工业公司员工帽</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/Scout/dex_hat_Scout/dex_hat_Scout.mdl</model_player>
@@ -20506,7 +20495,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>装饰性身体改造</item_type_name>
 			<item_name>净化之拳</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/heavy/dex_sarifarm/dex_sarifarm.mdl</model_player>
@@ -20554,7 +20542,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_weapon_revolver</item_class>
 			<item_type_name>左轮手枪</item_type_name>
 			<item_name>菱背响尾蛇</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_revolver/c_dex_revolver.mdl</model_player>
@@ -20605,7 +20592,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_weapon_sniperrifle</item_class>
 			<item_type_name>狙击步枪</item_type_name>
 			<item_name>鬼械神狙</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_sniperrifle/c_dex_sniperrifle.mdl</model_player>
@@ -20666,7 +20652,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_weapon_shotgun_primary</item_class>
 			<item_type_name>霰弹枪</item_type_name>
 			<item_name>寡妇制造者</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_shotgun/c_dex_shotgun.mdl</model_player>
@@ -20732,7 +20717,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_weapon_mechanical_arm</item_class>
 			<item_type_name>机械手臂</item_type_name>
 			<item_name>短路发生器</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_dex_arm/c_dex_arm.mdl</model_player>
@@ -21002,7 +20986,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>派对尖帽</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/bdayhat_Scout.mdl</model_player>
@@ -21095,7 +21078,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>革命家之帽</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/rebel_cap.mdl</model_player>
@@ -21283,7 +21265,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>狼人的毛发</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_hat.mdl</model_player>
@@ -21336,7 +21317,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>苏格兰咆哮者面具</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_misc1.mdl</model_player>
@@ -21389,7 +21369,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>狼人的脚爪</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/hwn_demo_misc2.mdl</model_player>
@@ -21442,7 +21421,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>绷带帽子</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_hat.mdl</model_player>
@@ -21495,7 +21473,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>木乃伊的生命护符</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_misc1.mdl</model_player>
@@ -21548,7 +21525,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>足坦卡门</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/scout/hwn_scout_misc2.mdl</model_player>
@@ -21601,7 +21577,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>炙热的牛角</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_hat.mdl</model_player>
@@ -21654,7 +21629,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>堕天使之翼</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_misc1.mdl</model_player>
@@ -21707,7 +21681,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>恶魔的尾巴</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/pyro/hwn_pyro_misc2.mdl</model_player>
@@ -21760,7 +21733,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>爱因斯坦的白发</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_hat.mdl</model_player>
@@ -21813,7 +21785,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>疯狂博士的胡子与护目镜</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_misc1.mdl</model_player>
@@ -21866,7 +21837,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>翡翠绿瓶手道</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/hwn_medic_misc2.mdl</model_player>
@@ -21919,7 +21889,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>白痴电视机</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_hat.mdl</model_player>
@@ -21972,7 +21941,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>钢制软管</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_misc1.mdl</model_player>
@@ -22025,7 +21993,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>穷光蛋的纸盒鞋子</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/soldier/hwn_soldier_misc2.mdl</model_player>
@@ -22078,7 +22045,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>隐形怪人的面容</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_hat.mdl</model_player>
@@ -22131,7 +22097,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>隐形怪人的目镜</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_misc1.mdl</model_player>
@@ -22184,7 +22149,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>隐形怪人的特制围巾</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/spy/hwn_spy_misc2.mdl</model_player>
@@ -22237,7 +22201,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>颅骨开罐器</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_hat.mdl</model_player>
@@ -22290,7 +22253,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>科学怪人的钢钉与手臂</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_misc1.mdl</model_player>
@@ -22343,7 +22305,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>科学怪人的钢靴</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/hwn_heavy_misc2.mdl</model_player>
@@ -22396,7 +22357,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>神圣猎人之帽</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_hat.mdl</model_player>
@@ -22449,7 +22409,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>白银子弹</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_misc1.mdl</model_player>
@@ -22502,7 +22461,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>大蒜与木钉</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/sniper/hwn_sniper_misc2.mdl</model_player>
@@ -22555,7 +22513,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>苍蝇怪人头套</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_hat.mdl</model_player>
@@ -22608,7 +22565,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>巨大的昆虫翅膀</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_misc1.mdl</model_player>
@@ -22661,7 +22617,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>服装</item_type_name>
 			<item_name>巨大的昆虫脚掌</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/engineer/hwn_engineer_misc2.mdl</model_player>
@@ -22714,7 +22669,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>面具</item_type_name>
 			<item_name>骷髅头骨</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop/player/items/pyro/pyro_halloween_gasmask/pyro_halloween_gasmask.mdl</model_player>
@@ -23462,7 +23416,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>徽章</item_type_name>
 			<item_name>圣徒之印</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/sr3_badge.mdl</model_player>
@@ -26098,7 +26051,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>衬衫</item_type_name>
 			<item_name>绅士的蝴蝶结</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/bowtie.mdl</model_player>
@@ -26244,7 +26196,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>背包</item_type_name>
 			<item_name>惬意蹲坑汉</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/player/items/sniper/xms_sniper_commandobackpack/xms_sniper_commandobackpack.mdl</model_player>
@@ -28651,7 +28602,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>craft_item</item_class>
 			<item_type_name>钻戒</item_type_name>
 			<item_name>为特别的人准备的一些特别的东西</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<model_player>null</model_player>
 			<item_quality>6</item_quality>
@@ -29171,7 +29121,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Func_Medal</item_type_name>
 			<item_name>地图制作者勋章</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/mapper_medal.mdl</model_player>
@@ -29632,7 +29581,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_weapon_rocketlauncher</item_class>
 			<item_type_name>火箭发射器</item_type_name>
 			<item_name>乞丐的火箭筒</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_dumpster_device/c_dumpster_device.mdl</model_player>
@@ -30521,7 +30469,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_weapon_charged_smg</item_class>
 			<item_type_name>SMG</item_type_name>
 			<item_name>扫荡者卡宾</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pro_smg/c_pro_smg.mdl</model_player>
@@ -31619,7 +31566,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_weapon_pep_brawler_blaster</item_class>
 			<item_type_name>猎枪</item_type_name>
 			<item_name>娃娃脸的冲击波</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pep_scattergun/c_pep_scattergun.mdl</model_player>
@@ -31681,7 +31627,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_weapon_handgun_scout_secondary</item_class>
 			<item_type_name>手枪</item_type_name>
 			<item_name>帅气男孩的袖珍手枪</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_pep_pistol/c_pep_pistol.mdl</model_player>
@@ -41887,7 +41832,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>帽子</item_type_name>
 			<item_name>曼恩公司在线商店宣传帽</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/Scout/Scout_cap_online.mdl</model_player>
@@ -44959,7 +44903,7 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<min_ilevel>1</min_ilevel>
 			<max_ilevel>100</max_ilevel>
 			<image_url>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete.57f64ae848a23c8232a2f7dcd89bd6c298a47597.png</image_url>
-			<image_url_large>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete_large.da01f0b58f4b411288c36739f48bd322126cf6dd.png</image_url_large>
+			<image_url_large>http://media.steampowered.com/apps/440/icons/hwn_spellbook_complete_large.091cca0d87df8b95374f898da7b80f5b67f3b088.png</image_url_large>
 			<capabilities>
 				<nameable>true</nameable>
 				<can_gift_wrap>true</can_gift_wrap>
@@ -45972,6 +45916,17 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 				<can_killstreakify>true</can_killstreakify>
 				<can_consume>true</can_consume>
 			</capabilities>
+			<styles>
+				<style>
+					<name>有子弹</name>
+				</style>
+				<style>
+					<name>无子弹</name>
+					<additional_hidden_bodygroups>
+						<bullets>1</bullets>
+					</additional_hidden_bodygroups>
+				</style>
+			</styles>
 			<used_by_classes>
 				<class>Heavy</class>
 			</used_by_classes>
@@ -46138,7 +46093,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_weapon_compound_bow</item_class>
 			<item_type_name>弓</item_type_name>
 			<item_name>强化复合弓</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop_partner/weapons/c_models/c_bow_thief/c_bow_thief.mdl</model_player>
@@ -46194,7 +46148,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>头盔</item_type_name>
 			<item_name>镀金守卫</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/soldier/thief_soldier_helmet/thief_soldier_helmet.mdl</model_player>
@@ -46242,7 +46195,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>斗篷</item_type_name>
 			<item_name>神偷披风</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/sniper/thief_sniper_cape/thief_sniper_cape.mdl</model_player>
@@ -46290,7 +46242,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>兜帽</item_type_name>
 			<item_name>惊惧隐蔽兜帽</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/sniper/thief_sniper_hood/thief_sniper_hood.mdl</model_player>
@@ -46338,7 +46289,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>徽章</item_type_name>
 			<item_name>男爵徽章</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/workshop_partner/player/items/all_class/thief_badge/thief_badge_demo.mdl</model_player>
@@ -46436,7 +46386,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_weapon_sniperrifle_classic</item_class>
 			<item_type_name>狙击步枪</item_type_name>
 			<item_name>经典狙击步枪</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/weapons/c_models/c_tfc_sniperrifle/c_tfc_sniperrifle.mdl</model_player>
@@ -46719,7 +46668,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_weapon_scattergun</item_class>
 			<item_type_name>猎枪</item_type_name>
 			<item_name>偷袭之力</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_scatterdrum/c_scatterdrum.mdl</model_player>
@@ -47665,7 +47613,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>眼镜</item_type_name>
 			<item_name>层叠高耸的夏日太阳镜</item_name>
-			<item_description></item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/summer_deal_Scout.mdl</model_player>
@@ -47715,7 +47662,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>saxxy</item_class>
 			<item_type_name>战锤</item_type_name>
 			<item_name>大力碎尸锤</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/weapons/c_models/c_carnival_mallet/c_carnival_mallet.mdl</model_player>
@@ -47910,7 +47856,6 @@ Vossler 公司全天然人工鱼肉制品</item_description>
 			<item_class>saxxy</item_class>
 			<item_type_name>标志</item_type_name>
 			<item_name>铁轨管制员</item_name>
-			<item_description></item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_crossing_guard/c_crossing_guard.mdl</model_player>
