@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.7cbf24234da6fe8b166d9419d0ba86af2ed076ec.txt",
 		"items": [
 			{
 				"name": "TF_WEAPON_BAT",
@@ -8283,7 +8283,7 @@
 				"defindex": 224,
 				"item_class": "tf_weapon_revolver",
 				"item_type_name": "Revólver",
-				"item_name": "L'Étranger",
+				"item_name": "El Extranjero",
 				"proper_name": false,
 				"item_slot": "secondary",
 				"model_player": "models/workshop/weapons/c_models/c_letranger/c_letranger.mdl",
@@ -15993,7 +15993,7 @@
 				"item_class": "tf_wearable_demoshield",
 				"item_type_name": "Escudo",
 				"item_name": "El Escudo Espléndido",
-				"item_description": "Alt-Fire: Charge toward your enemies and remove debuffs.\nGain a critical melee strike after impacting an enemy at distance.",
+				"item_description": "Disparo secundario: embiste contra los enemigos y elimina efectos negativos.\nConsigue un golpe crítico cuerpo a cuerpo tras impactar contra un enemigo a distancia.",
 				"proper_name": true,
 				"item_slot": "secondary",
 				"model_player": "models/workshop/weapons/c_models/c_persian_shield/c_persian_shield.mdl",

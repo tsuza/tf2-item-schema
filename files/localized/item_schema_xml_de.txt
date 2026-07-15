@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.7cbf24234da6fe8b166d9419d0ba86af2ed076ec.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -1642,7 +1642,7 @@ Alt.-Feuer: Mit einem Freund teilen (mittleres Medikit)</item_description>
 			<defindex>46</defindex>
 			<item_class>tf_weapon_lunchbox_drink</item_class>
 			<item_type_name>Proviant</item_type_name>
-			<item_name>Bonk! Atomenergie-Drink</item_name>
+			<item_name>Bonk!-Atomenergie-Drink</item_name>
 			<item_description>Trinken, um für 8 Sekunden unverwundbar zu werden. Kann während dieser Zeit nicht angreifen.
 Der absorbierte Schaden wird Sie verlangsamen, wenn der Effekt endet.</item_description>
 			<proper_name>false</proper_name>
@@ -8007,7 +8007,7 @@ Kann zum Löschen von Feuer benutzt werden.</item_description>
 			<defindex>224</defindex>
 			<item_class>tf_weapon_revolver</item_class>
 			<item_type_name>Revolver</item_type_name>
-			<item_name>L&apos;Étranger</item_name>
+			<item_name>L’Étranger</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_letranger/c_letranger.mdl</model_player>
@@ -15494,8 +15494,8 @@ und das zweite auf alles andere.</item_description>
 			<item_class>tf_wearable_demoshield</item_class>
 			<item_type_name>Schild</item_type_name>
 			<item_name>Die stattliche Schutzwand</item_name>
-			<item_description>Alt-Fire: Charge toward your enemies and remove debuffs.
-Gain a critical melee strike after impacting an enemy at distance.</item_description>
+			<item_description>Alt.-Feuer: Führen Sie Sturmangriffe durch und entfernen Sie Debuffs.
+Erhalten Sie einen kritischen Nahkampftreffer, nachdem Sie einen weit entfernten Gegner gerammt haben.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_persian_shield/c_persian_shield.mdl</model_player>
@@ -48340,7 +48340,7 @@ Erhalten Sie einen kritischen Nahkampftreffer, nachdem Sie einen weit entfernten
 			<defindex>1145</defindex>
 			<item_class>tf_weapon_lunchbox_drink</item_class>
 			<item_type_name>Proviant</item_type_name>
-			<item_name>Festlicher Bonk! Atomenergie-Drink</item_name>
+			<item_name>Festlicher Bonk!-Atomenergie-Drink</item_name>
 			<item_description>Trinken, um für 8 Sekunden unverwundbar zu werden. Kann während dieser Zeit nicht angreifen.
 Der absorbierte Schaden wird Sie verlangsamen, wenn der Effekt endet.</item_description>
 			<proper_name>false</proper_name>

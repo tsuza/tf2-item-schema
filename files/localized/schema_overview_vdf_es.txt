@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.7cbf24234da6fe8b166d9419d0ba86af2ed076ec.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -12992,7 +12992,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"407"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Umbral Lights"
+			"name"	"Luces umbrales"
 		}
 		"390"
 		{
@@ -13000,7 +13000,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"408"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Northern Nights"
+			"name"	"Noches nórdicas"
 		}
 		"391"
 		{
@@ -13008,7 +13008,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"409"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Solar Singed"
+			"name"	"Aurora solar"
 		}
 		"392"
 		{
@@ -13016,7 +13016,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"410"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Floral Growth"
+			"name"	"Crecimiento floral"
 		}
 		"393"
 		{
@@ -13024,7 +13024,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"411"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Floral Growth"
+			"name"	"Crecimiento floral"
 		}
 		"394"
 		{
@@ -13032,7 +13032,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"412"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Stellar Orbit"
+			"name"	"Órbita estelar"
 		}
 		"395"
 		{
@@ -13040,7 +13040,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"413"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Blissful Butterflies"
+			"name"	"Mariposas maravillosas"
 		}
 		"396"
 		{
@@ -13048,7 +13048,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"414"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Blissful Butterflies"
+			"name"	"Mariposas maravillosas"
 		}
 		"397"
 		{
@@ -13056,7 +13056,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"415"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Wispful Wings"
+			"name"	"Alas etéreas"
 		}
 		"398"
 		{
@@ -14698,42 +14698,42 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"system"	"utaunt_wheatfield_parent"
 			"id"	"3224"
 			"attach_to_rootbone"	"0"
-			"name"	"Wheat Field"
+			"name"	"Campo de trigo"
 		}
 		"632"
 		{
 			"system"	"utaunt_luminousdrift_teamcolor_red"
 			"id"	"3225"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Drift"
+			"name"	"Deriva luminosa"
 		}
 		"633"
 		{
 			"system"	"utaunt_luminousdrift_teamcolor_blue"
 			"id"	"3226"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Drift"
+			"name"	"Deriva luminosa"
 		}
 		"634"
 		{
 			"system"	"utaunt_luminousdrift_purple_parent"
 			"id"	"3227"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Shift"
+			"name"	"Cambio luminoso"
 		}
 		"635"
 		{
 			"system"	"utaunt_dualspotlights_parent"
 			"id"	"3228"
 			"attach_to_rootbone"	"0"
-			"name"	"Showtime Spotlights"
+			"name"	"Focos de espectáculo"
 		}
 		"636"
 		{
 			"system"	"utaunt_underwater_parent"
 			"id"	"3229"
 			"attach_to_rootbone"	"0"
-			"name"	"Deep Dive"
+			"name"	"Inmersión profunda"
 		}
 		"637"
 		{

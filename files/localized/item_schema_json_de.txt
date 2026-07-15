@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.7cbf24234da6fe8b166d9419d0ba86af2ed076ec.txt",
 		"items": [
 			{
 				"name": "TF_WEAPON_BAT",
@@ -1700,7 +1700,7 @@
 				"defindex": 46,
 				"item_class": "tf_weapon_lunchbox_drink",
 				"item_type_name": "Proviant",
-				"item_name": "Bonk! Atomenergie-Drink",
+				"item_name": "Bonk!-Atomenergie-Drink",
 				"item_description": "Trinken, um für 8 Sekunden unverwundbar zu werden. Kann während dieser Zeit nicht angreifen.\nDer absorbierte Schaden wird Sie verlangsamen, wenn der Effekt endet.",
 				"proper_name": false,
 				"item_slot": "secondary",
@@ -8283,7 +8283,7 @@
 				"defindex": 224,
 				"item_class": "tf_weapon_revolver",
 				"item_type_name": "Revolver",
-				"item_name": "L'Étranger",
+				"item_name": "L’Étranger",
 				"proper_name": false,
 				"item_slot": "secondary",
 				"model_player": "models/workshop/weapons/c_models/c_letranger/c_letranger.mdl",
@@ -15993,7 +15993,7 @@
 				"item_class": "tf_wearable_demoshield",
 				"item_type_name": "Schild",
 				"item_name": "Die stattliche Schutzwand",
-				"item_description": "Alt-Fire: Charge toward your enemies and remove debuffs.\nGain a critical melee strike after impacting an enemy at distance.",
+				"item_description": "Alt.-Feuer: Führen Sie Sturmangriffe durch und entfernen Sie Debuffs.\nErhalten Sie einen kritischen Nahkampftreffer, nachdem Sie einen weit entfernten Gegner gerammt haben.",
 				"proper_name": true,
 				"item_slot": "secondary",
 				"model_player": "models/workshop/weapons/c_models/c_persian_shield/c_persian_shield.mdl",
@@ -49996,7 +49996,7 @@
 				"defindex": 1145,
 				"item_class": "tf_weapon_lunchbox_drink",
 				"item_type_name": "Proviant",
-				"item_name": "Festlicher Bonk! Atomenergie-Drink",
+				"item_name": "Festlicher Bonk!-Atomenergie-Drink",
 				"item_description": "Trinken, um für 8 Sekunden unverwundbar zu werden. Kann während dieser Zeit nicht angreifen.\nDer absorbierte Schaden wird Sie verlangsamen, wenn der Effekt endet.",
 				"proper_name": false,
 				"item_slot": "secondary",

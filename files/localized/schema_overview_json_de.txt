@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.7cbf24234da6fe8b166d9419d0ba86af2ed076ec.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -11618,21 +11618,21 @@
 				"id": 410,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Floral Growth"
+				"name": "Blütenwuchs"
 			},
 			{
 				"system": "unusual_vinethorn_teamcolor_blue",
 				"id": 411,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Floral Growth"
+				"name": "Blütenwuchs"
 			},
 			{
 				"system": "unusual_spaceorbit_parent",
 				"id": 412,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Stellar Orbit"
+				"name": "Sternenhimmel"
 			},
 			{
 				"system": "unusual_butterfly_teamcolor_red",
@@ -11646,7 +11646,7 @@
 				"id": 414,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Blissful Butterflies"
+				"name": "Glückselige Schmetterlinge"
 			},
 			{
 				"system": "unusual_butterfly_parent_purple",
@@ -13061,7 +13061,7 @@
 				"system": "utaunt_wheatfield_parent",
 				"id": 3224,
 				"attach_to_rootbone": false,
-				"name": "Wheat Field"
+				"name": "Weizenfeld"
 			},
 			{
 				"system": "utaunt_luminousdrift_teamcolor_red",
@@ -13085,13 +13085,13 @@
 				"system": "utaunt_dualspotlights_parent",
 				"id": 3228,
 				"attach_to_rootbone": false,
-				"name": "Showtime Spotlights"
+				"name": "Showtime-Rampenlicht"
 			},
 			{
 				"system": "utaunt_underwater_parent",
 				"id": 3229,
 				"attach_to_rootbone": false,
-				"name": "Deep Dive"
+				"name": "Tiefgang"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",

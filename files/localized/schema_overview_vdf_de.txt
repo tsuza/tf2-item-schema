@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.c6255a22d6d9f5e17642a9b757745d98877047b4.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.7cbf24234da6fe8b166d9419d0ba86af2ed076ec.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -13017,7 +13017,7 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"id"	"410"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Floral Growth"
+			"name"	"Blütenwuchs"
 		}
 		"393"
 		{
@@ -13025,7 +13025,7 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"id"	"411"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Floral Growth"
+			"name"	"Blütenwuchs"
 		}
 		"394"
 		{
@@ -13033,7 +13033,7 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"id"	"412"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Stellar Orbit"
+			"name"	"Sternenhimmel"
 		}
 		"395"
 		{
@@ -13049,7 +13049,7 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"id"	"414"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Blissful Butterflies"
+			"name"	"Glückselige Schmetterlinge"
 		}
 		"397"
 		{
@@ -14699,7 +14699,7 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"system"	"utaunt_wheatfield_parent"
 			"id"	"3224"
 			"attach_to_rootbone"	"0"
-			"name"	"Wheat Field"
+			"name"	"Weizenfeld"
 		}
 		"632"
 		{
@@ -14727,14 +14727,14 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"system"	"utaunt_dualspotlights_parent"
 			"id"	"3228"
 			"attach_to_rootbone"	"0"
-			"name"	"Showtime Spotlights"
+			"name"	"Showtime-Rampenlicht"
 		}
 		"636"
 		{
 			"system"	"utaunt_underwater_parent"
 			"id"	"3229"
 			"attach_to_rootbone"	"0"
-			"name"	"Deep Dive"
+			"name"	"Tiefgang"
 		}
 		"637"
 		{
