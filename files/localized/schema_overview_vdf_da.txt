@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.7cbf24234da6fe8b166d9419d0ba86af2ed076ec.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.9afd9e448671ca00fa0a2a2c52f4ebeb06f93d64.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -12999,7 +12999,7 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"id"	"408"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Nordlige Nætter"
+			"name"	"Polar Prisme"
 		}
 		"391"
 		{
@@ -13015,7 +13015,7 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"id"	"410"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Floral Growth"
+			"name"	"Blomstrende Bevoksning"
 		}
 		"393"
 		{
@@ -13023,7 +13023,7 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"id"	"411"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Floral Growth"
+			"name"	"Blomstrende Bevoksning"
 		}
 		"394"
 		{
@@ -13031,7 +13031,7 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"id"	"412"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Stellar Orbit"
+			"name"	"Kredsende Stjerner"
 		}
 		"395"
 		{
@@ -13047,7 +13047,7 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"id"	"414"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Blissful Butterflies"
+			"name"	"Salige Sommerfugle"
 		}
 		"397"
 		{
@@ -14697,42 +14697,42 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"system"	"utaunt_wheatfield_parent"
 			"id"	"3224"
 			"attach_to_rootbone"	"0"
-			"name"	"Wheat Field"
+			"name"	"Mejet Mark"
 		}
 		"632"
 		{
 			"system"	"utaunt_luminousdrift_teamcolor_red"
 			"id"	"3225"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Drift"
+			"name"	"Glødende Grundlag"
 		}
 		"633"
 		{
 			"system"	"utaunt_luminousdrift_teamcolor_blue"
 			"id"	"3226"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Drift"
+			"name"	"Glødende Grundlag"
 		}
 		"634"
 		{
 			"system"	"utaunt_luminousdrift_purple_parent"
 			"id"	"3227"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Shift"
+			"name"	"Funklende Fundament"
 		}
 		"635"
 		{
 			"system"	"utaunt_dualspotlights_parent"
 			"id"	"3228"
 			"attach_to_rootbone"	"0"
-			"name"	"Showtime Spotlights"
+			"name"	"Rampelys"
 		}
 		"636"
 		{
 			"system"	"utaunt_underwater_parent"
 			"id"	"3229"
 			"attach_to_rootbone"	"0"
-			"name"	"Deep Dive"
+			"name"	"Ferskvandsfordybet"
 		}
 		"637"
 		{

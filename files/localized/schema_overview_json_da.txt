@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.7cbf24234da6fe8b166d9419d0ba86af2ed076ec.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.9afd9e448671ca00fa0a2a2c52f4ebeb06f93d64.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -11604,7 +11604,7 @@
 				"id": 408,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Nordlige Nætter"
+				"name": "Polar Prisme"
 			},
 			{
 				"system": "unusual_aurora_green_parent",
@@ -11618,21 +11618,21 @@
 				"id": 410,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Floral Growth"
+				"name": "Blomstrende Bevoksning"
 			},
 			{
 				"system": "unusual_vinethorn_teamcolor_blue",
 				"id": 411,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Floral Growth"
+				"name": "Blomstrende Bevoksning"
 			},
 			{
 				"system": "unusual_spaceorbit_parent",
 				"id": 412,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Stellar Orbit"
+				"name": "Kredsende Stjerner"
 			},
 			{
 				"system": "unusual_butterfly_teamcolor_red",
@@ -11646,7 +11646,7 @@
 				"id": 414,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Blissful Butterflies"
+				"name": "Salige Sommerfugle"
 			},
 			{
 				"system": "unusual_butterfly_parent_purple",
@@ -13061,37 +13061,37 @@
 				"system": "utaunt_wheatfield_parent",
 				"id": 3224,
 				"attach_to_rootbone": false,
-				"name": "Wheat Field"
+				"name": "Mejet Mark"
 			},
 			{
 				"system": "utaunt_luminousdrift_teamcolor_red",
 				"id": 3225,
 				"attach_to_rootbone": false,
-				"name": "Luminous Drift"
+				"name": "Glødende Grundlag"
 			},
 			{
 				"system": "utaunt_luminousdrift_teamcolor_blue",
 				"id": 3226,
 				"attach_to_rootbone": false,
-				"name": "Luminous Drift"
+				"name": "Glødende Grundlag"
 			},
 			{
 				"system": "utaunt_luminousdrift_purple_parent",
 				"id": 3227,
 				"attach_to_rootbone": false,
-				"name": "Luminous Shift"
+				"name": "Funklende Fundament"
 			},
 			{
 				"system": "utaunt_dualspotlights_parent",
 				"id": 3228,
 				"attach_to_rootbone": false,
-				"name": "Showtime Spotlights"
+				"name": "Rampelys"
 			},
 			{
 				"system": "utaunt_underwater_parent",
 				"id": 3229,
 				"attach_to_rootbone": false,
-				"name": "Deep Dive"
+				"name": "Ferskvandsfordybet"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",

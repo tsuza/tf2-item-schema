@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.7cbf24234da6fe8b166d9419d0ba86af2ed076ec.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.9afd9e448671ca00fa0a2a2c52f4ebeb06f93d64.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -12992,7 +12992,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"407"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Luci del Nord"
+			"name"	"Luci del nord"
 		}
 		"390"
 		{
@@ -13000,7 +13000,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"408"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Notti del Nord"
+			"name"	"Prisma polare"
 		}
 		"391"
 		{
@@ -13008,7 +13008,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"409"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Aurora Solare"
+			"name"	"Aurora solare"
 		}
 		"392"
 		{
@@ -13016,7 +13016,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"410"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Crescita Floreale"
+			"name"	"Crescita floreale"
 		}
 		"393"
 		{
@@ -13024,7 +13024,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"411"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Crescita Floreale"
+			"name"	"Crescita floreale"
 		}
 		"394"
 		{
@@ -13032,7 +13032,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"412"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Orbita Stellare"
+			"name"	"Orbita stellare"
 		}
 		"395"
 		{
@@ -13040,7 +13040,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"413"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Farfalle Estatiche"
+			"name"	"Farfalle estatiche"
 		}
 		"396"
 		{
@@ -13048,7 +13048,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"414"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Farfalle Estatiche"
+			"name"	"Farfalle estatiche"
 		}
 		"397"
 		{
@@ -13056,7 +13056,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"415"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ali Eteree"
+			"name"	"Ali eteree"
 		}
 		"398"
 		{
@@ -14698,21 +14698,21 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"system"	"utaunt_wheatfield_parent"
 			"id"	"3224"
 			"attach_to_rootbone"	"0"
-			"name"	"Campo di Grano"
+			"name"	"Campo di grano"
 		}
 		"632"
 		{
 			"system"	"utaunt_luminousdrift_teamcolor_red"
 			"id"	"3225"
 			"attach_to_rootbone"	"0"
-			"name"	"Deriva Luminosa"
+			"name"	"Deriva luminosa"
 		}
 		"633"
 		{
 			"system"	"utaunt_luminousdrift_teamcolor_blue"
 			"id"	"3226"
 			"attach_to_rootbone"	"0"
-			"name"	"Deriva Luminosa"
+			"name"	"Deriva luminosa"
 		}
 		"634"
 		{
@@ -14726,14 +14726,14 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"system"	"utaunt_dualspotlights_parent"
 			"id"	"3228"
 			"attach_to_rootbone"	"0"
-			"name"	"Luci della Ribalta"
+			"name"	"Luci della ribalta"
 		}
 		"636"
 		{
 			"system"	"utaunt_underwater_parent"
 			"id"	"3229"
 			"attach_to_rootbone"	"0"
-			"name"	"Immersione Profonda"
+			"name"	"Immersione profonda"
 		}
 		"637"
 		{

@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.7cbf24234da6fe8b166d9419d0ba86af2ed076ec.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.9afd9e448671ca00fa0a2a2c52f4ebeb06f93d64.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -11556,63 +11556,63 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			<id>407</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Luci del Nord</name>
+			<name>Luci del nord</name>
 		</particle>
 		<particle>
 			<system>unusual_aurora_teal_parent</system>
 			<id>408</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Notti del Nord</name>
+			<name>Prisma polare</name>
 		</particle>
 		<particle>
 			<system>unusual_aurora_green_parent</system>
 			<id>409</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Aurora Solare</name>
+			<name>Aurora solare</name>
 		</particle>
 		<particle>
 			<system>unusual_vinethorn_teamcolor_red</system>
 			<id>410</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Crescita Floreale</name>
+			<name>Crescita floreale</name>
 		</particle>
 		<particle>
 			<system>unusual_vinethorn_teamcolor_blue</system>
 			<id>411</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Crescita Floreale</name>
+			<name>Crescita floreale</name>
 		</particle>
 		<particle>
 			<system>unusual_spaceorbit_parent</system>
 			<id>412</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Orbita Stellare</name>
+			<name>Orbita stellare</name>
 		</particle>
 		<particle>
 			<system>unusual_butterfly_teamcolor_red</system>
 			<id>413</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Farfalle Estatiche</name>
+			<name>Farfalle estatiche</name>
 		</particle>
 		<particle>
 			<system>unusual_butterfly_teamcolor_blue</system>
 			<id>414</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Farfalle Estatiche</name>
+			<name>Farfalle estatiche</name>
 		</particle>
 		<particle>
 			<system>unusual_butterfly_parent_purple</system>
 			<id>415</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Ali Eteree</name>
+			<name>Ali eteree</name>
 		</particle>
 		<particle>
 			<system>weapon_unusual_hot</system>
@@ -13020,19 +13020,19 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			<system>utaunt_wheatfield_parent</system>
 			<id>3224</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Campo di Grano</name>
+			<name>Campo di grano</name>
 		</particle>
 		<particle>
 			<system>utaunt_luminousdrift_teamcolor_red</system>
 			<id>3225</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Deriva Luminosa</name>
+			<name>Deriva luminosa</name>
 		</particle>
 		<particle>
 			<system>utaunt_luminousdrift_teamcolor_blue</system>
 			<id>3226</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Deriva Luminosa</name>
+			<name>Deriva luminosa</name>
 		</particle>
 		<particle>
 			<system>utaunt_luminousdrift_purple_parent</system>
@@ -13044,13 +13044,13 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			<system>utaunt_dualspotlights_parent</system>
 			<id>3228</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Luci della Ribalta</name>
+			<name>Luci della ribalta</name>
 		</particle>
 		<particle>
 			<system>utaunt_underwater_parent</system>
 			<id>3229</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Immersione Profonda</name>
+			<name>Immersione profonda</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>

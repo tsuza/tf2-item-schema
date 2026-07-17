@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.7cbf24234da6fe8b166d9419d0ba86af2ed076ec.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.9afd9e448671ca00fa0a2a2c52f4ebeb06f93d64.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -15488,8 +15488,8 @@ og det andet øje på alt andet.</item_description>
 			<item_class>tf_wearable_demoshield</item_class>
 			<item_type_name>Skjold</item_type_name>
 			<item_name>Den Prægtige Skærm</item_name>
-			<item_description>Alt-Fire: Charge toward your enemies and remove debuffs.
-Gain a critical melee strike after impacting an enemy at distance.</item_description>
+			<item_description>Alt-skyd: Løb mod dine fjender og fjern debuffs.
+Få et kritisk nærkampsslag, efter du rammer en fjende fra afstand.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_persian_shield/c_persian_shield.mdl</model_player>

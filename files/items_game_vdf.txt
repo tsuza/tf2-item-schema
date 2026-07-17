@@ -188543,7 +188543,7 @@
 		{
 			"name"	"CappingTV Summer Brawl 1st Place 2024"
 			"prefab"			"tournament_medal"
-			"item_name"	"#TF_TournamentMedal_CappingTV_TF2_SummerBrawl_1st"
+			"item_name"	"#TF_TournamentMedal_CappingTV_SummerBrawl_1st"
 			"item_description"	"#TF_TournamentMedal_CappingTV_SummerBrawl_2024"
 			"image_inventory"	"backpack/workshop/player/items/all_class/downunder_1st/downunder_1st"
 			"model_player_per_class"
@@ -188555,7 +188555,7 @@
 		{
 			"name"	"CappingTV Summer Brawl 2nd Place 2024"
 			"prefab"			"tournament_medal"
-			"item_name"	"#TF_TournamentMedal_CappingTV_TF2_SummerBrawl_2nd"
+			"item_name"	"#TF_TournamentMedal_CappingTV_SummerBrawl_2nd"
 			"item_description"	"#TF_TournamentMedal_CappingTV_SummerBrawl_2024"
 			"image_inventory"	"backpack/workshop/player/items/all_class/downunder_2nd/downunder_2nd"
 			"model_player_per_class"
@@ -188567,7 +188567,7 @@
 		{
 			"name"	"CappingTV Summer Brawl 3rd Place 2024"
 			"prefab"			"tournament_medal"
-			"item_name"	"#TF_TournamentMedal_CappingTV_TF2_SummerBrawl_3rd"
+			"item_name"	"#TF_TournamentMedal_CappingTV_SummerBrawl_3rd"
 			"item_description"	"#TF_TournamentMedal_CappingTV_SummerBrawl_2024"
 			"image_inventory"	"backpack/workshop/player/items/all_class/downunder_3rd/downunder_3rd"
 			"model_player_per_class"
@@ -188579,7 +188579,7 @@
 		{
 			"name"	"CappingTV Summer Brawl Participant 2024"
 			"prefab"			"tournament_medal"
-			"item_name"	"#TF_TournamentMedal_CappingTV_TF2_SummerBrawl_Participant"
+			"item_name"	"#TF_TournamentMedal_CappingTV_SummerBrawl_Participant"
 			"item_description"	"#TF_TournamentMedal_CappingTV_SummerBrawl_2024"
 			"image_inventory"	"backpack/workshop/player/items/all_class/downunder_participant/downunder_participant"
 			"model_player_per_class"
@@ -200122,7 +200122,7 @@
 		{
 			"name"	"CappingTV Summer Brawl 1st Place 2025"
 			"prefab"			"tournament_medal"
-			"item_name"	"#TF_TournamentMedal_CappingTV_TF2_SummerBrawl_1st"
+			"item_name"	"#TF_TournamentMedal_CappingTV_SummerBrawl_1st"
 			"item_description"	"#TF_TournamentMedal_CappingTV_SummerBrawl_2025"
 			"image_inventory"	"backpack/workshop/player/items/all_class/downunder_1st/downunder_1st"
 			"model_player_per_class"
@@ -200134,7 +200134,7 @@
 		{
 			"name"	"CappingTV Summer Brawl 2nd Place 2025"
 			"prefab"			"tournament_medal"
-			"item_name"	"#TF_TournamentMedal_CappingTV_TF2_SummerBrawl_2nd"
+			"item_name"	"#TF_TournamentMedal_CappingTV_SummerBrawl_2nd"
 			"item_description"	"#TF_TournamentMedal_CappingTV_SummerBrawl_2025"
 			"image_inventory"	"backpack/workshop/player/items/all_class/downunder_2nd/downunder_2nd"
 			"model_player_per_class"
@@ -200146,7 +200146,7 @@
 		{
 			"name"	"CappingTV Summer Brawl 3rd Place 2025"
 			"prefab"			"tournament_medal"
-			"item_name"	"#TF_TournamentMedal_CappingTV_TF2_SummerBrawl_3rd"
+			"item_name"	"#TF_TournamentMedal_CappingTV_SummerBrawl_3rd"
 			"item_description"	"#TF_TournamentMedal_CappingTV_SummerBrawl_2025"
 			"image_inventory"	"backpack/workshop/player/items/all_class/downunder_3rd/downunder_3rd"
 			"model_player_per_class"
@@ -200158,7 +200158,7 @@
 		{
 			"name"	"CappingTV Summer Brawl Participant 2025"
 			"prefab"			"tournament_medal"
-			"item_name"	"#TF_TournamentMedal_CappingTV_TF2_SummerBrawl_Participant"
+			"item_name"	"#TF_TournamentMedal_CappingTV_SummerBrawl_Participant"
 			"item_description"	"#TF_TournamentMedal_CappingTV_SummerBrawl_2025"
 			"image_inventory"	"backpack/workshop/player/items/all_class/downunder_participant/downunder_participant"
 			"model_player_per_class"
@@ -214992,6 +214992,102 @@
 			"model_player_per_class"
 			{
 				"basename"	"models/workshop/player/items/all_class/rgb_lan_participant/rgb_lan_participant_%s.mdl"
+			}
+		}
+		"19175"
+		{		
+			"name"				"LAN Downunder 1st Place 2026"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_LAN_Downunder_1st"
+			"item_description"	"#TF_TournamentMedal_LAN_Downunder_2026"
+			"image_inventory"	"backpack/workshop/player/items/all_class/downunder_1st/downunder_1st"
+			"model_player_per_class"
+			{
+				"basename"	"models/workshop/player/items/all_class/downunder_1st/downunder_1st_%s.mdl"
+			}
+		}
+		"19176"
+		{		
+			"name"				"LAN Downunder 2nd Place 2026"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_LAN_Downunder_2nd"
+			"item_description"	"#TF_TournamentMedal_LAN_Downunder_2026"
+			"image_inventory"	"backpack/workshop/player/items/all_class/downunder_2nd/downunder_2nd"
+			"model_player_per_class"
+			{
+				"basename"	"models/workshop/player/items/all_class/downunder_2nd/downunder_2nd_%s.mdl"
+			}
+		}
+		"19177"
+		{		
+			"name"				"LAN Downunder 3rd Place 2026"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_LAN_Downunder_3rd"
+			"item_description"	"#TF_TournamentMedal_LAN_Downunder_2026"
+			"image_inventory"	"backpack/workshop/player/items/all_class/downunder_3rd/downunder_3rd"
+			"model_player_per_class"
+			{
+				"basename"	"models/workshop/player/items/all_class/downunder_3rd/downunder_3rd_%s.mdl"
+			}
+		}		
+		"19178"
+		{		
+			"name"				"LAN Downunder Participant 2026"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_LAN_Downunder_Participant"
+			"item_description"	"#TF_TournamentMedal_LAN_Downunder_2026"
+			"image_inventory"	"backpack/workshop/player/items/all_class/downunder_participant/downunder_participant"
+			"model_player_per_class"
+			{
+				"basename"	"models/workshop/player/items/all_class/downunder_participant/downunder_participant_%s.mdl"
+			}
+		}		
+		"19179"
+		{
+			"name"	"CappingTV Summer Brawl 1st Place 2026"
+			"prefab"			"tournament_medal"
+			"item_name"	"#TF_TournamentMedal_CappingTV_SummerBrawl_1st"
+			"item_description"	"#TF_TournamentMedal_CappingTV_SummerBrawl_2026"
+			"image_inventory"	"backpack/workshop/player/items/all_class/downunder_1st/downunder_1st"
+			"model_player_per_class"
+			{
+				"basename"	"models/workshop/player/items/all_class/downunder_1st/downunder_1st_%s.mdl"
+			}
+		}
+		"19180"
+		{
+			"name"	"CappingTV Summer Brawl 2nd Place 2026"
+			"prefab"			"tournament_medal"
+			"item_name"	"#TF_TournamentMedal_CappingTV_SummerBrawl_2nd"
+			"item_description"	"#TF_TournamentMedal_CappingTV_SummerBrawl_2026"
+			"image_inventory"	"backpack/workshop/player/items/all_class/downunder_2nd/downunder_2nd"
+			"model_player_per_class"
+			{
+				"basename"	"models/workshop/player/items/all_class/downunder_2nd/downunder_2nd_%s.mdl"
+			}
+		}
+		"19181"
+		{
+			"name"	"CappingTV Summer Brawl 3rd Place 2026"
+			"prefab"			"tournament_medal"
+			"item_name"	"#TF_TournamentMedal_CappingTV_SummerBrawl_3rd"
+			"item_description"	"#TF_TournamentMedal_CappingTV_SummerBrawl_2026"
+			"image_inventory"	"backpack/workshop/player/items/all_class/downunder_3rd/downunder_3rd"
+			"model_player_per_class"
+			{
+				"basename"	"models/workshop/player/items/all_class/downunder_3rd/downunder_3rd_%s.mdl"
+			}
+		}
+		"19182"
+		{
+			"name"	"CappingTV Summer Brawl Participant 2026"
+			"prefab"			"tournament_medal"
+			"item_name"	"#TF_TournamentMedal_CappingTV_SummerBrawl_Participant"
+			"item_description"	"#TF_TournamentMedal_CappingTV_SummerBrawl_2026"
+			"image_inventory"	"backpack/workshop/player/items/all_class/downunder_participant/downunder_participant"
+			"model_player_per_class"
+			{
+				"basename"	"models/workshop/player/items/all_class/downunder_participant/downunder_participant_%s.mdl"
 			}
 		}
 

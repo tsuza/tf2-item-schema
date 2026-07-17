@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.7cbf24234da6fe8b166d9419d0ba86af2ed076ec.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.9afd9e448671ca00fa0a2a2c52f4ebeb06f93d64.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -11564,7 +11564,7 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub.</des
 			<id>408</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Nordische Nächte</name>
+			<name>Polarprisma</name>
 		</particle>
 		<particle>
 			<system>unusual_aurora_green_parent</system>
@@ -13027,19 +13027,19 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub.</des
 			<system>utaunt_luminousdrift_teamcolor_red</system>
 			<id>3225</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Luminous Drift</name>
+			<name>Leuchtender Bodennebel</name>
 		</particle>
 		<particle>
 			<system>utaunt_luminousdrift_teamcolor_blue</system>
 			<id>3226</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Luminous Drift</name>
+			<name>Leuchtender Bodennebel</name>
 		</particle>
 		<particle>
 			<system>utaunt_luminousdrift_purple_parent</system>
 			<id>3227</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Luminous Shift</name>
+			<name>Leuchtende Bodenwolke</name>
 		</particle>
 		<particle>
 			<system>utaunt_dualspotlights_parent</system>

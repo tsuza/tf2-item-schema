@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.7cbf24234da6fe8b166d9419d0ba86af2ed076ec.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.9afd9e448671ca00fa0a2a2c52f4ebeb06f93d64.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -13011,7 +13011,7 @@
 			"id"	"410"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Floral Growth"
+			"name"	"개화"
 		}
 		"393"
 		{
@@ -13019,7 +13019,7 @@
 			"id"	"411"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Floral Growth"
+			"name"	"개화"
 		}
 		"394"
 		{

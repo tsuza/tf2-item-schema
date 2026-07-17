@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.7cbf24234da6fe8b166d9419d0ba86af2ed076ec.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.9afd9e448671ca00fa0a2a2c52f4ebeb06f93d64.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -13001,7 +13001,7 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"id"	"408"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Nordische Nächte"
+			"name"	"Polarprisma"
 		}
 		"391"
 		{
@@ -14706,21 +14706,21 @@ Todesstöße gegen brennende Spieler gewähren einen Geschwindigkeitsschub."
 			"system"	"utaunt_luminousdrift_teamcolor_red"
 			"id"	"3225"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Drift"
+			"name"	"Leuchtender Bodennebel"
 		}
 		"633"
 		{
 			"system"	"utaunt_luminousdrift_teamcolor_blue"
 			"id"	"3226"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Drift"
+			"name"	"Leuchtender Bodennebel"
 		}
 		"634"
 		{
 			"system"	"utaunt_luminousdrift_purple_parent"
 			"id"	"3227"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Shift"
+			"name"	"Leuchtende Bodenwolke"
 		}
 		"635"
 		{

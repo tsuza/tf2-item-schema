@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.7cbf24234da6fe8b166d9419d0ba86af2ed076ec.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.9afd9e448671ca00fa0a2a2c52f4ebeb06f93d64.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -12994,7 +12994,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"407"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Umbral Lights"
+			"name"	"Lueurs lilas"
 		}
 		"390"
 		{
@@ -13010,7 +13010,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"409"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Solar Singed"
+			"name"	"Radiation solaire"
 		}
 		"392"
 		{
@@ -13018,7 +13018,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"410"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Floral Growth"
+			"name"	"Croissance florale"
 		}
 		"393"
 		{
@@ -13026,7 +13026,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"411"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Floral Growth"
+			"name"	"Croissance florale"
 		}
 		"394"
 		{
@@ -13034,7 +13034,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"412"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Stellar Orbit"
+			"name"	"Orbite stellaire"
 		}
 		"395"
 		{
@@ -13042,7 +13042,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"413"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Blissful Butterflies"
+			"name"	"Papillons prodigieux"
 		}
 		"396"
 		{
@@ -13050,7 +13050,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"414"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Blissful Butterflies"
+			"name"	"Papillons prodigieux"
 		}
 		"397"
 		{
@@ -13058,7 +13058,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"415"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Wispful Wings"
+			"name"	"Lépidospectre"
 		}
 		"398"
 		{
@@ -14700,42 +14700,42 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"system"	"utaunt_wheatfield_parent"
 			"id"	"3224"
 			"attach_to_rootbone"	"0"
-			"name"	"Wheat Field"
+			"name"	"Champ de blé"
 		}
 		"632"
 		{
 			"system"	"utaunt_luminousdrift_teamcolor_red"
 			"id"	"3225"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Drift"
+			"name"	"Ressac lumineux"
 		}
 		"633"
 		{
 			"system"	"utaunt_luminousdrift_teamcolor_blue"
 			"id"	"3226"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Drift"
+			"name"	"Ressac lumineux"
 		}
 		"634"
 		{
 			"system"	"utaunt_luminousdrift_purple_parent"
 			"id"	"3227"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Shift"
+			"name"	"Écume lumineuse"
 		}
 		"635"
 		{
 			"system"	"utaunt_dualspotlights_parent"
 			"id"	"3228"
 			"attach_to_rootbone"	"0"
-			"name"	"Showtime Spotlights"
+			"name"	"Sous les projecteurs"
 		}
 		"636"
 		{
 			"system"	"utaunt_underwater_parent"
 			"id"	"3229"
 			"attach_to_rootbone"	"0"
-			"name"	"Deep Dive"
+			"name"	"Plongée en eaux profondes"
 		}
 		"637"
 		{

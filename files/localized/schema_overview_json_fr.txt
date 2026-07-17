@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.7cbf24234da6fe8b166d9419d0ba86af2ed076ec.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.9afd9e448671ca00fa0a2a2c52f4ebeb06f93d64.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -11597,7 +11597,7 @@
 				"id": 407,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Umbral Lights"
+				"name": "Lueurs lilas"
 			},
 			{
 				"system": "unusual_aurora_teal_parent",
@@ -11611,49 +11611,49 @@
 				"id": 409,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Solar Singed"
+				"name": "Radiation solaire"
 			},
 			{
 				"system": "unusual_vinethorn_teamcolor_red",
 				"id": 410,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Floral Growth"
+				"name": "Croissance florale"
 			},
 			{
 				"system": "unusual_vinethorn_teamcolor_blue",
 				"id": 411,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Floral Growth"
+				"name": "Croissance florale"
 			},
 			{
 				"system": "unusual_spaceorbit_parent",
 				"id": 412,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Stellar Orbit"
+				"name": "Orbite stellaire"
 			},
 			{
 				"system": "unusual_butterfly_teamcolor_red",
 				"id": 413,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Blissful Butterflies"
+				"name": "Papillons prodigieux"
 			},
 			{
 				"system": "unusual_butterfly_teamcolor_blue",
 				"id": 414,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Blissful Butterflies"
+				"name": "Papillons prodigieux"
 			},
 			{
 				"system": "unusual_butterfly_parent_purple",
 				"id": 415,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Wispful Wings"
+				"name": "Lépidospectre"
 			},
 			{
 				"system": "weapon_unusual_hot",
@@ -13061,37 +13061,37 @@
 				"system": "utaunt_wheatfield_parent",
 				"id": 3224,
 				"attach_to_rootbone": false,
-				"name": "Wheat Field"
+				"name": "Champ de blé"
 			},
 			{
 				"system": "utaunt_luminousdrift_teamcolor_red",
 				"id": 3225,
 				"attach_to_rootbone": false,
-				"name": "Luminous Drift"
+				"name": "Ressac lumineux"
 			},
 			{
 				"system": "utaunt_luminousdrift_teamcolor_blue",
 				"id": 3226,
 				"attach_to_rootbone": false,
-				"name": "Luminous Drift"
+				"name": "Ressac lumineux"
 			},
 			{
 				"system": "utaunt_luminousdrift_purple_parent",
 				"id": 3227,
 				"attach_to_rootbone": false,
-				"name": "Luminous Shift"
+				"name": "Écume lumineuse"
 			},
 			{
 				"system": "utaunt_dualspotlights_parent",
 				"id": 3228,
 				"attach_to_rootbone": false,
-				"name": "Showtime Spotlights"
+				"name": "Sous les projecteurs"
 			},
 			{
 				"system": "utaunt_underwater_parent",
 				"id": 3229,
 				"attach_to_rootbone": false,
-				"name": "Deep Dive"
+				"name": "Plongée en eaux profondes"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",
