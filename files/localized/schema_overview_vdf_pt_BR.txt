@@ -12986,7 +12986,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"408"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Polar Prism"
+			"name"	"Prisma polar"
 		}
 		"391"
 		{
@@ -13002,7 +13002,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"410"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Floral Growth"
+			"name"	"Crescimento floral"
 		}
 		"393"
 		{
@@ -13010,7 +13010,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"411"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Floral Growth"
+			"name"	"Crescimento floral"
 		}
 		"394"
 		{
@@ -13018,7 +13018,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"412"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Stellar Orbit"
+			"name"	"Órbita estelar"
 		}
 		"395"
 		{
@@ -13034,7 +13034,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"414"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Blissful Butterflies"
+			"name"	"Borboletas bonitas"
 		}
 		"397"
 		{
@@ -14684,42 +14684,42 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"system"	"utaunt_wheatfield_parent"
 			"id"	"3224"
 			"attach_to_rootbone"	"0"
-			"name"	"Wheat Field"
+			"name"	"Campo de trigo"
 		}
 		"632"
 		{
 			"system"	"utaunt_luminousdrift_teamcolor_red"
 			"id"	"3225"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Drift"
+			"name"	"Ondulação luminosa"
 		}
 		"633"
 		{
 			"system"	"utaunt_luminousdrift_teamcolor_blue"
 			"id"	"3226"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Drift"
+			"name"	"Ondulação luminosa"
 		}
 		"634"
 		{
 			"system"	"utaunt_luminousdrift_purple_parent"
 			"id"	"3227"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Shift"
+			"name"	"Mudança luminosa"
 		}
 		"635"
 		{
 			"system"	"utaunt_dualspotlights_parent"
 			"id"	"3228"
 			"attach_to_rootbone"	"0"
-			"name"	"Showtime Spotlights"
+			"name"	"Holofotes de palco"
 		}
 		"636"
 		{
 			"system"	"utaunt_underwater_parent"
 			"id"	"3229"
 			"attach_to_rootbone"	"0"
-			"name"	"Deep Dive"
+			"name"	"Mergulho profundo"
 		}
 		"637"
 		{

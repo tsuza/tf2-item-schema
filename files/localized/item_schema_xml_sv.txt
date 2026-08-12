@@ -8007,7 +8007,7 @@ Kan användas för att släcka eld.</item_description>
 			<defindex>224</defindex>
 			<item_class>tf_weapon_revolver</item_class>
 			<item_type_name>Revolver</item_type_name>
-			<item_name>L&apos;Étranger</item_name>
+			<item_name>Främlingen</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_letranger/c_letranger.mdl</model_player>
@@ -15493,8 +15493,8 @@ det andra på allting annat.</item_description>
 			<item_class>tf_wearable_demoshield</item_class>
 			<item_type_name>Sköld</item_type_name>
 			<item_name>Det strålande skyddet</item_name>
-			<item_description>Alt-Fire: Charge toward your enemies and remove debuffs.
-Gain a critical melee strike after impacting an enemy at distance.</item_description>
+			<item_description>Alternativattack: Rusa mot dina fiender och ta bort debuffar.
+Få en kritisk träff med ditt närstridsvapen efter kollision med en fiende på avstånd.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_persian_shield/c_persian_shield.mdl</model_player>

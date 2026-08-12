@@ -13002,7 +13002,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"408"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Polar Prism"
+			"name"	"Prisme polaire"
 		}
 		"391"
 		{

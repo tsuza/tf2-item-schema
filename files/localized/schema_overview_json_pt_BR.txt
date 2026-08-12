@@ -11604,7 +11604,7 @@
 				"id": 408,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Polar Prism"
+				"name": "Prisma polar"
 			},
 			{
 				"system": "unusual_aurora_green_parent",
@@ -11618,21 +11618,21 @@
 				"id": 410,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Floral Growth"
+				"name": "Crescimento floral"
 			},
 			{
 				"system": "unusual_vinethorn_teamcolor_blue",
 				"id": 411,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Floral Growth"
+				"name": "Crescimento floral"
 			},
 			{
 				"system": "unusual_spaceorbit_parent",
 				"id": 412,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Stellar Orbit"
+				"name": "Órbita estelar"
 			},
 			{
 				"system": "unusual_butterfly_teamcolor_red",
@@ -11646,7 +11646,7 @@
 				"id": 414,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Blissful Butterflies"
+				"name": "Borboletas bonitas"
 			},
 			{
 				"system": "unusual_butterfly_parent_purple",
@@ -13061,37 +13061,37 @@
 				"system": "utaunt_wheatfield_parent",
 				"id": 3224,
 				"attach_to_rootbone": false,
-				"name": "Wheat Field"
+				"name": "Campo de trigo"
 			},
 			{
 				"system": "utaunt_luminousdrift_teamcolor_red",
 				"id": 3225,
 				"attach_to_rootbone": false,
-				"name": "Luminous Drift"
+				"name": "Ondulação luminosa"
 			},
 			{
 				"system": "utaunt_luminousdrift_teamcolor_blue",
 				"id": 3226,
 				"attach_to_rootbone": false,
-				"name": "Luminous Drift"
+				"name": "Ondulação luminosa"
 			},
 			{
 				"system": "utaunt_luminousdrift_purple_parent",
 				"id": 3227,
 				"attach_to_rootbone": false,
-				"name": "Luminous Shift"
+				"name": "Mudança luminosa"
 			},
 			{
 				"system": "utaunt_dualspotlights_parent",
 				"id": 3228,
 				"attach_to_rootbone": false,
-				"name": "Showtime Spotlights"
+				"name": "Holofotes de palco"
 			},
 			{
 				"system": "utaunt_underwater_parent",
 				"id": 3229,
 				"attach_to_rootbone": false,
-				"name": "Deep Dive"
+				"name": "Mergulho profundo"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",

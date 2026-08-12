@@ -11597,63 +11597,63 @@
 				"id": 407,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Umbral Lights"
+				"name": "Paars Poollicht"
 			},
 			{
 				"system": "unusual_aurora_teal_parent",
 				"id": 408,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Polar Prism"
+				"name": "Poolprisma"
 			},
 			{
 				"system": "unusual_aurora_green_parent",
 				"id": 409,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Solar Singed"
+				"name": "Solair Spektakel"
 			},
 			{
 				"system": "unusual_vinethorn_teamcolor_red",
 				"id": 410,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Floral Growth"
+				"name": "Bloemenpracht"
 			},
 			{
 				"system": "unusual_vinethorn_teamcolor_blue",
 				"id": 411,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Floral Growth"
+				"name": "Bloemenpracht"
 			},
 			{
 				"system": "unusual_spaceorbit_parent",
 				"id": 412,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Stellar Orbit"
+				"name": "Sterrenbaan"
 			},
 			{
 				"system": "unusual_butterfly_teamcolor_red",
 				"id": 413,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Blissful Butterflies"
+				"name": "Vredige Vlinders"
 			},
 			{
 				"system": "unusual_butterfly_teamcolor_blue",
 				"id": 414,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Blissful Butterflies"
+				"name": "Vredige Vlinders"
 			},
 			{
 				"system": "unusual_butterfly_parent_purple",
 				"id": 415,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Wispful Wings"
+				"name": "Fladderende Vleugels"
 			},
 			{
 				"system": "weapon_unusual_hot",
@@ -13061,37 +13061,37 @@
 				"system": "utaunt_wheatfield_parent",
 				"id": 3224,
 				"attach_to_rootbone": false,
-				"name": "Wheat Field"
+				"name": "Tarweveld"
 			},
 			{
 				"system": "utaunt_luminousdrift_teamcolor_red",
 				"id": 3225,
 				"attach_to_rootbone": false,
-				"name": "Luminous Drift"
+				"name": "Verlichte Vloed"
 			},
 			{
 				"system": "utaunt_luminousdrift_teamcolor_blue",
 				"id": 3226,
 				"attach_to_rootbone": false,
-				"name": "Luminous Drift"
+				"name": "Verlichte Vloed"
 			},
 			{
 				"system": "utaunt_luminousdrift_purple_parent",
 				"id": 3227,
 				"attach_to_rootbone": false,
-				"name": "Luminous Shift"
+				"name": "Verlichte Verandering"
 			},
 			{
 				"system": "utaunt_dualspotlights_parent",
 				"id": 3228,
 				"attach_to_rootbone": false,
-				"name": "Showtime Spotlights"
+				"name": "Spotlights voor Showtime"
 			},
 			{
 				"system": "utaunt_underwater_parent",
 				"id": 3229,
 				"attach_to_rootbone": false,
-				"name": "Deep Dive"
+				"name": "Diepe Duik"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",

@@ -11578,63 +11578,63 @@ Zabicie podpalonego wroga przyznaje premię do szybkości</description_string>
 			<id>407</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Umbral Lights</name>
+			<name>cieniste światła</name>
 		</particle>
 		<particle>
 			<system>unusual_aurora_teal_parent</system>
 			<id>408</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Polar Prism</name>
+			<name>polarny pryzmat</name>
 		</particle>
 		<particle>
 			<system>unusual_aurora_green_parent</system>
 			<id>409</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Solar Singed</name>
+			<name>słoneczna spalenizna</name>
 		</particle>
 		<particle>
 			<system>unusual_vinethorn_teamcolor_red</system>
 			<id>410</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Floral Growth</name>
+			<name>kwiecisty rozrost</name>
 		</particle>
 		<particle>
 			<system>unusual_vinethorn_teamcolor_blue</system>
 			<id>411</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Floral Growth</name>
+			<name>kwiecisty rozrost</name>
 		</particle>
 		<particle>
 			<system>unusual_spaceorbit_parent</system>
 			<id>412</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Stellar Orbit</name>
+			<name>gwiezdna orbita</name>
 		</particle>
 		<particle>
 			<system>unusual_butterfly_teamcolor_red</system>
 			<id>413</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Blissful Butterflies</name>
+			<name>milusie motylki</name>
 		</particle>
 		<particle>
 			<system>unusual_butterfly_teamcolor_blue</system>
 			<id>414</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Blissful Butterflies</name>
+			<name>milusie motylki</name>
 		</particle>
 		<particle>
 			<system>unusual_butterfly_parent_purple</system>
 			<id>415</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Wispful Wings</name>
+			<name>stęsknione skrzydełka</name>
 		</particle>
 		<particle>
 			<system>weapon_unusual_hot</system>
@@ -13042,37 +13042,37 @@ Zabicie podpalonego wroga przyznaje premię do szybkości</description_string>
 			<system>utaunt_wheatfield_parent</system>
 			<id>3224</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Wheat Field</name>
+			<name>pole pszenicy</name>
 		</particle>
 		<particle>
 			<system>utaunt_luminousdrift_teamcolor_red</system>
 			<id>3225</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Luminous Drift</name>
+			<name>podświetlony dryft</name>
 		</particle>
 		<particle>
 			<system>utaunt_luminousdrift_teamcolor_blue</system>
 			<id>3226</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Luminous Drift</name>
+			<name>podświetlony dryft</name>
 		</particle>
 		<particle>
 			<system>utaunt_luminousdrift_purple_parent</system>
 			<id>3227</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Luminous Shift</name>
+			<name>podświetlony pływ</name>
 		</particle>
 		<particle>
 			<system>utaunt_dualspotlights_parent</system>
 			<id>3228</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Showtime Spotlights</name>
+			<name>w świetle reflektorów</name>
 		</particle>
 		<particle>
 			<system>utaunt_underwater_parent</system>
 			<id>3229</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Deep Dive</name>
+			<name>głębokie zanurzenie</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>

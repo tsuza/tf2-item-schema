@@ -11563,7 +11563,7 @@ Matar a objetivos en llamas da un subidón de velocidad.</description_string>
 			<id>408</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Polar Prism</name>
+			<name>Prisma polar</name>
 		</particle>
 		<particle>
 			<system>unusual_aurora_green_parent</system>

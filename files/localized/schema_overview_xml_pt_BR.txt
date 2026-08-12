@@ -11549,7 +11549,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			<id>408</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Polar Prism</name>
+			<name>Prisma polar</name>
 		</particle>
 		<particle>
 			<system>unusual_aurora_green_parent</system>
@@ -11563,21 +11563,21 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			<id>410</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Floral Growth</name>
+			<name>Crescimento floral</name>
 		</particle>
 		<particle>
 			<system>unusual_vinethorn_teamcolor_blue</system>
 			<id>411</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Floral Growth</name>
+			<name>Crescimento floral</name>
 		</particle>
 		<particle>
 			<system>unusual_spaceorbit_parent</system>
 			<id>412</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Stellar Orbit</name>
+			<name>Órbita estelar</name>
 		</particle>
 		<particle>
 			<system>unusual_butterfly_teamcolor_red</system>
@@ -11591,7 +11591,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			<id>414</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Blissful Butterflies</name>
+			<name>Borboletas bonitas</name>
 		</particle>
 		<particle>
 			<system>unusual_butterfly_parent_purple</system>
@@ -13006,37 +13006,37 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			<system>utaunt_wheatfield_parent</system>
 			<id>3224</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Wheat Field</name>
+			<name>Campo de trigo</name>
 		</particle>
 		<particle>
 			<system>utaunt_luminousdrift_teamcolor_red</system>
 			<id>3225</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Luminous Drift</name>
+			<name>Ondulação luminosa</name>
 		</particle>
 		<particle>
 			<system>utaunt_luminousdrift_teamcolor_blue</system>
 			<id>3226</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Luminous Drift</name>
+			<name>Ondulação luminosa</name>
 		</particle>
 		<particle>
 			<system>utaunt_luminousdrift_purple_parent</system>
 			<id>3227</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Luminous Shift</name>
+			<name>Mudança luminosa</name>
 		</particle>
 		<particle>
 			<system>utaunt_dualspotlights_parent</system>
 			<id>3228</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Showtime Spotlights</name>
+			<name>Holofotes de palco</name>
 		</particle>
 		<particle>
 			<system>utaunt_underwater_parent</system>
 			<id>3229</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Deep Dive</name>
+			<name>Mergulho profundo</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>

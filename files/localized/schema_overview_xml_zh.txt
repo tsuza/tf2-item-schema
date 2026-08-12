@@ -11563,7 +11563,7 @@
 			<id>408</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Polar Prism</name>
+			<name>极地棱镜</name>
 		</particle>
 		<particle>
 			<system>unusual_aurora_green_parent</system>

@@ -11604,7 +11604,7 @@
 				"id": 408,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Polar Prism"
+				"name": "极地棱镜"
 			},
 			{
 				"system": "unusual_aurora_green_parent",

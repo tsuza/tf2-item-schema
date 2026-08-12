@@ -5780,7 +5780,7 @@
 			<item_description>모든 병과 도발
 친구를 혼자 기다리게 하지 마세요!
 
-본 아이템은 짝 도발입니다. 도발 키로 사용 및 해제할 수 있습니다.</item_description>
+본 아이템은 짝 도발입니다. 도발 키를 눌러 사용하거나 해제할 수 있습니다.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -8005,7 +8005,7 @@ Mann Co.에서 최근 출시한 제품으로,
 			<defindex>224</defindex>
 			<item_class>tf_weapon_revolver</item_class>
 			<item_type_name>리볼버</item_type_name>
-			<item_name>L&apos;Étranger</item_name>
+			<item_name>이방인</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_letranger/c_letranger.mdl</model_player>
@@ -15497,8 +15497,8 @@ http://wiki.teamfortress.com/</item_description>
 			<item_class>tf_wearable_demoshield</item_class>
 			<item_type_name>방패</item_type_name>
 			<item_name>경이로운 차폐막</item_name>
-			<item_description>Alt-Fire: Charge toward your enemies and remove debuffs.
-Gain a critical melee strike after impacting an enemy at distance.</item_description>
+			<item_description>보조기능: 적에게 돌진하며 나쁜 효과를 제거합니다.
+적과 충돌한 후 근접 무기로 치명타를 먹일 수 있습니다.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_persian_shield/c_persian_shield.mdl</model_player>
@@ -46856,7 +46856,7 @@ Gamescom 2011</item_description>
 			<item_name>도발: 스퀘어 댄스</item_name>
 			<item_description>모든 병과 도발
 
-본 아이템은 짝 도발입니다. 도발 키로 사용 및 해제할 수 있습니다.</item_description>
+본 아이템은 짝 도발입니다. 도발 키를 눌러 사용하거나 해제할 수 있습니다.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -46911,7 +46911,7 @@ Gamescom 2011</item_description>
 			<item_name>도발: 끝내주는 공중제비</item_name>
 			<item_description>모든 병과 도발
 
-본 아이템은 짝 도발입니다. 도발 키로 사용 및 해제할 수 있습니다.</item_description>
+본 아이템은 짝 도발입니다. 도발 키를 눌러 사용하거나 해제할 수 있습니다.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -47048,7 +47048,7 @@ Gamescom 2011</item_description>
 			<item_name>도발: 가위바위보</item_name>
 			<item_description>모든 병과 도발
 
-본 아이템은 짝 도발입니다. 도발 키로 사용 및 해제할 수 있습니다.
+본 아이템은 짝 도발입니다. 도발 키를 눌러 사용하거나 해제할 수 있습니다.
 상대 팀과 목숨을 건 대결을 펼치세요.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
@@ -47104,7 +47104,7 @@ Gamescom 2011</item_description>
 			<item_name>도발: 박치기</item_name>
 			<item_description>모든 병과 도발
 
-본 아이템은 짝 도발입니다. 도발 키로 사용 및 해제할 수 있습니다.</item_description>
+본 아이템은 짝 도발입니다. 도발 키를 눌러 사용하거나 해제할 수 있습니다.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>

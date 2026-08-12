@@ -11632,7 +11632,7 @@
 				"id": 412,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Stellar Orbit"
+				"name": "Kosmoksen kiertorata"
 			},
 			{
 				"system": "unusual_butterfly_teamcolor_red",
@@ -13061,37 +13061,37 @@
 				"system": "utaunt_wheatfield_parent",
 				"id": 3224,
 				"attach_to_rootbone": false,
-				"name": "Wheat Field"
+				"name": "Viljavainio"
 			},
 			{
 				"system": "utaunt_luminousdrift_teamcolor_red",
 				"id": 3225,
 				"attach_to_rootbone": false,
-				"name": "Luminous Drift"
+				"name": "Hohtavat hileet"
 			},
 			{
 				"system": "utaunt_luminousdrift_teamcolor_blue",
 				"id": 3226,
 				"attach_to_rootbone": false,
-				"name": "Luminous Drift"
+				"name": "Hohtavat hileet"
 			},
 			{
 				"system": "utaunt_luminousdrift_purple_parent",
 				"id": 3227,
 				"attach_to_rootbone": false,
-				"name": "Luminous Shift"
+				"name": "Kimaltavat kiteet"
 			},
 			{
 				"system": "utaunt_dualspotlights_parent",
 				"id": 3228,
 				"attach_to_rootbone": false,
-				"name": "Showtime Spotlights"
+				"name": "Prameat parrasvalot"
 			},
 			{
 				"system": "utaunt_underwater_parent",
 				"id": 3229,
 				"attach_to_rootbone": false,
-				"name": "Deep Dive"
+				"name": "Syväsukellus"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",

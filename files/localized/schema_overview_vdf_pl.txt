@@ -13014,7 +13014,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"407"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Umbral Lights"
+			"name"	"cieniste światła"
 		}
 		"390"
 		{
@@ -13022,7 +13022,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"408"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Polar Prism"
+			"name"	"polarny pryzmat"
 		}
 		"391"
 		{
@@ -13030,7 +13030,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"409"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Solar Singed"
+			"name"	"słoneczna spalenizna"
 		}
 		"392"
 		{
@@ -13038,7 +13038,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"410"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Floral Growth"
+			"name"	"kwiecisty rozrost"
 		}
 		"393"
 		{
@@ -13046,7 +13046,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"411"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Floral Growth"
+			"name"	"kwiecisty rozrost"
 		}
 		"394"
 		{
@@ -13054,7 +13054,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"412"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Stellar Orbit"
+			"name"	"gwiezdna orbita"
 		}
 		"395"
 		{
@@ -13062,7 +13062,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"413"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Blissful Butterflies"
+			"name"	"milusie motylki"
 		}
 		"396"
 		{
@@ -13070,7 +13070,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"414"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Blissful Butterflies"
+			"name"	"milusie motylki"
 		}
 		"397"
 		{
@@ -13078,7 +13078,7 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"id"	"415"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Wispful Wings"
+			"name"	"stęsknione skrzydełka"
 		}
 		"398"
 		{
@@ -14720,42 +14720,42 @@ Zabicie podpalonego wroga przyznaje premię do szybkości"
 			"system"	"utaunt_wheatfield_parent"
 			"id"	"3224"
 			"attach_to_rootbone"	"0"
-			"name"	"Wheat Field"
+			"name"	"pole pszenicy"
 		}
 		"632"
 		{
 			"system"	"utaunt_luminousdrift_teamcolor_red"
 			"id"	"3225"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Drift"
+			"name"	"podświetlony dryft"
 		}
 		"633"
 		{
 			"system"	"utaunt_luminousdrift_teamcolor_blue"
 			"id"	"3226"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Drift"
+			"name"	"podświetlony dryft"
 		}
 		"634"
 		{
 			"system"	"utaunt_luminousdrift_purple_parent"
 			"id"	"3227"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Shift"
+			"name"	"podświetlony pływ"
 		}
 		"635"
 		{
 			"system"	"utaunt_dualspotlights_parent"
 			"id"	"3228"
 			"attach_to_rootbone"	"0"
-			"name"	"Showtime Spotlights"
+			"name"	"w świetle reflektorów"
 		}
 		"636"
 		{
 			"system"	"utaunt_underwater_parent"
 			"id"	"3229"
 			"attach_to_rootbone"	"0"
-			"name"	"Deep Dive"
+			"name"	"głębokie zanurzenie"
 		}
 		"637"
 		{

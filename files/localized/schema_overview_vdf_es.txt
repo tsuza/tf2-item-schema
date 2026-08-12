@@ -13000,7 +13000,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"408"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Polar Prism"
+			"name"	"Prisma polar"
 		}
 		"391"
 		{

@@ -11321,7 +11321,7 @@ Dit wapen zal automatisch herladen terwijl het niet in gebruik is</item_descript
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoeden</item_type_name>
 			<item_name>Schotse Beschermkap</item_name>
-			<item_description>Don&apos;t let those ninnies take yer good eye!</item_description>
+			<item_description>Laat die idioten je je goede oog niet afnemen!</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/demo/demo_scotchbonnet.mdl</model_player>
@@ -14226,7 +14226,7 @@ Als je het niet hebt, verberg het dan onder deze discrete capuchon.</item_descri
 			<defindex>380</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Masker</item_type_name>
-			<item_name>Large Luchador</item_name>
+			<item_name>Grote Luchador</item_name>
 			<item_description>Worstelen is echt, en nu kan je het bewijzen.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>
@@ -18408,8 +18408,8 @@ Zelfgekozen decals kunnen op dit voorwerp gebruikt worden.</item_description>
 			<item_class>no_entity</item_class>
 			<item_type_name>Speciale bespotting</item_type_name>
 			<item_name>Bespotting: De Ontmoet de Medic</item_name>
-			<item_description>Medic Taunt
-Remind those ungrateful bastards how valuable your Medic skills are by striking a heroic pose accompanied by an angelic choir, beams of divine light, and a flock of doves.</item_description>
+			<item_description>Medic-bespotting
+Herinner deze ondankbare honden eraan hoe waardevol jouw Medic-vaardigheden zijn door deze heroïsche pose aan te nemen, compleet met engelenkoor, goddelijke lichtstralen en een zwerm duiven.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>taunt</item_slot>
 			<model_player>null</model_player>
@@ -23367,7 +23367,7 @@ Gamescom 2011</item_description>
 			<defindex>585</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Masker</item_type_name>
-			<item_name>Cold War Luchador</item_name>
+			<item_name>De Koude Oorlog-Luchador</item_name>
 			<item_description>Het meest angstaanjagende Sovjet/Latino-partnerschap sinds de Cubacrisis.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -23416,7 +23416,7 @@ Gamescom 2011</item_description>
 			<defindex>586</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Badge</item_type_name>
-			<item_name>Mark of the Saint</item_name>
+			<item_name>Het Symbool van de Saint</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/all_class/sr3_badge.mdl</model_player>
@@ -23459,7 +23459,7 @@ Gamescom 2011</item_description>
 			<defindex>587</defindex>
 			<item_class>tf_weapon_fists</item_class>
 			<item_type_name>Vuisten</item_type_name>
-			<item_name>Apoco-Fists</item_name>
+			<item_name>De Apoco-Vuisten</item_name>
 			<item_description>Maak elk van je vingers één van de vier ruiters van de Apocalyps! Dat zijn meer dan negentien ruiters van de Apocalyps per handschoen! Dat is het meeste Apocalyps dat we ooit aan een hand vast hebben durven maken!</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>melee</item_slot>
@@ -25670,7 +25670,7 @@ Zelfgekozen decals kunnen op dit voorwerp gebruikt worden.</item_description>
 			<defindex>631</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Hoed</item_type_name>
-			<item_name>Hat with No Name</item_name>
+			<item_name>De Hoed Zonder Naam</item_name>
 			<item_description>Een naamloze hoed voor een naamloze man.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -26998,7 +26998,7 @@ Zelfgekozen decals kunnen op dit voorwerp gebruikt worden.</item_description>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Pijp</item_type_name>
 			<item_name>Het Nine-Pipe-probleem</item_name>
-			<item_description>In the time it takes you to read this description, I&apos;ve already übered a heavy, captured your base, solved a crime, and smoked three pipes.</item_description>
+			<item_description>Tegen de tijd dat je deze beschrijving hebt gelezen, heb ik al een überlading aan een Heavy gegeven, je basis veroverd, een misdaad opgelost en drie pijpen gerookt.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/medic/medic_smokingpipe.mdl</model_player>
@@ -29706,7 +29706,7 @@ Alt-vuur: Laat een luchtstoot los die vijanden en projectielen wegduwt en brande
 			<defindex>732</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Helm</item_type_name>
-			<item_name>Helmet without a Home</item_name>
+			<item_name>De Helm Zonder Thuis</item_name>
 			<item_description>Zie deze helm als een verstevigd, draagbaar huis voor je hoofd. Hij is ook bedekt met aluminiumfolie, zodat niemand je waardevolle zwerversgedachten kan stelen.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -30706,7 +30706,7 @@ Hier gaan koppen rollen.</item_description>
 			<defindex>755</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Broek</item_type_name>
-			<item_name>Texas Half-Pants</item_name>
+			<item_name>De Texaanse Half-Broek</item_name>
 			<item_description>Het is een broek... maar dan in Texas-stijl! Deze kruisloze leren leggings zijn perfect voor als je al een broek hebt. Denk eraan: alleen te gebruiken als aanvullende broek. Gebruik het alsjeblieft niet als primaire broek.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -30762,7 +30762,7 @@ Hier gaan koppen rollen.</item_description>
 			<defindex>756</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Helm</item_type_name>
-			<item_name>Bolt Action Blitzer</item_name>
+			<item_name>De Bolt Action Blitzer</item_name>
 			<item_description>Haal maar rustig adem, jongens. Welnu, iedere helm beschermt je hoofd wanneer je hem draagt - maar wat nou als je hem NIET draagt? De Bolt Action Blitzer lost dat probleem op door zich in je schedel vast te boren met drie diepgegroefde bouten van drie centimeter lang, afgewerkt met gegalvaniseerd staal. Zorg er maar voor dat je hem in je favoriete kleur kiest, want je ZULT ermee begraven worden.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -30805,8 +30805,8 @@ Hier gaan koppen rollen.</item_description>
 			<defindex>757</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kleding</item_type_name>
-			<item_name>Toss-Proof Towel</item_name>
-			<item_description>Make sure you never throw in the towel, even accidentally, by keeping it nice and close, where it can&apos;t run off and surrender like a coward when you&apos;re not looking.</item_description>
+			<item_name>De Trainingshanddoek</item_name>
+			<item_description>Zorg ervoor dat je nooit de handdoek in de ring gooit, zelfs per ongeluk, door &apos;m lekker dicht bij je te houden, zodat ie niet als een angsthaas weg kan rennen om zich over te geven wanneer je niet oplet.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
 			<model_player>models/player/items/heavy/heavy_boxingtowel.mdl</model_player>
@@ -32333,7 +32333,7 @@ Hier gaan koppen rollen.</item_description>
 			<defindex>786</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Helm</item_type_name>
-			<item_name>Grenadier Helm</item_name>
+			<item_name>De Grenadiershelm</item_name>
 			<item_description>Argghhh! Je bent boos! En je bent klein! En je moet deze feiten uitdrukken door middel van een enkel accessoire! Draag de Grenadier-helm en stuur je vijanden richting het niveau van de Dwergenhel die jij geschikt voor ze vindt.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -35880,7 +35880,7 @@ Alt-vuur: Laat een luchtstoot los die vijanden en projectielen wegduwt en brande
 			<defindex>865</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Badge</item_type_name>
-			<item_name>Triple A Badge</item_name>
+			<item_name>De Triple A-badge</item_name>
 			<item_description>De letter &quot;a&quot; is een geweldige letter. We houden er zo veel van, dat we &apos;m op een badge hebben geplaatst. En we dachten dat deze gozer met een gasmasker er gaaf uitzag, dus we hebben hem er ook op geplaatst. We gaan op ons gevoel af; het heeft tot nu toe goede resultaten. Ons gevoel zegt ons dat het volgende voorwerp dat we maken... een of andere hoed zal zijn. We hebben hier een heel goed gevoel over.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>
@@ -45076,7 +45076,7 @@ Rust het uit om spreuken op te pakken en af te vuren.</item_description>
 			<defindex>1073</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Kap</item_type_name>
-			<item_name>War on Smissmas Battle Hood</item_name>
+			<item_name>De Smissmas-gevechtskap</item_name>
 			<item_description>Verkregen door het ontwerpen van de Steam-feestdagenuitverkoop 2013-badge.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>misc</item_slot>

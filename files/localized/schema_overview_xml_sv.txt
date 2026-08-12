@@ -11592,7 +11592,7 @@ Dödande träffar på brinnande spelare ger en fartökning.</description_string>
 			<id>412</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Stellar Orbit</name>
+			<name>Omloppsbana</name>
 		</particle>
 		<particle>
 			<system>unusual_butterfly_teamcolor_red</system>
@@ -11606,7 +11606,7 @@ Dödande träffar på brinnande spelare ger en fartökning.</description_string>
 			<id>414</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Blissful Butterflies</name>
+			<name>Förnöjda fjärilar</name>
 		</particle>
 		<particle>
 			<system>unusual_butterfly_parent_purple</system>
@@ -13021,37 +13021,37 @@ Dödande träffar på brinnande spelare ger en fartökning.</description_string>
 			<system>utaunt_wheatfield_parent</system>
 			<id>3224</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Wheat Field</name>
+			<name>Vetefält</name>
 		</particle>
 		<particle>
 			<system>utaunt_luminousdrift_teamcolor_red</system>
 			<id>3225</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Luminous Drift</name>
+			<name>Skimrande svall</name>
 		</particle>
 		<particle>
 			<system>utaunt_luminousdrift_teamcolor_blue</system>
 			<id>3226</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Luminous Drift</name>
+			<name>Skimrande svall</name>
 		</particle>
 		<particle>
 			<system>utaunt_luminousdrift_purple_parent</system>
 			<id>3227</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Luminous Shift</name>
+			<name>Skimrande skiftning</name>
 		</particle>
 		<particle>
 			<system>utaunt_dualspotlights_parent</system>
 			<id>3228</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Showtime Spotlights</name>
+			<name>Rampljus</name>
 		</particle>
 		<particle>
 			<system>utaunt_underwater_parent</system>
 			<id>3229</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Deep Dive</name>
+			<name>Djupdykning</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>

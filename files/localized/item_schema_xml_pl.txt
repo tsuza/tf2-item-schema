@@ -15506,8 +15506,8 @@ wszystkich w jednym kawałku.</item_description>
 			<item_class>tf_wearable_demoshield</item_class>
 			<item_type_name>Tarcza</item_type_name>
 			<item_name>Prześwietny puklerz</item_name>
-			<item_description>Alt-Fire: Charge toward your enemies and remove debuffs.
-Gain a critical melee strike after impacting an enemy at distance.</item_description>
+			<item_description>Atak alternatywny: szarża w stronę wroga i usunięcie efektów negatywnych
+Zapewnia obrażenia krytyczne bronią do walki wręcz po zderzeniu z wrogiem na dalekim dystansie.</item_description>
 			<proper_name>true</proper_name>
 			<item_slot>secondary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_persian_shield/c_persian_shield.mdl</model_player>

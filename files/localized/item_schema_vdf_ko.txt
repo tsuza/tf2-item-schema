@@ -6554,7 +6554,7 @@
 			"item_description"	"모든 병과 도발
 친구를 혼자 기다리게 하지 마세요!
 
-본 아이템은 짝 도발입니다. 도발 키로 사용 및 해제할 수 있습니다."
+본 아이템은 짝 도발입니다. 도발 키를 눌러 사용하거나 해제할 수 있습니다."
 			"proper_name"	"0"
 			"item_slot"	"taunt"
 			"model_player"	""
@@ -9075,7 +9075,7 @@ Mann Co.에서 최근 출시한 제품으로,
 			"defindex"	"224"
 			"item_class"	"tf_weapon_revolver"
 			"item_type_name"	"리볼버"
-			"item_name"	"L'Étranger"
+			"item_name"	"이방인"
 			"proper_name"	"0"
 			"item_slot"	"secondary"
 			"model_player"	"models/workshop/weapons/c_models/c_letranger/c_letranger.mdl"
@@ -17579,8 +17579,8 @@ http://wiki.teamfortress.com/"
 			"item_class"	"tf_wearable_demoshield"
 			"item_type_name"	"방패"
 			"item_name"	"경이로운 차폐막"
-			"item_description"	"Alt-Fire: Charge toward your enemies and remove debuffs.
-Gain a critical melee strike after impacting an enemy at distance."
+			"item_description"	"보조기능: 적에게 돌진하며 나쁜 효과를 제거합니다.
+적과 충돌한 후 근접 무기로 치명타를 먹일 수 있습니다."
 			"proper_name"	"1"
 			"item_slot"	"secondary"
 			"model_player"	"models/workshop/weapons/c_models/c_persian_shield/c_persian_shield.mdl"
@@ -53164,7 +53164,7 @@ Gamescom 2011"
 			"item_name"	"도발: 스퀘어 댄스"
 			"item_description"	"모든 병과 도발
 
-본 아이템은 짝 도발입니다. 도발 키로 사용 및 해제할 수 있습니다."
+본 아이템은 짝 도발입니다. 도발 키를 눌러 사용하거나 해제할 수 있습니다."
 			"proper_name"	"0"
 			"item_slot"	"taunt"
 			"model_player"	""
@@ -53226,7 +53226,7 @@ Gamescom 2011"
 			"item_name"	"도발: 끝내주는 공중제비"
 			"item_description"	"모든 병과 도발
 
-본 아이템은 짝 도발입니다. 도발 키로 사용 및 해제할 수 있습니다."
+본 아이템은 짝 도발입니다. 도발 키를 눌러 사용하거나 해제할 수 있습니다."
 			"proper_name"	"0"
 			"item_slot"	"taunt"
 			"model_player"	""
@@ -53380,7 +53380,7 @@ Gamescom 2011"
 			"item_name"	"도발: 가위바위보"
 			"item_description"	"모든 병과 도발
 
-본 아이템은 짝 도발입니다. 도발 키로 사용 및 해제할 수 있습니다.
+본 아이템은 짝 도발입니다. 도발 키를 눌러 사용하거나 해제할 수 있습니다.
 상대 팀과 목숨을 건 대결을 펼치세요."
 			"proper_name"	"0"
 			"item_slot"	"taunt"
@@ -53443,7 +53443,7 @@ Gamescom 2011"
 			"item_name"	"도발: 박치기"
 			"item_description"	"모든 병과 도발
 
-본 아이템은 짝 도발입니다. 도발 키로 사용 및 해제할 수 있습니다."
+본 아이템은 짝 도발입니다. 도발 키를 눌러 사용하거나 해제할 수 있습니다."
 			"proper_name"	"0"
 			"item_slot"	"taunt"
 			"model_player"	""

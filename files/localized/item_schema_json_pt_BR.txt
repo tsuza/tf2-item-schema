@@ -15993,7 +15993,7 @@
 				"item_class": "tf_wearable_demoshield",
 				"item_type_name": "Escudo",
 				"item_name": "O Escudo Esplêndido",
-				"item_description": "Alt-Fire: Charge toward your enemies and remove debuffs.\nGain a critical melee strike after impacting an enemy at distance.",
+				"item_description": "Disparo-alt: dê uma investida em direção aos seus inimigos, removendo efeitos negativos.\nCaso atinja um inimigo distante, o próximo golpe com a arma corpo a corpo será crítico.",
 				"proper_name": true,
 				"item_slot": "secondary",
 				"model_player": "models/workshop/weapons/c_models/c_persian_shield/c_persian_shield.mdl",

@@ -13033,7 +13033,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"412"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Stellar Orbit"
+			"name"	"Omloppsbana"
 		}
 		"395"
 		{
@@ -13049,7 +13049,7 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"id"	"414"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Blissful Butterflies"
+			"name"	"Förnöjda fjärilar"
 		}
 		"397"
 		{
@@ -14699,42 +14699,42 @@ Dödande träffar på brinnande spelare ger en fartökning."
 			"system"	"utaunt_wheatfield_parent"
 			"id"	"3224"
 			"attach_to_rootbone"	"0"
-			"name"	"Wheat Field"
+			"name"	"Vetefält"
 		}
 		"632"
 		{
 			"system"	"utaunt_luminousdrift_teamcolor_red"
 			"id"	"3225"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Drift"
+			"name"	"Skimrande svall"
 		}
 		"633"
 		{
 			"system"	"utaunt_luminousdrift_teamcolor_blue"
 			"id"	"3226"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Drift"
+			"name"	"Skimrande svall"
 		}
 		"634"
 		{
 			"system"	"utaunt_luminousdrift_purple_parent"
 			"id"	"3227"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Shift"
+			"name"	"Skimrande skiftning"
 		}
 		"635"
 		{
 			"system"	"utaunt_dualspotlights_parent"
 			"id"	"3228"
 			"attach_to_rootbone"	"0"
-			"name"	"Showtime Spotlights"
+			"name"	"Rampljus"
 		}
 		"636"
 		{
 			"system"	"utaunt_underwater_parent"
 			"id"	"3229"
 			"attach_to_rootbone"	"0"
-			"name"	"Deep Dive"
+			"name"	"Djupdykning"
 		}
 		"637"
 		{

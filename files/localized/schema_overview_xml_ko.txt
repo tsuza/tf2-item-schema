@@ -11551,21 +11551,21 @@
 			<id>407</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Umbral Lights</name>
+			<name>그림자의 밤</name>
 		</particle>
 		<particle>
 			<system>unusual_aurora_teal_parent</system>
 			<id>408</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Polar Prism</name>
+			<name>북극의 프리즘</name>
 		</particle>
 		<particle>
 			<system>unusual_aurora_green_parent</system>
 			<id>409</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Solar Singed</name>
+			<name>태양의 그을음</name>
 		</particle>
 		<particle>
 			<system>unusual_vinethorn_teamcolor_red</system>
@@ -11586,28 +11586,28 @@
 			<id>412</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Stellar Orbit</name>
+			<name>별들의 궤도</name>
 		</particle>
 		<particle>
 			<system>unusual_butterfly_teamcolor_red</system>
 			<id>413</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Blissful Butterflies</name>
+			<name>행복한 나비들</name>
 		</particle>
 		<particle>
 			<system>unusual_butterfly_teamcolor_blue</system>
 			<id>414</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Blissful Butterflies</name>
+			<name>행복한 나비들</name>
 		</particle>
 		<particle>
 			<system>unusual_butterfly_parent_purple</system>
 			<id>415</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Wispful Wings</name>
+			<name>희미한 날개</name>
 		</particle>
 		<particle>
 			<system>weapon_unusual_hot</system>
@@ -13015,37 +13015,37 @@
 			<system>utaunt_wheatfield_parent</system>
 			<id>3224</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Wheat Field</name>
+			<name>밀밭</name>
 		</particle>
 		<particle>
 			<system>utaunt_luminousdrift_teamcolor_red</system>
 			<id>3225</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Luminous Drift</name>
+			<name>야광 드리프트</name>
 		</particle>
 		<particle>
 			<system>utaunt_luminousdrift_teamcolor_blue</system>
 			<id>3226</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Luminous Drift</name>
+			<name>야광 드리프트</name>
 		</particle>
 		<particle>
 			<system>utaunt_luminousdrift_purple_parent</system>
 			<id>3227</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Luminous Shift</name>
+			<name>야광 시프트</name>
 		</particle>
 		<particle>
 			<system>utaunt_dualspotlights_parent</system>
 			<id>3228</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Showtime Spotlights</name>
+			<name>쇼타임 스포트라이트</name>
 		</particle>
 		<particle>
 			<system>utaunt_underwater_parent</system>
 			<id>3229</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Deep Dive</name>
+			<name>딥 다이브</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>

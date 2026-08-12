@@ -12987,7 +12987,7 @@
 			"id"	"407"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Umbral Lights"
+			"name"	"그림자의 밤"
 		}
 		"390"
 		{
@@ -12995,7 +12995,7 @@
 			"id"	"408"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Polar Prism"
+			"name"	"북극의 프리즘"
 		}
 		"391"
 		{
@@ -13003,7 +13003,7 @@
 			"id"	"409"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Solar Singed"
+			"name"	"태양의 그을음"
 		}
 		"392"
 		{
@@ -13027,7 +13027,7 @@
 			"id"	"412"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Stellar Orbit"
+			"name"	"별들의 궤도"
 		}
 		"395"
 		{
@@ -13035,7 +13035,7 @@
 			"id"	"413"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Blissful Butterflies"
+			"name"	"행복한 나비들"
 		}
 		"396"
 		{
@@ -13043,7 +13043,7 @@
 			"id"	"414"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Blissful Butterflies"
+			"name"	"행복한 나비들"
 		}
 		"397"
 		{
@@ -13051,7 +13051,7 @@
 			"id"	"415"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Wispful Wings"
+			"name"	"희미한 날개"
 		}
 		"398"
 		{
@@ -14693,42 +14693,42 @@
 			"system"	"utaunt_wheatfield_parent"
 			"id"	"3224"
 			"attach_to_rootbone"	"0"
-			"name"	"Wheat Field"
+			"name"	"밀밭"
 		}
 		"632"
 		{
 			"system"	"utaunt_luminousdrift_teamcolor_red"
 			"id"	"3225"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Drift"
+			"name"	"야광 드리프트"
 		}
 		"633"
 		{
 			"system"	"utaunt_luminousdrift_teamcolor_blue"
 			"id"	"3226"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Drift"
+			"name"	"야광 드리프트"
 		}
 		"634"
 		{
 			"system"	"utaunt_luminousdrift_purple_parent"
 			"id"	"3227"
 			"attach_to_rootbone"	"0"
-			"name"	"Luminous Shift"
+			"name"	"야광 시프트"
 		}
 		"635"
 		{
 			"system"	"utaunt_dualspotlights_parent"
 			"id"	"3228"
 			"attach_to_rootbone"	"0"
-			"name"	"Showtime Spotlights"
+			"name"	"쇼타임 스포트라이트"
 		}
 		"636"
 		{
 			"system"	"utaunt_underwater_parent"
 			"id"	"3229"
 			"attach_to_rootbone"	"0"
-			"name"	"Deep Dive"
+			"name"	"딥 다이브"
 		}
 		"637"
 		{

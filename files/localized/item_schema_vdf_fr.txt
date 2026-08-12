@@ -17577,8 +17577,8 @@ et l'autre sur tout le reste."
 			"item_class"	"tf_wearable_demoshield"
 			"item_type_name"	"Bouclier"
 			"item_name"	"Le Mirage Éblouissant"
-			"item_description"	"Alt-Fire: Charge toward your enemies and remove debuffs.
-Gain a critical melee strike after impacting an enemy at distance."
+			"item_description"	"Tir secondaire : percutez vos ennemis et supprimez les malus.
+Gagnez un bonus critique au corps à corps si vous infligez des dégâts à un ennemi distant."
 			"proper_name"	"1"
 			"item_slot"	"secondary"
 			"model_player"	"models/workshop/weapons/c_models/c_persian_shield/c_persian_shield.mdl"

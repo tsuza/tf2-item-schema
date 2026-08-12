@@ -11556,63 +11556,63 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>407</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Umbral Lights</name>
+			<name>Paars Poollicht</name>
 		</particle>
 		<particle>
 			<system>unusual_aurora_teal_parent</system>
 			<id>408</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Polar Prism</name>
+			<name>Poolprisma</name>
 		</particle>
 		<particle>
 			<system>unusual_aurora_green_parent</system>
 			<id>409</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Solar Singed</name>
+			<name>Solair Spektakel</name>
 		</particle>
 		<particle>
 			<system>unusual_vinethorn_teamcolor_red</system>
 			<id>410</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Floral Growth</name>
+			<name>Bloemenpracht</name>
 		</particle>
 		<particle>
 			<system>unusual_vinethorn_teamcolor_blue</system>
 			<id>411</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Floral Growth</name>
+			<name>Bloemenpracht</name>
 		</particle>
 		<particle>
 			<system>unusual_spaceorbit_parent</system>
 			<id>412</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Stellar Orbit</name>
+			<name>Sterrenbaan</name>
 		</particle>
 		<particle>
 			<system>unusual_butterfly_teamcolor_red</system>
 			<id>413</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Blissful Butterflies</name>
+			<name>Vredige Vlinders</name>
 		</particle>
 		<particle>
 			<system>unusual_butterfly_teamcolor_blue</system>
 			<id>414</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Blissful Butterflies</name>
+			<name>Vredige Vlinders</name>
 		</particle>
 		<particle>
 			<system>unusual_butterfly_parent_purple</system>
 			<id>415</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Wispful Wings</name>
+			<name>Fladderende Vleugels</name>
 		</particle>
 		<particle>
 			<system>weapon_unusual_hot</system>
@@ -13020,37 +13020,37 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_wheatfield_parent</system>
 			<id>3224</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Wheat Field</name>
+			<name>Tarweveld</name>
 		</particle>
 		<particle>
 			<system>utaunt_luminousdrift_teamcolor_red</system>
 			<id>3225</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Luminous Drift</name>
+			<name>Verlichte Vloed</name>
 		</particle>
 		<particle>
 			<system>utaunt_luminousdrift_teamcolor_blue</system>
 			<id>3226</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Luminous Drift</name>
+			<name>Verlichte Vloed</name>
 		</particle>
 		<particle>
 			<system>utaunt_luminousdrift_purple_parent</system>
 			<id>3227</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Luminous Shift</name>
+			<name>Verlichte Verandering</name>
 		</particle>
 		<particle>
 			<system>utaunt_dualspotlights_parent</system>
 			<id>3228</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Showtime Spotlights</name>
+			<name>Spotlights voor Showtime</name>
 		</particle>
 		<particle>
 			<system>utaunt_underwater_parent</system>
 			<id>3229</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Deep Dive</name>
+			<name>Diepe Duik</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>

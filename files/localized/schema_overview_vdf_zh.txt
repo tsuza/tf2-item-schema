@@ -13000,7 +13000,7 @@
 			"id"	"408"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Polar Prism"
+			"name"	"极地棱镜"
 		}
 		"391"
 		{

@@ -11597,21 +11597,21 @@
 				"id": 407,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Umbral Lights"
+				"name": "그림자의 밤"
 			},
 			{
 				"system": "unusual_aurora_teal_parent",
 				"id": 408,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Polar Prism"
+				"name": "북극의 프리즘"
 			},
 			{
 				"system": "unusual_aurora_green_parent",
 				"id": 409,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Solar Singed"
+				"name": "태양의 그을음"
 			},
 			{
 				"system": "unusual_vinethorn_teamcolor_red",
@@ -11632,28 +11632,28 @@
 				"id": 412,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Stellar Orbit"
+				"name": "별들의 궤도"
 			},
 			{
 				"system": "unusual_butterfly_teamcolor_red",
 				"id": 413,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Blissful Butterflies"
+				"name": "행복한 나비들"
 			},
 			{
 				"system": "unusual_butterfly_teamcolor_blue",
 				"id": 414,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Blissful Butterflies"
+				"name": "행복한 나비들"
 			},
 			{
 				"system": "unusual_butterfly_parent_purple",
 				"id": 415,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Wispful Wings"
+				"name": "희미한 날개"
 			},
 			{
 				"system": "weapon_unusual_hot",
@@ -13061,37 +13061,37 @@
 				"system": "utaunt_wheatfield_parent",
 				"id": 3224,
 				"attach_to_rootbone": false,
-				"name": "Wheat Field"
+				"name": "밀밭"
 			},
 			{
 				"system": "utaunt_luminousdrift_teamcolor_red",
 				"id": 3225,
 				"attach_to_rootbone": false,
-				"name": "Luminous Drift"
+				"name": "야광 드리프트"
 			},
 			{
 				"system": "utaunt_luminousdrift_teamcolor_blue",
 				"id": 3226,
 				"attach_to_rootbone": false,
-				"name": "Luminous Drift"
+				"name": "야광 드리프트"
 			},
 			{
 				"system": "utaunt_luminousdrift_purple_parent",
 				"id": 3227,
 				"attach_to_rootbone": false,
-				"name": "Luminous Shift"
+				"name": "야광 시프트"
 			},
 			{
 				"system": "utaunt_dualspotlights_parent",
 				"id": 3228,
 				"attach_to_rootbone": false,
-				"name": "Showtime Spotlights"
+				"name": "쇼타임 스포트라이트"
 			},
 			{
 				"system": "utaunt_underwater_parent",
 				"id": 3229,
 				"attach_to_rootbone": false,
-				"name": "Deep Dive"
+				"name": "딥 다이브"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",
