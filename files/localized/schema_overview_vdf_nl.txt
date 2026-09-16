@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.9afd9e448671ca00fa0a2a2c52f4ebeb06f93d64.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.69f030c879d6524a9b9f468f664fd80b627f4b37.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -11937,7 +11937,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"274"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Cosmic Constellations"
+			"name"	"Kosmische Constellaties"
 		}
 		"258"
 		{
@@ -11945,7 +11945,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"275"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Cosmic Constellations"
+			"name"	"Kosmische Constellaties"
 		}
 		"259"
 		{
@@ -12721,7 +12721,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"373"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Drunkard"
+			"name"	"Dronkaard"
 		}
 		"356"
 		{
@@ -12793,7 +12793,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"382"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ocean Swirl"
+			"name"	"Oceanische Werveling"
 		}
 		"365"
 		{
@@ -12801,7 +12801,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"383"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ocean Swirl"
+			"name"	"Oceanische Werveling"
 		}
 		"366"
 		{
@@ -12809,7 +12809,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"384"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Toxic Swirl"
+			"name"	"Giftige Werveling"
 		}
 		"367"
 		{
@@ -12817,7 +12817,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"385"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Candle Flame"
+			"name"	"Kaarsvlam"
 		}
 		"368"
 		{
@@ -12825,7 +12825,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"386"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Candle Flame"
+			"name"	"Kaarsvlam"
 		}
 		"369"
 		{
@@ -12833,7 +12833,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"387"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sizzling Aroma"
+			"name"	"Vurig Aroma"
 		}
 		"370"
 		{
@@ -12841,7 +12841,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"388"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sizzling Aroma"
+			"name"	"Vurig Aroma"
 		}
 		"371"
 		{
@@ -12849,7 +12849,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"389"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Toxic Aroma"
+			"name"	"Giftig Aroma"
 		}
 		"372"
 		{
@@ -12857,7 +12857,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"390"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Current Conductor"
+			"name"	"Knetterende Conductor"
 		}
 		"373"
 		{
@@ -12865,7 +12865,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"391"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Current Conductor"
+			"name"	"Knetterende Conductor"
 		}
 		"374"
 		{
@@ -12873,7 +12873,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"392"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Sandy"
+			"name"	"Zanderig"
 		}
 		"375"
 		{
@@ -12881,7 +12881,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"393"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Chromatic Blaze"
+			"name"	"Chromatische Gloed"
 		}
 		"376"
 		{
@@ -12889,7 +12889,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"394"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Frostfire"
+			"name"	"Arctisch Vuur"
 		}
 		"377"
 		{
@@ -12897,7 +12897,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"395"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spectrum Inferno"
+			"name"	"Spectrale Vlammen"
 		}
 		"378"
 		{
@@ -12905,7 +12905,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"396"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Calm Snowfall"
+			"name"	"Serene Sneeuwvlokjes"
 		}
 		"379"
 		{
@@ -12913,7 +12913,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"397"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Team Recognition"
+			"name"	"Teamtrots"
 		}
 		"380"
 		{
@@ -12921,7 +12921,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"398"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Team Recognition"
+			"name"	"Teamtrots"
 		}
 		"381"
 		{
@@ -12929,7 +12929,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"399"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Old Hire"
+			"name"	"Oudgediende"
 		}
 		"382"
 		{
@@ -12937,7 +12937,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"400"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Old Hire"
+			"name"	"Oudgediende"
 		}
 		"383"
 		{
@@ -12945,7 +12945,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"401"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Analog Fortress"
+			"name"	"Analoog Fort"
 		}
 		"384"
 		{
@@ -13424,7 +13424,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"system"	"utaunt_astralbodies_teamcolor_blue"
 			"id"	"3040"
 			"attach_to_rootbone"	"0"
-			"name"	"Arcane Assistance"
+			"name"	"Geheimzinnige Hulp"
 		}
 		"450"
 		{
@@ -13473,7 +13473,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"system"	"utaunt_spider_orange_parent"
 			"id"	"3047"
 			"attach_to_rootbone"	"0"
-			"name"	"Arachnid Assault"
+			"name"	"Arachnide Agressie"
 		}
 		"457"
 		{

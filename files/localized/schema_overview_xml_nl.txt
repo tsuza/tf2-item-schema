@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.9afd9e448671ca00fa0a2a2c52f4ebeb06f93d64.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.69f030c879d6524a9b9f468f664fd80b627f4b37.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -10633,14 +10633,14 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>274</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Cosmic Constellations</name>
+			<name>Kosmische Constellaties</name>
 		</particle>
 		<particle>
 			<system>unusual_constellation_teamcolor_blue</system>
 			<id>275</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Cosmic Constellations</name>
+			<name>Kosmische Constellaties</name>
 		</particle>
 		<particle>
 			<system>unusual_constellation_green_parent</system>
@@ -11319,7 +11319,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>373</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Drunkard</name>
+			<name>Dronkaard</name>
 		</particle>
 		<particle>
 			<system>unusual_excalibur_teamcolor_red</system>
@@ -11382,140 +11382,140 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>382</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Ocean Swirl</name>
+			<name>Oceanische Werveling</name>
 		</particle>
 		<particle>
 			<system>unusual_ocean_swirl_teamcolor_blue</system>
 			<id>383</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Ocean Swirl</name>
+			<name>Oceanische Werveling</name>
 		</particle>
 		<particle>
 			<system>unusual_ocean_swirl_green_parent</system>
 			<id>384</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Toxic Swirl</name>
+			<name>Giftige Werveling</name>
 		</particle>
 		<particle>
 			<system>unusual_candle_teamcolor_red</system>
 			<id>385</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Candle Flame</name>
+			<name>Kaarsvlam</name>
 		</particle>
 		<particle>
 			<system>unusual_candle_teamcolor_blue</system>
 			<id>386</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Candle Flame</name>
+			<name>Kaarsvlam</name>
 		</particle>
 		<particle>
 			<system>unusual_deadlyaroma_teamcolor_red</system>
 			<id>387</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Sizzling Aroma</name>
+			<name>Vurig Aroma</name>
 		</particle>
 		<particle>
 			<system>unusual_deadlyaroma_teamcolor_blue</system>
 			<id>388</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Sizzling Aroma</name>
+			<name>Vurig Aroma</name>
 		</particle>
 		<particle>
 			<system>unusual_deadlyaroma_green_parent</system>
 			<id>389</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Toxic Aroma</name>
+			<name>Giftig Aroma</name>
 		</particle>
 		<particle>
 			<system>unusual_conductor_teamc_teamcolor_red</system>
 			<id>390</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Current Conductor</name>
+			<name>Knetterende Conductor</name>
 		</particle>
 		<particle>
 			<system>unusual_conductor_teamc_teamcolor_blue</system>
 			<id>391</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Current Conductor</name>
+			<name>Knetterende Conductor</name>
 		</particle>
 		<particle>
 			<system>unusual_sandy_parent</system>
 			<id>392</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Sandy</name>
+			<name>Zanderig</name>
 		</particle>
 		<particle>
 			<system>unusual_ombre_parent_purple</system>
 			<id>393</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Chromatic Blaze</name>
+			<name>Chromatische Gloed</name>
 		</particle>
 		<particle>
 			<system>unusual_ombre_parent_teal</system>
 			<id>394</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Frostfire</name>
+			<name>Arctisch Vuur</name>
 		</particle>
 		<particle>
 			<system>unusual_ombre_parent_spectrum</system>
 			<id>395</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Spectrum Inferno</name>
+			<name>Spectrale Vlammen</name>
 		</particle>
 		<particle>
 			<system>unusual_calmsnowfall_parent</system>
 			<id>396</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Calm Snowfall</name>
+			<name>Serene Sneeuwvlokjes</name>
 		</particle>
 		<particle>
 			<system>unusual_team_recognition_teamcolor_red</system>
 			<id>397</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Team Recognition</name>
+			<name>Teamtrots</name>
 		</particle>
 		<particle>
 			<system>unusual_team_recognition_teamcolor_blue</system>
 			<id>398</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Team Recognition</name>
+			<name>Teamtrots</name>
 		</particle>
 		<particle>
 			<system>unusual_classicfortress_teamcolor_red</system>
 			<id>399</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Old Hire</name>
+			<name>Oudgediende</name>
 		</particle>
 		<particle>
 			<system>unusual_classicfortress_teamcolor_blue</system>
 			<id>400</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Old Hire</name>
+			<name>Oudgediende</name>
 		</particle>
 		<particle>
 			<system>unusual_classicfortress_tflogo_parent</system>
 			<id>401</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Analog Fortress</name>
+			<name>Analoog Fort</name>
 		</particle>
 		<particle>
 			<system>unusual_growing_flake_parent_white</system>
@@ -11928,7 +11928,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_astralbodies_teamcolor_blue</system>
 			<id>3040</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Arcane Assistance</name>
+			<name>Geheimzinnige Hulp</name>
 		</particle>
 		<particle>
 			<system>utaunt_glowyplayer_green_parent</system>
@@ -11970,7 +11970,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<system>utaunt_spider_orange_parent</system>
 			<id>3047</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Arachnid Assault</name>
+			<name>Arachnide Agressie</name>
 		</particle>
 		<particle>
 			<system>utaunt_spider_purple_parent</system>

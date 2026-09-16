@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.9afd9e448671ca00fa0a2a2c52f4ebeb06f93d64.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.69f030c879d6524a9b9f468f664fd80b627f4b37.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -10674,14 +10674,14 @@
 				"id": 274,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Cosmic Constellations"
+				"name": "Kosmische Constellaties"
 			},
 			{
 				"system": "unusual_constellation_teamcolor_blue",
 				"id": 275,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Cosmic Constellations"
+				"name": "Kosmische Constellaties"
 			},
 			{
 				"system": "unusual_constellation_green_parent",
@@ -11360,7 +11360,7 @@
 				"id": 373,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Drunkard"
+				"name": "Dronkaard"
 			},
 			{
 				"system": "unusual_excalibur_teamcolor_red",
@@ -11423,140 +11423,140 @@
 				"id": 382,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ocean Swirl"
+				"name": "Oceanische Werveling"
 			},
 			{
 				"system": "unusual_ocean_swirl_teamcolor_blue",
 				"id": 383,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ocean Swirl"
+				"name": "Oceanische Werveling"
 			},
 			{
 				"system": "unusual_ocean_swirl_green_parent",
 				"id": 384,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Toxic Swirl"
+				"name": "Giftige Werveling"
 			},
 			{
 				"system": "unusual_candle_teamcolor_red",
 				"id": 385,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Candle Flame"
+				"name": "Kaarsvlam"
 			},
 			{
 				"system": "unusual_candle_teamcolor_blue",
 				"id": 386,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Candle Flame"
+				"name": "Kaarsvlam"
 			},
 			{
 				"system": "unusual_deadlyaroma_teamcolor_red",
 				"id": 387,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sizzling Aroma"
+				"name": "Vurig Aroma"
 			},
 			{
 				"system": "unusual_deadlyaroma_teamcolor_blue",
 				"id": 388,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sizzling Aroma"
+				"name": "Vurig Aroma"
 			},
 			{
 				"system": "unusual_deadlyaroma_green_parent",
 				"id": 389,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Toxic Aroma"
+				"name": "Giftig Aroma"
 			},
 			{
 				"system": "unusual_conductor_teamc_teamcolor_red",
 				"id": 390,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Current Conductor"
+				"name": "Knetterende Conductor"
 			},
 			{
 				"system": "unusual_conductor_teamc_teamcolor_blue",
 				"id": 391,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Current Conductor"
+				"name": "Knetterende Conductor"
 			},
 			{
 				"system": "unusual_sandy_parent",
 				"id": 392,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Sandy"
+				"name": "Zanderig"
 			},
 			{
 				"system": "unusual_ombre_parent_purple",
 				"id": 393,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Chromatic Blaze"
+				"name": "Chromatische Gloed"
 			},
 			{
 				"system": "unusual_ombre_parent_teal",
 				"id": 394,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Frostfire"
+				"name": "Arctisch Vuur"
 			},
 			{
 				"system": "unusual_ombre_parent_spectrum",
 				"id": 395,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Spectrum Inferno"
+				"name": "Spectrale Vlammen"
 			},
 			{
 				"system": "unusual_calmsnowfall_parent",
 				"id": 396,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Calm Snowfall"
+				"name": "Serene Sneeuwvlokjes"
 			},
 			{
 				"system": "unusual_team_recognition_teamcolor_red",
 				"id": 397,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Team Recognition"
+				"name": "Teamtrots"
 			},
 			{
 				"system": "unusual_team_recognition_teamcolor_blue",
 				"id": 398,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Team Recognition"
+				"name": "Teamtrots"
 			},
 			{
 				"system": "unusual_classicfortress_teamcolor_red",
 				"id": 399,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Old Hire"
+				"name": "Oudgediende"
 			},
 			{
 				"system": "unusual_classicfortress_teamcolor_blue",
 				"id": 400,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Old Hire"
+				"name": "Oudgediende"
 			},
 			{
 				"system": "unusual_classicfortress_tflogo_parent",
 				"id": 401,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Analog Fortress"
+				"name": "Analoog Fort"
 			},
 			{
 				"system": "unusual_growing_flake_parent_white",
@@ -11969,7 +11969,7 @@
 				"system": "utaunt_astralbodies_teamcolor_blue",
 				"id": 3040,
 				"attach_to_rootbone": false,
-				"name": "Arcane Assistance"
+				"name": "Geheimzinnige Hulp"
 			},
 			{
 				"system": "utaunt_glowyplayer_green_parent",
@@ -12011,7 +12011,7 @@
 				"system": "utaunt_spider_orange_parent",
 				"id": 3047,
 				"attach_to_rootbone": false,
-				"name": "Arachnid Assault"
+				"name": "Arachnide Agressie"
 			},
 			{
 				"system": "utaunt_spider_purple_parent",

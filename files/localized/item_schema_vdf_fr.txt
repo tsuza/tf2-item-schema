@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.9afd9e448671ca00fa0a2a2c52f4ebeb06f93d64.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.69f030c879d6524a9b9f468f664fd80b627f4b37.txt"
 	"items"
 	{
 		"0"
@@ -20401,7 +20401,7 @@ Cette arme se recharge en une fois."
 			"defindex"	"463"
 			"item_class"	"no_entity"
 			"item_type_name"	"Raillerie spéciale"
-			"item_name"	"Raillerie : La Schadenfreude"
+			"item_name"	"Raillerie : Le Plaisir Sadique"
 			"item_description"	"Partagez une bonne tranche de rigolade avec tout le monde sauf ce gars que vous venez de flinguer."
 			"proper_name"	"0"
 			"item_slot"	"taunt"
