@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.69f030c879d6524a9b9f468f664fd80b627f4b37.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.b5d1aa0d562a999b04c3adee29087a05b41c476f.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -11641,6 +11641,97 @@
 			<name>Волшебные взмахи</name>
 		</particle>
 		<particle>
+			<system>unusual_muertopetals_teamc_teamcolor_red</system>
+			<id>416</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Flor De Muerto</name>
+		</particle>
+		<particle>
+			<system>unusual_muertopetals_teamc_teamcolor_blue</system>
+			<id>417</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Flor De Muerto</name>
+		</particle>
+		<particle>
+			<system>unusual_autumnbreeze_parent</system>
+			<id>418</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Autumn Breeze</name>
+		</particle>
+		<particle>
+			<system>unusual_ghostspiral_purple_parent</system>
+			<id>419</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Spirit Swirl</name>
+		</particle>
+		<particle>
+			<system>unusual_ghostspiral_green_parent</system>
+			<id>420</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Ghost Swirl</name>
+		</particle>
+		<particle>
+			<system>unusual_fablefeathers_teamcolor_red</system>
+			<id>421</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Fable Feathers</name>
+		</particle>
+		<particle>
+			<system>unusual_fablefeathers_teamcolor_blue</system>
+			<id>422</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Fable Feathers</name>
+		</particle>
+		<particle>
+			<system>unusual_fablefeathers_purple_parent</system>
+			<id>423</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Fable Quills</name>
+		</particle>
+		<particle>
+			<system>unusual_boiltoil_purple_parent</system>
+			<id>424</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Grudge n&apos; Drudge</name>
+		</particle>
+		<particle>
+			<system>unusual_boiltoil_green_parent</system>
+			<id>425</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Boil n&apos; Toil</name>
+		</particle>
+		<particle>
+			<system>unusual_scaredsouls_purple_parent</system>
+			<id>426</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Screaming Soul</name>
+		</particle>
+		<particle>
+			<system>unusual_scaredsouls_green_parent</system>
+			<id>427</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Screeching Soul</name>
+		</particle>
+		<particle>
+			<system>unusual_scaredsouls_orange_parent</system>
+			<id>428</id>
+			<attach_to_rootbone>true</attach_to_rootbone>
+			<attachment>unusual</attachment>
+			<name>Shrieking Soul</name>
+		</particle>
+		<particle>
 			<system>weapon_unusual_hot</system>
 			<id>701</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
@@ -13077,6 +13168,84 @@
 			<id>3229</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
 			<name>Полное погружение</name>
+		</particle>
+		<particle>
+			<system>utaunt_electropulse_teamc_teamcolor_red</system>
+			<id>3230</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Electric Impulse</name>
+		</particle>
+		<particle>
+			<system>utaunt_electropulse_teamc_teamcolor_blue</system>
+			<id>3231</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Electric Impulse</name>
+		</particle>
+		<particle>
+			<system>utaunt_waste_purple_parent</system>
+			<id>3232</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Primordial Ooze</name>
+		</particle>
+		<particle>
+			<system>utaunt_waste_green_parent</system>
+			<id>3233</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Geiger Breaker</name>
+		</particle>
+		<particle>
+			<system>utaunt_waste_yellow_parent</system>
+			<id>3234</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Sulfuric Acid</name>
+		</particle>
+		<particle>
+			<system>utaunt_shroud_parent</system>
+			<id>3235</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Shroud of Darkness</name>
+		</particle>
+		<particle>
+			<system>utaunt_spiral_teamcolor_red</system>
+			<id>3236</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Gradient Gale</name>
+		</particle>
+		<particle>
+			<system>utaunt_spiral_teamcolor_blue</system>
+			<id>3237</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Gradient Gale</name>
+		</particle>
+		<particle>
+			<system>utaunt_spiral_parent_purple</system>
+			<id>3238</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Amethyst Gale</name>
+		</particle>
+		<particle>
+			<system>utaunt_radioactive_teamcolor_red</system>
+			<id>3239</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Gamma Rays</name>
+		</particle>
+		<particle>
+			<system>utaunt_radioactive_teamcolor_blue</system>
+			<id>3240</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Gamma Rays</name>
+		</particle>
+		<particle>
+			<system>utaunt_radioactive_purple_parent</system>
+			<id>3241</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Meltdown</name>
+		</particle>
+		<particle>
+			<system>utaunt_radioactive_green_parent</system>
+			<id>3242</id>
+			<attach_to_rootbone>false</attach_to_rootbone>
+			<name>Radioactive</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>

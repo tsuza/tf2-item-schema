@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.69f030c879d6524a9b9f468f664fd80b627f4b37.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.b5d1aa0d562a999b04c3adee29087a05b41c476f.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -11656,6 +11656,97 @@
 				"name": "Suhisevat siivet"
 			},
 			{
+				"system": "unusual_muertopetals_teamc_teamcolor_red",
+				"id": 416,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Flor De Muerto"
+			},
+			{
+				"system": "unusual_muertopetals_teamc_teamcolor_blue",
+				"id": 417,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Flor De Muerto"
+			},
+			{
+				"system": "unusual_autumnbreeze_parent",
+				"id": 418,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Autumn Breeze"
+			},
+			{
+				"system": "unusual_ghostspiral_purple_parent",
+				"id": 419,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Spirit Swirl"
+			},
+			{
+				"system": "unusual_ghostspiral_green_parent",
+				"id": 420,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Ghost Swirl"
+			},
+			{
+				"system": "unusual_fablefeathers_teamcolor_red",
+				"id": 421,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Fable Feathers"
+			},
+			{
+				"system": "unusual_fablefeathers_teamcolor_blue",
+				"id": 422,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Fable Feathers"
+			},
+			{
+				"system": "unusual_fablefeathers_purple_parent",
+				"id": 423,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Fable Quills"
+			},
+			{
+				"system": "unusual_boiltoil_purple_parent",
+				"id": 424,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Grudge n' Drudge"
+			},
+			{
+				"system": "unusual_boiltoil_green_parent",
+				"id": 425,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Boil n' Toil"
+			},
+			{
+				"system": "unusual_scaredsouls_purple_parent",
+				"id": 426,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Screaming Soul"
+			},
+			{
+				"system": "unusual_scaredsouls_green_parent",
+				"id": 427,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Screeching Soul"
+			},
+			{
+				"system": "unusual_scaredsouls_orange_parent",
+				"id": 428,
+				"attach_to_rootbone": true,
+				"attachment": "unusual",
+				"name": "Shrieking Soul"
+			},
+			{
 				"system": "weapon_unusual_hot",
 				"id": 701,
 				"attach_to_rootbone": false,
@@ -13092,6 +13183,84 @@
 				"id": 3229,
 				"attach_to_rootbone": false,
 				"name": "Syväsukellus"
+			},
+			{
+				"system": "utaunt_electropulse_teamc_teamcolor_red",
+				"id": 3230,
+				"attach_to_rootbone": false,
+				"name": "Electric Impulse"
+			},
+			{
+				"system": "utaunt_electropulse_teamc_teamcolor_blue",
+				"id": 3231,
+				"attach_to_rootbone": false,
+				"name": "Electric Impulse"
+			},
+			{
+				"system": "utaunt_waste_purple_parent",
+				"id": 3232,
+				"attach_to_rootbone": false,
+				"name": "Primordial Ooze"
+			},
+			{
+				"system": "utaunt_waste_green_parent",
+				"id": 3233,
+				"attach_to_rootbone": false,
+				"name": "Geiger Breaker"
+			},
+			{
+				"system": "utaunt_waste_yellow_parent",
+				"id": 3234,
+				"attach_to_rootbone": false,
+				"name": "Sulfuric Acid"
+			},
+			{
+				"system": "utaunt_shroud_parent",
+				"id": 3235,
+				"attach_to_rootbone": false,
+				"name": "Shroud of Darkness"
+			},
+			{
+				"system": "utaunt_spiral_teamcolor_red",
+				"id": 3236,
+				"attach_to_rootbone": false,
+				"name": "Gradient Gale"
+			},
+			{
+				"system": "utaunt_spiral_teamcolor_blue",
+				"id": 3237,
+				"attach_to_rootbone": false,
+				"name": "Gradient Gale"
+			},
+			{
+				"system": "utaunt_spiral_parent_purple",
+				"id": 3238,
+				"attach_to_rootbone": false,
+				"name": "Amethyst Gale"
+			},
+			{
+				"system": "utaunt_radioactive_teamcolor_red",
+				"id": 3239,
+				"attach_to_rootbone": false,
+				"name": "Gamma Rays"
+			},
+			{
+				"system": "utaunt_radioactive_teamcolor_blue",
+				"id": 3240,
+				"attach_to_rootbone": false,
+				"name": "Gamma Rays"
+			},
+			{
+				"system": "utaunt_radioactive_purple_parent",
+				"id": 3241,
+				"attach_to_rootbone": false,
+				"name": "Meltdown"
+			},
+			{
+				"system": "utaunt_radioactive_green_parent",
+				"id": 3242,
+				"attach_to_rootbone": false,
+				"name": "Radioactive"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",

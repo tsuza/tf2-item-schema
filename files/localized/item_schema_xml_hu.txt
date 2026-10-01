@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.69f030c879d6524a9b9f468f664fd80b627f4b37.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.b5d1aa0d562a999b04c3adee29087a05b41c476f.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -18227,6 +18227,14 @@ Oszd meg ezt a jóindulatú nevetést mindenkivel, kivéve azt az egy fickót, a
 				<can_killstreakify>true</can_killstreakify>
 				<can_consume>true</can_consume>
 			</capabilities>
+			<styles>
+				<style>
+					<name>Classic</name>
+				</style>
+				<style>
+					<name>Contemporary</name>
+				</style>
+			</styles>
 			<attributes>
 				<attribute>
 					<name>kill eater score type</name>
