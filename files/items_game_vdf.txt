@@ -118495,8 +118495,8 @@
 			"item_type_name"		"#TF_Wearable_Hat"
 			"equip_regions"
 			{
-				"hat"	"1"
-				"glasses"	"1"
+				"hat"		"1"
+				"glasses"		"1"
 			}
 			"image_inventory"		"backpack/workshop/player/items/demo/hwn2026_gunpowder_grin/hwn2026_gunpowder_grin"
 			"capabilities"
@@ -118738,9 +118738,9 @@
 			{
 				"soldier"		"1"
 			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
 		}
-		"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
-		"drop_sound"		"ui/item_hat_drop.wav"
 		"31652"
 		{
 			"name"		"General's Greatcoat"
@@ -118760,6 +118760,8 @@
 			{
 				"soldier"		"1"
 			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
 		}
 		"31653"
 		{
@@ -216472,6 +216474,10 @@
 			"item_name"			"#TF_TournamentMedal_Uberfest_spectator"
 			"item_description"	"#TF_TournamentMedal_2026"
 			"image_inventory"	"backpack/workshop/player/items/all_class/uberfest_spectator/uberfest_spectator"
+			"capabilities"
+			{
+				"paintable"		"1"
+			}
 			"model_player_per_class"
 			{
 				"basename"	"models/workshop/player/items/all_class/uberfest_spectator/uberfest_spectator_%s.mdl"

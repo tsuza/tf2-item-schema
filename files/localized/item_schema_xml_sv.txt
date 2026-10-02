@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.b5d1aa0d562a999b04c3adee29087a05b41c476f.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.3c686ba3a33388f35ec72aec33b625f92004a6dc.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
