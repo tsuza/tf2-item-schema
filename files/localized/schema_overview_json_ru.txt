@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.4462257ac3e4bb7ca615fc1316e32d977ece6fd8.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.6238995960a6ea85e6a1978aba2218bd816448c1.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -11660,91 +11660,91 @@
 				"id": 416,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flor de Muerto"
+				"name": "Флор де Муэрто"
 			},
 			{
 				"system": "unusual_muertopetals_teamc_teamcolor_blue",
 				"id": 417,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flor de Muerto"
+				"name": "Флор де Муэрто"
 			},
 			{
 				"system": "unusual_autumnbreeze_parent",
 				"id": 418,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Autumn Breeze"
+				"name": "Осенний бриз"
 			},
 			{
 				"system": "unusual_ghostspiral_purple_parent",
 				"id": 419,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Spirit Swirl"
+				"name": "Вихрь привидений"
 			},
 			{
 				"system": "unusual_ghostspiral_green_parent",
 				"id": 420,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ghost Swirl"
+				"name": "Вихрь призраков"
 			},
 			{
 				"system": "unusual_fablefeathers_teamcolor_red",
 				"id": 421,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fable Feathers"
+				"name": "Перья преданий"
 			},
 			{
 				"system": "unusual_fablefeathers_teamcolor_blue",
 				"id": 422,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fable Feathers"
+				"name": "Перья преданий"
 			},
 			{
 				"system": "unusual_fablefeathers_purple_parent",
 				"id": 423,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fable Quills"
+				"name": "Перья сказаний"
 			},
 			{
 				"system": "unusual_boiltoil_purple_parent",
 				"id": 424,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Grudge n' Drudge"
+				"name": "Обида-панихида"
 			},
 			{
 				"system": "unusual_boiltoil_green_parent",
 				"id": 425,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Boil n' Toil"
+				"name": "Варево-марево"
 			},
 			{
 				"system": "unusual_scaredsouls_purple_parent",
 				"id": 426,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Screaming Soul"
+				"name": "Крик души"
 			},
 			{
 				"system": "unusual_scaredsouls_green_parent",
 				"id": 427,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Screeching Soul"
+				"name": "Вой души"
 			},
 			{
 				"system": "unusual_scaredsouls_orange_parent",
 				"id": 428,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Shrieking Soul"
+				"name": "Визг души"
 			},
 			{
 				"system": "weapon_unusual_hot",
@@ -13188,79 +13188,79 @@
 				"system": "utaunt_electropulse_teamc_teamcolor_red",
 				"id": 3230,
 				"attach_to_rootbone": false,
-				"name": "Electric Impulse"
+				"name": "Электрический импульс"
 			},
 			{
 				"system": "utaunt_electropulse_teamc_teamcolor_blue",
 				"id": 3231,
 				"attach_to_rootbone": false,
-				"name": "Electric Impulse"
+				"name": "Электрический импульс"
 			},
 			{
 				"system": "utaunt_waste_purple_parent",
 				"id": 3232,
 				"attach_to_rootbone": false,
-				"name": "Primordial Ooze"
+				"name": "Первородная слизь"
 			},
 			{
 				"system": "utaunt_waste_green_parent",
 				"id": 3233,
 				"attach_to_rootbone": false,
-				"name": "Geiger Breaker"
+				"name": "Кошмар Гейгера"
 			},
 			{
 				"system": "utaunt_waste_yellow_parent",
 				"id": 3234,
 				"attach_to_rootbone": false,
-				"name": "Sulfuric Acid"
+				"name": "Серная кислота"
 			},
 			{
 				"system": "utaunt_shroud_parent",
 				"id": 3235,
 				"attach_to_rootbone": false,
-				"name": "Shroud of Darkness"
+				"name": "Покров тьмы"
 			},
 			{
 				"system": "utaunt_spiral_teamcolor_red",
 				"id": 3236,
 				"attach_to_rootbone": false,
-				"name": "Gradient Gale"
+				"name": "Градиентный поток"
 			},
 			{
 				"system": "utaunt_spiral_teamcolor_blue",
 				"id": 3237,
 				"attach_to_rootbone": false,
-				"name": "Gradient Gale"
+				"name": "Градиентный поток"
 			},
 			{
 				"system": "utaunt_spiral_parent_purple",
 				"id": 3238,
 				"attach_to_rootbone": false,
-				"name": "Amethyst Gale"
+				"name": "Аметистовый поток"
 			},
 			{
 				"system": "utaunt_radioactive_teamcolor_red",
 				"id": 3239,
 				"attach_to_rootbone": false,
-				"name": "Gamma Rays"
+				"name": "Гамма-лучи"
 			},
 			{
 				"system": "utaunt_radioactive_teamcolor_blue",
 				"id": 3240,
 				"attach_to_rootbone": false,
-				"name": "Gamma Rays"
+				"name": "Гамма-лучи"
 			},
 			{
 				"system": "utaunt_radioactive_purple_parent",
 				"id": 3241,
 				"attach_to_rootbone": false,
-				"name": "Meltdown"
+				"name": "Распад"
 			},
 			{
 				"system": "utaunt_radioactive_green_parent",
 				"id": 3242,
 				"attach_to_rootbone": false,
-				"name": "Radioactive"
+				"name": "Радиоактивность"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",

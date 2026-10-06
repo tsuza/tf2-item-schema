@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.4462257ac3e4bb7ca615fc1316e32d977ece6fd8.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.6238995960a6ea85e6a1978aba2218bd816448c1.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -13065,7 +13065,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"416"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flor de Muerto"
+			"name"	"Flor De Muerto"
 		}
 		"399"
 		{
@@ -13073,7 +13073,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"417"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flor de Muerto"
+			"name"	"Flor De Muerto"
 		}
 		"400"
 		{
@@ -13081,7 +13081,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"418"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Autumn Breeze"
+			"name"	"Őszi szellő"
 		}
 		"401"
 		{
@@ -13089,7 +13089,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"419"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spirit Swirl"
+			"name"	"Lélekkavargás"
 		}
 		"402"
 		{
@@ -13097,7 +13097,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"420"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ghost Swirl"
+			"name"	"Szellemkavargás"
 		}
 		"403"
 		{
@@ -13105,7 +13105,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"421"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Feathers"
+			"name"	"Mesés tollak"
 		}
 		"404"
 		{
@@ -13113,7 +13113,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"422"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Feathers"
+			"name"	"Mesés tollak"
 		}
 		"405"
 		{
@@ -13121,7 +13121,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"423"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Quills"
+			"name"	"Mesés írótollak"
 		}
 		"406"
 		{
@@ -13129,7 +13129,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"424"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Grudge n' Drudge"
+			"name"	"Zsémbelés és robotolás"
 		}
 		"407"
 		{
@@ -13137,7 +13137,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"425"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Boil n' Toil"
+			"name"	"Forrongás és gürcölés"
 		}
 		"408"
 		{
@@ -13145,7 +13145,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"426"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Screaming Soul"
+			"name"	"Sikoltó lélek"
 		}
 		"409"
 		{
@@ -13153,7 +13153,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"427"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Screeching Soul"
+			"name"	"Rikácsoló lélek"
 		}
 		"410"
 		{
@@ -13161,7 +13161,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"428"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Shrieking Soul"
+			"name"	"Visító lélek"
 		}
 		"411"
 		{
@@ -14845,91 +14845,91 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"system"	"utaunt_electropulse_teamc_teamcolor_red"
 			"id"	"3230"
 			"attach_to_rootbone"	"0"
-			"name"	"Electric Impulse"
+			"name"	"Elektromos impulzus"
 		}
 		"651"
 		{
 			"system"	"utaunt_electropulse_teamc_teamcolor_blue"
 			"id"	"3231"
 			"attach_to_rootbone"	"0"
-			"name"	"Electric Impulse"
+			"name"	"Elektromos impulzus"
 		}
 		"652"
 		{
 			"system"	"utaunt_waste_purple_parent"
 			"id"	"3232"
 			"attach_to_rootbone"	"0"
-			"name"	"Primordial Ooze"
+			"name"	"Ősi massza"
 		}
 		"653"
 		{
 			"system"	"utaunt_waste_green_parent"
 			"id"	"3233"
 			"attach_to_rootbone"	"0"
-			"name"	"Geiger Breaker"
+			"name"	"Geiger-törő"
 		}
 		"654"
 		{
 			"system"	"utaunt_waste_yellow_parent"
 			"id"	"3234"
 			"attach_to_rootbone"	"0"
-			"name"	"Sulfuric Acid"
+			"name"	"Kénsav"
 		}
 		"655"
 		{
 			"system"	"utaunt_shroud_parent"
 			"id"	"3235"
 			"attach_to_rootbone"	"0"
-			"name"	"Shroud of Darkness"
+			"name"	"A sötétség leple"
 		}
 		"656"
 		{
 			"system"	"utaunt_spiral_teamcolor_red"
 			"id"	"3236"
 			"attach_to_rootbone"	"0"
-			"name"	"Gradient Gale"
+			"name"	"Színátmenet-szélroham"
 		}
 		"657"
 		{
 			"system"	"utaunt_spiral_teamcolor_blue"
 			"id"	"3237"
 			"attach_to_rootbone"	"0"
-			"name"	"Gradient Gale"
+			"name"	"Színátmenet-szélroham"
 		}
 		"658"
 		{
 			"system"	"utaunt_spiral_parent_purple"
 			"id"	"3238"
 			"attach_to_rootbone"	"0"
-			"name"	"Amethyst Gale"
+			"name"	"Ametiszt szélroham"
 		}
 		"659"
 		{
 			"system"	"utaunt_radioactive_teamcolor_red"
 			"id"	"3239"
 			"attach_to_rootbone"	"0"
-			"name"	"Gamma Rays"
+			"name"	"Gamma-sugarak"
 		}
 		"660"
 		{
 			"system"	"utaunt_radioactive_teamcolor_blue"
 			"id"	"3240"
 			"attach_to_rootbone"	"0"
-			"name"	"Gamma Rays"
+			"name"	"Gamma-sugarak"
 		}
 		"661"
 		{
 			"system"	"utaunt_radioactive_purple_parent"
 			"id"	"3241"
 			"attach_to_rootbone"	"0"
-			"name"	"Meltdown"
+			"name"	"Leolvadás"
 		}
 		"662"
 		{
 			"system"	"utaunt_radioactive_green_parent"
 			"id"	"3242"
 			"attach_to_rootbone"	"0"
-			"name"	"Radioactive"
+			"name"	"Radioaktív"
 		}
 		"663"
 		{

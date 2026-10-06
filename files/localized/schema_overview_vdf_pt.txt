@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.4462257ac3e4bb7ca615fc1316e32d977ece6fd8.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.6238995960a6ea85e6a1978aba2218bd816448c1.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -13060,7 +13060,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"416"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flor de Muerto"
+			"name"	"Flor De Muerto"
 		}
 		"399"
 		{
@@ -13068,7 +13068,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"417"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flor de Muerto"
+			"name"	"Flor De Muerto"
 		}
 		"400"
 		{
@@ -13076,7 +13076,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"418"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Autumn Breeze"
+			"name"	"Brisa de Outono"
 		}
 		"401"
 		{
@@ -13084,7 +13084,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"419"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spirit Swirl"
+			"name"	"Espiral Espiritual"
 		}
 		"402"
 		{
@@ -13092,7 +13092,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"420"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ghost Swirl"
+			"name"	"Espiral Espectral"
 		}
 		"403"
 		{
@@ -13100,7 +13100,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"421"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Feathers"
+			"name"	"Penas Pitorescas"
 		}
 		"404"
 		{
@@ -13108,7 +13108,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"422"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Feathers"
+			"name"	"Penas Pitorescas"
 		}
 		"405"
 		{
@@ -13116,7 +13116,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"423"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Quills"
+			"name"	"Plumas Pitorescas"
 		}
 		"406"
 		{
@@ -13124,7 +13124,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"424"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Grudge n' Drudge"
+			"name"	"Poções e Caldeirões"
 		}
 		"407"
 		{
@@ -13132,7 +13132,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"425"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Boil n' Toil"
+			"name"	"Ferver e Cozer"
 		}
 		"408"
 		{
@@ -13140,7 +13140,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"426"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Screaming Soul"
+			"name"	"Semblante Gritante"
 		}
 		"409"
 		{
@@ -13148,7 +13148,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"427"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Screeching Soul"
+			"name"	"Semblante Uivante"
 		}
 		"410"
 		{
@@ -13156,7 +13156,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"428"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Shrieking Soul"
+			"name"	"Semblante Berrante"
 		}
 		"411"
 		{
@@ -14840,91 +14840,91 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"system"	"utaunt_electropulse_teamc_teamcolor_red"
 			"id"	"3230"
 			"attach_to_rootbone"	"0"
-			"name"	"Electric Impulse"
+			"name"	"Impulso Elétrico"
 		}
 		"651"
 		{
 			"system"	"utaunt_electropulse_teamc_teamcolor_blue"
 			"id"	"3231"
 			"attach_to_rootbone"	"0"
-			"name"	"Electric Impulse"
+			"name"	"Impulso Elétrico"
 		}
 		"652"
 		{
 			"system"	"utaunt_waste_purple_parent"
 			"id"	"3232"
 			"attach_to_rootbone"	"0"
-			"name"	"Primordial Ooze"
+			"name"	"Gosma Primordial"
 		}
 		"653"
 		{
 			"system"	"utaunt_waste_green_parent"
 			"id"	"3233"
 			"attach_to_rootbone"	"0"
-			"name"	"Geiger Breaker"
+			"name"	"Gás de Geiger"
 		}
 		"654"
 		{
 			"system"	"utaunt_waste_yellow_parent"
 			"id"	"3234"
 			"attach_to_rootbone"	"0"
-			"name"	"Sulfuric Acid"
+			"name"	"Ácido Sulfúrico"
 		}
 		"655"
 		{
 			"system"	"utaunt_shroud_parent"
 			"id"	"3235"
 			"attach_to_rootbone"	"0"
-			"name"	"Shroud of Darkness"
+			"name"	"Manto da Escuridão"
 		}
 		"656"
 		{
 			"system"	"utaunt_spiral_teamcolor_red"
 			"id"	"3236"
 			"attach_to_rootbone"	"0"
-			"name"	"Gradient Gale"
+			"name"	"Vendaval Gradual"
 		}
 		"657"
 		{
 			"system"	"utaunt_spiral_teamcolor_blue"
 			"id"	"3237"
 			"attach_to_rootbone"	"0"
-			"name"	"Gradient Gale"
+			"name"	"Vendaval Gradual"
 		}
 		"658"
 		{
 			"system"	"utaunt_spiral_parent_purple"
 			"id"	"3238"
 			"attach_to_rootbone"	"0"
-			"name"	"Amethyst Gale"
+			"name"	"Vendaval Violeta"
 		}
 		"659"
 		{
 			"system"	"utaunt_radioactive_teamcolor_red"
 			"id"	"3239"
 			"attach_to_rootbone"	"0"
-			"name"	"Gamma Rays"
+			"name"	"Raios Gama"
 		}
 		"660"
 		{
 			"system"	"utaunt_radioactive_teamcolor_blue"
 			"id"	"3240"
 			"attach_to_rootbone"	"0"
-			"name"	"Gamma Rays"
+			"name"	"Raios Gama"
 		}
 		"661"
 		{
 			"system"	"utaunt_radioactive_purple_parent"
 			"id"	"3241"
 			"attach_to_rootbone"	"0"
-			"name"	"Meltdown"
+			"name"	"Fusão Nuclear"
 		}
 		"662"
 		{
 			"system"	"utaunt_radioactive_green_parent"
 			"id"	"3242"
 			"attach_to_rootbone"	"0"
-			"name"	"Radioactive"
+			"name"	"Radioatividade"
 		}
 		"663"
 		{

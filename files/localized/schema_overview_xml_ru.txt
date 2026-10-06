@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.4462257ac3e4bb7ca615fc1316e32d977ece6fd8.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.6238995960a6ea85e6a1978aba2218bd816448c1.txt</items_game_url>
 	<qualities>
 		<Normal>0</Normal>
 		<rarity1>1</rarity1>
@@ -11645,91 +11645,91 @@
 			<id>416</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Flor de Muerto</name>
+			<name>Флор де Муэрто</name>
 		</particle>
 		<particle>
 			<system>unusual_muertopetals_teamc_teamcolor_blue</system>
 			<id>417</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Flor de Muerto</name>
+			<name>Флор де Муэрто</name>
 		</particle>
 		<particle>
 			<system>unusual_autumnbreeze_parent</system>
 			<id>418</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Autumn Breeze</name>
+			<name>Осенний бриз</name>
 		</particle>
 		<particle>
 			<system>unusual_ghostspiral_purple_parent</system>
 			<id>419</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Spirit Swirl</name>
+			<name>Вихрь привидений</name>
 		</particle>
 		<particle>
 			<system>unusual_ghostspiral_green_parent</system>
 			<id>420</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Ghost Swirl</name>
+			<name>Вихрь призраков</name>
 		</particle>
 		<particle>
 			<system>unusual_fablefeathers_teamcolor_red</system>
 			<id>421</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Fable Feathers</name>
+			<name>Перья преданий</name>
 		</particle>
 		<particle>
 			<system>unusual_fablefeathers_teamcolor_blue</system>
 			<id>422</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Fable Feathers</name>
+			<name>Перья преданий</name>
 		</particle>
 		<particle>
 			<system>unusual_fablefeathers_purple_parent</system>
 			<id>423</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Fable Quills</name>
+			<name>Перья сказаний</name>
 		</particle>
 		<particle>
 			<system>unusual_boiltoil_purple_parent</system>
 			<id>424</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Grudge n&apos; Drudge</name>
+			<name>Обида-панихида</name>
 		</particle>
 		<particle>
 			<system>unusual_boiltoil_green_parent</system>
 			<id>425</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Boil n&apos; Toil</name>
+			<name>Варево-марево</name>
 		</particle>
 		<particle>
 			<system>unusual_scaredsouls_purple_parent</system>
 			<id>426</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Screaming Soul</name>
+			<name>Крик души</name>
 		</particle>
 		<particle>
 			<system>unusual_scaredsouls_green_parent</system>
 			<id>427</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Screeching Soul</name>
+			<name>Вой души</name>
 		</particle>
 		<particle>
 			<system>unusual_scaredsouls_orange_parent</system>
 			<id>428</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Shrieking Soul</name>
+			<name>Визг души</name>
 		</particle>
 		<particle>
 			<system>weapon_unusual_hot</system>
@@ -13173,79 +13173,79 @@
 			<system>utaunt_electropulse_teamc_teamcolor_red</system>
 			<id>3230</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Electric Impulse</name>
+			<name>Электрический импульс</name>
 		</particle>
 		<particle>
 			<system>utaunt_electropulse_teamc_teamcolor_blue</system>
 			<id>3231</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Electric Impulse</name>
+			<name>Электрический импульс</name>
 		</particle>
 		<particle>
 			<system>utaunt_waste_purple_parent</system>
 			<id>3232</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Primordial Ooze</name>
+			<name>Первородная слизь</name>
 		</particle>
 		<particle>
 			<system>utaunt_waste_green_parent</system>
 			<id>3233</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Geiger Breaker</name>
+			<name>Кошмар Гейгера</name>
 		</particle>
 		<particle>
 			<system>utaunt_waste_yellow_parent</system>
 			<id>3234</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Sulfuric Acid</name>
+			<name>Серная кислота</name>
 		</particle>
 		<particle>
 			<system>utaunt_shroud_parent</system>
 			<id>3235</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Shroud of Darkness</name>
+			<name>Покров тьмы</name>
 		</particle>
 		<particle>
 			<system>utaunt_spiral_teamcolor_red</system>
 			<id>3236</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Gradient Gale</name>
+			<name>Градиентный поток</name>
 		</particle>
 		<particle>
 			<system>utaunt_spiral_teamcolor_blue</system>
 			<id>3237</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Gradient Gale</name>
+			<name>Градиентный поток</name>
 		</particle>
 		<particle>
 			<system>utaunt_spiral_parent_purple</system>
 			<id>3238</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Amethyst Gale</name>
+			<name>Аметистовый поток</name>
 		</particle>
 		<particle>
 			<system>utaunt_radioactive_teamcolor_red</system>
 			<id>3239</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Gamma Rays</name>
+			<name>Гамма-лучи</name>
 		</particle>
 		<particle>
 			<system>utaunt_radioactive_teamcolor_blue</system>
 			<id>3240</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Gamma Rays</name>
+			<name>Гамма-лучи</name>
 		</particle>
 		<particle>
 			<system>utaunt_radioactive_purple_parent</system>
 			<id>3241</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Meltdown</name>
+			<name>Распад</name>
 		</particle>
 		<particle>
 			<system>utaunt_radioactive_green_parent</system>
 			<id>3242</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Radioactive</name>
+			<name>Радиоактивность</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>
