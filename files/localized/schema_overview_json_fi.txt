@@ -11674,7 +11674,7 @@
 				"id": 418,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Autumn Breeze"
+				"name": "Syystuulahdus"
 			},
 			{
 				"system": "unusual_ghostspiral_purple_parent",

@@ -13077,7 +13077,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän."
 			"id"	"418"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Autumn Breeze"
+			"name"	"Syystuulahdus"
 		}
 		"401"
 		{

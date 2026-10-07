@@ -13065,7 +13065,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"416"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flor De Muerto"
+			"name"	"Flor de Muerto"
 		}
 		"399"
 		{
@@ -13073,7 +13073,7 @@ A halálos találat égő játékoson sebességbónuszt ad."
 			"id"	"417"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flor De Muerto"
+			"name"	"Flor de Muerto"
 		}
 		"400"
 		{

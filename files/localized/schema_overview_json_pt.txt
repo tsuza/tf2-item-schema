@@ -11660,14 +11660,14 @@
 				"id": 416,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flor De Muerto"
+				"name": "Flor de Muerto"
 			},
 			{
 				"system": "unusual_muertopetals_teamc_teamcolor_blue",
 				"id": 417,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flor De Muerto"
+				"name": "Flor de Muerto"
 			},
 			{
 				"system": "unusual_autumnbreeze_parent",

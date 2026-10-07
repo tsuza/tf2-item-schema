@@ -18242,10 +18242,10 @@ https://wiki.teamfortress.com/</item_description>
 			</capabilities>
 			<styles>
 				<style>
-					<name>Классическая</name>
+					<name>Классический</name>
 				</style>
 				<style>
-					<name>Современная</name>
+					<name>Современный</name>
 				</style>
 			</styles>
 			<attributes>
@@ -26502,10 +26502,10 @@ Gamescom 2011</item_description>
 			</capabilities>
 			<styles>
 				<style>
-					<name>Классическая</name>
+					<name>Классический</name>
 				</style>
 				<style>
-					<name>Молниеносная</name>
+					<name>Молниеносный</name>
 				</style>
 			</styles>
 			<used_by_classes>
@@ -32330,7 +32330,7 @@ Gamescom 2011</item_description>
 			</capabilities>
 			<styles>
 				<style>
-					<name>Обычная</name>
+					<name>Обычный</name>
 				</style>
 				<style>
 					<name>Без клюва</name>
@@ -36071,10 +36071,10 @@ Gamescom 2011</item_description>
 			</capabilities>
 			<styles>
 				<style>
-					<name>Русская</name>
+					<name>Русский</name>
 				</style>
 				<style>
-					<name>Немецкая</name>
+					<name>Немецкий</name>
 				</style>
 			</styles>
 			<attributes>
@@ -39256,7 +39256,7 @@ Gamescom 2011</item_description>
 			</capabilities>
 			<styles>
 				<style>
-					<name>Универсальная</name>
+					<name>Универсальный</name>
 				</style>
 				<style>
 					<name>Разведчик</name>

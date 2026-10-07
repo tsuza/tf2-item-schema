@@ -18825,10 +18825,10 @@
 				},
 				"styles": [
 					{
-						"name": "Classic"
+						"name": "クラシック"
 					},
 					{
-						"name": "Contemporary"
+						"name": "コンテンポラリー"
 					}
 				]
 				,

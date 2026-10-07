@@ -11635,7 +11635,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse.</de
 			<id>418</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Autumn Breeze</name>
+			<name>Brise automnale</name>
 		</particle>
 		<particle>
 			<system>unusual_ghostspiral_purple_parent</system>

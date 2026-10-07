@@ -11630,7 +11630,7 @@ Palavien pelaajien tappamisesta saa nopeuslisän.</description_string>
 			<id>418</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Autumn Breeze</name>
+			<name>Syystuulahdus</name>
 		</particle>
 		<particle>
 			<system>unusual_ghostspiral_purple_parent</system>

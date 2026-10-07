@@ -13082,7 +13082,7 @@ Tuer un ennemi enflammé avec cette arme vous accordera un bonus de vitesse."
 			"id"	"418"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Autumn Breeze"
+			"name"	"Brise automnale"
 		}
 		"401"
 		{

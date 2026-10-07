@@ -11615,14 +11615,14 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			<id>416</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Flor De Muerto</name>
+			<name>Flor de Muerto</name>
 		</particle>
 		<particle>
 			<system>unusual_muertopetals_teamc_teamcolor_blue</system>
 			<id>417</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Flor De Muerto</name>
+			<name>Flor de Muerto</name>
 		</particle>
 		<particle>
 			<system>unusual_autumnbreeze_parent</system>

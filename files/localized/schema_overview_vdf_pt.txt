@@ -13060,7 +13060,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"416"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flor De Muerto"
+			"name"	"Flor de Muerto"
 		}
 		"399"
 		{
@@ -13068,7 +13068,7 @@ Se matares com esta arma um alvo que esteja a arder, ganhas um bónus de velocid
 			"id"	"417"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flor De Muerto"
+			"name"	"Flor de Muerto"
 		}
 		"400"
 		{

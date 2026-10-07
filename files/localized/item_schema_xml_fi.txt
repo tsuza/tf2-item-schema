@@ -48345,7 +48345,7 @@ Saat kriittisen lähitaisteluiskun osuttuasi viholliseen tietyllä välimatkalla
 			<defindex>1145</defindex>
 			<item_class>tf_weapon_lunchbox_drink</item_class>
 			<item_type_name>välipala</item_type_name>
-			<item_name>Juhlava naps! Atomi-isku</item_name>
+			<item_name>Juhlava Bonk-atomijuoma</item_name>
 			<item_description>Juomalla muutut haavoittumattomaksi 8 sekunnin ajaksi. Et voi hyökätä sen aikana.
 Otettu vahinko hidastaa sinua vaikutuksen päätyttyä.</item_description>
 			<proper_name>false</proper_name>

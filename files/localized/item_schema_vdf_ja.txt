@@ -20689,11 +20689,11 @@ http://wiki.teamfortress.com/"
 			{
 				"0"
 				{
-					"name"	"Classic"
+					"name"	"クラシック"
 				}
 				"1"
 				{
-					"name"	"Contemporary"
+					"name"	"コンテンポラリー"
 				}
 			}
 			"attributes"

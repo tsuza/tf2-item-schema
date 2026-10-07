@@ -18226,10 +18226,10 @@ http://wiki.teamfortress.com/</item_description>
 			</capabilities>
 			<styles>
 				<style>
-					<name>Classic</name>
+					<name>クラシック</name>
 				</style>
 				<style>
-					<name>Contemporary</name>
+					<name>コンテンポラリー</name>
 				</style>
 			</styles>
 			<attributes>

@@ -50005,7 +50005,7 @@
 				"defindex": 1145,
 				"item_class": "tf_weapon_lunchbox_drink",
 				"item_type_name": "välipala",
-				"item_name": "Juhlava naps! Atomi-isku",
+				"item_name": "Juhlava Bonk-atomijuoma",
 				"item_description": "Juomalla muutut haavoittumattomaksi 8 sekunnin ajaksi. Et voi hyökätä sen aikana.\nOtettu vahinko hidastaa sinua vaikutuksen päätyttyä.",
 				"proper_name": false,
 				"item_slot": "secondary",

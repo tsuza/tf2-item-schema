@@ -11633,77 +11633,77 @@ Matar a objetivos en llamas da un subidón de velocidad.</description_string>
 			<id>418</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Autumn Breeze</name>
+			<name>Brisa de otoño</name>
 		</particle>
 		<particle>
 			<system>unusual_ghostspiral_purple_parent</system>
 			<id>419</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Spirit Swirl</name>
+			<name>Remolino espiritual</name>
 		</particle>
 		<particle>
 			<system>unusual_ghostspiral_green_parent</system>
 			<id>420</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Ghost Swirl</name>
+			<name>Remolino fantasmal</name>
 		</particle>
 		<particle>
 			<system>unusual_fablefeathers_teamcolor_red</system>
 			<id>421</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Fable Feathers</name>
+			<name>Plumas de fábula</name>
 		</particle>
 		<particle>
 			<system>unusual_fablefeathers_teamcolor_blue</system>
 			<id>422</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Fable Feathers</name>
+			<name>Plumas de fábula</name>
 		</particle>
 		<particle>
 			<system>unusual_fablefeathers_purple_parent</system>
 			<id>423</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Fable Quills</name>
+			<name>Cálamos de fábula</name>
 		</particle>
 		<particle>
 			<system>unusual_boiltoil_purple_parent</system>
 			<id>424</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Grudge n&apos; Drudge</name>
+			<name>Rencor y dolor</name>
 		</particle>
 		<particle>
 			<system>unusual_boiltoil_green_parent</system>
 			<id>425</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Boil n&apos; Toil</name>
+			<name>Hervor y sudor</name>
 		</particle>
 		<particle>
 			<system>unusual_scaredsouls_purple_parent</system>
 			<id>426</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Screaming Soul</name>
+			<name>Alma gritona</name>
 		</particle>
 		<particle>
 			<system>unusual_scaredsouls_green_parent</system>
 			<id>427</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Screeching Soul</name>
+			<name>Alma chirriante</name>
 		</particle>
 		<particle>
 			<system>unusual_scaredsouls_orange_parent</system>
 			<id>428</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Shrieking Soul</name>
+			<name>Alma chillona</name>
 		</particle>
 		<particle>
 			<system>weapon_unusual_hot</system>
@@ -13147,37 +13147,37 @@ Matar a objetivos en llamas da un subidón de velocidad.</description_string>
 			<system>utaunt_electropulse_teamc_teamcolor_red</system>
 			<id>3230</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Electric Impulse</name>
+			<name>Impulso eléctrico</name>
 		</particle>
 		<particle>
 			<system>utaunt_electropulse_teamc_teamcolor_blue</system>
 			<id>3231</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Electric Impulse</name>
+			<name>Impulso eléctrico</name>
 		</particle>
 		<particle>
 			<system>utaunt_waste_purple_parent</system>
 			<id>3232</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Primordial Ooze</name>
+			<name>Cieno primordial</name>
 		</particle>
 		<particle>
 			<system>utaunt_waste_green_parent</system>
 			<id>3233</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Geiger Breaker</name>
+			<name>Destrozageigers</name>
 		</particle>
 		<particle>
 			<system>utaunt_waste_yellow_parent</system>
 			<id>3234</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Sulfuric Acid</name>
+			<name>Ácido sulfúrico</name>
 		</particle>
 		<particle>
 			<system>utaunt_shroud_parent</system>
 			<id>3235</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Shroud of Darkness</name>
+			<name>Manto de oscuridad</name>
 		</particle>
 		<particle>
 			<system>utaunt_spiral_teamcolor_red</system>
@@ -13195,31 +13195,31 @@ Matar a objetivos en llamas da un subidón de velocidad.</description_string>
 			<system>utaunt_spiral_parent_purple</system>
 			<id>3238</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Amethyst Gale</name>
+			<name>Vendaval de amatista</name>
 		</particle>
 		<particle>
 			<system>utaunt_radioactive_teamcolor_red</system>
 			<id>3239</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Gamma Rays</name>
+			<name>Rayos gamma</name>
 		</particle>
 		<particle>
 			<system>utaunt_radioactive_teamcolor_blue</system>
 			<id>3240</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Gamma Rays</name>
+			<name>Rayos gamma</name>
 		</particle>
 		<particle>
 			<system>utaunt_radioactive_purple_parent</system>
 			<id>3241</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Meltdown</name>
+			<name>Fusión</name>
 		</particle>
 		<particle>
 			<system>utaunt_radioactive_green_parent</system>
 			<id>3242</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Radioactive</name>
+			<name>Radioactivo</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>

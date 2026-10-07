@@ -18223,10 +18223,10 @@ Comparte unas buenas risas con todo el mundo excepto con el tipo al que acabas d
 			</capabilities>
 			<styles>
 				<style>
-					<name>Classic</name>
+					<name>Clásico</name>
 				</style>
 				<style>
-					<name>Contemporary</name>
+					<name>Contemporáneo</name>
 				</style>
 			</styles>
 			<attributes>
