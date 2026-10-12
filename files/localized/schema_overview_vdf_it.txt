@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.6238995960a6ea85e6a1978aba2218bd816448c1.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.e66e5f62b0415338385e70fdd3e67f493e8f5ed5.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -13064,7 +13064,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"416"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flor de Muerto"
+			"name"	"Flor de muerto"
 		}
 		"399"
 		{
@@ -13072,7 +13072,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"417"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flor de Muerto"
+			"name"	"Flor de muerto"
 		}
 		"400"
 		{
@@ -13080,7 +13080,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"418"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Autumn Breeze"
+			"name"	"Brezza Autunnale"
 		}
 		"401"
 		{
@@ -13088,7 +13088,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"419"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spirit Swirl"
+			"name"	"Vortice di Spiriti"
 		}
 		"402"
 		{
@@ -13096,7 +13096,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"420"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ghost Swirl"
+			"name"	"Vortice Fantasmagorico"
 		}
 		"403"
 		{
@@ -13104,7 +13104,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"421"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Feathers"
+			"name"	"Piume di Favola"
 		}
 		"404"
 		{
@@ -13112,7 +13112,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"422"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Feathers"
+			"name"	"Piume di Favola"
 		}
 		"405"
 		{
@@ -13120,7 +13120,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"423"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Quills"
+			"name"	"Penne di Favola"
 		}
 		"406"
 		{
@@ -13128,7 +13128,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"424"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Grudge n' Drudge"
+			"name"	"Bolle Scheletriche"
 		}
 		"407"
 		{
@@ -13136,7 +13136,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"425"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Boil n' Toil"
+			"name"	"Bolle Cadaveriche"
 		}
 		"408"
 		{
@@ -13144,7 +13144,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"426"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Screaming Soul"
+			"name"	"Anima Urlante"
 		}
 		"409"
 		{
@@ -13152,7 +13152,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"427"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Screeching Soul"
+			"name"	"Anima Stridente"
 		}
 		"410"
 		{
@@ -13160,7 +13160,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"id"	"428"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Shrieking Soul"
+			"name"	"Anima Strillante"
 		}
 		"411"
 		{
@@ -14844,77 +14844,77 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"system"	"utaunt_electropulse_teamc_teamcolor_red"
 			"id"	"3230"
 			"attach_to_rootbone"	"0"
-			"name"	"Electric Impulse"
+			"name"	"Impulso Elettrico"
 		}
 		"651"
 		{
 			"system"	"utaunt_electropulse_teamc_teamcolor_blue"
 			"id"	"3231"
 			"attach_to_rootbone"	"0"
-			"name"	"Electric Impulse"
+			"name"	"Impulso Elettrico"
 		}
 		"652"
 		{
 			"system"	"utaunt_waste_purple_parent"
 			"id"	"3232"
 			"attach_to_rootbone"	"0"
-			"name"	"Primordial Ooze"
+			"name"	"Melma Primordiale"
 		}
 		"653"
 		{
 			"system"	"utaunt_waste_green_parent"
 			"id"	"3233"
 			"attach_to_rootbone"	"0"
-			"name"	"Geiger Breaker"
+			"name"	"Infrangi-Geyger"
 		}
 		"654"
 		{
 			"system"	"utaunt_waste_yellow_parent"
 			"id"	"3234"
 			"attach_to_rootbone"	"0"
-			"name"	"Sulfuric Acid"
+			"name"	"Acido Solforico"
 		}
 		"655"
 		{
 			"system"	"utaunt_shroud_parent"
 			"id"	"3235"
 			"attach_to_rootbone"	"0"
-			"name"	"Shroud of Darkness"
+			"name"	"Sudario delle Tenebre"
 		}
 		"656"
 		{
 			"system"	"utaunt_spiral_teamcolor_red"
 			"id"	"3236"
 			"attach_to_rootbone"	"0"
-			"name"	"Gradient Gale"
+			"name"	"Vortice Gradiente"
 		}
 		"657"
 		{
 			"system"	"utaunt_spiral_teamcolor_blue"
 			"id"	"3237"
 			"attach_to_rootbone"	"0"
-			"name"	"Gradient Gale"
+			"name"	"Vortice Gradiente"
 		}
 		"658"
 		{
 			"system"	"utaunt_spiral_parent_purple"
 			"id"	"3238"
 			"attach_to_rootbone"	"0"
-			"name"	"Amethyst Gale"
+			"name"	"Vortice Ametista"
 		}
 		"659"
 		{
 			"system"	"utaunt_radioactive_teamcolor_red"
 			"id"	"3239"
 			"attach_to_rootbone"	"0"
-			"name"	"Gamma Rays"
+			"name"	"Raggi Gamma"
 		}
 		"660"
 		{
 			"system"	"utaunt_radioactive_teamcolor_blue"
 			"id"	"3240"
 			"attach_to_rootbone"	"0"
-			"name"	"Gamma Rays"
+			"name"	"Raggi Gamma"
 		}
 		"661"
 		{
@@ -14928,7 +14928,7 @@ I colpi fatali inflitti ai giocatori in fiamme forniscono un bonus di velocità.
 			"system"	"utaunt_radioactive_green_parent"
 			"id"	"3242"
 			"attach_to_rootbone"	"0"
-			"name"	"Radioactive"
+			"name"	"Radioattivo"
 		}
 		"663"
 		{

@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.6238995960a6ea85e6a1978aba2218bd816448c1.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.e66e5f62b0415338385e70fdd3e67f493e8f5ed5.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -11674,77 +11674,77 @@
 				"id": 418,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Autumn Breeze"
+				"name": "Efterårsbrise"
 			},
 			{
 				"system": "unusual_ghostspiral_purple_parent",
 				"id": 419,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Spirit Swirl"
+				"name": "Vanvidshvirvel"
 			},
 			{
 				"system": "unusual_ghostspiral_green_parent",
 				"id": 420,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ghost Swirl"
+				"name": "Spøgelsesspiral"
 			},
 			{
 				"system": "unusual_fablefeathers_teamcolor_red",
 				"id": 421,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fable Feathers"
+				"name": "Fabelagtige Fjer"
 			},
 			{
 				"system": "unusual_fablefeathers_teamcolor_blue",
 				"id": 422,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fable Feathers"
+				"name": "Fabelagtige Fjer"
 			},
 			{
 				"system": "unusual_fablefeathers_purple_parent",
 				"id": 423,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fable Quills"
+				"name": "Fantastiske Fjer"
 			},
 			{
 				"system": "unusual_boiltoil_purple_parent",
 				"id": 424,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Grudge n' Drudge"
+				"name": "Nid og Nag"
 			},
 			{
 				"system": "unusual_boiltoil_green_parent",
 				"id": 425,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Boil n' Toil"
+				"name": "Slid og Slæb"
 			},
 			{
 				"system": "unusual_scaredsouls_purple_parent",
 				"id": 426,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Screaming Soul"
+				"name": "Skrigende Sjæl"
 			},
 			{
 				"system": "unusual_scaredsouls_green_parent",
 				"id": 427,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Screeching Soul"
+				"name": "Skrålende Sjæl"
 			},
 			{
 				"system": "unusual_scaredsouls_orange_parent",
 				"id": 428,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Shrieking Soul"
+				"name": "Skingrende Sjæl"
 			},
 			{
 				"system": "weapon_unusual_hot",
@@ -13188,79 +13188,79 @@
 				"system": "utaunt_electropulse_teamc_teamcolor_red",
 				"id": 3230,
 				"attach_to_rootbone": false,
-				"name": "Electric Impulse"
+				"name": "Elektrisk Impuls"
 			},
 			{
 				"system": "utaunt_electropulse_teamc_teamcolor_blue",
 				"id": 3231,
 				"attach_to_rootbone": false,
-				"name": "Electric Impulse"
+				"name": "Elektrisk Impuls"
 			},
 			{
 				"system": "utaunt_waste_purple_parent",
 				"id": 3232,
 				"attach_to_rootbone": false,
-				"name": "Primordial Ooze"
+				"name": "Urslam"
 			},
 			{
 				"system": "utaunt_waste_green_parent",
 				"id": 3233,
 				"attach_to_rootbone": false,
-				"name": "Geiger Breaker"
+				"name": "Geigergas"
 			},
 			{
 				"system": "utaunt_waste_yellow_parent",
 				"id": 3234,
 				"attach_to_rootbone": false,
-				"name": "Sulfuric Acid"
+				"name": "Svovlsyre"
 			},
 			{
 				"system": "utaunt_shroud_parent",
 				"id": 3235,
 				"attach_to_rootbone": false,
-				"name": "Shroud of Darkness"
+				"name": "Mørkeslør"
 			},
 			{
 				"system": "utaunt_spiral_teamcolor_red",
 				"id": 3236,
 				"attach_to_rootbone": false,
-				"name": "Gradient Gale"
+				"name": "Gradientstorm"
 			},
 			{
 				"system": "utaunt_spiral_teamcolor_blue",
 				"id": 3237,
 				"attach_to_rootbone": false,
-				"name": "Gradient Gale"
+				"name": "Gradientstorm"
 			},
 			{
 				"system": "utaunt_spiral_parent_purple",
 				"id": 3238,
 				"attach_to_rootbone": false,
-				"name": "Amethyst Gale"
+				"name": "Ametyststorm"
 			},
 			{
 				"system": "utaunt_radioactive_teamcolor_red",
 				"id": 3239,
 				"attach_to_rootbone": false,
-				"name": "Gamma Rays"
+				"name": "Gammastråler"
 			},
 			{
 				"system": "utaunt_radioactive_teamcolor_blue",
 				"id": 3240,
 				"attach_to_rootbone": false,
-				"name": "Gamma Rays"
+				"name": "Gammastråler"
 			},
 			{
 				"system": "utaunt_radioactive_purple_parent",
 				"id": 3241,
 				"attach_to_rootbone": false,
-				"name": "Meltdown"
+				"name": "Nedsmeltning"
 			},
 			{
 				"system": "utaunt_radioactive_green_parent",
 				"id": 3242,
 				"attach_to_rootbone": false,
-				"name": "Radioactive"
+				"name": "Radioaktiv"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",

@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.6238995960a6ea85e6a1978aba2218bd816448c1.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.e66e5f62b0415338385e70fdd3e67f493e8f5ed5.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -13079,7 +13079,7 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"id"	"418"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Autumn Breeze"
+			"name"	"Efterårsbrise"
 		}
 		"401"
 		{
@@ -13087,7 +13087,7 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"id"	"419"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spirit Swirl"
+			"name"	"Vanvidshvirvel"
 		}
 		"402"
 		{
@@ -13095,7 +13095,7 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"id"	"420"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ghost Swirl"
+			"name"	"Spøgelsesspiral"
 		}
 		"403"
 		{
@@ -13103,7 +13103,7 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"id"	"421"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Feathers"
+			"name"	"Fabelagtige Fjer"
 		}
 		"404"
 		{
@@ -13111,7 +13111,7 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"id"	"422"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Feathers"
+			"name"	"Fabelagtige Fjer"
 		}
 		"405"
 		{
@@ -13119,7 +13119,7 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"id"	"423"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Quills"
+			"name"	"Fantastiske Fjer"
 		}
 		"406"
 		{
@@ -13127,7 +13127,7 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"id"	"424"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Grudge n' Drudge"
+			"name"	"Nid og Nag"
 		}
 		"407"
 		{
@@ -13135,7 +13135,7 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"id"	"425"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Boil n' Toil"
+			"name"	"Slid og Slæb"
 		}
 		"408"
 		{
@@ -13143,7 +13143,7 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"id"	"426"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Screaming Soul"
+			"name"	"Skrigende Sjæl"
 		}
 		"409"
 		{
@@ -13151,7 +13151,7 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"id"	"427"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Screeching Soul"
+			"name"	"Skrålende Sjæl"
 		}
 		"410"
 		{
@@ -13159,7 +13159,7 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"id"	"428"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Shrieking Soul"
+			"name"	"Skingrende Sjæl"
 		}
 		"411"
 		{
@@ -14843,91 +14843,91 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"system"	"utaunt_electropulse_teamc_teamcolor_red"
 			"id"	"3230"
 			"attach_to_rootbone"	"0"
-			"name"	"Electric Impulse"
+			"name"	"Elektrisk Impuls"
 		}
 		"651"
 		{
 			"system"	"utaunt_electropulse_teamc_teamcolor_blue"
 			"id"	"3231"
 			"attach_to_rootbone"	"0"
-			"name"	"Electric Impulse"
+			"name"	"Elektrisk Impuls"
 		}
 		"652"
 		{
 			"system"	"utaunt_waste_purple_parent"
 			"id"	"3232"
 			"attach_to_rootbone"	"0"
-			"name"	"Primordial Ooze"
+			"name"	"Urslam"
 		}
 		"653"
 		{
 			"system"	"utaunt_waste_green_parent"
 			"id"	"3233"
 			"attach_to_rootbone"	"0"
-			"name"	"Geiger Breaker"
+			"name"	"Geigergas"
 		}
 		"654"
 		{
 			"system"	"utaunt_waste_yellow_parent"
 			"id"	"3234"
 			"attach_to_rootbone"	"0"
-			"name"	"Sulfuric Acid"
+			"name"	"Svovlsyre"
 		}
 		"655"
 		{
 			"system"	"utaunt_shroud_parent"
 			"id"	"3235"
 			"attach_to_rootbone"	"0"
-			"name"	"Shroud of Darkness"
+			"name"	"Mørkeslør"
 		}
 		"656"
 		{
 			"system"	"utaunt_spiral_teamcolor_red"
 			"id"	"3236"
 			"attach_to_rootbone"	"0"
-			"name"	"Gradient Gale"
+			"name"	"Gradientstorm"
 		}
 		"657"
 		{
 			"system"	"utaunt_spiral_teamcolor_blue"
 			"id"	"3237"
 			"attach_to_rootbone"	"0"
-			"name"	"Gradient Gale"
+			"name"	"Gradientstorm"
 		}
 		"658"
 		{
 			"system"	"utaunt_spiral_parent_purple"
 			"id"	"3238"
 			"attach_to_rootbone"	"0"
-			"name"	"Amethyst Gale"
+			"name"	"Ametyststorm"
 		}
 		"659"
 		{
 			"system"	"utaunt_radioactive_teamcolor_red"
 			"id"	"3239"
 			"attach_to_rootbone"	"0"
-			"name"	"Gamma Rays"
+			"name"	"Gammastråler"
 		}
 		"660"
 		{
 			"system"	"utaunt_radioactive_teamcolor_blue"
 			"id"	"3240"
 			"attach_to_rootbone"	"0"
-			"name"	"Gamma Rays"
+			"name"	"Gammastråler"
 		}
 		"661"
 		{
 			"system"	"utaunt_radioactive_purple_parent"
 			"id"	"3241"
 			"attach_to_rootbone"	"0"
-			"name"	"Meltdown"
+			"name"	"Nedsmeltning"
 		}
 		"662"
 		{
 			"system"	"utaunt_radioactive_green_parent"
 			"id"	"3242"
 			"attach_to_rootbone"	"0"
-			"name"	"Radioactive"
+			"name"	"Radioaktiv"
 		}
 		"663"
 		{

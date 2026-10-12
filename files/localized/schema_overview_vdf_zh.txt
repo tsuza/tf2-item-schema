@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.6238995960a6ea85e6a1978aba2218bd816448c1.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.e66e5f62b0415338385e70fdd3e67f493e8f5ed5.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -13064,7 +13064,7 @@
 			"id"	"416"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flor de Muerto"
+			"name"	"亡灵之花"
 		}
 		"399"
 		{
@@ -13072,7 +13072,7 @@
 			"id"	"417"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flor de Muerto"
+			"name"	"亡灵之花"
 		}
 		"400"
 		{
@@ -13080,7 +13080,7 @@
 			"id"	"418"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Autumn Breeze"
+			"name"	"秋风吹拂"
 		}
 		"401"
 		{
@@ -13088,7 +13088,7 @@
 			"id"	"419"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spirit Swirl"
+			"name"	"幻灵漩涡"
 		}
 		"402"
 		{
@@ -13096,7 +13096,7 @@
 			"id"	"420"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ghost Swirl"
+			"name"	"魂灵漩涡"
 		}
 		"403"
 		{
@@ -13104,7 +13104,7 @@
 			"id"	"421"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Feathers"
+			"name"	"寓言之羽"
 		}
 		"404"
 		{
@@ -13112,7 +13112,7 @@
 			"id"	"422"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Feathers"
+			"name"	"寓言之羽"
 		}
 		"405"
 		{
@@ -13120,7 +13120,7 @@
 			"id"	"423"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Quills"
+			"name"	"无稽之羽"
 		}
 		"406"
 		{
@@ -13128,7 +13128,7 @@
 			"id"	"424"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Grudge n' Drudge"
+			"name"	"积怨劳苦"
 		}
 		"407"
 		{
@@ -13136,7 +13136,7 @@
 			"id"	"425"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Boil n' Toil"
+			"name"	"沸腾奔波"
 		}
 		"408"
 		{
@@ -13144,7 +13144,7 @@
 			"id"	"426"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Screaming Soul"
+			"name"	"尖叫鬼脸"
 		}
 		"409"
 		{
@@ -13152,7 +13152,7 @@
 			"id"	"427"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Screeching Soul"
+			"name"	"悲鸣鬼脸"
 		}
 		"410"
 		{
@@ -13160,7 +13160,7 @@
 			"id"	"428"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Shrieking Soul"
+			"name"	"嘶吼鬼脸"
 		}
 		"411"
 		{
@@ -14844,91 +14844,91 @@
 			"system"	"utaunt_electropulse_teamc_teamcolor_red"
 			"id"	"3230"
 			"attach_to_rootbone"	"0"
-			"name"	"Electric Impulse"
+			"name"	"电流脉冲"
 		}
 		"651"
 		{
 			"system"	"utaunt_electropulse_teamc_teamcolor_blue"
 			"id"	"3231"
 			"attach_to_rootbone"	"0"
-			"name"	"Electric Impulse"
+			"name"	"电流脉冲"
 		}
 		"652"
 		{
 			"system"	"utaunt_waste_purple_parent"
 			"id"	"3232"
 			"attach_to_rootbone"	"0"
-			"name"	"Primordial Ooze"
+			"name"	"原质泄漏"
 		}
 		"653"
 		{
 			"system"	"utaunt_waste_green_parent"
 			"id"	"3233"
 			"attach_to_rootbone"	"0"
-			"name"	"Geiger Breaker"
+			"name"	"辐射爆表"
 		}
 		"654"
 		{
 			"system"	"utaunt_waste_yellow_parent"
 			"id"	"3234"
 			"attach_to_rootbone"	"0"
-			"name"	"Sulfuric Acid"
+			"name"	"硫酸坏水"
 		}
 		"655"
 		{
 			"system"	"utaunt_shroud_parent"
 			"id"	"3235"
 			"attach_to_rootbone"	"0"
-			"name"	"Shroud of Darkness"
+			"name"	"暗夜面纱"
 		}
 		"656"
 		{
 			"system"	"utaunt_spiral_teamcolor_red"
 			"id"	"3236"
 			"attach_to_rootbone"	"0"
-			"name"	"Gradient Gale"
+			"name"	"螺旋灵风"
 		}
 		"657"
 		{
 			"system"	"utaunt_spiral_teamcolor_blue"
 			"id"	"3237"
 			"attach_to_rootbone"	"0"
-			"name"	"Gradient Gale"
+			"name"	"螺旋灵风"
 		}
 		"658"
 		{
 			"system"	"utaunt_spiral_parent_purple"
 			"id"	"3238"
 			"attach_to_rootbone"	"0"
-			"name"	"Amethyst Gale"
+			"name"	"紫晶旋光"
 		}
 		"659"
 		{
 			"system"	"utaunt_radioactive_teamcolor_red"
 			"id"	"3239"
 			"attach_to_rootbone"	"0"
-			"name"	"Gamma Rays"
+			"name"	"伽马射线"
 		}
 		"660"
 		{
 			"system"	"utaunt_radioactive_teamcolor_blue"
 			"id"	"3240"
 			"attach_to_rootbone"	"0"
-			"name"	"Gamma Rays"
+			"name"	"伽马射线"
 		}
 		"661"
 		{
 			"system"	"utaunt_radioactive_purple_parent"
 			"id"	"3241"
 			"attach_to_rootbone"	"0"
-			"name"	"Meltdown"
+			"name"	"核心熔毁"
 		}
 		"662"
 		{
 			"system"	"utaunt_radioactive_green_parent"
 			"id"	"3242"
 			"attach_to_rootbone"	"0"
-			"name"	"Radioactive"
+			"name"	"辐射危害"
 		}
 		"663"
 		{
