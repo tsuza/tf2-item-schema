@@ -13075,7 +13075,7 @@
 				"defindex": 334,
 				"item_class": "tf_wearable",
 				"item_type_name": "Chapeau",
-				"item_name": "Chapeau de la Fortune et du Respect Incontestables",
+				"item_name": "Chapeau de la fortune et du respect incontestables",
 				"item_description": "Débloqué en terminant 28 tâches dans 'La Grande Chasse au Trésor Steam'. Prenez garde au cadenas Céphalopode.",
 				"proper_name": false,
 				"item_slot": "misc",

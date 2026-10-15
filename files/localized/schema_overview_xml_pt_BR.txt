@@ -11605,14 +11605,14 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			<id>416</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Flor de Muerto</name>
+			<name>Flor de los muertos</name>
 		</particle>
 		<particle>
 			<system>unusual_muertopetals_teamc_teamcolor_blue</system>
 			<id>417</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Flor de Muerto</name>
+			<name>Flor de los muertos</name>
 		</particle>
 		<particle>
 			<system>unusual_autumnbreeze_parent</system>
@@ -11626,70 +11626,70 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			<id>419</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Spirit Swirl</name>
+			<name>Espiral espiritual</name>
 		</particle>
 		<particle>
 			<system>unusual_ghostspiral_green_parent</system>
 			<id>420</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Ghost Swirl</name>
+			<name>Espiral fantasmagórica</name>
 		</particle>
 		<particle>
 			<system>unusual_fablefeathers_teamcolor_red</system>
 			<id>421</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Fable Feathers</name>
+			<name>Penas fabulosas</name>
 		</particle>
 		<particle>
 			<system>unusual_fablefeathers_teamcolor_blue</system>
 			<id>422</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Fable Feathers</name>
+			<name>Penas fabulosas</name>
 		</particle>
 		<particle>
 			<system>unusual_fablefeathers_purple_parent</system>
 			<id>423</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Fable Quills</name>
+			<name>Plumas fabulosas</name>
 		</particle>
 		<particle>
 			<system>unusual_boiltoil_purple_parent</system>
 			<id>424</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Grudge n&apos; Drudge</name>
+			<name>Bolhas esqueléticas</name>
 		</particle>
 		<particle>
 			<system>unusual_boiltoil_green_parent</system>
 			<id>425</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Boil n&apos; Toil</name>
+			<name>Bolhas cadavéricas</name>
 		</particle>
 		<particle>
 			<system>unusual_scaredsouls_purple_parent</system>
 			<id>426</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Screaming Soul</name>
+			<name>Alma gritante</name>
 		</particle>
 		<particle>
 			<system>unusual_scaredsouls_green_parent</system>
 			<id>427</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Screeching Soul</name>
+			<name>Alma estridente</name>
 		</particle>
 		<particle>
 			<system>unusual_scaredsouls_orange_parent</system>
 			<id>428</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Shrieking Soul</name>
+			<name>Alma berrante</name>
 		</particle>
 		<particle>
 			<system>weapon_unusual_hot</system>
@@ -13133,79 +13133,79 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			<system>utaunt_electropulse_teamc_teamcolor_red</system>
 			<id>3230</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Electric Impulse</name>
+			<name>Impulso elétrico</name>
 		</particle>
 		<particle>
 			<system>utaunt_electropulse_teamc_teamcolor_blue</system>
 			<id>3231</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Electric Impulse</name>
+			<name>Impulso elétrico</name>
 		</particle>
 		<particle>
 			<system>utaunt_waste_purple_parent</system>
 			<id>3232</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Primordial Ooze</name>
+			<name>Sopa primordial</name>
 		</particle>
 		<particle>
 			<system>utaunt_waste_green_parent</system>
 			<id>3233</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Geiger Breaker</name>
+			<name>Destruidor geiger</name>
 		</particle>
 		<particle>
 			<system>utaunt_waste_yellow_parent</system>
 			<id>3234</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Sulfuric Acid</name>
+			<name>Ácido sulfúrico</name>
 		</particle>
 		<particle>
 			<system>utaunt_shroud_parent</system>
 			<id>3235</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Shroud of Darkness</name>
+			<name>Manto das trevas</name>
 		</particle>
 		<particle>
 			<system>utaunt_spiral_teamcolor_red</system>
 			<id>3236</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Gradient Gale</name>
+			<name>Vórtice gradiente</name>
 		</particle>
 		<particle>
 			<system>utaunt_spiral_teamcolor_blue</system>
 			<id>3237</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Gradient Gale</name>
+			<name>Vórtice gradiente</name>
 		</particle>
 		<particle>
 			<system>utaunt_spiral_parent_purple</system>
 			<id>3238</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Amethyst Gale</name>
+			<name>Vórtice ametista</name>
 		</particle>
 		<particle>
 			<system>utaunt_radioactive_teamcolor_red</system>
 			<id>3239</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Gamma Rays</name>
+			<name>Raios gama</name>
 		</particle>
 		<particle>
 			<system>utaunt_radioactive_teamcolor_blue</system>
 			<id>3240</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Gamma Rays</name>
+			<name>Raios gama</name>
 		</particle>
 		<particle>
 			<system>utaunt_radioactive_purple_parent</system>
 			<id>3241</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Meltdown</name>
+			<name>Fusão</name>
 		</particle>
 		<particle>
 			<system>utaunt_radioactive_green_parent</system>
 			<id>3242</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Radioactive</name>
+			<name>Radioativo</name>
 		</particle>
 		<particle>
 			<system>killstreak_eyeglow_4_teamcolor_red</system>

@@ -13050,7 +13050,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"416"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flor de Muerto"
+			"name"	"Flor de los muertos"
 		}
 		"399"
 		{
@@ -13058,7 +13058,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"417"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flor de Muerto"
+			"name"	"Flor de los muertos"
 		}
 		"400"
 		{
@@ -13074,7 +13074,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"419"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spirit Swirl"
+			"name"	"Espiral espiritual"
 		}
 		"402"
 		{
@@ -13082,7 +13082,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"420"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ghost Swirl"
+			"name"	"Espiral fantasmagórica"
 		}
 		"403"
 		{
@@ -13090,7 +13090,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"421"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Feathers"
+			"name"	"Penas fabulosas"
 		}
 		"404"
 		{
@@ -13098,7 +13098,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"422"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Feathers"
+			"name"	"Penas fabulosas"
 		}
 		"405"
 		{
@@ -13106,7 +13106,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"423"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Quills"
+			"name"	"Plumas fabulosas"
 		}
 		"406"
 		{
@@ -13114,7 +13114,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"424"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Grudge n' Drudge"
+			"name"	"Bolhas esqueléticas"
 		}
 		"407"
 		{
@@ -13122,7 +13122,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"425"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Boil n' Toil"
+			"name"	"Bolhas cadavéricas"
 		}
 		"408"
 		{
@@ -13130,7 +13130,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"426"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Screaming Soul"
+			"name"	"Alma gritante"
 		}
 		"409"
 		{
@@ -13138,7 +13138,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"427"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Screeching Soul"
+			"name"	"Alma estridente"
 		}
 		"410"
 		{
@@ -13146,7 +13146,7 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"id"	"428"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Shrieking Soul"
+			"name"	"Alma berrante"
 		}
 		"411"
 		{
@@ -14830,91 +14830,91 @@ Golpes fatais contra inimigos em chamas concedem velocidade de movimento adicion
 			"system"	"utaunt_electropulse_teamc_teamcolor_red"
 			"id"	"3230"
 			"attach_to_rootbone"	"0"
-			"name"	"Electric Impulse"
+			"name"	"Impulso elétrico"
 		}
 		"651"
 		{
 			"system"	"utaunt_electropulse_teamc_teamcolor_blue"
 			"id"	"3231"
 			"attach_to_rootbone"	"0"
-			"name"	"Electric Impulse"
+			"name"	"Impulso elétrico"
 		}
 		"652"
 		{
 			"system"	"utaunt_waste_purple_parent"
 			"id"	"3232"
 			"attach_to_rootbone"	"0"
-			"name"	"Primordial Ooze"
+			"name"	"Sopa primordial"
 		}
 		"653"
 		{
 			"system"	"utaunt_waste_green_parent"
 			"id"	"3233"
 			"attach_to_rootbone"	"0"
-			"name"	"Geiger Breaker"
+			"name"	"Destruidor geiger"
 		}
 		"654"
 		{
 			"system"	"utaunt_waste_yellow_parent"
 			"id"	"3234"
 			"attach_to_rootbone"	"0"
-			"name"	"Sulfuric Acid"
+			"name"	"Ácido sulfúrico"
 		}
 		"655"
 		{
 			"system"	"utaunt_shroud_parent"
 			"id"	"3235"
 			"attach_to_rootbone"	"0"
-			"name"	"Shroud of Darkness"
+			"name"	"Manto das trevas"
 		}
 		"656"
 		{
 			"system"	"utaunt_spiral_teamcolor_red"
 			"id"	"3236"
 			"attach_to_rootbone"	"0"
-			"name"	"Gradient Gale"
+			"name"	"Vórtice gradiente"
 		}
 		"657"
 		{
 			"system"	"utaunt_spiral_teamcolor_blue"
 			"id"	"3237"
 			"attach_to_rootbone"	"0"
-			"name"	"Gradient Gale"
+			"name"	"Vórtice gradiente"
 		}
 		"658"
 		{
 			"system"	"utaunt_spiral_parent_purple"
 			"id"	"3238"
 			"attach_to_rootbone"	"0"
-			"name"	"Amethyst Gale"
+			"name"	"Vórtice ametista"
 		}
 		"659"
 		{
 			"system"	"utaunt_radioactive_teamcolor_red"
 			"id"	"3239"
 			"attach_to_rootbone"	"0"
-			"name"	"Gamma Rays"
+			"name"	"Raios gama"
 		}
 		"660"
 		{
 			"system"	"utaunt_radioactive_teamcolor_blue"
 			"id"	"3240"
 			"attach_to_rootbone"	"0"
-			"name"	"Gamma Rays"
+			"name"	"Raios gama"
 		}
 		"661"
 		{
 			"system"	"utaunt_radioactive_purple_parent"
 			"id"	"3241"
 			"attach_to_rootbone"	"0"
-			"name"	"Meltdown"
+			"name"	"Fusão"
 		}
 		"662"
 		{
 			"system"	"utaunt_radioactive_green_parent"
 			"id"	"3242"
 			"attach_to_rootbone"	"0"
-			"name"	"Radioactive"
+			"name"	"Radioativo"
 		}
 		"663"
 		{

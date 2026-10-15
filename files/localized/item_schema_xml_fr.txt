@@ -12668,7 +12668,7 @@ Du pain ? Pour quoi faire ?</item_description>
 			<defindex>334</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Chapeau</item_type_name>
-			<item_name>Chapeau de la Fortune et du Respect Incontestables</item_name>
+			<item_name>Chapeau de la fortune et du respect incontestables</item_name>
 			<item_description>Débloqué en terminant 28 tâches dans &apos;La Grande Chasse au Trésor Steam&apos;. Prenez garde au cadenas Céphalopode.</item_description>
 			<proper_name>false</proper_name>
 			<item_slot>misc</item_slot>

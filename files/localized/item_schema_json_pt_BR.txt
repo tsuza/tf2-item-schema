@@ -18825,10 +18825,10 @@
 				},
 				"styles": [
 					{
-						"name": "Classic"
+						"name": "Clássico"
 					},
 					{
-						"name": "Contemporary"
+						"name": "Contemporâneo"
 					}
 				]
 				,

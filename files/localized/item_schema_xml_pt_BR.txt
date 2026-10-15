@@ -18220,10 +18220,10 @@ Compartilhe uma boa risada com todos menos aquele cara no qual você acabou de a
 			</capabilities>
 			<styles>
 				<style>
-					<name>Classic</name>
+					<name>Clássico</name>
 				</style>
 				<style>
-					<name>Contemporary</name>
+					<name>Contemporâneo</name>
 				</style>
 			</styles>
 			<attributes>

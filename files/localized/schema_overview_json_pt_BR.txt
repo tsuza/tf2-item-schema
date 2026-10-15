@@ -11660,14 +11660,14 @@
 				"id": 416,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flor de Muerto"
+				"name": "Flor de los muertos"
 			},
 			{
 				"system": "unusual_muertopetals_teamc_teamcolor_blue",
 				"id": 417,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flor de Muerto"
+				"name": "Flor de los muertos"
 			},
 			{
 				"system": "unusual_autumnbreeze_parent",
@@ -11681,70 +11681,70 @@
 				"id": 419,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Spirit Swirl"
+				"name": "Espiral espiritual"
 			},
 			{
 				"system": "unusual_ghostspiral_green_parent",
 				"id": 420,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ghost Swirl"
+				"name": "Espiral fantasmagórica"
 			},
 			{
 				"system": "unusual_fablefeathers_teamcolor_red",
 				"id": 421,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fable Feathers"
+				"name": "Penas fabulosas"
 			},
 			{
 				"system": "unusual_fablefeathers_teamcolor_blue",
 				"id": 422,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fable Feathers"
+				"name": "Penas fabulosas"
 			},
 			{
 				"system": "unusual_fablefeathers_purple_parent",
 				"id": 423,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fable Quills"
+				"name": "Plumas fabulosas"
 			},
 			{
 				"system": "unusual_boiltoil_purple_parent",
 				"id": 424,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Grudge n' Drudge"
+				"name": "Bolhas esqueléticas"
 			},
 			{
 				"system": "unusual_boiltoil_green_parent",
 				"id": 425,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Boil n' Toil"
+				"name": "Bolhas cadavéricas"
 			},
 			{
 				"system": "unusual_scaredsouls_purple_parent",
 				"id": 426,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Screaming Soul"
+				"name": "Alma gritante"
 			},
 			{
 				"system": "unusual_scaredsouls_green_parent",
 				"id": 427,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Screeching Soul"
+				"name": "Alma estridente"
 			},
 			{
 				"system": "unusual_scaredsouls_orange_parent",
 				"id": 428,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Shrieking Soul"
+				"name": "Alma berrante"
 			},
 			{
 				"system": "weapon_unusual_hot",
@@ -13188,79 +13188,79 @@
 				"system": "utaunt_electropulse_teamc_teamcolor_red",
 				"id": 3230,
 				"attach_to_rootbone": false,
-				"name": "Electric Impulse"
+				"name": "Impulso elétrico"
 			},
 			{
 				"system": "utaunt_electropulse_teamc_teamcolor_blue",
 				"id": 3231,
 				"attach_to_rootbone": false,
-				"name": "Electric Impulse"
+				"name": "Impulso elétrico"
 			},
 			{
 				"system": "utaunt_waste_purple_parent",
 				"id": 3232,
 				"attach_to_rootbone": false,
-				"name": "Primordial Ooze"
+				"name": "Sopa primordial"
 			},
 			{
 				"system": "utaunt_waste_green_parent",
 				"id": 3233,
 				"attach_to_rootbone": false,
-				"name": "Geiger Breaker"
+				"name": "Destruidor geiger"
 			},
 			{
 				"system": "utaunt_waste_yellow_parent",
 				"id": 3234,
 				"attach_to_rootbone": false,
-				"name": "Sulfuric Acid"
+				"name": "Ácido sulfúrico"
 			},
 			{
 				"system": "utaunt_shroud_parent",
 				"id": 3235,
 				"attach_to_rootbone": false,
-				"name": "Shroud of Darkness"
+				"name": "Manto das trevas"
 			},
 			{
 				"system": "utaunt_spiral_teamcolor_red",
 				"id": 3236,
 				"attach_to_rootbone": false,
-				"name": "Gradient Gale"
+				"name": "Vórtice gradiente"
 			},
 			{
 				"system": "utaunt_spiral_teamcolor_blue",
 				"id": 3237,
 				"attach_to_rootbone": false,
-				"name": "Gradient Gale"
+				"name": "Vórtice gradiente"
 			},
 			{
 				"system": "utaunt_spiral_parent_purple",
 				"id": 3238,
 				"attach_to_rootbone": false,
-				"name": "Amethyst Gale"
+				"name": "Vórtice ametista"
 			},
 			{
 				"system": "utaunt_radioactive_teamcolor_red",
 				"id": 3239,
 				"attach_to_rootbone": false,
-				"name": "Gamma Rays"
+				"name": "Raios gama"
 			},
 			{
 				"system": "utaunt_radioactive_teamcolor_blue",
 				"id": 3240,
 				"attach_to_rootbone": false,
-				"name": "Gamma Rays"
+				"name": "Raios gama"
 			},
 			{
 				"system": "utaunt_radioactive_purple_parent",
 				"id": 3241,
 				"attach_to_rootbone": false,
-				"name": "Meltdown"
+				"name": "Fusão"
 			},
 			{
 				"system": "utaunt_radioactive_green_parent",
 				"id": 3242,
 				"attach_to_rootbone": false,
-				"name": "Radioactive"
+				"name": "Radioativo"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",

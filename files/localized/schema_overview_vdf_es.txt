@@ -13064,7 +13064,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"416"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flor de Muerto"
+			"name"	"Flor de muerto"
 		}
 		"399"
 		{
@@ -13072,7 +13072,7 @@ Matar a objetivos en llamas da un subidón de velocidad."
 			"id"	"417"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flor de Muerto"
+			"name"	"Flor de muerto"
 		}
 		"400"
 		{

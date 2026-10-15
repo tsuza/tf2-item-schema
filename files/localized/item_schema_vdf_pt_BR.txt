@@ -20683,11 +20683,11 @@ Compartilhe uma boa risada com todos menos aquele cara no qual você acabou de a
 			{
 				"0"
 				{
-					"name"	"Classic"
+					"name"	"Clássico"
 				}
 				"1"
 				{
-					"name"	"Contemporary"
+					"name"	"Contemporâneo"
 				}
 			}
 			"attributes"
