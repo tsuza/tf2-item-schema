@@ -13149,13 +13149,13 @@ Bu silahla yanan oyunculara ölüm vuruşu yaparsanız hız bonusu kazanırsın�
 			<system>utaunt_electropulse_teamc_teamcolor_red</system>
 			<id>3230</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Electric Impulse</name>
+			<name>Elektrik Darbesi</name>
 		</particle>
 		<particle>
 			<system>utaunt_electropulse_teamc_teamcolor_blue</system>
 			<id>3231</id>
 			<attach_to_rootbone>false</attach_to_rootbone>
-			<name>Electric Impulse</name>
+			<name>Elektrik Darbesi</name>
 		</particle>
 		<particle>
 			<system>utaunt_waste_purple_parent</system>

@@ -11618,14 +11618,14 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse.</descripti
 			<id>416</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Flor de Muerto</name>
+			<name>Dødens Daglilje</name>
 		</particle>
 		<particle>
 			<system>unusual_muertopetals_teamc_teamcolor_blue</system>
 			<id>417</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Flor de Muerto</name>
+			<name>Dødens Daglilje</name>
 		</particle>
 		<particle>
 			<system>unusual_autumnbreeze_parent</system>

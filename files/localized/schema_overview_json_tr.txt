@@ -13188,13 +13188,13 @@
 				"system": "utaunt_electropulse_teamc_teamcolor_red",
 				"id": 3230,
 				"attach_to_rootbone": false,
-				"name": "Electric Impulse"
+				"name": "Elektrik Darbesi"
 			},
 			{
 				"system": "utaunt_electropulse_teamc_teamcolor_blue",
 				"id": 3231,
 				"attach_to_rootbone": false,
-				"name": "Electric Impulse"
+				"name": "Elektrik Darbesi"
 			},
 			{
 				"system": "utaunt_waste_purple_parent",

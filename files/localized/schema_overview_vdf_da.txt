@@ -13063,7 +13063,7 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"id"	"416"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flor de Muerto"
+			"name"	"Dødens Daglilje"
 		}
 		"399"
 		{
@@ -13071,7 +13071,7 @@ Dræbende slag på brændende spillere giver en hastighedsforøgelse."
 			"id"	"417"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flor de Muerto"
+			"name"	"Dødens Daglilje"
 		}
 		"400"
 		{
