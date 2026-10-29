@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.e66e5f62b0415338385e70fdd3e67f493e8f5ed5.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.d848a4a308f1ae990f20eda2ac650b66638d3b26.txt"
 	"qualities"
 	{
 		"Normal"	"0"
@@ -13059,7 +13059,7 @@
 			"id"	"416"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flor de Muerto"
+			"name"	"죽음의 꽃"
 		}
 		"399"
 		{
@@ -13067,7 +13067,7 @@
 			"id"	"417"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Flor de Muerto"
+			"name"	"죽음의 꽃"
 		}
 		"400"
 		{
@@ -13075,7 +13075,7 @@
 			"id"	"418"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Autumn Breeze"
+			"name"	"가을 바람"
 		}
 		"401"
 		{
@@ -13083,7 +13083,7 @@
 			"id"	"419"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spirit Swirl"
+			"name"	"영혼의 소용돌이"
 		}
 		"402"
 		{
@@ -13091,7 +13091,7 @@
 			"id"	"420"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ghost Swirl"
+			"name"	"유령의 소용돌이"
 		}
 		"403"
 		{
@@ -13099,7 +13099,7 @@
 			"id"	"421"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Feathers"
+			"name"	"전설의 깃털"
 		}
 		"404"
 		{
@@ -13107,7 +13107,7 @@
 			"id"	"422"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Feathers"
+			"name"	"전설의 깃털"
 		}
 		"405"
 		{
@@ -13115,7 +13115,7 @@
 			"id"	"423"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Fable Quills"
+			"name"	"전설의 깃펜"
 		}
 		"406"
 		{
@@ -13123,7 +13123,7 @@
 			"id"	"424"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Grudge n' Drudge"
+			"name"	"원한과 고역"
 		}
 		"407"
 		{
@@ -13131,7 +13131,7 @@
 			"id"	"425"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Boil n' Toil"
+			"name"	"열기와 노고"
 		}
 		"408"
 		{
@@ -13139,7 +13139,7 @@
 			"id"	"426"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Screaming Soul"
+			"name"	"비명을 지르는 영혼"
 		}
 		"409"
 		{
@@ -13147,7 +13147,7 @@
 			"id"	"427"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Screeching Soul"
+			"name"	"울부짖는 영혼"
 		}
 		"410"
 		{
@@ -13155,7 +13155,7 @@
 			"id"	"428"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Shrieking Soul"
+			"name"	"절규하는 영혼"
 		}
 		"411"
 		{
@@ -14839,91 +14839,91 @@
 			"system"	"utaunt_electropulse_teamc_teamcolor_red"
 			"id"	"3230"
 			"attach_to_rootbone"	"0"
-			"name"	"Electric Impulse"
+			"name"	"전기 충격"
 		}
 		"651"
 		{
 			"system"	"utaunt_electropulse_teamc_teamcolor_blue"
 			"id"	"3231"
 			"attach_to_rootbone"	"0"
-			"name"	"Electric Impulse"
+			"name"	"전기 충격"
 		}
 		"652"
 		{
 			"system"	"utaunt_waste_purple_parent"
 			"id"	"3232"
 			"attach_to_rootbone"	"0"
-			"name"	"Primordial Ooze"
+			"name"	"원시 바다의 점액"
 		}
 		"653"
 		{
 			"system"	"utaunt_waste_green_parent"
 			"id"	"3233"
 			"attach_to_rootbone"	"0"
-			"name"	"Geiger Breaker"
+			"name"	"방사능 브레이커"
 		}
 		"654"
 		{
 			"system"	"utaunt_waste_yellow_parent"
 			"id"	"3234"
 			"attach_to_rootbone"	"0"
-			"name"	"Sulfuric Acid"
+			"name"	"황산"
 		}
 		"655"
 		{
 			"system"	"utaunt_shroud_parent"
 			"id"	"3235"
 			"attach_to_rootbone"	"0"
-			"name"	"Shroud of Darkness"
+			"name"	"어둠의 장막"
 		}
 		"656"
 		{
 			"system"	"utaunt_spiral_teamcolor_red"
 			"id"	"3236"
 			"attach_to_rootbone"	"0"
-			"name"	"Gradient Gale"
+			"name"	"그라데이션 돌풍"
 		}
 		"657"
 		{
 			"system"	"utaunt_spiral_teamcolor_blue"
 			"id"	"3237"
 			"attach_to_rootbone"	"0"
-			"name"	"Gradient Gale"
+			"name"	"그라데이션 돌풍"
 		}
 		"658"
 		{
 			"system"	"utaunt_spiral_parent_purple"
 			"id"	"3238"
 			"attach_to_rootbone"	"0"
-			"name"	"Amethyst Gale"
+			"name"	"자수정 돌풍"
 		}
 		"659"
 		{
 			"system"	"utaunt_radioactive_teamcolor_red"
 			"id"	"3239"
 			"attach_to_rootbone"	"0"
-			"name"	"Gamma Rays"
+			"name"	"감마선"
 		}
 		"660"
 		{
 			"system"	"utaunt_radioactive_teamcolor_blue"
 			"id"	"3240"
 			"attach_to_rootbone"	"0"
-			"name"	"Gamma Rays"
+			"name"	"감마선"
 		}
 		"661"
 		{
 			"system"	"utaunt_radioactive_purple_parent"
 			"id"	"3241"
 			"attach_to_rootbone"	"0"
-			"name"	"Meltdown"
+			"name"	"원전 사고"
 		}
 		"662"
 		{
 			"system"	"utaunt_radioactive_green_parent"
 			"id"	"3242"
 			"attach_to_rootbone"	"0"
-			"name"	"Radioactive"
+			"name"	"방사능"
 		}
 		"663"
 		{

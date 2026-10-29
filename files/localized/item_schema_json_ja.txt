@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.e66e5f62b0415338385e70fdd3e67f493e8f5ed5.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.d848a4a308f1ae990f20eda2ac650b66638d3b26.txt",
 		"items": [
 			{
 				"name": "TF_WEAPON_BAT",
@@ -13853,7 +13853,7 @@
 				"defindex": 351,
 				"item_class": "tf_weapon_flaregun",
 				"item_type_name": "フレアーガン",
-				"item_name": "雷管",
+				"item_name": "デトネーター",
 				"item_description": "第 2 武器： フレア弾を爆破。.\nこの武器は使用していない時に自動でリロードします。",
 				"proper_name": false,
 				"item_slot": "secondary",
@@ -17366,7 +17366,7 @@
 				"defindex": 438,
 				"item_class": "no_entity",
 				"item_type_name": "スペシャル 挑発",
-				"item_name": "挑発： The Director's Vision",
+				"item_name": "挑発：監督のビジョン",
 				"item_description": "全クラス挑発\nこのアイテムを挑発スロットに装備してください。発動すると、あなたの犠牲者に対して「彼らの哀れな最期のリプレイを皆と共有するために作っている」と伝えられます。",
 				"proper_name": false,
 				"item_slot": "taunt",
@@ -43474,7 +43474,7 @@
 				"defindex": 997,
 				"item_class": "tf_weapon_shotgun_building_rescue",
 				"item_type_name": "ショットガン",
-				"item_name": "救助レンジャー",
+				"item_name": "レスキューレンジャー",
 				"proper_name": true,
 				"item_slot": "primary",
 				"model_player": "models/workshop/weapons/c_models/c_tele_shotgun/c_tele_shotgun.mdl",

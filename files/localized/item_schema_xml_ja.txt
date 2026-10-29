@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.e66e5f62b0415338385e70fdd3e67f493e8f5ed5.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.d848a4a308f1ae990f20eda2ac650b66638d3b26.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -13414,7 +13414,7 @@ http://wiki.teamfortress.com/</item_description>
 			<defindex>351</defindex>
 			<item_class>tf_weapon_flaregun</item_class>
 			<item_type_name>フレアーガン</item_type_name>
-			<item_name>雷管</item_name>
+			<item_name>デトネーター</item_name>
 			<item_description>第 2 武器： フレア弾を爆破。.
 この武器は使用していない時に自動でリロードします。</item_description>
 			<proper_name>false</proper_name>
@@ -16818,7 +16818,7 @@ http://wiki.teamfortress.com/</item_description>
 			<defindex>438</defindex>
 			<item_class>no_entity</item_class>
 			<item_type_name>スペシャル 挑発</item_type_name>
-			<item_name>挑発： The Director&apos;s Vision</item_name>
+			<item_name>挑発：監督のビジョン</item_name>
 			<item_description>全クラス挑発
 このアイテムを挑発スロットに装備してください。発動すると、あなたの犠牲者に対して「彼らの哀れな最期のリプレイを皆と共有するために作っている」と伝えられます。</item_description>
 			<proper_name>false</proper_name>
@@ -42014,7 +42014,7 @@ Alt-Fire：炎上中の敵や発射物を押しかえしたり、炎上中の味
 			<defindex>997</defindex>
 			<item_class>tf_weapon_shotgun_building_rescue</item_class>
 			<item_type_name>ショットガン</item_type_name>
-			<item_name>救助レンジャー</item_name>
+			<item_name>レスキューレンジャー</item_name>
 			<proper_name>true</proper_name>
 			<item_slot>primary</item_slot>
 			<model_player>models/workshop/weapons/c_models/c_tele_shotgun/c_tele_shotgun.mdl</model_player>

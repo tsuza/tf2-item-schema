@@ -1,7 +1,7 @@
 "result"
 {
 	"status"	"1"
-	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.e66e5f62b0415338385e70fdd3e67f493e8f5ed5.txt"
+	"items_game_url"	"http://media.steampowered.com/apps/440/scripts/items/items_game.d848a4a308f1ae990f20eda2ac650b66638d3b26.txt"
 	"items"
 	{
 		"0"
@@ -20695,11 +20695,11 @@ http://wiki.teamfortress.com/"
 			{
 				"0"
 				{
-					"name"	"Classic"
+					"name"	"기본"
 				}
 				"1"
 				{
-					"name"	"Contemporary"
+					"name"	"현대적"
 				}
 			}
 			"attributes"

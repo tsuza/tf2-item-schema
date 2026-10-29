@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.e66e5f62b0415338385e70fdd3e67f493e8f5ed5.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.d848a4a308f1ae990f20eda2ac650b66638d3b26.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -11660,91 +11660,91 @@
 				"id": 416,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flor de Muerto"
+				"name": "죽음의 꽃"
 			},
 			{
 				"system": "unusual_muertopetals_teamc_teamcolor_blue",
 				"id": 417,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flor de Muerto"
+				"name": "죽음의 꽃"
 			},
 			{
 				"system": "unusual_autumnbreeze_parent",
 				"id": 418,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Autumn Breeze"
+				"name": "가을 바람"
 			},
 			{
 				"system": "unusual_ghostspiral_purple_parent",
 				"id": 419,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Spirit Swirl"
+				"name": "영혼의 소용돌이"
 			},
 			{
 				"system": "unusual_ghostspiral_green_parent",
 				"id": 420,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ghost Swirl"
+				"name": "유령의 소용돌이"
 			},
 			{
 				"system": "unusual_fablefeathers_teamcolor_red",
 				"id": 421,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fable Feathers"
+				"name": "전설의 깃털"
 			},
 			{
 				"system": "unusual_fablefeathers_teamcolor_blue",
 				"id": 422,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fable Feathers"
+				"name": "전설의 깃털"
 			},
 			{
 				"system": "unusual_fablefeathers_purple_parent",
 				"id": 423,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fable Quills"
+				"name": "전설의 깃펜"
 			},
 			{
 				"system": "unusual_boiltoil_purple_parent",
 				"id": 424,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Grudge n' Drudge"
+				"name": "원한과 고역"
 			},
 			{
 				"system": "unusual_boiltoil_green_parent",
 				"id": 425,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Boil n' Toil"
+				"name": "열기와 노고"
 			},
 			{
 				"system": "unusual_scaredsouls_purple_parent",
 				"id": 426,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Screaming Soul"
+				"name": "비명을 지르는 영혼"
 			},
 			{
 				"system": "unusual_scaredsouls_green_parent",
 				"id": 427,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Screeching Soul"
+				"name": "울부짖는 영혼"
 			},
 			{
 				"system": "unusual_scaredsouls_orange_parent",
 				"id": 428,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Shrieking Soul"
+				"name": "절규하는 영혼"
 			},
 			{
 				"system": "weapon_unusual_hot",
@@ -13188,79 +13188,79 @@
 				"system": "utaunt_electropulse_teamc_teamcolor_red",
 				"id": 3230,
 				"attach_to_rootbone": false,
-				"name": "Electric Impulse"
+				"name": "전기 충격"
 			},
 			{
 				"system": "utaunt_electropulse_teamc_teamcolor_blue",
 				"id": 3231,
 				"attach_to_rootbone": false,
-				"name": "Electric Impulse"
+				"name": "전기 충격"
 			},
 			{
 				"system": "utaunt_waste_purple_parent",
 				"id": 3232,
 				"attach_to_rootbone": false,
-				"name": "Primordial Ooze"
+				"name": "원시 바다의 점액"
 			},
 			{
 				"system": "utaunt_waste_green_parent",
 				"id": 3233,
 				"attach_to_rootbone": false,
-				"name": "Geiger Breaker"
+				"name": "방사능 브레이커"
 			},
 			{
 				"system": "utaunt_waste_yellow_parent",
 				"id": 3234,
 				"attach_to_rootbone": false,
-				"name": "Sulfuric Acid"
+				"name": "황산"
 			},
 			{
 				"system": "utaunt_shroud_parent",
 				"id": 3235,
 				"attach_to_rootbone": false,
-				"name": "Shroud of Darkness"
+				"name": "어둠의 장막"
 			},
 			{
 				"system": "utaunt_spiral_teamcolor_red",
 				"id": 3236,
 				"attach_to_rootbone": false,
-				"name": "Gradient Gale"
+				"name": "그라데이션 돌풍"
 			},
 			{
 				"system": "utaunt_spiral_teamcolor_blue",
 				"id": 3237,
 				"attach_to_rootbone": false,
-				"name": "Gradient Gale"
+				"name": "그라데이션 돌풍"
 			},
 			{
 				"system": "utaunt_spiral_parent_purple",
 				"id": 3238,
 				"attach_to_rootbone": false,
-				"name": "Amethyst Gale"
+				"name": "자수정 돌풍"
 			},
 			{
 				"system": "utaunt_radioactive_teamcolor_red",
 				"id": 3239,
 				"attach_to_rootbone": false,
-				"name": "Gamma Rays"
+				"name": "감마선"
 			},
 			{
 				"system": "utaunt_radioactive_teamcolor_blue",
 				"id": 3240,
 				"attach_to_rootbone": false,
-				"name": "Gamma Rays"
+				"name": "감마선"
 			},
 			{
 				"system": "utaunt_radioactive_purple_parent",
 				"id": 3241,
 				"attach_to_rootbone": false,
-				"name": "Meltdown"
+				"name": "원전 사고"
 			},
 			{
 				"system": "utaunt_radioactive_green_parent",
 				"id": 3242,
 				"attach_to_rootbone": false,
-				"name": "Radioactive"
+				"name": "방사능"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",

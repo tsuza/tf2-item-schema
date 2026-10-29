@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.e66e5f62b0415338385e70fdd3e67f493e8f5ed5.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.d848a4a308f1ae990f20eda2ac650b66638d3b26.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -11660,91 +11660,91 @@
 				"id": 416,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flor de Muerto"
+				"name": "kwiat umarłych"
 			},
 			{
 				"system": "unusual_muertopetals_teamc_teamcolor_blue",
 				"id": 417,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Flor de Muerto"
+				"name": "kwiat umarłych"
 			},
 			{
 				"system": "unusual_autumnbreeze_parent",
 				"id": 418,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Autumn Breeze"
+				"name": "jesienna bryza"
 			},
 			{
 				"system": "unusual_ghostspiral_purple_parent",
 				"id": 419,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Spirit Swirl"
+				"name": "spirytualny wir"
 			},
 			{
 				"system": "unusual_ghostspiral_green_parent",
 				"id": 420,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ghost Swirl"
+				"name": "duchowy wir"
 			},
 			{
 				"system": "unusual_fablefeathers_teamcolor_red",
 				"id": 421,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fable Feathers"
+				"name": "bajkowe pióra"
 			},
 			{
 				"system": "unusual_fablefeathers_teamcolor_blue",
 				"id": 422,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fable Feathers"
+				"name": "bajkowe pióra"
 			},
 			{
 				"system": "unusual_fablefeathers_purple_parent",
 				"id": 423,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Fable Quills"
+				"name": "bajkowe lotki"
 			},
 			{
 				"system": "unusual_boiltoil_purple_parent",
 				"id": 424,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Grudge n' Drudge"
+				"name": "żal i znój"
 			},
 			{
 				"system": "unusual_boiltoil_green_parent",
 				"id": 425,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Boil n' Toil"
+				"name": "wrzenie i ślęczenie"
 			},
 			{
 				"system": "unusual_scaredsouls_purple_parent",
 				"id": 426,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Screaming Soul"
+				"name": "krzycząca dusza"
 			},
 			{
 				"system": "unusual_scaredsouls_green_parent",
 				"id": 427,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Screeching Soul"
+				"name": "drąca dusza"
 			},
 			{
 				"system": "unusual_scaredsouls_orange_parent",
 				"id": 428,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Shrieking Soul"
+				"name": "wrzeszcząca dusza"
 			},
 			{
 				"system": "weapon_unusual_hot",
@@ -13188,79 +13188,79 @@
 				"system": "utaunt_electropulse_teamc_teamcolor_red",
 				"id": 3230,
 				"attach_to_rootbone": false,
-				"name": "Electric Impulse"
+				"name": "impuls elektryczny"
 			},
 			{
 				"system": "utaunt_electropulse_teamc_teamcolor_blue",
 				"id": 3231,
 				"attach_to_rootbone": false,
-				"name": "Electric Impulse"
+				"name": "impuls elektryczny"
 			},
 			{
 				"system": "utaunt_waste_purple_parent",
 				"id": 3232,
 				"attach_to_rootbone": false,
-				"name": "Primordial Ooze"
+				"name": "pradawna plazma"
 			},
 			{
 				"system": "utaunt_waste_green_parent",
 				"id": 3233,
 				"attach_to_rootbone": false,
-				"name": "Geiger Breaker"
+				"name": "łamacz Geigera"
 			},
 			{
 				"system": "utaunt_waste_yellow_parent",
 				"id": 3234,
 				"attach_to_rootbone": false,
-				"name": "Sulfuric Acid"
+				"name": "kwas siarkowy"
 			},
 			{
 				"system": "utaunt_shroud_parent",
 				"id": 3235,
 				"attach_to_rootbone": false,
-				"name": "Shroud of Darkness"
+				"name": "całun mroku"
 			},
 			{
 				"system": "utaunt_spiral_teamcolor_red",
 				"id": 3236,
 				"attach_to_rootbone": false,
-				"name": "Gradient Gale"
+				"name": "gradientowy podmuch"
 			},
 			{
 				"system": "utaunt_spiral_teamcolor_blue",
 				"id": 3237,
 				"attach_to_rootbone": false,
-				"name": "Gradient Gale"
+				"name": "gradientowy podmuch"
 			},
 			{
 				"system": "utaunt_spiral_parent_purple",
 				"id": 3238,
 				"attach_to_rootbone": false,
-				"name": "Amethyst Gale"
+				"name": "ametystowy podmuch"
 			},
 			{
 				"system": "utaunt_radioactive_teamcolor_red",
 				"id": 3239,
 				"attach_to_rootbone": false,
-				"name": "Gamma Rays"
+				"name": "promieniowanie gamma"
 			},
 			{
 				"system": "utaunt_radioactive_teamcolor_blue",
 				"id": 3240,
 				"attach_to_rootbone": false,
-				"name": "Gamma Rays"
+				"name": "promieniowanie gamma"
 			},
 			{
 				"system": "utaunt_radioactive_purple_parent",
 				"id": 3241,
 				"attach_to_rootbone": false,
-				"name": "Meltdown"
+				"name": "stopienie rdzenia"
 			},
 			{
 				"system": "utaunt_radioactive_green_parent",
 				"id": 3242,
 				"attach_to_rootbone": false,
-				"name": "Radioactive"
+				"name": "radioaktywność"
 			},
 			{
 				"system": "killstreak_eyeglow_4_teamcolor_red",
