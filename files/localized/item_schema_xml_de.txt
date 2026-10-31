@@ -2,7 +2,7 @@
 <!DOCTYPE result>
 <result>
 	<status>1</status>
-	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.d848a4a308f1ae990f20eda2ac650b66638d3b26.txt</items_game_url>
+	<items_game_url>http://media.steampowered.com/apps/440/scripts/items/items_game.12f71a89032a7c6243e1603ef85dd130a5bd93eb.txt</items_game_url>
 	<items>
 		<item>
 			<name>TF_WEAPON_BAT</name>
@@ -27627,7 +27627,7 @@ Alt.-Feuer: Gibt einen Luftstoß ab, der Gegner und Projektile wegstößt sowie 
 			<defindex>673</defindex>
 			<item_class>tf_wearable</item_class>
 			<item_type_name>Mitbringsel</item_type_name>
-			<item_name>Krachmacher – Winterurlaub</item_name>
+			<item_name>Krachmacher – Winterfest</item_name>
 			<proper_name>false</proper_name>
 			<item_slot>action</item_slot>
 			<model_player>null</model_player>
