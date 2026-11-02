@@ -217280,6 +217280,7 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_Painters_First"
 			"item_description"	"#TF_TournamentMedal_Painters_Mooncrash_Desc"
+			"item_type_name"	"#TF_Wearable_CommunityMedal"
 			"image_inventory"	"backpack/workshop/player/items/all_class/painters_workshop_mooncrash/painters_workshop_mooncrash_gold"
 			"model_player_per_class"
 			{
@@ -217300,6 +217301,7 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_Painters_Second"
 			"item_description"	"#TF_TournamentMedal_Painters_Mooncrash_Desc"
+			"item_type_name"	"#TF_Wearable_CommunityMedal"
 			"image_inventory"	"backpack/workshop/player/items/all_class/painters_workshop_mooncrash/painters_workshop_mooncrash_silver"
 			"model_player_per_class"
 			{
@@ -217320,6 +217322,7 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_Painters_Third"
 			"item_description"	"#TF_TournamentMedal_Painters_Mooncrash_Desc"
+			"item_type_name"	"#TF_Wearable_CommunityMedal"
 			"image_inventory"	"backpack/workshop/player/items/all_class/painters_workshop_mooncrash/painters_workshop_mooncrash_bronze"
 			"model_player_per_class"
 			{
@@ -217340,6 +217343,7 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_Painters_Winner"
 			"item_description"	"#TF_TournamentMedal_Painters_Mooncrash_Desc"
+			"item_type_name"	"#TF_Wearable_CommunityMedal"
 			"image_inventory"	"backpack/workshop/player/items/all_class/painters_workshop_mooncrash/painters_workshop_mooncrash_winner"
 			"model_player_per_class"
 			{
@@ -217360,6 +217364,7 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_Painters_Runner"
 			"item_description"	"#TF_TournamentMedal_Painters_Mooncrash_Desc"
+			"item_type_name"	"#TF_Wearable_CommunityMedal"
 			"image_inventory"	"backpack/workshop/player/items/all_class/painters_workshop_mooncrash/painters_workshop_mooncrash_runner"
 			"model_player_per_class"
 			{
@@ -217380,6 +217385,7 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_Painters_First"
 			"item_description"	"#TF_TournamentMedal_Painters_Americana_Desc"
+			"item_type_name"	"#TF_Wearable_CommunityMedal"
 			"image_inventory"	"backpack/workshop/player/items/all_class/painters_workshop_americana/painters_workshop_americana_gold"
 			"model_player_per_class"
 			{
@@ -217400,6 +217406,7 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_Painters_Second"
 			"item_description"	"#TF_TournamentMedal_Painters_Americana_Desc"
+			"item_type_name"	"#TF_Wearable_CommunityMedal"
 			"image_inventory"	"backpack/workshop/player/items/all_class/painters_workshop_americana/painters_workshop_americana_silver"
 			"model_player_per_class"
 			{
@@ -217420,6 +217427,7 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_Painters_Third"
 			"item_description"	"#TF_TournamentMedal_Painters_Americana_Desc"
+			"item_type_name"	"#TF_Wearable_CommunityMedal"
 			"image_inventory"	"backpack/workshop/player/items/all_class/painters_workshop_americana/painters_workshop_americana_bronze"
 			"model_player_per_class"
 			{
@@ -217440,6 +217448,7 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_Painters_Runner"
 			"item_description"	"#TF_TournamentMedal_Painters_Americana_Desc"
+			"item_type_name"	"#TF_Wearable_CommunityMedal"
 			"image_inventory"	"backpack/workshop/player/items/all_class/painters_workshop_americana/painters_workshop_americana_runner"
 			"model_player_per_class"
 			{
