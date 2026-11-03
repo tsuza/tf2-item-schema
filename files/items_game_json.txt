@@ -180882,7 +180882,7 @@
                 "attributes": {
                     "set item tint RGB": {
                         "attribute_class": "set_item_tint_rgb",
-                        "value": "12357295"
+                        "value": "9211567"
                     }
                 }
             },
