@@ -217097,8 +217097,11 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_AF_Invite_1st"
 			"item_description"	"#TF_TournamentMedal_AF_Invite_1st_Spring2026"
-			"image_inventory"	"backpack/workshop/player/items/all_class/asiafortress_gold/asiafortress_gold"
-			"model_player"		"models/workshop/player/items/all_class/asiafortress_gold/asiafortress_gold_demo.mdl"
+			"image_inventory"	"backpack/workshop/player/items/all_class/asiafortress_cup_division2_gold/asiafortress_cup_division2_gold"
+			"model_player_per_class"
+			{
+				"basename"	"models/workshop/player/items/all_class/asiafortress_cup_division2_gold/asiafortress_cup_division2_gold_%s.mdl"
+			}
 		}
 		"19237"
 		{		
@@ -217106,8 +217109,11 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_AF_Invite_2nd"
 			"item_description"	"#TF_TournamentMedal_AF_Invite_2nd_Spring2026"
-			"image_inventory"	"backpack/workshop/player/items/all_class/asiafortress_silver/asiafortress_silver"
-			"model_player"		"models/workshop/player/items/all_class/asiafortress_silver/asiafortress_silver_demo.mdl"
+			"image_inventory"	"backpack/workshop/player/items/all_class/asiafortress_cup_division2_silver/asiafortress_cup_division2_silver"
+			"model_player_per_class"
+			{
+				"basename"	"models/workshop/player/items/all_class/asiafortress_cup_division2_silver/asiafortress_cup_division2_silver_%s.mdl"
+			}
 		}
 		"19238"
 		{		
@@ -217115,8 +217121,11 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_AF_Invite_3rd"
 			"item_description"	"#TF_TournamentMedal_AF_Invite_3rd_Spring2026"
-			"image_inventory"	"backpack/workshop/player/items/all_class/asiafortress_bronze/asiafortress_bronze"
-			"model_player"		"models/workshop/player/items/all_class/asiafortress_bronze/asiafortress_bronze_demo.mdl"
+			"image_inventory"	"backpack/workshop/player/items/all_class/asiafortress_cup_division2_bronze/asiafortress_cup_division2_bronze"
+			"model_player_per_class"
+			{
+				"basename"	"models/workshop/player/items/all_class/asiafortress_cup_division2_bronze/asiafortress_cup_division2_bronze_%s.mdl"
+			}
 		}
 		"19239"
 		{		
