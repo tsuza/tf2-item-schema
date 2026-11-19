@@ -217097,11 +217097,8 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_AF_Invite_1st"
 			"item_description"	"#TF_TournamentMedal_AF_Invite_1st_Spring2026"
-			"image_inventory"	"backpack/workshop/player/items/all_class/asiafortress_cup_division2_gold/asiafortress_cup_division2_gold"
-			"model_player_per_class"
-			{
-				"basename"	"models/workshop/player/items/all_class/asiafortress_cup_division2_gold/asiafortress_cup_division2_gold_%s.mdl"
-			}
+			"image_inventory"	"backpack/workshop/player/items/all_class/asiafortress_gold/asiafortress_gold"
+			"model_player"		"models/workshop/player/items/all_class/asiafortress_gold/asiafortress_gold_demo.mdl"
 		}
 		"19237"
 		{		
@@ -217109,11 +217106,8 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_AF_Invite_2nd"
 			"item_description"	"#TF_TournamentMedal_AF_Invite_2nd_Spring2026"
-			"image_inventory"	"backpack/workshop/player/items/all_class/asiafortress_cup_division2_silver/asiafortress_cup_division2_silver"
-			"model_player_per_class"
-			{
-				"basename"	"models/workshop/player/items/all_class/asiafortress_cup_division2_silver/asiafortress_cup_division2_silver_%s.mdl"
-			}
+			"image_inventory"	"backpack/workshop/player/items/all_class/asiafortress_silver/asiafortress_silver"
+			"model_player"		"models/workshop/player/items/all_class/asiafortress_silver/asiafortress_silver_demo.mdl"
 		}
 		"19238"
 		{		
@@ -217121,11 +217115,8 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_AF_Invite_3rd"
 			"item_description"	"#TF_TournamentMedal_AF_Invite_3rd_Spring2026"
-			"image_inventory"	"backpack/workshop/player/items/all_class/asiafortress_cup_division2_bronze/asiafortress_cup_division2_bronze"
-			"model_player_per_class"
-			{
-				"basename"	"models/workshop/player/items/all_class/asiafortress_cup_division2_bronze/asiafortress_cup_division2_bronze_%s.mdl"
-			}
+			"image_inventory"	"backpack/workshop/player/items/all_class/asiafortress_bronze/asiafortress_bronze"
+			"model_player"		"models/workshop/player/items/all_class/asiafortress_bronze/asiafortress_bronze_demo.mdl"
 		}
 		"19239"
 		{		
@@ -217210,10 +217201,10 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_AF_Highlander_Invite_1st"
 			"item_description"	"#TF_TournamentMedal_AF_Highlander_Invite_1st_Summer2026"
-			"image_inventory"	"backpack/workshop/player/items/all_class/asiafortress_cup_division3_gold/asiafortress_cup_division3_gold"
+			"image_inventory"	"backpack/workshop/player/items/all_class/asiafortress_cup_division2_gold/asiafortress_cup_division2_gold"
 			"model_player_per_class"
 			{
-				"basename"	"models/workshop/player/items/all_class/asiafortress_cup_division3_gold/asiafortress_cup_division3_gold_%s.mdl"
+				"basename"	"models/workshop/player/items/all_class/asiafortress_cup_division2_gold/asiafortress_cup_division2_gold_%s.mdl"
 			}
 		}
 		"19245"
@@ -217222,10 +217213,10 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_AF_Highlander_Invite_2nd"
 			"item_description"	"#TF_TournamentMedal_AF_Highlander_Invite_2nd_Summer2026"
-			"image_inventory"	"backpack/workshop/player/items/all_class/asiafortress_cup_division3_silver/asiafortress_cup_division3_silver"
+			"image_inventory"	"backpack/workshop/player/items/all_class/asiafortress_cup_division2_silver/asiafortress_cup_division2_silver"
 			"model_player_per_class"
 			{
-				"basename"	"models/workshop/player/items/all_class/asiafortress_cup_division3_silver/asiafortress_cup_division3_silver_%s.mdl"
+				"basename"	"models/workshop/player/items/all_class/asiafortress_cup_division2_silver/asiafortress_cup_division2_silver_%s.mdl"
 			}
 		}
 		"19246"
@@ -217234,10 +217225,10 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_AF_Highlander_Invite_3rd"
 			"item_description"	"#TF_TournamentMedal_AF_Highlander_Invite_3rd_Summer2026"
-			"image_inventory"	"backpack/workshop/player/items/all_class/asiafortress_cup_division3_bronze/asiafortress_cup_division3_bronze"
+			"image_inventory"	"backpack/workshop/player/items/all_class/asiafortress_cup_division2_bronze/asiafortress_cup_division2_bronze"
 			"model_player_per_class"
 			{
-				"basename"	"models/workshop/player/items/all_class/asiafortress_cup_division3_bronze/asiafortress_cup_division3_bronze_%s.mdl"
+				"basename"	"models/workshop/player/items/all_class/asiafortress_cup_division2_bronze/asiafortress_cup_division2_bronze_%s.mdl"
 			}
 		}
 		"19247"
@@ -233760,7 +233751,7 @@
 			"prefab"	"unusualifier_base"
 			"static_attrs"
 			{
-				"unusualifier_attribute_template_name"		"taunt_unusualifier_halloween2026_effects"
+				"unusualifier_attribute_template_name"	"taunt_unusualifier_effects"
 			}
 		}
 
@@ -254656,7 +254647,7 @@
 		{
 			"attribute_templates"
 			{
-				"unusual_hat_chance_halloween2026_case"		"1"		
+				"unusual_hat_chance_cosmetics_case"		"1"		
 				"check_unusual_quality"						"1"		
 			}
 		}
@@ -257026,16 +257017,41 @@
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"Invasion_collection_01_lootlist"
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_invasion"		"1"		
+					"check_unusual_quality"				"1"		
+				}	
+			}
 		}
 		"invasion_case02_loot_list_97"
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"Invasion_collection_02_lootlist"
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_invasion"		"1"		
+					"unusual_taunt_effects_series_1"	"1"
+					"check_unusual_quality"				"1"		
+				}	
+			}
 		}
 		"halloween2015_case01_loot_list_98"
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"halloween2015_collection_lootlist"
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_halloween2015"	"1"		
+					"check_unusual_quality"				"1"		
+				}
+			}
 		}
 		"tough_break_case_collection_01_lootlist_99"
 		{
@@ -257099,6 +257115,14 @@
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"halloween2016_collection_lootlist"
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_halloween2016_case"	"1"		
+					"check_unusual_quality"				"1"		
+				}
+			}
 			"lootlist_jobs"
 			{
 				"additional_drop"
@@ -257373,6 +257397,14 @@
 			"loot_list_collection"		"halloween2018_collection"
 			"lootlist_jobs"
 			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_halloween2018_case"	"1"		
+					"check_unusual_quality"				"1"		
+				}
+			}
+			"lootlist_jobs"
+			{
 				"additional_drop"
 				{
 					"loot_list"					"halloween_2018_bonus_items"
@@ -257415,6 +257447,14 @@
 			"loot_list_collection"		"halloween2019_collection"
 			"lootlist_jobs"
 			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_halloween2019_case"	"1"		
+					"check_unusual_quality"				"1"		
+				}
+			}
+			"lootlist_jobs"
+			{
 				"additional_drop"
 				{
 					"loot_list"					"halloween_2019_bonus_items"
@@ -257432,6 +257472,14 @@
 					"loot_list"					"festivizer_lootlist"
 				}
 			}
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_smissmas2019_case"	"1"		
+					"check_unusual_quality"					"1"		
+				}
+			}
 		}
 		"winter2019_war_paint_loot_list_126"
 		{
@@ -257442,6 +257490,14 @@
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"Summer2020Cosmetics_collection"
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_summer2020_case"		"1"		
+					"check_unusual_quality"						"1"		
+				}	
+			}
 		}
 		"halloween2020_bonus_items"
 		{
@@ -257456,6 +257512,14 @@
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"halloween2020_collection"
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_halloween2020_case"	"1"		
+					"check_unusual_quality"				"1"		
+				}
+			}
 			"lootlist_jobs"
 			{
 				"additional_drop"
@@ -257480,6 +257544,14 @@
 					"loot_list"					"festivizer_lootlist"
 				}
 			}
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_smissmas2020_case"	"1"		
+					"check_unusual_quality"					"1"		
+				}
+			}
 		}
 		"winter2020_war_paint_loot_list_131"
 		{
@@ -257490,6 +257562,14 @@
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"Summer2021Cosmetics_collection"
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_summer2021_case"		"1"		
+					"check_unusual_quality"						"1"		
+				}	
+			}
 		}
 		"halloween2021_bonus_items"
 		{
@@ -257504,6 +257584,14 @@
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"halloween2021_collection"
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_halloween2021_case"	"1"		
+					"check_unusual_quality"				"1"		
+				}
+			}
 			"lootlist_jobs"
 			{
 				"additional_drop"
@@ -257528,11 +257616,27 @@
 					"loot_list"					"festivizer_lootlist"
 				}
 			}
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_smissmas2021_case"	"1"		
+					"check_unusual_quality"					"1"		
+				}
+			}
 		}
 		"summer2022_cosmetic_loot_list_136"
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"Summer2022Cosmetics_collection"
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_summer2022_case"		"1"		
+					"check_unusual_quality"						"1"		
+				}	
+			}
 		}
 		"halloween2022_bonus_items"
 		{
@@ -257546,6 +257650,14 @@
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"halloween2022_collection"
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_halloween2022_case"	"1"		
+					"check_unusual_quality"				"1"		
+				}
+			}
 			"lootlist_jobs"
 			{
 				"additional_drop"
@@ -257570,11 +257682,27 @@
 					"loot_list"					"festivizer_lootlist"
 				}
 			}
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_smissmas2022_case"	"1"		
+					"check_unusual_quality"					"1"		
+				}
+			}
 		}
 		"summer2023_cosmetic_loot_list_140"
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"Summer2023Cosmetics_collection"
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_summer2023_case"		"1"		
+					"check_unusual_quality"						"1"		
+				}	
+			}
 		}
 		"summer2023_war_paint_loot_list_141"
 		{
@@ -257594,6 +257722,14 @@
 			"loot_list_collection"		"halloween2023_collection"
 			"lootlist_jobs"
 			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_halloween2023_case"	"1"		
+					"check_unusual_quality"				"1"		
+				}
+			}
+			"lootlist_jobs"
+			{
 				"additional_drop"
 				{
 					"loot_list"				"halloween2023_bonus_items"
@@ -257611,16 +257747,40 @@
 					"loot_list"					"festivizer_lootlist"
 				}
 			}
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_smissmas2023_case"	"1"		
+					"check_unusual_quality"					"1"		
+				}
+			}
 		}
 		"summer2024_cosmetic_loot_list_144"
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"Summer2024Cosmetics_collection"
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_summer2024_case"		"1"		
+					"check_unusual_quality"						"1"		
+				}	
+			}
 		}
 		"halloween2024_cosmetic_loot_list_145"
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"halloween2024_collection"
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_halloween2024_case"		"1"		
+					"check_unusual_quality"						"1"		
+				}
+			}
 		}
 		"halloween2024_war_paint_loot_list_146"
 		{
@@ -257638,11 +257798,27 @@
 					"loot_list"					"festivizer_lootlist"
 				}
 			}
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_smissmas2024_case"	"1"		
+					"check_unusual_quality"					"1"		
+				}
+			}
 		}
 		"summer2025_cosmetic_loot_list_148"
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"Summer2025Cosmetics_collection"
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_summer2025_case"		"1"		
+					"check_unusual_quality"						"1"		
+				}	
+			}
 		}
 		"halloween2025_bonus_items"
 		{
@@ -257662,6 +257838,14 @@
 					"loot_list"				"halloween2025_bonus_items"
 				}
 			}
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_halloween2025_case"		"1"		
+					"check_unusual_quality"						"1"		
+				}	
+			}
 		}
 		"winter2025_cosmetic_loot_list_150"
 		{
@@ -257674,11 +257858,27 @@
 					"loot_list"					"festivizer_lootlist"
 				}
 			}
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_smissmas2025_case"	"1"		
+					"check_unusual_quality"					"1"		
+				}
+			}
 		}
 		"summer2026_cosmetic_loot_list_151"
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"Summer2026Cosmetics_collection"
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_summer2026_case"		"1"		
+					"check_unusual_quality"						"1"		
+				}	
+			}
 		}
 		"summer2026_war_paint_loot_list_152"
 		{
@@ -257689,6 +257889,14 @@
 		{
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"halloween2026_collection"
+			"lootlist_jobs"
+			{
+				"attribute_templates"
+				{
+					"unusual_hat_chance_halloween2026_case"		"1"		
+					"check_unusual_quality"						"1"		
+				}	
+			}
 		}
 	}
 	"revolving_loot_lists"
@@ -273039,39 +273247,16 @@
 	}
 	"featured"
 	{
-		"mm_type"		"special_events"
-		"localized_name"		"#Gametype_HalloweenFeatured"
-		"localized_desc"		"#Gametype_HalloweenFeatured_Desc"
-		"list_image"		"casual/gametype_halloween"
-		"restrictions"
-		{
-			"holiday"		"halloween"
-		}
+		"mm_type"			""
+		"localized_name"	""
+		"localized_desc"	""
+		"list_image"		""
+
 		"maplist"
 		{
 			"1"
 			{
-				"name"		"cp_holyhell"
-				"enabled"		"1"
-			}
-			"2"
-			{
-				"name"		"pl_aridpass_event"
-				"enabled"		"1"
-			}
-			"3"
-			{
-				"name"		"koth_trainsawlaser"
-				"enabled"		"1"
-			}
-			"4"
-			{
-				"name"		"ctf_medi_evil"
-				"enabled"		"1"
-			}
-			"5"
-			{
-				"name"		"cp_wildcat_event"
+				"name"		"cp_mercenarypark"
 				"enabled"		"1"
 			}
 		}
@@ -273386,6 +273571,31 @@
 			"60"
 			{
 				"name"		"htf_marshlands"
+				"enabled"		"1"
+			}
+			"61"
+			{
+				"name"		"cp_holyhell"
+				"enabled"		"1"
+			}
+			"62"
+			{
+				"name"		"pl_aridpass_event"
+				"enabled"		"1"
+			}
+			"63"
+			{
+				"name"		"koth_trainsawlaser"
+				"enabled"		"1"
+			}
+			"64"
+			{
+				"name"		"ctf_medi_evil"
+				"enabled"		"1"
+			}
+			"65"
+			{
+				"name"		"cp_wildcat_event"
 				"enabled"		"1"
 			}
 		}
@@ -277713,7 +277923,6 @@
 		"rolling_match_tags"
 		{
 			"halloween"	"1"
-			"featured"	"1"
 		}
 		"rolling_match_target_tags"
 		{
@@ -277723,7 +277932,7 @@
 			}
 			"featured"
 			{
-				"weight"	"1000"
+				"weight"	"0.5"
 			}
 		}
 	}
@@ -277737,7 +277946,6 @@
 		"rolling_match_tags"
 		{
 			"halloween"	"1"
-			"featured"	"1"
 		}
 		"rolling_match_target_tags"
 		{
@@ -277747,7 +277955,7 @@
 			}
 			"featured"
 			{
-				"weight"	"1000"
+				"weight"	"0.5"
 			}
 		}
 	}
@@ -277761,7 +277969,6 @@
 		"rolling_match_tags"
 		{
 			"halloween"	"1"
-			"featured"	"1"
 		}
 		"rolling_match_target_tags"
 		{
@@ -277771,7 +277978,7 @@
 			}
 			"featured"
 			{
-				"weight"	"1000"
+				"weight"	"0.5"
 			}
 		}
 	}
@@ -277785,7 +277992,6 @@
 		"rolling_match_tags"
 		{
 			"halloween"	"1"
-			"featured"	"1"
 		}
 		"rolling_match_target_tags"
 		{
@@ -277795,7 +278001,7 @@
 			}
 			"featured"
 			{
-				"weight"	"1000"
+				"weight"	"0.5"
 			}
 		}
 	}
@@ -277809,7 +278015,6 @@
 		"rolling_match_tags"
 		{
 			"halloween"	"1"
-			"featured"	"1"
 		}
 		"rolling_match_target_tags"
 		{
@@ -277819,7 +278024,7 @@
 			}
 			"featured"
 			{
-				"weight"	"1000"
+				"weight"	"0.5"
 			}
 		}
 	}

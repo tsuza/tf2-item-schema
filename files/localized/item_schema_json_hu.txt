@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.ed1c608b1f7f298b548aa851753f80c5294a452e.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.4619d9a62858cc1211292c217c50561d11cfefff.txt",
 		"items": [
 			{
 				"name": "TF_WEAPON_BAT",
@@ -1999,7 +1999,7 @@
 				"defindex": 52,
 				"item_class": "tf_wearable",
 				"item_type_name": "sisak",
-				"item_name": "Baseball-sisak",
+				"item_name": "Baseballsisak",
 				"item_description": "Egy ezrest fogsz ütni (bezúzott fejek számában), ha magadra öltöd ezt a piros műanyagdarabot!",
 				"proper_name": false,
 				"item_slot": "misc",
