@@ -13080,7 +13080,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"418"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Autumn Breeze"
+			"name"	"Herfstbriesje"
 		}
 		"401"
 		{
@@ -13088,7 +13088,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"419"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Spirit Swirl"
+			"name"	"Schimmige Spiraal"
 		}
 		"402"
 		{
@@ -13096,7 +13096,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"420"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Ghost Swirl"
+			"name"	"Geestige Spiraal"
 		}
 		"403"
 		{
@@ -13144,7 +13144,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"426"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Screaming Soul"
+			"name"	"Geteisterde Ziel"
 		}
 		"409"
 		{
@@ -13152,7 +13152,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"427"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Screeching Soul"
+			"name"	"Gekwelde Ziel"
 		}
 		"410"
 		{
@@ -13160,7 +13160,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 			"id"	"428"
 			"attach_to_rootbone"	"1"
 			"attachment"	"unusual"
-			"name"	"Shrieking Soul"
+			"name"	"Gepijnigde Ziel"
 		}
 		"411"
 		{
@@ -15239,7 +15239,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost."
 				{
 					"level"	"18"
 					"required_score"	"250"
-					"name"	"The Über-Altruist's"
+					"name"	"Über-altruïstisch"
 				}
 				"19"
 				{

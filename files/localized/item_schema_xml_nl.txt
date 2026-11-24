@@ -18228,10 +18228,10 @@ Deel een goedaardige lach met iedereen behalve met die ene kerel die je net besc
 			</capabilities>
 			<styles>
 				<style>
-					<name>Classic</name>
+					<name>Klassiek</name>
 				</style>
 				<style>
-					<name>Contemporary</name>
+					<name>Modern</name>
 				</style>
 			</styles>
 			<attributes>

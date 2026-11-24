@@ -11674,21 +11674,21 @@
 				"id": 418,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Autumn Breeze"
+				"name": "Herfstbriesje"
 			},
 			{
 				"system": "unusual_ghostspiral_purple_parent",
 				"id": 419,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Spirit Swirl"
+				"name": "Schimmige Spiraal"
 			},
 			{
 				"system": "unusual_ghostspiral_green_parent",
 				"id": 420,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Ghost Swirl"
+				"name": "Geestige Spiraal"
 			},
 			{
 				"system": "unusual_fablefeathers_teamcolor_red",
@@ -11730,21 +11730,21 @@
 				"id": 426,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Screaming Soul"
+				"name": "Geteisterde Ziel"
 			},
 			{
 				"system": "unusual_scaredsouls_green_parent",
 				"id": 427,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Screeching Soul"
+				"name": "Gekwelde Ziel"
 			},
 			{
 				"system": "unusual_scaredsouls_orange_parent",
 				"id": 428,
 				"attach_to_rootbone": true,
 				"attachment": "unusual",
-				"name": "Shrieking Soul"
+				"name": "Gepijnigde Ziel"
 			},
 			{
 				"system": "weapon_unusual_hot",
@@ -13520,7 +13520,7 @@
 					{
 						"level": 18,
 						"required_score": 250,
-						"name": "The Über-Altruist's"
+						"name": "Über-altruïstisch"
 					},
 					{
 						"level": 19,

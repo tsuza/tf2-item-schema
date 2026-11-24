@@ -20691,11 +20691,11 @@ Deel een goedaardige lach met iedereen behalve met die ene kerel die je net besc
 			{
 				"0"
 				{
-					"name"	"Classic"
+					"name"	"Klassiek"
 				}
 				"1"
 				{
-					"name"	"Contemporary"
+					"name"	"Modern"
 				}
 			}
 			"attributes"

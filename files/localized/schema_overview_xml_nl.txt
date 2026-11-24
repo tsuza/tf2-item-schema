@@ -11633,21 +11633,21 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>418</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Autumn Breeze</name>
+			<name>Herfstbriesje</name>
 		</particle>
 		<particle>
 			<system>unusual_ghostspiral_purple_parent</system>
 			<id>419</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Spirit Swirl</name>
+			<name>Schimmige Spiraal</name>
 		</particle>
 		<particle>
 			<system>unusual_ghostspiral_green_parent</system>
 			<id>420</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Ghost Swirl</name>
+			<name>Geestige Spiraal</name>
 		</particle>
 		<particle>
 			<system>unusual_fablefeathers_teamcolor_red</system>
@@ -11689,21 +11689,21 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 			<id>426</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Screaming Soul</name>
+			<name>Geteisterde Ziel</name>
 		</particle>
 		<particle>
 			<system>unusual_scaredsouls_green_parent</system>
 			<id>427</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Screeching Soul</name>
+			<name>Gekwelde Ziel</name>
 		</particle>
 		<particle>
 			<system>unusual_scaredsouls_orange_parent</system>
 			<id>428</id>
 			<attach_to_rootbone>true</attach_to_rootbone>
 			<attachment>unusual</attachment>
-			<name>Shrieking Soul</name>
+			<name>Gepijnigde Ziel</name>
 		</particle>
 		<particle>
 			<system>weapon_unusual_hot</system>
@@ -13477,7 +13477,7 @@ Dodelijke klappen op brandende spelers geven je een snelheidsboost.</description
 				<level>
 					<level>18</level>
 					<required_score>250</required_score>
-					<name>The Über-Altruist&apos;s</name>
+					<name>Über-altruïstisch</name>
 				</level>
 				<level>
 					<level>19</level>
